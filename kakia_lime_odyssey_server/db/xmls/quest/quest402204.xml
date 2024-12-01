@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by Administrator (EMBRACE) -->
+<Quest>
+	<Quest typeID="402204001" typeName="시인의 부탁" group="100" NPC="유랑 시인" reportTo="리칠" cancelable="1" repeatable="1" retryable="1" lv="22" desc="이 일은 조금 급한 일입니다.피킨 유랑 상단원 레미양의 의뢰입니다./n /n얼마 전, 알 수 없는 무리의 습격을 당해 ^#1898ff큰 상처를 입은 유랑상단장에게 붉은 약^#ffffff을 바르게 해야 한다며 대신 가달라고 하더군요. 우선 의뢰를 부탁한 레미양에게 가보셔야 할 것 같습니다./n /n그녀는 상인단 마차 안에 있습니다./n" difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="220" rewardLifeJobEXP="170" rewardCombatJobEXP="100" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[유랑 시인과 대화]]" draft="^#00657b유랑 시인^#e6d6c5이 부르는 노래의 내용, ^#00657b푸른 늑대와 흰 사슴의 이야기를 들어야^#e6d6c5 합니다." npc="유랑 시인">
+			<subjectPos subjectStr="유랑 시인과 대화" mapTargetId="22261100"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[리칠과 대화]]" draft="유랑 시인의 노래를 마무리 지을 수 있게 도와줘야 합니다./n그러러면 우선 ^#00657b리칠^#e6d6c5을 찾아가야 합니다. 그는 ^#00657b마제로나에서 남서쪽 바람의 고원, 리칠의 유목지^#e6d6c5에 있습니다." npc="리칠">
+			<subjectPos subjectStr="리칠과 대화" mapTargetId="20012100"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="100"/>
+	</Quest>
+	<Quest typeID="402204002" typeName="등을 돌린 늑대와 사슴" group="100" NPC="리칠" reportTo="유랑 시인" cancelable="1" repeatable="1" retryable="1" lv="22" desc="이 일은 조금 급한 일입니다.피킨 유랑 상단원 레미양의 의뢰입니다./n /n얼마 전, 알 수 없는 무리의 습격을 당해 ^#1898ff큰 상처를 입은 유랑상단장에게 붉은 약^#ffffff을 바르게 해야 한다며 대신 가달라고 하더군요. 우선 의뢰를 부탁한 레미양에게 가보셔야 할 것 같습니다./n /n그녀는 상인단 마차 안에 있습니다./n" difficulty="1" onMessage="NULL" ChoiceRewardLimit="1" rewardEXP="220" rewardLifeJobEXP="170" rewardCombatJobEXP="100" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[리칠과 대화]]" draft="리칠에게 ^#00657b푸른 늑대에 대해 물어^#e6d6c5보십시오." npc="리칠">
+			<subjectPos subjectStr="리칠과 대화" mapTargetId="20011100"/>
+		</Subject>
+		<Subject typeName="Talk" func="NULL" desc="[[하무단과 대화]]" draft="^#00657b하무단^#e6d6c5을 찾아가야 합니다./n그는 ^#00657b마제로나에서 북서쪽, 하무단의 유목지^#e6d6c5에 있습니다." npc="하무단">
+			<subjectPos subjectStr="하무단과 대화" mapTargetId="20761100"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[유랑 시인에게 보고]]" draft="리칠과 하무단과 이야기를 했으니, ^#00657b마제로나에 있는 유랑 시인^#e6d6c5에게 돌아가야 합니다." npc="유랑 시인">
+			<subjectPos subjectStr="유랑 시인에게 보고" mapTargetId="22261100"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="100"/>
+		<ChoiceReward typeID="60044" count="1"/>
+		<ChoiceReward typeID="60045" count="1"/>
+	</Quest>
+	<Quest typeID="402204003" typeName="하나의 증거" group="100" NPC="유랑 시인" reportTo="리칠" cancelable="1" repeatable="1" retryable="1" lv="22" desc="이 일은 조금 급한 일입니다.피킨 유랑 상단원 레미양의 의뢰입니다./n /n얼마 전, 알 수 없는 무리의 습격을 당해 ^#1898ff큰 상처를 입은 유랑상단장에게 붉은 약^#ffffff을 바르게 해야 한다며 대신 가달라고 하더군요. 우선 의뢰를 부탁한 레미양에게 가보셔야 할 것 같습니다./n /n그녀는 상인단 마차 안에 있습니다./n" difficulty="1" onMessage="Quest402204003_onMessage" ChoiceRewardLimit="1" rewardEXP="220" rewardLifeJobEXP="170" rewardCombatJobEXP="100" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[유랑 시인과 대화]]" draft="^#00657b하무단과 리칠에게서 들은 이야기를 유랑시인에게 전해줘야^#e6d6c5 합니다." npc="유랑 시인">
+			<subjectPos subjectStr="유랑 시인과 대화" mapTargetId="22261100"/>
+		</Subject>
+		<Subject typeName="Talk" func="NULL" desc="[[유랑 시인과 대화]]" draft="^#00657b유랑 시인^#e6d6c5의 이야기를 듣고, 그대로 ^#00657b따르십시오.^#e6d6c5" npc="유랑 시인">
+			<subjectPos subjectStr="유랑 시인과 대화" mapTargetId="22261100"/>
+		</Subject>
+		<Subject typeName="Deliver" func="NULL" desc="[[조각상 사용]]" draft="^#00657b리칠의 유목지에 있는 커다란 하얀 사슴의 조각상 앞에서 작은 늑대와 사슴의 조각상을 사용^#e6d6c5해야 합니다." npc="유랑 시인">
+			<subjectPos subjectStr="조각상 사용" mapTargetId="2000243100"/>
+		</Subject>
+		<Subject typeName="Event" func="Quest402204003_Event" desc="[[리칠과 대화]]" draft="작은 조각상을 사용하자마자 갑자기 나타난 ^#00657b리칠과 대화^#e6d6c5 해야 합니다." npc="유랑 시인">
+			<subjectPos subjectStr="조각상 사용" mapTargetId="2000243100"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[리칠과 대화]]" draft="^#00657b리칠에게 사정을 설명^#e6d6c5해야 합니다." npc="리칠">
+			<subjectPos subjectStr="리칠과 대화" mapTargetId="20012100"/>
+		</Subject>
+		<Storage target1_typeID="110029" target2_eff="369" target2_x="-12079" target2_y="-5656" target2_z="1003.33"/>
+		<BasicReward typeID="2100000000" count="100"/>
+		<ChoiceReward typeID="60041" count="1"/>
+		<ChoiceReward typeID="60042" count="1"/>
+		<ChoiceReward typeID="60043" count="1"/>
+	</Quest>
+	<Quest typeID="402204004" typeName="먼 옛날의 맹세" group="100" NPC="리칠" reportTo="리칠" cancelable="1" repeatable="1" retryable="1" lv="22" desc="이 일은 조금 급한 일입니다.피킨 유랑 상단원 레미양의 의뢰입니다./n /n얼마 전, 알 수 없는 무리의 습격을 당해 ^#1898ff큰 상처를 입은 유랑상단장에게 붉은 약^#ffffff을 바르게 해야 한다며 대신 가달라고 하더군요. 우선 의뢰를 부탁한 레미양에게 가보셔야 할 것 같습니다./n /n그녀는 상인단 마차 안에 있습니다./n" difficulty="1" onMessage="Quest402204004_onMessage" ChoiceRewardLimit="1" rewardEXP="220" rewardLifeJobEXP="170" rewardCombatJobEXP="100" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[리칠과 대화]]" draft="^#00657b리칠에게 사정을 설명^#e6d6c5해야 합니다." npc="리칠">
+			<subjectPos subjectStr="리칠과 대화" mapTargetId="20011100"/>
+		</Subject>
+		<Subject typeName="Talk" func="NULL" desc="[[리칠과 대화]]" draft="리칠의 이야기를 듣고, 그의 지시대로 따르십시오." npc="리칠">
+			<subjectPos subjectStr="리칠과 대화" mapTargetId="20011100"/>
+		</Subject>
+		<Subject typeName="Collect" func="NULL" desc="[[맹세의 흔적 찾기]]" draft="^#00657b리칠의 유목지, 서쪽에 있는 전설의 바위로 가서 맹세의 흔적을 찾아야^#e6d6c5 합니다." npc="리칠">
+			<subjectPos subjectStr="맹세의 흔적 찾기" mapTargetId="2000253100"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[리칠에게 보고]]" draft="맹세의 흔적을 찾았으니 전설의 바위 동쪽, ^#00657b리칠의 유목지로 가서 리칠에게 보고^#e6d6c5하십시오." npc="리칠">
+			<subjectPos subjectStr="리칠에게 보고" mapTargetId="20012100"/>
+		</Subject>
+		<Storage target1_typeID="150242" target1_goal="1" target1_count="0" target1_type="1"/>
+		<BasicReward typeID="2100000000" count="100"/>
+		<ChoiceReward typeID="60019" count="1"/>
+		<ChoiceReward typeID="60020" count="1"/>
+	</Quest>
+	<Quest typeID="402204005" typeName="맹세의 흔적" group="100" NPC="리칠" reportTo="리칠" cancelable="1" repeatable="1" retryable="1" lv="25" desc="이 일은 조금 급한 일입니다.피킨 유랑 상단원 레미양의 의뢰입니다./n /n얼마 전, 알 수 없는 무리의 습격을 당해 ^#1898ff큰 상처를 입은 유랑상단장에게 붉은 약^#ffffff을 바르게 해야 한다며 대신 가달라고 하더군요. 우선 의뢰를 부탁한 레미양에게 가보셔야 할 것 같습니다./n /n그녀는 상인단 마차 안에 있습니다./n" difficulty="1" onMessage="Quest402204005_onMessage" ChoiceRewardLimit="1" rewardEXP="300" rewardLifeJobEXP="200" rewardCombatJobEXP="115" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[리칠과 대화]]" draft="리칠의 이야기를 듣고, 그의 지시를 따라야 합니다." npc="리칠">
+			<subjectPos subjectStr="리칠과 대화" mapTargetId="20011100"/>
+		</Subject>
+		<Subject typeName="Collect" func="NULL" desc="[[또 하나의 흔적 찾기]]" draft="^#00657b리칠의 유목지, 서쪽에 있는 전설의 바위로 가서 또 하나의 맹세의 흔적을 찾아야^#e6d6c5 합니다." npc="리칠">
+			<subjectPos subjectStr="또 하나의 흔적 찾기" mapTargetId="2000253100"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[리칠에게 보고]]" draft="또 하나의 맹세의 흔적을 찾았으니 ^#00657b전설의 바위 동쪽, 리칠의 유목지로 가서 리칠에게 보고^#e6d6c5하십시오." npc="리칠">
+			<subjectPos subjectStr="리칠에게 보고" mapTargetId="20012100"/>
+		</Subject>
+		<Storage target1_typeID="150243" target1_goal="1" target1_count="0" target1_type="1"/>
+		<BasicReward typeID="2100000000" count="150"/>
+		<ChoiceReward typeID="60016" count="1"/>
+		<ChoiceReward typeID="60017" count="1"/>
+		<ChoiceReward typeID="60018" count="1"/>
+	</Quest>
+	<Quest typeID="402204006" typeName="되살아난 맹세" group="100" NPC="리칠" reportTo="하무단" cancelable="1" repeatable="1" retryable="1" lv="25" desc="이 일은 조금 급한 일입니다.피킨 유랑 상단원 레미양의 의뢰입니다./n /n얼마 전, 알 수 없는 무리의 습격을 당해 ^#1898ff큰 상처를 입은 유랑상단장에게 붉은 약^#ffffff을 바르게 해야 한다며 대신 가달라고 하더군요. 우선 의뢰를 부탁한 레미양에게 가보셔야 할 것 같습니다./n /n그녀는 상인단 마차 안에 있습니다./n" difficulty="1" onMessage="Quest402204006_onMessage" ChoiceRewardLimit="0" rewardEXP="300" rewardLifeJobEXP="200" rewardCombatJobEXP="115" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[리칠과 대화]]" draft="리칠이 말하는 최근의 유목민들의 공통된 적에 대한 이야기를 들어야 합니다." npc="리칠">
+			<subjectPos subjectStr="리칠과 대화" mapTargetId="20011100"/>
+		</Subject>
+		<Subject typeName="Talk" func="Quest402204006_Talk" desc="[[리칠과 대화]]" draft="리칠이 하무단에게 제안할 것에 대해 들어야 합니다." npc="리칠">
+			<subjectPos subjectStr="리칠과 대화" mapTargetId="20011100"/>
+		</Subject>
+		<Subject typeName="Talk2" func="NULL" desc="[[리칠과 대화]]" draft="^#00657b리칠이 하무단에게 편지를 쓸 때까지 기다려야^#e6d6c5 합니다." npc="리칠">
+			<subjectPos subjectStr="리칠과 대화" mapTargetId="20011100"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[하무단과 대화]]" draft="^#00657b마제로나 북서쪽에 있는 하무단의 유목지 하무단에게 리칠의 편지를 전해^#e6d6c5주어야 합니다." npc="하무단">
+			<subjectPos subjectStr="하무단과 대화" mapTargetId="20762100"/>
+		</Subject>
+		<Storage target1_typeID="150244"/>
+		<BasicReward typeID="2100000000" count="150"/>
+	</Quest>
+	<Quest typeID="402204007" typeName="밀렵꾼 정찰" group="100" NPC="하무단" reportTo="하무단" cancelable="1" repeatable="1" retryable="1" lv="28" desc="이 일은 조금 급한 일입니다.피킨 유랑 상단원 레미양의 의뢰입니다./n /n얼마 전, 알 수 없는 무리의 습격을 당해 ^#1898ff큰 상처를 입은 유랑상단장에게 붉은 약^#ffffff을 바르게 해야 한다며 대신 가달라고 하더군요. 우선 의뢰를 부탁한 레미양에게 가보셔야 할 것 같습니다./n /n그녀는 상인단 마차 안에 있습니다./n" difficulty="1" onMessage="Quest402204007_onMessage" ChoiceRewardLimit="0" rewardEXP="390" rewardLifeJobEXP="250" rewardCombatJobEXP="160" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[하무단과 대화]]" draft="하무단의 이야기를 듣고 그의 지시를 따라야 합니다." npc="하무단">
+			<subjectPos subjectStr="하무단과 대화" mapTargetId="20761100"/>
+		</Subject>
+		<Subject typeName="Explore" func="NULL" desc="[[밀렵꾼 근거지 탐색]]" draft="^#00657b윈더스를 죽이고 있는 밀렵꾼들의 근거지를 탐색^#e6d6c5해야 합니다. 그 곳은 ^#00657b하무단의 유목지 북서쪽, 고대의 산^#e6d6c5에 있습니다." npc="하무단">
+			<subjectPos subjectStr="밀렵꾼 근거지 탐색" mapTargetId="2000313100"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[하무단에게 보고]]" draft="밀렵꾼 근거지를 살펴봤으니 ^#00657b하무단에게 돌아가야^#e6d6c5 합니다." npc="하무단">
+			<subjectPos subjectStr="하무단에게 보고" mapTargetId="20762100"/>
+		</Subject>
+		<Storage target1_typeID="100" target1_goal="1" target1_count="0" target1_type="2"/>
+		<BasicReward typeID="2100000000" count="180"/>
+	</Quest>
+	<Quest typeID="402204008" typeName="말 악령" group="100" NPC="하무단" reportTo="하무단" cancelable="1" repeatable="1" retryable="1" lv="28" desc="이 일은 조금 급한 일입니다.피킨 유랑 상단원 레미양의 의뢰입니다./n /n얼마 전, 알 수 없는 무리의 습격을 당해 ^#1898ff큰 상처를 입은 유랑상단장에게 붉은 약^#ffffff을 바르게 해야 한다며 대신 가달라고 하더군요. 우선 의뢰를 부탁한 레미양에게 가보셔야 할 것 같습니다./n /n그녀는 상인단 마차 안에 있습니다./n" difficulty="1" onMessage="Quest402204008_onMessage" ChoiceRewardLimit="0" rewardEXP="390" rewardLifeJobEXP="250" rewardCombatJobEXP="160" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[하무단과 대화]]" draft="하무단에게 밀렵꾼들의 정세를 이야기 해야 합니다." npc="하무단">
+			<subjectPos subjectStr="하무단과 대화" mapTargetId="20761100"/>
+		</Subject>
+		<Subject typeName="Hunt" func="Quest402204008_Hunt" desc="[[나이트 메어 성불]]" draft="^#00657b밀렵꾼의 근거지로 가서 나이트 메어들을 성불^#e6d6c5시켜야 합니다." npc="하무단">
+			<subjectPos subjectStr="나이트 메어 성불" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[하무단에게 보고]]" draft="나이트 메어를 성불시켰으니 ^#00657b하무단에게 돌아가 보고^#e6d6c5 해야 합니다." npc="하무단">
+			<subjectPos subjectStr="하무단에게 보고" mapTargetId="20762100"/>
+		</Subject>
+		<Storage target2_typeID="273" target2_goal="3" target2_count="0" target2_type="2"/>
+		<BasicReward typeID="2100000000" count="180"/>
+	</Quest>
+	<Quest typeID="402204009" typeName="일제 공격" group="100" NPC="하무단" reportTo="유랑 시인" cancelable="1" repeatable="1" retryable="1" lv="28" desc="이 일은 조금 급한 일입니다.피킨 유랑 상단원 레미양의 의뢰입니다./n /n얼마 전, 알 수 없는 무리의 습격을 당해 ^#1898ff큰 상처를 입은 유랑상단장에게 붉은 약^#ffffff을 바르게 해야 한다며 대신 가달라고 하더군요. 우선 의뢰를 부탁한 레미양에게 가보셔야 할 것 같습니다./n /n그녀는 상인단 마차 안에 있습니다./n" difficulty="1" onMessage="Quest402204009_onMessage" ChoiceRewardLimit="1" rewardEXP="390" rewardLifeJobEXP="250" rewardCombatJobEXP="160" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[하무단의 이야기 듣기]]" draft="하무단의 이야기를 듣고, 그의 부탁을 들어줘야 합니다." npc="하무단">
+			<subjectPos subjectStr="하무단의 이야기 듣기" mapTargetId="20761100"/>
+		</Subject>
+		<Subject typeName="Hunt" func="Quest402204009_Hunt" desc="[[상급 밀렵꾼 우두머리 퇴치]]" draft="하무단의 유목지 북쪽에 있는 ^#00657b밀렵꾼 근거지로 가서 상급 밀렵꾼 우두머리를 처치^#e6d6c5해야 합니다." npc="하무단">
+			<subjectPos subjectStr="상급 밀렵꾼 우두머리 퇴치" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Event" func="NULL" desc="[[신호탄 사용후 하무단에게 가기]]" draft="상급 밀렵꾼 우두머리를 처치했으니 ^#00657b하무단이 준 신호탄을 사용^#e6d6c5해야 합니다./n그리고 ^#00657b하무단에게 돌아가십시오." npc="하무단">
+			<subjectPos subjectStr="신호탄 사용" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Talk" func="Quest402204009_Talk" desc="[[하무단과 대화]]" draft="하무단의 이야기를 듣고, 그의 지시대로 행동하십시오." npc="하무단">
+			<subjectPos subjectStr="하무단과 대화" mapTargetId="20761100"/>
+		</Subject>
+		<Subject typeName="Talk2" func="NULL" desc="[[리칠과 대화]]" draft="남동쪽 바람의 고원의 ^#00657b리칠의 유목지로 가서 리칠과 대화^#e6d6c5해야 합니다." npc="리칠">
+			<subjectPos subjectStr="리칠과 대화" mapTargetId="20011100"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[유랑 시인에게 보고]]" draft="^#00657b마제로나로 돌아가 유랑 시인^#e6d6c5에게 그간 있었던 일을 알려줘야 합니다. " npc="유랑 시인">
+			<subjectPos subjectStr="유랑 시인에게 보고" mapTargetId="22262100"/>
+		</Subject>
+		<Storage target1_typeID="110030" target2_typeID="1000031" target2_goal="1" target2_count="0" target2_type="2" target2_eff="369" target3_x="-19275" target3_y="4367" target3_z="1410.50"/>
+		<BasicReward typeID="2100000000" count="180"/>
+		<ChoiceReward typeID="60048" count="1"/>
+		<ChoiceReward typeID="60050" count="1"/>
+	</Quest>
+	<Quest typeID="402204010" typeName="새로운 노래" group="100" NPC="유랑 시인" reportTo="유랑 시인" cancelable="1" repeatable="1" retryable="1" lv="28" desc="이 일은 조금 급한 일입니다.피킨 유랑 상단원 레미양의 의뢰입니다./n /n얼마 전, 알 수 없는 무리의 습격을 당해 ^#1898ff큰 상처를 입은 유랑상단장에게 붉은 약^#ffffff을 바르게 해야 한다며 대신 가달라고 하더군요. 우선 의뢰를 부탁한 레미양에게 가보셔야 할 것 같습니다./n /n그녀는 상인단 마차 안에 있습니다./n" difficulty="1" onMessage="NULL" ChoiceRewardLimit="1" rewardEXP="400" rewardLifeJobEXP="350" rewardCombatJobEXP="260" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[유랑 시인에게 이야기 들려주기]]" draft="유랑 시인에게 그 동안 형제들과 있었던 일에 대해 이야기 해줘야 합니다." npc="유랑 시인">
+			<subjectPos subjectStr="유랑 시인에게 이야기 들려주기" mapTargetId="22261100"/>
+		</Subject>
+		<Subject typeName="Event" func="NULL" desc="[[유랑 시인 기다리기]]" draft="유랑 시인이 다시 돌아올 때까지 ^#00657b기다려야^#e6d6c5 합니다." npc="유랑 시인">
+			<subjectPos subjectStr="유랑 시인과 대화" mapTargetId="22261100"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[유랑 시인과 대화]]" draft="유랑 시인의 남은 이야기를 끝까지 들어야 합니다." npc="유랑 시인">
+			<subjectPos subjectStr="유랑 시인과 대화" mapTargetId="22262100"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="180"/>
+		<ChoiceReward typeID="60024" count="1"/>
+		<ChoiceReward typeID="60025" count="1"/>
+	</Quest>
+</Quest>

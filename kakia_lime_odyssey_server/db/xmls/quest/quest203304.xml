@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by Administrator (EMBRACE) -->
+<Quest>
+	<Quest typeID="203304001" typeName="보석을 따는 소녀" group="100" NPC="밀리아 레이브런" reportTo="밀리아 레이브런" cancelable="1" repeatable="1" retryable="1" lv="6" desc="저기… 누구세요?/n" difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="80" rewardLifeJobEXP="40" rewardCombatJobEXP="5" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[밀리아 레이브런과 대화]]" draft="[[밀리아 레이브런과 대화]]" npc="밀리아 레이브런">
+			<subjectPos subjectStr="밀리아 레이브런과 대화" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[밀리아 레이브런과 대화]]" draft="[[밀리아 레이브런과 대화]]" npc="밀리아 레이브런">
+			<subjectPos subjectStr="밀리아 레이브런과 대화" mapTargetId="2"/>
+		</Subject>
+		<Storage temp="1"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="203304002" typeName="생일 선물" group="100" NPC="밀리아 레이브런" reportTo="밀리아 레이브런" cancelable="1" repeatable="1" retryable="1" lv="6" desc="산호 가공소의 책임자인 에트워르 씨에게 제가 모은 산호와 투명 보석 산호를 팔려고 해요./n하지만 그 사람, 욕심 뚝뚝 떨어지는 얼굴을 하고는, 제가 여자애라고 돌아봐 주지도 않는다구요! 어쩜 그럴 수 있대요?/n /n그래서 부탁할께요. Pc 이름, 저랑 같이 그를 만나러 가주지 않겠어요?/n" difficulty="1" onMessage="Quest203304002_onMessage" ChoiceRewardLimit="0" rewardEXP="80" rewardLifeJobEXP="40" rewardCombatJobEXP="5" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[밀리아 레이브런과 대화]]" draft="[[밀리아 레이브런과 대화]]" npc="밀리아 레이브런">
+			<subjectPos subjectStr="밀리아 레이브런과 대화" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Roaming" func="NULL" desc="[[밀리아 따라가기]]" draft="[[밀리아 따라가기]]" npc="밀리아 따라가기">
+			<subjectPos subjectStr="밀리아 따라가기" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Deliver" func="NULL" desc="[[에트워르와 대화]]" draft="[[에트워르와 대화]]" npc="에트워르와 대화">
+			<subjectPos subjectStr="에트워르와 대화" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Talk" func="Quest203304002_Talk" desc="[[밀리아 레이브런과 대화]]" draft="[[밀리아 레이브런과 대화]]" npc="밀리아 레이브런">
+			<subjectPos subjectStr="밀리아 레이브런과 대화" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Talk2" func="NULL" desc="[[에트워르 루인과 대화]]" draft="[[에트워르 루인과 대화]]" npc="에트워르 루인">
+			<subjectPos subjectStr="에트워르 루인과 대화" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Talk3" func="NULL" desc="[[밀리아 레이브런과 대화]]" draft="[[밀리아 레이브런과 대화]]" npc="밀리아 레이브런">
+			<subjectPos subjectStr="밀리아 레이브런과 대화" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Collect" func="Quest203304002_Collect" desc="[[티모의 수액 채취]]" draft="[[티모의 수액 채취]]" npc="밀리아 레이브런">
+			<subjectPos subjectStr="티모의 수액 채취" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[에트워르 루인과 대화]]" draft="[[에트워르 루인과 대화]]" npc="에트워르 루인">
+			<subjectPos subjectStr="에트워르 루인과 대화" mapTargetId="2"/>
+		</Subject>
+		<Storage target1_typeID="150095" target2_typeID="150282" target2_goal="3" target2_type="1" target2_prob="90" target3_typeID="105"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="203304003" typeName="인어의 눈물" group="100" NPC="밀리아 레이브런" reportTo="셀레니엔" cancelable="1" repeatable="1" retryable="1" lv="6" desc="뭐야? 볼일 다 봤으면 얼쩡거리지 말고 가 봐./n" difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="80" rewardLifeJobEXP="40" rewardCombatJobEXP="5" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[에트워르 루인과 대화]]" draft="[[에트워르 루인과 대화]]" npc="에트워르 루인">
+			<subjectPos subjectStr="에트워르 루인과 대화" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Talk1" func="NULL" desc="[[밀리아 레이브런과 대화]]" draft="[[밀리아 레이브런과 대화]]" npc="밀리아 레이브런">
+			<subjectPos subjectStr="밀리아 레이브런과 대화" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Talk2" func="NULL" desc="[[에트워르 루인과 대화]]" draft="[[에트워르 루인과 대화]]" npc="에트워르 루인">
+			<subjectPos subjectStr="에트워르 루인과 대화" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[셀레니엔과 대화]]" draft="[[셀레니엔과 대화]]" npc="셀레니엔">
+			<subjectPos subjectStr="셀레니엔과 대화" mapTargetId="2"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="203304004" typeName="세이렌의 적" group="100" NPC="셀레니엔" reportTo="에트워르 루인" cancelable="1" repeatable="1" retryable="1" lv="6" desc="귀한 것을 청하시는군요./n인어의 눈물은 세이렌의 고통의 결정. 괴로운 눈물일수록 아름답게 빛나는 보석입니다. 평소라면 말도 안 된다고 거절했겠지요./n /n하지만 제 부탁을 들어주신다면 눈물을 드릴 수 있습니다./n여기서 남동쪽으로 바다를 건너면 브렌타노 섬이 있습니다. 그 섬 근처를 돌아다니는 마린비에게서 조개껍질 지갑을 되찾아 제게 가져오시면 눈물을 드리겠습니다./n /n어느 마린비가 지갑을 가져갔는지 모르겠습니다. 그러니 지갑이 나올 때까지 마린비를 처치해 주세요./n" difficulty="1" onMessage="Quest203304004_onMessage" ChoiceRewardLimit="0" rewardEXP="80" rewardLifeJobEXP="40" rewardCombatJobEXP="5" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[셀레니엔과 대화]]" draft="[[셀레니엔과 대화]]" npc="셀레니엔">
+			<subjectPos subjectStr="셀레니엔과 대화" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Collect" func="Quest203304004_Collect" desc="[[조개껍질 지갑]]" draft="[[조개껍질 지갑]]" npc="셀레니엔">
+			<subjectPos subjectStr="조개껍질 지갑" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success1" func="NULL" desc="[[셀레니엔과 대화]]" draft="[[셀레니엔과 대화]]" npc="셀레니엔">
+			<subjectPos subjectStr="셀레니엔과 대화" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Talk" func="NULL" desc="[[밀리아 레이브런과 대화]]" draft="[[밀리아 레이브런과 대화]]" npc="밀리아 레이브런">
+			<subjectPos subjectStr="밀리아 레이브런과 대화" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success2" func="NULL" desc="[[에트워르 루인과 대화]]" draft="[[에트워르 루인과 대화]]" npc="에트워르 루인">
+			<subjectPos subjectStr="에트워르 루인과 대화" mapTargetId="2"/>
+		</Subject>
+		<Storage target1_typeID="99" target2_typeID="150108" target2_goal="1" target2_type="1" target3_typeID="150109"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="203304005" typeName="무리한 요구" group="100" NPC="에트워르 루인" reportTo="밀리아 세이브런" cancelable="1" repeatable="1" retryable="1" lv="6" desc="흐하하하! 이제 인어의 눈물이 내 것이다! 난 부자다!/n" difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="80" rewardLifeJobEXP="40" rewardCombatJobEXP="5" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[에트워르 루인과 대화]]" draft="[[에트워르 루인과 대화]]" npc="에트워르 루인">
+			<subjectPos subjectStr="에트워르 루인과 대화" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Talking" func="Quest203304005_Talking" desc="[[에트워르 루인과 대화]]" draft="[[에트워르 루인과 대화]]" npc="에트워르 루인">
+			<subjectPos subjectStr="에트워르 루인과 대화" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Talk" func="NULL" desc="[[에트워르 루인과 대화]]" draft="[[에트워르 루인과 대화]]" npc="에트워르 루인">
+			<subjectPos subjectStr="에트워르 루인과 대화" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[밀리아 레이브런과 대화]]" draft="[[밀리아 레이브런과 대화]]" npc="밀리아 레이브런">
+			<subjectPos subjectStr="밀리아 레이브런과 대화" mapTargetId="2"/>
+		</Subject>
+		<Storage temp="1"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="203304006" typeName="무모한 희생" group="100" NPC="밀리아 레이브런" reportTo="밀리아 레이브런" cancelable="1" repeatable="1" retryable="1" lv="6" desc="황금보석산호를 찾겠어요./n /n어렵다는 건 알아요. 하지만 방법이 있는데 앉아만 있을 수는 없잖아요?/n /n그동안 고마웠어요. PC 이름. 이 일은 제가 해야 해요./n /n걱정하진 마세요. 남부 훔바바의 숲은 이미 한 번 겪어보았으니, 저도 돌아다닐 수 있을 거예요. 위험하면 훔바바들에게 도움을 청해도 되고요./n" difficulty="1" onMessage="Quest203304006_onMessage" ChoiceRewardLimit="0" rewardEXP="80" rewardLifeJobEXP="40" rewardCombatJobEXP="5" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[밀리아 레이브런과 대화]]" draft="[[밀리아 레이브런과 대화]]" npc="밀리아 레이브런">
+			<subjectPos subjectStr="밀리아 레이브런과 대화" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Talk1" func="NULL" desc="[[에트워르 루인과 대화]]" draft="[[에트워르 루인과 대화]]" npc="에트워르 루인">
+			<subjectPos subjectStr="에트워르 루인과 대화" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Talk2" func="NULL" desc="[[우루쉬팀과 대화]]" draft="[[우루쉬팀과 대화]]" npc="우루쉬팀">
+			<subjectPos subjectStr="우루쉬팀과 대화" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[밀리아 레이브런 발견]]" draft="[[밀리아 레이브런 발견]]" npc="밀리아 레이브런">
+			<subjectPos subjectStr="밀리아 레이브런 발견" mapTargetId="2"/>
+		</Subject>
+		<Storage target1_typeID="1023"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="203304007" typeName="없으면, 만들자" group="100" NPC="밀리아 레이브런" reportTo="윌리 세이크러시" cancelable="1" repeatable="1" retryable="1" lv="6" desc="괘… 괜찮아요. 조금 힘들 뿐이예요./n아하하… 황금보석산호는 결국 못 찾았네요./n /n(밀리아에게 사정을 설명하자 깜짝 놀랍니다)/n /n그래요? 그건 원래 없었던 거군요…/n아, 전 괜찮아요! 괜찮아요. 뭔가 다른 일거리가 있겠지요?/n" difficulty="1" onMessage="Quest203304007_onMessage" ChoiceRewardLimit="0" rewardEXP="80" rewardLifeJobEXP="40" rewardCombatJobEXP="5" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[밀리아 레이브런과 대화]]" draft="[[밀리아 레이브런과 대화]]" npc="밀리아 레이브런">
+			<subjectPos subjectStr="밀리아 레이브런과 대화" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Talk2" func="Quest203304007_Talk2" desc="[[우루쉬팀과 대화]]" draft="[[우루쉬팀과 대화]]" npc="우루쉬팀">
+			<subjectPos subjectStr="우루쉬팀과 대화" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Talk3" func="NULL" desc="[[밀리아 레이브런과 대화]]" draft="[[밀리아 레이브런과 대화]]" npc="밀리아 레이브런">
+			<subjectPos subjectStr="밀리아 레이브런과 대화" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="Quest203304007_Success" desc="[[윌리 세이크러시와 대화]]" draft="[[윌리 세이크러시와 대화]]" npc="월리 세이크러시">
+			<subjectPos subjectStr="윌리 세이크러시와 대화" mapTargetId="2"/>
+		</Subject>
+		<Storage target1_typeID="1023" logout="0" logout2="0"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="203304008" typeName="윌리의 도구세트" group="100" NPC="윌리 세이크러시" reportTo="윌리 세이크러시" cancelable="1" repeatable="1" retryable="1" lv="6" desc="잘생긴 오빠(/언니)가 윌리에게 무슨 볼일일까, 흐흐흥~ 갑자기 사랑 고백 같은 걸 받아버리면 윌리는 깜짝 놀랄 텐데~/n" difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="80" rewardLifeJobEXP="40" rewardCombatJobEXP="5" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[윌리 세이크러시와 대화]]" draft="[[윌리 세이크러시와 대화]]" npc="윌리 세이크러시">
+			<subjectPos subjectStr="윌리 세이크러시와 대화" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Deliver" func="NULL" desc="[[토크해머와 대화]]" draft="[[토크해머와 대화]]" npc="토크해머">
+			<subjectPos subjectStr="토크해머와 대화" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[윌리 세이크러시와 대화]]" draft="[[윌리 세이크러시와 대화]]" npc="윌리 세이크러시">
+			<subjectPos subjectStr="윌리 세이크러시와 대화" mapTargetId="2"/>
+		</Subject>
+		<Storage target1_typeID="150111"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="203304009" typeName="작업 준비" group="100" NPC="윌리 세이크러시" reportTo="윌리 세이크러시" cancelable="1" repeatable="1" retryable="1" lv="6" desc="이게 뭐야! 전부 녹슬었잖아! 연마제와 기름은 하나도 없고!/n /n말도 안 돼! 저 스쿠르 족은 빌려간 물건은 깨끗이 쓰고 채워서 되돌려준다, 라는 기본 예의도 모르는거야!?/n아이 참. 속 끓네./n /n할 수 없네. 오빠(/언니)가 좀 더 수고해 줘야겠어./n세공 도구들은 섬세한 물건이라, 녹을 벗겨내고 다시 사용하려면 특별한 도구가 필요해./n" difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="80" rewardLifeJobEXP="40" rewardCombatJobEXP="5" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[윌리 세이크러시와 대화]]" draft="[[윌리 세이크러시와 대화]]" npc="윌리 세이크러시">
+			<subjectPos subjectStr="윌리 세이크러시와 대화" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Collect" func="Quest203304009_Collect" desc="[[세공 기름]] [[연마제]]" draft="[[세공 기름]] [[연마제]]" npc="윌리 세이크러시">
+			<subjectPos subjectStr="세공 기름" mapTargetId="2"/>
+			<subjectPos subjectStr="연마제" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[윌리 세이크러시와 대화]]" draft="[[윌리 세이크러시와 대화]]" npc="윌리 세이크러시">
+			<subjectPos subjectStr="윌리 세이크러시와 대화" mapTargetId="2"/>
+		</Subject>
+		<Storage target1_typeID="150113" target1_goal="1" target1_count="0" target1_type="1" target2_typeID="150114" target2_goal="1" target2_count="0" target2_type="1"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="203304010" typeName="동력이 모자라" group="100" NPC="윌리 세이크러시" reportTo="윌리 세이크러시" cancelable="1" repeatable="1" retryable="1" lv="6" desc="미안해미안해미안해~/n /n동력 장치 안을 확인하는 것을 깜박 잊었지 뭐야. 지금 장치가 돌아가지 않으면 보석을 깎을 수 없어./n /n그러니 조금만 더 수고해 주지 않겠어?/n이 동력 장치의 동력원은 라임의 가루와 조각이야. 그러니 바깥에 나가서 가루와 조각을 모아와 줘./n방법은… 묻지 않을 테니까./n" difficulty="1" onMessage="Quest203304010_onMessage" ChoiceRewardLimit="0" rewardEXP="80" rewardLifeJobEXP="40" rewardCombatJobEXP="5" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[윌리 세이크러시와 대화]]" draft="[[윌리 세이크러시와 대화]]" npc="윌리 세이크러시">
+			<subjectPos subjectStr="윌리 세이크러시와 대화" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Collect" func="Quest203304010_Collect" desc="[[라임의 가루]] [[라임의 조각]]" draft="[[라임의 가루]] [[라임의 조각]]" npc="윌리 세이크러시">
+			<subjectPos subjectStr="라임의 가루" mapTargetId="2"/>
+			<subjectPos subjectStr="라임의 조각" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[윌리 세이크러시와 대화]]" draft="[[윌리 세이크러시와 대화]]" npc="월리 세이크러시">
+			<subjectPos subjectStr="윌리 세이크러시와 대화" mapTargetId="2"/>
+		</Subject>
+		<Storage target1_typeID="150115" target1_goal="3" target1_type="1" target2_typeID="150116" target2_goal="3" target2_type="1"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="203304011" typeName="위험한 임무" group="100" NPC="윌리 세이크러시" reportTo="윌리 세이크러시" cancelable="1" repeatable="1" retryable="1" lv="6" desc="다 됐어. 음, 재료를 몇 개 버리긴 했지만 아주 괜찮은 게 나왔어. 특별히 노인들의 눈에 맞춘 거니까 아주 잘 보일 거야./n /n하지만 제일 큰 문제가 남았네에…/n" difficulty="1" onMessage="Quest203304011_onMessage" ChoiceRewardLimit="0" rewardEXP="80" rewardLifeJobEXP="40" rewardCombatJobEXP="5" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[윌리 세이크러시와 대화]]" draft="[[윌리 세이크러시와 대화]]" npc="윌리 세이크러시">
+			<subjectPos subjectStr="윌리 세이크러시와 대화" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Collect" func="Quest203304011_Collect" desc="[[신형 강철]]" draft="[[신형 강철]]" npc="윌리 세이크러시">
+			<subjectPos subjectStr="신형 강철" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[윌리 세이크러시와 대화]]" draft="[[윌리 세이크러시와 대화]]" npc="윌리 세이크러시">
+			<subjectPos subjectStr="윌리 세이크러시와 대화" mapTargetId="2"/>
+		</Subject>
+		<Storage target1_typeID="150117" target1_goal="3" target1_type="1"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="203304012" typeName="호의" group="100" NPC="윌리 세이크러시" reportTo="오마라 레이브런" cancelable="1" repeatable="1" retryable="1" lv="6" desc="다 됐어. /n /n음…/n으음… 좋아!/n /n내가 지금까지 만든 것 중에서도 최고야!/n" difficulty="1" onMessage="Quest203304012_onMessage" ChoiceRewardLimit="0" rewardEXP="80" rewardLifeJobEXP="40" rewardCombatJobEXP="5" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[윌리 세이크러시와 대화]]" draft="[[윌리 세이크러시와 대화]]" npc="윌리 세이크러시">
+			<subjectPos subjectStr="윌리 세이크러시와 대화" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Deliver" func="NULL" desc="[[밀리아 레이브런과 대화]]" draft="[[밀리아 레이브런과 대화]]" npc="밀리아 레이브런">
+			<subjectPos subjectStr="밀리아 레이브런과 대화" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="Quest203304012_Success" desc="[[오마라 레이브런과 대화]]" draft="[[오마라 레이브런과 대화]]" npc="오마라 레이브런">
+			<subjectPos subjectStr="오마라 레이브런과 대화" mapTargetId="2"/>
+		</Subject>
+		<Storage target1_typeID="150118" target2_typeID="1023" logout="0"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="203304013" typeName="그녀는 누구인가" group="100" NPC="오마라 레이브런" reportTo="오마라 레이브런" cancelable="1" repeatable="1" retryable="1" lv="6" desc="선물? 무슨 말인지 모르겠구려. 난 가족이 없다오. 레드 코랄에 살던 아들 부부가 리저드에게 죽은 뒤로 쭉 홀몸이라오./n /n젊은이, 엉뚱한 이야기로 늙은이를 놀리지 마시구려./n" difficulty="1" onMessage="NULL" ChoiceRewardLimit="1" rewardEXP="80" rewardLifeJobEXP="40" rewardCombatJobEXP="5" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[오마라 레이브런과 대화]]" draft="[[오마라 레이브런과 대화]]" npc="오마라 레이브런">
+			<subjectPos subjectStr="오마라 레이브런과 대화" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Talk" func="Quest203304013_Talk" desc="[[에트워르의 증언 듣기]] [[윌리의 증언 듣기]] [[우루쉬팀의 증언 듣기]]" draft="[[에트워르의 증언 듣기]] [[윌리의 증언 듣기]] [[우루쉬팀의 증언 듣기]]" npc="오마라 레이브런">
+			<subjectPos subjectStr="에트워르의 증언 듣기" mapTargetId="2"/>
+			<subjectPos subjectStr="윌리의 증언 듣기" mapTargetId="2"/>
+			<subjectPos subjectStr="우루쉬팀의 증언 듣기" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[오마라 레이브런과 대화]]" draft="[[오마라 레이브런과 대화]]" npc="오마라 레이브런">
+			<subjectPos subjectStr="오마라 레이브런과 대화" mapTargetId="2"/>
+		</Subject>
+		<Storage target1_count="0" target2_count="0" target3_count="0"/>
+		<BasicReward typeID="2100000000" count="5"/>
+		<ChoiceReward typeID="60029" count="1"/>
+		<ChoiceReward typeID="60030" count="1"/>
+	</Quest>
+	<Quest typeID="203304014" typeName="사람이 사람을 사랑한다는 것." group="100" NPC="오마라 레이브런" reportTo="오마라 레이브런" cancelable="1" repeatable="1" retryable="1" lv="6" desc="혈육 셋을 가슴에 묻은 늙은이라오./n이제 내버려 두오. 난 지금도 충분히 고통스럽다오.../n" difficulty="1" onMessage="Quest203304014_onMessage" ChoiceRewardLimit="1" rewardEXP="80" rewardLifeJobEXP="40" rewardCombatJobEXP="10" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[오마라 레이브런과 대화]]" draft="[[오마라 레이브런과 대화]]" npc="오마라 레이브런">
+			<subjectPos subjectStr="오마라 레이브런과 대화" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Deliver" func="NULL" desc="[[밀리아 레이브런과 대화]]" draft="[[밀리아 레이브런과 대화]]" npc="오마라 레이브런">
+			<subjectPos subjectStr="밀리아 레이브런과 대화" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[오마라 레이브런과 보고]]" draft="[[오마라 레이브런과 보고]]" npc="오마라 레이브런">
+			<subjectPos subjectStr="밀리아 레이브런과 대화" mapTargetId="2"/>
+		</Subject>
+		<Storage target1_typeID="150118" target2_typeID="150119" target3_typeID="100108" target3_x="5597" target3_y="3301" target3_z="709.55"/>
+		<BasicReward typeID="2100000000" count="10"/>
+		<ChoiceReward typeID="60026" count="1"/>
+		<ChoiceReward typeID="60027" count="1"/>
+		<ChoiceReward typeID="60028" count="1"/>
+	</Quest>
+	<Quest typeID="203304021" typeName="원대한 계획" group="100" NPC="잭 스팸로우" reportTo="잭 스팸로우" cancelable="1" repeatable="1" retryable="1" lv="11" desc="이봐! 나 잭 스팸로우의 이야기를 들어봐! 들으면 분명히 너도 구미가 당길 굉장한 일이라고!/n" difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="120" rewardLifeJobEXP="50" rewardCombatJobEXP="40" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[잭 스팸로우와 대화]]" draft="^#048dcd잭 스팸로우^#e6d6c5의 이야기를 들어야 합니다./n" npc="잭 스팸로우">
+			<subjectPos subjectStr="잭 스팸로우와 대화" mapTargetId="14971100"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[잭 스팸로우의 이야기 듣기]]" draft="잭 스팸로우가 당신에게 부탁을 하려고 하니 ^#048dcd그의 이야기^#e6d6c5를 들으십시오./n" npc="잭 스팸로우">
+			<subjectPos subjectStr="잭 스팸로우의 이야기 듣기" mapTargetId="14972100"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+	<Quest typeID="203304022" typeName="훔쳤지만 도둑이 아니라구요." group="100" NPC="잭 스팸로우" reportTo="올리비아 크롬웰" cancelable="1" repeatable="1" retryable="1" lv="11" desc="내 블랙코랄 호에 걸맞은 장식이 필요하다!/n그 장식이 뭐냐고? 바로 질 좋은 보랏빛 산호지!/n여기서 북쪽, 올리비아의 산호 농장으로 가서 질 좋은 보랏빛 산호를 구해오라고!/n" difficulty="1" onMessage="Quest203304022_onMessage" ChoiceRewardLimit="0" rewardEXP="120" rewardLifeJobEXP="50" rewardCombatJobEXP="40" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[잭 스팸로우와 대화]]" draft="잭 스팸로우의 이야기를 듣고 그의 ^#048dcd지시에 따르십시오./n" npc="잭 스팸로우">
+			<subjectPos subjectStr="잭 스팸로우와 대화" mapTargetId="14971100"/>
+		</Subject>
+		<Subject typeName="Collect" func="Quest203304022_Collect" desc="[[질 좋은 보랏빛 산호 훔치기]]" draft="블랙코랄 호의 장식으로 쓸 ^#048dcd질 좋은 보랏빛 산호를 훔쳐^#e6d6c5야 합니다./n^#048dcd블루코랄 북쪽에 있는 올리비아의 산호 농장^#e6d6c5에 있습니다./n" npc="잭 스팸로우">
+			<subjectPos subjectStr="질 좋은 보랏빛 산호 훔치기" mapTargetId="1000311100"/>
+		</Subject>
+		<Subject typeName="Event" func="Quest203304022_Event" desc="[[경비병으로부터 도주]]" draft="질 좋은 보랏빛 산호를 훔쳤으니, 어서 ^#048dcd도망가야^#e6d6c5 합니다./n" npc="경비병">
+			<subjectPos subjectStr="경비병으로부터 도주" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Event1" func="NULL" desc="[[경비병의 이야기 듣기]]" draft="도주에 실패했습니다. 경비병들이 말하는 걸 듣고, 그에 맞춰 행동하십시오./n" npc="경비병">
+			<subjectPos subjectStr="경비병의 이야기 듣기" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[올리비아 크롬웰과 대화]]" draft="도주에 실패했으니 질 좋은 보랏빛 산호의 주인, ^#048dcd올리비아 크롬웰에게 사정을 이야기^#e6d6c5 해야 합니다./n" npc="올리비아 크롬웰">
+			<subjectPos subjectStr="올리비아 크롬웰과 대화" mapTargetId="10262100"/>
+		</Subject>
+		<Storage target1_typeID="150189" target1_goal="1" target1_type="1" status="0" logout="0"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+	<Quest typeID="203304023" typeName="죄를 감면시키는 방법?" group="100" NPC="올리비아 크롬웰" reportTo="올리비아 크롬웰" cancelable="1" repeatable="1" retryable="1" lv="11" desc="악명 높은 잭 스팸로우의 꾀임에 빠져서 질 좋은 보랏빛 산호를 훔치려 하다니요! 어떤 상황에서도 도둑질은 안 됩니다!/n하지만, 제 부탁을 들어주시면 경비병들에게 잡혀가지 않도록 도와드리겠습니다./n" difficulty="1" onMessage="Quest203304023_onMessage" ChoiceRewardLimit="0" rewardEXP="120" rewardLifeJobEXP="50" rewardCombatJobEXP="40" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[올리비아 크롬웰과 대화]]" draft="올리비아 크롬웰에게 사정을 설명하고, 그녀의 ^#048dcd지시^#e6d6c5에 따라야 합니다./n" npc="올리비아 크롬웰">
+			<subjectPos subjectStr="올리비아 크롬웰과 대화" mapTargetId="10261100"/>
+		</Subject>
+		<Subject typeName="Hunt" func="Quest203304023_Hunt" desc="[[비열한 고블린 깡패 처치하기]]" draft="^#048dcd올리비아의 농장 서쪽^#e6d6c5의 고블린 근거지의 보스, ^#ca0202비열한 고블린 깡패를 처치^#e6d6c5해야 합니다./n" npc="올리비아 크롬웰">
+			<subjectPos subjectStr="비열한 고블린 깡패 처치하기" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[올리비아 크롬웰에게 보고하기]]" draft="비열한 고블린 깡패를 처치했으니 산호 농장에 있는 ^#048dcd올리비아에게 보고^#e6d6c5해야 합니다./n" npc="올리비아 크롬웰">
+			<subjectPos subjectStr="올리비아 크롬웰에게 보고하기" mapTargetId="10262100"/>
+		</Subject>
+		<Storage target1_typeID="1000023" target1_goal="1" target1_count="0" target1_type="2"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+	<Quest typeID="203304024" typeName="노력의 대가" group="100" NPC="올리비아 크롬웰" reportTo="잭 스팸로우" cancelable="1" repeatable="1" retryable="1" lv="11" desc="잭 스팸로우에게 질 좋은 보랏빛 산호 말고 그냥 보랏빛 산호를 주세요. 그리고/n" difficulty="1" onMessage="Quest203304024_onMessage" ChoiceRewardLimit="1" rewardEXP="120" rewardLifeJobEXP="50" rewardCombatJobEXP="40" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[올리비아 크롬웰과 대화하기]]" draft="올리비아와 대화해야 합니다./n" npc="올리비아 크롬웰">
+			<subjectPos subjectStr="올리비아 크롬웰과 대화" mapTargetId="10261100"/>
+		</Subject>
+		<Subject typeName="Talk" func="NULL" desc="[[올리비아 크롬웰에게 산호 받기]]" draft="올리비아에게 ^#048dcd보랏빛 산호^#e6d6c5를 받아야 합니다./n" npc="올리비아 크롬웰">
+			<subjectPos subjectStr="올리비아 크롬웰에게 산호 받기" mapTargetId="10261100"/>
+		</Subject>
+		<Subject typeName="Deliver" func="NULL" desc="[[보랏빛 산호 배달]]" draft="^#048dcd블루코랄 꿈의 항구^#e6d6c5에 있는 ^#048dcd잭 스팸로우^#e6d6c5에게 ^#048dcd보랏빛 산호를 배달^#e6d6c5해야 합니다./n" npc="올리비아 크롬웰">
+			<subjectPos subjectStr="보랏빛 산호 배달" mapTargetId="14971100"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[잭 스팸로우와 대화]]" draft="^#048dcd잭 스팸로우^#e6d6c5에게 보랏빛 산호를 주러 가야합니다./n그는 ^#048dcd블루코랄 꿈의 항구^#e6d6c5에 있습니다./n" npc="잭 스팸로우">
+			<subjectPos subjectStr="잭 스팸로우와 대화" mapTargetId="14972100"/>
+		</Subject>
+		<Storage target1_typeID="150190" target2_typeID="150191"/>
+		<BasicReward typeID="2100000000" count="10"/>
+		<ChoiceReward typeID="60004" count="1"/>
+		<ChoiceReward typeID="60005" count="1"/>
+	</Quest>
+	<Quest typeID="203304025" typeName="먼 훗날의 꿈" group="100" NPC="잭 스팸로우" reportTo="잭 스팸로우" cancelable="1" repeatable="1" retryable="1" lv="11" desc="뭐, 뭐야 이건 평범하기 짝이 없는 보랏빛 산호잖아!/n내 말 제대로 못 들었어? 나는 '질 좋은 보랏빛 산호'를 찾고 있었다고! 이게 어떻게 된 거야!!/n" difficulty="1" onMessage="Quest203304025_onMessage" ChoiceRewardLimit="1" rewardEXP="120" rewardLifeJobEXP="50" rewardCombatJobEXP="40" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[잭 스팸로우와 대화]]" draft="화가 난 ^#048dcd잭 스팸로우와 대화^#e6d6c5해야 합니다./n" npc="잭 스팸로우">
+			<subjectPos subjectStr="잭 스팸로우와 대화" mapTargetId="14971100"/>
+		</Subject>
+		<Subject typeName="Talk" func="NULL" desc="[[잭 스팸로우에게 상자주기]]" draft="^#048dcd잭 스팸로우^#e6d6c5가 매우 화가 났습니다./n어서 ^#048dcd올리비아의 상자^#e6d6c5를 그에게 줘야 합니다./n" npc="잭 스팸로우">
+			<subjectPos subjectStr="잭 스팸로우에게 상자주기" mapTargetId="14971100"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[잭 스팸로우를 지켜보기]]" draft="상자를 받은 잭 스팸로우를 지켜보십시오./n" npc="잭 스팸로우">
+			<subjectPos subjectStr="잭 스팸로우를 지켜보기" mapTargetId="14972100"/>
+		</Subject>
+		<Storage target1_typeID="150190" target2_typeID="150191"/>
+		<BasicReward typeID="2100000000" count="15"/>
+		<ChoiceReward typeID="60001" count="1"/>
+		<ChoiceReward typeID="60002" count="1"/>
+		<ChoiceReward typeID="60003" count="1"/>
+	</Quest>
+	<Quest typeID="203304031" typeName="빛바랜 일기장" group="100" NPC="빛바랜 일기" reportTo="커틀러 루터" cancelable="1" repeatable="1" retryable="1" lv="17" desc="^#1898ff북부 해변 서쪽에 있는 투 파카로^#000000 끌려간 ^#1898ff커틀러^#000000를 구해야 할 것 같습니다./n" difficulty="1" onMessage="NULL" ChoiceRewardLimit="1" rewardEXP="150" rewardLifeJobEXP="100" rewardCombatJobEXP="75" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[빛바랜 일기장 조사]]" draft="^#048dcd북부 해변 서쪽에 있는 투 파카로^#e6d6c5 끌려간 ^#048dcd커틀러^#e6d6c5를 구해야 할 것 같습니다./n" npc="빛바랜 일기장">
+			<subjectPos subjectStr="빛바랜 일기장 조사" mapTargetId="0"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[커틀러 루터 찾기]]" draft="^#048dcd북부 해변 서쪽에 있는 투 파카로^#e6d6c5 끌려간 ^#048dcd커틀러^#e6d6c5를 구해야 할 것 같습니다./n" npc="커틀러 루터">
+			<subjectPos subjectStr="커틀러 루터 찾기" mapTargetId="18562100"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="30"/>
+		<ChoiceReward typeID="60039" count="1"/>
+		<ChoiceReward typeID="60040" count="1"/>
+	</Quest>
+	<Quest typeID="203304032" typeName="방해의 열쇠" group="100" NPC="커틀러 루터" reportTo="커틀러 루터" cancelable="1" repeatable="1" retryable="1" lv="17" desc="^#1898ff서쪽에 있는 투 파카^#000000로 가서 ^#1898ff투토 주술사의 지팡이와 투토 요술사의 수정구를 7개^#000000씩 구해와. 그러면 괴수를 불러낼 수 있을 거야./n" difficulty="1" onMessage="Quest203304032_onMessage" ChoiceRewardLimit="1" rewardEXP="150" rewardLifeJobEXP="100" rewardCombatJobEXP="75" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[커틀러 루터와 대화]]" draft="^#048dcd커틀러^#e6d6c5에게 그동안 있었던 일에 대해 들어야 합니다./n" npc="커틀러 루터">
+			<subjectPos subjectStr="커틀러 루터와 대화" mapTargetId="18561100"/>
+		</Subject>
+		<Subject typeName="Collect" func="Quest203304032_Collect" desc="[[투토 주술 지팡이]] [[투토 요술 수정구]]" draft="^#048dcd북부 해변 서쪽에 있는 투 파카^#e6d6c5로 가십시오./n^#ca0202투토족을 잡아서^#e6d6c5 괴수를 불러 내는 재료, ^#048dcd투토 주술사의 지팡이와 투토 요술사의 수정구를 7개씩^#e6d6c5 구해야 합니다./n" npc="커틀러 루터">
+			<subjectPos subjectStr="투토 주술 지팡이 투토 요술 수정구" mapTargetId="3"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[커틀러 루터에게 보고]]" draft="투토 주술사의 지팡이와 투토 요술사의 수정구를 모두 모았으니, ^#048dcd커틀러에게 돌아 가십시오.^#e6d6c5/n" npc="커틀러 루터">
+			<subjectPos subjectStr="커틀러 루터에게 보고" mapTargetId="18562100"/>
+		</Subject>
+		<Storage target1_typeID="150192" target1_goal="7" target1_count="0" target1_type="1" target1_prob="90" target2_typeID="150193" target2_goal="7" target2_count="0" target2_type="1" target2_prob="90" target3_typeID="47" target4_typeID="46"/>
+		<BasicReward typeID="2100000000" count="30"/>
+		<ChoiceReward typeID="60049" count="1"/>
+		<ChoiceReward typeID="60050" count="1"/>
+	</Quest>
+	<Quest typeID="203304033" typeName="음모 분쇄" group="100" NPC="커틀러 루터" reportTo="커틀러 루터" cancelable="1" repeatable="1" retryable="1" lv="17" desc="내가 괴수를 부를 테니, 괴수가 나오면 공격해서 처치해./n" difficulty="1" onMessage="Quest203304033_onMessage" ChoiceRewardLimit="1" rewardEXP="150" rewardLifeJobEXP="100" rewardCombatJobEXP="75" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[커틀러 루터와 대화]]" draft="^#048dcd커틀러^#e6d6c5에게 다음에 할 것에 대해 물어보아야 합니다./n" npc="커틀러 루터">
+			<subjectPos subjectStr="커틀러 루터와 대화" mapTargetId="18561100"/>
+		</Subject>
+		<Subject typeName="Hunt" func="NULL" desc="[[괴수 소환]]" draft="괴수를 처치할 준비가 되면, ^#048dcd커틀러^#e6d6c5에게 이야기 하십시오./n" npc="커틀러 루터">
+			<subjectPos subjectStr="괴수 소환" mapTargetId="18561100"/>
+		</Subject>
+		<Subject typeName="Ready" func="Quest203304033_Ready" desc="[[괴수 처치]]" draft="^#ca0202그레이트 티모^#e6d6c5를 해치우십시오./n" npc="커틀러 루터">
+			<subjectPos subjectStr="괴수 처치" mapTargetId="1"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[커틀러 루터에게 보고]]" draft="그레이트 티모를 해치웠으니, ^#048dcd커틀러^#e6d6c5에게 보고하십시오./n" npc="커틀러 루터">
+			<subjectPos subjectStr="커틀러 루터에게 보고" mapTargetId="18562100"/>
+		</Subject>
+		<Storage target1_x="903" target1_y="6218" target1_z="517.76"/>
+		<BasicReward typeID="2100000000" count="30"/>
+		<ChoiceReward typeID="60014" count="1"/>
+		<ChoiceReward typeID="60015" count="1"/>
+	</Quest>
+	<Quest typeID="203304034" typeName="명령 전달" group="100" NPC="지스 케건" reportTo="감시병" cancelable="1" repeatable="1" retryable="1" lv="17" desc="투 파카를 감시하는 ^#1898ff감시병^#000000에게 제 말을 전해주세요. 그는 ^#1898ff북부 해변 서쪽 끝 동굴^#000000에서 투토족을 감시하고 있을 거에요./n" difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="150" rewardLifeJobEXP="100" rewardCombatJobEXP="75" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[지스 케건과 대화]]" draft="^#048dcd지스 케건^#e6d6c5의 말을 들어 보십시오. (지스 케건이 블루코랄로 돌아갔다면, ^#048dcd블루코랄 경비대^#e6d6c5에서 찾을 수 있습니다.)/n" npc="지스 케건">
+			<subjectPos subjectStr="지스 케건과 대화" mapTargetId="18571101"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[감시병과 대화]]" draft="투 파카를 감시하는 ^#048dcd감시병^#e6d6c5에게 지스 케건의 말을 전해주십시오. 그는 ^#048dcd북부 해변 서쪽 끝 동굴^#e6d6c5에서 투토족을 감시하고 있습니다./n" npc="감시병">
+			<subjectPos subjectStr="감시병과 대화" mapTargetId="18582100"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="35"/>
+	</Quest>
+</Quest>

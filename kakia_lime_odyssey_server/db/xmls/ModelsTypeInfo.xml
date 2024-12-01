@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2006 rel. 3 U (http://www.altova.com) by Na (EMBRACE) -->
+<ModelsTypeInfo>
+	<ModelsType typeId="0" typeName="인간형"/>
+	<ModelsType typeId="1" typeName="동물형"/>
+	<ModelsType typeId="2" typeName="식물형"/>
+	<ModelsType typeId="3" typeName="곤충형"/>
+	<ModelsType typeId="4" typeName="요정형"/>
+	<ModelsType typeId="5" typeName="수생형"/>
+	<ModelsType typeId="6" typeName="어류형"/>
+	<ModelsType typeId="7" typeName="공룡형"/>
+	<ModelsType typeId="8" typeName="조류형"/>
+	<ModelsType typeId="9" typeName="거인형"/>
+	<ModelsType typeId="10" typeName="환수형"/>
+	<ModelsType typeId="11" typeName="혼합형"/>
+	<ModelsType typeId="12" typeName="기계형"/>
+	<ModelsType typeId="13" typeName="괴물형"/>
+	<ModelsType typeId="14" typeName="무형"/>
+	<ModelsType typeId="1000" typeName="수집물"/>
+	<ModelsType typeId="1001" typeName="라임의 조각"/>
+	<ModelsType typeId="1002" typeName="풀"/>
+	<ModelsType typeId="1003" typeName="나무"/>
+	<ModelsType typeId="1004" typeName="유물"/>
+	<ModelsType typeId="1005" typeName="광석"/>
+	<ModelsType typeId="1006" typeName="꽃"/>
+	<ModelsType typeId="1007" typeName="채소"/>
+	<ModelsType typeId="1008" typeName="버섯"/>
+	<ModelsType typeId="1009" typeName="산호"/>
+	<ModelsType typeId="1010" typeName="동물"/>
+	<ModelsType typeId="1011" typeName="고치"/>
+	<ModelsType typeId="1012" typeName="해산물"/>
+	<ModelsType typeId="1013" typeName="보석"/>
+	<ModelsType typeId="1014" typeName="서판"/>
+	<ModelsType typeId="1015" typeName="시체"/>
+	<ModelsType typeId="1016" typeName="돌"/>
+	<ModelsType typeId="1017" typeName="암석"/>
+	<ModelsType typeId="1018" typeName="흙더미"/>
+	<ModelsType typeId="2000" typeName="특산물"/>
+	<ModelsType typeId="3000" typeName="재배물"/>
+	<ModelsType typeId="4000" typeName="특수 수집물"/>
+	<ModelsType typeId="5000" typeName="희귀 수집물"/>
+</ModelsTypeInfo>

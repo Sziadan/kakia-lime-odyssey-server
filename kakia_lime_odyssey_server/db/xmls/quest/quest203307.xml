@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by Administrator (EMBRACE) -->
+<Quest>
+	<Quest typeID="203307001" typeName="파이터 스탭 트레이닝" group="101" NPC="전사 교관" reportTo="전사 교관" cancelable="1" repeatable="1" retryable="1" lv="1" desc="자, 내가 불어넣어 준 검기가 느껴지지요?/n수련 임무는 ^#00ffff그린코랄 북동쪽 다리를 건너^#000000가서 ^#00ffff빨강 스텔라를 X마리 사냥^#000000하고 오는 겁니다./n /n그 검기는 아직 당신의 힘이 아니니까 ^#00ffffX분^#000000이 지나면 검기가 흐트러질 거에요. ^#00ffff시간이 다 가기 전^#000000에 빨강 스텔라 X마리를 다 사냥하고 오세요./n이 임무를 완수하면 그 힘은 자연스럽게 당신 것이 될 겁니다./n" difficulty="1" onMessage="Quest203307001_onMessage" ChoiceRewardLimit="0" rewardEXP="50" rewardLifeJobEXP="30" rewardCombatJobEXP="0" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[전사 교관과 대화]]"/>
+		<Subject typeName="Hunt" func="Quest203307001_Hunt" desc="[[빨강 스텔라 처치]]"/>
+		<Subject typeName="Success" func="NULL" desc="[[전사 교관에게 보고]]"/>
+		<Storage target1_typeID="40" target1_goal="3" target1_count="0" target1_type="2" target2_typeID="0"/>
+		<BasicReward typeID="2100000000" count="10"/>
+		<ChoiceReward typeID="2100000000" count="1"/>
+	</Quest>
+	<Quest typeID="203307002" typeName="서바이벌 트레이닝" group="101" NPC="전사 교관" reportTo="전사 교관" cancelable="1" repeatable="1" retryable="1" lv="1" desc="우리들에게는 질긴 생존력이 필요해요. 옆에서 동료들이 쓰러져도 끝까지 살아남아 동료들을 지킬 수 있어야 한다, 이 말입니다./n /n당신의 끈질긴 생명력을 증명하기 위해, 투토 족이 득실거리는 해변 투 인티로 가서 '^#00ffff다섯 갈퀴의 수호자^#000000'를 쓰러트리고 ^#00ffff가면^#000000을 벗겨 오시는 것이 이번의 수련 임무입니다. 아, 투 인티는 ^#00ffff그린코랄의 남쪽, 에트워르의 산호 가공소 근처 해변^#000000에 있어요./n" difficulty="1" onMessage="Quest203307002_onMessage" ChoiceRewardLimit="0" rewardEXP="50" rewardLifeJobEXP="30" rewardCombatJobEXP="0" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[전사 교관과 대화]]"/>
+		<Subject typeName="Hunt" func="Quest203307002_Hunt" desc="[[다섯 갈퀴의 수호자 처치]]"/>
+		<Subject typeName="Success" func="NULL" desc="[[전사 교관에게 보고]]"/>
+		<Storage target1_typeID="40" target1_goal="1" target1_count="0" target1_type="2" target2_typeID="0"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+	<Quest typeID="203307003" typeName="택틱스 트레이닝" group="101" NPC="전사 교관" reportTo="전사 교관" cancelable="1" repeatable="1" retryable="1" lv="1" desc="더 많은 데미지를 입혀 적을 효과적으로 쓰러트리는 방법을 알고 싶은 거로군요. 남부 훔바바의 숲으로 가셔서 경비대원 바르토를 만나 보세요. 가시는 김에 그가 제게 보내는 편지가 있을 테니 그것도 받아 오시고요./n /n아, 한 가지 조심하실 게 있어요. 그는 성질이 좀 급하니, 적으로 착각당하지 않도록 주의하시는 게 좋을 겁니다./n" difficulty="1" onMessage="Quest203307003_onMessage" ChoiceRewardLimit="0" rewardEXP="50" rewardLifeJobEXP="30" rewardCombatJobEXP="0" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[전사 교관과 대화]]"/>
+		<Subject typeName="Hunt" func="Quest203307003_Hunt" desc="[[바르토와 대화]]"/>
+		<Subject typeName="Success" func="NULL" desc="[[전사 교관에게 보고]]"/>
+		<Storage target1_typeID="40" target1_goal="1" target1_count="0" target1_type="2" target2_typeID="0"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+	<Quest typeID="203307101" typeName="매지션 브랜디쉬 트레이닝" group="101" NPC="마술사 교관" reportTo="마술사 교관" cancelable="1" repeatable="1" retryable="1" lv="1" desc="화끈하게 무기를 휘두르는 법을 수련하고 싶으시다면 그린코랄 북동쪽 다리를 건너가세요. 거기에 많이 있는 빨강 스텔라를 당신이 든 무기로 사정 없이 사냥해 주시면 됩니다./n빨강 스텔라 10마리를 사냥해 보신 다음 제게로 돌아와 주시면 수련의 성과가 어떤지 보아 드리도록 하지요./n" difficulty="1" onMessage="Quest203307101_onMessage" ChoiceRewardLimit="-1" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="0" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[마술사 교관과 대화]]"/>
+		<Subject typeName="Hunt" func="Quest203307101_Hunt" desc="[[빨강 스텔라 처치]]"/>
+		<Subject typeName="Success" func="NULL" desc="[[마술사 교관과 대화]]"/>
+		<Storage target1_typeID="40" target1_goal="10" target1_count="0" target1_type="2"/>
+	</Quest>
+	<Quest typeID="203307102" typeName="매지션 매직 트레이닝" group="101" NPC="마술사 교관" reportTo="마술사 교관" cancelable="1" repeatable="1" retryable="1" lv="1" desc="마나 스톤의 기운을 느끼고 오십시오. 그린코랄 남동쪽에 있는 남부 훔바바의 숲에 작은 호수가 있습니다. 마나 스톤은 그 호수 밑바닥에 있지요./n /n마나가 응축되어 머무는 마나 스톤은 만지는 사람에게도 약간의 마나를 나누어 줍니다. 그럼, 냉큼 다녀오시길./n" difficulty="1" onMessage="NULL" ChoiceRewardLimit="-1" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="0" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[마술사 교관과 대화]]"/>
+		<Subject typeName="Explore" func="NULL" desc="[[마나 스톤 탐색]]"/>
+		<Subject typeName="Success" func="NULL" desc="[[마술사 교관과 대화]]"/>
+		<Storage temp="0"/>
+	</Quest>
+	<Quest typeID="203307103" typeName="캐스트 매직 트레이닝" group="101" NPC="마술사 교관" reportTo="마술사 교관" cancelable="1" repeatable="1" retryable="1" lv="1" desc="캐스팅에 소비되는 시간이 너무 길면 주문을 읊조리다 적의 공격에 쓰러지기 십상이지요. 이번 수련 임무는 적의 방해를 받기 전에 먼저 캐스팅을 완료하여 적을 쓰러트리는 것입니다./n /n남부 훔바바의 숲 깊은 곳에 나타나는 고블린 굴드는 약삭빨라서, 이번 수련에 딱 어울리는 수련 상대가 될 것입니다. 굴드를 물리치고 그의 전리품을 가져오십시오./n" difficulty="1" onMessage="Quest203307103_onMessage" ChoiceRewardLimit="-1" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="0" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[마술사 교관과 대화]]"/>
+		<Subject typeName="Collect" func="Quest203307103_Collect" desc="[[굴드의 전리품]]"/>
+		<Subject typeName="Success" func="NULL" desc="[[마술사 교관과 대화]]"/>
+		<Storage target1_typeID="150166" target1_goal="1" target1_count="0" target1_type="2" target2_typeID="29"/>
+	</Quest>
+	<Quest typeID="203307104" typeName="레인포스 마나 트레이닝" group="101" NPC="마술사 교관" reportTo="마술사 교관" cancelable="1" repeatable="1" retryable="1" lv="1" desc="마법이란 무엇일까요? 쉬우면서도 어려운 질문이지요. 고명한 마법기사인 지스 케건에게 이에 대한 답을 듣고 오십시오./n /n지스 케건은 블루코랄 경비대 건물 안에 있습니다./n" difficulty="1" onMessage="NULL" ChoiceRewardLimit="-1" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="0" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[마술사 교관과 대화]]"/>
+		<Subject typeName="Talk" func="NULL" desc="[[지스 케건과 대화]]"/>
+		<Subject typeName="Success" func="NULL" desc="[[마술사 교관과 대화]]"/>
+		<Storage temp="0"/>
+	</Quest>
+</Quest>

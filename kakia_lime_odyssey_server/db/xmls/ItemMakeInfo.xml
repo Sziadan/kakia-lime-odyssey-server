@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by 카이 (siriusent) -->
+<ItemMakeInfo>
+	<MakeStuffSkill skillID="100513" motionID="1120003" groupId="1" stuffType="103"/>
+	<MakeStuffSkill skillID="100501" motionID="1120003" groupId="1" stuffType="103"/>
+	<MakeStuffSkill skillID="100502" motionID="1120003" groupId="1" stuffType="103"/>
+	<MakeStuffSkill skillID="100503" motionID="1120003" groupId="1" stuffType="103"/>
+	<MakeStuffSkill skillID="100504" motionID="1120003" groupId="1" stuffType="103"/>
+	<MakeStuffSkill skillID="100505" motionID="1120003" groupId="1" stuffType="103"/>
+	<MakeStuffSkill skillID="100506" motionID="1120003" groupId="1" stuffType="103"/>
+	<MakeStuffSkill skillID="100507" motionID="1120003" groupId="1" stuffType="103"/>
+	<MakeStuffSkill skillID="100508" motionID="1120003" groupId="1" stuffType="103"/>
+	<MakeStuffSkill skillID="100509" motionID="1120003" groupId="2" stuffType="106"/>
+	<MakeStuffSkill skillID="100510" motionID="1120003" groupId="2" stuffType="106"/>
+	<MakeStuffSkill skillID="100511" motionID="1120003" groupId="2" stuffType="106"/>
+	<MakeStuffSkill skillID="100512" motionID="1120003" groupId="2" stuffType="106"/>
+	<MakeStuffSkill skillID="100515" motionID="1120003" groupId="3" stuffType="110"/>
+	<MakeStuffSkill skillID="100516" motionID="1120003" groupId="3" stuffType="109"/>
+	<MakeStuffSkill skillID="110501" motionID="1120004" groupId="4" stuffType="101"/>
+	<MakeStuffSkill skillID="110502" motionID="1120004" groupId="4" stuffType="101"/>
+	<MakeStuffSkill skillID="110503" motionID="1120004" groupId="5" stuffType="111"/>
+	<MakeStuffSkill skillID="110504" motionID="1120004" groupId="4" stuffType="101"/>
+	<MakeStuffSkill skillID="110505" motionID="1120004" groupId="4" stuffType="101"/>
+	<MakeStuffSkill skillID="110506" motionID="1120004" groupId="4" stuffType="101"/>
+	<MakeStuffSkill skillID="110507" motionID="1120004" groupId="3" stuffType="106"/>
+	<MakeStuffSkill skillID="110508" motionID="1120004" groupId="3" stuffType="106"/>
+	<MakeStuffSkill skillID="110515" motionID="1120004" groupId="5" stuffType="111"/>
+	<MakeStuffSkill skillID="110509" motionID="1120004" groupId="5" stuffType="111"/>
+	<MakeStuffSkill skillID="110510" motionID="1120004" groupId="5" stuffType="111"/>
+	<MakeStuffSkill skillID="110511" motionID="1120004" groupId="5" stuffType="117"/>
+	<MakeStuffSkill skillID="110512" motionID="1120004" groupId="5" stuffType="117"/>
+	<MakeStuffSkill skillID="110513" motionID="1120004" groupId="5" stuffType="111"/>
+	<MakeStuffSkill skillID="110514" motionID="1120004" groupId="5" stuffType="111"/>
+	<MakeStuffSkill skillID="110518" motionID="1120004" groupId="3" stuffType="110"/>
+	<MakeStuffSkill skillID="110519" motionID="1120004" groupId="3" stuffType="109"/>
+	<MakeStuffSkill skillID="120501" motionID="1120010" groupId="6" stuffType="116"/>
+	<MakeStuffSkill skillID="120502" motionID="1120010" groupId="6" stuffType="116"/>
+	<MakeStuffSkill skillID="120503" motionID="1120010" groupId="7" stuffType="110"/>
+	<MakeStuffSkill skillID="120504" motionID="1120010" groupId="8" stuffType="116"/>
+	<MakeStuffSkill skillID="120510" motionID="1120010" groupId="8" stuffType="116"/>
+	<MakeStuffSkill skillID="120505" motionID="1120010" groupId="8" stuffType="116"/>
+	<MakeStuffSkill skillID="120506" motionID="1120010" groupId="8" stuffType="102"/>
+	<MakeStuffSkill skillID="120507" motionID="1120010" groupId="8" stuffType="121"/>
+	<MakeStuffSkill skillID="120508" motionID="1120010" groupId="8" stuffType="116"/>
+	<MakeStuffSkill skillID="120509" motionID="1120010" groupId="8" stuffType="121"/>
+	<MakeStuffSkill skillID="120511" motionID="1120010" groupId="9" stuffType="102"/>
+	<MakeStuffSkill skillID="120512" motionID="1120010" groupId="10" stuffType="121"/>
+	<MakeStuffSkill skillID="120513" motionID="1120010" groupId="7" stuffType="114"/>
+	<MakeStuffSkill skillID="120514" motionID="1120010" groupId="8" stuffType="121"/>
+	<MakeStuffSkill skillID="130501" motionID="1120011" groupId="11" stuffType="123"/>
+	<MakeStuffSkill skillID="130502" motionID="1120011" groupId="11" stuffType="123"/>
+	<MakeStuffSkill skillID="130507" motionID="1120011" groupId="10" stuffType="121"/>
+	<MakeStuffSkill skillID="130503" motionID="1120011" groupId="10" stuffType="121"/>
+	<MakeStuffSkill skillID="130504" motionID="1120011" groupId="10" stuffType="121"/>
+	<MakeStuffSkill skillID="130505" motionID="1120011" groupId="6" stuffType="116"/>
+	<MakeStuffSkill skillID="130506" motionID="1120011" groupId="6" stuffType="116"/>
+	<MakeItemSkill skillID="101501" motionID="1120003" groupId="12" itemID1="201042" count1="1" itemID2="201048" count2="1" itemID3="201049" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="111501" motionID="1120004" groupId="12" itemID1="201043" count1="1" itemID2="201050" count2="1" itemID3="201051" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="121501" motionID="1120010" groupId="12" itemID1="201044" count1="1" itemID2="201052" count2="1" itemID3="201053" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="131519" motionID="1120011" groupId="12" itemID1="201068" count1="1" itemID2="201066" count2="1" itemID3="201067" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300001" motionID="1120011" groupId="18" itemID1="201054" count1="1" itemID2="200017" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300002" motionID="1120011" groupId="18" itemID1="31" count1="1" itemID2="200016" count2="2" itemID3="201028" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300003" motionID="1120011" groupId="18" itemID1="32" count1="1" itemID2="200005" count2="3" itemID3="201036" count3="1" itemID4="201033" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300004" motionID="1120011" groupId="18" itemID1="33" count1="1" itemID2="200044" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300005" motionID="1120011" groupId="18" itemID1="34" count1="1" itemID2="200043" count2="2" itemID3="201029" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300006" motionID="1120011" groupId="18" itemID1="35" count1="1" itemID2="200039" count2="3" itemID3="201037" count3="1" itemID4="220003" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300007" motionID="1120011" groupId="18" itemID1="36" count1="1" itemID2="200042" count2="4" itemID3="201004" count3="2" itemID4="220001" count4="2" itemID5="201076" count5="1"/>
+	<MakeItemSkill skillID="300008" motionID="1120011" groupId="18" itemID1="58" count1="1" itemID2="200063" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300009" motionID="1120011" groupId="18" itemID1="89" count1="1" itemID2="200062" count2="2" itemID3="201029" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300010" motionID="1120011" groupId="18" itemID1="90" count1="1" itemID2="200065" count2="3" itemID3="201005" count3="1" itemID4="220006" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300011" motionID="1120011" groupId="18" itemID1="91" count1="1" itemID2="200064" count2="4" itemID3="201012" count3="2" itemID4="220005" count4="2" itemID5="201082" count5="1"/>
+	<MakeItemSkill skillID="300012" motionID="1120011" groupId="18" itemID1="92" count1="1" itemID2="200069" count2="5" itemID3="201014" count3="2" itemID4="220007" count4="3" itemID5="201081" count5="2"/>
+	<MakeItemSkill skillID="300013" motionID="1120003" groupId="13" itemID1="201054" count1="1" itemID2="200005" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300014" motionID="1120003" groupId="13" itemID1="4" count1="1" itemID2="200008" count2="2" itemID3="201056" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300015" motionID="1120003" groupId="13" itemID1="5" count1="1" itemID2="200002" count2="3" itemID3="201061" count3="1" itemID4="201026" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300016" motionID="1120003" groupId="13" itemID1="6" count1="1" itemID2="200039" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300017" motionID="1120003" groupId="13" itemID1="7" count1="1" itemID2="200037" count2="2" itemID3="201057" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300018" motionID="1120003" groupId="13" itemID1="8" count1="1" itemID2="200034" count2="3" itemID3="201006" count3="1" itemID4="220002" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300019" motionID="1120003" groupId="13" itemID1="9" count1="1" itemID2="200040" count2="4" itemID3="201020" count3="2" itemID4="220003" count4="2" itemID5="201078" count5="1"/>
+	<MakeItemSkill skillID="300020" motionID="1120003" groupId="13" itemID1="201080" count1="1" itemID2="200059" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300021" motionID="1120003" groupId="13" itemID1="100" count1="1" itemID2="200054" count2="2" itemID3="201007" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300022" motionID="1120003" groupId="13" itemID1="101" count1="1" itemID2="200057" count2="3" itemID3="201037" count3="1" itemID4="220007" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300023" motionID="1120003" groupId="13" itemID1="102" count1="1" itemID2="200059" count2="4" itemID3="201060" count3="2" itemID4="220006" count4="2" itemID5="201080" count5="1"/>
+	<MakeItemSkill skillID="300024" motionID="1120003" groupId="13" itemID1="103" count1="1" itemID2="200060" count2="5" itemID3="201025" count3="2" itemID4="220005" count4="3" itemID5="201082" count5="2"/>
+	<MakeItemSkill skillID="300025" motionID="1120003" groupId="15" itemID1="201054" count1="1" itemID2="200006" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300026" motionID="1120003" groupId="15" itemID1="22" count1="1" itemID2="200009" count2="2" itemID3="201008" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300027" motionID="1120003" groupId="15" itemID1="23" count1="1" itemID2="200003" count2="3" itemID3="201004" count3="1" itemID4="201017" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300028" motionID="1120003" groupId="15" itemID1="24" count1="1" itemID2="200038" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300029" motionID="1120003" groupId="15" itemID1="25" count1="1" itemID2="200039" count2="2" itemID3="201009" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300030" motionID="1120003" groupId="15" itemID1="26" count1="1" itemID2="200034" count2="3" itemID3="201021" count3="1" itemID4="220001" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300031" motionID="1120003" groupId="15" itemID1="27" count1="1" itemID2="200035" count2="4" itemID3="201023" count3="2" itemID4="220002" count4="2" itemID5="201078" count5="1"/>
+	<MakeItemSkill skillID="300032" motionID="1120003" groupId="15" itemID1="57" count1="1" itemID2="200060" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300033" motionID="1120003" groupId="15" itemID1="110" count1="1" itemID2="200055" count2="2" itemID3="201010" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300034" motionID="1120003" groupId="15" itemID1="111" count1="1" itemID2="200058" count2="3" itemID3="201060" count3="1" itemID4="220005" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300035" motionID="1120003" groupId="15" itemID1="112" count1="1" itemID2="200061" count2="4" itemID3="201006" count3="2" itemID4="220007" count4="2" itemID5="201077" count5="1"/>
+	<MakeItemSkill skillID="300036" motionID="1120003" groupId="15" itemID1="113" count1="1" itemID2="200057" count2="5" itemID3="201061" count3="2" itemID4="220006" count4="3" itemID5="201079" count5="2"/>
+	<MakeItemSkill skillID="300037" motionID="1120003" groupId="19" itemID1="201054" count1="1" itemID2="200002" count2="1" itemID3="201011" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300038" motionID="1120003" groupId="19" itemID1="50227" count1="1" itemID2="200001" count2="2" itemID3="201020" count3="2" itemID4="201027" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300039" motionID="1120003" groupId="19" itemID1="50228" count1="1" itemID2="200036" count2="2" itemID3="201012" count3="3" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300040" motionID="1120003" groupId="19" itemID1="50229" count1="1" itemID2="200037" count2="3" itemID3="201003" count3="3" itemID4="220003" count4="1" itemID5="201076" count5="1"/>
+	<MakeItemSkill skillID="300041" motionID="1120003" groupId="19" itemID1="50230" count1="1" itemID2="200061" count2="3" itemID3="201013" count3="4" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300042" motionID="1120003" groupId="19" itemID1="50231" count1="1" itemID2="200056" count2="4" itemID3="201001" count3="4" itemID4="220005" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300043" motionID="1120003" groupId="19" itemID1="50232" count1="1" itemID2="200053" count2="5" itemID3="201018" count3="6" itemID4="220007" count4="3" itemID5="201081" count5="1"/>
+	<MakeItemSkill skillID="300044" motionID="1120003" groupId="14" itemID1="201054" count1="1" itemID2="200003" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300045" motionID="1120003" groupId="14" itemID1="13" count1="1" itemID2="200005" count2="2" itemID3="201007" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300046" motionID="1120003" groupId="14" itemID1="14" count1="1" itemID2="200004" count2="3" itemID3="201060" count3="1" itemID4="201031" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300047" motionID="1120003" groupId="14" itemID1="15" count1="1" itemID2="200038" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300048" motionID="1120003" groupId="14" itemID1="16" count1="1" itemID2="200035" count2="2" itemID3="201008" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300049" motionID="1120003" groupId="14" itemID1="17" count1="1" itemID2="200036" count2="3" itemID3="201002" count3="1" itemID4="220001" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300050" motionID="1120003" groupId="14" itemID1="18" count1="1" itemID2="200034" count2="4" itemID3="201019" count3="2" itemID4="220002" count4="2" itemID5="201078" count5="1"/>
+	<MakeItemSkill skillID="300051" motionID="1120003" groupId="14" itemID1="56" count1="1" itemID2="200057" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300052" motionID="1120003" groupId="14" itemID1="132" count1="1" itemID2="200059" count2="2" itemID3="201009" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300053" motionID="1120003" groupId="14" itemID1="133" count1="1" itemID2="200054" count2="3" itemID3="201004" count3="1" itemID4="220006" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300054" motionID="1120003" groupId="14" itemID1="134" count1="1" itemID2="200058" count2="4" itemID3="201023" count3="2" itemID4="220005" count4="2" itemID5="201081" count5="1"/>
+	<MakeItemSkill skillID="300055" motionID="1120003" groupId="14" itemID1="135" count1="1" itemID2="200053" count2="5" itemID3="201005" count3="2" itemID4="220007" count4="3" itemID5="201080" count5="2"/>
+	<MakeItemSkill skillID="300056" motionID="1120011" groupId="17" itemID1="201054" count1="1" itemID2="200004" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300057" motionID="1120011" groupId="17" itemID1="49" count1="1" itemID2="200006" count2="2" itemID3="201015" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300058" motionID="1120011" groupId="17" itemID1="50" count1="1" itemID2="200005" count2="3" itemID3="201060" count3="1" itemID4="201027" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300059" motionID="1120011" groupId="17" itemID1="51" count1="1" itemID2="200039" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300060" motionID="1120011" groupId="17" itemID1="52" count1="1" itemID2="200036" count2="2" itemID3="201016" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300061" motionID="1120011" groupId="17" itemID1="53" count1="1" itemID2="200040" count2="3" itemID3="201020" count3="1" itemID4="220003" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300062" motionID="1120011" groupId="17" itemID1="54" count1="1" itemID2="200039" count2="4" itemID3="201021" count3="2" itemID4="220001" count4="2" itemID5="201076" count5="1"/>
+	<MakeItemSkill skillID="300063" motionID="1120011" groupId="17" itemID1="60" count1="1" itemID2="200058" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300064" motionID="1120011" groupId="17" itemID1="121" count1="1" itemID2="200060" count2="2" itemID3="201057" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300065" motionID="1120011" groupId="17" itemID1="122" count1="1" itemID2="200055" count2="3" itemID3="201022" count3="1" itemID4="220007" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300066" motionID="1120011" groupId="17" itemID1="123" count1="1" itemID2="200054" count2="4" itemID3="201023" count3="2" itemID4="220005" count4="2" itemID5="201077" count5="1"/>
+	<MakeItemSkill skillID="300067" motionID="1120011" groupId="17" itemID1="124" count1="1" itemID2="200055" count2="5" itemID3="201003" count3="2" itemID4="220006" count4="3" itemID5="201079" count5="2"/>
+	<MakeItemSkill skillID="300068" motionID="1120003" groupId="16" itemID1="201054" count1="1" itemID2="200007" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300069" motionID="1120003" groupId="16" itemID1="40" count1="1" itemID2="200001" count2="2" itemID3="201012" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300070" motionID="1120003" groupId="16" itemID1="41" count1="1" itemID2="200006" count2="3" itemID3="201024" count3="1" itemID4="220004" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300071" motionID="1120003" groupId="16" itemID1="42" count1="1" itemID2="200034" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300072" motionID="1120003" groupId="16" itemID1="43" count1="1" itemID2="200037" count2="2" itemID3="201056" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300073" motionID="1120003" groupId="16" itemID1="44" count1="1" itemID2="200041" count2="3" itemID3="201025" count3="1" itemID4="220002" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300074" motionID="1120003" groupId="16" itemID1="45" count1="1" itemID2="200038" count2="4" itemID3="201001" count3="2" itemID4="220003" count4="2" itemID5="201078" count5="1"/>
+	<MakeItemSkill skillID="300075" motionID="1120003" groupId="16" itemID1="59" count1="1" itemID2="200053" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300076" motionID="1120003" groupId="16" itemID1="142" count1="1" itemID2="200061" count2="2" itemID3="201008" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300077" motionID="1120003" groupId="16" itemID1="143" count1="1" itemID2="200056" count2="3" itemID3="201005" count3="1" itemID4="220007" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300078" motionID="1120003" groupId="16" itemID1="144" count1="1" itemID2="200056" count2="4" itemID3="201018" count3="2" itemID4="220006" count4="2" itemID5="201080" count5="1"/>
+	<MakeItemSkill skillID="300079" motionID="1120003" groupId="16" itemID1="145" count1="1" itemID2="200056" count2="5" itemID3="201004" count3="2" itemID4="220005" count4="3" itemID5="201079" count5="2"/>
+	<MakeItemSkill skillID="300080" motionID="1120004" groupId="21" itemID1="200021" count1="1" itemID2="200005" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300081" motionID="1120004" groupId="21" itemID1="200021" count1="1" itemID2="200006" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300082" motionID="1120004" groupId="21" itemID1="200021" count1="1" itemID2="-1" count2="0" itemID3="201001" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300083" motionID="1120004" groupId="21" itemID1="200021" count1="1" itemID2="-1" count2="0" itemID3="201004" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300084" motionID="1120004" groupId="21" itemID1="200021" count1="1" itemID2="200001" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300085" motionID="1120004" groupId="21" itemID1="200021" count1="1" itemID2="-1" count2="0" itemID3="201019" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300086" motionID="1120004" groupId="21" itemID1="200021" count1="1" itemID2="-1" count2="0" itemID3="201006" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300087" motionID="1120004" groupId="21" itemID1="50071" count1="1" itemID2="200002" count2="1" itemID3="201001" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300088" motionID="1120004" groupId="21" itemID1="50076" count1="1" itemID2="200003" count2="1" itemID3="201004" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300089" motionID="1120004" groupId="21" itemID1="50072" count1="1" itemID2="200004" count2="1" itemID3="-1" count3="0" itemID4="201033" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300090" motionID="1120004" groupId="21" itemID1="50075" count1="1" itemID2="200007" count2="1" itemID3="-1" count3="0" itemID4="201017" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300091" motionID="1120004" groupId="21" itemID1="50077" count1="1" itemID2="200008" count2="1" itemID3="201018" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300092" motionID="1120004" groupId="21" itemID1="50073" count1="1" itemID2="200009" count2="1" itemID3="-1" count3="0" itemID4="201031" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300093" motionID="1120004" groupId="21" itemID1="50074" count1="1" itemID2="200005" count2="1" itemID3="-1" count3="0" itemID4="220004" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300094" motionID="1120004" groupId="21" itemID1="50078" count1="1" itemID2="200035" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300095" motionID="1120004" groupId="21" itemID1="50083" count1="1" itemID2="200036" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300096" motionID="1120004" groupId="21" itemID1="50079" count1="1" itemID2="200037" count2="1" itemID3="201007" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300097" motionID="1120004" groupId="21" itemID1="50082" count1="1" itemID2="200040" count2="1" itemID3="201014" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300098" motionID="1120004" groupId="21" itemID1="50084" count1="1" itemID2="200041" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300099" motionID="1120004" groupId="21" itemID1="50080" count1="1" itemID2="200042" count2="1" itemID3="201008" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300100" motionID="1120004" groupId="21" itemID1="50081" count1="1" itemID2="200038" count2="1" itemID3="201012" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300101" motionID="1120004" groupId="21" itemID1="50085" count1="1" itemID2="200035" count2="2" itemID3="201020" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300102" motionID="1120004" groupId="21" itemID1="50090" count1="1" itemID2="200036" count2="2" itemID3="201019" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300103" motionID="1120004" groupId="21" itemID1="50086" count1="1" itemID2="200037" count2="2" itemID3="201001" count3="2" itemID4="201033" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300104" motionID="1120004" groupId="21" itemID1="50089" count1="1" itemID2="200040" count2="2" itemID3="201004" count3="2" itemID4="220004" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300105" motionID="1120004" groupId="21" itemID1="50091" count1="1" itemID2="200041" count2="2" itemID3="201021" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300106" motionID="1120004" groupId="21" itemID1="50087" count1="1" itemID2="200042" count2="2" itemID3="201002" count3="2" itemID4="201031" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300107" motionID="1120004" groupId="21" itemID1="50088" count1="1" itemID2="200038" count2="2" itemID3="201006" count3="2" itemID4="201017" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300108" motionID="1120004" groupId="21" itemID1="50092" count1="1" itemID2="200035" count2="3" itemID3="201018" count3="2" itemID4="201033" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300109" motionID="1120004" groupId="21" itemID1="50097" count1="1" itemID2="200036" count2="3" itemID3="201001" count3="2" itemID4="220004" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300110" motionID="1120004" groupId="21" itemID1="50093" count1="1" itemID2="200037" count2="3" itemID3="201004" count3="2" itemID4="220003" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300111" motionID="1120004" groupId="21" itemID1="50096" count1="1" itemID2="200040" count2="3" itemID3="201021" count3="2" itemID4="220002" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300112" motionID="1120004" groupId="21" itemID1="50098" count1="1" itemID2="200041" count2="3" itemID3="201002" count3="2" itemID4="201017" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300113" motionID="1120004" groupId="21" itemID1="50094" count1="1" itemID2="200042" count2="3" itemID3="201006" count3="2" itemID4="220001" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300114" motionID="1120004" groupId="21" itemID1="50095" count1="1" itemID2="200038" count2="3" itemID3="201023" count3="2" itemID4="220003" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300115" motionID="1120004" groupId="21" itemID1="50371" count1="1" itemID2="200035" count2="4" itemID3="201010" count3="2" itemID4="220002" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300116" motionID="1120004" groupId="21" itemID1="50372" count1="1" itemID2="200036" count2="4" itemID3="201011" count3="2" itemID4="220001" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300117" motionID="1120004" groupId="21" itemID1="50373" count1="1" itemID2="200037" count2="4" itemID3="201007" count3="2" itemID4="220003" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300118" motionID="1120004" groupId="21" itemID1="50374" count1="1" itemID2="200040" count2="4" itemID3="201014" count3="2" itemID4="220002" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300119" motionID="1120004" groupId="21" itemID1="50375" count1="1" itemID2="200041" count2="4" itemID3="201013" count3="2" itemID4="220001" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300120" motionID="1120004" groupId="21" itemID1="50376" count1="1" itemID2="200042" count2="4" itemID3="201008" count3="2" itemID4="220003" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300121" motionID="1120004" groupId="21" itemID1="50377" count1="1" itemID2="200038" count2="4" itemID3="201012" count3="2" itemID4="220002" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300122" motionID="1120004" groupId="21" itemID1="50378" count1="1" itemID2="200054" count2="1" itemID3="201019" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300123" motionID="1120004" groupId="21" itemID1="50379" count1="1" itemID2="200055" count2="1" itemID3="201001" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300124" motionID="1120004" groupId="21" itemID1="50380" count1="1" itemID2="200056" count2="1" itemID3="201004" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300125" motionID="1120004" groupId="21" itemID1="50381" count1="1" itemID2="200059" count2="1" itemID3="201021" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300126" motionID="1120004" groupId="21" itemID1="50382" count1="1" itemID2="200060" count2="1" itemID3="201018" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300127" motionID="1120004" groupId="21" itemID1="50383" count1="1" itemID2="200061" count2="1" itemID3="201006" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300128" motionID="1120004" groupId="21" itemID1="50384" count1="1" itemID2="200057" count2="1" itemID3="201023" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300129" motionID="1120004" groupId="21" itemID1="50385" count1="1" itemID2="200054" count2="2" itemID3="201005" count3="3" itemID4="201031" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300130" motionID="1120004" groupId="21" itemID1="50386" count1="1" itemID2="200055" count2="2" itemID3="201001" count3="3" itemID4="201017" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300131" motionID="1120004" groupId="21" itemID1="50387" count1="1" itemID2="200056" count2="2" itemID3="201004" count3="3" itemID4="201033" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300132" motionID="1120004" groupId="21" itemID1="50388" count1="1" itemID2="200059" count2="2" itemID3="201021" count3="3" itemID4="220004" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300133" motionID="1120004" groupId="21" itemID1="50389" count1="1" itemID2="200060" count2="2" itemID3="201002" count3="3" itemID4="201033" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300134" motionID="1120004" groupId="21" itemID1="50390" count1="1" itemID2="200061" count2="2" itemID3="201019" count3="3" itemID4="220004" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300135" motionID="1120004" groupId="21" itemID1="50391" count1="1" itemID2="200057" count2="2" itemID3="201023" count3="3" itemID4="201017" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300136" motionID="1120004" groupId="21" itemID1="50392" count1="1" itemID2="200054" count2="3" itemID3="201010" count3="2" itemID4="220001" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300137" motionID="1120004" groupId="21" itemID1="50393" count1="1" itemID2="200055" count2="3" itemID3="201011" count3="2" itemID4="220003" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300138" motionID="1120004" groupId="21" itemID1="50394" count1="1" itemID2="200056" count2="3" itemID3="201007" count3="2" itemID4="220002" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300139" motionID="1120004" groupId="21" itemID1="50395" count1="1" itemID2="200059" count2="3" itemID3="201014" count3="2" itemID4="220001" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300140" motionID="1120004" groupId="21" itemID1="50396" count1="1" itemID2="200060" count2="3" itemID3="201013" count3="2" itemID4="220003" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300141" motionID="1120004" groupId="21" itemID1="50397" count1="1" itemID2="200061" count2="3" itemID3="201008" count3="2" itemID4="220002" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300142" motionID="1120004" groupId="21" itemID1="50398" count1="1" itemID2="200057" count2="3" itemID3="201012" count3="2" itemID4="220001" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300143" motionID="1120004" groupId="21" itemID1="50106" count1="1" itemID2="200054" count2="4" itemID3="201010" count3="3" itemID4="220005" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300144" motionID="1120004" groupId="21" itemID1="50111" count1="1" itemID2="200055" count2="4" itemID3="201011" count3="3" itemID4="220007" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300145" motionID="1120004" groupId="21" itemID1="50107" count1="1" itemID2="200056" count2="4" itemID3="201007" count3="3" itemID4="220006" count4="1" itemID5="201079" count5="1"/>
+	<MakeItemSkill skillID="300146" motionID="1120004" groupId="21" itemID1="50110" count1="1" itemID2="200059" count2="4" itemID3="201014" count3="3" itemID4="220005" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300147" motionID="1120004" groupId="21" itemID1="50112" count1="1" itemID2="200060" count2="4" itemID3="201013" count3="3" itemID4="220007" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300148" motionID="1120004" groupId="21" itemID1="50108" count1="1" itemID2="200061" count2="4" itemID3="201008" count3="3" itemID4="220006" count4="1" itemID5="201077" count5="1"/>
+	<MakeItemSkill skillID="300149" motionID="1120004" groupId="21" itemID1="50109" count1="1" itemID2="200057" count2="4" itemID3="201012" count3="3" itemID4="220005" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300150" motionID="1120003" groupId="20" itemID1="200021" count1="1" itemID2="200005" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300151" motionID="1120003" groupId="20" itemID1="200021" count1="1" itemID2="200006" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300152" motionID="1120003" groupId="20" itemID1="200021" count1="1" itemID2="-1" count2="0" itemID3="201056" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300153" motionID="1120003" groupId="20" itemID1="200021" count1="1" itemID2="-1" count2="0" itemID3="201057" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300154" motionID="1120003" groupId="20" itemID1="200021" count1="1" itemID2="200001" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300155" motionID="1120003" groupId="20" itemID1="200021" count1="1" itemID2="-1" count2="0" itemID3="201007" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300156" motionID="1120003" groupId="20" itemID1="200021" count1="1" itemID2="-1" count2="0" itemID3="201008" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300157" motionID="1120003" groupId="20" itemID1="50015" count1="1" itemID2="200002" count2="1" itemID3="201010" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300158" motionID="1120003" groupId="20" itemID1="50020" count1="1" itemID2="200003" count2="1" itemID3="201012" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300159" motionID="1120003" groupId="20" itemID1="50016" count1="1" itemID2="200004" count2="1" itemID3="-1" count3="0" itemID4="201033" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300160" motionID="1120003" groupId="20" itemID1="50019" count1="1" itemID2="200007" count2="1" itemID3="-1" count3="0" itemID4="201017" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300161" motionID="1120003" groupId="20" itemID1="50021" count1="1" itemID2="200008" count2="1" itemID3="201014" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300162" motionID="1120003" groupId="20" itemID1="50017" count1="1" itemID2="200009" count2="1" itemID3="-1" count3="0" itemID4="201031" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300163" motionID="1120003" groupId="20" itemID1="50018" count1="1" itemID2="200005" count2="1" itemID3="-1" count3="0" itemID4="220004" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300164" motionID="1120003" groupId="20" itemID1="50022" count1="1" itemID2="200035" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300165" motionID="1120003" groupId="20" itemID1="50027" count1="1" itemID2="200036" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300166" motionID="1120003" groupId="20" itemID1="50023" count1="1" itemID2="200037" count2="1" itemID3="201007" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300167" motionID="1120003" groupId="20" itemID1="50026" count1="1" itemID2="200040" count2="1" itemID3="201014" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300168" motionID="1120003" groupId="20" itemID1="50028" count1="1" itemID2="200041" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300169" motionID="1120003" groupId="20" itemID1="50024" count1="1" itemID2="200042" count2="1" itemID3="201008" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300170" motionID="1120003" groupId="20" itemID1="50025" count1="1" itemID2="200038" count2="1" itemID3="201013" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300171" motionID="1120003" groupId="20" itemID1="50029" count1="1" itemID2="200035" count2="2" itemID3="201014" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300172" motionID="1120003" groupId="20" itemID1="50034" count1="1" itemID2="200036" count2="2" itemID3="201012" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300173" motionID="1120003" groupId="20" itemID1="50030" count1="1" itemID2="200037" count2="2" itemID3="201007" count3="2" itemID4="201033" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300174" motionID="1120003" groupId="20" itemID1="50033" count1="1" itemID2="200040" count2="2" itemID3="201010" count3="2" itemID4="220004" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300175" motionID="1120003" groupId="20" itemID1="50035" count1="1" itemID2="200041" count2="2" itemID3="201011" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300176" motionID="1120003" groupId="20" itemID1="50031" count1="1" itemID2="200042" count2="2" itemID3="201008" count3="2" itemID4="201031" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300177" motionID="1120003" groupId="20" itemID1="50032" count1="1" itemID2="200038" count2="2" itemID3="201013" count3="2" itemID4="201017" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300178" motionID="1120003" groupId="20" itemID1="50036" count1="1" itemID2="200035" count2="3" itemID3="201014" count3="2" itemID4="201033" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300179" motionID="1120003" groupId="20" itemID1="50041" count1="1" itemID2="200036" count2="3" itemID3="201012" count3="1" itemID4="220004" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300180" motionID="1120003" groupId="20" itemID1="50037" count1="1" itemID2="200037" count2="3" itemID3="201007" count3="1" itemID4="220003" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300181" motionID="1120003" groupId="20" itemID1="50040" count1="1" itemID2="200040" count2="3" itemID3="201010" count3="2" itemID4="220002" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300182" motionID="1120003" groupId="20" itemID1="50042" count1="1" itemID2="200041" count2="3" itemID3="201011" count3="1" itemID4="201017" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300183" motionID="1120003" groupId="20" itemID1="50038" count1="1" itemID2="200042" count2="3" itemID3="201008" count3="1" itemID4="220001" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300184" motionID="1120003" groupId="20" itemID1="50039" count1="1" itemID2="200038" count2="3" itemID3="201013" count3="2" itemID4="220003" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300185" motionID="1120003" groupId="20" itemID1="50238" count1="1" itemID2="200035" count2="4" itemID3="201001" count3="2" itemID4="220002" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300186" motionID="1120003" groupId="20" itemID1="50239" count1="1" itemID2="200036" count2="4" itemID3="201018" count3="2" itemID4="220001" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300187" motionID="1120003" groupId="20" itemID1="50240" count1="1" itemID2="200037" count2="4" itemID3="201020" count3="2" itemID4="220003" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300188" motionID="1120003" groupId="20" itemID1="50241" count1="1" itemID2="200040" count2="4" itemID3="201005" count3="2" itemID4="220002" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300189" motionID="1120003" groupId="20" itemID1="50242" count1="1" itemID2="200041" count2="4" itemID3="201019" count3="2" itemID4="220001" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300190" motionID="1120003" groupId="20" itemID1="50243" count1="1" itemID2="200042" count2="4" itemID3="201021" count3="2" itemID4="220003" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300191" motionID="1120003" groupId="20" itemID1="50244" count1="1" itemID2="200038" count2="4" itemID3="201002" count3="2" itemID4="220002" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300192" motionID="1120003" groupId="20" itemID1="50245" count1="1" itemID2="200054" count2="1" itemID3="201014" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300193" motionID="1120003" groupId="20" itemID1="50246" count1="1" itemID2="200055" count2="1" itemID3="201012" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300194" motionID="1120003" groupId="20" itemID1="50247" count1="1" itemID2="200056" count2="1" itemID3="201007" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300195" motionID="1120003" groupId="20" itemID1="50248" count1="1" itemID2="200059" count2="1" itemID3="201010" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300196" motionID="1120003" groupId="20" itemID1="50249" count1="1" itemID2="200060" count2="1" itemID3="201011" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300197" motionID="1120003" groupId="20" itemID1="50250" count1="1" itemID2="200061" count2="1" itemID3="201008" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300198" motionID="1120003" groupId="20" itemID1="50251" count1="1" itemID2="200057" count2="1" itemID3="201013" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300199" motionID="1120003" groupId="20" itemID1="50252" count1="1" itemID2="200054" count2="2" itemID3="201014" count3="3" itemID4="201031" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300200" motionID="1120003" groupId="20" itemID1="50253" count1="1" itemID2="200055" count2="2" itemID3="201012" count3="3" itemID4="201017" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300201" motionID="1120003" groupId="20" itemID1="50254" count1="1" itemID2="200056" count2="2" itemID3="201007" count3="3" itemID4="201033" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300202" motionID="1120003" groupId="20" itemID1="50255" count1="1" itemID2="200059" count2="2" itemID3="201010" count3="3" itemID4="220004" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300203" motionID="1120003" groupId="20" itemID1="50256" count1="1" itemID2="200060" count2="2" itemID3="201011" count3="3" itemID4="201033" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300204" motionID="1120003" groupId="20" itemID1="50257" count1="1" itemID2="200061" count2="2" itemID3="201008" count3="3" itemID4="220004" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300205" motionID="1120003" groupId="20" itemID1="50258" count1="1" itemID2="200057" count2="2" itemID3="201013" count3="3" itemID4="201017" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300206" motionID="1120003" groupId="20" itemID1="50259" count1="1" itemID2="200054" count2="3" itemID3="201001" count3="2" itemID4="220001" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300207" motionID="1120003" groupId="20" itemID1="50260" count1="1" itemID2="200055" count2="3" itemID3="201022" count3="2" itemID4="220003" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300208" motionID="1120003" groupId="20" itemID1="50261" count1="1" itemID2="200056" count2="3" itemID3="201020" count3="2" itemID4="220002" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300209" motionID="1120003" groupId="20" itemID1="50262" count1="1" itemID2="200059" count2="3" itemID3="201005" count3="2" itemID4="220001" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300210" motionID="1120003" groupId="20" itemID1="50263" count1="1" itemID2="200060" count2="3" itemID3="201023" count3="2" itemID4="220003" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300211" motionID="1120003" groupId="20" itemID1="50264" count1="1" itemID2="200061" count2="3" itemID3="201021" count3="2" itemID4="220002" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300212" motionID="1120003" groupId="20" itemID1="50265" count1="1" itemID2="200057" count2="3" itemID3="201002" count3="2" itemID4="220001" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300213" motionID="1120003" groupId="20" itemID1="50050" count1="1" itemID2="200054" count2="4" itemID3="201001" count3="3" itemID4="220005" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300214" motionID="1120003" groupId="20" itemID1="50055" count1="1" itemID2="200055" count2="4" itemID3="201018" count3="3" itemID4="220007" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300215" motionID="1120003" groupId="20" itemID1="50051" count1="1" itemID2="200056" count2="4" itemID3="201020" count3="3" itemID4="220006" count4="1" itemID5="201080" count5="1"/>
+	<MakeItemSkill skillID="300216" motionID="1120003" groupId="20" itemID1="50054" count1="1" itemID2="200059" count2="4" itemID3="201005" count3="3" itemID4="220005" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300217" motionID="1120003" groupId="20" itemID1="50056" count1="1" itemID2="200060" count2="4" itemID3="201019" count3="3" itemID4="220007" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300218" motionID="1120003" groupId="20" itemID1="50052" count1="1" itemID2="200061" count2="4" itemID3="201021" count3="3" itemID4="220006" count4="1" itemID5="201077" count5="1"/>
+	<MakeItemSkill skillID="300219" motionID="1120003" groupId="20" itemID1="50053" count1="1" itemID2="200057" count2="4" itemID3="201002" count3="3" itemID4="220005" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300220" motionID="1120004" groupId="23" itemID1="200014" count1="1" itemID2="200005" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300221" motionID="1120004" groupId="23" itemID1="200014" count1="1" itemID2="200006" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300222" motionID="1120004" groupId="23" itemID1="200014" count1="1" itemID2="-1" count2="0" itemID3="201020" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300223" motionID="1120004" groupId="23" itemID1="200014" count1="1" itemID2="-1" count2="0" itemID3="201022" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300224" motionID="1120004" groupId="23" itemID1="200014" count1="1" itemID2="200001" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300225" motionID="1120004" groupId="23" itemID1="200014" count1="1" itemID2="-1" count2="0" itemID3="201021" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300226" motionID="1120004" groupId="23" itemID1="200014" count1="1" itemID2="-1" count2="0" itemID3="201023" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300227" motionID="1120004" groupId="23" itemID1="50183" count1="1" itemID2="200002" count2="1" itemID3="201020" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300228" motionID="1120004" groupId="23" itemID1="50188" count1="1" itemID2="200003" count2="1" itemID3="201022" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300229" motionID="1120004" groupId="23" itemID1="50184" count1="1" itemID2="200004" count2="1" itemID3="-1" count3="0" itemID4="201033" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300230" motionID="1120004" groupId="23" itemID1="50187" count1="1" itemID2="200007" count2="1" itemID3="-1" count3="0" itemID4="201017" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300231" motionID="1120004" groupId="23" itemID1="50189" count1="1" itemID2="200008" count2="1" itemID3="201021" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300232" motionID="1120004" groupId="23" itemID1="50185" count1="1" itemID2="200009" count2="1" itemID3="-1" count3="0" itemID4="201031" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300233" motionID="1120004" groupId="23" itemID1="50186" count1="1" itemID2="200005" count2="1" itemID3="-1" count3="0" itemID4="220004" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300234" motionID="1120004" groupId="23" itemID1="50190" count1="1" itemID2="200035" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300235" motionID="1120004" groupId="23" itemID1="50195" count1="1" itemID2="200036" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300236" motionID="1120004" groupId="23" itemID1="50191" count1="1" itemID2="200037" count2="1" itemID3="201020" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300237" motionID="1120004" groupId="23" itemID1="50194" count1="1" itemID2="200040" count2="1" itemID3="201022" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300238" motionID="1120004" groupId="23" itemID1="50196" count1="1" itemID2="200041" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300239" motionID="1120004" groupId="23" itemID1="50192" count1="1" itemID2="200042" count2="1" itemID3="201021" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300240" motionID="1120004" groupId="23" itemID1="50193" count1="1" itemID2="200038" count2="1" itemID3="201023" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300241" motionID="1120004" groupId="23" itemID1="50197" count1="1" itemID2="200035" count2="2" itemID3="201003" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300242" motionID="1120004" groupId="23" itemID1="50202" count1="1" itemID2="200036" count2="2" itemID3="201025" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300243" motionID="1120004" groupId="23" itemID1="50198" count1="1" itemID2="200037" count2="2" itemID3="201020" count3="2" itemID4="201033" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300244" motionID="1120004" groupId="23" itemID1="50201" count1="1" itemID2="200040" count2="2" itemID3="201022" count3="2" itemID4="220004" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300245" motionID="1120004" groupId="23" itemID1="50203" count1="1" itemID2="200041" count2="2" itemID3="201018" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300246" motionID="1120004" groupId="23" itemID1="50199" count1="1" itemID2="200042" count2="2" itemID3="201021" count3="2" itemID4="201031" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300247" motionID="1120004" groupId="23" itemID1="50200" count1="1" itemID2="200038" count2="2" itemID3="201023" count3="2" itemID4="201017" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300248" motionID="1120004" groupId="23" itemID1="50204" count1="1" itemID2="200035" count2="3" itemID3="201003" count3="2" itemID4="201033" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300249" motionID="1120004" groupId="23" itemID1="50209" count1="1" itemID2="200036" count2="3" itemID3="201025" count3="2" itemID4="220004" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300250" motionID="1120004" groupId="23" itemID1="50205" count1="1" itemID2="200037" count2="3" itemID3="201019" count3="2" itemID4="220003" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300251" motionID="1120004" groupId="23" itemID1="50208" count1="1" itemID2="200040" count2="3" itemID3="201022" count3="2" itemID4="220002" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300252" motionID="1120004" groupId="23" itemID1="50210" count1="1" itemID2="200041" count2="3" itemID3="201024" count3="2" itemID4="201017" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300253" motionID="1120004" groupId="23" itemID1="50206" count1="1" itemID2="200042" count2="3" itemID3="201021" count3="2" itemID4="220001" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300254" motionID="1120004" groupId="23" itemID1="50207" count1="1" itemID2="200038" count2="3" itemID3="201023" count3="2" itemID4="220003" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300255" motionID="1120004" groupId="23" itemID1="50511" count1="1" itemID2="200035" count2="4" itemID3="201010" count3="2" itemID4="220002" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300256" motionID="1120004" groupId="23" itemID1="50512" count1="1" itemID2="200036" count2="4" itemID3="201011" count3="2" itemID4="220001" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300257" motionID="1120004" groupId="23" itemID1="50513" count1="1" itemID2="200037" count2="4" itemID3="201007" count3="2" itemID4="220003" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300258" motionID="1120004" groupId="23" itemID1="50514" count1="1" itemID2="200040" count2="4" itemID3="201014" count3="2" itemID4="220002" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300259" motionID="1120004" groupId="23" itemID1="50515" count1="1" itemID2="200041" count2="4" itemID3="201013" count3="2" itemID4="220001" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300260" motionID="1120004" groupId="23" itemID1="50516" count1="1" itemID2="200042" count2="4" itemID3="201008" count3="2" itemID4="220003" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300261" motionID="1120004" groupId="23" itemID1="50517" count1="1" itemID2="200038" count2="4" itemID3="201012" count3="2" itemID4="220002" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300262" motionID="1120004" groupId="23" itemID1="50518" count1="1" itemID2="200054" count2="1" itemID3="201003" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300263" motionID="1120004" groupId="23" itemID1="50519" count1="1" itemID2="200055" count2="1" itemID3="201025" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300264" motionID="1120004" groupId="23" itemID1="50520" count1="1" itemID2="200056" count2="1" itemID3="201020" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300265" motionID="1120004" groupId="23" itemID1="50521" count1="1" itemID2="200059" count2="1" itemID3="201022" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300266" motionID="1120004" groupId="23" itemID1="50522" count1="1" itemID2="200060" count2="1" itemID3="201024" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300267" motionID="1120004" groupId="23" itemID1="50523" count1="1" itemID2="200061" count2="1" itemID3="201021" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300268" motionID="1120004" groupId="23" itemID1="50524" count1="1" itemID2="200057" count2="1" itemID3="201023" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300269" motionID="1120004" groupId="23" itemID1="50525" count1="1" itemID2="200054" count2="2" itemID3="201003" count3="3" itemID4="201031" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300270" motionID="1120004" groupId="23" itemID1="50526" count1="1" itemID2="200055" count2="2" itemID3="201025" count3="3" itemID4="201017" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300271" motionID="1120004" groupId="23" itemID1="50527" count1="1" itemID2="200056" count2="2" itemID3="201019" count3="3" itemID4="201033" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300272" motionID="1120004" groupId="23" itemID1="50528" count1="1" itemID2="200059" count2="2" itemID3="201022" count3="3" itemID4="220004" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300273" motionID="1120004" groupId="23" itemID1="50529" count1="1" itemID2="200060" count2="2" itemID3="201024" count3="3" itemID4="201033" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300274" motionID="1120004" groupId="23" itemID1="50530" count1="1" itemID2="200061" count2="2" itemID3="201021" count3="3" itemID4="220004" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300275" motionID="1120004" groupId="23" itemID1="50531" count1="1" itemID2="200057" count2="2" itemID3="201023" count3="3" itemID4="201017" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300276" motionID="1120004" groupId="23" itemID1="50532" count1="1" itemID2="200054" count2="3" itemID3="201010" count3="2" itemID4="220001" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300277" motionID="1120004" groupId="23" itemID1="50533" count1="1" itemID2="200055" count2="3" itemID3="201011" count3="2" itemID4="220003" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300278" motionID="1120004" groupId="23" itemID1="50534" count1="1" itemID2="200056" count2="3" itemID3="201007" count3="2" itemID4="220002" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300279" motionID="1120004" groupId="23" itemID1="50535" count1="1" itemID2="200059" count2="3" itemID3="201014" count3="2" itemID4="220001" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300280" motionID="1120004" groupId="23" itemID1="50536" count1="1" itemID2="200060" count2="3" itemID3="201013" count3="2" itemID4="220003" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300281" motionID="1120004" groupId="23" itemID1="50537" count1="1" itemID2="200061" count2="3" itemID3="201008" count3="2" itemID4="220002" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300282" motionID="1120004" groupId="23" itemID1="50538" count1="1" itemID2="200057" count2="3" itemID3="201012" count3="2" itemID4="220001" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300283" motionID="1120004" groupId="23" itemID1="50218" count1="1" itemID2="200054" count2="4" itemID3="201010" count3="3" itemID4="220005" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300284" motionID="1120004" groupId="23" itemID1="50223" count1="1" itemID2="200055" count2="4" itemID3="201011" count3="3" itemID4="220007" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300285" motionID="1120004" groupId="23" itemID1="50219" count1="1" itemID2="200056" count2="4" itemID3="201007" count3="3" itemID4="220006" count4="1" itemID5="201081" count5="1"/>
+	<MakeItemSkill skillID="300286" motionID="1120004" groupId="23" itemID1="50222" count1="1" itemID2="200059" count2="4" itemID3="201014" count3="3" itemID4="220005" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300287" motionID="1120004" groupId="23" itemID1="50224" count1="1" itemID2="200060" count2="4" itemID3="201013" count3="3" itemID4="220007" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300288" motionID="1120004" groupId="23" itemID1="50220" count1="1" itemID2="200061" count2="4" itemID3="201008" count3="3" itemID4="220006" count4="1" itemID5="201076" count5="1"/>
+	<MakeItemSkill skillID="300289" motionID="1120004" groupId="23" itemID1="50221" count1="1" itemID2="200057" count2="4" itemID3="201012" count3="3" itemID4="220005" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300290" motionID="1120004" groupId="22" itemID1="200014" count1="1" itemID2="200005" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300291" motionID="1120004" groupId="22" itemID1="200014" count1="1" itemID2="200006" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300292" motionID="1120004" groupId="22" itemID1="200014" count1="1" itemID2="-1" count2="0" itemID3="201020" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300293" motionID="1120004" groupId="22" itemID1="200014" count1="1" itemID2="-1" count2="0" itemID3="201022" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300294" motionID="1120004" groupId="22" itemID1="200014" count1="1" itemID2="200001" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300295" motionID="1120004" groupId="22" itemID1="200014" count1="1" itemID2="-1" count2="0" itemID3="201021" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300296" motionID="1120004" groupId="22" itemID1="200014" count1="1" itemID2="-1" count2="0" itemID3="201023" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300297" motionID="1120004" groupId="22" itemID1="50127" count1="1" itemID2="200002" count2="1" itemID3="201020" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300298" motionID="1120004" groupId="22" itemID1="50132" count1="1" itemID2="200003" count2="1" itemID3="201022" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300299" motionID="1120004" groupId="22" itemID1="50128" count1="1" itemID2="200004" count2="1" itemID3="-1" count3="0" itemID4="201033" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300300" motionID="1120004" groupId="22" itemID1="50131" count1="1" itemID2="200007" count2="1" itemID3="-1" count3="0" itemID4="201017" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300301" motionID="1120004" groupId="22" itemID1="50133" count1="1" itemID2="200008" count2="1" itemID3="201021" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300302" motionID="1120004" groupId="22" itemID1="50129" count1="1" itemID2="200009" count2="1" itemID3="-1" count3="0" itemID4="201031" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300303" motionID="1120004" groupId="22" itemID1="50130" count1="1" itemID2="200005" count2="1" itemID3="-1" count3="0" itemID4="220004" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300304" motionID="1120004" groupId="22" itemID1="50134" count1="1" itemID2="200035" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300305" motionID="1120004" groupId="22" itemID1="50139" count1="1" itemID2="200036" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300306" motionID="1120004" groupId="22" itemID1="50135" count1="1" itemID2="200037" count2="1" itemID3="201020" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300307" motionID="1120004" groupId="22" itemID1="50138" count1="1" itemID2="200040" count2="1" itemID3="201022" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300308" motionID="1120004" groupId="22" itemID1="50140" count1="1" itemID2="200041" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300309" motionID="1120004" groupId="22" itemID1="50136" count1="1" itemID2="200042" count2="1" itemID3="201021" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300310" motionID="1120004" groupId="22" itemID1="50137" count1="1" itemID2="200038" count2="1" itemID3="201023" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300311" motionID="1120004" groupId="22" itemID1="50141" count1="1" itemID2="200035" count2="2" itemID3="201003" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300312" motionID="1120004" groupId="22" itemID1="50146" count1="1" itemID2="200036" count2="2" itemID3="201025" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300313" motionID="1120004" groupId="22" itemID1="50142" count1="1" itemID2="200037" count2="2" itemID3="201020" count3="2" itemID4="201033" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300314" motionID="1120004" groupId="22" itemID1="50145" count1="1" itemID2="200040" count2="2" itemID3="201022" count3="2" itemID4="220004" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300315" motionID="1120004" groupId="22" itemID1="50147" count1="1" itemID2="200041" count2="2" itemID3="201018" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300316" motionID="1120004" groupId="22" itemID1="50143" count1="1" itemID2="200042" count2="2" itemID3="201021" count3="2" itemID4="201031" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300317" motionID="1120004" groupId="22" itemID1="50144" count1="1" itemID2="200038" count2="2" itemID3="201023" count3="2" itemID4="201017" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300318" motionID="1120004" groupId="22" itemID1="50148" count1="1" itemID2="200035" count2="3" itemID3="201003" count3="2" itemID4="201033" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300319" motionID="1120004" groupId="22" itemID1="50153" count1="1" itemID2="200036" count2="3" itemID3="201025" count3="2" itemID4="220004" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300320" motionID="1120004" groupId="22" itemID1="50149" count1="1" itemID2="200037" count2="3" itemID3="201019" count3="2" itemID4="220003" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300321" motionID="1120004" groupId="22" itemID1="50152" count1="1" itemID2="200040" count2="3" itemID3="201022" count3="2" itemID4="220002" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300322" motionID="1120004" groupId="22" itemID1="50154" count1="1" itemID2="200041" count2="3" itemID3="201024" count3="2" itemID4="201017" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300323" motionID="1120004" groupId="22" itemID1="50150" count1="1" itemID2="200042" count2="3" itemID3="201021" count3="2" itemID4="220001" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300324" motionID="1120004" groupId="22" itemID1="50151" count1="1" itemID2="200038" count2="3" itemID3="201023" count3="2" itemID4="220003" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300325" motionID="1120004" groupId="22" itemID1="50637" count1="1" itemID2="200035" count2="4" itemID3="201010" count3="2" itemID4="220002" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300326" motionID="1120004" groupId="22" itemID1="50638" count1="1" itemID2="200036" count2="4" itemID3="201011" count3="2" itemID4="220001" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300327" motionID="1120004" groupId="22" itemID1="50639" count1="1" itemID2="200037" count2="4" itemID3="201007" count3="2" itemID4="220003" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300328" motionID="1120004" groupId="22" itemID1="50640" count1="1" itemID2="200040" count2="4" itemID3="201014" count3="2" itemID4="220002" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300329" motionID="1120004" groupId="22" itemID1="50641" count1="1" itemID2="200041" count2="4" itemID3="201013" count3="2" itemID4="220001" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300330" motionID="1120004" groupId="22" itemID1="50642" count1="1" itemID2="200042" count2="4" itemID3="201008" count3="2" itemID4="220003" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300331" motionID="1120004" groupId="22" itemID1="50643" count1="1" itemID2="200038" count2="4" itemID3="201012" count3="2" itemID4="220002" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300332" motionID="1120004" groupId="22" itemID1="50644" count1="1" itemID2="200054" count2="1" itemID3="201003" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300333" motionID="1120004" groupId="22" itemID1="50645" count1="1" itemID2="200055" count2="1" itemID3="201025" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300334" motionID="1120004" groupId="22" itemID1="50646" count1="1" itemID2="200056" count2="1" itemID3="201020" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300335" motionID="1120004" groupId="22" itemID1="50647" count1="1" itemID2="200059" count2="1" itemID3="201022" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300336" motionID="1120004" groupId="22" itemID1="50648" count1="1" itemID2="200060" count2="1" itemID3="201024" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300337" motionID="1120004" groupId="22" itemID1="50649" count1="1" itemID2="200061" count2="1" itemID3="201021" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300338" motionID="1120004" groupId="22" itemID1="50650" count1="1" itemID2="200057" count2="1" itemID3="201023" count3="2" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300339" motionID="1120004" groupId="22" itemID1="50651" count1="1" itemID2="200054" count2="2" itemID3="201003" count3="3" itemID4="201031" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300340" motionID="1120004" groupId="22" itemID1="50652" count1="1" itemID2="200055" count2="2" itemID3="201025" count3="3" itemID4="201017" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300341" motionID="1120004" groupId="22" itemID1="50653" count1="1" itemID2="200056" count2="2" itemID3="201019" count3="3" itemID4="201033" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300342" motionID="1120004" groupId="22" itemID1="50654" count1="1" itemID2="200059" count2="2" itemID3="201022" count3="3" itemID4="220004" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300343" motionID="1120004" groupId="22" itemID1="50655" count1="1" itemID2="200060" count2="2" itemID3="201024" count3="3" itemID4="201033" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300344" motionID="1120004" groupId="22" itemID1="50656" count1="1" itemID2="200061" count2="2" itemID3="201021" count3="3" itemID4="220004" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300345" motionID="1120004" groupId="22" itemID1="50657" count1="1" itemID2="200057" count2="2" itemID3="201023" count3="3" itemID4="201017" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300346" motionID="1120004" groupId="22" itemID1="50658" count1="1" itemID2="200054" count2="3" itemID3="201010" count3="2" itemID4="220001" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300347" motionID="1120004" groupId="22" itemID1="50659" count1="1" itemID2="200055" count2="3" itemID3="201011" count3="2" itemID4="220003" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300348" motionID="1120004" groupId="22" itemID1="50660" count1="1" itemID2="200056" count2="3" itemID3="201007" count3="2" itemID4="220002" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300349" motionID="1120004" groupId="22" itemID1="50661" count1="1" itemID2="200059" count2="3" itemID3="201014" count3="2" itemID4="220001" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300350" motionID="1120004" groupId="22" itemID1="50662" count1="1" itemID2="200060" count2="3" itemID3="201013" count3="2" itemID4="220003" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300351" motionID="1120004" groupId="22" itemID1="50663" count1="1" itemID2="200061" count2="3" itemID3="201008" count3="2" itemID4="220002" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300352" motionID="1120004" groupId="22" itemID1="50664" count1="1" itemID2="200057" count2="3" itemID3="201012" count3="2" itemID4="220001" count4="2" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300353" motionID="1120004" groupId="22" itemID1="50162" count1="1" itemID2="200054" count2="4" itemID3="201010" count3="3" itemID4="220005" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300354" motionID="1120004" groupId="22" itemID1="50167" count1="1" itemID2="200055" count2="4" itemID3="201011" count3="3" itemID4="220007" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300355" motionID="1120004" groupId="22" itemID1="50163" count1="1" itemID2="200056" count2="4" itemID3="201007" count3="3" itemID4="220006" count4="1" itemID5="201076" count5="1"/>
+	<MakeItemSkill skillID="300356" motionID="1120004" groupId="22" itemID1="50166" count1="1" itemID2="200059" count2="4" itemID3="201014" count3="3" itemID4="220005" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300357" motionID="1120004" groupId="22" itemID1="50168" count1="1" itemID2="200060" count2="4" itemID3="201013" count3="3" itemID4="220007" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300358" motionID="1120004" groupId="22" itemID1="50164" count1="1" itemID2="200061" count2="4" itemID3="201008" count3="3" itemID4="220006" count4="1" itemID5="201081" count5="1"/>
+	<MakeItemSkill skillID="300359" motionID="1120004" groupId="22" itemID1="50165" count1="1" itemID2="200057" count2="4" itemID3="201012" count3="3" itemID4="220005" count4="1" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300360" motionID="1120010" groupId="24" itemID1="200027" count1="1" itemID2="201035" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300361" motionID="1120010" groupId="24" itemID1="200027" count1="1" itemID2="201036" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300362" motionID="1120010" groupId="24" itemID1="200027" count1="1" itemID2="201030" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300363" motionID="1120010" groupId="24" itemID1="200027" count1="1" itemID2="201039" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300364" motionID="1120010" groupId="24" itemID1="200029" count1="1" itemID2="201040" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300365" motionID="1120010" groupId="24" itemID1="200029" count1="1" itemID2="201041" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300366" motionID="1120010" groupId="24" itemID1="200029" count1="1" itemID2="201034" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300367" motionID="1120010" groupId="24" itemID1="200029" count1="1" itemID2="201038" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300368" motionID="1120010" groupId="24" itemID1="102005" count1="1" itemID2="102001" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300369" motionID="1120010" groupId="24" itemID1="102005" count1="1" itemID2="102002" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300370" motionID="1120010" groupId="24" itemID1="102005" count1="1" itemID2="102003" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300371" motionID="1120010" groupId="24" itemID1="102006" count1="1" itemID2="102001" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300372" motionID="1120010" groupId="24" itemID1="102006" count1="1" itemID2="102002" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300373" motionID="1120010" groupId="24" itemID1="102006" count1="1" itemID2="102004" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300374" motionID="1120010" groupId="24" itemID1="102007" count1="1" itemID2="102001" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300375" motionID="1120010" groupId="24" itemID1="102007" count1="1" itemID2="102002" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300376" motionID="1120010" groupId="24" itemID1="102007" count1="1" itemID2="102003" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300377" motionID="1120010" groupId="24" itemID1="102008" count1="1" itemID2="102001" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300378" motionID="1120010" groupId="24" itemID1="102008" count1="1" itemID2="102002" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300379" motionID="1120010" groupId="24" itemID1="102008" count1="1" itemID2="102004" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300380" motionID="1120010" groupId="24" itemID1="201062" count1="1" itemID2="201035" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300381" motionID="1120010" groupId="24" itemID1="201062" count1="1" itemID2="201036" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300382" motionID="1120010" groupId="24" itemID1="201062" count1="1" itemID2="201030" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300383" motionID="1120010" groupId="24" itemID1="201062" count1="1" itemID2="201039" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300384" motionID="1120010" groupId="24" itemID1="201063" count1="1" itemID2="201040" count2="1" itemID3="201032" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300385" motionID="1120010" groupId="24" itemID1="201064" count1="1" itemID2="201041" count2="1" itemID3="201032" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300386" motionID="1120010" groupId="24" itemID1="201063" count1="1" itemID2="201034" count2="1" itemID3="201030" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300387" motionID="1120010" groupId="24" itemID1="201064" count1="1" itemID2="201038" count2="1" itemID3="201037" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300388" motionID="1120010" groupId="24" itemID1="102025" count1="1" itemID2="102021" count2="1" itemID3="201074" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300389" motionID="1120010" groupId="24" itemID1="102025" count1="1" itemID2="102022" count2="1" itemID3="201075" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300390" motionID="1120010" groupId="24" itemID1="102025" count1="1" itemID2="102023" count2="1" itemID3="201074" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300391" motionID="1120010" groupId="24" itemID1="102026" count1="1" itemID2="102021" count2="1" itemID3="201075" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300392" motionID="1120010" groupId="24" itemID1="102026" count1="1" itemID2="102022" count2="1" itemID3="201074" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300393" motionID="1120010" groupId="24" itemID1="102026" count1="1" itemID2="102024" count2="1" itemID3="201075" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300394" motionID="1120010" groupId="24" itemID1="102027" count1="1" itemID2="102021" count2="1" itemID3="201072" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300395" motionID="1120010" groupId="24" itemID1="102027" count1="1" itemID2="102022" count2="1" itemID3="201073" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300396" motionID="1120010" groupId="24" itemID1="102027" count1="1" itemID2="102023" count2="1" itemID3="201072" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300397" motionID="1120010" groupId="24" itemID1="102028" count1="1" itemID2="102021" count2="1" itemID3="201073" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300398" motionID="1120010" groupId="24" itemID1="102028" count1="1" itemID2="102022" count2="1" itemID3="201072" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300399" motionID="1120010" groupId="24" itemID1="102028" count1="1" itemID2="102024" count2="1" itemID3="201073" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300400" motionID="1120011" groupId="25" itemID1="201069" count1="1" itemID2="200019" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300401" motionID="1120011" groupId="25" itemID1="201069" count1="1" itemID2="200031" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300402" motionID="1120011" groupId="25" itemID1="104001" count1="1" itemID2="104002" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300403" motionID="1120011" groupId="26" itemID1="201069" count1="1" itemID2="201074" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300404" motionID="1120011" groupId="26" itemID1="201069" count1="1" itemID2="201075" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300405" motionID="1120011" groupId="26" itemID1="201069" count1="1" itemID2="201072" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300406" motionID="1120011" groupId="26" itemID1="201069" count1="1" itemID2="201073" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300407" motionID="1120011" groupId="26" itemID1="201069" count1="1" itemID2="201032" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300408" motionID="1120011" groupId="25" itemID1="201071" count1="1" itemID2="200022" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300409" motionID="1120011" groupId="25" itemID1="201071" count1="1" itemID2="200023" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300410" motionID="1120011" groupId="25" itemID1="104004" count1="1" itemID2="104005" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300411" motionID="1120011" groupId="26" itemID1="201071" count1="1" itemID2="201074" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300412" motionID="1120011" groupId="26" itemID1="201071" count1="1" itemID2="201075" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300413" motionID="1120011" groupId="26" itemID1="201071" count1="1" itemID2="201072" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300414" motionID="1120011" groupId="26" itemID1="201071" count1="1" itemID2="201073" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300415" motionID="1120011" groupId="26" itemID1="201071" count1="1" itemID2="201032" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300416" motionID="1120011" groupId="25" itemID1="201070" count1="1" itemID2="200046" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300417" motionID="1120011" groupId="25" itemID1="201070" count1="1" itemID2="200048" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300418" motionID="1120011" groupId="25" itemID1="104007" count1="1" itemID2="104008" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300419" motionID="1120011" groupId="26" itemID1="201070" count1="1" itemID2="201074" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300420" motionID="1120011" groupId="26" itemID1="201070" count1="1" itemID2="201075" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300421" motionID="1120011" groupId="26" itemID1="201070" count1="1" itemID2="201072" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300422" motionID="1120011" groupId="26" itemID1="201070" count1="1" itemID2="201073" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300423" motionID="1120011" groupId="26" itemID1="201070" count1="1" itemID2="201032" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300424" motionID="1120011" groupId="25" itemID1="201032" count1="1" itemID2="200051" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300425" motionID="1120011" groupId="25" itemID1="201032" count1="1" itemID2="200052" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300426" motionID="1120011" groupId="25" itemID1="104010" count1="1" itemID2="104011" count2="1" itemID3="-1" count3="0" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300427" motionID="1120011" groupId="26" itemID1="201032" count1="1" itemID2="201074" count2="1" itemID3="200065" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300428" motionID="1120011" groupId="26" itemID1="201032" count1="1" itemID2="201075" count2="1" itemID3="200067" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300429" motionID="1120011" groupId="26" itemID1="201032" count1="1" itemID2="201072" count2="1" itemID3="200070" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300430" motionID="1120011" groupId="26" itemID1="201032" count1="1" itemID2="201073" count2="1" itemID3="200071" count3="1" itemID4="-1" count4="0" itemID5="-1" count5="0"/>
+	<MakeItemSkill skillID="300431" motionID="1120011" groupId="26" itemID1="200065" count1="1" itemID2="200067" count2="1" itemID3="200070" count3="1" itemID4="200071" count4="1" itemID5="-1" count5="0"/>
+	<Group groupId="1" stringId="2828"/>
+	<Group groupId="2" stringId="2829"/>
+	<Group groupId="3" stringId="2830"/>
+	<Group groupId="4" stringId="2831"/>
+	<Group groupId="5" stringId="2832"/>
+	<Group groupId="6" stringId="2833"/>
+	<Group groupId="7" stringId="2834"/>
+	<Group groupId="8" stringId="2835"/>
+	<Group groupId="9" stringId="2836"/>
+	<Group groupId="10" stringId="2837"/>
+	<Group groupId="11" stringId="2838"/>
+	<Group groupId="12" stringId="2839"/>
+	<Group groupId="13" stringId="2840"/>
+	<Group groupId="14" stringId="2841"/>
+	<Group groupId="15" stringId="2842"/>
+	<Group groupId="16" stringId="2843"/>
+	<Group groupId="17" stringId="2844"/>
+	<Group groupId="18" stringId="821"/>
+	<Group groupId="19" stringId="825"/>
+	<Group groupId="20" stringId="2847"/>
+	<Group groupId="21" stringId="2848"/>
+	<Group groupId="22" stringId="2849"/>
+	<Group groupId="23" stringId="2850"/>
+	<Group groupId="24" stringId="2851"/>
+	<Group groupId="25" stringId="2852"/>
+	<Group groupId="26" stringId="2853"/>
+</ItemMakeInfo>

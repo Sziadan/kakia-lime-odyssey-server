@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by Administrator (siriusent) -->
+<Quest>
+	<Quest typeID="402305311" typeName="모험가 길드의 부수익 (반복)" group="207" NPC="생활 모험가(쿠니바 마을)" reportTo="생활 모험가(쿠니바 마을)" cancelable="1" repeatable="1" retryable="1" lv="5" desc="길 가에 뿌려진 광물은 줍는 사람이 임자랍니다. 저희 클로버 투 페어 모험가 길드의 쏠쏠한 부업거리가 되기도 하지요./n^#3399FF부스러진 체리라이트^#FFFFFF를 ^#3399FF캐^#FFFFFF와 주세요./n모일 때 마다 제게 가져다 주시면 더 좋고요./n다 모으면 저에게 가져다 주세요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="30" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[부스러진 체리라이트 수집]]" draft="길 가에 뿌려진 광물은 줍는 사람이 임자랍니다. 저희 클로버 투 페어 모험가 길드의 쏠쏠한 부업거리가 되기도 하지요./n^#3399FF부스러진 체리라이트^#FFFFFF를 ^#3399FF캐^#FFFFFF와 주세요./n모일 때 마다 제게 가져다 주시면 더 좋고요./n다 모으면 저에게 가져다 주세요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="부스러진 체리라이트 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[쿠니바 마을 생활 모험가 길드원에게 보고]]" draft="길 가에 뿌려진 광물은 줍는 사람이 임자랍니다. 저희 클로버 투 페어 모험가 길드의 쏠쏠한 부업거리가 되기도 하지요./n^#3399FF부스러진 체리라이트^#FFFFFF를 ^#3399FF캐^#FFFFFF와 주세요./n모일 때 마다 제게 가져다 주시면 더 좋고요./n다 모으면 저에게 가져다 주세요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="쿠니바 마을 생활 모험가 길드원에게 보고" mapTargetId="101502"/>
+		</Subject>
+		<Storage Collect1_typeID="200003" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="3"/>
+	</Quest>
+	<Quest typeID="402305312" typeName="모으고 모으면 부자!" group="207" NPC="생활 모험가(쿠니바 마을)" reportTo="생활 모험가(쿠니바 마을)" cancelable="1" repeatable="0" retryable="1" lv="5" desc="티끌 모아 태산!이랍니다. 아무리 잘게 부스러진 광석이라도 모으고 또 모으면 멋진 메이스나 대거가 될 수도 있지요./n^#3399FF부스러진 체리라이트^#FFFFFF를 ^#3399FF캐^#FFFFFF와 주세요./n모일 때 마다 제게 가져다 주시면 더 좋고요./n다 모으면 저에게 가져다 주세요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="30" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[부스러진 광석 수집]]" draft="티끌 모아 태산!이랍니다. 아무리 잘게 부스러진 광석이라도 모으고 또 모으면 멋진 메이스나 대거가 될 수도 있지요./n^#3399FF부스러진 체리라이트^#FFFFFF를 ^#3399FF캐^#FFFFFF와 주세요./n모일 때 마다 제게 가져다 주시면 더 좋고요./n다 모으면 저에게 가져다 주세요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="부스러진 광석 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[쿠니바 마을 생활 모험가 길드원에게 보고]]" draft="티끌 모아 태산!이랍니다. 아무리 잘게 부스러진 광석이라도 모으고 또 모으면 멋진 메이스나 대거가 될 수도 있지요./n^#3399FF부스러진 체리라이트^#FFFFFF를 ^#3399FF캐^#FFFFFF와 주세요./n모일 때 마다 제게 가져다 주시면 더 좋고요./n다 모으면 저에게 가져다 주세요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="쿠니바 마을 생활 모험가 길드원에게 보고" mapTargetId="101502"/>
+		</Subject>
+		<Storage Collect1_typeID="200001" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="3"/>
+	</Quest>
+	<Quest typeID="402305313" typeName="시들었지만 아름다운.. (반복)" group="207" NPC="생활 모험가(쿠니바 마을)" reportTo="생활 모험가(쿠니바 마을)" cancelable="1" repeatable="1" retryable="1" lv="5" desc="시간이 흐르는 걸 아쉬워하는 할머니께서 의뢰하신 일이예요. ^#3399FF시든 꽃봉오리^#FFFFFF를  ^#3399FF찾아^#FFFFFF 달라고 하시는데요./n할머니께서는 시들어서 아쉽다고 하시지만 진정 꽃을 아름답다고 생각한다면 시간이 지나도 아름다워 보이는 거 거겠지요?/n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="30" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[시든 꽃봉오리 수집]]" draft="시간이 흐르는 걸 아쉬워하는 할머니께서 의뢰하신 일이예요. ^#3399FF시든 꽃봉오리^#FFFFFF를  ^#3399FF찾아^#FFFFFF 달라고 하시는데요./n할머니께서는 시들어서 아쉽다고 하시지만 진정 꽃을 아름답다고 생각한다면 시간이 지나도 아름다워 보이는 거 거겠지요?/n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="시든 꽃봉오리 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[쿠니바 마을 생활 모험가 길드원에게 보고]]" draft="시간이 흐르는 걸 아쉬워하는 할머니께서 의뢰하신 일이예요. ^#3399FF시든 꽃봉오리^#FFFFFF를  ^#3399FF찾아^#FFFFFF 달라고 하시는데요./n할머니께서는 시들어서 아쉽다고 하시지만 진정 꽃을 아름답다고 생각한다면 시간이 지나도 아름다워 보이는 거 거겠지요?/n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="쿠니바 마을 생활 모험가 길드원에게 보고" mapTargetId="101502"/>
+		</Subject>
+		<Storage Collect1_typeID="200032" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="3"/>
+	</Quest>
+	<Quest typeID="402305314" typeName="보이지 않는 흔적" group="207" NPC="생활 모험가(쿠니바 마을)" reportTo="생활 모험가(쿠니바 마을)" cancelable="1" repeatable="0" retryable="1" lv="5" desc="코어란 과거 사라진 문명의 기계 장치라는 말도 있고 예술품이라는 말도 있어요./n저는 기계에도 예술에도 문외한이라 잘 모르겠지만.. 확실한 건 그것들이 과거의 역사를 밝히는데 도움이 된다는 사실이랍니다. ^#3399FF부스러진 코어^#FFFFFF를 
+^#3399FF캐^#FFFFFF와 주시면 많은 도움이 될거예요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="30" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[부스러진 코어 수집]]" draft="코어란 과거 사라진 문명의 기계 장치라는 말도 있고 예술품이라는 말도 있어요./n저는 기계에도 예술에도 문외한이라 잘 모르겠지만.. 확실한 건 그것들이 과거의 역사를 밝히는데 도움이 된다는 사실이랍니다. ^#3399FF부스러진 코어^#FFFFFF를 
+^#3399FF캐^#FFFFFF와 주시면 많은 도움이 될거예요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="부스러진 코어 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[쿠니바 마을 생활 모험가 길드원에게 보고]]" draft="코어란 과거 사라진 문명의 기계 장치라는 말도 있고 예술품이라는 말도 있어요./n저는 기계에도 예술에도 문외한이라 잘 모르겠지만.. 확실한 건 그것들이 과거의 역사를 밝히는데 도움이 된다는 사실이랍니다. ^#3399FF부스러진 코어^#FFFFFF를 
+^#3399FF캐^#FFFFFF와 주시면 많은 도움이 될거예요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="쿠니바 마을 생활 모험가 길드원에게 보고" mapTargetId="101502"/>
+		</Subject>
+		<Storage Collect1_typeID="200006" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="3"/>
+	</Quest>
+	<Quest typeID="402305315" typeName="고마운 나무 (반복)" group="207" NPC="생활 모험가(쿠니바 마을)" reportTo="생활 모험가(쿠니바 마을)" cancelable="1" repeatable="1" retryable="1" lv="5" desc="길 가에 뿌려진 광물은 줍는 사람이 임자랍니다. 저희 클로버 투 페어 모험가 길드의 쏠쏠한 부업거리가 되기도 하지요./n^#3399FF부스러진 체리라이트^#FFFFFF를 ^#3399FF캐^#FFFFFF와 주세요./n모일 때 마다 제게 가져다 주시면 더 좋고요./n다 모으면 저에게 가져다 주세요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="30" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[시든 나무 수집]]" draft="길 가에 뿌려진 광물은 줍는 사람이 임자랍니다. 저희 클로버 투 페어 모험가 길드의 쏠쏠한 부업거리가 되기도 하지요./n^#3399FF부스러진 체리라이트^#FFFFFF를 ^#3399FF캐^#FFFFFF와 주세요./n모일 때 마다 제게 가져다 주시면 더 좋고요./n다 모으면 저에게 가져다 주세요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="시든 나무 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[쿠니바 마을 생활 모험가 길드원에게 보고]]" draft="길 가에 뿌려진 광물은 줍는 사람이 임자랍니다. 저희 클로버 투 페어 모험가 길드의 쏠쏠한 부업거리가 되기도 하지요./n^#3399FF부스러진 체리라이트^#FFFFFF를 ^#3399FF캐^#FFFFFF와 주세요./n모일 때 마다 제게 가져다 주시면 더 좋고요./n다 모으면 저에게 가져다 주세요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="쿠니바 마을 생활 모험가 길드원에게 보고" mapTargetId="101502"/>
+		</Subject>
+		<Storage Collect1_typeID="200017" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="3"/>
+	</Quest>
+	<Quest typeID="402305316" typeName="신경통 치료약" group="207" NPC="생활 모험가(쿠니바 마을)" reportTo="생활 모험가(쿠니바 마을)" cancelable="1" repeatable="0" retryable="1" lv="5" desc="길 가에 뿌려진 광물은 줍는 사람이 임자랍니다. 저희 클로버 투 페어 모험가 길드의 쏠쏠한 부업거리가 되기도 하지요./n^#3399FF부스러진 체리라이트^#FFFFFF를 ^#3399FF캐^#FFFFFF와 주세요./n모일 때 마다 제게 가져다 주시면 더 좋고요./n다 모으면 저에게 가져다 주세요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="30" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[시든 버섯 수집]]" draft="길 가에 뿌려진 광물은 줍는 사람이 임자랍니다. 저희 클로버 투 페어 모험가 길드의 쏠쏠한 부업거리가 되기도 하지요./n^#3399FF부스러진 체리라이트^#FFFFFF를 ^#3399FF캐^#FFFFFF와 주세요./n모일 때 마다 제게 가져다 주시면 더 좋고요./n다 모으면 저에게 가져다 주세요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="시든 버섯 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[쿠니바 마을 생활 모험가 길드원에게 보고]]" draft="길 가에 뿌려진 광물은 줍는 사람이 임자랍니다. 저희 클로버 투 페어 모험가 길드의 쏠쏠한 부업거리가 되기도 하지요./n^#3399FF부스러진 체리라이트^#FFFFFF를 ^#3399FF캐^#FFFFFF와 주세요./n모일 때 마다 제게 가져다 주시면 더 좋고요./n다 모으면 저에게 가져다 주세요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="쿠니바 마을 생활 모험가 길드원에게 보고" mapTargetId="101502"/>
+		</Subject>
+		<Storage Collect1_typeID="200025" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="3"/>
+	</Quest>
+	<Quest typeID="402305317" typeName="반짝일 사파이어 (반복)" group="207" NPC="생활 모험가(쿠니바 마을)" reportTo="생활 모험가(쿠니바 마을)" cancelable="1" repeatable="1" retryable="1" lv="5" desc="길 가에 뿌려진 광물은 줍는 사람이 임자랍니다. 저희 클로버 투 페어 모험가 길드의 쏠쏠한 부업거리가 되기도 하지요./n^#3399FF부스러진 체리라이트^#FFFFFF를 ^#3399FF캐^#FFFFFF와 주세요./n모일 때 마다 제게 가져다 주시면 더 좋고요./n다 모으면 저에게 가져다 주세요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="30" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[부스러진 사파이어 수집]]" draft="길 가에 뿌려진 광물은 줍는 사람이 임자랍니다. 저희 클로버 투 페어 모험가 길드의 쏠쏠한 부업거리가 되기도 하지요./n^#3399FF부스러진 체리라이트^#FFFFFF를 ^#3399FF캐^#FFFFFF와 주세요./n모일 때 마다 제게 가져다 주시면 더 좋고요./n다 모으면 저에게 가져다 주세요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="부스러진 사파이어 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[쿠니바 마을 생활 모험가 길드원에게 보고]]" draft="길 가에 뿌려진 광물은 줍는 사람이 임자랍니다. 저희 클로버 투 페어 모험가 길드의 쏠쏠한 부업거리가 되기도 하지요./n^#3399FF부스러진 체리라이트^#FFFFFF를 ^#3399FF캐^#FFFFFF와 주세요./n모일 때 마다 제게 가져다 주시면 더 좋고요./n다 모으면 저에게 가져다 주세요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="쿠니바 마을 생활 모험가 길드원에게 보고" mapTargetId="101502"/>
+		</Subject>
+		<Storage Collect1_typeID="200007" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="3"/>
+	</Quest>
+	<Quest typeID="402305318" typeName="작고 작은 광물" group="207" NPC="생활 모험가(쿠니바 마을)" reportTo="생활 모험가(쿠니바 마을)" cancelable="1" repeatable="0" retryable="1" lv="10" desc="길 가에 뿌려진 광물은 줍는 사람이 임자랍니다. 저희 클로버 투 페어 모험가 길드의 쏠쏠한 부업거리가 되기도 하지요./n^#3399FF부스러진 체리라이트^#FFFFFF를 ^#3399FF캐^#FFFFFF와 주세요./n모일 때 마다 제게 가져다 주시면 더 좋고요./n다 모으면 저에게 가져다 주세요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="50" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[부스러진 코코나이트 수집]]" draft="길 가에 뿌려진 광물은 줍는 사람이 임자랍니다. 저희 클로버 투 페어 모험가 길드의 쏠쏠한 부업거리가 되기도 하지요./n^#3399FF부스러진 체리라이트^#FFFFFF를 ^#3399FF캐^#FFFFFF와 주세요./n모일 때 마다 제게 가져다 주시면 더 좋고요./n다 모으면 저에게 가져다 주세요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="부스러진 코코나이트 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[쿠니바 마을 생활 모험가 길드원에게 보고]]" draft="길 가에 뿌려진 광물은 줍는 사람이 임자랍니다. 저희 클로버 투 페어 모험가 길드의 쏠쏠한 부업거리가 되기도 하지요./n^#3399FF부스러진 체리라이트^#FFFFFF를 ^#3399FF캐^#FFFFFF와 주세요./n모일 때 마다 제게 가져다 주시면 더 좋고요./n다 모으면 저에게 가져다 주세요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="쿠니바 마을 생활 모험가 길드원에게 보고" mapTargetId="101502"/>
+		</Subject>
+		<Storage Collect1_typeID="200004" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+	<Quest typeID="402305319" typeName="대장장이의 행복 (반복)" group="207" NPC="생활 모험가(쿠니바 마을)" reportTo="생활 모험가(쿠니바 마을)" cancelable="1" repeatable="1" retryable="1" lv="10" desc="길 가에 뿌려진 광물은 줍는 사람이 임자랍니다. 저희 클로버 투 페어 모험가 길드의 쏠쏠한 부업거리가 되기도 하지요./n^#3399FF부스러진 체리라이트^#FFFFFF를 ^#3399FF캐^#FFFFFF와 주세요./n모일 때 마다 제게 가져다 주시면 더 좋고요./n다 모으면 저에게 가져다 주세요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="75" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[부스러진 그레이피늄 수집]]" draft="길 가에 뿌려진 광물은 줍는 사람이 임자랍니다. 저희 클로버 투 페어 모험가 길드의 쏠쏠한 부업거리가 되기도 하지요./n^#3399FF부스러진 체리라이트^#FFFFFF를 ^#3399FF캐^#FFFFFF와 주세요./n모일 때 마다 제게 가져다 주시면 더 좋고요./n다 모으면 저에게 가져다 주세요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="부스러진 그레이피늄 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[쿠니바 마을 생활 모험가 길드원에게 보고]]" draft="길 가에 뿌려진 광물은 줍는 사람이 임자랍니다. 저희 클로버 투 페어 모험가 길드의 쏠쏠한 부업거리가 되기도 하지요./n^#3399FF부스러진 체리라이트^#FFFFFF를 ^#3399FF캐^#FFFFFF와 주세요./n모일 때 마다 제게 가져다 주시면 더 좋고요./n다 모으면 저에게 가져다 주세요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="쿠니바 마을 생활 모험가 길드원에게 보고" mapTargetId="101502"/>
+		</Subject>
+		<Storage Collect1_typeID="200002" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+	<Quest typeID="402305320" typeName="꼬마의 과학실험" group="207" NPC="생활 모험가(쿠니바 마을)" reportTo="생활 모험가(쿠니바 마을)" cancelable="1" repeatable="0" retryable="1" lv="10" desc="마을 꼬마의 의뢰입니다. ^#3399FF부스러진 암석^#FFFFFF을 ^#3399FF모아^#FFFFFF달라고 해요./n이 꼬마는 과학 실험에 아주 흥미가 많은 호기심 덩어리인데 실험에 필요한 암석은 너무 비싸고 부스러진 것이라도 꼭 좀 찾아 달라고 하더군요. 호기심 많은 꼬마를 위해 어서 다녀와 주세요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="75" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[부스러진 암석 수집]]" draft="마을 꼬마의 의뢰입니다. ^#3399FF부스러진 암석^#FFFFFF을 ^#3399FF모아^#FFFFFF달라고 해요./n이 꼬마는 과학 실험에 아주 흥미가 많은 호기심 덩어리인데 실험에 필요한 암석은 너무 비싸고 부스러진 것이라도 꼭 좀 찾아 달라고 하더군요. 호기심 많은 꼬마를 위해 어서 다녀와 주세요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="부스러진 암석 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[쿠니바 마을 생활 모험가 길드원에게 보고]]" draft="마을 꼬마의 의뢰입니다. ^#3399FF부스러진 암석^#FFFFFF을 ^#3399FF모아^#FFFFFF달라고 해요./n이 꼬마는 과학 실험에 아주 흥미가 많은 호기심 덩어리인데 실험에 필요한 암석은 너무 비싸고 부스러진 것이라도 꼭 좀 찾아 달라고 하더군요. 호기심 많은 꼬마를 위해 어서 다녀와 주세요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="쿠니바 마을 생활 모험가 길드원에게 보고" mapTargetId="101502"/>
+		</Subject>
+		<Storage Collect1_typeID="200016" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+	<Quest typeID="402305321" typeName="마음 먹기에 따라.. (반복)" group="207" NPC="생활 모험가(쿠니바 마을)" reportTo="생활 모험가(쿠니바 마을)" cancelable="1" repeatable="1" retryable="1" lv="10" desc="후후… 오늘은 참 기분 좋은 날이네요. 왜냐고요? 날씨도 좋고, 바람도 좋고, 사랑도 넘치고…/n이런 날은 ^#3399FF시든 들꽃^#FFFFFF도 아름다워보이는 법이죠. 사람 마음은 다 똑같나봐요. 저 같은 생각을 하곤 시든 들꽃을 ^#3399FF모아^#FFFFFF달라는 분이 계시니 말이예요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="82" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[시든 들꽃 수집]]" draft="후후… 오늘은 참 기분 좋은 날이네요. 왜냐고요? 날씨도 좋고, 바람도 좋고, 사랑도 넘치고…/n이런 날은 ^#3399FF시든 들꽃^#FFFFFF도 아름다워보이는 법이죠. 사람 마음은 다 똑같나봐요. 저 같은 생각을 하곤 시든 들꽃을 ^#3399FF모아^#FFFFFF달라는 분이 계시니 말이예요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="시든 들꽃 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[쿠니바 마을 생활 모험가 길드원에게 보고]]" draft="후후… 오늘은 참 기분 좋은 날이네요. 왜냐고요? 날씨도 좋고, 바람도 좋고, 사랑도 넘치고…/n이런 날은 ^#3399FF시든 들꽃^#FFFFFF도 아름다워보이는 법이죠. 사람 마음은 다 똑같나봐요. 저 같은 생각을 하곤 시든 들꽃을 ^#3399FF모아^#FFFFFF달라는 분이 계시니 말이예요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="쿠니바 마을 생활 모험가 길드원에게 보고" mapTargetId="101502"/>
+		</Subject>
+		<Storage Collect1_typeID="200019" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+	<Quest typeID="402305322" typeName="할아버지의 의뢰" group="207" NPC="생활 모험가(쿠니바 마을)" reportTo="생활 모험가(쿠니바 마을)" cancelable="1" repeatable="0" retryable="1" lv="10" desc="할아버지의 의뢰입니다. 방향제나 향수를 만들면 손자들이 더 자주 집에 놀러 올 것 같으시대요. 향이 진한 방향제를 만들어야 하니 ^#3399FF시든 들꽃^#FFFFFF을 ^#3399FF찾아^#FFFFFF와주세요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="82" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[시든 허브 수집]]" draft="할아버지의 의뢰입니다. 방향제나 향수를 만들면 손자들이 더 자주 집에 놀러 올 것 같으시대요. 향이 진한 방향제를 만들어야 하니 ^#3399FF시든 들꽃^#FFFFFF을 ^#3399FF찾아^#FFFFFF와주세요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="시든 허브 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[쿠니바 마을 생활 모험가 길드원에게 보고]]" draft="할아버지의 의뢰입니다. 방향제나 향수를 만들면 손자들이 더 자주 집에 놀러 올 것 같으시대요. 향이 진한 방향제를 만들어야 하니 ^#3399FF시든 들꽃^#FFFFFF을 ^#3399FF찾아^#FFFFFF와주세요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="쿠니바 마을 생활 모험가 길드원에게 보고" mapTargetId="101502"/>
+		</Subject>
+		<Storage Collect1_typeID="200031" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+	<Quest typeID="402305323" typeName="초원의 땔감 (반복) " group="207" NPC="생활 모험가(쿠니바 마을)" reportTo="생활 모험가(쿠니바 마을)" cancelable="1" repeatable="1" retryable="1" lv="10" desc="이 광활한 초원에도 나무는 있답니다. 땔감으로 쓰일 ^#3399FF시든 나무^#FFFFFF를 구해오세요. 나무를 ^#3399FF베^#FFFFFF면/n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="82" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[시든 나무 수집]]" draft="이 광활한 초원에도 나무는 있답니다. 땔감으로 쓰일 ^#3399FF시든 나무^#FFFFFF를 구해오세요. 나무를 ^#3399FF베^#FFFFFF면/n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="시든 나무 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[쿠니바 마을 생활 모험가 길드원에게 보고]]" draft="이 광활한 초원에도 나무는 있답니다. 땔감으로 쓰일 ^#3399FF시든 나무^#FFFFFF를 구해오세요. 나무를 ^#3399FF베^#FFFFFF면/n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="쿠니바 마을 생활 모험가 길드원에게 보고" mapTargetId="101502"/>
+		</Subject>
+		<Storage Collect1_typeID="200017" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+	<Quest typeID="402305324" typeName="맛있는 저녁식사" group="207" NPC="생활 모험가(쿠니바 마을)" reportTo="생활 모험가(쿠니바 마을)" cancelable="1" repeatable="0" retryable="1" lv="5" desc="아기 엄마님의 의뢰입니다. 아기에게 젖을 먹이느라 정작 남편의 저녁식사는 준비하지 못했다면서 발을 동동 구르고 계세요./n어서 가서 ^#3399FF손질된 고기^#FFFFFF를 구해다 주시겠어요? 어서요~/n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="50" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[가공품 손질된 고기 수집]]" draft="아기 엄마님의 의뢰입니다. 아기에게 젖을 먹이느라 정작 남편의 저녁식사는 준비하지 못했다면서 발을 동동 구르고 계세요./n어서 가서 ^#3399FF손질된 고기^#FFFFFF를 구해다 주시겠어요? 어서요~/n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="가공품 손질된 고기 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[쿠니바 마을 생활 모험가 길드원에게 보고]]" draft="아기 엄마님의 의뢰입니다. 아기에게 젖을 먹이느라 정작 남편의 저녁식사는 준비하지 못했다면서 발을 동동 구르고 계세요./n어서 가서 ^#3399FF손질된 고기^#FFFFFF를 구해다 주시겠어요? 어서요~/n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="쿠니바 마을 생활 모험가 길드원에게 보고" mapTargetId="101502"/>
+		</Subject>
+		<Storage Collect1_typeID="201062" Collect1_goal="3" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="402305325" typeName="바싹 말린 찻잎" group="207" NPC="생활 모험가(쿠니바 마을)" reportTo="생활 모험가(쿠니바 마을)" cancelable="1" repeatable="0" retryable="1" lv="10" desc="다도를 즐기는 분들이 늘어나면서 이런 의뢰의 양도 늘고 있어요. 바로 ^#3399FF잘 말린 찻잎^#FFFFFF 을 가져다 달라는 것이죠. 저도 잘 말려서 뜨거운 물에 푹~ 담궈 우려낸 맛있는 차 생각이 간절하네요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="98" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[가공품 잘 말린 찻잎 수집]]" draft="다도를 즐기는 분들이 늘어나면서 이런 의뢰의 양도 늘고 있어요. 바로 ^#3399FF잘 말린 찻잎^#FFFFFF 을 가져다 달라는 것이죠. 저도 잘 말려서 뜨거운 물에 푹~ 담궈 우려낸 맛있는 차 생각이 간절하네요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="가공품 잘 말린 찻잎 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[쿠니바 마을 생활 모험가 길드원에게 보고]]" draft="다도를 즐기는 분들이 늘어나면서 이런 의뢰의 양도 늘고 있어요. 바로 ^#3399FF잘 말린 찻잎^#FFFFFF 을 가져다 달라는 것이죠. 저도 잘 말려서 뜨거운 물에 푹~ 담궈 우려낸 맛있는 차 생각이 간절하네요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="쿠니바 마을 생활 모험가 길드원에게 보고" mapTargetId="101502"/>
+		</Subject>
+		<Storage Collect1_typeID="201072" Collect1_goal="3" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="15"/>
+	</Quest>
+	<Quest typeID="402305326" typeName="초보 모험가의 상처" group="207" NPC="생활 모험가(쿠니바 마을)" reportTo="생활 모험가(쿠니바 마을)" cancelable="1" repeatable="0" retryable="1" lv="10" desc="카툼바 골짜기가 근처라 초보 모험가들이 부쩍 마을을 많이 찾아오고 있어요. 하지만 다들 초보라 어찌나 많이 다치는지 바닥에 핏방울이 없는 날이 없답니다. ^#3399FF무명 옷감을 모아서 제게 주시면 깨끗하게 빨아서 초보 모험가들의 상처를 감싸드릴거예요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="98" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[가공품 무명 옷감 수집]]" draft="카툼바 골짜기가 근처라 초보 모험가들이 부쩍 마을을 많이 찾아오고 있어요. 하지만 다들 초보라 어찌나 많이 다치는지 바닥에 핏방울이 없는 날이 없답니다. ^#3399FF무명 옷감을 모아서 제게 주시면 깨끗하게 빨아서 초보 모험가들의 상처를 감싸드릴거예요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="가공품 무명 옷감 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[쿠니바 마을 생활 모험가 길드원에게 보고]]" draft="카툼바 골짜기가 근처라 초보 모험가들이 부쩍 마을을 많이 찾아오고 있어요. 하지만 다들 초보라 어찌나 많이 다치는지 바닥에 핏방울이 없는 날이 없답니다. ^#3399FF무명 옷감을 모아서 제게 주시면 깨끗하게 빨아서 초보 모험가들의 상처를 감싸드릴거예요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="쿠니바 마을 생활 모험가 길드원에게 보고" mapTargetId="101502"/>
+		</Subject>
+		<Storage Collect1_typeID="201020" Collect1_goal="3" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="15"/>
+	</Quest>
+	<Quest typeID="402305327" typeName="여행에 필요한 것" group="207" NPC="생활 모험가(쿠니바 마을)" reportTo="생활 모험가(쿠니바 마을)" cancelable="1" repeatable="0" retryable="1" lv="5" desc="떠돌이 장사꾼님의 의뢰입니다. 오랜 여행에 지친 몸을 달래고 싶으니 향긋한 티를 만들어 달라고 부탁하셨어요./n^#3399FF그린티 라이프^#FFFFFF 정도면 괜찮겠죠? 어서 구해다 주세요./n다인 교관에게 스킬을 배운 다인이 만들 수 있을 거예요. /n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="75" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[제작품 그린티 라이프 수집]]" draft="떠돌이 장사꾼님의 의뢰입니다. 오랜 여행에 지친 몸을 달래고 싶으니 향긋한 티를 만들어 달라고 부탁하셨어요./n^#3399FF그린티 라이프^#FFFFFF 정도면 괜찮겠죠? 어서 구해다 주세요./n다인 교관에게 스킬을 배운 다인이 만들 수 있을 거예요. /n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="제작품 그린티 라이프 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[쿠니바 마을 생활 모험가 길드원에게 보고]]" draft="떠돌이 장사꾼님의 의뢰입니다. 오랜 여행에 지친 몸을 달래고 싶으니 향긋한 티를 만들어 달라고 부탁하셨어요./n^#3399FF그린티 라이프^#FFFFFF 정도면 괜찮겠죠? 어서 구해다 주세요./n다인 교관에게 스킬을 배운 다인이 만들 수 있을 거예요. /n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="쿠니바 마을 생활 모험가 길드원에게 보고" mapTargetId="101502"/>
+		</Subject>
+		<Storage Collect1_typeID="130400" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+	<Quest typeID="402305328" typeName="배가 고파요" group="207" NPC="생활 모험가(쿠니바 마을)" reportTo="생활 모험가(쿠니바 마을)" cancelable="1" repeatable="0" retryable="1" lv="10" desc="배가 고플 때는 뭐든지 맛있다가 배가 부르면 뭘 먹어도 맛없어지는 거.. 아시죠? 이번 의뢰인도 그러셨대요./n배고플 땐 뭘 먹어도 맛있었는데 배가 좀 부르니까 맛있는거 아니면 먹고 싶은 마음이 들지 않는다고요. 그래서 제가 ^#3399FF스테이크^#FFFFFF를 구해드리기로 했는데 빨리 구해주실 수 있지요? 기다릴게요./n요리사 교관에게 스킬을 배운 요리사라면 금새 따끈 따끈하게 만들어 주실 수 있을 것 같은데.../n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="112" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[제작품 스테이크 수집]]" draft="배가 고플 때는 뭐든지 맛있다가 배가 부르면 뭘 먹어도 맛없어지는 거.. 아시죠? 이번 의뢰인도 그러셨대요./n배고플 땐 뭘 먹어도 맛있었는데 배가 좀 부르니까 맛있는거 아니면 먹고 싶은 마음이 들지 않는다고요. 그래서 제가 ^#3399FF스테이크^#FFFFFF를 구해드리기로 했는데 빨리 구해주실 수 있지요? 기다릴게요./n요리사 교관에게 스킬을 배운 요리사라면 금새 따끈 따끈하게 만들어 주실 수 있을 것 같은데.../n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="제작품 스테이크 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[쿠니바 마을 생활 모험가 길드원에게 보고]]" draft="배가 고플 때는 뭐든지 맛있다가 배가 부르면 뭘 먹어도 맛없어지는 거.. 아시죠? 이번 의뢰인도 그러셨대요./n배고플 땐 뭘 먹어도 맛있었는데 배가 좀 부르니까 맛있는거 아니면 먹고 싶은 마음이 들지 않는다고요. 그래서 제가 ^#3399FF스테이크^#FFFFFF를 구해드리기로 했는데 빨리 구해주실 수 있지요? 기다릴게요./n요리사 교관에게 스킬을 배운 요리사라면 금새 따끈 따끈하게 만들어 주실 수 있을 것 같은데.../n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="쿠니바 마을 생활 모험가 길드원에게 보고" mapTargetId="101502"/>
+		</Subject>
+		<Storage Collect1_typeID="130360" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="20"/>
+		<ChoiceReward typeID="60004" count="1"/>
+		<ChoiceReward typeID="60005" count="1"/>
+	</Quest>
+	<Quest typeID="402305329" typeName="여관 주인의 모자" group="207" NPC="생활 모험가(쿠니바 마을)" reportTo="생활 모험가(쿠니바 마을)" cancelable="1" repeatable="0" retryable="1" lv="5" desc="쿠니바 마을 여관 주인님께서 의뢰하셨어요. 여행자가 쓰고 온 모자 중에 ^#3399FF어둠의 전령 모자^#FFFFFF가 마음에 드신다고 하던데 그걸 저에게 갖다 주실 수 있으시죠?/n재봉사 교관에게 스킬을 배운 재봉사라면 만들 수 있어요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="75" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[제작품 어둠의 전령 모자 수집]]" draft="쿠니바 마을 여관 주인님께서 의뢰하셨어요. 여행자가 쓰고 온 모자 중에 ^#3399FF어둠의 전령 모자^#FFFFFF가 마음에 드신다고 하던데 그걸 저에게 갖다 주실 수 있으시죠?/n재봉사 교관에게 스킬을 배운 재봉사라면 만들 수 있어요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="제작품 어둠의 전령 모자 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[쿠니바 마을 생활 모험가 길드원에게 보고]]" draft="쿠니바 마을 여관 주인님께서 의뢰하셨어요. 여행자가 쓰고 온 모자 중에 ^#3399FF어둠의 전령 모자^#FFFFFF가 마음에 드신다고 하던데 그걸 저에게 갖다 주실 수 있으시죠?/n재봉사 교관에게 스킬을 배운 재봉사라면 만들 수 있어요./n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="쿠니바 마을 생활 모험가 길드원에게 보고" mapTargetId="101502"/>
+		</Subject>
+		<Storage Collect1_typeID="130080" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+	<Quest typeID="402305330" typeName="지친 여행자의 음료" group="207" NPC="생활 모험가(쿠니바 마을)" reportTo="생활 모험가(쿠니바 마을)" cancelable="1" repeatable="0" retryable="1" lv="10" desc="지친 여행자의 의뢰입니다. 건강이 쇠약해져 물을 마셔도 마셔도 목이 탄다고 하세요. ^#3399FF쉐도우 그린티?^#FFFFFF를 마시면 갈증이 좀 해소될 것 같은데 빨리 모아다 저에게 갖다 주시겠어요?/n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="112" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[제작품 엘사라임 바이블 수집]]" draft="지친 여행자의 의뢰입니다. 건강이 쇠약해져 물을 마셔도 마셔도 목이 탄다고 하세요. ^#3399FF엘사라임 바이블^#FFFFFF를 마시면 갈증이 좀 해소될 것 같은데 빨리 모아다 저에게 갖다 주시겠어요?/n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="제작품 엘사라임 바이블 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[쿠니바 마을 생활 모험가 길드원에게 보고]]" draft="지친 여행자의 의뢰입니다. 건강이 쇠약해져 물을 마셔도 마셔도 목이 탄다고 하세요. ^#3399FF쉐도우 그린티?^#FFFFFF를 마시면 갈증이 좀 해소될 것 같은데 빨리 모아다 저에게 갖다 주시겠어요?/n^#3399FF쿠니바 마을^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="쿠니바 마을 생활 모험가 길드원에게 보고" mapTargetId="101502"/>
+		</Subject>
+		<Storage Collect1_typeID="130001" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="20"/>
+		<ChoiceReward typeID="60004" count="1"/>
+		<ChoiceReward typeID="60005" count="1"/>
+	</Quest>
+	<Quest typeID="402305331" typeName="초원의 들꽃 (반복)" group="207" NPC="생활 모험가(카라쿤타)" reportTo="생활 모험가(카라쿤타)" cancelable="1" repeatable="1" retryable="1" lv="10" desc="초원의 들꽃은 비를 맞지 못해 금새 메말라 버리곤 한답니다. 그래도 꽃은 꽃인지라 ^#3399FF메마른 들꽃^#FFFFFF이라도 ^#3399FF잘라^#FFFFFF 달라고 하시니 그분들은 정말 꽃을 사랑하시나 봐요./n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="82" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[메마른 들꽃 수집]]" draft="초원의 들꽃은 비를 맞지 못해 금새 메말라 버리곤 한답니다. 그래도 꽃은 꽃인지라 ^#3399FF메마른 들꽃^#FFFFFF이라도 ^#3399FF잘라^#FFFFFF 달라고 하시니 그분들은 정말 꽃을 사랑하시나 봐요./n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="메마른 들꽃 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[카라쿤타 생활 모험가 길드원에게 보고]]" draft="초원의 들꽃은 비를 맞지 못해 금새 메말라 버리곤 한답니다. 그래도 꽃은 꽃인지라 ^#3399FF메마른 들꽃^#FFFFFF이라도 ^#3399FF잘라^#FFFFFF 달라고 하시니 그분들은 정말 꽃을 사랑하시나 봐요./n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="카라쿤타 생활 모험가 길드원에게 보고" mapTargetId="103502"/>
+		</Subject>
+		<Storage Collect1_typeID="200046" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+	<Quest typeID="402305332" typeName="신참을 위한 메마른 열매" group="207" NPC="생활 모험가(카라쿤타)" reportTo="생활 모험가(카라쿤타)" cancelable="1" repeatable="0" retryable="1" lv="10" desc="성질이 고약한 병사의 의뢰입니다. ^#3399FF메마른 열매^#FFFFFF를 ^#3399F모아^#FFFFFF달라고 하는데 신참 병사에게 먹일거라며 짖궂게 웃으시더라고요.. 이런 것도 의뢰이긴 한지라.../n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="82" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[메마른 열매 수집]]" draft="성질이 고약한 병사의 의뢰입니다. ^#3399FF메마른 열매^#FFFFFF를 ^#3399F모아^#FFFFFF달라고 하는데 신참 병사에게 먹일거라며 짖궂게 웃으시더라고요.. 이런 것도 의뢰이긴 한지라.../n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="메마른 열매 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[카라쿤타 생활 모험가 길드원에게 보고]]" draft="성질이 고약한 병사의 의뢰입니다. ^#3399FF메마른 열매^#FFFFFF를 ^#3399F모아^#FFFFFF달라고 하는데 신참 병사에게 먹일거라며 짖궂게 웃으시더라고요.. 이런 것도 의뢰이긴 한지라.../n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="카라쿤타 생활 모험가 길드원에게 보고" mapTargetId="103502"/>
+		</Subject>
+		<Storage Collect1_typeID="200052" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+	<Quest typeID="402305333" typeName="초원의 메마른 풀 (반복)" group="207" NPC="생활 모험가(카라쿤타)" reportTo="생활 모험가(카라쿤타)" cancelable="1" repeatable="1" retryable="1" lv="15" desc="풀의 강한 생명력은 모험가님도 익히 알고 계시죠? 물 한 방울 없을 것 같은 사막이나 가파른 절벽에서 꽃을 피우는 것들을 보면 쉽게 알 수 있잖아요. ^#3399FF메마른 풀뿌리^#FFFFFF를 ^#3399FF캐^#FFFFFF주세요. 삶의 목표를 잃고 도탄에 빠진 사람들에게 보여주며 한 마디 해주고 싶네요./n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="720" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[메마른 풀뿌리 수집]]" draft="풀의 강한 생명력은 모험가님도 익히 알고 계시죠? 물 한 방울 없을 것 같은 사막이나 가파른 절벽에서 꽃을 피우는 것들을 보면 쉽게 알 수 있잖아요. ^#3399FF메마른 풀뿌리^#FFFFFF를 ^#3399FF캐^#FFFFFF주세요. 삶의 목표를 잃고 도탄에 빠진 사람들에게 보여주며 한 마디 해주고 싶네요./n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="메마른 풀뿌리 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[카라쿤타 생활 모험가 길드원에게 보고]]" draft="풀의 강한 생명력은 모험가님도 익히 알고 계시죠? 물 한 방울 없을 것 같은 사막이나 가파른 절벽에서 꽃을 피우는 것들을 보면 쉽게 알 수 있잖아요. ^#3399FF메마른 풀뿌리^#FFFFFF를 ^#3399FF캐^#FFFFFF주세요. 삶의 목표를 잃고 도탄에 빠진 사람들에게 보여주며 한 마디 해주고 싶네요./n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="카라쿤타 생활 모험가 길드원에게 보고" mapTargetId="103502"/>
+		</Subject>
+		<Storage Collect1_typeID="200050" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="16"/>
+	</Quest>
+	<Quest typeID="402305334" typeName="조각난 토파즈, 많이!" group="207" NPC="생활 모험가(카라쿤타)" reportTo="생활 모험가(카라쿤타)" cancelable="1" repeatable="0" retryable="1" lv="15" desc="라임을 찾는 여행자님의 의뢰입니다. 그분은 라임을 소문을 듣고 무작정 여행을 떠나긴 했는데 너무 오래 집을 비워 후회가 든다고 하세요. 돈이 없어서 집으로 돌아가지 못하고 난감하다고 하시네요. ^#3399FF조각난 토파즈^#FFFFFF ^#3399FF라도 찾아^#FFFFFF드리면 여비에 도움이 될 것 같은데 말이죠. 도와주시겠어요?/n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="720" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[조각난 토파즈 수집]]" draft="라임을 찾는 여행자님의 의뢰입니다. 그분은 라임을 소문을 듣고 무작정 여행을 떠나긴 했는데 너무 오래 집을 비워 후회가 든다고 하세요. 돈이 없어서 집으로 돌아가지 못하고 난감하다고 하시네요. ^#3399FF조각난 토파즈^#FFFFFF ^#3399FF라도 찾아^#FFFFFF드리면 여비에 도움이 될 것 같은데 말이죠. 도와주시겠어요?/n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="조각난 토파즈 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[카라쿤타 생활 모험가 길드원에게 보고]]" draft="라임을 찾는 여행자님의 의뢰입니다. 그분은 라임을 소문을 듣고 무작정 여행을 떠나긴 했는데 너무 오래 집을 비워 후회가 든다고 하세요. 돈이 없어서 집으로 돌아가지 못하고 난감하다고 하시네요. ^#3399FF조각난 토파즈^#FFFFFF ^#3399FF라도 찾아^#FFFFFF드리면 여비에 도움이 될 것 같은데 말이죠. 도와주시겠어요?/n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="카라쿤타 생활 모험가 길드원에게 보고" mapTargetId="103502"/>
+		</Subject>
+		<Storage Collect1_typeID="200041" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="16"/>
+	</Quest>
+	<Quest typeID="402305335" typeName="라임 붐! (반복)" group="207" NPC="생활 모험가(카라쿤타)" reportTo="생활 모험가(카라쿤타)" cancelable="1" repeatable="1" retryable="1" lv="15" desc="요즘 전 오르타 대륙에 라임 붐!이 일어나고 있다는 거 알고 계시죠? 저희 모험가 길드에도 라임에 대한 관심이 지대하답니다. 고대의 유산과 관련이 있다는 소문이 퍼져 모아 달라는 의뢰가 많아요. ^#3399FF조각난 금속^#FFFFFF을 ^#3399FF캐^#FFFFFF주시면 저희 길드에 많은 도움이 된답니다./n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="720" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[조각난 금속 수집]]" draft="요즘 전 오르타 대륙에 라임 붐!이 일어나고 있다는 거 알고 계시죠? 저희 모험가 길드에도 라임에 대한 관심이 지대하답니다. 고대의 유산과 관련이 있다는 소문이 퍼져 모아 달라는 의뢰가 많아요. ^#3399FF조각난 금속^#FFFFFF을 ^#3399FF캐^#FFFFFF주시면 저희 길드에 많은 도움이 된답니다./n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="조각난 금속 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[카라쿤타 생활 모험가 길드원에게 보고]]" draft="요즘 전 오르타 대륙에 라임 붐!이 일어나고 있다는 거 알고 계시죠? 저희 모험가 길드에도 라임에 대한 관심이 지대하답니다. 고대의 유산과 관련이 있다는 소문이 퍼져 모아 달라는 의뢰가 많아요. ^#3399FF조각난 금속^#FFFFFF을 ^#3399FF캐^#FFFFFF주시면 저희 길드에 많은 도움이 된답니다./n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="카라쿤타 생활 모험가 길드원에게 보고" mapTargetId="103502"/>
+		</Subject>
+		<Storage Collect1_typeID="200038" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="16"/>
+	</Quest>
+	<Quest typeID="402305336" typeName="모험자의 미덕" group="207" NPC="생활 모험가(카라쿤타)" reportTo="생활 모험가(카라쿤타)" cancelable="1" repeatable="0" retryable="1" lv="15" desc="코어에는 과거의 흔적이 들어있다고 하던데... 모험가의 기본 소양은 호기심이란 거 아시죠?/n최고의 모험가들이 모인 저희 모험가 길드의 길드원들도 예외는 아니랍니다!/n^#3399FF조각난 코어^#FFFFFF를 ^#3399FF캐^#FFFFFF오시면^#FFFFFF 제 동료와 저의 궁금증이 조금은 충족될 것 같은데.. 도와주실거죠?/n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="720" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[조각난 코어 수집]]" draft="코어에는 과거의 흔적이 들어있다고 하던데... 모험가의 기본 소양은 호기심이란 거 아시죠?/n최고의 모험가들이 모인 저희 모험가 길드의 길드원들도 예외는 아니랍니다!/n^#3399FF조각난 코어^#FFFFFF를 ^#3399FF캐^#FFFFFF오시면^#FFFFFF 제 동료와 저의 궁금증이 조금은 충족될 것 같은데.. 도와주실거죠?/n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="조각난 코어 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[카라쿤타 생활 모험가 길드원에게 보고]]" draft="코어에는 과거의 흔적이 들어있다고 하던데... 모험가의 기본 소양은 호기심이란 거 아시죠?/n최고의 모험가들이 모인 저희 모험가 길드의 길드원들도 예외는 아니랍니다!/n^#3399FF조각난 코어^#FFFFFF를 ^#3399FF캐^#FFFFFF오시면^#FFFFFF 제 동료와 저의 궁금증이 조금은 충족될 것 같은데.. 도와주실거죠?/n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="카라쿤타 생활 모험가 길드원에게 보고" mapTargetId="103502"/>
+		</Subject>
+		<Storage Collect1_typeID="200039" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="16"/>
+	</Quest>
+	<Quest typeID="402305337" typeName="투르가의 훈련 (반복)" group="207" NPC="생활 모험가(카라쿤타)" reportTo="생활 모험가(카라쿤타)" cancelable="1" repeatable="1" retryable="1" lv="15" desc="강함에 대한 투르가의 열정은 정말 대단하죠. ^#3399FF조각난 암석^#FFFFFF을  ^#3399FF모아^#FFFFFF 돌팔매질 훈련에 쓴다니 말이예요. 투르가의 훈련을 도와주실거죠?/n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="720" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[조각난 암석 수집]]" draft="강함에 대한 투르가의 열정은 정말 대단하죠. ^#3399FF조각난 암석^#FFFFFF을  ^#3399FF모아^#FFFFFF 돌팔매질 훈련에 쓴다니 말이예요. 투르가의 훈련을 도와주실거죠?/n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="조각난 암석 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[카라쿤타 생활 모험가 길드원에게 보고]]" draft="강함에 대한 투르가의 열정은 정말 대단하죠. ^#3399FF조각난 암석^#FFFFFF을  ^#3399FF모아^#FFFFFF 돌팔매질 훈련에 쓴다니 말이예요. 투르가의 훈련을 도와주실거죠?/n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="카라쿤타 생활 모험가 길드원에게 보고" mapTargetId="103502"/>
+		</Subject>
+		<Storage Collect1_typeID="200043" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="16"/>
+	</Quest>
+	<Quest typeID="402305338" typeName="초보 훈련병의 무기" group="207" NPC="생활 모험가(카라쿤타)" reportTo="생활 모험가(카라쿤타)" cancelable="1" repeatable="0" retryable="1" lv="15" desc="전사 교관님의 의뢰입니다. ^#3399FF조각난 광석^#FFFFFF ^#3399FF캐^#FFFFFF와 주세요. 초보 훈련병의 무기를 제작하는 데 쓰일 겁니다./n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="720" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[조각난 광석 수집]]" draft="전사 교관님의 의뢰입니다. ^#3399FF조각난 광석^#FFFFFF ^#3399FF캐^#FFFFFF와 주세요. 초보 훈련병의 무기를 제작하는 데 쓰일 겁니다./n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="조각난 광석 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[카라쿤타 생활 모험가 길드원에게 보고고]]" draft="전사 교관님의 의뢰입니다. ^#3399FF조각난 광석^#FFFFFF ^#3399FF캐^#FFFFFF와 주세요. 초보 훈련병의 무기를 제작하는 데 쓰일 겁니다./n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="카라쿤타 생활 모험가 길드원에게 보고" mapTargetId="103502"/>
+		</Subject>
+		<Storage Collect1_typeID="200034" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="16"/>
+	</Quest>
+	<Quest typeID="402305339" typeName="푸른 초원의 꿈 (반복)" group="207" NPC="생활 모험가(카라쿤타)" reportTo="생활 모험가(카라쿤타)" cancelable="1" repeatable="1" retryable="1" lv="15" desc="드레이븐 선하울님의 의뢰입니다. 메마른 초원에서도 잘 자라는 풀을 연구하고 계시다는데 ^#3399FF메마른 새싹^#FFFFFF ^#3399FF잘라^#FFFFFF달라고 하세요./n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="720" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[메마른 새싹 수집]]" draft="드레이븐 선하울님의 의뢰입니다. 메마른 초원에서도 잘 자라는 풀을 연구하고 계시다는데 ^#3399FF메마른 새싹^#FFFFFF ^#3399FF잘라^#FFFFFF달라고 하세요./n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="메마른 새싹 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[카라쿤타 생활 모험가 길드원에게 보고]]" draft="드레이븐 선하울님의 의뢰입니다. 메마른 초원에서도 잘 자라는 풀을 연구하고 계시다는데 ^#3399FF메마른 새싹^#FFFFFF ^#3399FF잘라^#FFFFFF달라고 하세요./n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="카라쿤타 생활 모험가 길드원에게 보고" mapTargetId="103502"/>
+		</Subject>
+		<Storage Collect1_typeID="200045" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="16"/>
+	</Quest>
+	<Quest typeID="402305340" typeName="마음의 꽃봉오리" group="207" NPC="생활 모험가(카라쿤타)" reportTo="생활 모험가(카라쿤타)" cancelable="1" repeatable="0" retryable="1" lv="15" desc="이번에는 제가 모험가님께 드리는 의뢰예요. 매일 이렇게 전장을 바라보고 있으려니 왠지 쓸쓸해서요. ^#3399FF메마른 꽃봉오리^#FFFFFF라도 좋으니 꽃을 보고 싶어요. 저를 위해 그걸 ^#3399FF찾아^#FFFFFF다 주시겠어요?/n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="720" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[메마른 꽃봉오리 수집]]" draft="이번에는 제가 모험가님께 드리는 의뢰예요. 매일 이렇게 전장을 바라보고 있으려니 왠지 쓸쓸해서요. ^#3399FF메마른 꽃봉오리^#FFFFFF라도 좋으니 꽃을 보고 싶어요. 저를 위해 그걸 ^#3399FF찾아^#FFFFFF다 주시겠어요?/n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="메마른 꽃봉오리 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[카라쿤타 생활 모험가 길드원에게 보고]]" draft="이번에는 제가 모험가님께 드리는 의뢰예요. 매일 이렇게 전장을 바라보고 있으려니 왠지 쓸쓸해서요. ^#3399FF메마른 꽃봉오리^#FFFFFF라도 좋으니 꽃을 보고 싶어요. 저를 위해 그걸 ^#3399FF찾아^#FFFFFF다 주시겠어요?/n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="카라쿤타 생활 모험가 길드원에게 보고" mapTargetId="103502"/>
+		</Subject>
+		<Storage Collect1_typeID="200049" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="16"/>
+	</Quest>
+	<Quest typeID="402305341" typeName="실험적인 레시피 (반복) " group="207" NPC="생활 모험가(카라쿤타)" reportTo="생활 모험가(카라쿤타)" cancelable="1" repeatable="1" retryable="1" lv="15" desc="요리사 교관님의 의뢰입니다. ^#3399FF메마른 과실^#FFFFFF이라도 ^#3399FF모아^#FFFFFF 달라고 하셨어요/n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="720" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[메마른 과실 수집]]" draft="요리사 교관님의 의뢰입니다. ^#3399FF메마른 과실^#FFFFFF이라도 ^#3399FF모아^#FFFFFF 달라고 하셨어요/n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="메마른 과실 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[카라쿤타 생활 모험가 길드원에게 보고]]" draft="요리사 교관님의 의뢰입니다. ^#3399FF메마른 과실^#FFFFFF이라도 ^#3399FF모아^#FFFFFF 달라고 하셨어요/n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="카라쿤타 생활 모험가 길드원에게 보고" mapTargetId="103502"/>
+		</Subject>
+		<Storage Collect1_typeID="200051" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="16"/>
+	</Quest>
+	<Quest typeID="402305342" typeName="작은 약병" group="207" NPC="생활 모험가(카라쿤타)" reportTo="생활 모험가(카라쿤타)" cancelable="1" repeatable="0" retryable="1" lv="15" desc="치유사 교관님의 의뢰입니다. 치료약을 담을 작은 병이 필요하다시는데 ^#3399FF조각난 금속^#FFFFFF을 ^#3399FF캐^#FFFFFF주시면 대장장이 교관님이 만들어 주신다고 했대요./n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="720" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[조각난 금속 수집]]" draft="치유사 교관님의 의뢰입니다. 치료약을 담을 작은 병이 필요하다시는데 ^#3399FF조각난 금속^#FFFFFF을 ^#3399FF캐^#FFFFFF주시면 대장장이 교관님이 만들어 주신다고 했대요./n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="조각난 금속 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[카라쿤타 생활 모험가 길드원에게 보고]]" draft="치유사 교관님의 의뢰입니다. 치료약을 담을 작은 병이 필요하다시는데 ^#3399FF조각난 금속^#FFFFFF을 ^#3399FF캐^#FFFFFF주시면 대장장이 교관님이 만들어 주신다고 했대요./n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="카라쿤타 생활 모험가 길드원에게 보고" mapTargetId="103502"/>
+		</Subject>
+		<Storage Collect1_typeID="200040" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="16"/>
+	</Quest>
+	<Quest typeID="402305343" typeName="반짝이는 무기 (반복)" group="207" NPC="생활 모험가(카라쿤타)" reportTo="생활 모험가(카라쿤타)" cancelable="1" repeatable="1" retryable="1" lv="15" desc="올쿠브 해머핸드님의 의뢰입니다. ^#3399FF조각난 수정^#FFFFFF을 ^#3399FF찾아^#FFFFFF 달라고 하세요. 모아서 무기를 장식하는데 쓸거라고 하시네요./n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="720" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[조각난 수정 수집]]" draft="올쿠브 해머핸드님의 의뢰입니다. ^#3399FF조각난 수정^#FFFFFF을 ^#3399FF찾아^#FFFFFF 달라고 하세요. 모아서 무기를 장식하는데 쓸거라고 하시네요./n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="조각난 수정 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[카라쿤타 생활 모험가 길드원에게 보고]]" draft="올쿠브 해머핸드님의 의뢰입니다. ^#3399FF조각난 수정^#FFFFFF을 ^#3399FF찾아^#FFFFFF 달라고 하세요. 모아서 무기를 장식하는데 쓸거라고 하시네요./n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="카라쿤타 생활 모험가 길드원에게 보고" mapTargetId="103502"/>
+		</Subject>
+		<Storage Collect1_typeID="200042" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="16"/>
+	</Quest>
+	<Quest typeID="402305344" typeName="아이를 위한 작은 단추" group="207" NPC="생활 모험가(카라쿤타)" reportTo="생활 모험가(카라쿤타)" cancelable="1" repeatable="0" retryable="1" lv="15" desc="저는 나중에 다시 태어나면 나무가 되고 싶어요. 이렇게 서서 모험가 분들께 봉사하는 것도 물론 좋지만... 나무는 수명이 다해도 아주아주 작은 부분까지 사람들을 위해 쓰여지잖아요. ^#3399FF작은 나무 단추^#FFFFFF같은 게 되어서요. 요 앞에서 놀던 아이의 조끼에 단추가 없어서 앞섶이 펄럭거리던데 ^#3399FF작은 나무 단추^#FFFFFF를 가져다 주시면 제가 아이의 옷을 수선해 줄 수 있답니다./n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="720" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[가공품 작은 나무 단추 수집]]" draft="저는 나중에 다시 태어나면 나무가 되고 싶어요. 이렇게 서서 모험가 분들께 봉사하는 것도 물론 좋지만... 나무는 수명이 다해도 아주아주 작은 부분까지 사람들을 위해 쓰여지잖아요. ^#3399FF작은 나무 단추^#FFFFFF같은 게 되어서요. 요 앞에서 놀던 아이의 조끼에 단추가 없어서 앞섶이 펄럭거리던데 ^#3399FF작은 나무 단추^#FFFFFF를 가져다 주시면 제가 아이의 옷을 수선해 줄 수 있답니다./n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="가공품 작은 나무 단추 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[카라쿤타 생활 모험가 길드원에게 보고]]" draft="저는 나중에 다시 태어나면 나무가 되고 싶어요. 이렇게 서서 모험가 분들께 봉사하는 것도 물론 좋지만... 나무는 수명이 다해도 아주아주 작은 부분까지 사람들을 위해 쓰여지잖아요. ^#3399FF작은 나무 단추^#FFFFFF같은 게 되어서요. 요 앞에서 놀던 아이의 조끼에 단추가 없어서 앞섶이 펄럭거리던데 ^#3399FF작은 나무 단추^#FFFFFF를 가져다 주시면 제가 아이의 옷을 수선해 줄 수 있답니다./n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="카라쿤타 생활 모험가 길드원에게 보고" mapTargetId="103502"/>
+		</Subject>
+		<Storage Collect1_typeID="201018" Collect1_goal="3" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="16"/>
+	</Quest>
+	<Quest typeID="402305345" typeName="스쿠르가 만드는 기계" group="207" NPC="생활 모험가(카라쿤타)" reportTo="생활 모험가(카라쿤타)" cancelable="1" repeatable="0" retryable="1" lv="10" desc="부스러진 광석을 모아 가공하면 ^#3399FF작은 금속 나사^#FFFFFF가 된다는 거 알고 계시죠? 그러니까 아주 작은 것도 소홀히 하면 나중에 후회한다니까요! 스쿠르족이 기계를 만드는데 나사가 모자라다며 급하게 찾고 있어요./n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="98" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[가공품 작은 금속 나사 수집]]" draft="부스러진 광석을 모아 가공하면 ^#3399FF작은 금속 나사^#FFFFFF가 된다는 거 알고 계시죠? 그러니까 아주 작은 것도 소홀히 하면 나중에 후회한다니까요! 스쿠르족이 기계를 만드는데 나사가 모자라다며 급하게 찾고 있어요./n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="가공품 작은 금속 나사 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[카라쿤타 생활 모험가 길드원에게 보고]]" draft="부스러진 광석을 모아 가공하면 ^#3399FF작은 금속 나사^#FFFFFF가 된다는 거 알고 계시죠? 그러니까 아주 작은 것도 소홀히 하면 나중에 후회한다니까요! 스쿠르족이 기계를 만드는데 나사가 모자라다며 급하게 찾고 있어요./n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="카라쿤타 생활 모험가 길드원에게 보고" mapTargetId="103502"/>
+		</Subject>
+		<Storage Collect1_typeID="201010" Collect1_goal="3" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="15"/>
+	</Quest>
+	<Quest typeID="402305346" typeName="뜨거운 물이 급해요!" group="207" NPC="생활 모험가(카라쿤타)" reportTo="생활 모험가(카라쿤타)" cancelable="1" repeatable="0" retryable="1" lv="15" desc="어서, 어서요. 펄펄 뜨겁게 끓인 물이 필요해요! 근처 가정 집에서 새 생명이 탄생하는 중인데 제가 뜨겁게 ^#3399FF끓인 물^#FFFFFF 구해다 주기로 했답니다./n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="720" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[가공품 끓인 물 수집]]" draft="어서, 어서요. 펄펄 뜨겁게 끓인 물이 필요해요! 근처 가정 집에서 새 생명이 탄생하는 중인데 제가 뜨겁게 ^#3399FF끓인 물^#FFFFFF 구해다 주기로 했답니다./n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="가공품 끓인 물 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[카라쿤타 생활 모험가 길드원에게 보고]]" draft="어서, 어서요. 펄펄 뜨겁게 끓인 물이 필요해요! 근처 가정 집에서 새 생명이 탄생하는 중인데 제가 뜨겁게 ^#3399FF끓인 물^#FFFFFF 구해다 주기로 했답니다./n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="카라쿤타 생활 모험가 길드원에게 보고" mapTargetId="103502"/>
+		</Subject>
+		<Storage Collect1_typeID="201071" Collect1_goal="3" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="16"/>
+	</Quest>
+	<Quest typeID="402305347" typeName="탐 나는 벨트" group="207" NPC="생활 모험가(카라쿤타)" reportTo="생활 모험가(카라쿤타)" cancelable="1" repeatable="0" retryable="1" lv="10" desc="카라쿤타 여관 주인님께서 의뢰하셨어요. 여관에 손님이 허리에 찬 ^#3399FF신앙의 벨트^#FFFFFF가 멋졌다며 하나 갖고 싶다고 하시더라고요. 재봉사 교관에게 스킬을 배운 재봉사라면 만들 수 있을거예요../n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="112" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[제작품 신앙의 벨트 수집]]" draft="카라쿤타 여관 주인님께서 의뢰하셨어요. 여관에 손님이 허리에 찬 ^#3399FF신앙의 벨트^#FFFFFF가 멋졌다며 하나 갖고 싶다고 하시더라고요. 재봉사 교관에게 스킬을 배운 재봉사라면 만들 수 있을거예요../n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="제작품 신앙의 벨트 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[카라쿤타 생활 모험가 길드원에게 보고]]" draft="카라쿤타 여관 주인님께서 의뢰하셨어요. 여관에 손님이 허리에 찬 ^#3399FF신앙의 벨트^#FFFFFF가 멋졌다며 하나 갖고 싶다고 하시더라고요. 재봉사 교관에게 스킬을 배운 재봉사라면 만들 수 있을거예요../n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="카라쿤타 생활 모험가 길드원에게 보고" mapTargetId="103502"/>
+		</Subject>
+		<Storage Collect1_typeID="130294" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="20"/>
+		<ChoiceReward typeID="60004" count="1"/>
+		<ChoiceReward typeID="60005" count="1"/>
+	</Quest>
+	<Quest typeID="402305348" typeName="용감했던 전사" group="207" NPC="생활 모험가(카라쿤타)" reportTo="생활 모험가(카라쿤타)" cancelable="1" repeatable="0" retryable="1" lv="15" desc="드레이브 선하울님의 의뢰입니다. ^#3399FF하프 젠더^#FFFFFF을 구해 달라세요. 그걸 차고 선두에 서서 용감하게 적을 둘로 갈랐던 추억을 떠올리고 싶으시다면서요./n대장장이 교관에게 스킬을 배운 대장장이라면 만들 수 있을 거예요../n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="785" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[제작품 하프 젠더 수집]]" draft="드레이브 선하울님의 의뢰입니다. ^#3399FF하프 젠더^#FFFFFF을 구해 달라세요. 그걸 차고 선두에 서서 용감하게 적을 둘로 갈랐던 추억을 떠올리고 싶으시다면서요./n대장장이 교관에게 스킬을 배운 대장장이라면 만들 수 있을 거예요../n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="제작품 하프 젠더 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[카라쿤타 생활 모험가 길드원에게 보고]]" draft="드레이브 선하울님의 의뢰입니다. ^#3399FF하프 젠더^#FFFFFF을 구해 달라세요. 그걸 차고 선두에 서서 용감하게 적을 둘로 갈랐던 추억을 떠올리고 싶으시다면서요./n대장장이 교관에게 스킬을 배운 대장장이라면 만들 수 있을 거예요../n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="카라쿤타 생활 모험가 길드원에게 보고" mapTargetId="103502"/>
+		</Subject>
+		<Storage Collect1_typeID="130069" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="22"/>
+	</Quest>
+	<Quest typeID="402305349" typeName="훈련병을 위한 작은 선물" group="207" NPC="생활 모험가(카라쿤타)" reportTo="생활 모험가(카라쿤타)" cancelable="1" repeatable="0" retryable="1" lv="15" desc="율라프 파이어미트님의 의뢰예요. ^#3399FF핫 그린티 멘탈^#FFFFFF를 구해달라고 하시는데 싸움에 지친 훈련병들에게 잠깐의 휴식을 주고 싶다고 하시는군요. 거기에 자신이 만든 요리를 끼워 먹이고 싶으시다고..좋아할까는 모르겠지만요./n다인이라면 다인 교관에게 스킬을 배워 만들 수 있을거예요./n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="832" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[제작품 핫 그린티 멘탈 수집]]" draft="율라프 파이어미트님의 의뢰예요. ^#3399FF핫 그린티 멘탈^#FFFFFF를 구해달라고 하시는데 싸움에 지친 훈련병들에게 잠깐의 휴식을 주고 싶다고 하시는군요. 거기에 자신이 만든 요리를 끼워 먹이고 싶으시다고..좋아할까는 모르겠지만요./n다인이라면 다인 교관에게 스킬을 배워 만들 수 있을거예요./n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="제작품 핫 그린티 멘탈 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[카라쿤타 생활 모험가 길드원에게 보고]]" draft="율라프 파이어미트님의 의뢰예요. ^#3399FF핫 그린티 멘탈^#FFFFFF를 구해달라고 하시는데 싸움에 지친 훈련병들에게 잠깐의 휴식을 주고 싶다고 하시는군요. 거기에 자신이 만든 요리를 끼워 먹이고 싶으시다고..좋아할까는 모르겠지만요./n다인이라면 다인 교관에게 스킬을 배워 만들 수 있을거예요./n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="카라쿤타 생활 모험가 길드원에게 보고" mapTargetId="103502"/>
+		</Subject>
+		<Storage Collect1_typeID="130409" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="31"/>
+	</Quest>
+	<Quest typeID="402305350" typeName="배가 든든해 지는 요리" group="207" NPC="생활 모험가(카라쿤타)" reportTo="생활 모험가(카라쿤타)" cancelable="1" repeatable="0" retryable="1" lv="15" desc="배가 고플 때는 뭐든지 맛있다가 배가 부르면 뭘 먹어도 맛없어지는 거.. 아시죠? 이번 의뢰인도 그러셨대요./n배고플 땐 뭘 먹어도 맛있었는데 배가 좀 부르니까 맛있는거 아니면 먹고 싶은 마음이 들지 않는다고요. 그래서 제가 ^#3399FF샐러드^#FFFFFF를 구해드리기로 했는데 빨리 구해주실 수 있지요? 기다릴게요./n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="832" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[제작품 샐러드 수집]]" draft="배가 고플 때는 뭐든지 맛있다가 배가 부르면 뭘 먹어도 맛없어지는 거.. 아시죠? 이번 의뢰인도 그러셨대요./n배고플 땐 뭘 먹어도 맛있었는데 배가 좀 부르니까 맛있는거 아니면 먹고 싶은 마음이 들지 않는다고요. 그래서 제가 ^#3399FF샐러드^#FFFFFF를 구해드리기로 했는데 빨리 구해주실 수 있지요? 기다릴게요./n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="제작품 샐러드 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[카라쿤타 생활 모험가 길드원에게 보고]]" draft="배가 고플 때는 뭐든지 맛있다가 배가 부르면 뭘 먹어도 맛없어지는 거.. 아시죠? 이번 의뢰인도 그러셨대요./n배고플 땐 뭘 먹어도 맛있었는데 배가 좀 부르니까 맛있는거 아니면 먹고 싶은 마음이 들지 않는다고요. 그래서 제가 ^#3399FF샐러드^#FFFFFF를 구해드리기로 했는데 빨리 구해주실 수 있지요? 기다릴게요./n^#3399FF카라쿤타^#FFFFFF에서 기다릴테니 다 모으면 저에게 가져다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="카라쿤타 생활 모험가 길드원에게 보고" mapTargetId="103502"/>
+		</Subject>
+		<Storage Collect1_typeID="130364" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="31"/>
+	</Quest>
+</Quest>

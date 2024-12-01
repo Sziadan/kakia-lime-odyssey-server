@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by Administrator (siriusent) -->
+<Quest>
+	<Quest typeID="203105010" typeName="사막의 새싹" group="201" NPC="생활 모험가(더스트 코랄)" reportTo="생활 모험가(더스트 코랄)" cancelable="1" repeatable="0" retryable="1" lv="30" desc="이 메마른 사막에서 다자란 새싹을 구하기란 하늘의 별따기나 마찬가지겠지요? 하지만 불쌍한 피킨 노예를 거느리는 악독한 마티나 주인들은 이런 말도 안되는 요구를 노예들에게 서슴지 않고 시킨답니다./n나쁜 주인을 만나 고생하는 피킨 노예들을 위해 ^#3399FF다자란 새싹^#FFFFFF을 ^#3399FF잘라^#FFFFFF와 주세요./n^#3399FF더스트 코랄^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="10044" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[다자란 새싹 수집]]" draft="이 메마른 사막에서 다자란 새싹을 구하기란 하늘의 별따기나 마찬가지겠지요? 하지만 불쌍한 피킨 노예를 거느리는 악독한 마티나 주인들은 이런 말도 안되는 요구를 노예들에게 서슴지 않고 시킨답니다./n나쁜 주인을 만나 고생하는 피킨 노예들을 위해 ^#3399FF다자란 새싹^#FFFFFF을 ^#3399FF잘라^#FFFFFF와 주세요./n^#3399FF더스트 코랄^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(더스트 코랄)">
+			<subjectPos subjectStr="다자란 새싹 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[더스트 코랄 생활 모험가 길드원에게 보고]]" draft="이 메마른 사막에서 다자란 새싹을 구하기란 하늘의 별따기나 마찬가지겠지요? 하지만 불쌍한 피킨 노예를 거느리는 악독한 마티나 주인들은 이런 말도 안되는 요구를 노예들에게 서슴지 않고 시킨답니다./n나쁜 주인을 만나 고생하는 피킨 노예들을 위해 ^#3399FF다자란 새싹^#FFFFFF을 ^#3399FF잘라^#FFFFFF와 주세요./n^#3399FF더스트 코랄^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(더스트 코랄)">
+			<subjectPos subjectStr="더스트 코랄 생활 모험가 길드원에게 보고" mapTargetId="402502"/>
+		</Subject>
+		<Storage Collect1_typeID="200064" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="172"/>
+	</Quest>
+	<Quest typeID="203105020" typeName="이름을 밝히기 어려운 의뢰" group="201" NPC="생활 모험가(더스트 코랄)" reportTo="생활 모험가(더스트 코랄)" cancelable="1" repeatable="0" retryable="1" lv="30" desc="마을 주민 중 이름을 밝히기 꺼려는 분이 의뢰하셨습니다. 그분은 그분의 소원을 위해 꼭 광물인 온전한 코코나이트가 많이 필요하다고 하십니다./n^#3399FF온전한 코코나이트^#FFFFFF를 ^#3399FF캐와^#FFFFFF 주세요./n^#3399FF더스트 코랄^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="10044" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[온전한 코코나이트 수집]]" draft="마을 주민 중 이름을 밝히기 꺼려는 분이 의뢰하셨습니다. 그분은 그분의 소원을 위해 꼭 광물인 온전한 코코나이트가 많이 필요하다고 하십니다./n^#3399FF온전한 코코나이트^#FFFFFF를 ^#3399FF캐와^#FFFFFF 주세요./n^#3399FF더스트 코랄^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(더스트 코랄)">
+			<subjectPos subjectStr="온전한 코코나이트 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[더스트 코랄 생활 모험가 길드원에게 보고]]" draft="마을 주민 중 이름을 밝히기 꺼려는 분이 의뢰하셨습니다. 그분은 그분의 소원을 위해 꼭 광물인 온전한 코코나이트가 많이 필요하다고 하십니다./n^#3399FF온전한 코코나이트^#FFFFFF를 ^#3399FF캐와^#FFFFFF 주세요./n^#3399FF더스트 코랄^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(더스트 코랄)">
+			<subjectPos subjectStr="더스트 코랄 생활 모험가 길드원에게 보고" mapTargetId="402502"/>
+		</Subject>
+		<Storage Collect1_typeID="200056" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="172"/>
+	</Quest>
+	<Quest typeID="203105030" typeName="사막의 상인" group="201" NPC="생활 모험가(더스트 코랄)" reportTo="생활 모험가(더스트 코랄)" cancelable="1" repeatable="0" retryable="1" lv="30" desc="마티나 상인님의 의뢰입니다. 마티나 상인님을 요즘 부쩍 늘어고 있는 라임을 찾는 모험가들에게 온전한 코어를 팔면 분명 수익이 많이 남을 거라고 생각하세요. 장사할 물품을 많이 비축해 두기 위해 저희에게 의뢰를 하셨죠./n^#3399FF온전한 코어^#FFFFFF를 ^#3399FF캐와^#FFFFFF주세요./n^#3399FF더스트 코랄^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="10044" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[온전한 코어 수집]]" draft="마티나 상인님의 의뢰입니다. 마티나 상인님을 요즘 부쩍 늘어고 있는 라임을 찾는 모험가들에게 온전한 코어를 팔면 분명 수익이 많이 남을 거라고 생각하세요. 장사할 물품을 많이 비축해 두기 위해 저희에게 의뢰를 하셨죠./n^#3399FF온전한 코어^#FFFFFF를 ^#3399FF캐와^#FFFFFF주세요./n^#3399FF더스트 코랄^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(더스트 코랄)">
+			<subjectPos subjectStr="온전한 코어 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[더스트 코랄 생활 모험가 길드원에게 보고]]" draft="마티나 상인님의 의뢰입니다. 마티나 상인님을 요즘 부쩍 늘어고 있는 라임을 찾는 모험가들에게 온전한 코어를 팔면 분명 수익이 많이 남을 거라고 생각하세요. 장사할 물품을 많이 비축해 두기 위해 저희에게 의뢰를 하셨죠./n^#3399FF온전한 코어^#FFFFFF를 ^#3399FF캐와^#FFFFFF주세요./n^#3399FF더스트 코랄^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(더스트 코랄)">
+			<subjectPos subjectStr="더스트 코랄 생활 모험가 길드원에게 보고" mapTargetId="402502"/>
+		</Subject>
+		<Storage Collect1_typeID="200058" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="172"/>
+	</Quest>
+	<Quest typeID="203105040" typeName="사막의 버섯" group="201" NPC="생활 모험가(더스트 코랄)" reportTo="생활 모험가(더스트 코랄)" cancelable="1" repeatable="0" retryable="1" lv="30" desc="이 척박한 사막지대에서 나는 식물은 모두 귀하답니다. 그 중에서도 사람을 살리는 식물의 중요도를 말하자면 비할 데가 없지요. 샐리 할멈이 의뢰하셨어요. 마을의 아이들에게 양질의 요리를 해주고 싶은 다자란 버섯을 구해달라고요./n^#3399FF다 자란 버섯^#FFFFFF을 ^#3399FF찾아^#FFFFFF와 주세요. 기다릴게요./n^#3399FF더스트 코랄^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="10044" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[다자란 버섯 수집]]" draft="이 척박한 사막지대에서 나는 식물은 모두 귀하답니다. 그 중에서도 사람을 살리는 식물의 중요도를 말하자면 비할 데가 없지요. 샐리 할멈이 의뢰하셨어요. 마을의 아이들에게 양질의 요리를 해주고 싶은 다자란 버섯을 구해달라고요./n^#3399FF다 자란 버섯^#FFFFFF을 ^#3399FF찾아^#FFFFFF와 주세요. 기다릴게요./n^#3399FF더스트 코랄^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(더스트 코랄)">
+			<subjectPos subjectStr="다자란 버섯 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[더스트 코랄 생활 모험가 길드원에게 보고]]" draft="이 척박한 사막지대에서 나는 식물은 모두 귀하답니다. 그 중에서도 사람을 살리는 식물의 중요도를 말하자면 비할 데가 없지요. 샐리 할멈이 의뢰하셨어요. 마을의 아이들에게 양질의 요리를 해주고 싶은 다자란 버섯을 구해달라고요./n^#3399FF다 자란 버섯^#FFFFFF을 ^#3399FF찾아^#FFFFFF와 주세요. 기다릴게요./n^#3399FF더스트 코랄^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(더스트 코랄)">
+			<subjectPos subjectStr="더스트 코랄 생활 모험가 길드원에게 보고" mapTargetId="402502"/>
+		</Subject>
+		<Storage Collect1_typeID="200066" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="172"/>
+	</Quest>
+	<Quest typeID="203105050" typeName="양질의 요리 재료" group="201" NPC="생활 모험가(더스트 코랄)" reportTo="생활 모험가(더스트 코랄)" cancelable="1" repeatable="0" retryable="1" lv="30" desc="사막의 햇빛에 바짝 마른 식물에선 식물 특유의 청량한 향이 난답니다. 그 것들은 요리에 첨가되어 향신료의 역하을 하지요./n^#3399FF다 자란 허브^#FFFFFF를 ^#3399FF찾아^#FFFFFF다 주시면 사막의 주민들이 양질의 요리를 먹는게 도움이 될 거예요./n^#3399FF더스트 코랄^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="10044" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[다자란 허브 수집]]" draft="사막의 햇빛에 바짝 마른 식물에선 식물 특유의 청량한 향이 난답니다. 그 것들은 요리에 첨가되어 향신료의 역하을 하지요./n^#3399FF다 자란 허브^#FFFFFF를 ^#3399FF찾아^#FFFFFF다 주시면 사막의 주민들이 양질의 요리를 먹는게 도움이 될 거예요./n^#3399FF더스트 코랄^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(더스트 코랄)">
+			<subjectPos subjectStr="다자란 허브 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[더스트 코랄 생활 모험가 길드원에게 보고]]" draft="사막의 햇빛에 바짝 마른 식물에선 식물 특유의 청량한 향이 난답니다. 그 것들은 요리에 첨가되어 향신료의 역하을 하지요./n^#3399FF다 자란 허브^#FFFFFF를 ^#3399FF찾아^#FFFFFF다 주시면 사막의 주민들이 양질의 요리를 먹는게 도움이 될 거예요./n^#3399FF더스트 코랄^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(더스트 코랄)">
+			<subjectPos subjectStr="더스트 코랄 생활 모험가 길드원에게 보고" mapTargetId="402502"/>
+		</Subject>
+		<Storage Collect1_typeID="200067" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="172"/>
+	</Quest>
+	<Quest typeID="203105060" typeName="하스레딘의 방비" group="201" NPC="생활 모험가(더스트 코랄)" reportTo="생활 모험가(더스트 코랄)" cancelable="1" repeatable="0" retryable="1" lv="30" desc="하스레딘님의 의뢰입니다. 요즘들어 부쩍 농장을 노리는 무뢰배들이 많아 농장에 무기를 만들어 두고 싶다고 합니다./n하스레딘님을 위해서 ^#3399FF온전한 금속^#FFFFFF을 ^#3399FF캐와^#FFFFFF 주세요./n^#3399FF더스트 코랄^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="10044" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[온전한 금속 수집]]" draft="하스레딘님의 의뢰입니다. 요즘들어 부쩍 농장을 노리는 무뢰배들이 많아 농장에 무기를 만들어 두고 싶다고 합니다./n하스레딘님을 위해서 ^#3399FF온전한 금속^#FFFFFF을 ^#3399FF캐와^#FFFFFF 주세요./n^#3399FF더스트 코랄^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(더스트 코랄)">
+			<subjectPos subjectStr="온전한 금속 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[더스트 코랄 생활 모험가 길드원에게 보고]]" draft="하스레딘님의 의뢰입니다. 요즘들어 부쩍 농장을 노리는 무뢰배들이 많아 농장에 무기를 만들어 두고 싶다고 합니다./n하스레딘님을 위해서 ^#3399FF온전한 금속^#FFFFFF을 ^#3399FF캐와^#FFFFFF 주세요./n^#3399FF더스트 코랄^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(더스트 코랄)">
+			<subjectPos subjectStr="더스트 코랄 생활 모험가 길드원에게 보고" mapTargetId="402502"/>
+		</Subject>
+		<Storage Collect1_typeID="200057" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="172"/>
+	</Quest>
+	<Quest typeID="203105070" typeName="마티나의 사치" group="201" NPC="생활 모험가(더스트 코랄)" reportTo="생활 모험가(더스트 코랄)" cancelable="1" repeatable="0" retryable="1" lv="30" desc="마티나들은 악덕 상인에 짠돌이 기질이 있지만 자신이 부를 과시할 수 있는 사치품에 대해선 관대하답니다. 그래서 이런 의뢰도 많이 들어오는 것이지요. 사막의 꽃을 보고 싶다는 의뢰요./n^#3399FF다 자란 꽃봉오리^#FFFFFF를 ^#3399FF찾아^#FFFFFF주세요./n^#3399FF더스트 코랄^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="10044" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[다자란 꽃봉오리 수집]]" draft="마티나들은 악덕 상인에 짠돌이 기질이 있지만 자신이 부를 과시할 수 있는 사치품에 대해선 관대하답니다. 그래서 이런 의뢰도 많이 들어오는 것이지요. 사막의 꽃을 보고 싶다는 의뢰요./n^#3399FF다 자란 꽃봉오리^#FFFFFF를 ^#3399FF찾아^#FFFFFF주세요./n^#3399FF더스트 코랄^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(더스트 코랄)">
+			<subjectPos subjectStr="다자란 꽃봉오리 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[더스트 코랄 생활 모험가 길드원에게 보고]]" draft="마티나들은 악덕 상인에 짠돌이 기질이 있지만 자신이 부를 과시할 수 있는 사치품에 대해선 관대하답니다. 그래서 이런 의뢰도 많이 들어오는 것이지요. 사막의 꽃을 보고 싶다는 의뢰요./n^#3399FF다 자란 꽃봉오리^#FFFFFF를 ^#3399FF찾아^#FFFFFF주세요./n^#3399FF더스트 코랄^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(더스트 코랄)">
+			<subjectPos subjectStr="더스트 코랄 생활 모험가 길드원에게 보고" mapTargetId="402502"/>
+		</Subject>
+		<Storage Collect1_typeID="200068" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="172"/>
+	</Quest>
+	<Quest typeID="203105080" typeName="부족한 역사 수업" group="201" NPC="생활 모험가(더스트 코랄)" reportTo="생활 모험가(더스트 코랄)" cancelable="1" repeatable="0" retryable="1" lv="30" desc="아돌 할아범의 의뢰입니다. ^#3399FF더스트 코랄^#FFFFFF 아이들이 휴먼의 역사를 배우는데 보고 배울 책과 공책이 없어서 어렵다고 하시네요./n^#3399FF거친 종이^#FFFFFF라도 좋으니 구해주세요./n^#3399FF더스트 코랄^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="10444" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[가공품 거친 종이 수집]]" draft="아돌 할아범의 의뢰입니다. ^#3399FF더스트 코랄^#FFFFFF 아이들이 휴먼의 역사를 배우는데 보고 배울 책과 공책이 없어서 어렵다고 하시네요./n^#3399FF거친 종이^#FFFFFF라도 좋으니 구해주세요./n^#3399FF더스트 코랄^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(더스트 코랄)">
+			<subjectPos subjectStr="가공품 거친 종이 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[더스트 코랄 생활 모험가 길드원에게 보고]]" draft="아돌 할아범의 의뢰입니다. ^#3399FF더스트 코랄^#FFFFFF 아이들이 휴먼의 역사를 배우는데 보고 배울 책과 공책이 없어서 어렵다고 하시네요./n^#3399FF거친 종이^#FFFFFF라도 좋으니 구해주세요./n^#3399FF더스트 코랄^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(더스트 코랄)">
+			<subjectPos subjectStr="더스트 코랄 생활 모험가 길드원에게 보고" mapTargetId="402502"/>
+		</Subject>
+		<Storage Collect1_typeID="201028" Collect1_goal="3" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="192"/>
+	</Quest>
+	<Quest typeID="203105090" typeName="스쿠르와 장갑" group="201" NPC="생활 모험가(더스트 코랄)" reportTo="생활 모험가(더스트 코랄)" cancelable="1" repeatable="0" retryable="1" lv="30" desc="연구 보조원 틴트의 의뢰입니다. 그분은 지금 스쿠르 학자님과 연구를 위해 사막으로 떠나셨는데요. 사막에 몬스터가 너무 많아 자신의 몸을 지킬 방어구가 필요하다고 구해달라고 하십니다./n꼭 ^#3399FF신앙의 증표 장갑^#FFFFFF를 구해오세요./n메탈 헬멧은 대장장이 직업이 대장장이 교관에게서 스킬을 배우면 만들 수 있대요./n^#3399FF더스트 코랄^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="10844" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[제작품 신앙의 증표 장갑 수집]]" draft="연구 보조원 틴트의 의뢰입니다. 그분은 지금 스쿠르 학자님과 연구를 위해 사막으로 떠나셨는데요. 사막에 몬스터가 너무 많아 자신의 몸을 지킬 방어구가 필요하다고 구해달라고 하십니다./n꼭 ^#3399FF신앙의 증표 장갑^#FFFFFF를 구해오세요./n메탈 헬멧은 대장장이 직업이 대장장이 교관에게서 스킬을 배우면 만들 수 있대요./n^#3399FF더스트 코랄^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(더스트 코랄)">
+			<subjectPos subjectStr="제작품 신앙의 증표 장갑 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[더스트 코랄 생활 모험가 길드원에게 보고]]" draft="연구 보조원 틴트의 의뢰입니다. 그분은 지금 스쿠르 학자님과 연구를 위해 사막으로 떠나셨는데요. 사막에 몬스터가 너무 많아 자신의 몸을 지킬 방어구가 필요하다고 구해달라고 하십니다./n꼭 ^#3399FF신앙의 증표 장갑^#FFFFFF를 구해오세요./n메탈 헬멧은 대장장이 직업이 대장장이 교관에게서 스킬을 배우면 만들 수 있대요./n^#3399FF더스트 코랄^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(더스트 코랄)">
+			<subjectPos subjectStr="더스트 코랄 생활 모험가 길드원에게 보고" mapTargetId="402502"/>
+		</Subject>
+		<Storage Collect1_typeID="130314" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="212"/>
+	</Quest>
+	<Quest typeID="203105100" typeName="몸을 지킬 스테프" group="201" NPC="생활 모험가(더스트 코랄)" reportTo="생활 모험가(더스트 코랄)" cancelable="1" repeatable="0" retryable="1" lv="30" desc="마을 주민님의 의뢰입니다. 마을 주민님은 평소 몬스터들의 습격에 몸에 상처를 입는 일이 다반사였다고 하는데요. 앞으로는 힘을 길러 몬스터와 직접 싸우고 싶다고 하십니다./n^#3399FF애저머스 스테프^#FFFFFF라면 좋을 것 같은데 구해주실 수 있으세요?/n스테프는 대장장이  교관에게 스킬을 배우면 만들 수 있대요./n^#3399FF더스트 코랄^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="10844" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[제작품 애저머스 스테프 수집]]" draft="마을 주민님의 의뢰입니다. 마을 주민님은 평소 몬스터들의 습격에 몸에 상처를 입는 일이 다반사였다고 하는데요. 앞으로는 힘을 길러 몬스터와 직접 싸우고 싶다고 하십니다./n^#3399FF애저머스 스테프^#FFFFFF라면 좋을 것 같은데 구해주실 수 있으세요?/n스테프는 대장장이  교관에게 스킬을 배우면 만들 수 있대요./n^#3399FF더스트 코랄^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(더스트 코랄)">
+			<subjectPos subjectStr="제작품 애저머스 스테프 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[더스트 코랄 생활 모험가 길드원에게 보고]]" draft="마을 주민님의 의뢰입니다. 마을 주민님은 평소 몬스터들의 습격에 몸에 상처를 입는 일이 다반사였다고 하는데요. 앞으로는 힘을 길러 몬스터와 직접 싸우고 싶다고 하십니다./n^#3399FF애저머스 스테프^#FFFFFF라면 좋을 것 같은데 구해주실 수 있으세요?/n스테프는 대장장이  교관에게 스킬을 배우면 만들 수 있대요./n^#3399FF더스트 코랄^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(더스트 코랄)">
+			<subjectPos subjectStr="더스트 코랄 생활 모험가 길드원에게 보고" mapTargetId="402502"/>
+		</Subject>
+		<Storage Collect1_typeID="130061" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="212"/>
+	</Quest>
+	<Quest typeID="203105110" typeName="정원 손질" group="201" NPC="생활 모험가(알 아미르)" reportTo="생활 모험가(알 아미르)" cancelable="1" repeatable="0" retryable="1" lv="30" desc="뇨미씨의 의뢰입니다. 뇨미씨의 주인인 마티나 관리가 집 앞에 정원을 만들기 위해 풀뿌리를 캐오라고 매일 사막으로 내쫓는다고 합니다. 척박한 땅에서 풀뿌리를 캐는건 정말 쉽지 않겠죠?/n덕분에 뇨미씨의 손 피부가 다 까졌다고 해요. 뇨미씨를 위해 ^#3399FF다자란 풀뿌리^#FFFFFF를 ^#3399FF캐와^#FFFFFF 주세요./n^#3399FF알 아미르^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="10044" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[다자란 풀뿌리 수집]]" draft="뇨미씨의 의뢰입니다. 뇨미씨의 주인인 마티나 관리가 집 앞에 정원을 만들기 위해 풀뿌리를 캐오라고 매일 사막으로 내쫓는다고 합니다. 척박한 땅에서 풀뿌리를 캐는건 정말 쉽지 않겠죠?/n덕분에 뇨미씨의 손 피부가 다 까졌다고 해요. 뇨미씨를 위해 ^#3399FF다자란 풀뿌리^#FFFFFF를 ^#3399FF캐와^#FFFFFF 주세요./n^#3399FF알 아미르^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(알 아미르)">
+			<subjectPos subjectStr="다자란 풀뿌리 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[알 아미르 생활 모험가 길드원에게 보고]]" draft="뇨미씨의 의뢰입니다. 뇨미씨의 주인인 마티나 관리가 집 앞에 정원을 만들기 위해 풀뿌리를 캐오라고 매일 사막으로 내쫓는다고 합니다. 척박한 땅에서 풀뿌리를 캐는건 정말 쉽지 않겠죠?/n덕분에 뇨미씨의 손 피부가 다 까졌다고 해요. 뇨미씨를 위해 ^#3399FF다자란 풀뿌리^#FFFFFF를 ^#3399FF캐와^#FFFFFF 주세요./n^#3399FF알 아미르^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(알 아미르)">
+			<subjectPos subjectStr="알 아미르 생활 모험가 길드원에게 보고" mapTargetId="403502"/>
+		</Subject>
+		<Storage Collect1_typeID="200069" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="172"/>
+	</Quest>
+	<Quest typeID="203105120" typeName="부족한 재료" group="201" NPC="생활 모험가(알 아미르)" reportTo="생활 모험가(알 아미르)" cancelable="1" repeatable="0" retryable="1" lv="30" desc="무기 상점의 오비룬씨의 의뢰입니다. 오비룬씨가 일하는 가게에 대량으로 무기 제작 의뢰가 들어왔는데 무기를 만드는 재료인 사파이어가 부족해 곤란하시다고 해요./n^#3399FF온전한 사파이어^#FFFFFF를 ^#3399FF찾아^#FFFFFF다 오비룬씨를 도와주세요./n^#3399FF알 아미르^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="10044" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[온전한 사파이어 수집]]" draft="무기 상점의 오비룬씨의 의뢰입니다. 오비룬씨가 일하는 가게에 대량으로 무기 제작 의뢰가 들어왔는데 무기를 만드는 재료인 사파이어가 부족해 곤란하시다고 해요./n^#3399FF온전한 사파이어^#FFFFFF를 ^#3399FF찾아^#FFFFFF다 오비룬씨를 도와주세요./n^#3399FF알 아미르^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(알 아미르)">
+			<subjectPos subjectStr="온전한 사파이어 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[알 아미르 생활 모험가 길드원에게 보고]]" draft="무기 상점의 오비룬씨의 의뢰입니다. 오비룬씨가 일하는 가게에 대량으로 무기 제작 의뢰가 들어왔는데 무기를 만드는 재료인 사파이어가 부족해 곤란하시다고 해요./n^#3399FF온전한 사파이어^#FFFFFF를 ^#3399FF찾아^#FFFFFF다 오비룬씨를 도와주세요./n^#3399FF알 아미르^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(알 아미르)">
+			<subjectPos subjectStr="알 아미르 생활 모험가 길드원에게 보고" mapTargetId="403502"/>
+		</Subject>
+		<Storage Collect1_typeID="200059" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="172"/>
+	</Quest>
+	<Quest typeID="203105130" typeName="경비참모의 무기" group="201" NPC="생활 모험가(알 아미르)" reportTo="생활 모험가(알 아미르)" cancelable="1" repeatable="0" retryable="1" lv="30" desc="경비 참모님의 의뢰입니다. 경비 참모님은 최근들어 흉흉해진 ^#3399FF알 아미르^#FFFFFF의 경비를 위해 새로운 무기를 고안하고 계시다고 합니다. 그 무기에는 온전한 체리라이트가 엄청나게 많이 들어갈 예정이래요./n^#3399FF온전한 체리라이트^#FFFFFF를 ^#3399FF캐는^#FFFFFF 걸 도와주세요./n^#3399FF알 아미르^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="10044" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[온전한 체리라이트 수집]]" draft="경비 참모님의 의뢰입니다. 경비 참모님은 최근들어 흉흉해진 ^#3399FF알 아미르^#FFFFFF의 경비를 위해 새로운 무기를 고안하고 계시다고 합니다. 그 무기에는 온전한 체리라이트가 엄청나게 많이 들어갈 예정이래요./n^#3399FF온전한 체리라이트^#FFFFFF를 ^#3399FF캐는^#FFFFFF 걸 도와주세요./n^#3399FF알 아미르^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(알 아미르)">
+			<subjectPos subjectStr="온전한 체리라이트 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[알 아미르 생활 모험가 길드원에게 보고]]" draft="경비 참모님의 의뢰입니다. 경비 참모님은 최근들어 흉흉해진 ^#3399FF알 아미르^#FFFFFF의 경비를 위해 새로운 무기를 고안하고 계시다고 합니다. 그 무기에는 온전한 체리라이트가 엄청나게 많이 들어갈 예정이래요./n^#3399FF온전한 체리라이트^#FFFFFF를 ^#3399FF캐는^#FFFFFF 걸 도와주세요./n^#3399FF알 아미르^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(알 아미르)">
+			<subjectPos subjectStr="알 아미르 생활 모험가 길드원에게 보고" mapTargetId="403502"/>
+		</Subject>
+		<Storage Collect1_typeID="200055" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="172"/>
+	</Quest>
+	<Quest typeID="203105140" typeName="땅 위에 빛나는 것" group="201" NPC="생활 모험가(알 아미르)" reportTo="생활 모험가(알 아미르)" cancelable="1" repeatable="0" retryable="1" lv="30" desc="^#3399FF더스트 코랄^#FFFFFF에서 오신 니즈님의 의뢰입니다. ^#3399FF더스트 코랄^#FFFFFF에서 ^#3399FF알 아미르^#FFFFFF로 오는 길에 바닥에서 반짝이는 물건을 보았는데요. 그게 온전한 광석인 것 같다고 하세요. 니즈님이 그걸 정말 갖고 싶다고 하시는데 ^#3399FF온전한 광석^#FFFFFF을 ^#3399FF캐와^#FFFFFF 주시면 정말 고맙겠습니다./n^#3399FF알 아미르^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="10044" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[온전한 광석 수집]]" draft="^#3399FF더스트 코랄^#FFFFFF에서 오신 니즈님의 의뢰입니다. ^#3399FF더스트 코랄^#FFFFFF에서 ^#3399FF알 아미르^#FFFFFF로 오는 길에 바닥에서 반짝이는 물건을 보았는데요. 그게 온전한 광석인 것 같다고 하세요. 니즈님이 그걸 정말 갖고 싶다고 하시는데 ^#3399FF온전한 광석^#FFFFFF을 ^#3399FF캐와^#FFFFFF 주시면 정말 고맙겠습니다./n^#3399FF알 아미르^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(알 아미르)">
+			<subjectPos subjectStr="온전한 광석 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[알 아미르 생활 모험가 길드원에게 보고]]" draft="^#3399FF더스트 코랄^#FFFFFF에서 오신 니즈님의 의뢰입니다. ^#3399FF더스트 코랄^#FFFFFF에서 ^#3399FF알 아미르^#FFFFFF로 오는 길에 바닥에서 반짝이는 물건을 보았는데요. 그게 온전한 광석인 것 같다고 하세요. 니즈님이 그걸 정말 갖고 싶다고 하시는데 ^#3399FF온전한 광석^#FFFFFF을 ^#3399FF캐와^#FFFFFF 주시면 정말 고맙겠습니다./n^#3399FF알 아미르^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(알 아미르)">
+			<subjectPos subjectStr="알 아미르 생활 모험가 길드원에게 보고" mapTargetId="403502"/>
+		</Subject>
+		<Storage Collect1_typeID="200053" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="172"/>
+	</Quest>
+	<Quest typeID="203105150" typeName="식물애호가" group="201" NPC="생활 모험가(알 아미르)" reportTo="생활 모험가(알 아미르)" cancelable="1" repeatable="0" retryable="1" lv="30" desc="히무스님의 의뢰입니다. 중앙 오아시스에서 모든 식수의 100%를 공급하는 로우란 사막 지대에서 식물을 구하는 건 정말 어렵지요. 하지만 식물 애호가인 히무스님께서는 다 자란 나무를 꼭 얻어야 직성이 풀리겠다고 하세요./n^#3399FF다 자란 나무^#FFFFFF를 ^#3399FF잘라^#FFFFFF와 주세요./n^#3399FF알 아미르^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="10044" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[다자란 나무 수집]]" draft="히무스님의 의뢰입니다. 중앙 오아시스에서 모든 식수의 100%를 공급하는 로우란 사막 지대에서 식물을 구하는 건 정말 어렵지요. 하지만 식물 애호가인 히무스님께서는 다 자란 나무를 꼭 얻어야 직성이 풀리겠다고 하세요./n^#3399FF다 자란 나무^#FFFFFF를 ^#3399FF잘라^#FFFFFF와 주세요./n^#3399FF알 아미르^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(알 아미르)">
+			<subjectPos subjectStr="다자란 나무 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[알 아미르 생활 모험가 길드원에게 보고]]" draft="히무스님의 의뢰입니다. 중앙 오아시스에서 모든 식수의 100%를 공급하는 로우란 사막 지대에서 식물을 구하는 건 정말 어렵지요. 하지만 식물 애호가인 히무스님께서는 다 자란 나무를 꼭 얻어야 직성이 풀리겠다고 하세요./n^#3399FF다 자란 나무^#FFFFFF를 ^#3399FF잘라^#FFFFFF와 주세요./n^#3399FF알 아미르^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(알 아미르)">
+			<subjectPos subjectStr="알 아미르 생활 모험가 길드원에게 보고" mapTargetId="403502"/>
+		</Subject>
+		<Storage Collect1_typeID="200063" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="172"/>
+	</Quest>
+	<Quest typeID="203105160" typeName="건강식품" group="201" NPC="생활 모험가(알 아미르)" reportTo="생활 모험가(알 아미르)" cancelable="1" repeatable="0" retryable="1" lv="30" desc="란세님의 의뢰입니다. 요즘 부쩍 줄어든 체력을 보충하기 위해 ^#3399FF다자란 과실^#FFFFFF이 필요하다고 하시는데../n^#3399FF모아^#FFFFFF와 주실거죠?/n^#3399FF알 아미르^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="10044" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[다자란 과실 수집]]" draft="란세님의 의뢰입니다. 요즘 부쩍 줄어든 체력을 보충하기 위해 ^#3399FF다자란 과실^#FFFFFF이 필요하다고 하시는데../n^#3399FF모아^#FFFFFF와 주실거죠?/n^#3399FF알 아미르^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(알 아미르)">
+			<subjectPos subjectStr="다자란 과실 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[알 아미르 생활 모험가 길드원에게 보고]]" draft="란세님의 의뢰입니다. 요즘 부쩍 줄어든 체력을 보충하기 위해 ^#3399FF다자란 과실^#FFFFFF이 필요하다고 하시는데../n^#3399FF모아^#FFFFFF와 주실거죠?/n^#3399FF알 아미르^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(알 아미르)">
+			<subjectPos subjectStr="알 아미르 생활 모험가 길드원에게 보고" mapTargetId="403502"/>
+		</Subject>
+		<Storage Collect1_typeID="200070" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="172"/>
+	</Quest>
+	<Quest typeID="203105170" typeName="마티나 부인의 간청" group="201" NPC="생활 모험가(알 아미르)" reportTo="생활 모험가(알 아미르)" cancelable="1" repeatable="0" retryable="1" lv="30" desc="마티나 부인의 의뢰입니다. 마티나 부인께서는 항상 몸을 보석으로 휘감고 다니는 걸 좋아하셔서 매번 저희 모험가 길드에 새로운 보석을 찾아 달라고 의뢰를 하시죠./n이번에도 어김없이 온전한 토파즈를 찾아 달라고 매일 찾아와 조르신답니다. ^#3399FF온전한 토파즈^#FFFFFF를 ^#3399FF찾아^#FFFFFF와 주세요./n^#3399FF알 아미르^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="10044" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[온전한 토파즈 수집]]" draft="마티나 부인의 의뢰입니다. 마티나 부인께서는 항상 몸을 보석으로 휘감고 다니는 걸 좋아하셔서 매번 저희 모험가 길드에 새로운 보석을 찾아 달라고 의뢰를 하시죠./n이번에도 어김없이 온전한 토파즈를 찾아 달라고 매일 찾아와 조르신답니다. ^#3399FF온전한 토파즈^#FFFFFF를 ^#3399FF찾아^#FFFFFF와 주세요./n^#3399FF알 아미르^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(알 아미르)">
+			<subjectPos subjectStr="온전한 토파즈 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[알 아미르 생활 모험가 길드원에게 보고]]" draft="마티나 부인의 의뢰입니다. 마티나 부인께서는 항상 몸을 보석으로 휘감고 다니는 걸 좋아하셔서 매번 저희 모험가 길드에 새로운 보석을 찾아 달라고 의뢰를 하시죠./n이번에도 어김없이 온전한 토파즈를 찾아 달라고 매일 찾아와 조르신답니다. ^#3399FF온전한 토파즈^#FFFFFF를 ^#3399FF찾아^#FFFFFF와 주세요./n^#3399FF알 아미르^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(알 아미르)">
+			<subjectPos subjectStr="알 아미르 생활 모험가 길드원에게 보고" mapTargetId="403502"/>
+		</Subject>
+		<Storage Collect1_typeID="200060" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="172"/>
+	</Quest>
+	<Quest typeID="203105180" typeName="사막의 모험가를 위한 음료" group="201" NPC="생활 모험가(알 아미르)" reportTo="생활 모험가(알 아미르)" cancelable="1" repeatable="0" retryable="1" lv="30" desc="이 더운 사막지대에서는 자칫하면 체력을 잃고 기운이 쇠약해 지기 마련이죠. 그런 때 짭짤한 소금물을 마시면 체력이 회복되기도 한답니다./n저희 모험가 길드에서는 그런 때를 대비해 모험가들을 위해 짭짤한 양념을 구비해 놓고 있어요. 헌데 그 비축분이 떨어져 가네요./n^#3399FF짭짤한 양념^#FFFFFF을 구해다 주시면 감사하겠어요./n^#3399FF알 아미르^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="10444" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[짭짤한 양념 수집]]" draft="이 더운 사막지대에서는 자칫하면 체력을 잃고 기운이 쇠약해 지기 마련이죠. 그런 때 짭짤한 소금물을 마시면 체력이 회복되기도 한답니다./n저희 모험가 길드에서는 그런 때를 대비해 모험가들을 위해 짭짤한 양념을 구비해 놓고 있어요. 헌데 그 비축분이 떨어져 가네요./n^#3399FF짭짤한 양념^#FFFFFF을 구해다 주시면 감사하겠어요./n^#3399FF알 아미르^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(알 아미르)">
+			<subjectPos subjectStr="가공품 짭짤한 양념 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[알 아미르 생활 모험가 길드원에게 보고]]" draft="이 더운 사막지대에서는 자칫하면 체력을 잃고 기운이 쇠약해 지기 마련이죠. 그런 때 짭짤한 소금물을 마시면 체력이 회복되기도 한답니다./n저희 모험가 길드에서는 그런 때를 대비해 모험가들을 위해 짭짤한 양념을 구비해 놓고 있어요. 헌데 그 비축분이 떨어져 가네요./n^#3399FF짭짤한 양념^#FFFFFF을 구해다 주시면 감사하겠어요./n^#3399FF알 아미르^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(알 아미르)">
+			<subjectPos subjectStr="알 아미르 생활 모험가 길드원에게 보고" mapTargetId="403502"/>
+		</Subject>
+		<Storage Collect1_typeID="201041" Collect1_goal="3" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="172"/>
+	</Quest>
+	<Quest typeID="203105190" typeName="경비병의 고민" group="201" NPC="생활 모험가(알 아미르)" reportTo="생활 모험가(알 아미르)" cancelable="1" repeatable="0" retryable="1" lv="30" desc="마티나 경비병의 의뢰입니다. 최근 들어 ^#3399FF알 아미르^#FFFFFF의 치안이 허술해지자 위에서 경비병의 정신상태를 운운하며 혼을 내곤 해 많이 속상하다고 하세요. 그 타는 속을 ^#3399FF아이스 그린티 믹스^#FFFFFF를 먹으면 진정시킬 수 있다고 하니 그걸 구해주세요./n이건 다인 직업이 다인 교관에게 스킬을 배우면 만들 수 있대요./n^#3399FF알 아미르^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="10844" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[제작품 아이스 그린티 믹스 수집]]" draft="마티나 경비병의 의뢰입니다. 최근 들어 ^#3399FF알 아미르^#FFFFFF의 치안이 허술해지자 위에서 경비병의 정신상태를 운운하며 혼을 내곤 해 많이 속상하다고 하세요. 그 타는 속을 ^#3399FF아이스 그린티 믹스^#FFFFFF를 먹으면 진정시킬 수 있다고 하니 그걸 구해주세요./n이건 다인 직업이 다인 교관에게 스킬을 배우면 만들 수 있대요./n^#3399FF알 아미르^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(알 아미르)">
+			<subjectPos subjectStr="제작품 아이스 그린티 믹스 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[알 아미르 생활 모험가 길드원에게 보고]]" draft="마티나 경비병의 의뢰입니다. 최근 들어 ^#3399FF알 아미르^#FFFFFF의 치안이 허술해지자 위에서 경비병의 정신상태를 운운하며 혼을 내곤 해 많이 속상하다고 하세요. 그 타는 속을 ^#3399FF아이스 그린티 믹스^#FFFFFF를 먹으면 진정시킬 수 있다고 하니 그걸 구해주세요./n이건 다인 직업이 다인 교관에게 스킬을 배우면 만들 수 있대요./n^#3399FF알 아미르^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(알 아미르)">
+			<subjectPos subjectStr="알 아미르 생활 모험가 길드원에게 보고" mapTargetId="403502"/>
+		</Subject>
+		<Storage Collect1_typeID="130418" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="172"/>
+	</Quest>
+	<Quest typeID="203105200" typeName="기운이 솟는 음식" group="201" NPC="생활 모험가(알 아미르)" reportTo="생활 모험가(알 아미르)" cancelable="1" repeatable="0" retryable="1" lv="30" desc="피킨 노예님의 의뢰입니다. 매일 마티나 주인이 적은 양의 음식을 주며 일을 빡세게 부려먹어서 힘들다고 하시네요./n아주 힘들게 돈을 모았으니 영양가 있는 식품을 구해달라고 하십니다./n저는 그분께 ^#3399FF베이컨 바비큐^#FFFFFF을 드리면 아주 좋아하실 거라는 생각이 들어요. 그걸 구해다 주시겠어요?/n베이컨 바비큐는 요리사 직업이 요리사 교관에게 스킬을 배우면 만들 수 있어요./n^#3399FF알 아미르^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="10844" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[제작품 베이컨 바비큐 수집]]" draft="피킨 노예님의 의뢰입니다. 매일 마티나 주인이 적은 양의 음식을 주며 일을 빡세게 부려먹어서 힘들다고 하시네요./n아주 힘들게 돈을 모았으니 영양가 있는 식품을 구해달라고 하십니다./n저는 그분께 ^#3399FF베이컨 바비큐^#FFFFFF을 드리면 아주 좋아하실 거라는 생각이 들어요. 그걸 구해다 주시겠어요?/n베이컨 바비큐는 요리사 직업이 요리사 교관에게 스킬을 배우면 만들 수 있어요./n^#3399FF알 아미르^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(알 아미르)">
+			<subjectPos subjectStr="제작품 베이컨 바비큐 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[알 아미르 생활 모험가 길드원에게 보고]]" draft="피킨 노예님의 의뢰입니다. 매일 마티나 주인이 적은 양의 음식을 주며 일을 빡세게 부려먹어서 힘들다고 하시네요./n아주 힘들게 돈을 모았으니 영양가 있는 식품을 구해달라고 하십니다./n저는 그분께 ^#3399FF베이컨 바비큐^#FFFFFF을 드리면 아주 좋아하실 거라는 생각이 들어요. 그걸 구해다 주시겠어요?/n베이컨 바비큐는 요리사 직업이 요리사 교관에게 스킬을 배우면 만들 수 있어요./n^#3399FF알 아미르^#FFFFFF에서 기다리고 있을게요." npc="생활 모험가(알 아미르)">
+			<subjectPos subjectStr="알 아미르 생활 모험가 길드원에게 보고" mapTargetId="403502"/>
+		</Subject>
+		<Storage Collect1_typeID="130383" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="172"/>
+	</Quest>
+</Quest>

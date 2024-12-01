@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2006 rel. 3 U (http://www.altova.com) by Na (EMBRACE) -->
+<ResultStateEffectInfo>
+	<hitEffect attribute="0" effectId="5">
+		<effectList effectId="5"/>
+	</hitEffect>
+	<hitEffect attribute="1" effectId="5">
+		<effectList effectId="5"/>
+		<effectList effectId="5"/>
+	</hitEffect>
+	<hitEffect attribute="2" effectId="5">
+		<effectList effectId="5"/>
+		<effectList effectId="5"/>
+	</hitEffect>
+	<hitEffect attribute="3" effectId="5">
+		<effectList effectId="5"/>
+		<effectList effectId="5"/>
+	</hitEffect>
+	<hitEffect attribute="4" effectId="5">
+		<effectList effectId="5"/>
+		<effectList effectId="5"/>
+	</hitEffect>
+	<buffEffect attribute="0" effectId="5">
+		<effectList effectId="5"/>
+	</buffEffect>
+	<buffEffect attribute="1" effectId="5">
+		<effectList effectId="5"/>
+	</buffEffect>
+	<buffEffect attribute="2" effectId="5">
+		<effectList effectId="5"/>
+	</buffEffect>
+	<buffEffect attribute="3" effectId="5">
+		<effectList effectId="5"/>
+	</buffEffect>
+	<buffEffect attribute="4" effectId="5">
+		<effectList effectId="5"/>
+	</buffEffect>
+	<stateEffect attribute="0" effectId="5">
+		<effectList effectId="5"/>
+	</stateEffect>
+	<stateEffect attribute="1" effectId="5">
+		<effectList effectId="5"/>
+	</stateEffect>
+	<stateEffect attribute="2" effectId="5">
+		<effectList effectId="5"/>
+	</stateEffect>
+	<stateEffect attribute="3" effectId="5">
+		<effectList effectId="5"/>
+	</stateEffect>
+	<stateEffect attribute="4" effectId="5">
+		<effectList effectId="5"/>
+	</stateEffect>
+	<stateEffect attribute="5" effectId="5">
+		<effectList effectId="5"/>
+	</stateEffect>
+</ResultStateEffectInfo>

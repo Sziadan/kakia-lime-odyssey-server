@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<!-- edited with XMLSpy v2006 rel. 3 U (http://www.altova.com) by bla (EMBRACE) -->
+<Root>
+	<FacialType id="0" desc="눈감기" loop="0">
+		<AniId id="3010017 "/>
+		<AniId id="3010018 "/>
+		<AniId id="1040002"/>
+		<AniId id="2200002"/>
+	</FacialType>
+	<FacialType id="1" desc="입벌리기" loop="0">
+		<AniId id="3010001"/>
+	</FacialType>
+	<FacialType id="2" desc="웃기" loop="0">
+		<AniId id="1120001"/>
+		<AniId id="1120101"/>
+		<AniId id="3010002"/>
+		<AniId id="3010011"/>
+		<AniId id="3010012"/>
+	</FacialType>
+	<FacialType id="3" desc="분노" loop="0">
+		<AniId id="3010004"/>
+		<AniId id="3010004"/>
+	</FacialType>
+	<FacialType id="4" desc="슬픔" loop="0">
+		<AniId id="1120002"/>
+		<AniId id="2180008 "/>
+		<AniId id="3010014"/>
+		<AniId id="3010014"/>
+		<AniId id="3010021"/>
+	</FacialType>
+	<FacialType id="5" desc="놀람" loop="0">
+		<AniId id="1090006"/>
+		<AniId id="3010005 "/>
+		<AniId id="3010008 "/>
+		<AniId id="3010009 "/>
+	</FacialType>
+	<FacialType id="6" desc="전투시" loop="0">
+		<AniId id="1120102"/>
+		<AniId id="1120003"/>
+		<AniId id="2180007"/>
+		<AniId id="3010020"/>
+	</FacialType>
+	<FacialType id="7" desc="피격시" loop="0">
+		<AniId id="2180001"/>
+		<AniId id="1090007"/>
+		<AniId id="2180002"/>
+		<AniId id="2180005"/>
+		<AniId id="2180006 "/>
+		<AniId id="2180009"/>
+		<AniId id="2180010"/>
+		<AniId id="2180011"/>
+		<AniId id="2200001"/>
+		<AniId id="3010015"/>
+		<AniId id="2010001"/>
+		<AniId id="2010002"/>
+		<AniId id="2010003"/>
+		<AniId id="2010004"/>
+		<AniId id="2010005"/>
+		<AniId id="2010006"/>
+		<AniId id="2010007"/>
+		<AniId id="2300001"/>
+		<AniId id="2300002"/>
+		<AniId id="2300003"/>
+		<AniId id="2300004"/>
+		<AniId id="2300005"/>
+		<AniId id="2300006"/>
+		<AniId id="2300007"/>
+		<AniId id="2300008"/>
+		<AniId id="2030001"/>
+		<AniId id="2030002"/>
+		<AniId id="2030003"/>
+		<AniId id="2030004"/>
+		<AniId id="2030005"/>
+		<AniId id="2030006"/>
+		<AniId id="2030007"/>
+		<AniId id="2030008"/>
+		<AniId id="2040001"/>
+		<AniId id="2040002"/>
+		<AniId id="2040003"/>
+		<AniId id="2040004"/>
+		<AniId id="2040005"/>
+		<AniId id="2040006"/>
+		<AniId id="2040007"/>
+		<AniId id="2040008"/>
+		<AniId id="2050001"/>
+		<AniId id="2050002"/>
+		<AniId id="2050003"/>
+		<AniId id="2050004"/>
+		<AniId id="2050005"/>
+		<AniId id="2050006"/>
+		<AniId id="2050007"/>
+		<AniId id="2050008"/>
+		<AniId id="2070001"/>
+		<AniId id="2220001"/>
+		<AniId id="2220002"/>
+		<AniId id="2220003"/>
+		<AniId id="2220004"/>
+		<AniId id="2220005"/>
+		<AniId id="2220006"/>
+		<AniId id="2220007"/>
+		<AniId id="2220008"/>
+		<AniId id="2220101"/>
+		<AniId id="2220102"/>
+		<AniId id="2220103"/>
+		<AniId id="2220104"/>
+		<AniId id="2220105"/>
+		<AniId id="2220106"/>
+		<AniId id="2220107"/>
+		<AniId id="2220108"/>
+		<AniId id="2270001"/>
+		<AniId id="2270002"/>
+		<AniId id="2270003"/>
+		<AniId id="2270004"/>
+		<AniId id="2270005"/>
+		<AniId id="2270006"/>
+		<AniId id="2270007"/>
+		<AniId id="2270008"/>
+		<AniId id="2280001"/>
+		<AniId id="2280002"/>
+		<AniId id="2280003"/>
+		<AniId id="2280004"/>
+		<AniId id="2280005"/>
+		<AniId id="2280006"/>
+		<AniId id="2280007"/>
+		<AniId id="2280008"/>
+		<AniId id="2230001"/>
+		<AniId id="2230007"/>
+		<AniId id="2230011"/>
+		<AniId id="2230033"/>
+		<AniId id="2230035"/>
+		<AniId id="2230047"/>
+		<AniId id="2230049"/>
+		<AniId id="2310001"/>
+		<AniId id="2310006"/>
+		<AniId id="2310007"/>
+		<AniId id="2310017"/>
+		<AniId id="2310018"/>
+		<AniId id="2310015"/>
+		<AniId id="2310016"/>
+		<AniId id="2310009"/>
+		<AniId id="2310014"/>
+		<AniId id="2310010"/>
+		<AniId id="2310013"/>
+		<AniId id="2310011"/>
+		<AniId id="2310012"/>
+		<AniId id="2310005"/>
+		<AniId id="2310008"/>
+		<AniId id="2310004"/>
+		<AniId id="2310003"/>
+		<AniId id="2310002"/>
+		<AniId id="2320001"/>
+		<AniId id="2320002"/>
+		<AniId id="2320003"/>
+		<AniId id="2320004"/>
+		<AniId id="2320005"/>
+		<AniId id="2320006"/>
+		<AniId id="2330001"/>
+		<AniId id="2330002"/>
+		<AniId id="2330003"/>
+		<AniId id="2330004"/>
+		<AniId id="2330005"/>
+		<AniId id="2330006"/>
+		<AniId id="2340001"/>
+		<AniId id="2340002"/>
+		<AniId id="2340003"/>
+		<AniId id="2340004"/>
+		<AniId id="2340005"/>
+		<AniId id="2340006"/>
+		<AniId id="2340001"/>
+		<AniId id="2340002"/>
+		<AniId id="2340003"/>
+		<AniId id="2340004"/>
+		<AniId id="2340005"/>
+		<AniId id="2340006"/>
+		<AniId id="2350001"/>
+		<AniId id="2350002"/>
+		<AniId id="2350003"/>
+		<AniId id="2350004"/>
+		<AniId id="2350005"/>
+		<AniId id="2350006"/>
+		<AniId id="2110001"/>
+		<AniId id="2120001"/>
+		<AniId id="2260001"/>
+		<AniId id="2130001"/>
+		<AniId id="2150001"/>
+		<AniId id="2150002"/>
+		<AniId id="2160001"/>
+		<AniId id="2160002"/>
+		<AniId id="2170001"/>
+		<AniId id="2170002"/>
+		<AniId id="2170003"/>
+		<AniId id="2170004"/>
+		<AniId id="2170005"/>
+		<AniId id="2170006"/>
+		<AniId id="2170007"/>
+		<AniId id="2170008"/>
+		<AniId id="2170009"/>
+		<AniId id="2170010"/>
+		<AniId id="2170011"/>
+		<AniId id="2170012"/>
+		<AniId id="2170013"/>
+		<AniId id="2170014"/>
+		<AniId id="2170015"/>
+		<AniId id="2170016"/>
+		<AniId id="6010001"/>
+		<AniId id="6010002"/>
+		<AniId id="6010003"/>
+		<AniId id="6020001"/>
+		<AniId id="6020002"/>
+		<AniId id="6050001"/>
+		<AniId id="6050002"/>
+		<AniId id="6060001"/>
+		<AniId id="6060002"/>
+		<AniId id="6060003"/>
+		<AniId id="6070001"/>
+		<AniId id="6080001"/>
+		<AniId id="6080002"/>
+	</FacialType>
+	<FacialType id="8" desc="윙크" loop="0">
+		<AniId id="3010016"/>
+		<AniId id="3010022"/>
+	</FacialType>
+	<FacialType id="9" desc="부끄러움" loop="0">
+		<AniId id="3010019"/>
+	</FacialType>
+</Root>

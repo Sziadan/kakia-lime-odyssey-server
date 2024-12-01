@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by 카이 (siriusent) -->
+<ActivePropInfo>
+	<Prop typeID="0" propName="자갈" effectID="710" questEffectID="210" gather="1" cut="0" dig="1" search="0"/>
+	<Prop typeID="1" propName="블랙베라듐" effectID="710" questEffectID="210" gather="1" cut="0" dig="1" search="0"/>
+	<Prop typeID="2" propName="톨보 나무" effectID="710" questEffectID="210" gather="1" cut="1" dig="0" search="1"/>
+	<Prop typeID="3" propName="카툼바라야 풀" effectID="710" questEffectID="210" gather="0" cut="1" dig="1" search="1"/>
+	<Prop typeID="4" propName="흙더미" effectID="710" questEffectID="210" gather="0" cut="0" dig="1" search="1"/>
+	<Prop typeID="5" propName="질 좋은 산호" effectID="710" questEffectID="210" gather="1" cut="0" dig="1" search="0"/>
+	<Prop typeID="6" propName="질 좋은 산호" effectID="710" questEffectID="210" gather="1" cut="0" dig="1" search="0"/>
+	<Prop typeID="7" propName="우산야자 나무" effectID="710" questEffectID="210" gather="1" cut="1" dig="0" search="1"/>
+	<Prop typeID="8" propName="암초 산호" effectID="710" questEffectID="210" gather="1" cut="0" dig="1" search="0"/>
+	<Prop typeID="9" propName="발굴지 유물" effectID="710" questEffectID="210" gather="0" cut="0" dig="1" search="1"/>
+	<Prop typeID="1001" propName="갓 돋아난 새싹 [퀘스트]" effectID="710" questEffectID="210" gather="0" cut="1" dig="0" search="0"/>
+	<Prop typeID="1002" propName="이슬젖은 물망초 [퀘스트]" effectID="710" questEffectID="210" gather="0" cut="1" dig="0" search="0"/>
+	<Prop typeID="1006" propName="구멍 뚫린 구슬[퀘스트]" effectID="710" questEffectID="210" gather="0" cut="0" dig="0" search="1"/>
+	<Prop typeID="1007" propName="에메랄드 산호[퀘스트]" effectID="710" questEffectID="210" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1009" propName="산호 표본[퀘스트]" effectID="710" questEffectID="210" gather="0" cut="0" dig="1" search="0"/>
+	<Prop typeID="1010" propName="튼튼한 산호[퀘스트]" effectID="710" questEffectID="210" gather="0" cut="0" dig="1" search="0"/>
+	<Prop typeID="1011" propName="죽은 산호[퀘스트]" effectID="710" questEffectID="210" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1012" propName="모래 덩어리[퀘스트]" effectID="710" questEffectID="210" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1013" propName="엘름 풀[퀘스트]" effectID="710" questEffectID="210" gather="0" cut="1" dig="0" search="0"/>
+	<Prop typeID="1014" propName="붉은 자갈[퀘스트]" effectID="710" questEffectID="210" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1017" propName="화강암 [퀘스트]" effectID="710" questEffectID="210" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1018" propName="삼 [퀘스트]" effectID="710" questEffectID="210" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1019" propName="원더스의 배설물 [퀘스트]" effectID="710" questEffectID="210" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1020" propName="맛 좋은 건초 [퀘스트]" effectID="710" questEffectID="210" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1021" propName="루기 풀 [퀘스트]" effectID="710" questEffectID="0" gather="0" cut="1" dig="0" search="0"/>
+	<Prop typeID="1022" propName="허름한 장사 물품 [퀘스트]" effectID="710" questEffectID="0" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1023" propName="해바라기 [퀘스트]" effectID="710" questEffectID="0" gather="1" cut="1" dig="0" search="0"/>
+	<Prop typeID="1024" propName="대장장이의 주머니 [퀘스트]" effectID="710" questEffectID="0" gather="0" cut="0" dig="0" search="1"/>
+	<Prop typeID="1039" propName="푸른 바람의 돌 [퀘스트]" effectID="710" questEffectID="0" gather="0" cut="0" dig="0" search="1"/>
+	<Prop typeID="1040" propName="흰 바람의 물풀 [퀘스트]" effectID="710" questEffectID="0" gather="1" cut="0" dig="1" search="0"/>
+	<Prop typeID="1041" propName="검은 땅 독초 [퀘스트]" effectID="710" questEffectID="0" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1042" propName="하스레딘의 터번 [퀘스트]" effectID="710" questEffectID="0" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1043" propName="튼튼한 대추야자 씨앗 [퀘스트]" effectID="710" questEffectID="0" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1044" propName="튼튼한 선인장 씨앗 [퀘스트]" effectID="710" questEffectID="0" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1045" propName="하스레딘의 영양제 [퀘스트]" effectID="710" questEffectID="0" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1046" propName="할아버지의 항아리 [퀘스트]" effectID="710" questEffectID="0" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1047" propName="붉은 물풀 [퀘스트]" effectID="710" questEffectID="0" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1048" propName="모험가의 편지 [퀘스트]" effectID="710" questEffectID="0" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1049" propName="도굴꾼의 칼 [퀘스트]" effectID="710" questEffectID="0" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1050" propName="망치 파편[퀘스트]" effectID="710" questEffectID="0" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1051" propName="바다내음풀[퀘스트]" effectID="710" questEffectID="0" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1052" propName="고원 개미굴 [퀘스트]" effectID="710" questEffectID="0" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1053" propName="유목민의 단도[퀘스트]" effectID="710" questEffectID="0" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1054" propName="검은 진흙[퀘스트]" effectID="710" questEffectID="0" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1055" propName="칸의 지도[퀘스트]" effectID="710" questEffectID="0" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1056" propName="말의 다리 뼈[퀘스트]" effectID="710" questEffectID="0" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1057" propName="아저씨의 주머니[퀘스트]" effectID="710" questEffectID="0" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1058" propName="유적의 반석[퀘스트]" effectID="710" questEffectID="0" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1059" propName="건강한 톨의 뿌리[퀘스트]" effectID="710" questEffectID="0" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1060" propName="영웅상 수리 상자[퀘스트]" effectID="710" questEffectID="0" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1061" propName="리저드의 검[퀘스트]" effectID="710" questEffectID="0" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1062" propName="고원 박하풀 [퀘스트]" effectID="710" questEffectID="0" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1063" propName="그림자 나무[퀘스트]" effectID="710" questEffectID="0" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1064" propName="유목민의 항아리[퀘스트]" effectID="710" questEffectID="0" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1065" propName="떨어진 넝마[퀘스트]" effectID="710" questEffectID="0" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1066" propName="레칸석[퀘스트]" effectID="710" questEffectID="0" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1067" propName="떨어진 가방[퀘스트]" effectID="710" questEffectID="0" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1068" propName="발카라스 왕국의 계약서[퀘스트]" effectID="710" questEffectID="0" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1069" propName="아낙수의 손수건[퀘스트]" effectID="710" questEffectID="0" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1070" propName="용의 운석 파편[퀘스트]" effectID="710" questEffectID="0" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1071" propName="산덩굴풀[퀘스트]" effectID="710" questEffectID="0" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1072" propName="비부름꽃[퀘스트]" effectID="710" questEffectID="0" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1073" propName="피드렉스의 알[퀘스트]" effectID="710" questEffectID="0" gather="0" cut="0" dig="0" search="0"/>
+	<Prop typeID="1074" propName="변형 된 거미알[퀘스트]" effectID="710" questEffectID="0" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="1075" propName="삭아버린 무기조각[퀘스트]" effectID="710" questEffectID="0" gather="1" cut="0" dig="0" search="0"/>
+	<Prop typeID="10001" propName="보석 산호" effectID="710" questEffectID="0" gather="0" cut="1" dig="1" search="0"/>
+	<Prop typeID="10002" propName="장미 산호" effectID="710" questEffectID="0" gather="1" cut="1" dig="1" search="1"/>
+	<Prop typeID="10003" propName="블루베리" effectID="710" questEffectID="0" gather="0" cut="0" dig="1" search="1"/>
+	<Prop typeID="10004" propName="블랙베라듐" effectID="710" questEffectID="0" gather="1" cut="1" dig="1" search="1"/>
+	<Prop typeID="10005" propName="카툼바라야 풀" effectID="710" questEffectID="0" gather="0" cut="1" dig="1" search="0"/>
+	<Prop typeID="10006" propName="고원 클로버" effectID="710" questEffectID="0" gather="0" cut="1" dig="1" search="0"/>
+	<Prop typeID="10007" propName="빛나는 약초" effectID="710" questEffectID="0" gather="0" cut="1" dig="1" search="0"/>
+	<Prop typeID="10008" propName="타오르는 돌" effectID="710" questEffectID="0" gather="1" cut="1" dig="1" search="1"/>
+	<Prop typeID="10009" propName="톨보 나무" effectID="710" questEffectID="0" gather="1" cut="1" dig="0" search="0"/>
+	<Prop typeID="10010" propName="길들인 바투" effectID="710" questEffectID="210" gather="1" cut="0" dig="0" search="1"/>
+	<Prop typeID="10011" propName="알파카" effectID="710" questEffectID="0" gather="1" cut="0" dig="0" search="1"/>
+	<Prop typeID="10012" propName="소라게" effectID="710" questEffectID="0" gather="1" cut="0" dig="0" search="1"/>
+	<Prop typeID="10013" propName="큐티스" effectID="710" questEffectID="0" gather="1" cut="0" dig="1" search="0"/>
+	<Prop typeID="10014" propName="암염" effectID="710" questEffectID="0" gather="1" cut="0" dig="1" search="0"/>
+	<Prop typeID="10015" propName="사막 산호" effectID="710" questEffectID="0" gather="0" cut="1" dig="1" search="0"/>
+	<Prop typeID="100001" propName="라임의 조각" effectID="710" questEffectID="0" gather="1" cut="0" dig="1" search="0"/>
+	<Prop typeID="100002" propName="그레이피늄" effectID="710" questEffectID="0" gather="1" cut="0" dig="1" search="0"/>
+	<Prop typeID="100003" propName="코코나이트" effectID="710" questEffectID="0" gather="1" cut="0" dig="1" search="0"/>
+	<Prop typeID="100004" propName="체리라이트" effectID="710" questEffectID="0" gather="1" cut="0" dig="1" search="0"/>
+	<Prop typeID="100005" propName="풀" effectID="710" questEffectID="0" gather="0" cut="1" dig="1" search="1"/>
+	<Prop typeID="100006" propName="야자 나무" effectID="710" questEffectID="0" gather="1" cut="1" dig="0" search="1"/>
+	<Prop typeID="100007" propName="나무" effectID="710" questEffectID="0" gather="1" cut="1" dig="0" search="1"/>
+	<Prop typeID="100008" propName="유물" effectID="710" questEffectID="0" gather="0" cut="0" dig="1" search="1"/>
+	<Prop typeID="100009" propName="유물" effectID="710" questEffectID="0" gather="0" cut="0" dig="1" search="1"/>
+	<Prop typeID="100010" propName="나무" effectID="710" questEffectID="0" gather="1" cut="1" dig="0" search="1"/>
+	<Prop typeID="100011" propName="풀" effectID="710" questEffectID="0" gather="0" cut="1" dig="1" search="1"/>
+	<Prop typeID="100012" propName="바나나 나무" effectID="710" questEffectID="0" gather="1" cut="1" dig="0" search="1"/>
+	<Prop typeID="100013" propName="잊혀진 왕국의 유물" effectID="710" questEffectID="0" gather="1" cut="1" dig="1" search="1"/>
+	<Prop typeID="100014" propName="풀" effectID="710" questEffectID="0" gather="0" cut="1" dig="1" search="1"/>
+	<Prop typeID="100015" propName="나무" effectID="710" questEffectID="0" gather="1" cut="1" dig="0" search="1"/>
+	<Prop typeID="100016" propName="나무" effectID="710" questEffectID="0" gather="1" cut="1" dig="0" search="1"/>
+	<Prop typeID="100017" propName="유물" effectID="710" questEffectID="0" gather="0" cut="0" dig="1" search="1"/>
+	<Prop typeID="100018" propName="물풀" effectID="710" questEffectID="0" gather="0" cut="1" dig="1" search="1"/>
+	<Prop typeID="100019" propName="그레이피늄" effectID="710" questEffectID="0" gather="1" cut="0" dig="1" search="0"/>
+	<Prop typeID="100020" propName="코코나이트" effectID="710" questEffectID="0" gather="1" cut="0" dig="1" search="0"/>
+	<Prop typeID="100021" propName="체리라이트" effectID="710" questEffectID="0" gather="1" cut="0" dig="1" search="0"/>
+	<Prop typeID="100022" propName="풀" effectID="710" questEffectID="0" gather="0" cut="1" dig="1" search="1"/>
+	<Prop typeID="100023" propName="나무" effectID="710" questEffectID="0" gather="1" cut="1" dig="0" search="1"/>
+	<Prop typeID="100024" propName="유물" effectID="710" questEffectID="0" gather="0" cut="0" dig="1" search="1"/>
+	<Prop typeID="100025" propName="그레이피늄" effectID="710" questEffectID="0" gather="1" cut="0" dig="1" search="0"/>
+	<Prop typeID="100026" propName="코코나이트" effectID="710" questEffectID="0" gather="1" cut="0" dig="1" search="0"/>
+	<Prop typeID="100027" propName="체리라이트" effectID="710" questEffectID="0" gather="1" cut="0" dig="1" search="0"/>
+	<Prop typeID="100028" propName="메마른 풀" effectID="710" questEffectID="0" gather="0" cut="1" dig="1" search="1"/>
+	<Prop typeID="100029" propName="메마른 나무" effectID="710" questEffectID="0" gather="1" cut="1" dig="0" search="1"/>
+	<Prop typeID="100030" propName="조각난 유물" effectID="710" questEffectID="0" gather="0" cut="0" dig="1" search="1"/>
+	<Prop typeID="100031" propName="조각난 그레이피늄" effectID="710" questEffectID="0" gather="1" cut="0" dig="1" search="0"/>
+	<Prop typeID="100032" propName="조각난 코코나이트" effectID="710" questEffectID="0" gather="1" cut="0" dig="1" search="0"/>
+	<Prop typeID="100033" propName="조각난 체리라이트" effectID="710" questEffectID="0" gather="1" cut="0" dig="1" search="0"/>
+	<Prop typeID="100034" propName="메마른 풀" effectID="710" questEffectID="0" gather="0" cut="1" dig="1" search="1"/>
+	<Prop typeID="100035" propName="메마른 나무" effectID="710" questEffectID="0" gather="1" cut="1" dig="0" search="1"/>
+	<Prop typeID="100036" propName="조각난 유물" effectID="710" questEffectID="0" gather="0" cut="0" dig="1" search="1"/>
+	<Prop typeID="100037" propName="다자란 풀" effectID="710" questEffectID="0" gather="0" cut="1" dig="1" search="1"/>
+	<Prop typeID="100038" propName="다자란 나무" effectID="710" questEffectID="0" gather="1" cut="1" dig="0" search="1"/>
+	<Prop typeID="100039" propName="온전한 유물" effectID="710" questEffectID="0" gather="0" cut="0" dig="1" search="1"/>
+	<Prop typeID="100040" propName="온전한 그레이피늄" effectID="710" questEffectID="0" gather="1" cut="0" dig="1" search="0"/>
+	<Prop typeID="100041" propName="온전한 코코나이트" effectID="710" questEffectID="0" gather="1" cut="0" dig="1" search="0"/>
+	<Prop typeID="100042" propName="온전한 체리라이트" effectID="710" questEffectID="0" gather="1" cut="0" dig="1" search="0"/>
+</ActivePropInfo>

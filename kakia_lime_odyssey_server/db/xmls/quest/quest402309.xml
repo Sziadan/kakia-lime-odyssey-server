@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by Administrator (siriusent) -->
+<Quest>
+	<Quest typeID="402309001" typeName="도움이 필요한 이를 찾아서" group="001" NPC="칸바 레드스카" reportTo="자갈을 모으는 소녀" cancelable="0" repeatable="0" retryable="0" lv="1" desc="내가 바로 칸다 대장로다. 너는 좀 전에 저기서 늘어지게 잠을 자고 있던 애구나. 훌륭한 모험자가 되려면 그렇게 속편하게 낮잠이나 자고 있을 순 없을걸?/n이 카툼바 골짜기가 배출한 훌륭한 모험자가 될 수 있도록 훈련을 게을리 하지 마라!/n강한 투르가에겐 어려운 사람을 지나치지 않고 돕는 따뜻한 마음이 필수이지. 근데 어떤 사람이 도움을 필요로 하는지 한 눈에 알아볼 수 있어야 하지 않겠어?/n내가 그 ^#3399FF도움이 필요한 사람^#FFFFFF을 한 눈에 알아 보는 방법을 알려줄테니 다시 나에게 말을 걸도록 해." difficulty="1" onMessage="NULL" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="1" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="NULL" desc="[[칸바 레드스카와 대화]]" draft="내가 바로 칸다 대장로다. 너는 좀 전에 저기서 늘어지게 잠을 자고 있던 애구나. 훌륭한 모험자가 되려면 그렇게 속편하게 낮잠이나 자고 있을 순 없을걸?/n이 카툼바 골짜기가 배출한 훌륭한 모험자가 될 수 있도록 훈련을 게을리 하지 마라!/n강한 투르가에겐 어려운 사람을 지나치지 않고 돕는 따뜻한 마음이 필수이지. 근데 어떤 사람이 도움을 필요로 하는지 한 눈에 알아볼 수 있어야 하지 않겠어?/n내가 그 ^#3399FF도움이 필요한 사람^#FFFFFF을 한 눈에 알아 보는 방법을 알려줄테니 다시 나에게 말을 걸도록 해." npc="칸바 레드스카">
+			<subjectPos subjectStr="칸바 레드스카와 대화" mapTargetId="100410"/>
+		</Subject>
+		<Subject typeName="Talk" func="NULL" desc="[[칸바 레드스카의 설명 듣기]]" draft="옆에 그림에서 처럼 길을 가다 만난 사람을 절대 그냥 지나치지 말고 유심히 살펴보도록 해./n머리 위에 ^#3399FF노란 화살표^#FFFFFF를 띄우고 있는 사람은 [날 좀 도와줘요~]라고 말하고 있는거야./n그리고 머리 위에 ^#3399FF빙글빙글 돌고 있는 파란 화살표^#FFFFFF도 잘봐둬. 가는게 있으면 오는게 있잖아? 네게서 도움을 받은 사람들은 그만큼 고마움을 표현하고 싶어하니 그들의 성의도 무시하지 말고 받아주라고./n잘 알겠나?" npc="칸바 레드스카">
+			<subjectPos subjectStr="칸바 레드스카의 설명 듣기" mapTargetId="100510"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[도움이 필요한 사람 찾아가기]]" draft="처음에는 도움을 필요로 하는 사람을 찾는게 익숙치 않을 테니 내가 조금 도와줄게. ^#3399FFM키^#FFFFFF를 누르면 지도를 볼 수 있지?/n그 지도에서 파란 화살표^#FFFFFF 모양을 보고 따라가라고. 그럼 그 곳에 분명 네 도움을 필요로 하는 사람이 있을테니 말이야. 그럼 어서 지도를 켜서 그 사람을 찾아 가봐." npc="자갈을 모으는 소녀">
+			<subjectPos subjectStr="도움이 필요한 사람 찾아가기" mapTargetId="100511"/>
+		</Subject>
+		<Storage image_number="20001" image_time="20000"/>
+		<BasicReward typeID="2100000000" count="1"/>
+		<ChoiceReward typeID="20001" count="1"/>
+		<ChoiceReward typeID="20007" count="1"/>
+		<ChoiceReward typeID="20013" count="1"/>
+		<ChoiceReward typeID="20019" count="1"/>
+	</Quest>
+	<Quest typeID="402309002" typeName="모험에 필요한 것" group="001" NPC="자갈을 모으는 소녀" reportTo="톨보나무 벌목꾼" cancelable="0" repeatable="0" retryable="0" lv="2" desc="어? 그런데 당신은 당신이 어떤 능력을 가지고 있는지 잘 모르시는 것 같네요?/n자기가 어떤 능력을 가진지 스스로 잘 알고 있어야 어떤 일을 할 수 있는지도 알 수 있겠죠? 옛말에 지피지기면 백전백승이라고 하잖아요. 마침 제가 ^#3399FF자기 상태^#FFFFFF를 알 수 있는 몇가지 방법을 알고 있으니 알려드릴게요. 다시 제가 말을 걸어보세요." difficulty="1" onMessage="Quest402309002Collect_onMessage" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="2" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="NULL" desc="[[자갈을 모으는 소녀와 대화]]" draft="어? 그런데 당신은 당신이 어떤 능력을 가지고 있는지 잘 모르시는 것 같네요?/n자기가 어떤 능력을 가진지 스스로 잘 알고 있어야 어떤 일을 할 수 있는지도 알 수 있겠죠? 옛말에 지피지기면 백전백승이라고 하잖아요. 마침 제가 ^#3399FF자기 상태^#FFFFFF를 알 수 있는 몇가지 방법을 알고 있으니 알려드릴게요. 다시 제가 말을 걸어보세요." npc="자갈을 모으는 소녀">
+			<subjectPos subjectStr="자갈을 모으는 소녀와 대화" mapTargetId="100411"/>
+		</Subject>
+		<Subject typeName="Talk" func="NULL" desc="[[자신의 상태에 대해 설명 듣기]]" draft="옆에 그림을 보시면 각기 설명이 붙어있지요? 자세히 봐주세요. 이거 만드느라 꽤 힘들었답니다./n화면에 나타나는 자신의 상태를 꼼꼼히 살펴보시고 상황에 따른 대처 방안을 생각하는 일은 어쩌면 쉽지 않겠지만 금새 익숙해 질테니 너무 걱정하지는 마세요./n/n절 도와주실 일은 다른게 아니고 이 주변의 윤기 나는 자갈을 모으는 일인데…./n당신은 모으기를 해보신 적이 없으신 것 같네요. 저는 나이는 어리지만 벌써부터 매일 이 곳에 나와 윤기 나는 자갈을 모았거든요. 어때요? 저에게 배워보시는게?" npc="자갈을 모으는 소녀">
+			<subjectPos subjectStr="자신의 상태에 대해 설명 듣기" mapTargetId="100511"/>
+		</Subject>
+		<Subject typeName="Talk2" func="NULL" desc="[[모으기 설명 듣기]]" draft="옆에 그림에서 처럼 모으고 싶은 ^#3399FF수집물을 마우스로 우클릭하고 모으기를 선택^#FFFFFF하시면 되요./n간단하지요? 수집 방법이 여러 개인 수집물도 있을 수 있으니 당황하지 마시고 여러가지 방법을 사용해 수집을 해보세요. 방법에 따라 다른 채집물을 얻을 수 있답니다./n어때요? 제가 잘 설명드린 것 같아요?" npc="자갈을 모으는 소녀">
+			<subjectPos subjectStr="모으기 설명 듣기" mapTargetId="100511"/>
+		</Subject>
+		<Subject typeName="Talk3" func="UpdateQuestCount_Begin1" desc="[[자갈 모으기]]" draft="모으기를 배우셨으니 그럼 모으기를 한 번 해보실까요? '우클릭 후 모으기' 아직 잊지 않으셨죠?/n제 주변에 널려 있는 ^#3399FF윤기 나는 자갈^#FFFFFF를 모아서 맞은 편 벌목지에 있는 ^#3399FF톨보 나무 벌목꾼^#FFFFFF에게 갖다 주시겠어요?/n그 아저씨는 항상 윤기 나는 자갈로 도끼자루를 장식하고 싶다고 하셨거든요." npc="자갈을 모으는 소녀">
+			<subjectPos subjectStr="자갈 모으기" mapTargetId="100701"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[톨보나무 벌목꾼에게 배달]]" draft="모으기를 배우셨으니 그럼 모으기를 한 번 해보실까요? '우클릭 후 모으기' 아직 잊지 않으셨죠?/n제 주변에 널려 있는 ^#3399FF윤기 나는 자갈^#FFFFFF를 모아서 맞은 편 벌목지에 있는 ^#3399FF톨보 나무 벌목꾼^#FFFFFF에게 갖다 주시겠어요?/n그 아저씨는 항상 윤기 나는 자갈로 도끼자루를 장식하고 싶다고 하셨거든요." npc="톨보나무 벌목꾼">
+			<subjectPos subjectStr="톨보나무 벌목꾼에게 배달" mapTargetId="100507"/>
+		</Subject>
+		<Storage image_number1="20008" image_time1="20000" image_number2="20002" image_time2="20000" Collect1_typeID="150026" Collect1_goal="3" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="2"/>
+		<ChoiceReward typeID="70002" count="1"/>
+		<ChoiceReward typeID="70017" count="1"/>
+		<ChoiceReward typeID="70032" count="1"/>
+		<ChoiceReward typeID="70047" count="1"/>
+	</Quest>
+	<Quest typeID="402309003" typeName="톨보 나무 베기" group="001" NPC="톨보나무 벌목꾼" reportTo="광산 관리인" cancelable="0" repeatable="0" retryable="0" lv="2" desc="응? 근데 자네 손을 보니 마치 '나는 베기를 한 번도 해보지 않았다.'라고 고함이라도 치는 듯 하군./n훌륭한 모험자가 되려면 베기쯤은 쉽게 할 수 있어야 한다고. 오늘은 내가 기분이 아주 좋으니 ^#3399FF베기^#FFFFFF를 알려주지. 운이 좋은 줄 알라고." difficulty="1" onMessage="Quest402309003_5_onMessage" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="3" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="NULL" desc="[[톨보 나무 벌목꾼과 대화]]" draft="응? 근데 자네 손을 보니 마치 '나는 베기를 한 번도 해보지 않았다.'라고 고함이라도 치는 듯 하군./n훌륭한 모험자가 되려면 베기쯤은 쉽게 할 수 있어야 한다고. 오늘은 내가 기분이 아주 좋으니 ^#3399FF베기^#FFFFFF를 알려주지. 운이 좋은 줄 알라고." npc="톨보나무 벌목꾼">
+			<subjectPos subjectStr="톨보 나무 벌목꾼과 대화" mapTargetId="100407"/>
+		</Subject>
+		<Subject typeName="Talk" func="NULL" desc="[[베기 설명 듣기]]" draft="베기는 아주 어렵지! 아무나 할 수 있는 일이 아니야. 무려 ^#3399FF나무를 우클릭 한 다음 베기를 선택^#FFFFFF해야 하거든./n그러면 목재나 나무 가지 등을 얻을 수 있지./n쉽지? 이건 다 내가 알려주기 때문에 쉬운 거라고./n어때 머리에 쏙쏙 들어오지?" npc="톨보나무 벌목꾼">
+			<subjectPos subjectStr="베기 설명 듣기" mapTargetId="100507"/>
+		</Subject>
+		<Subject typeName="Talk2" func="UpdateQuestCount_Begin1" desc="[[톨보 목재 베기]]" draft="내게서 베기를 배웠으니 자네는 내 수제자가 되었네. 그러니 내 부탁을 하나 들어주게./n톨보 나무를 베면 ^#3399FF톨보 목재^#FFFFFF가 나오는데 그걸 가지고 길을 따라 광산으로 가 ^#3399FF광산 관리인^#FFFFFF에게 전해주어./n겸사 겸사 그에게 내게 새로 생긴 훌륭한 수제자를 자랑하고 싶구만." npc="톨보나무 벌목꾼">
+			<subjectPos subjectStr="톨보 목재 베기" mapTargetId="100702"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[광산 관리인에게 배달]]" draft="내게서 베기를 배웠으니 자네는 내 수제자가 되었네. 그러니 내 부탁을 하나 들어주게./n톨보 나무를 베면 ^#3399FF톨보 목재^#FFFFFF가 나오는데 그걸 가지고 길을 따라 광산으로 가 ^#3399FF광산 관리인^#FFFFFF에게 전해주어./n겸사 겸사 그에게 내게 새로 생긴 훌륭한 수제자를 자랑하고 싶구만." npc="광산 관리인">
+			<subjectPos subjectStr="광산 관리인에게 배달" mapTargetId="100508"/>
+		</Subject>
+		<Storage image_number="20003" image_time="20000" Collect1_typeID="150027" Collect1_goal="3" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="2"/>
+		<ChoiceReward typeID="70003" count="1"/>
+		<ChoiceReward typeID="70018" count="1"/>
+		<ChoiceReward typeID="70033" count="1"/>
+		<ChoiceReward typeID="70048" count="1"/>
+	</Quest>
+	<Quest typeID="402309004" typeName="카툼바 골짜기의 광석" group="001" NPC="광산 관리인" reportTo="발굴단원" cancelable="0" repeatable="0" retryable="0" lv="3" desc="그딴 나무 베기 보다야 광석 캐기를 배워야 정말 쓸모가 많지. 어서 이리와서 캐기를 배우게./n아 잠깐, 나는 벌목꾼 놈처럼 어설프게 가르치지 않으니 걱정말고 ^#3399FF캐기^#FFFFFF를 배울 준비가 다 되면 내게 다시 말을 걸게." difficulty="1" onMessage="Quest402309003_5_onMessage" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="4" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="NULL" desc="[[광산 관리인과 대화]]" draft="그딴 나무 베기 보다야 광석 캐기를 배워야 정말 쓸모가 많지. 어서 이리와서 캐기를 배우게./n아 잠깐, 나는 벌목꾼 놈처럼 어설프게 가르치지 않으니 걱정말고 ^#3399FF캐기^#FFFFFF를 배울 준비가 다 되면 내게 다시 말을 걸게." npc="광산 관리인">
+			<subjectPos subjectStr="광산 관리인과 대화" mapTargetId="100408"/>
+		</Subject>
+		<Subject typeName="Talk" func="NULL" desc="[[캐기 설명 듣기]]" draft="눈을 크게 뜨고 이 그림을 보라고. 그림에서처럼 길을 가다 광석이 보여. 그러면 가차 없이 달려가서 ^#3399FF마우스로 우클릭을 하고 캐기를 선택^#FFFFFF하란 말이야~/n그럼 툭! 하고 광석이 튀어나오지? 그게 바로 캐기의 진수야. 잘 알아들었지? 시험도 볼테니까 까먹지 말고 잘 새겨 들어./n광석 뿐만 아니라 풀뿌리나 나무에도 캐기를 사용할 수 있으니 다양하게 사용해 보라고. 그 때마다 다른 수집물을 얻게 될거야./n내 설명이 벌목꾼의 그것 보다 더 잘 알아 듣겠지? 그렇지?" npc="광산 관리인">
+			<subjectPos subjectStr="캐기 설명 듣기" mapTargetId="100508"/>
+		</Subject>
+		<Subject typeName="Talk2" func="UpdateQuestCount_Begin1" desc="[[블랙 베라듐 캐기]]" draft="그럼 시험을 보겠어. 왠 시험이냐고 그렇게 눈을 똥그랗게 뜨고 날 보지 말라고. 설명할 때부터 분명 시험을 보겠다고 얘기했으니 말이야./n여기는 광산이니 내 주위로 ^#3399FF블랙베라듐^#FFFFFF이 보이지? 이걸 캐라고. 캐서 ^#3399FF발굴 단원^#FFFFFF에게 갖다줘. 스쿠르인 그 녀석은 기계에 쓸 광석이 필요하다고 했는데 이제야 갖다 주게 되었으니 늦장 부리지 말고 어서 움직이라고." npc="광산 관리인">
+			<subjectPos subjectStr="블랙 베라듐 캐기" mapTargetId="100703"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[발굴단원에게 배달]]" draft="그럼 시험을 보겠어. 왠 시험이냐고 그렇게 눈을 똥그랗게 뜨고 날 보지 말라고. 설명할 때부터 분명 시험을 보겠다고 얘기했으니 말이야./n여기는 광산이니 내 주위로 ^#3399FF블랙베라듐^#FFFFFF이 보이지? 이걸 캐라고. 캐서 ^#3399FF발굴 단원^#FFFFFF에게 갖다줘. 스쿠르인 그 녀석은 기계에 쓸 광석이 필요하다고 했는데 이제야 갖다 주게 되었으니 늦장 부리지 말고 어서 움직이라고." npc="발굴 단원">
+			<subjectPos subjectStr="발굴단원에게 배달" mapTargetId="100506"/>
+		</Subject>
+		<Storage image_number="20004" image_time="20000" Collect1_typeID="150028" Collect1_goal="3" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="3"/>
+		<ChoiceReward typeID="70005" count="1"/>
+		<ChoiceReward typeID="70020" count="1"/>
+		<ChoiceReward typeID="70035" count="1"/>
+		<ChoiceReward typeID="70050" count="1"/>
+	</Quest>
+	<Quest typeID="402309005" typeName="초원전쟁이 남긴 유물" group="001" NPC="발굴 단원" reportTo="슬루마 그래스리버" cancelable="0" repeatable="0" retryable="0" lv="3" desc="광석이 왔으니 어서 만들다 만 기계를 완성 시켜야겠군. 하지만 유물을 찾는 일도 그만 둘 수가 없고 난처해~ 난처해~/n아 그래. 자네가 유물을 찾아주지 않겠는가? 나는 카라쿤타 우리프 칸의 요청으로 툼바라 초원과 케이거의 오래된 역사와 관련 된 유물을 발굴하고 있었거든. 이 일은 투르가족에게 아주 중요한 일이라고 하더구만./n아 그런데 자네는 찾기를 해본 적이 없다고? 괜찮아. 괜찮아. 마침 내가 바로 그 ^#3399FF찾기^#FFFFFF의 프로페셔널이니 말이야. 아주 쉽고 빠르게 알려주지! 배우고 싶다는 마음만 충전해 오라고!" difficulty="1" onMessage="Quest402309003_5_onMessage" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="5" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="NULL" desc="[[발굴 단원과 대화]]" draft="광석이 왔으니 어서 만들다 만 기계를 완성 시켜야겠군. 하지만 유물을 찾는 일도 그만 둘 수가 없고 난처해~ 난처해~/n아 그래. 자네가 유물을 찾아주지 않겠는가? 나는 카라쿤타 우리프 칸의 요청으로 툼바라 초원과 케이거의 오래된 역사와 관련 된 유물을 발굴하고 있었거든. 이 일은 투르가족에게 아주 중요한 일이라고 하더구만./n아 그런데 자네는 찾기를 해본 적이 없다고? 괜찮아. 괜찮아. 마침 내가 바로 그 ^#3399FF찾기^#FFFFFF의 프로페셔널이니 말이야. 아주 쉽고 빠르게 알려주지! 배우고 싶다는 마음만 충전해 오라고!" npc="발굴 단원">
+			<subjectPos subjectStr="발굴 단원과 대화" mapTargetId="100406"/>
+		</Subject>
+		<Subject typeName="Talk" func="NULL" desc="[[찾기 설명 듣기]]" draft="찾기는 어렵지 않아. 그림을 잘보고 똑같이 따라하면 찾을 수 있다네./n찾고 싶은 ^#3399FF대상을 클릭하고 우클릭한 후 찾기를 선택^#FFFFFF하면 되./n쉽지? 유물 뿐 아니라 나무나 광석에도 찾기를 사용할 수 있으니 아끼지 말고 구석구석 다니며 찾기를 연마해 보라고./n어때 재밌어 보이지 않아?" npc="발굴 단원">
+			<subjectPos subjectStr="찾기 설명 듣기" mapTargetId="100506"/>
+		</Subject>
+		<Subject typeName="Talk2" func="UpdateQuestCount_Begin1" desc="[[유물 찾기]]" draft="그러면 이제 날 도와보실까? 이 주변에 깔린 발굴지 유물을 찾아서 나온 유물을 언덕 맞은 편 길에서 기다리고 있을 ^#3399FF슬루마 그래스리버^#FFFFFF에게 갖다 줘./n그 녀석은 우리프 칸의 명령으로 ^#3399FF흙더미^#FFFFFF에서 찾은 ^#3399FF유물^#FFFFFF을 배달하는 일을 하고 있거든. 내가 요 며칠새 통 일이 손에 잡히지 않아 게을리 했더니 녀석도 할 일이 없어 지루해 하더라고./n어서 녀석이 자기 할 일을 할 수 있도록 도와줘." npc="발굴 단원">
+			<subjectPos subjectStr="유물 찾기" mapTargetId="100704"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[슬루마 그래스리버에게 배달]]" draft="그러면 이제 날 도와보실까? 이 주변에 깔린 발굴지 유물을 찾아서 나온 유물을 언덕 맞은 편 길에서 기다리고 있을 ^#3399FF슬루마 그래스리버^#FFFFFF에게 갖다 줘./n그 녀석은 우리프 칸의 명령으로 ^#3399FF흙더미^#FFFFFF에서 찾은 ^#3399FF유물^#FFFFFF을 배달하는 일을 하고 있거든. 내가 요 며칠새 통 일이 손에 잡히지 않아 게을리 했더니 녀석도 할 일이 없어 지루해 하더라고./n어서 녀석이 자기 할 일을 할 수 있도록 도와줘." npc="슬루마 그래스리버">
+			<subjectPos subjectStr="슬루마 그래스리버에게 배달" mapTargetId="100503"/>
+		</Subject>
+		<Storage image_number="20005" image_time="20000" Collect1_typeID="150031" Collect1_goal="3" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="3"/>
+		<ChoiceReward typeID="70004" count="1"/>
+		<ChoiceReward typeID="70019" count="1"/>
+		<ChoiceReward typeID="70034" count="1"/>
+		<ChoiceReward typeID="70049" count="1"/>
+	</Quest>
+	<Quest typeID="402309006" typeName="생활에 필요한 것1" group="001" NPC="슬루마 그래스리버" reportTo="크롬른 히트스피어" cancelable="0" repeatable="0" retryable="0" lv="3" desc="그런데 당신은 아직 가공을 해본 적이 없는 것 같군요. 제게 당신께 ^#3399FF가공^#FFFFFF을 알려줄 수 있는 영광을 주지 않으시렵니까? 여기서 계속 서있는 건 꽤 지루한 일이거든요." difficulty="1" onMessage="NULL" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="6" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="NULL" desc="[[슬루마 그래스리버와 대화]]" draft="그런데 당신은 아직 가공을 해본 적이 없는 것 같군요. 제게 당신께 ^#3399FF가공^#FFFFFF을 알려줄 수 있는 영광을 주지 않으시렵니까? 여기서 계속 서있는 건 꽤 지루한 일이거든요." npc="슬루마 그래스리버">
+			<subjectPos subjectStr="슬루마 그래스리버와 대화" mapTargetId="100403"/>
+		</Subject>
+		<Subject typeName="Talk" func="NULL" desc="[[가공 설명 듣기]]" draft="가공은 수집보다 조금 어려워서 옆에 그림을 잘 살펴보셔야 할거예요./n가공을 하려면 스킬을 배우고 재료를 구해야 하는데요. 재료를 수집하는 방법은 이미 알고 계신 것 같군요./n재료가 다 구해지면  화면 ^#3399FF좌측 아래^#FFFFFF에 있는 ^#3399FF가공 버튼^#FFFFFF을 눌러 가공창을 열고 스킬을 고르면 필요한 재료가 당신이 가진 가방에서 자동으로 선택되 올려지죠./n그 후 ^#3399FF[가공]^#FFFFFF버튼을 누르면 ^#3399FFLP^#FFFFFF와 가공창에 올려진 ^#3399FF재료^#FFFFFF를 소모해 가공품을 제작할 수 있습니다. 좀 까다로운 일이지만 금새 익숙해질 수 있으시겠죠? 가공창 단축키는 ^#3399FFF8^#FFFFFF이랍니다." npc="슬루마 그래스리버">
+			<subjectPos subjectStr="가공 설명 듣기" mapTargetId="100503"/>
+		</Subject>
+		<Subject typeName="Make" func="Quest402309006_Make" desc="[[가공품 만들기]]" draft="백문이 불여일견이라고 설명보다는 한 번 해보시는게 낫겠죠?/n제가 가공 재료와 스킬을 드릴 테니 가공을 한 번 해보세요. 완성 된 ^#3399FF가공품^#FFFFFF을 맞은 편에 서계신 ^#3399FF크롬른 히트스피어^#FFFFFF님께 가져가면 소질을 파악해 주실 거예요./n^#3399FFF8^#FFFFFF을 눌러 가공창을 열어 가공품을 만들어 보세요." npc="슬루마 그래스리버">
+			<subjectPos subjectStr="가공품 만들기" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[크롬른 하트스피어에게 배달]]" draft="백문이 불여일견이라고 설명보다는 한 번 해보시는게 낫겠죠?/n제가 가공 재료와 스킬을 드릴 테니 가공을 한 번 해보세요. 완성 된 ^#3399FF가공품^#FFFFFF을 맞은 편에 서계신 ^#3399FF크롬른 히트스피어^#FFFFFF님께 가져가면 소질을 파악해 주실 거예요./n^#3399FFF8^#FFFFFF을 눌러 가공창을 열어 가공품을 만들어 보세요." npc="크롬른 하트스피어">
+			<subjectPos subjectStr="크롬른 하트스피어에게 배달" mapTargetId="100501"/>
+		</Subject>
+		<Storage Collect1_typeID="201045" Collect2_typeID="201046" Collect3_typeID="201047" Collect4_typeID="201051" Collect1_goal="1" Collect5_typeID="201042" Collect6_typeID="201043" Collect7_typeID="201044" Collect8_typeID="201068" image_number="20006" image_time="20000"/>
+		<BasicReward typeID="2100000000" count="3"/>
+		<ChoiceReward typeID="20002" count="1"/>
+		<ChoiceReward typeID="20008" count="1"/>
+		<ChoiceReward typeID="20014" count="1"/>
+		<ChoiceReward typeID="20020" count="1"/>
+	</Quest>
+	<Quest typeID="402309007" typeName="생활에 필요한 것2" group="001" NPC="크롬른 히트스피어" reportTo="카르카도스" cancelable="0" repeatable="0" retryable="0" lv="4" desc="보면 볼 수록 이 가공품이 네 첫 작품이라는 것이 정말 놀라워./n이런 건 처음이라 좀 욕심이 나는 걸. 네가 가진 재능이라면 가공뿐만 아니라 한차원 어려운 제작도 잘 할 수 있을 것 같거든. 내친 김에 한 번 해보지 뭐./n내가 ^#3399FF제작^#FFFFFF을 알려줄게. 준비 할 게 있으니 있다 다시 말을 걸어줘." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="7" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="NULL" desc="[[크롬른 하트스피어와 대화]]" draft="보면 볼 수록 이 가공품이 네 첫 작품이라는 것이 정말 놀라워./n이런 건 처음이라 좀 욕심이 나는 걸. 네가 가진 재능이라면 가공뿐만 아니라 한차원 어려운 제작도 잘 할 수 있을 것 같거든. 내친 김에 한 번 해보지 뭐./n내가 ^#3399FF제작^#FFFFFF을 알려줄게. 준비 할 게 있으니 있다 다시 말을 걸어줘." npc="크롬른 하트스피어">
+			<subjectPos subjectStr="크롬른 하트스피어와 대화" mapTargetId="100401"/>
+		</Subject>
+		<Subject typeName="Talk" func="NULL" desc="[[제작 설명 듣기]]" draft="제작은 말이지. ^#3399FF제작창^#FFFFFF을 열어 제작 목록에서 네가 원하는 제작 스킬을 골라. 그러면 가방에 있는 재료 중 필요한 게 자동으로 제작창에 올라가./n그 때^#3399FF[제작]^#FFFFFF버튼을 누르면 되는거야. 쉽지?/n제작은 가공과 비슷하지만 더 많은 재료를 필요로 한다는 점이 더 까다롭고 시간을 많이 소모 해야 하는 점이야./n그리고 네가 가진 가방에 한 칸이라도 빈칸이 마련되있지 않으면 가공과 제작을 할 수 없다는 점을 잊지 말라고. 알았지?/n제작창 단축키는 ^#3399FFF7^#FFFFFF이야." npc="크롬른 하트스피어">
+			<subjectPos subjectStr="제작 설명 듣기" mapTargetId="100501"/>
+		</Subject>
+		<Subject typeName="Make" func="Quest402309007_Make" desc="[[완성품 만들기]]" draft="그럼 아직 조금 이른 것 같지만 제작을 한 번 해보지 않을래?/n내가 제작 재료와 스킬을 줄테니 말이야. ^#3399FF제작품^#FFFFFF이 완성되면 이 길 옆에 있을  ^#3399FF그룬트^#FFFFFF씨에게 전해줘. 그건 그에게 좋은 선물이 될테니 말이야./n^#3399FFF7^#FFFFFF을 눌러 제작창을 열어 제작을 해보라고." npc="크롬른 하트스피어">
+			<subjectPos subjectStr="완성품 만들기" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Talk2" func="NULL" desc="[[그룬트에게 배달]]" draft="이걸 정말 당신이 만들었다고? 정말 멋진걸./n오늘이 내 생일이긴 하지만 이런 곳에서 이렇게 멋진 선물을 받게 될 줄은 생각도 못했는데 오늘은 정말 운이 좋군!/n처음 보는 내게 이렇게 멋진 선물도 주고 너는 필시 카르카도스 장로가 찾는 그 사람일거야./n이 옆에서 불을 쬐고 있는 작은 노인이 바로  ^#3399FF카르카도스^#FFFFFF 장로이시니 그에게 말을 걸어 봐. 어서." npc="그룬트">
+			<subjectPos subjectStr="그룬트에게 배달" mapTargetId="100502"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[카르카도스와 대화]]" draft="이걸 정말 당신이 만들었다고? 정말 멋진걸./n오늘이 내 생일이긴 하지만 이런 곳에서 이렇게 멋진 선물을 받게 될 줄은 생각도 못했는데 오늘은 정말 운이 좋군! 보답으로 ^#3399FF생활 스킬 목록^#FFFFFF을 줄게./n/n처음 보는 내게 이렇게 멋진 선물도 주고 너는 필시 카르카도스 장로가 찾는 그 사람일거야./n이 옆에서 불을 쬐고 있는 작은 노인이 바로  ^#3399FF카르카도스^#FFFFFF 장로이시니 그에게 말을 걸어 봐. 어서." npc="카르카도스">
+			<subjectPos subjectStr="카르카도스와 대화" mapTargetId="100504"/>
+		</Subject>
+		<Storage Collect1_typeID="201042" Collect1_goal="5" Collect2_typeID="201048" Collect3_typeID="201049" Collect4_typeID="201043" Collect5_typeID="201050" Collect6_typeID="201051" Collect7_typeID="201044" Collect8_typeID="201052" Collect9_typeID="201053" Collect10_typeID="40001" Collect11_typeID="90001" Collect12_typeID="110043" Collect13_typeID="201068" Collect14_typeID="201066" Collect15_typeID="201067" Collect16_typeID="110044" image_number="20007" image_time="20000"/>
+		<BasicReward typeID="2100000000" count="4"/>
+		<ChoiceReward typeID="20003" count="1"/>
+		<ChoiceReward typeID="20009" count="1"/>
+		<ChoiceReward typeID="20015" count="1"/>
+		<ChoiceReward typeID="20021" count="1"/>
+	</Quest>
+	<Quest typeID="402309008" typeName="미래의 꿈" group="001" NPC="카르카도스" reportTo="카르카도스" cancelable="0" repeatable="0" retryable="0" lv="4" desc="숫자를 세는 걸 잊을 정도로 이렇게 많은 나이를 먹다보니 가끔 미래에 대한 꿈을 꾸기도 해. 간밤에는  ^#3399FF빛을 뿜는 위대한 영혼^#FFFFFF을 만났는데 그 영혼이 누군가에게 중요한 걸 알려주고 있었지./n나는 뒤에서 지켜보고 있었어 아주 기쁜 마음으로./n그건 아마도 이젠 시대가 바뀌어 젊은이들이 더 큰 일을 할 때가 왔다는 뜻일거야. 그리고 자네에게선 뭔가 좋은 느낌이 오는 걸./n ^#3399FF옛다! 이걸 줄테니 가져가거라." difficulty="1" onMessage="NULL" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="8" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="NULL" desc="[[카르카도스와 대화]]" draft="숫자를 세는 걸 잊을 정도로 이렇게 많은 나이를 먹다보니 가끔 미래에 대한 꿈을 꾸기도 해. 간밤에는  ^#3399FF빛을 뿜는 위대한 영혼^#FFFFFF을 만났는데 그 영혼이 누군가에게 중요한 걸 알려주고 있었지./n나는 뒤에서 지켜보고 있었어 아주 기쁜 마음으로./n그건 아마도 이젠 시대가 바뀌어 젊은이들이 더 큰 일을 할 때가 왔다는 뜻일거야. 그리고 자네에게선 뭔가 좋은 느낌이 오는 걸. ^#3399FF무기^#FFFFFF는 덤이고./n^#3399FF옛다! 이걸 줄테니 가져가거라. " npc="카르카도스">
+			<subjectPos subjectStr="카르카도스와 대화" mapTargetId="100404"/>
+		</Subject>
+		<Subject typeName="Talk" func="NULL" desc="[[전투직업 선택]]" draft="숫자를 세는 걸 잊을 정도로 이렇게 많은 나이를 먹다보니 가끔 미래에 대한 꿈을 꾸기도 해. 간밤에는  ^#3399FF빛을 뿜는 위대한 영혼^#FFFFFF을 만났는데 그 영혼이 누군가에게 중요한 걸 알려주고 있었지./n나는 뒤에서 지켜보고 있었어 아주 기쁜 마음으로./n그건 아마도 이젠 시대가 바뀌어 젊은이들이 더 큰 일을 할 때가 왔다는 뜻일거야. 그리고 자네에게선 뭔가 좋은 느낌이 오는 걸. ^#3399FF무기^#FFFFFF는 덤이고./n^#3399FF옛다! 이걸 줄테니 가져가거라. " npc="카르카도스">
+			<subjectPos subjectStr="전투직업 선택" mapTargetId="100504"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[카르카도스에게 보고]]" draft="숫자를 세는 걸 잊을 정도로 이렇게 많은 나이를 먹다보니 가끔 미래에 대한 꿈을 꾸기도 해. 간밤에는  ^#3399FF빛을 뿜는 위대한 영혼^#FFFFFF을 만났는데 그 영혼이 누군가에게 중요한 걸 알려주고 있었지./n나는 뒤에서 지켜보고 있었어 아주 기쁜 마음으로./n그건 아마도 이젠 시대가 바뀌어 젊은이들이 더 큰 일을 할 때가 왔다는 뜻일거야. 그리고 자네에게선 뭔가 좋은 느낌이 오는 걸. ^#3399FF무기^#FFFFFF는 덤이고./n^#3399FF옛다! 이걸 줄테니 가져가거라. " npc="카르카도스">
+			<subjectPos subjectStr="카르카도스에게 보고" mapTargetId="100504"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="4"/>
+		<ChoiceReward typeID="70001" count="1"/>
+		<ChoiceReward typeID="70016" count="1"/>
+		<ChoiceReward typeID="70031" count="1"/>
+		<ChoiceReward typeID="70046" count="1"/>
+	</Quest>
+	<Quest typeID="402309009" typeName="첫 전투" group="001" NPC="그룬트" reportTo="타자카 스톤블래이드" cancelable="0" repeatable="0" retryable="0" lv="4" desc="어디에 이런 인재가 숨어있었지? 정말 놀랠 노자로군./n아직 카툼바 골짜기를 벗어나지도 않은 어린 투르가에게서 이런 기개가 느껴지다니. 우리 투르가에겐 자네같은 인재가 필요해./n아, 그런데 ^#3399FF전투^#FFFFFF를 한 번도 해본 적이 없다고? 괜찮아. 그건 내 전공이니 걱정말고 나에게 배우게." difficulty="1" onMessage="Quest402309009Hunt_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="9" rewardCombatJobEXP="100" relativeJob="LIFE">
+		<Subject typeName="Begin" func="NULL" desc="[[그룬트와 대화]]" draft="어디에 이런 인재가 숨어있었지? 정말 놀랠 노자로군./n아직 카툼바 골짜기를 벗어나지도 않은 어린 투르가에게서 이런 기개가 느껴지다니. 우리 투르가에겐 자네같은 인재가 필요해./n아, 그런데 ^#3399FF전투^#FFFFFF를 한 번도 해본 적이 없다고? 괜찮아. 그건 내 전공이니 걱정말고 나에게 배우게." npc="그룬트">
+			<subjectPos subjectStr="그룬트와 대화" mapTargetId="100402"/>
+		</Subject>
+		<Subject typeName="Talk" func="NULL" desc="[[전투 설명 듣기]]" draft="내가 말 주변이 없어서 이렇게 그림으로 준비를 했다네. 적을 만나면 우선 ^#3399FF우클릭으로 적을 선택^#FFFFFF한 후, ^#3399FF스킬을 사용^#FFFFFF해./n스킬창의 스킬은 단축키로 지정해서 사용할 수도 있으니 자주 이용하고./n전투가 끝난 후 쓰러진 적의 주변을 뒤지면 쓸만 한 물건이 나오기도 하니 잊지 말고 챙겨 가게나. 잘 알아들었나?" npc="그룬트">
+			<subjectPos subjectStr="전투 설명 듣기" mapTargetId="100502"/>
+		</Subject>
+		<Subject typeName="Hunt" func="UpdateQuestExplain_quest1" desc="[[비실비실한 베이비빅스 사냥]]" draft="그러면 한 번 실제로 전투를 한 번 해볼까? 오는 길에 비실비실한 베이비빅스 를 보았지? 그 ^#3399FF비실비실한 베이비빅스^#FFFFFF 를 한 마리 잡아 봐./n첫 상대로 무리가 없을거야. 멋지게 승리하고 나면 언덕 위에 계신 ^#3399FF타자카 스톤블레이드^#FFFFFF님께 가서 보고 하라고./n^#3399FFM키^#FFFFFF를 누르면 자네가 ^#3399FF잡아야 할 몬스터^#FFFFFF가 어디있는지 알 수 있다네. ^#3399FF퀘스트 알리미 창^#FFFFFF에 체크가 되어야 볼 수 있으니 확인하고 말이야.
+" npc="그룬트">
+			<subjectPos subjectStr="비실비실한 베이비빅스 사냥" mapTargetId="100601"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[타자카 스톤블래이드에게 보고]]" draft="그러면 한 번 실제로 전투를 한 번 해볼까? 오는 길에 비실비실한 베이비빅스 를 보았지? 그 ^#3399FF비실비실한 베이비빅스^#FFFFFF 를 한 마리 잡아 봐./n첫 상대로 무리가 없을거야. 멋지게 승리하고 나면 언덕 위에 계신 ^#3399FF타자카 스톤블레이드^#FFFFFF님께 가서 보고 하라고./n^#3399FFM키^#FFFFFF를 누르면 자네가 ^#3399FF잡아야 할 몬스터^#FFFFFF가 어디있는지 알 수 있다네. ^#3399FF퀘스트 알리미 창^#FFFFFF에 체크가 되어야 볼 수 있으니 확인하고 말이야.
+" npc="타자카 스톤블래이드">
+			<subjectPos subjectStr="타자카 스톤블래이드에게 보고" mapTargetId="100509"/>
+		</Subject>
+		<Storage Hunt1_typeID="575" Hunt1_goal="1" Hunt1_count="0" target1_type="Hunt" image1_number="20009" image1_set="0" image1_time="20000" image2_number="2" image2_set="0" image2_time="20000"/>
+		<BasicReward typeID="2100000000" count="4"/>
+		<ChoiceReward typeID="50002" count="1"/>
+		<ChoiceReward typeID="50058" count="1"/>
+		<ChoiceReward typeID="50114" count="1"/>
+		<ChoiceReward typeID="50170" count="1"/>
+	</Quest>
+	<Quest typeID="402309010" typeName="시작" group="001" NPC="타자카 스톤블래이드" reportTo="지르베르" cancelable="0" repeatable="0" retryable="0" lv="4" desc="좀 더 자네를 붙잡아 두고 싶지만 좀 더 넓은 시각으로 본다면 자네를 보내주는 게 맞겠지. 자네는 카툼바 골짜기에서 배울 수 있는 모든 걸 습득했다네. 아주 훌륭하게 말이야. 할 수 있다면 붙잡아서 날 도울 교관으로 양성하고 싶지만...." difficulty="1" onMessage="NULL" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="10" rewardCombatJobEXP="200" relativeJob="LIFE">
+		<Subject typeName="Begin" func="NULL" desc="[[타자카 스톤블래이드와 대화]]" draft="좀 더 자네를 붙잡아 두고 싶지만 좀 더 넓은 시각으로 본다면 자네를 보내주는 게 맞겠지. 자네는 카툼바 골짜기에서 배울 수 있는 모든 걸 습득했다네. 아주 훌륭하게 말이야. 할 수 있다면 붙잡아서 날 도울 교관으로 양성하고 싶지만...." npc="타자카 스톤블래이드">
+			<subjectPos subjectStr="타자카 스톤블래이드와 대화" mapTargetId="100409"/>
+		</Subject>
+		<Subject typeName="Warp" func="NULL" desc="[[시작]]" draft="좀 더 자네를 붙잡아 두고 싶지만 좀 더 넓은 시각으로 본다면 자네를 보내주는 게 맞겠지. 자네는 카툼바 골짜기에서 배울 수 있는 모든 걸 습득했다네. 아주 훌륭하게 말이야. 할 수 있다면 붙잡아서 날 도울 교관으로 양성하고 싶지만...." npc="타자카 스톤블래이드">
+			<subjectPos subjectStr="시작" mapTargetId="100509"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[지르베르와 대화]]" draft="이 골짜기 밖에는 자네의 도움을 필요로 하는 사람이 많으니 ^#3399FF더 넓은 세상^#FFFFFF으로 가보게. 이 카툼바 골짜기는 나에게 맡기고 말이야. 가서 투르가의 명예를 드높여. 골짜기 밖으로 나가거든 ^#3399FF지르베르^#FFFFFF를 찾아가게. 이 다음엔 그가 안내해줄거야./n그럼 모험을 시작해보겠는가?" npc="지르베르">
+			<subjectPos subjectStr="지르베르와 대화" mapTargetId="101519"/>
+		</Subject>
+		<Storage Collect1_typeID="150026" Collect2_typeID="150027" Collect3_typeID="150028" Collect4_typeID="150031"/>
+		<BasicReward typeID="2100000000" count="4"/>
+		<BasicReward typeID="100001" count="10"/>
+		<ChoiceReward typeID="50003" count="1"/>
+		<ChoiceReward typeID="50059" count="1"/>
+		<ChoiceReward typeID="50115" count="1"/>
+		<ChoiceReward typeID="50171" count="1"/>
+	</Quest>
+</Quest>

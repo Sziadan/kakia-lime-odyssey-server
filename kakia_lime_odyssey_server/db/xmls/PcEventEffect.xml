@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2006 rel. 3 sp1 (http://www.altova.com) by a (EMBRACE) -->
+<ShapeInfo>
+	<Pam>
+		<Male>
+			<EventEffect eventID="0" eventName="스트림사용이벤트">
+				<eventState>
+					<evnet motionID="0">
+						<effectKind effectID="356" effectOrder="start"/>
+						<effectKind effectID="357" effectOrder="start"/>
+					</evnet>
+				</eventState>
+			</EventEffect>
+			<EventEffect eventID="1" eventName="스트림상태이벤트">
+				<eventState>
+					<evnet motionID="0">
+						<effectKind effectID="350" effectOrder="start"/>
+						<effectKind effectID="351" effectOrder="start"/>
+						<effectKind effectID="352" effectOrder="start"/>
+						<effectKind effectID="353" effectOrder="start"/>
+						<effectKind effectID="354" effectOrder="start"/>
+						<effectKind effectID="355" effectOrder="start"/>
+					</evnet>
+				</eventState>
+			</EventEffect>
+		</Male>
+		<Female>
+			<EventEffect eventID="0" eventName="스트림사용이벤트">
+				<eventState>
+					<evnet motionID="0">
+						<effectKind effectID="356" effectOrder="start"/>
+						<effectKind effectID="357" effectOrder="start"/>
+					</evnet>
+				</eventState>
+			</EventEffect>
+			<EventEffect eventID="1" eventName="스트림상태이벤트">
+				<eventState>
+					<evnet motionID="0">
+						<effectKind effectID="350" effectOrder="start"/>
+						<effectKind effectID="351" effectOrder="start"/>
+						<effectKind effectID="352" effectOrder="start"/>
+						<effectKind effectID="353" effectOrder="start"/>
+						<effectKind effectID="354" effectOrder="start"/>
+						<effectKind effectID="355" effectOrder="start"/>
+					</evnet>
+				</eventState>
+			</EventEffect>
+		</Female>
+	</Pam>
+	<Human>
+		<Male>
+			<EventEffect eventID="0" eventName="스트림사용이벤트">
+				<eventState>
+					<evnet motionID="0">
+						<effectKind effectID="356" effectOrder="start"/>
+						<effectKind effectID="357" effectOrder="start"/>
+					</evnet>
+				</eventState>
+			</EventEffect>
+			<EventEffect eventID="1" eventName="스트림상태이벤트">
+				<eventState>
+					<evnet motionID="0">
+						<effectKind effectID="350" effectOrder="start"/>
+						<effectKind effectID="351" effectOrder="start"/>
+						<effectKind effectID="352" effectOrder="start"/>
+						<effectKind effectID="353" effectOrder="start"/>
+						<effectKind effectID="354" effectOrder="start"/>
+						<effectKind effectID="355" effectOrder="start"/>
+					</evnet>
+				</eventState>
+			</EventEffect>
+		</Male>
+		<Female>
+			<EventEffect eventID="0" eventName="스트림사용이벤트">
+				<eventState>
+					<evnet motionID="0">
+						<effectKind effectID="356" effectOrder="start"/>
+						<effectKind effectID="357" effectOrder="start"/>
+					</evnet>
+				</eventState>
+			</EventEffect>
+			<EventEffect eventID="1" eventName="스트림상태이벤트">
+				<eventState>
+					<evnet motionID="0">
+						<effectKind effectID="350" effectOrder="start"/>
+						<effectKind effectID="351" effectOrder="start"/>
+						<effectKind effectID="352" effectOrder="start"/>
+						<effectKind effectID="353" effectOrder="start"/>
+						<effectKind effectID="354" effectOrder="start"/>
+						<effectKind effectID="355" effectOrder="start"/>
+					</evnet>
+				</eventState>
+			</EventEffect>
+		</Female>
+	</Human>
+	<Turga>
+		<Male>
+			<EventEffect eventID="0" eventName="스트림사용이벤트">
+				<eventState>
+					<evnet motionID="0">
+						<effectKind effectID="348" effectOrder="start"/>
+						<effectKind effectID="349" effectOrder="start"/>
+					</evnet>
+				</eventState>
+			</EventEffect>
+			<EventEffect eventID="1" eventName="스트림상태이벤트">
+				<eventState>
+					<evnet motionID="0">
+						<effectKind effectID="342" effectOrder="start"/>
+						<effectKind effectID="343" effectOrder="start"/>
+						<effectKind effectID="344" effectOrder="start"/>
+						<effectKind effectID="345" effectOrder="start"/>
+						<effectKind effectID="346" effectOrder="start"/>
+						<effectKind effectID="347" effectOrder="start"/>
+					</evnet>
+				</eventState>
+			</EventEffect>
+		</Male>
+		<Female>
+			<EventEffect eventID="0" eventName="스트림사용이벤트">
+				<eventState>
+					<evnet motionID="0">
+						<effectKind effectID="356" effectOrder="start"/>
+						<effectKind effectID="357" effectOrder="start"/>
+					</evnet>
+				</eventState>
+			</EventEffect>
+			<EventEffect eventID="1" eventName="스트림상태이벤트">
+				<eventState>
+					<evnet motionID="0">
+						<effectKind effectID="350" effectOrder="start"/>
+						<effectKind effectID="351" effectOrder="start"/>
+						<effectKind effectID="352" effectOrder="start"/>
+						<effectKind effectID="353" effectOrder="start"/>
+						<effectKind effectID="354" effectOrder="start"/>
+						<effectKind effectID="355" effectOrder="start"/>
+					</evnet>
+				</eventState>
+			</EventEffect>
+		</Female>
+	</Turga>
+</ShapeInfo>

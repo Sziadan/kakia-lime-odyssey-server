@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by Administrator (EMBRACE) -->
+<WorldmapTarget>
+	<Worldmap continentID="0" areaTypeID="1" continentName="북 오르타" imageName="MiniMap\wtumMap.dds" frameimageName="MiniMap\wtumMap_Girth.dds">
+		<Area continentID="1" mapTypeID="0">
+			<Naming namingID="0" mapTargetID="101000">
+				<Place placeType="1">
+					<PlaceList placeID="0" mapTargetID="0"/>
+				</Place>
+				<Place placeType="2">
+					<PlaceList placeID="0" mapTargetID="0"/>
+				</Place>
+				<Place placeType="3">
+					<PlaceList placeID="0" mapTargetID="101301"/>
+				</Place>
+			</Naming>
+			<Naming namingID="1" mapTargetID="101000">
+				<Place placeType="1">
+					<PlaceList placeID="0" mapTargetID="101101"/>
+					<PlaceList placeID="1" mapTargetID="101102"/>
+					<PlaceList placeID="2" mapTargetID="101103"/>
+					<PlaceList placeID="3" mapTargetID="101104"/>
+					<PlaceList placeID="4" mapTargetID="101105"/>
+					<PlaceList placeID="5" mapTargetID="101106"/>
+				</Place>
+				<Place placeType="2">
+					<PlaceList placeID="0" mapTargetID="101201"/>
+					<PlaceList placeID="1" mapTargetID="101202"/>
+				</Place>
+				<Place placeType="3">
+					<PlaceList placeID="0" mapTargetID="101301"/>
+					<PlaceList placeID="1" mapTargetID="101302"/>
+					<PlaceList placeID="2" mapTargetID="101303"/>
+					<PlaceList placeID="3" mapTargetID="101304"/>
+					<PlaceList placeID="4" mapTargetID="101305"/>
+					<PlaceList placeID="5" mapTargetID="101307"/>
+					<PlaceList placeID="6" mapTargetID="101306"/>
+					<PlaceList placeID="7" mapTargetID="101308"/>
+					<PlaceList placeID="8" mapTargetID="101309"/>
+					<PlaceList placeID="9" mapTargetID="101310"/>
+					<PlaceList placeID="10" mapTargetID="101311"/>
+					<PlaceList placeID="11" mapTargetID="101312"/>
+					<PlaceList placeID="12" mapTargetID="101313"/>
+					<PlaceList placeID="13" mapTargetID="101314"/>
+					<PlaceList placeID="14" mapTargetID="101315"/>
+				</Place>
+			</Naming>
+			<Naming namingID="2" mapTargetID="108000">
+				<Place placeType="1">
+					<PlaceList placeID="0" mapTargetID="0"/>
+				</Place>
+				<Place placeType="2">
+					<PlaceList placeID="0" mapTargetID="108201"/>
+				</Place>
+				<Place placeType="3">
+					<PlaceList placeID="0" mapTargetID="0"/>
+				</Place>
+			</Naming>
+			<Naming namingID="3" mapTargetID="102000">
+				<Place placeType="1">
+					<PlaceList placeID="0" mapTargetID="0"/>
+				</Place>
+				<Place placeType="2">
+					<PlaceList placeID="0" mapTargetID="102201"/>
+				</Place>
+				<Place placeType="3">
+					<PlaceList placeID="0" mapTargetID="0"/>
+				</Place>
+			</Naming>
+			<Naming namingID="4" mapTargetID="109000">
+				<Place placeType="1">
+					<PlaceList placeID="0" mapTargetID="0"/>
+				</Place>
+				<Place placeType="2">
+					<PlaceList placeID="0" mapTargetID="0"/>
+				</Place>
+				<Place placeType="3">
+					<PlaceList placeID="0" mapTargetID="109301"/>
+				</Place>
+			</Naming>
+			<Naming namingID="5" mapTargetID="103000">
+				<Place placeType="1">
+					<PlaceList placeID="0" mapTargetID="103101"/>
+					<PlaceList placeID="1" mapTargetID="103102"/>
+					<PlaceList placeID="2" mapTargetID="103103"/>
+					<PlaceList placeID="3" mapTargetID="103104"/>
+					<PlaceList placeID="4" mapTargetID="103105"/>
+					<PlaceList placeID="5" mapTargetID="103106"/>
+					<PlaceList placeID="6" mapTargetID="103107"/>
+				</Place>
+				<Place placeType="2">
+					<PlaceList placeID="0" mapTargetID="103201"/>
+					<PlaceList placeID="1" mapTargetID="103202"/>
+				</Place>
+				<Place placeType="3">
+					<PlaceList placeID="0" mapTargetID="103301"/>
+					<PlaceList placeID="1" mapTargetID="103302"/>
+					<PlaceList placeID="2" mapTargetID="103303"/>
+					<PlaceList placeID="3" mapTargetID="103304"/>
+					<PlaceList placeID="4" mapTargetID="103305"/>
+					<PlaceList placeID="5" mapTargetID="103306"/>
+					<PlaceList placeID="6" mapTargetID="103307"/>
+					<PlaceList placeID="8" mapTargetID="103309"/>
+					<PlaceList placeID="9" mapTargetID="103310"/>
+					<PlaceList placeID="10" mapTargetID="103311"/>
+					<PlaceList placeID="11" mapTargetID="103312"/>
+					<PlaceList placeID="12" mapTargetID="103313"/>
+					<PlaceList placeID="13" mapTargetID="103314"/>
+					<PlaceList placeID="14" mapTargetID="103315"/>
+					<PlaceList placeID="17" mapTargetID="103318"/>
+					<PlaceList placeID="19" mapTargetID="103320"/>
+					<PlaceList placeID="20" mapTargetID="103321"/>
+					<PlaceList placeID="21" mapTargetID="103322"/>
+					<PlaceList placeID="22" mapTargetID="103324"/>
+				</Place>
+			</Naming>
+			<Naming namingID="6" mapTargetID="104000">
+				<Place placeType="1">
+					<PlaceList placeID="0" mapTargetID="0"/>
+				</Place>
+				<Place placeType="2">
+					<PlaceList placeID="0" mapTargetID="104201"/>
+				</Place>
+				<Place placeType="3">
+					<PlaceList placeID="0" mapTargetID="0"/>
+				</Place>
+			</Naming>
+			<Naming namingID="7" mapTargetID="105000">
+				<Place placeType="1">
+					<PlaceList placeID="0" mapTargetID="0"/>
+				</Place>
+				<Place placeType="2">
+					<PlaceList placeID="0" mapTargetID="105201"/>
+				</Place>
+				<Place placeType="3">
+					<PlaceList placeID="0" mapTargetID="0"/>
+				</Place>
+			</Naming>
+			<Naming namingID="8" mapTargetID="106000">
+				<Place placeType="1">
+					<PlaceList placeID="0" mapTargetID="0"/>
+				</Place>
+				<Place placeType="2">
+					<PlaceList placeID="0" mapTargetID="106201"/>
+				</Place>
+				<Place placeType="3">
+					<PlaceList placeID="0" mapTargetID="0"/>
+				</Place>
+			</Naming>
+			<Naming namingID="9" mapTargetID="107000">
+				<Place placeType="1">
+					<PlaceList placeID="0" mapTargetID="0"/>
+				</Place>
+				<Place placeType="2">
+					<PlaceList placeID="0" mapTargetID="107201"/>
+				</Place>
+				<Place placeType="3">
+					<PlaceList placeID="0" mapTargetID="0"/>
+				</Place>
+			</Naming>
+		</Area>
+		<Area continentID="2" mapTypeID="1">
+			<Naming namingID="0" mapTargetID="304000">
+				<Place placeType="1">
+					<PlaceList placeID="0" mapTargetID="304101"/>
+					<PlaceList placeID="1" mapTargetID="304102"/>
+					<PlaceList placeID="2" mapTargetID="304103"/>
+					<PlaceList placeID="3" mapTargetID="304104"/>
+					<PlaceList placeID="4" mapTargetID="304105"/>
+					<PlaceList placeID="5" mapTargetID="304106"/>
+				</Place>
+				<Place placeType="2">
+					<PlaceList placeID="0" mapTargetID="304201"/>
+				</Place>
+				<Place placeType="3">
+					<PlaceList placeID="0" mapTargetID="304301"/>
+					<PlaceList placeID="1" mapTargetID="304302"/>
+					<PlaceList placeID="2" mapTargetID="304303"/>
+					<PlaceList placeID="3" mapTargetID="304304"/>
+					<PlaceList placeID="4" mapTargetID="304305"/>
+					<PlaceList placeID="5" mapTargetID="304306"/>
+				</Place>
+			</Naming>
+			<Naming namingID="1" mapTargetID="309000">
+				<Place placeType="1">
+					<PlaceList placeID="0" mapTargetID="0"/>
+				</Place>
+				<Place placeType="2">
+					<PlaceList placeID="0" mapTargetID="309201"/>
+				</Place>
+				<Place placeType="3">
+					<PlaceList placeID="0" mapTargetID="0"/>
+				</Place>
+			</Naming>
+			<Naming namingID="2" mapTargetID="301000">
+				<Place placeType="1">
+					<PlaceList placeID="0" mapTargetID="301101"/>
+					<PlaceList placeID="1" mapTargetID="301102"/>
+					<PlaceList placeID="2" mapTargetID="301103"/>
+					<PlaceList placeID="3" mapTargetID="301104"/>
+					<PlaceList placeID="4" mapTargetID="301105"/>
+				</Place>
+				<Place placeType="2">
+					<PlaceList placeID="0" mapTargetID="301201"/>
+					<PlaceList placeID="1" mapTargetID="301202"/>
+				</Place>
+				<Place placeType="3">
+					<PlaceList placeID="0" mapTargetID="301301"/>
+					<PlaceList placeID="1" mapTargetID="301302"/>
+					<PlaceList placeID="2" mapTargetID="301303"/>
+					<PlaceList placeID="3" mapTargetID="301304"/>
+					<PlaceList placeID="4" mapTargetID="301305"/>
+					<PlaceList placeID="5" mapTargetID="301306"/>
+				</Place>
+			</Naming>
+			<Naming namingID="3" mapTargetID="306000">
+				<Place placeType="1">
+					<PlaceList placeID="0" mapTargetID="306101"/>
+				</Place>
+				<Place placeType="2">
+					<PlaceList placeID="0" mapTargetID="306201"/>
+				</Place>
+				<Place placeType="3">
+					<PlaceList placeID="0" mapTargetID="306301"/>
+				</Place>
+			</Naming>
+			<Naming namingID="4" mapTargetID="307000">
+				<Place placeType="1">
+					<PlaceList placeID="0" mapTargetID="0"/>
+				</Place>
+				<Place placeType="2">
+					<PlaceList placeID="0" mapTargetID="307201"/>
+				</Place>
+				<Place placeType="3">
+					<PlaceList placeID="0" mapTargetID="0"/>
+				</Place>
+			</Naming>
+			<Naming namingID="5" mapTargetID="303000">
+				<Place placeType="1">
+					<PlaceList placeID="0" mapTargetID="303101"/>
+					<PlaceList placeID="1" mapTargetID="303102"/>
+					<PlaceList placeID="2" mapTargetID="303103"/>
+					<PlaceList placeID="3" mapTargetID="303104"/>
+					<PlaceList placeID="4" mapTargetID="303105"/>
+					<PlaceList placeID="5" mapTargetID="303106"/>
+				</Place>
+				<Place placeType="2">
+					<PlaceList placeID="0" mapTargetID="303201"/>
+					<PlaceList placeID="1" mapTargetID="303202"/>
+				</Place>
+				<Place placeType="3">
+					<PlaceList placeID="0" mapTargetID="303301"/>
+					<PlaceList placeID="1" mapTargetID="303302"/>
+					<PlaceList placeID="2" mapTargetID="303303"/>
+					<PlaceList placeID="3" mapTargetID="303304"/>
+					<PlaceList placeID="4" mapTargetID="303305"/>
+					<PlaceList placeID="5" mapTargetID="303306"/>
+					<PlaceList placeID="6" mapTargetID="303307"/>
+					<PlaceList placeID="7" mapTargetID="303308"/>
+					<PlaceList placeID="8" mapTargetID="303310"/>
+					<PlaceList placeID="9" mapTargetID="303311"/>
+					<PlaceList placeID="10" mapTargetID="303312"/>
+					<PlaceList placeID="11" mapTargetID="303313"/>
+				</Place>
+			</Naming>
+			<Naming namingID="6" mapTargetID="302000">
+				<Place placeType="1">
+					<PlaceList placeID="0" mapTargetID="302101"/>
+					<PlaceList placeID="1" mapTargetID="302102"/>
+					<PlaceList placeID="2" mapTargetID="302103"/>
+					<PlaceList placeID="3" mapTargetID="302104"/>
+					<PlaceList placeID="4" mapTargetID="302105"/>
+				</Place>
+				<Place placeType="2">
+					<PlaceList placeID="0" mapTargetID="302201"/>
+					<PlaceList placeID="1" mapTargetID="302202"/>
+				</Place>
+				<Place placeType="3">
+					<PlaceList placeID="0" mapTargetID="302301"/>
+					<PlaceList placeID="1" mapTargetID="302302"/>
+					<PlaceList placeID="2" mapTargetID="302303"/>
+					<PlaceList placeID="3" mapTargetID="302304"/>
+					<PlaceList placeID="4" mapTargetID="302305"/>
+					<PlaceList placeID="5" mapTargetID="302306"/>
+				</Place>
+			</Naming>
+			<Naming namingID="7" mapTargetID="308000">
+				<Place placeType="1">
+					<PlaceList placeID="0" mapTargetID="308101"/>
+				</Place>
+				<Place placeType="2">
+					<PlaceList placeID="0" mapTargetID="308201"/>
+					<PlaceList placeID="1" mapTargetID="308202"/>
+				</Place>
+				<Place placeType="3">
+					<PlaceList placeID="0" mapTargetID="308301"/>
+				</Place>
+			</Naming>
+			<Naming namingID="8" mapTargetID="305000">
+				<Place placeType="1">
+					<PlaceList placeID="0" mapTargetID="305101"/>
+					<PlaceList placeID="1" mapTargetID="305102"/>
+					<PlaceList placeID="2" mapTargetID="305103"/>
+					<PlaceList placeID="3" mapTargetID="305104"/>
+					<PlaceList placeID="4" mapTargetID="305105"/>
+					<PlaceList placeID="5" mapTargetID="305106"/>
+				</Place>
+				<Place placeType="2">
+					<PlaceList placeID="0" mapTargetID="0"/>
+				</Place>
+				<Place placeType="3">
+					<PlaceList placeID="0" mapTargetID="305301"/>
+					<PlaceList placeID="1" mapTargetID="305302"/>
+					<PlaceList placeID="2" mapTargetID="305303"/>
+					<PlaceList placeID="3" mapTargetID="305304"/>
+					<PlaceList placeID="4" mapTargetID="305305"/>
+					<PlaceList placeID="5" mapTargetID="305306"/>
+				</Place>
+			</Naming>
+		</Area>
+	</Worldmap>
+	<Worldmap continentID="1" areaTypeID="2" continentName="서 오르타" imageName="MiniMap\bluecoralMap.dds" frameimageName="MiniMap\bluecoralMap_Girth.dds">
+		<Area continentID="1" mapTypeID="2">
+			<Naming namingID="0" mapTargetID="201000">
+				<Place placeType="1">
+					<PlaceList placeID="0" mapTargetID="201101"/>
+					<PlaceList placeID="1" mapTargetID="201102"/>
+					<PlaceList placeID="2" mapTargetID="201103"/>
+					<PlaceList placeID="3" mapTargetID="201104"/>
+					<PlaceList placeID="4" mapTargetID="201105"/>
+					<PlaceList placeID="5" mapTargetID="201106"/>
+				</Place>
+				<Place placeType="2">
+					<PlaceList placeID="0" mapTargetID="201201"/>
+					<PlaceList placeID="1" mapTargetID="201202"/>
+				</Place>
+				<Place placeType="3">
+					<PlaceList placeID="0" mapTargetID="201301"/>
+					<PlaceList placeID="1" mapTargetID="201302"/>
+					<PlaceList placeID="2" mapTargetID="201303"/>
+					<PlaceList placeID="3" mapTargetID="201304"/>
+					<PlaceList placeID="4" mapTargetID="201305"/>
+					<PlaceList placeID="5" mapTargetID="201306"/>
+					<PlaceList placeID="6" mapTargetID="201307"/>
+					<PlaceList placeID="7" mapTargetID="201308"/>
+					<PlaceList placeID="8" mapTargetID="201309"/>
+					<PlaceList placeID="9" mapTargetID="201310"/>
+					<PlaceList placeID="10" mapTargetID="201311"/>
+					<PlaceList placeID="11" mapTargetID="201312"/>
+					<PlaceList placeID="12" mapTargetID="201313"/>
+					<PlaceList placeID="13" mapTargetID="201314"/>
+					<PlaceList placeID="14" mapTargetID="201315"/>
+				</Place>
+			</Naming>
+			<Naming namingID="1" mapTargetID="207000">
+				<Place placeType="1">
+					<PlaceList placeID="0" mapTargetID="0"/>
+				</Place>
+				<Place placeType="2">
+					<PlaceList placeID="0" mapTargetID="207201"/>
+				</Place>
+				<Place placeType="3">
+					<PlaceList placeID="0" mapTargetID="0"/>
+				</Place>
+			</Naming>
+			<Naming namingID="2" mapTargetID="202000">
+				<Place placeType="1">
+					<PlaceList placeID="0" mapTargetID="202101"/>
+					<PlaceList placeID="1" mapTargetID="202102"/>
+					<PlaceList placeID="2" mapTargetID="202108"/>
+					<PlaceList placeID="3" mapTargetID="202103"/>
+					<PlaceList placeID="4" mapTargetID="202104"/>
+					<PlaceList placeID="5" mapTargetID="202105"/>
+					<PlaceList placeID="6" mapTargetID="202106"/>
+					<PlaceList placeID="7" mapTargetID="202107"/>
+					<PlaceList placeID="8" mapTargetID="202109"/>
+				</Place>
+				<Place placeType="2">
+					<PlaceList placeID="0" mapTargetID="202201"/>
+					<PlaceList placeID="1" mapTargetID="202202"/>
+				</Place>
+				<Place placeType="3">
+					<PlaceList placeID="0" mapTargetID="202301"/>
+					<PlaceList placeID="1" mapTargetID="202302"/>
+					<PlaceList placeID="2" mapTargetID="202308"/>
+					<PlaceList placeID="3" mapTargetID="202303"/>
+					<PlaceList placeID="4" mapTargetID="202304"/>
+					<PlaceList placeID="5" mapTargetID="202305"/>
+					<PlaceList placeID="6" mapTargetID="202306"/>
+					<PlaceList placeID="7" mapTargetID="202307"/>
+					<PlaceList placeID="8" mapTargetID="202309"/>
+					<PlaceList placeID="9" mapTargetID="202310"/>
+					<PlaceList placeID="10" mapTargetID="202311"/>
+					<PlaceList placeID="11" mapTargetID="202312"/>
+					<PlaceList placeID="12" mapTargetID="202316"/>
+					<PlaceList placeID="13" mapTargetID="202317"/>
+					<PlaceList placeID="14" mapTargetID="202318"/>
+					<PlaceList placeID="15" mapTargetID="202320"/>
+					<PlaceList placeID="16" mapTargetID="202321"/>
+					<PlaceList placeID="17" mapTargetID="202322"/>
+					<PlaceList placeID="18" mapTargetID="202323"/>
+					<PlaceList placeID="19" mapTargetID="202324"/>
+					<PlaceList placeID="20" mapTargetID="202325"/>
+					<PlaceList placeID="21" mapTargetID="202326"/>
+					<PlaceList placeID="22" mapTargetID="202327"/>
+					<PlaceList placeID="23" mapTargetID="202328"/>
+				</Place>
+			</Naming>
+			<Naming namingID="3" mapTargetID="206000">
+				<Place placeType="1">
+					<PlaceList placeID="0" mapTargetID="0"/>
+				</Place>
+				<Place placeType="2">
+					<PlaceList placeID="0" mapTargetID="206201"/>
+				</Place>
+				<Place placeType="3">
+					<PlaceList placeID="0" mapTargetID="0"/>
+				</Place>
+			</Naming>
+			<Naming namingID="4" mapTargetID="203000">
+				<Place placeType="1">
+					<PlaceList placeID="0" mapTargetID="0"/>
+				</Place>
+				<Place placeType="2">
+					<PlaceList placeID="0" mapTargetID="203201"/>
+					<PlaceList placeID="1" mapTargetID="203202"/>
+				</Place>
+				<Place placeType="3">
+					<PlaceList placeID="0" mapTargetID="0"/>
+				</Place>
+			</Naming>
+			<Naming namingID="5" mapTargetID="204000">
+				<Place placeType="1">
+					<PlaceList placeID="0" mapTargetID="204101"/>
+					<PlaceList placeID="1" mapTargetID="204102"/>
+				</Place>
+				<Place placeType="2">
+					<PlaceList placeID="0" mapTargetID="204201"/>
+					<PlaceList placeID="1" mapTargetID="204202"/>
+				</Place>
+				<Place placeType="3">
+					<PlaceList placeID="0" mapTargetID="204301"/>
+					<PlaceList placeID="1" mapTargetID="204302"/>
+					<PlaceList placeID="2" mapTargetID="204303"/>
+				</Place>
+			</Naming>
+			<Naming namingID="6" mapTargetID="205000">
+				<Place placeType="1">
+					<PlaceList placeID="0" mapTargetID="205101"/>
+				</Place>
+				<Place placeType="2">
+					<PlaceList placeID="0" mapTargetID="205201"/>
+				</Place>
+				<Place placeType="3">
+					<PlaceList placeID="0" mapTargetID="205301"/>
+					<PlaceList placeID="1" mapTargetID="205302"/>
+				</Place>
+			</Naming>
+		</Area>
+		<Area continentID="2" mapTypeID="10">
+			<Naming namingID="0" mapTargetID="401000">
+				<Place placeType="1">
+					<PlaceList placeID="0" mapTargetID="401101"/>
+				</Place>
+				<Place placeType="2">
+					<PlaceList placeID="0" mapTargetID="401201"/>
+				</Place>
+				<Place placeType="3">
+					<PlaceList placeID="0" mapTargetID="401301"/>
+				</Place>
+			</Naming>
+			<Naming namingID="1" mapTargetID="402000">
+				<Place placeType="1">
+					<PlaceList placeID="0" mapTargetID="402101"/>
+				</Place>
+				<Place placeType="2">
+					<PlaceList placeID="0" mapTargetID="402201"/>
+					<PlaceList placeID="1" mapTargetID="402202"/>
+				</Place>
+				<Place placeType="3">
+					<PlaceList placeID="0" mapTargetID="402301"/>
+				</Place>
+			</Naming>
+			<Naming namingID="2" mapTargetID="403000">
+				<Place placeType="1">
+					<PlaceList placeID="0" mapTargetID="403101"/>
+					<PlaceList placeID="1" mapTargetID="403102"/>
+					<PlaceList placeID="2" mapTargetID="403103"/>
+					<PlaceList placeID="3" mapTargetID="403104"/>
+					<PlaceList placeID="4" mapTargetID="403105"/>
+					<PlaceList placeID="5" mapTargetID="403106"/>
+				</Place>
+				<Place placeType="2">
+					<PlaceList placeID="0" mapTargetID="403201"/>
+					<PlaceList placeID="1" mapTargetID="403202"/>
+					<PlaceList placeID="2" mapTargetID="403203"/>
+				</Place>
+				<Place placeType="3">
+					<PlaceList placeID="0" mapTargetID="403301"/>
+					<PlaceList placeID="1" mapTargetID="403302"/>
+					<PlaceList placeID="2" mapTargetID="403303"/>
+					<PlaceList placeID="3" mapTargetID="403304"/>
+					<PlaceList placeID="4" mapTargetID="403305"/>
+					<PlaceList placeID="5" mapTargetID="403306"/>
+					<PlaceList placeID="6" mapTargetID="403307"/>
+					<PlaceList placeID="7" mapTargetID="403308"/>
+					<PlaceList placeID="8" mapTargetID="403309"/>
+					<PlaceList placeID="9" mapTargetID="403310"/>
+					<PlaceList placeID="10" mapTargetID="403311"/>
+					<PlaceList placeID="11" mapTargetID="403312"/>
+					<PlaceList placeID="12" mapTargetID="403313"/>
+					<PlaceList placeID="13" mapTargetID="403314"/>
+					<PlaceList placeID="14" mapTargetID="403315"/>
+					<PlaceList placeID="15" mapTargetID="403316"/>
+				</Place>
+			</Naming>
+			<Naming namingID="3" mapTargetID="409000">
+				<Place placeType="1">
+					<PlaceList placeID="0" mapTargetID="0"/>
+				</Place>
+				<Place placeType="2">
+					<PlaceList placeID="0" mapTargetID="409201"/>
+				</Place>
+				<Place placeType="3">
+					<PlaceList placeID="0" mapTargetID="0"/>
+				</Place>
+			</Naming>
+			<Naming namingID="4" mapTargetID="408000">
+				<Place placeType="1">
+					<PlaceList placeID="0" mapTargetID="408101"/>
+					<PlaceList placeID="1" mapTargetID="408102"/>
+					<PlaceList placeID="2" mapTargetID="408103"/>
+				</Place>
+				<Place placeType="2">
+					<PlaceList placeID="0" mapTargetID="0"/>
+				</Place>
+				<Place placeType="3">
+					<PlaceList placeID="0" mapTargetID="408301"/>
+					<PlaceList placeID="1" mapTargetID="408302"/>
+					<PlaceList placeID="2" mapTargetID="408303"/>
+				</Place>
+			</Naming>
+			<Naming namingID="5" mapTargetID="404000">
+				<Place placeType="1">
+					<PlaceList placeID="0" mapTargetID="0"/>
+				</Place>
+				<Place placeType="2">
+					<PlaceList placeID="1" mapTargetID="404202"/>
+				</Place>
+				<Place placeType="3">
+					<PlaceList placeID="0" mapTargetID="0"/>
+				</Place>
+			</Naming>
+			<Naming namingID="6" mapTargetID="405000">
+				<Place placeType="1">
+					<PlaceList placeID="0" mapTargetID="0"/>
+				</Place>
+				<Place placeType="2">
+					<PlaceList placeID="0" mapTargetID="405201"/>
+				</Place>
+				<Place placeType="3">
+					<PlaceList placeID="0" mapTargetID="0"/>
+				</Place>
+			</Naming>
+			<Naming namingID="7" mapTargetID="406000">
+				<Place placeType="1">
+					<PlaceList placeID="0" mapTargetID="0"/>
+				</Place>
+				<Place placeType="2">
+					<PlaceList placeID="0" mapTargetID="406201"/>
+					<PlaceList placeID="1" mapTargetID="406202"/>
+				</Place>
+				<Place placeType="3">
+					<PlaceList placeID="0" mapTargetID="0"/>
+				</Place>
+			</Naming>
+			<Naming namingID="8" mapTargetID="407000">
+				<Place placeType="1">
+					<PlaceList placeID="0" mapTargetID="407101"/>
+				</Place>
+				<Place placeType="2">
+					<PlaceList placeID="0" mapTargetID="0"/>
+				</Place>
+				<Place placeType="3">
+					<PlaceList placeID="0" mapTargetID="407301"/>
+				</Place>
+			</Naming>
+		</Area>
+	</Worldmap>
+</WorldmapTarget>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<!-- edited with XMLSpy v2006 rel. 3 U (http://www.altova.com) by Administrator (EMBRACE) -->
+<!--클라이언트 선 작업 후 서버쪽에도 연동해서 작업해줘야 함 (양식 살짝 다르니 주의)// 컬럼값 안에 null 로 채워넣어야 함-->
+<Forbiden>
+	<!--욕설 필터링-->
+	<Slang>
+		<!--미적용-->
+		<Prefix Korea="씹" Convert=""/>
+		<Prefix Korea="좃" Convert=""/>
+		<Prefix Korea="개" Convert=""/>
+		<Prefix Korea="ㄱㅐ" Convert=""/>
+		<Prefix Korea="ㅆㅣ" Convert=""/>
+		<Prefix Korea="" Convert=""/>
+		<!--미적용-->
+		<Suffix Korea="놈" Convert=""/>
+		<Suffix Korea="끼" Convert=""/>
+		<Suffix Korea="ㄲㅣ" Convert=""/>
+		<!--적용됨: 영문금칙어(English=영문금칙단어,Convert=바뀔문자열)-->
+		<English English="sex" Convert="***"/>
+		<English English="asshole" Convert="***"/>
+		<English English="bitch" Convert="***"/>
+		<English English="damn" Convert="***"/>
+		<English English="fuck" Convert="***"/>
+		<English English="penis" Convert="***"/>
+		<English English="pennis" Convert="***"/>
+		<English English="pussy" Convert="***"/>
+		<English English="shit" Convert="***"/>
+		<English English="suck" Convert="***"/>
+		<English English="vulva" Convert="***"/>
+		<!--적용됨: 한글금칙어(PermitPre=접두사+Word일 때 허용,Word=한글금칙단어, PermitSuf=Word+접미사일 때 허용, Convert=바뀔문자열)-->
+		<Korea PermitPre="" Word="같은년" PermitSuf="도,간,갑,감," Convert="***"/>
+		<Korea PermitPre="" Word="같은놈" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="개걸레" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="개년" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="개놈" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="개보지" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="개새끠" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="개새끼" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="개쓰래기" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="개쓰레기" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="개씨발넘" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="개씨발자슥" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="개씨블" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="개자식" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="개자지" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="개잡년" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="게부럴" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="게세끼" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="게자식" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="또라이" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="병신" PermitSuf="난봉가," Convert="***"/>
+		<Korea PermitPre="귀,소경," Word="불알" PermitSuf="꽃," Convert="***"/>
+		<Korea PermitPre="" Word="붕신" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="뷩딱" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="븅쉰" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="븅신" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="빠구리" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="빡큐" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="뻑큐" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="웨,유니," Word="섹스" PermitSuf="폰,투스,체크,턴트,텟,탯," Convert="***"/>
+		<Korea PermitPre="" Word="쌍년" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="쌍놈" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="쌕스" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="쌕쓰" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="씌발" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="씌팔" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="씨발" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="씨부랄" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="씨부럴" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="씨불알" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="씨브럴" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="씹년" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="씹물" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="씹미랄" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="씹버지" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="씹보지" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="씹부랄" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="씹브랄" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="씹빵구" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="씹뽀지" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="씹새" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="씹새끼" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="씹세" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="씹쌔끼" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="씹자석" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="씹자슥" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="씹자지" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="씹지랄" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="씹창" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="씹탱" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="씹팔" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="양아치" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="전," Word="염병" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="오르가슴" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="오르가즘" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="왕버지" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="왕보지" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="왕자지" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="왕잠지" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="자지박" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="자지빨" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="자지털" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="자지핧" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="잡년" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="잡놈" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="젓같내" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="젓까" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="젓냄새" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="젓대가리" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="젓떠" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="젓만이" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="젓물" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="젓밥" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="젖같은" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="젖까" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="젖탱이" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="수자해,호라지," Word="좆" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="주글년" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="주길년" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="쥐랄" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="지랄" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="지랼" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="지럴" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="지뢀" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="짬지" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="창남" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="창녀" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="창년" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="챵녀" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="허벌년" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="허벌보지" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="허벌자식" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="허벌자지" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="헐렁보지" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="호냥년" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="호로새끼" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="호로자슥" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="호로자식" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="호루새끼" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="호루자슥" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="호루자식" PermitSuf="" Convert="***"/>
+		<Korea PermitPre="" Word="화냥년" PermitSuf="" Convert="***"/>
+	</Slang>
+	<!--캐릭터명 금지 규칙-->
+	<Name>
+		<!--적용됨: 일반명칭(Prohibit=문장 내 동일단어 사용불가, Restrict=접두/접미 붙었을 때 사용가능)-->
+		<PublicName Prohibit="운영자" Restrict="영자"/>
+		<PublicName Prohibit="운엉자" Restrict="GM"/>
+		<PublicName Prohibit="운영팀" Restrict="운영"/>
+		<PublicName Prohibit="운엉팀" Restrict="운엉"/>
+		<PublicName Prohibit="황병찬" Restrict="대표이사"/>
+		<PublicName Prohibit="라임오딧세이" Restrict="라임"/>
+		<PublicName Prohibit="" Restrict="오딧세이"/>
+		<PublicName Prohibit="시리우스" Restrict="SIRIUS"/>
+		<PublicName Prohibit="" Restrict="sirius"/>
+		<PublicName Prohibit="" Restrict="기획팀"/>
+		<PublicName Prohibit="" Restrict="개발팀"/>
+		<!--적용됨: 일반명칭(Prohibit=문장 내 동일단어 사용불가, Restrict=접두/접미 붙었을 때 사용가능)-->
+		<NpcName Prohibit="" Restrict="칸바레드스카"/>
+		<NpcName Prohibit="" Restrict="라울스카이하울"/>
+		<NpcName Prohibit="" Restrict="롱스워드"/>
+		<NpcName Prohibit="" Restrict=""/>
+		<NpcName Prohibit="" Restrict=""/>
+		<NpcName Prohibit="" Restrict=""/>
+	</Name>
+</Forbiden>

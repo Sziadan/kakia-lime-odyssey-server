@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2006 rel. 3 U (http://www.altova.com) by apple (orange) -->
+<Root>
+	<Vehicle kfm="mov_batoo02.kfm"/>
+	<Vehicle kfm="mov_horse01.kfm"/>
+	<Vehicle kfm="mov_seahorse01.kfm"/>
+	<Vehicle kfm="mov_shaura01.kfm"/>
+</Root>

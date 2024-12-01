@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by Administrator (siriusent) -->
+<Quest>
+	<Quest typeID="402202025" typeName="미르코의 부탁" group="001" NPC="유랑상인 미르코" reportTo="맨드로우" cancelable="1" repeatable="0" retryable="1" lv="20" desc="이 듀발 고원은 처음이신가요? 이 곳은 발카라스 왕국령의 고원지대인데 사람들 인심도 좋고 저지대에선 볼 수 없는 신기한 풍경들이 많답니다. 요즘은 경기가 안좋아 장사는 별로지만요./n헌데 제 부탁을 좀 들어주시겠어요? 이 곳을 떠날 준비 중인데 잊은 게 있어서요. 이 상자를 항구 봉화탑의 ^#3399FF마구간지기^#FFFFFF와 북쪽 길을 따라가면 길 옆에 서있을 ^#3399FF맨드로우^#FFFFFF에게 전해 줘. 부탁할게." difficulty="1" onMessage="Quest402202025_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="1445" rewardCombatJobEXP="11440" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[피킨의 상자]]" draft="이 듀발 고원은 처음이신가요? 이 곳은 발카라스 왕국령의 고원지대인데 사람들 인심도 좋고 저지대에선 볼 수 없는 신기한 풍경들이 많답니다. 요즘은 경기가 안좋아 장사는 별로지만요./n헌데 제 부탁을 좀 들어주시겠어요? 이 곳을 떠날 준비 중인데 잊은 게 있어서요. 이 상자를 항구 봉화탑의 ^#3399FF마구간지기^#FFFFFF와 북쪽 길을 따라가면 길 옆에 서있을 ^#3399FF맨드로우^#FFFFFF에게 전해 줘. 부탁할게." npc="유랑상인 미르코">
+			<subjectPos subjectStr="피킨의 상자" mapTargetId="304405"/>
+		</Subject>
+		<Subject typeName="Deliver" func="NULL" desc="[[항구 봉화탑의 마구간지기에게 배달]]" draft="이 듀발 고원은 처음이신가요? 이 곳은 발카라스 왕국령의 고원지대인데 사람들 인심도 좋고 저지대에선 볼 수 없는 신기한 풍경들이 많답니다. 요즘은 경기가 안좋아 장사는 별로지만요./n헌데 제 부탁을 좀 들어주시겠어요? 이 곳을 떠날 준비 중인데 잊은 게 있어서요. 이 상자를 항구 봉화탑의 ^#3399FF마구간지기^#FFFFFF와 북쪽 길을 따라가면 길 옆에 서있을 ^#3399FF맨드로우^#FFFFFF에게 전해 줘. 부탁할게." npc="항구 봉화탑의 마구간지기">
+			<subjectPos subjectStr="항구 봉화탑의 마구간지기에게 배달" mapTargetId="304502"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[맨드로우에게 배달]]" draft="이 듀발 고원은 처음이신가요? 이 곳은 발카라스 왕국령의 고원지대인데 사람들 인심도 좋고 저지대에선 볼 수 없는 신기한 풍경들이 많답니다. 요즘은 경기가 안좋아 장사는 별로지만요./n헌데 제 부탁을 좀 들어주시겠어요? 이 곳을 떠날 준비 중인데 잊은 게 있어서요. 이 상자를 항구 봉화탑의 ^#3399FF마구간지기^#FFFFFF와 북쪽 길을 따라가면 길 옆에 서있을 ^#3399FF맨드로우^#FFFFFF에게 전해 줘. 부탁할게." npc="맨드로우">
+			<subjectPos subjectStr="맨드로우에게 배달" mapTargetId="304503"/>
+		</Subject>
+		<Storage Collect1_typeID="150337"/>
+		<BasicReward typeID="2100000000" count="72"/>
+	</Quest>
+	<Quest typeID="402202030" typeName="용감한 스쿠르" group="001" NPC="맨드로우" reportTo="스윙픽" cancelable="1" repeatable="0" retryable="1" lv="21" desc="자네는 힘 좀 쓰는 모험가지? 내 왼쪽 뒷길로 친구인 ^#3399FF스윙픽^#FFFFFF이 조사를 떠난지 한 참인데 도통 돌아올 생각을 안하는구만./n자네가 가서 그가 괜찮은가 만나보고 와주지 않겠는가? 이 듀발고원엔 아직 발견되지 않은 위험요소가 많아서 친구 혼자 보낸 게 후회되는 구만." difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="2178" rewardCombatJobEXP="14880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[맨드로우와 대화]]" draft="자네는 힘 좀 쓰는 모험가지? 내 왼쪽 뒷길로 친구인 ^#3399FF스윙픽^#FFFFFF이 조사를 떠난지 한 참인데 도통 돌아올 생각을 안하는구만./n자네가 가서 그가 괜찮은가 만나보고 와주지 않겠는가? 이 듀발고원엔 아직 발견되지 않은 위험요소가 많아서 친구 혼자 보낸 게 후회되는 구만." npc="맨드로우">
+			<subjectPos subjectStr="맨드로우와 대화" mapTargetId="304403"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[스윙픽과 대화]]" draft="자네는 힘 좀 쓰는 모험가지? 내 왼쪽 뒷길로 친구인 ^#3399FF스윙픽^#FFFFFF이 조사를 떠난지 한 참인데 도통 돌아올 생각을 안하는구만./n자네가 가서 그가 괜찮은가 만나보고 와주지 않겠는가? 이 듀발고원엔 아직 발견되지 않은 위험요소가 많아서 친구 혼자 보낸 게 후회되는 구만." npc="스윙픽">
+			<subjectPos subjectStr="스윙픽과 대화" mapTargetId="304506"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="88"/>
+	</Quest>
+	<Quest typeID="402202035" typeName="스쿠르와 유적" group="001" NPC="스윙픽" reportTo="스윙픽" cancelable="1" repeatable="0" retryable="1" lv="21" desc="나는 이 곳에 고대 스피럴 큐브가 있다는 소문을 듣고 조사를 하러왔지. 보다시피 소문은 사실이었어! 헌데 트롤이 있을 줄은 꿈에도 몰랐다네./n겨우겨우 이 곳까지 숨어오긴 했지만 스피럴 유적의 ^#FF0000트롤^#FFFFFF들이 내가 가져온 ^#FF0000고대의 에너지원^#FFFFFF을 뺏아가서 큐브를 작동시키지 못하는게 아쉬워. 자네가 고대의 에너지원을 뺏아주지 않겠는가? 내 사례는 함세." difficulty="1" onMessage="HuntCollect2_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="2178" rewardCombatJobEXP="14880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[고대의 에너지원 획득]]" draft="나는 이 곳에 고대 스피럴 큐브가 있다는 소문을 듣고 조사를 하러왔지. 보다시피 소문은 사실이었어! 헌데 트롤이 있을 줄은 꿈에도 몰랐다네./n겨우겨우 이 곳까지 숨어오긴 했지만 스피럴 유적의 ^#FF0000트롤^#FFFFFF들이 내가 가져온 ^#FF0000고대의 에너지원^#FFFFFF을 뺏아가서 큐브를 작동시키지 못하는게 아쉬워. 자네가 고대의 에너지원을 뺏아주지 않겠는가? 내 사례는 함세." npc="스윙픽">
+			<subjectPos subjectStr="고대의 에너지원 획득" mapTargetId="304601"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[스윙픽에게 배달]]" draft="나는 이 곳에 고대 스피럴 큐브가 있다는 소문을 듣고 조사를 하러왔지. 보다시피 소문은 사실이었어! 헌데 트롤이 있을 줄은 꿈에도 몰랐다네./n겨우겨우 이 곳까지 숨어오긴 했지만 스피럴 유적의 ^#FF0000트롤^#FFFFFF들이 내가 가져온 ^#FF0000고대의 에너지원^#FFFFFF을 뺏아가서 큐브를 작동시키지 못하는게 아쉬워. 자네가 고대의 에너지원을 뺏아주지 않겠는가? 내 사례는 함세." npc="스윙픽">
+			<subjectPos subjectStr="스윙픽에게 배달" mapTargetId="304506"/>
+		</Subject>
+		<Storage Collect1_typeID="150338" Collect1_goal="10" Collect1_count="0" target1_type="Collect" target1_prob="60" Collect2_typeID="271"/>
+		<BasicReward typeID="2100000000" count="88"/>
+	</Quest>
+	<Quest typeID="402202040" typeName="스쿠르와 유적2" group="001" NPC="스윙픽" reportTo="스윙픽" cancelable="1" repeatable="0" retryable="1" lv="21" desc="자네가 가져온 고대의 에너지원으로는 이 커다란 스피럴 큐브를 작동시키기에 부족한 듯하이. 하지만 고대의 에너지원을 농축시킨 이 ^#3399FF농축된 에너지원^#FFFFFF이라면 이 주변에 있는 ^#3399FF스피럴 큐브들을 작동^#FFFFFF시킬 수 있을 것 같아서 말인데./n자네가 작동시켜 주지 않겠는가? 내가 조사한 바로 이 곳의 스피럴 큐브는 6개. 자네가 작동시켜줘야 할 큐브는 ^#3399FF5개^#FFFFFF라네. 하나도 빼먹지 말고 작동시켜줘." difficulty="1" onMessage="Quest402202040_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="2178" rewardCombatJobEXP="14880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[스윙픽과 대화]]" draft="자네가 가져온 고대의 에너지원으로는 이 커다란 스피럴 큐브를 작동시키기에 부족한 듯하이. 하지만 고대의 에너지원을 농축시킨 이 ^#3399FF농축된 에너지원^#FFFFFF이라면 이 주변에 있는 ^#3399FF스피럴 큐브들을 작동^#FFFFFF시킬 수 있을 것 같아서 말인데./n자네가 작동시켜 주지 않겠는가? 내가 조사한 바로 이 곳의 스피럴 큐브는 6개. 자네가 작동시켜줘야 할 큐브는 ^#3399FF5개^#FFFFFF라네. 하나도 빼먹지 말고 작동시켜줘." npc="스윙픽">
+			<subjectPos subjectStr="스윙픽과 대화" mapTargetId="304406"/>
+		</Subject>
+		<Subject typeName="Deliver" func="Quest402202040_Deliver" desc="[[크리스탈 스피럴(1/5) 작동]] [[크리스탈 스피럴(2/5) 작동]] [[크리스탈 스피럴(3/5) 작동]] [[크리스탈 스피럴(4/5) 작동]] [[크리스탈 스피럴(5/5) 작동]]" draft="자네가 가져온 고대의 에너지원으로는 이 커다란 스피럴 큐브를 작동시키기에 부족한 듯하이. 하지만 고대의 에너지원을 농축시킨 이 ^#3399FF농축된 에너지원^#FFFFFF이라면 이 주변에 있는 ^#3399FF스피럴 큐브들을 작동^#FFFFFF시킬 수 있을 것 같아서 말인데./n자네가 작동시켜 주지 않겠는가? 내가 조사한 바로 이 곳의 스피럴 큐브는 6개. 자네가 작동시켜줘야 할 큐브는 ^#3399FF5개^#FFFFFF라네. 하나도 빼먹지 말고 작동시켜줘." npc="스윙픽">
+			<subjectPos subjectStr="크리스탈 스피럴(1/5) 작동" mapTargetId="2000263100"/>
+			<subjectPos subjectStr="크리스탈 스피럴(2/5) 작동" mapTargetId="2000273100"/>
+			<subjectPos subjectStr="크리스탈 스피럴(3/5) 작동" mapTargetId="2000283100"/>
+			<subjectPos subjectStr="크리스탈 스피럴(4/5) 작동" mapTargetId="2000293100"/>
+			<subjectPos subjectStr="크리스탈 스피럴(5/5) 작동" mapTargetId="2000303100"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[스윙픽에게 보고]]" draft="자네가 가져온 고대의 에너지원으로는 이 커다란 스피럴 큐브를 작동시키기에 부족한 듯하이. 하지만 고대의 에너지원을 농축시킨 이 ^#3399FF농축된 에너지원^#FFFFFF이라면 이 주변에 있는 ^#3399FF스피럴 큐브들을 작동^#FFFFFF시킬 수 있을 것 같아서 말인데./n자네가 작동시켜 주지 않겠는가? 내가 조사한 바로 이 곳의 스피럴 큐브는 6개. 자네가 작동시켜줘야 할 큐브는 ^#3399FF5개^#FFFFFF라네. 하나도 빼먹지 말고 작동시켜줘." npc="스윙픽">
+			<subjectPos subjectStr="스윙픽에게 보고" mapTargetId="304506"/>
+		</Subject>
+		<Storage Hunt1_typeID="110037" Hunt1_goal="5" Hunt1_count="0" target1_type="Hunt" Hunt2_typeID="101" Hunt2_goal="1" Hunt2_count="0" target2_type="Hunt" Hunt3_typeID="102" Hunt3_goal="1" Hunt3_count="0" target3_type="Hunt" Hunt4_typeID="103" Hunt4_goal="1" Hunt4_count="0" target4_type="Hunt" Hunt5_typeID="104" Hunt5_goal="1" Hunt5_count="0" target5_type="Hunt" Hunt6_typeID="105" Hunt6_goal="1" Hunt6_count="0" target6_type="Hunt"/>
+		<BasicReward typeID="2100000000" count="88"/>
+	</Quest>
+	<Quest typeID="402202045" typeName="별종 투르가" group="001" NPC="수행중인 투르가 청년" reportTo="수행중인 투르가 청년" cancelable="1" repeatable="0" retryable="1" lv="21" desc="당신도 여행을 시작한 모험자인가요? 나도 그런데…./n나는 툼바라 초원에서 온 용감한 투르가! 이어야 하는데…. 저는 좀 별종이라 겁이 많아요. 이번엔 꼭 모험의 증거를 가져가야 친구들한테 놀림받지 않을텐데…/n저기 부탁인데요. 스피럴 유적지의 ^#FF0000버려진 트롤에^#FFFFFF게서 ^#FF0000트롤의 머리카락^#FFFFFF을 얻어주실 수 없나요? 제가 그게 꼭 필요해서요…" difficulty="1" onMessage="HuntCollect2_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="2178" rewardCombatJobEXP="14880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[트롤의 머리카락 획득]]" draft="당신도 여행을 시작한 모험자인가요? 나도 그런데…./n나는 툼바라 초원에서 온 용감한 투르가! 이어야 하는데…. 저는 좀 별종이라 겁이 많아요. 이번엔 꼭 모험의 증거를 가져가야 친구들한테 놀림받지 않을텐데…/n저기 부탁인데요. 스피럴 유적지의 ^#FF0000버려진 트롤에^#FFFFFF게서 ^#FF0000트롤의 머리카락^#FFFFFF을 얻어주실 수 없나요? 제가 그게 꼭 필요해서요…" npc="수행중인 투르가 청년">
+			<subjectPos subjectStr="트롤의 머리카락 획득" mapTargetId="304602"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[수행중인 투르가 청년에게 배달]]" draft="당신도 여행을 시작한 모험자인가요? 나도 그런데…./n나는 툼바라 초원에서 온 용감한 투르가! 이어야 하는데…. 저는 좀 별종이라 겁이 많아요. 이번엔 꼭 모험의 증거를 가져가야 친구들한테 놀림받지 않을텐데…/n저기 부탁인데요. 스피럴 유적지의 ^#FF0000버려진 트롤에^#FFFFFF게서 ^#FF0000트롤의 머리카락^#FFFFFF을 얻어주실 수 없나요? 제가 그게 꼭 필요해서요…" npc="수행중인 투르가 청년">
+			<subjectPos subjectStr="수행중인 투르가 청년에게 배달" mapTargetId="304504"/>
+		</Subject>
+		<Storage Collect1_typeID="150339" Collect1_goal="5" Collect1_count="0" target1_type="Collect" target1_prob="70" Collect2_typeID="2073"/>
+		<BasicReward typeID="2100000000" count="88"/>
+	</Quest>
+	<Quest typeID="402202050" typeName="남쪽 봉화탑으로" group="001" NPC="맨드로우" reportTo="남쪽 봉화탑 경비 대장" cancelable="1" repeatable="0" retryable="1" lv="21" desc="듀발에 대해 궁금하면 ^#3399FF남쪽 봉화탑^#FFFFFF으로 가 ^#3399FF남쪽 봉화탑 경비 대장^#FFFFFF을 만나보게. 그라면 듀발고원에 대한 전반적인 정보를 알려줄거야./n가는 길에 우리 스쿠르가 만든 이 ^#3399FF기계^#FFFFFF를 전해주고. 요즘 부쩍 들어 발카라스 군대에서 우리 물건에 많이 관심을 가지는 것 같아. 이런 쓸데 없는 것까지 사겠다고 극성이니 말야. " difficulty="1" onMessage="DeleteQuest_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="2178" rewardCombatJobEXP="14880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[용도를 알 수 없는 스쿠르의 기계]]" draft="듀발에 대해 궁금하면 ^#3399FF남쪽 봉화탑^#FFFFFF으로 가 ^#3399FF남쪽 봉화탑 경비 대장^#FFFFFF을 만나보게. 그라면 듀발고원에 대한 전반적인 정보를 알려줄거야./n가는 길에 우리 스쿠르가 만든 이 ^#3399FF기계^#FFFFFF를 전해주고. 요즘 부쩍 들어 발카라스 군대에서 우리 물건에 많이 관심을 가지는 것 같아. 이런 쓸데 없는 것까지 사겠다고 극성이니 말야. " npc="맨드로우">
+			<subjectPos subjectStr="용도를 알 수 없는 스쿠르의 기계" mapTargetId="304403"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[남쪽 봉화탑 경비대장에게 배달]]" draft="듀발에 대해 궁금하면 ^#3399FF남쪽 봉화탑^#FFFFFF으로 가 ^#3399FF남쪽 봉화탑 경비 대장^#FFFFFF을 만나보게. 그라면 듀발고원에 대한 전반적인 정보를 알려줄거야./n가는 길에 우리 스쿠르가 만든 이 ^#3399FF기계^#FFFFFF를 전해주고. 요즘 부쩍 들어 발카라스 군대에서 우리 물건에 많이 관심을 가지는 것 같아. 이런 쓸데 없는 것까지 사겠다고 극성이니 말야. " npc="남쪽 봉화탑 경비 대장">
+			<subjectPos subjectStr="남쪽 봉화탑 경비대장에게 배달" mapTargetId="301504"/>
+		</Subject>
+		<Storage Collect1_typeID="150340"/>
+		<BasicReward typeID="2100000000" count="88"/>
+	</Quest>
+	<Quest typeID="402202060" typeName="돌아오지 않는 수리공" group="001" NPC="마이온 " reportTo="키스트 " cancelable="1" repeatable="0" retryable="1" lv="23" desc="나는 수리공인 친구가 이 근처에 일이 있다길래 같이 따라와 봤는데 이 근처는 정말 많이 변한 것 같아. 나는 원래 이 버려진 유목지에 살고 있었거든. 발카라스 왕국이 강제로 철거 명령을 내리지 않았다면 계속 이 곳에 살고 있었을텐데.. 그때는 이 땅이 이렇게 변했을 거라고 생각도 못했어./n뭐 그래도 세상에 영원한 건 없다고 하니까 사람이 안사는 땅이 황폐해지는건 당연한 일이겠지. 그런데 같이 왔던 친구인 ^#3399FF키스트^#FFFFFF는 칠흑의 내리막으로 영웅상을 수리하러 갔는데 돌아오지 않아. 한 번 자네가 칠흑의 내리막에 가보지 않겠는가? 간지 오래되어 배고플테니 이 ^#3399FF유목민의 도시락^#FFFFFF도 갖다주구." difficulty="1" onMessage="DeleteQuest_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="3312" rewardCombatJobEXP="17980" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[유목민의 도시락]]" draft="나는 수리공인 친구가 이 근처에 일이 있다길래 같이 따라와 봤는데 이 근처는 정말 많이 변한 것 같아. 나는 원래 이 버려진 유목지에 살고 있었거든. 발카라스 왕국이 강제로 철거 명령을 내리지 않았다면 계속 이 곳에 살고 있었을텐데.. 그때는 이 땅이 이렇게 변했을 거라고 생각도 못했어./n뭐 그래도 세상에 영원한 건 없다고 하니까 사람이 안사는 땅이 황폐해지는건 당연한 일이겠지. 그런데 같이 왔던 친구인 ^#3399FF키스트^#FFFFFF는 칠흑의 내리막으로 영웅상을 수리하러 갔는데 돌아오지 않아. 한 번 자네가 칠흑의 내리막에 가보지 않겠는가? 간지 오래되어 배고플테니 이 ^#3399FF유목민의 도시락^#FFFFFF도 갖다주구." npc="마이온 ">
+			<subjectPos subjectStr="유목민의 도시락" mapTargetId="309404"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[키스트에게 배달]]" draft="나는 수리공인 친구가 이 근처에 일이 있다길래 같이 따라와 봤는데 이 근처는 정말 많이 변한 것 같아. 나는 원래 이 버려진 유목지에 살고 있었거든. 발카라스 왕국이 강제로 철거 명령을 내리지 않았다면 계속 이 곳에 살고 있었을텐데.. 그때는 이 땅이 이렇게 변했을 거라고 생각도 못했어./n뭐 그래도 세상에 영원한 건 없다고 하니까 사람이 안사는 땅이 황폐해지는건 당연한 일이겠지. 그런데 같이 왔던 친구인 ^#3399FF키스트^#FFFFFF는 칠흑의 내리막으로 영웅상을 수리하러 갔는데 돌아오지 않아. 한 번 자네가 칠흑의 내리막에 가보지 않겠는가? 간지 오래되어 배고플테니 이 ^#3399FF유목민의 도시락^#FFFFFF도 갖다주구." npc="키스트">
+			<subjectPos subjectStr="키스트에게 배달" mapTargetId="309506"/>
+		</Subject>
+		<Storage Collect1_typeID="150352"/>
+		<BasicReward typeID="2100000000" count="102"/>
+	</Quest>
+	<Quest typeID="402202065" typeName="떨어진 수리 상자" group="001" NPC="키스트" reportTo="훼손된 시체" cancelable="1" repeatable="0" retryable="1" lv="23" desc="저는 영웅상을 보수하는 직공의 조수예요. 수리공 아저씨의 조카인 티안과 칠흑의 내리막에 같이 가기로 했었는데 가는 길에 상자를 열어보니 끌이 망가졌지 뭐예요? 급하게 저만 돌아가서 수리 상자를 가지고 오긴 했는데 어디서 나타났는지 리저드가 나타나서 놀래서 다시 올라오는 길입니다./n올라 와서 보니 어디다 떨어뜨렸는지 ^#FF0000수리상자^#FFFFFF가 없어졌더라고요. 칠흑의 내리막 가는 길에 떨어져 있을 수리 상자를 집어서 칠흑의 내리막 안쪽에 있을 ^#3399FF직공 아저씨^#FFFFFF에게 대신 좀 전해 주세요. 리저드 족이란 건 말로만 들었지 직접 보니 어찌나 무섭던지.. 아직도 다리가 후들거려요." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="3312" rewardCombatJobEXP="17980" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[영웅상 수리 상자 수집]]" draft="저는 영웅상을 보수하는 직공의 조수예요. 수리공 아저씨의 조카인 티안과 칠흑의 내리막에 같이 가기로 했었는데 가는 길에 상자를 열어보니 끌이 망가졌지 뭐예요? 급하게 저만 돌아가서 수리 상자를 가지고 오긴 했는데 어디서 나타났는지 리저드가 나타나서 놀래서 다시 올라오는 길입니다./n올라 와서 보니 어디다 떨어뜨렸는지 ^#FF0000수리상자^#FFFFFF가 없어졌더라고요. 칠흑의 내리막 가는 길에 떨어져 있을 수리 상자를 집어서 칠흑의 내리막 안쪽에 있을 ^#3399FF직공 아저씨^#FFFFFF에게 대신 좀 전해 주세요. 리저드 족이란 건 말로만 들었지 직접 보니 어찌나 무섭던지.. 아직도 다리가 후들거려요." npc="키스트">
+			<subjectPos subjectStr="영웅상 수리 상자 수집" mapTargetId="309701"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[직공에게 배달]]" draft="저는 영웅상을 보수하는 직공의 조수예요. 수리공 아저씨의 조카인 티안과 칠흑의 내리막에 같이 가기로 했었는데 가는 길에 상자를 열어보니 끌이 망가졌지 뭐예요? 급하게 저만 돌아가서 수리 상자를 가지고 오긴 했는데 어디서 나타났는지 리저드가 나타나서 놀래서 다시 올라오는 길입니다./n올라 와서 보니 어디다 떨어뜨렸는지 ^#FF0000수리상자^#FFFFFF가 없어졌더라고요. 칠흑의 내리막 가는 길에 떨어져 있을 수리 상자를 집어서 칠흑의 내리막 안쪽에 있을 ^#3399FF직공 아저씨^#FFFFFF에게 대신 좀 전해 주세요. 리저드 족이란 건 말로만 들었지 직접 보니 어찌나 무섭던지.. 아직도 다리가 후들거려요." npc="훼손된 시체">
+			<subjectPos subjectStr="영웅상 수리 상자를 직공에게 배달" mapTargetId="309508"/>
+		</Subject>
+		<Storage Collect1_typeID="150353" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="102"/>
+	</Quest>
+	<Quest typeID="402202070" typeName="삼촌의 복수" group="001" NPC="티안" reportTo="티안" cancelable="1" repeatable="0" retryable="1" lv="23" desc="흑흑- 네 여기 누워있는 건 저희 삼촌이세요. 전 그냥 영웅상을 구경하러 왔을 뿐인데 삼촌이 절 구하고 리저드에게 당했어요. 불쌍한 우리 삼촌. 으흐흑/n저 못된 ^#FF0000리저드 투사^#FFFFFF를 처치해 삼촌의 복수를 해주세요." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="3312" rewardCombatJobEXP="17980" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[리저드 투사 처치]]" draft="흑흑- 네 여기 누워있는 건 저희 삼촌이세요. 전 그냥 영웅상을 구경하러 왔을 뿐인데 삼촌이 절 구하고 리저드에게 당했어요. 불쌍한 우리 삼촌. 으흐흑/n저 못된 ^#FF0000리저드 투사^#FFFFFF를 처치해 삼촌의 복수를 해주세요." npc="티안">
+			<subjectPos subjectStr="리저드 투사 처치" mapTargetId="309602"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[티안에게 보고]]" draft="흑흑- 네 여기 누워있는 건 저희 삼촌이세요. 전 그냥 영웅상을 구경하러 왔을 뿐인데 삼촌이 절 구하고 리저드에게 당했어요. 불쌍한 우리 삼촌. 으흐흑/n저 못된 ^#FF0000리저드 투사^#FFFFFF를 처치해 삼촌의 복수를 해주세요." npc="티안">
+			<subjectPos subjectStr="티안에게 보고" mapTargetId="309507"/>
+		</Subject>
+		<Storage Hunt1_typeID="268" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="102"/>
+	</Quest>
+	<Quest typeID="402202075" typeName="영웅상 보수" group="001" NPC="티안" reportTo="티안" cancelable="1" repeatable="0" retryable="1" lv="23" desc="훌쩍훌쩍~ 저희 삼촌은 죽어서도 손에서 망치를 놓지 않았어요. 삼촌의 뜻을 따라 저라도 영웅상을 보수하려고 해요. 저도 옆에서 보고 배운게 있거든요. 평소에 워낙 삼촌께서 관리를 잘하시기도 했고요. 여기 있는 영웅상은 우리 유목민들의 긍지라며 말이죠./n헌데 리저드가 삼촌의 공구를 다 가져갔어요. ^#FF0000리저드 환술사^#FFFFFF들이 가지고 다니는 걸 봤는데 녀석들에게서 ^#FF0000삼촌의 공구^#FFFFFF를 찾아주세요." difficulty="1" onMessage="HuntCollect2_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="3312" rewardCombatJobEXP="17980" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[삼촌의 공구 획득]]" draft="훌쩍훌쩍~ 저희 삼촌은 죽어서도 손에서 망치를 놓지 않았어요. 삼촌의 뜻을 따라 저라도 영웅상을 보수하려고 해요. 저도 옆에서 보고 배운게 있거든요. 평소에 워낙 삼촌께서 관리를 잘하시기도 했고요. 여기 있는 영웅상은 우리 유목민들의 긍지라며 말이죠./n헌데 리저드가 삼촌의 공구를 다 가져갔어요. ^#FF0000리저드 환술사^#FFFFFF들이 가지고 다니는 걸 봤는데 녀석들에게서 ^#FF0000삼촌의 공구^#FFFFFF를 찾아주세요." npc="티안">
+			<subjectPos subjectStr="삼촌의 공구 획득" mapTargetId="309603"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[티안에게 배달]]" draft="훌쩍훌쩍~ 저희 삼촌은 죽어서도 손에서 망치를 놓지 않았어요. 삼촌의 뜻을 따라 저라도 영웅상을 보수하려고 해요. 저도 옆에서 보고 배운게 있거든요. 평소에 워낙 삼촌께서 관리를 잘하시기도 했고요. 여기 있는 영웅상은 우리 유목민들의 긍지라며 말이죠./n헌데 리저드가 삼촌의 공구를 다 가져갔어요. ^#FF0000리저드 환술사^#FFFFFF들이 가지고 다니는 걸 봤는데 녀석들에게서 ^#FF0000삼촌의 공구^#FFFFFF를 찾아주세요." npc="티안">
+			<subjectPos subjectStr="티안에게 배달" mapTargetId="309507"/>
+		</Subject>
+		<Storage Collect1_typeID="150354" Collect1_goal="5" Collect1_count="0" target1_type="Collect" target1_prob="70" Collect2_typeID="269"/>
+		<BasicReward typeID="2100000000" count="102"/>
+	</Quest>
+	<Quest typeID="402202080" typeName="리저드 침공경보" group="001" NPC="티안" reportTo="남쪽 봉화탑 경비대장" cancelable="1" repeatable="0" retryable="1" lv="24" desc="이 곳에 리저드가 침략한 사실은 알려야 해요. 아직 나와 당신말고는 아무도 모를거예요./n지금은 이 내리막 뿐이지만 곧 이들이 위로 올라가 마제로나를 덮칠 수도 있잖아요. 어서 가서 ^#3399FF남쪽 봉화탑 경비 대장^#FFFFFF에게 알려주세요. 당신은 외부인이지만 ^#FF0000리저드의 단검^#FFFFFF을 가져가면 믿어줄거예요./n리저드의 단검은 각 리저드 대장들 옆에 보관하고 있더라고요." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="4062" rewardCombatJobEXP="19120" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[리저드의 단검 수집]]" draft="이 곳에 리저드가 침략한 사실은 알려야 해요. 아직 나와 당신말고는 아무도 모를거예요./n지금은 이 내리막 뿐이지만 곧 이들이 위로 올라가 마제로나를 덮칠 수도 있잖아요. 어서 가서 ^#FF0000남쪽 봉화탑 경비 대장^#FFFFFF에게 알려주세요. 당신은 외부인이지만 ^#FF0000리저드의 단검^#FFFFFF을 가져가면 믿어줄거예요./n리저드의 단검은 각 리저드 대장들 옆에 보관하고 있더라고요." npc="티안">
+			<subjectPos subjectStr="리저드의 단검 수집" mapTargetId="309702"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[남쪽 봉화탑경비 대장에게 배달]]" draft="이 곳에 리저드가 침략한 사실은 알려야 해요. 아직 나와 당신말고는 아무도 모를거예요./n지금은 이 내리막 뿐이지만 곧 이들이 위로 올라가 마제로나를 덮칠 수도 있잖아요. 어서 가서 ^#FF0000남쪽 봉화탑 경비 대장^#FFFFFF에게 알려주세요. 당신은 외부인이지만 ^#FF0000리저드의 단검^#FFFFFF을 가져가면 믿어줄거예요./n리저드의 단검은 각 리저드 대장들 옆에 보관하고 있더라고요." npc="남쪽 봉화탑 경비대장">
+			<subjectPos subjectStr="남쪽 봉화탑경비 대장에게 배달" mapTargetId="301504"/>
+		</Subject>
+		<Storage Collect1_typeID="150355" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="118"/>
+	</Quest>
+	<Quest typeID="402202085" typeName="아이의 취미" group="001" NPC="유목지 아이" reportTo="품위있는 청년" cancelable="1" repeatable="0" retryable="1" lv="24" desc="저기 저 좀 도와주세요. 저기..그러니까 난 형이랑 약속했어요. 리칠의 유목지 서쪽에 있는 ^#FF0000흉포한 그래피의 촉수^#FFFFFF를 형에게 갖다 주기로!/n근데 너무 어려운 것 같아요. 이름대로 너무 흉포해서요… 나 대신 그것들을 찾아다가 우리 형에게 갖다 주실래요? 저희 ^#3399FF형^#FFFFFF은 ^#3399FF리칠의 유목지^#FFFFFF에서 절 기다리고 있을 거예요." difficulty="1" onMessage="HuntCollect2_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="4062" rewardCombatJobEXP="19120" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[흉포한 그래피의 촉수 획득]]" draft="저기 저 좀 도와주세요. 저기..그러니까 난 형이랑 약속했어요. 리칠의 유목지 서쪽에 있는 ^#FF0000흉포한 그래피의 촉수^#FFFFFF를 형에게 갖다 주기로!/n근데 너무 어려운 것 같아요. 이름대로 너무 흉포해서요… 나 대신 그것들을 찾아다가 우리 형에게 갖다 주실래요? 저희 ^#3399FF형^#FFFFFF은 ^#3399FF리칠의 유목지^#FFFFFF에서 절 기다리고 있을 거예요." npc="유목지 아이">
+			<subjectPos subjectStr="흉포한 그래피의 촉수 획득" mapTargetId="301601"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[품위있는 청년에게 배달]]" draft="저기 저 좀 도와주세요. 저기..그러니까 난 형이랑 약속했어요. 리칠의 유목지 서쪽에 있는 ^#FF0000흉포한 그래피의 촉수^#FFFFFF를 형에게 갖다 주기로!/n근데 너무 어려운 것 같아요. 이름대로 너무 흉포해서요… 나 대신 그것들을 찾아다가 우리 형에게 갖다 주실래요? 저희 ^#3399FF형^#FFFFFF은 ^#3399FF리칠의 유목지^#FFFFFF에서 절 기다리고 있을 거예요." npc="품위있는 청년">
+			<subjectPos subjectStr="품위있는 청년에게 배달" mapTargetId="301513"/>
+		</Subject>
+		<Storage Collect1_typeID="150356" Collect1_goal="5" Collect1_count="0" target1_type="Collect" target1_prob="60" Collect2_typeID="2058"/>
+		<BasicReward typeID="2100000000" count="118"/>
+	</Quest>
+	<Quest typeID="402202090" typeName="나보다 먼저.. " group="001" NPC="치료중인 그린리프 단원" reportTo="치료중인 그린리프 단원" cancelable="1" repeatable="0" retryable="1" lv="22" desc="제가 많이 아파보이나요? 하지만 세상엔 너무 많이 다치거나 아파서 목숨이 간당간당하면서도 제대로 치료를 받지 못하는 사람들이 많답니다./n다행히 이 곳 사람들은 그린리프인 제가 있으니 완쾌를 바라며 이 곳에 모여 있는 것이지요. 저보다 먼저 다른 사람들 치료가 시급합니다. 치료약이 없어서 좀 어렵긴 하지만 다행히 암흑의 고원에서 응급치료로 쓸 수 있는 ^#FF0000고원 박하풀^#FFFFFF이 있는 것 같아요. 그것을 가져다 주실 수 있나요?" difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="2777" rewardCombatJobEXP="16420" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[고원 박하풀 수집]]" draft="제가 많이 아파보이나요? 하지만 세상엔 너무 많이 다치거나 아파서 목숨이 간당간당하면서도 제대로 치료를 받지 못하는 사람들이 많답니다./n다행히 이 곳 사람들은 그린리프인 제가 있으니 완쾌를 바라며 이 곳에 모여 있는 것이지요. 저보다 먼저 다른 사람들 치료가 시급합니다. 치료약이 없어서 좀 어렵긴 하지만 다행히 암흑의 고원에서 응급치료로 쓸 수 있는 ^#FF0000고원 박하풀^#FFFFFF이 있는 것 같아요. 그것을 가져다 주실 수 있나요?" npc="치료중인 그린리프 단원">
+			<subjectPos subjectStr="고원 박하풀 수집" mapTargetId="309703"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[치료 중인 그린리프 단원에게 배달]]" draft="제가 많이 아파보이나요? 하지만 세상엔 너무 많이 다치거나 아파서 목숨이 간당간당하면서도 제대로 치료를 받지 못하는 사람들이 많답니다./n다행히 이 곳 사람들은 그린리프인 제가 있으니 완쾌를 바라며 이 곳에 모여 있는 것이지요. 저보다 먼저 다른 사람들 치료가 시급합니다. 치료약이 없어서 좀 어렵긴 하지만 다행히 암흑의 고원에서 응급치료로 쓸 수 있는 ^#FF0000고원 박하풀^#FFFFFF이 있는 것 같아요. 그것을 가져다 주실 수 있나요?" npc="치료중인 그린리프 단원">
+			<subjectPos subjectStr="치료 중인 그린리프 단원에게 배달" mapTargetId="309510"/>
+		</Subject>
+		<Storage Collect1_typeID="150357" Collect1_goal="10" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="96"/>
+	</Quest>
+	<Quest typeID="402202095" typeName="원인의 제공" group="001" NPC="상처입은 청년" reportTo="상처입은 청년" cancelable="1" repeatable="0" retryable="1" lv="22" desc="하 참~ 그린리프 사람들은 너무 착한 것 같아. 자기도 아프면서 남부터 치료하려고 하니 말이야. 하지만 세상 일은 모두 원인과 결과가 있는 법. 치료도 좋지만 사람들을 다치게 하는 근본적인 원인을 해결해야 하지 않겠어?/n불쌍하다 생각하지 말고 버려진 유목지 근처의 ^#FF0000자이컨^#FFFFFF을 사냥 해야 한단 말이야./n그래야 이렇게 길가다 갑자기 습격당하는 사람들이 없어지지." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="2777" rewardCombatJobEXP="16420" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[자이컨 사냥]]" draft="하 참~ 그린리프 사람들은 너무 착한 것 같아. 자기도 아프면서 남부터 치료하려고 하니 말이야. 하지만 세상 일은 모두 원인과 결과가 있는 법. 치료도 좋지만 사람들을 다치게 하는 근본적인 원인을 해결해야 하지 않겠어?/n불쌍하다 생각하지 말고 버려진 유목지 근처의 ^#FF0000자이컨^#FFFFFF을 사냥 해야 한단 말이야./n그래야 이렇게 길가다 갑자기 습격당하는 사람들이 없어지지." npc="상처입은 청년">
+			<subjectPos subjectStr="자이컨 사냥" mapTargetId="309604"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[상처 입은 청년에게 보고]]" draft="하 참~ 그린리프 사람들은 너무 착한 것 같아. 자기도 아프면서 남부터 치료하려고 하니 말이야. 하지만 세상 일은 모두 원인과 결과가 있는 법. 치료도 좋지만 사람들을 다치게 하는 근본적인 원인을 해결해야 하지 않겠어?/n불쌍하다 생각하지 말고 버려진 유목지 근처의 ^#FF0000자이컨^#FFFFFF을 사냥 해야 한단 말이야./n그래야 이렇게 길가다 갑자기 습격당하는 사람들이 없어지지." npc="상처입은 청년">
+			<subjectPos subjectStr="상처 입은 청년에게 보고" mapTargetId="309511"/>
+		</Subject>
+		<Storage Hunt1_typeID="2068" Hunt1_goal="15" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="96"/>
+	</Quest>
+	<Quest typeID="402202100" typeName="버려진 유목지" group="001" NPC="상처입은 청년" reportTo="마이온" cancelable="1" repeatable="0" retryable="1" lv="22" desc="아, 아파. 일하면서 말에 물리거나 풀 잎에 긁힌 적은 많은데 이렇게 본격적으로 다친건 처음이라 무섭기도 하군요./n헌데 이 무서운 땅에 아직 내 친구들이 남아 있어요. 고향 땅인 ^#3399FF버려진 유목지^#FFFFFF가 괜찮은가 보러 간다고 했는데 거기도 무사할리가 없죠. 너무 걱정되는데 가서 그들을 좀 도와주세요." difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="2777" rewardCombatJobEXP="16420" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[상처입은 청년과 대화]]" draft="아, 아파. 일하면서 말에 물리거나 풀 잎에 긁힌 적은 많은데 이렇게 본격적으로 다친건 처음이라 무섭기도 하군요./n헌데 이 무서운 땅에 아직 내 친구들이 남아 있어요. 고향 땅인 ^#3399FF버려진 유목지^#FFFFFF가 괜찮은가 보러 간다고 했는데 거기도 무사할리가 없죠. 너무 걱정되는데 가서 그들을 좀 도와주세요." npc="상처입은 청년">
+			<subjectPos subjectStr="상처입은 청년과 대화" mapTargetId="309411"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[마이온과 대화]]" draft="아, 아파. 일하면서 말에 물리거나 풀 잎에 긁힌 적은 많은데 이렇게 본격적으로 다친건 처음이라 무섭기도 하군요./n헌데 이 무서운 땅에 아직 내 친구들이 남아 있어요. 고향 땅인 ^#3399FF버려진 유목지^#FFFFFF가 괜찮은가 보러 간다고 했는데 거기도 무사할리가 없죠. 너무 걱정되는데 가서 그들을 좀 도와주세요." npc="마이온">
+			<subjectPos subjectStr="마이온과 대화" mapTargetId="309504"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="96"/>
+	</Quest>
+	<Quest typeID="402202105" typeName="My dear pony " group="001" NPC="마구간지기" reportTo="마구간지기" cancelable="1" repeatable="0" retryable="1" lv="21" desc="고대의 산에 고룡 크로나그라는 용이 출몰한 했다고 왕국에서 병력을 모두 이슈페르만으로 집결시켰어. 용이 수도로 쳐들어 갈거라고 생각을 하나 봐./n나도 따라가야 되는데 말이 한마리 어디로 갔는지 도통 보이질 않아. 그 말이 포트 발듀크 쪽으로 가는걸 봤는데 말이야. 가서 ^#3399FF말^#FFFFFF을 데려와 줘." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="2178" rewardCombatJobEXP="14880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[말의 흔적 찾기]]" draft="고대의 산에 고룡 크로나그라는 용이 출몰한 했다고 왕국에서 병력을 모두 이슈페르만으로 집결시켰어. 용이 수도로 쳐들어 갈거라고 생각을 하나 봐./n나도 따라가야 되는데 말이 한마리 어디로 갔는지 도통 보이질 않아. 그 말이 포트 발듀크 쪽으로 가는걸 봤는데 말이야. 가서 ^#3399FF말^#FFFFFF을 데려와 줘." npc="마구간지기">
+			<subjectPos subjectStr="말의 흔적 찾기" mapTargetId="304701"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[마구간지기에게 보고]]" draft="고대의 산에 고룡 크로나그라는 용이 출몰한 했다고 왕국에서 병력을 모두 이슈페르만으로 집결시켰어. 용이 수도로 쳐들어 갈거라고 생각을 하나 봐./n나도 따라가야 되는데 말이 한마리 어디로 갔는지 도통 보이질 않아. 그 말이 포트 발듀크 쪽으로 가는걸 봤는데 말이야. 가서 ^#3399FF말^#FFFFFF을 데려와 줘." npc="마구간지기">
+			<subjectPos subjectStr="마구간지기에게 보고" mapTargetId="304502"/>
+		</Subject>
+		<Storage Collect1_typeID="150341" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="88"/>
+	</Quest>
+</Quest>

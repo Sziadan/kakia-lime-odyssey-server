@@ -1,0 +1,2075 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2011 rel. 2 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Localization>
+	<Message ID="901010001" Text="중얼중얼" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010002" Text="바다의 물고기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010003" Text="촌장님의 조언" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010004" Text="농장을 지켜라!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010005" Text="겁 많은 소녀" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010006" Text="소녀의 부탁" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010007" Text="슬프지만 아름다운…" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010008" Text="변화의 기운" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010009" Text="변화의 증거물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010010" Text="미녀와 나무꾼" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010011" Text="이상한 징후" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010012" Text="세이렌의 경고" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010013" Text="말하는 티모" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010014" Text="표본 채취" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010015" Text="근본적인 문제" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010016" Text="초코코 상륙작전" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010017" Text="조사의 결론" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010018" Text="안좋은 습성" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010019" Text="남은 일은 뒷처리" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010020" Text="산호 전투" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010021" Text="산호 전쟁" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010022" Text="펠릭스의 행방" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010023" Text="불의의 일격" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010024" Text="펠릭스의 투혼" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010025" Text="남는 건 슬픔뿐" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010026" Text="승리의 기쁨" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010027" Text="괴도의 경고장 " Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010028" Text="리리나의 만행" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010029" Text="분노의 도주 " Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010030" Text="가슴으로 하는 사랑 " Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010031" Text="무엇을 도와드릴까요" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010032" Text="마음의 평화 " Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010033" Text="미래를 보는 능력 " Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010034" Text="목격자 발견 " Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010035" Text="괴도의 정체 " Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010036" Text="괴도 발견 " Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010037" Text="사기 조심하세요 " Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010038" Text="진실공방" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010039" Text="버몬드의 부탁 " Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010040" Text="눈물의 선물 " Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010041" Text="바이올라의 사연 " Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010042" Text="진심의 편지" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010043" Text="숨겨놓은 마법 상자 " Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010044" Text="조사대의 요청" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010045" Text="경비대의 간식" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010046" Text="프랭크의 시선" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010047" Text="해안 조사의 고충" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010048" Text="아주 사소한 원인" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010049" Text="조사 방해꾼" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010050" Text="산호를 상처내는 것" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010051" Text="사인" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010052" Text="수습 요리사의 행방" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010053" Text="싱싱한 재료" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010054" Text="요리사의 길!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010055" Text="멍청이 루코네" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010056" Text="오지 않는 친구" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010057" Text="더 이상 겁쟁이가 아니야" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010058" Text="상큼한 줄기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010059" Text="이갈이로 인한 상처" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010060" Text="위험요소 처치" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010061" Text="지저분한 검사" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010062" Text="제이슨의 도움 요청" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010063" Text="대지의 수호자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010064" Text="전혀 귀엽지 않아" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010065" Text="나란 여자 약한 여자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010066" Text="푸른 산호 숲의 미래" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010067" Text="긴급 전갈" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010068" Text="씨앗만이라도…" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010069" Text="농사를 망치는 녀석들" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010070" Text="달콤한 블루베리 수확" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010071" Text="연락이 끊긴 보급대" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010072" Text="등장! 번개 갈취단!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010073" Text="운수 좋은 날" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010074" Text="반드시 되찾을 물건" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010075" Text="절묘한 타이밍" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010076" Text="조사는 조사대로" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010077" Text="파손된 것만이라도" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010078" Text="격파! 번개 갈취단!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010079" Text="반드시 지킬 약속" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010080" Text="리저드의 침공" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010081" Text="백지장도 맞들면 낫다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010082" Text="부상당한 친구를 위해" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010083" Text="한판 붙어보자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010084" Text="강인한 여자 세시" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010085" Text="마지막 전우애" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010086" Text="[파티]전세역전!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010087" Text="무서운 예감" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010088" Text="위급상황" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010089" Text="울고 있는 아이" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010090" Text="엄마가 준 선물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010091" Text="감사한 마음" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010092" Text="약삭빠른 고블린" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010093" Text="정신 사나운 녀석들" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010094" Text="하나라도 지키자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010095" Text="고생하는 이를 위해" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010096" Text="훔친거 돌려받기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010097" Text="도둑맞은 흔적" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010098" Text="더 이상의 용서는 없어" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010099" Text="걱정되는 일행" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010100" Text="불길한 예감은 꼭 맞아" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010101" Text="조수로써 해야 할 일" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010102" Text="자연의 아름다움" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010103" Text="위대한 발견" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010104" Text="벨토치카의 제의" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010105" Text="아픈 친구들을 위해" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010106" Text="작업에 방해되는 것" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010107" Text="인부 치료제" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010108" Text="유적 발굴단" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010109" Text="신나는 보물 찾기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010110" Text="증거 확보" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010111" Text="불만 폭발" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010112" Text="치료를 위한 노력" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010113" Text="때로는 도움도 필요해" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010114" Text="훔바바를 위한 선물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010115" Text="잡초 제거" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010116" Text="약초를 만들 재료" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010117" Text="성당의 요청" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010118" Text="괴병의 원인" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010119" Text="사상 최고의 적" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010120" Text="이름없는 이의 최후" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010121" Text="전쟁 발발!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010122" Text="해안 정리" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010123" Text="무기 이송 작업" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010124" Text="식량 확보" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010125" Text="해안 정리 임무" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010126" Text="전선 투입" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010127" Text="인해전술의 위용" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010128" Text="보급상자 회수" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010129" Text="세이렌 구출작전" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010130" Text="탈출로 확보" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010131" Text="진급할 수 있는 기회" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010132" Text="돌격 앞으로!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010133" Text="지피지기면 백전불태" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010134" Text="[파티]전쟁 종결자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010135" Text="위대한 승리" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010136" Text="해안 청소부" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010137" Text="어느 소녀의 의뢰" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010138" Text="반짝이는 돌 줍기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010139" Text="난파선 조사 작전" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010140" Text="캐프티의 서신" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010141" Text="귀찮은 방해꾼들" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010142" Text="낚으면 안되는 것" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010143" Text="북부 해변 조사" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010144" Text="난파선의 원혼" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010145" Text="죽은자에 대한 예의" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010146" Text="보물상자 줍기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010147" Text="위장의 달인" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010148" Text="미지의 세계" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010149" Text="들키고 싶지 않아" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010150" Text="동글동글한 껍질" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010151" Text="혹시 비밀편지?" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010152" Text="무서운 모래" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010153" Text="출동 티모레인저!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010154" Text="북부해변의 변화" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010155" Text="괴도 코랄 3세" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010156" Text="괴도의 행방" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010157" Text="괴도가 남긴 쪽지" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010158" Text="용의자 구속?" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010159" Text="오해 풀기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010160" Text="괴도의 흔적 제보" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010161" Text="전하고 싶었던 것" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010162" Text="괴도가 남긴 교훈" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010163" Text="세이렌의 도움요청" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010164" Text="바다를 흐리는 것" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010165" Text="실수로 빠뜨린 무기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010166" Text="동생과의 조우" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010167" Text="처치 마린비!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010168" Text="세이렌의 무기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010169" Text="지원이 오는 길" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010170" Text="아름다운 구슬" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010171" Text="조건 성립" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010172" Text="호위대 처치" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010173" Text="마린앙투아네트" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010174" Text="소중한 세이렌의 보물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010175" Text="세이렌의 선물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010176" Text="[현상수배][파티]말하는 녹색 티모" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010177" Text="[현상수배][파티]말하는 갈색 티모" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010178" Text="[현상수배][파티]고블린 깡패" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010179" Text="[현상수배][파티]도굴꾼 안디 " Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010180" Text="[현상수배][파티]카칼리 " Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010181" Text="[현상수배][파티]네메시스" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010182" Text="휴먼의 유적" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010183" Text="휴먼과 마구간" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010184" Text="훔바바의 말" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010185" Text="호수와 도망친 윈더스" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010186" Text="호수와 도망친 윈더스" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010187" Text="호수와 도망친 윈더스" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010188" Text="현명한 소비생활" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010189" Text="현란한 요술" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010190" Text="풀리는 봉인" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010191" Text="푼바!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010192" Text="튼튼한 장비" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010193" Text="투토족의 문자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010194" Text="투 인티의 시위" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010195" Text="클로라의 부탁" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010196" Text="캐프티의 부름" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010197" Text="친절한 도움" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010198" Text="추출" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010199" Text="지혜로운 숲의 친구" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010200" Text="지겨운 페모" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010201" Text="제작" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010202" Text="정제" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010203" Text="점령당한 섬" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010204" Text="작은 기대" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010205" Text="자택 정화" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010206" Text="읽을 수 없는 지령서" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010207" Text="위기의 산호 채취장" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010208" Text="위기의 대비책" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010209" Text="용사의 길" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010210" Text="오염된 숲" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010211" Text="오염된 뿔나무" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010212" Text="오염된 백운모" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010213" Text="오래된 채취장으로" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010214" Text="연구는 계속 되어야 한다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010215" Text="여왕을 찾아서…" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010216" Text="여왕 구출" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010217" Text="엘 하인의 증표" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010218" Text="엘 하인의 증표" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010219" Text="엘 하인의 증표" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010220" Text="약속의 시간" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010221" Text="안전한 장소" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010222" Text="심각한 문제" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010223" Text="실력 검증" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010224" Text="신비한 조각" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010225" Text="시급한 문제" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010226" Text="수상한 케이거족" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010227" Text="수상한 사람들" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010228" Text="소식을 전하는 법" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010229" Text="세이렌의 동맹" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010230" Text="서 툼바라의 서신" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010231" Text="새로운 판매 물품" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010232" Text="새로운 여왕" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010233" Text="새로운 모험의 시작" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010234" Text="산호와 티모" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010235" Text="산호 농장으로" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010236" Text="사악한 관 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010237" Text="사악한 관 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010238" Text="사라진 오빠" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010239" Text="사라진 레빗" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010240" Text="빛이 나는 곳 4" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010241" Text="빛이 나는 곳 3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010242" Text="빛이 나는 곳 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010243" Text="빛이 나는 곳 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010244" Text="빙의 걸린 아이들" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010245" Text="블루베리의 원수" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010246" Text="블루베리 농장으로" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010247" Text="블루 코랄로" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010248" Text="불안한 농장" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010249" Text="발굴지의 미스터리" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010250" Text="반짝이는 가보" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010251" Text="바이올렛의 지원" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010252" Text="밀리아 돕기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010253" Text="믿음직한 친구들" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010254" Text="무시무시한 투 크티론" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010255" Text="말할 수 없는 비밀" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010256" Text="마린 비의 비밀" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010257" Text="마구간지기의 분노" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010258" Text="루티의 사정" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010259" Text="레팜의 농장" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010260" Text="레드 코랄에 무슨 일이?" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010261" Text="듀발로" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010262" Text="듀발 고원의 리칠" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010263" Text="듀발 고원에서 온 손님" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010264" Text="도움이 필요한 소녀" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010265" Text="도움을 주는 친구" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010266" Text="더 커다란 모험을 위한 준비" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010267" Text="더 걱정스러운 일" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010268" Text="더 강해지는 법!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010269" Text="다친 사람을 돌봐주는 장소" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010270" Text="다시 시작하는…" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010271" Text="니시스의 힘으로…" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010272" Text="니시스의 은총" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010273" Text="늙은 산호숲으로" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010274" Text="꼭 필요한 음료" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010275" Text="긴급한 도움 요청!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010276" Text="기억을 잃은 남자 6" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010277" Text="기억을 잃은 남자 5" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010278" Text="기억을 잃은 남자 4" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010279" Text="기억을 잃은 남자 3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010280" Text="기억을 잃은 남자 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010281" Text="기억을 잃은 남자 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010282" Text="기세 등등한 부하들" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010283" Text="급한 길은 돌아가라" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010284" Text="그린 리프란?" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010285" Text="그래도 배는 고파" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010286" Text="귀찮은 노움!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010287" Text="구호소의 사정" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010288" Text="공공의 적 7" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010289" Text="공공의 적 6" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010290" Text="공공의 적 3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010291" Text="공공의 적 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010292" Text="공공의 적 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010293" Text="고블린을 겁나게 하는 것" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010294" Text="[파티]여왕님의 복수" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010295" Text="[파티]번개손 처치!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010296" Text="[파티]공공의 적 5" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010297" Text="[파티]공공의 적 4" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010298" Text="보급로의 말썽꾸러기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010299" Text="단단한 창날" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010300" Text="놀란 가슴" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010301" Text="라디앙의 호미" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010302" Text="조카를 위한 선물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010303" Text="떨어뜨린 마음" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010304" Text="검은 꼬리 털" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010305" Text="샤바두 협곡의 바람" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010306" Text="샤바두 협곡의 그림자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010307" Text="보급품 수거" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010308" Text="[파티]호가호위" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010309" Text="행운의 상징" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010310" Text="동료의 분노" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010311" Text="미아가 시킨 일" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010312" Text="또 다른 일" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010313" Text="미약한 도움" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010314" Text="상처를 치료할 약" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010315" Text="실패한 선물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010316" Text="수상한 일1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010317" Text="수상한 일2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010318" Text="수상한 일3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010319" Text="수상한 일4" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010320" Text="수상한 일5" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010321" Text="수상한 일6" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010322" Text="이어지는 사명" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010323" Text="실패한 임무" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010324" Text="새로운 실험 재료" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010325" Text="무덤 보수" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010326" Text="움바의 발톱" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010327" Text="아가마의 커다란 뿔" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010328" Text="등장! 카린족의 습격!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010329" Text="입에 쓴 약이 몸에도 쓰다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010330" Text="죽은자도 춤추게 하는 약" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010331" Text="링고가 변한 이유" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010332" Text="먹을 것이 원인일지도" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010333" Text="미안하지만 사라져줘" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010334" Text="링고의 못된 버릇" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010335" Text="겁 많은 피킨의 부탁" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010336" Text="카린족의 부활" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010337" Text="카린족의 이유" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010338" Text="링고의 숨겨진 보물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010339" Text="치키치키 차카차카" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010340" Text="고난의 원정대" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010341" Text="조이난의 비밀" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010342" Text="녹색 암살자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010343" Text="우스타의 비밀" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010344" Text="일방적인 희생" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010345" Text="강기단의 비밀" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010346" Text="따뜻한 이불" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010347" Text="다시 한 번…" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010348" Text="열린 상자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010349" Text="빛나는 더듬이" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010350" Text="아가마 어금니" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010351" Text="걱정스러운 결정" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010352" Text="전투력이 걸려 있는 종이" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010353" Text="무덤의 울타리" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010354" Text="훼손되는 동상" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010355" Text="칸의 무덤 경비" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010356" Text="절망한 영혼들" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010357" Text="분수도 모르는 것" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010358" Text="연락병의 행방" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010359" Text="버려진 길" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010360" Text="참배 물품" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010361" Text="레프레의 둥근 꼬리" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010362" Text="믹스가 먹어버린 보고서" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010363" Text="풍차 마을의 위기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010364" Text="툼바라 믹스의 울음 소리" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010365" Text="늘상 있는 일" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010366" Text="놀라운 생물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010367" Text="자이쿠 붓" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010368" Text="소중한 염료" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010369" Text="예술 사랑" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010370" Text="보급이 끊긴 이유" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010371" Text="겁 많은 보급병" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010372" Text="우리 보급병이 달라졌어요" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010373" Text="보급품 회수 대작전" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010374" Text="돌아오지 않는 나무꾼" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010375" Text="나무를 벨 때 방해되는 것" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010376" Text="나무를 베려하는 마음" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010377" Text="배고픈 피난민의 애환" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010378" Text="사라져버린 티두" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010379" Text="티두를 위협하는 자이쿠" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010380" Text="돌아가지 않으려 하는 이유" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010381" Text="할머니의 걱정" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010382" Text="카샨족 무기의 공급처" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010383" Text="지피지기면 백전불태" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010384" Text="숨겨진 보급품 회수" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010385" Text="진정한 민중의 지팡이" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010386" Text="요린의 정예병" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010387" Text="카샨 부대장 요린" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010388" Text="크로키 대장의 행방" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010389" Text="카샨과 크로키의 관계" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010390" Text="락크의 부탁" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010391" Text="자급자족" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010392" Text="걸리적 거리는 아가마" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010393" Text="심심함을 달래줄 장난감" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010394" Text="징그러운건 너무 싫어" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010395" Text="달아난 카샨족" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010396" Text="프란의 부탁" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010397" Text="변화한 몬스터의 증거물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010398" Text="사자상 보수" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010399" Text="연락 되지 않는 친구" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010400" Text="돌아가지 않는 이유" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010401" Text="부드러운 식재료" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010402" Text="고마운 친구" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010403" Text="방해 되는 것을 제거하자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010404" Text="마음을 안정시킬 방법" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010405" Text="무너져버린 마음" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010406" Text="소리를 듣고 몰려든 녀석들" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010407" Text="근무에 방해되는 것" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010408" Text="안전장치 제거" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010409" Text="초원 전쟁의 흔적들" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010410" Text="급한대로 처방" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010411" Text="계속 되는 역사" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010412" Text="날카로운 시선" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010413" Text="소음 공해" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010414" Text="괴상망측한 광경" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010415" Text="오울사드의 기쁨" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010416" Text="달콤한 그 무엇" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010417" Text="시큼한 즙" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010418" Text="갑작스러운 만남" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010419" Text="빼앗긴 다리" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010420" Text="보초의 신발" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010421" Text="쿠룬다 언더파이어의 부탁" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010422" Text="노르나르와의 거래" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010423" Text="케이거의 첩보활동" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010424" Text="탈룬바라의 악몽" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010425" Text="[현상수배][파티]샤우라즈" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010426" Text="크로키 수비대 처치" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010427" Text="방해되는 파수꾼" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010428" Text="수비대 대장 딸꾹" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010429" Text="케이거의 보급품 탈취" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010430" Text="카샨 수비대 처치" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010431" Text="강력한 투사의 망치" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010432" Text="수비대 대장 요란" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010433" Text="날카로운 카샨족의 무기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010434" Text="케이거 수비대 처치" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010435" Text="버틸 수 없는 보초의 활" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010436" Text="수비대 대장 네켄 처치" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010437" Text="투사의 강력함" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010438" Text="제 발에 걸려 넘어진다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010439" Text="병력과 전략의 차이" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010440" Text="목숨을 건 도박" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010441" Text="카샨의 스파이" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010442" Text="강력함의 원인" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010443" Text="서풍의 켈란투스" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010444" Text="오리나와의 이별" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010445" Text="감염된 탈룬바라 협곡" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010446" Text="마지막 일격" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010447" Text="안심해도 괜찮아" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010448" Text="혼돈의 팔스라 목초지" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010449" Text="포식자 키바" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010450" Text="미쳐버린 움푸루" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010451" Text="질풍갈취단의 도전" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010452" Text="[파티]등장! 고블리뉴 특전대" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010453" Text="카샨의 패잔병" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010454" Text="케이거와 카샨의 관계" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010455" Text="크로키 암살자의 위협" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010456" Text="실종된 가방의 행방" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010457" Text="비티 오백!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010458" Text="신병의 사정" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010459" Text="신병의 부탁" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010460" Text="첫 훈련" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010461" Text="수준에 맞는 상대" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010462" Text="골짜기의 골칫덩이" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010463" Text="첫 정찰!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010464" Text="검은 풀 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010465" Text="검은 풀 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010466" Text="검은 풀 3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010467" Text="검은 풀 4" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010468" Text="검은 풀 5" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010469" Text="카툼바 골짜기의 보급 요청" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010470" Text="백운모 캐기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010471" Text="단단한 뿔나무" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010472" Text="친구의 보석" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010473" Text="흩어진 보급품" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010474" Text="보급병의 서신" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010475" Text="그들이 만난 곳" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010476" Text="크로키의 진심" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010477" Text="협곡 정벌" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010478" Text="[파티]크로키의 배신" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010479" Text="보급 요청" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010480" Text="붉은 초원의 농장" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010481" Text="추출이란?" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010482" Text="대장장이의 정제" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010483" Text="모두가 원하는 일" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010484" Text="경비 강화 요청" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010485" Text="시야를 가리는 것들" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010486" Text="슈이키의 주간 보고" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010487" Text="편안한 잠자리" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010488" Text="종족을 초월한 도움" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010489" Text="용사의 길" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010490" Text="튼튼한 가방" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010491" Text="별 거 아닌 도움" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010492" Text="녹슨 무기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010493" Text="내 몸과 같은 무기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010494" Text="마음이 통하는 친구" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010495" Text="칸의 지령" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010496" Text="라임 원정대" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010497" Text="파헤쳐진 무덤" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010498" Text="사라진 묘비" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010499" Text="끔찍한 비밀" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010500" Text="끔찍한 비밀" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010501" Text="끔찍한 비밀" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010502" Text="선발대의 뒤를 따라" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010503" Text="성분 조사를 위해" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010504" Text="실종된 원정대원" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010505" Text="사라진 케이거 추격전" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010506" Text="링고가 날뛰는 이유" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010507" Text="어려움에 처한 조사단" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010508" Text="사라져버린 휴먼" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010509" Text="정말로 위험한 무기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010510" Text="나인호프와의 약속" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010511" Text="의미심장한 말" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010512" Text="변해버린 그 무엇" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010513" Text="낯선 남자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010514" Text="나인호프의 여유로움" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010515" Text="노드아의 부탁" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010516" Text="다시 라임을 찾아서" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010517" Text="쿠쿠스 사냥단" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010518" Text="남부 감시 초소로" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010519" Text="칸의 동상으로" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010520" Text="칸의 무덤 참배" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010521" Text="연락병을 찾아서" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010522" Text="고참 연락병 나나세" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010523" Text="황혼의 서신을 읽을 자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010524" Text="땡그랑 한 푼" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010525" Text="보다 싸고 멋진 물건" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010526" Text="대장군의 부름" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010527" Text="대장군의 명령서" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010528" Text="돌아오지 않는 피난민" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010529" Text="추격자 저지" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010530" Text="카샨족의 경고" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010531" Text="탈환작전!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010532" Text="크로키를 격파하라!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010533" Text="카샨과의 한판 승부" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010534" Text="승전보 전달" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010535" Text="새로운 라임 원정대" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010536" Text="우호의 서신" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010537" Text="진득한 치료제" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010538" Text="격려의 편지" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010539" Text="사자상의 경비병" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010540" Text="[파티]켈록켈록" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010541" Text="[파티]콜록콜록" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010542" Text="[파티]쿨럭쿨럭" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010543" Text="용감한 자의 길" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010544" Text="소름 돋는 날개짓 소리" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010545" Text="태워야 하는 물건" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010546" Text="넘치는 한" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010547" Text="흙으로 돌아가라!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010548" Text="제 멋대로 대주술사" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010549" Text="괴상한 왕" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010550" Text="조용한 협곡" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010551" Text="탈룬바라의 이상현상" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010552" Text="확실한 보고 체계" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010553" Text="칸바의 서신" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010554" Text="이에는 이 눈에는 눈!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010555" Text="탈룬바라 잠입전" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010556" Text="칸바의 단호한 명령" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010557" Text="탈룬바라 속에 숨겨진 힘" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010558" Text="톨보카의 존재" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010559" Text="세상을 바꿀 힘" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010560" Text="수련중인 무인" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010561" Text="슈록의 강인함" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010562" Text="실버와의 재회" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010563" Text="진정한 수련의 길" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010564" Text="은밀한 조사 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010565" Text="은밀한 조사 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010566" Text="은밀한 조사 3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010567" Text="은밀한 조사 4" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010568" Text="도시락 강탈자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010569" Text="마음의 상처" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010570" Text="르페의 부탁" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010571" Text="피킨의 복수" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010572" Text="잃어버린 물품" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010573" Text="쓸데없는 행동" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010574" Text="투자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010575" Text="무서운 유적이야기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010576" Text="하수구 탈출!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010577" Text="별종 투르가" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010578" Text="대지의 고원" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010579" Text="날카로운 이빨" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010580" Text="풍경을 망치는 주범" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010581" Text="가로나의 부탁" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010582" Text="신비한 현상" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010583" Text="바람의 비밀" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010584" Text="영혼의 부탁" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010585" Text="만용의 결과" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010586" Text="무능한 왕" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010587" Text="삼촌의 복수" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010588" Text="비밀스러운 연구가" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010589" Text="출세를 위하여" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010590" Text="[파티]트롤의 수호자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010591" Text="무거운 종이 한 장" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010592" Text="[파티]영웅의 무덤" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010593" Text="잊을뻔한 주문" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010594" Text="한가지 단점" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010595" Text="보답하는 일" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010596" Text="유목지의 말썽쟁이" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010597" Text="씽씽 불어라" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010598" Text="인테리어를 하자!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010599" Text="함정 트랩 발동!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010600" Text="여행자의 정체" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010601" Text="피치 못한 사정" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010602" Text="유목민의 분노" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010603" Text="발라카스병의 부탁" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010604" Text="잃어버린 안경" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010605" Text="마제로나의 피킨" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010606" Text="운디네의 눈물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010607" Text="프록시 왕눈이" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010608" Text="유목민의 흔적" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010609" Text="어느 병사의 고민" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010610" Text="지나친 장난" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010611" Text="어머니의 맛" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010612" Text="위험한 애완동물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010613" Text="병사의 또 다른 고민" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010614" Text="투투의 흔적" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010615" Text="유랑 시인의 노래" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010616" Text="도움의 손길" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010617" Text="떠넘기기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010618" Text="맛있는 약초" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010619" Text="비밀스러운 쪽지" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010620" Text="미모의 비결" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010621" Text="조기교육" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010622" Text="교육의 잘못된 예" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010623" Text="무라인의 음모" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010624" Text="써클 트롤의 비밀" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010625" Text="잠깐의 도움" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010626" Text="수상한 원더스의 방울" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010627" Text="아낙수의 손수건" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010628" Text="[파티]현상수배 : 브륜힐트" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010629" Text="긴급한 구원병력" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010630" Text="친구의 복수" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010631" Text="악몽에 시달리는 피킨" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010632" Text="[파티]현상수배 : 밀렵꾼의 대장" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010633" Text="도둑맞은 배달품" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010634" Text="쥬라기 고원" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010635" Text="서식지 파괴" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010636" Text="이동지역 확보" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010637" Text="고원의 운석 조사자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010638" Text="고집 센 식물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010639" Text="트롤의 포효" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010640" Text="상사병" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010641" Text="호수 보수 공사" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010642" Text="자신감 상승" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010643" Text="리저드의 징표" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010644" Text="리저드의 전략꾼" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010645" Text="제 3의 눈" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010646" Text="진정한 영웅들" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010647" Text="피킨의 계획" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010648" Text="방치된 장소" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010649" Text="버려진 자이루" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010650" Text="키클롭스 연구" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010651" Text="소녀와 우유" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010652" Text="거미 버섯" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010653" Text="목동의 양동이" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010654" Text="카르잔의 소원" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010655" Text="황금빛 갈기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010656" Text="거대한 동물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010657" Text="고대의 종족" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010658" Text="거인의 목걸이" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010659" Text="유독 수상한.." Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010660" Text="절벽 아래 마티나 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010661" Text="절벽 아래 마티나 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010662" Text="절벽 아래 마티나 3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010663" Text="야비암의 제안" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010664" Text="유물을 지키는 법" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010665" Text="가로나 둥지의 고민" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010666" Text="라임을 찾아 남쪽으로" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010667" Text="검은 마비 숲과 리칠 부족" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010668" Text="라임 유적지??" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010669" Text="작지만 큰 조각" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010670" Text="원치 않았던 일" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010671" Text="남쪽 봉화탑으로" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010672" Text="신단의 그늘 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010673" Text="신단의 그늘 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010674" Text="신단의 그늘 3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010675" Text="또 하나의 부름" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010676" Text="테루아의 경고" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010677" Text="유목지의 방비" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010678" Text="숨겨 놓은 편지" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010679" Text="리칠의 준비" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010680" Text="불행한 소식" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010681" Text="라임의 주인?! 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010682" Text="라임의 주인?! 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010683" Text="라임의 주인?! 3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010684" Text="라임의 주인?! 4" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010685" Text="라임의 주인?! 5" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010686" Text="불친절!한 태수 보좌관" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010687" Text="타란의 연구" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010688" Text="고룡의 흔적 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010689" Text="고룡의 흔적 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010690" Text="고룡의 흔적 3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010691" Text="고룡의 흔적 4" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010692" Text="고룡의 흔적 5" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010693" Text="약속의 호수 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010694" Text="약속의 호수 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010695" Text="약속의 호수 3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010696" Text="약속의 호수 3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010697" Text="약속의 호수 3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010698" Text="약속의 호수 4" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010699" Text="약속의 호수 4" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010700" Text="약속의 호수 4" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010701" Text="약속의 호수 5" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010702" Text="약속의 호수 6" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010703" Text="바람의 기둥 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010704" Text="바람의 기둥 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010705" Text="바람의 기둥 3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010706" Text="바람의 기둥 4" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010707" Text="바람의 기둥 5" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010708" Text="바람의 기둥 6" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010709" Text="검은 마비 숲 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010710" Text="검은 마비 숲 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010711" Text="검은 마비 숲 3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010712" Text="[파티]검은 마비 숲 4" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010713" Text="검은 마비 숲 4" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010714" Text="검은 마비 숲 4" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010715" Text="검은 마비 숲 5" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010716" Text="검은 마비 숲 5" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010717" Text="검은 마비 숲 5" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010718" Text="검은 마비 숲 6" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010719" Text="과거의 흔적 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010720" Text="과거의 흔적 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010721" Text="과거의 흔적 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010722" Text="과거의 흔적 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010723" Text="[파티]과거의 흔적 3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010724" Text="과거의 흔적 4" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010725" Text="과거의 흔적 5" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010726" Text="과거의 흔적 5" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010727" Text="과거의 흔적 5" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010728" Text="과거의 흔적 6" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010729" Text="나달의 비 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010730" Text="나달의 비 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010731" Text="나달의 비 3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010732" Text="나달의 비 4" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010733" Text="나달의 비 5" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010734" Text="나달의 비 6" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010735" Text="나달의 비 6" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010736" Text="나달의 비 6" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010737" Text="로우란 사막으로" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010738" Text="무서운 버섯바위 아가마" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010739" Text="바위 뒤의 위협" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010740" Text="유랑 상단의 분노" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010741" Text="호위 용병의 부탁" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010742" Text="용병의 가방" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010743" Text="연인을 위한 선물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010744" Text="백년 사랑의 약속" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010745" Text="도난 당한 모험가의 가방" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010746" Text="[파티]골짜기의 대마왕" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010747" Text="하스레딘의 터번 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010748" Text="하스레딘의 터번 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010749" Text="하스레딘의 터번 3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010750" Text="하스레딘의 터번 4" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010751" Text="신참 노예의 부탁" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010752" Text="벨라의 옷" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010753" Text="자고 싶은 피킨" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010754" Text="자유를 향한 작은 손길" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010755" Text="마문도의 취향" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010756" Text="마문도의 독촉장" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010757" Text="마을의 위협" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010758" Text="조용한 마을" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010759" Text="모험가의 푸념" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010760" Text="빅순의 꼬리" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010761" Text="쓸데 없는 친절" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010762" Text="노인의 보석" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010763" Text="사막 샤우라 사냥" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010764" Text="사냥꾼의 우정" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010765" Text="불길한 새" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010766" Text="망가진 덫" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010767" Text="비약의 재료" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010768" Text="마녀의 해독제" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010769" Text="도망치는 피킨 돕기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010770" Text="고향 사람의 친절" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010771" Text="둔한 스쿠르" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010772" Text="방해하지 말란말이야!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010773" Text="[파티]향수병" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010774" Text="빛나는 등뼈" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010775" Text="빛나는 등껍질" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010776" Text="배가 많이 고픈 투르가" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010777" Text="마티나에게 뇌물을" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010778" Text="고객 관리" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010779" Text="피킨의 배신자 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010780" Text="피킨의 배신자 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010781" Text="피킨의 배신자 3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010782" Text="피킨의 배신자 4" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010783" Text="천연 발모제" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010784" Text="알 우디르의 오늘" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010785" Text="고양이~밥!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010786" Text="고된 모험가의 길" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010787" Text="모험가의 수치" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010788" Text="모래 바람 고블린 처치" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010789" Text="스쿠르 대 변신! 연구단" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010790" Text="[파티]백지장도 맞들면 낫다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010791" Text="날랜 타툴라의 앞다리" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010792" Text="[파티]보스 처치!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010793" Text="마티나의 호사품" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010794" Text="스쿠르의 연구물품" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010795" Text="두고비 사막의 약속" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010796" Text="무서운 손톱?" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010797" Text="피킨과 더듬이" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010798" Text="파닥파닥 날개짓" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010799" Text="작지만 단단한 발톱" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010800" Text="피킨 노예의 나침반" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010801" Text="이치치카 마을 보안" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010802" Text="티롤레의 조미료" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010803" Text="[파티]마이토리아 처치" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010804" Text="사막의 슬픔" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010805" Text="남자의 눈물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010806" Text="오래된 흔적" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010807" Text="이치치카의 결혼 예물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010808" Text="마을의 안전을 위해" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010809" Text="숨은 보물 찾기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010810" Text="사라진 병사들" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010811" Text="사막의 항구 유적" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010812" Text="모험가 길드의 지원" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010813" Text="기쁜 소식" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010814" Text="급한대로 물 처방!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010815" Text="혼자하는 감시" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010816" Text="우르드가에게 라임을" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010817" Text="좀 더 의미있는 일을.." Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010818" Text="개미굴 연구의 방해자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010819" Text="합동 연구를 합니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010820" Text="귀찮은 세이람" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010821" Text="마티나와 거래란" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010822" Text="새로운 도움" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010823" Text="영광의 잔해" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010824" Text="재주는 피킨이 넘고.." Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010825" Text="심한 처벌" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010826" Text="불쌍한 크로키들" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010827" Text="귀중한 물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010828" Text="너무 어려운 임무" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010829" Text="[파티]크로얀 처치" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010830" Text="[파티]마크리온 처치" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010831" Text="탐부리니의 저녁식사" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010832" Text="안개 속의 위험" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010833" Text="어린 마티나의 장난감" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010834" Text="안개 속 경비대의 고충" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010835" Text="귀찮은 추가 업무" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010836" Text="알 사르바나의 도움 요청" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010837" Text="나쁜 마티나 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010838" Text="나쁜 마티나 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010839" Text="나쁜 마티나 3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010840" Text="나쁜 마티나 4" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010841" Text="모래 밭의 위협" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010842" Text="돕고 살아야지" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010843" Text="물이 나올까?" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010844" Text="카도돈이 지키는 것" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010845" Text="흔적 지우기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010846" Text="벗겨진 신발" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010847" Text="은혜 갚는 피킨" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010848" Text="한 발 먼저 간 동지" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010849" Text="골짜기의 골칫덩이" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010850" Text="모험가의 손" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010851" Text="악몽의 사막 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010852" Text="악몽의 사막 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010853" Text="악몽의 사막 3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010854" Text="당거를 위해" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010855" Text="당거에게 희망을" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010856" Text="고약한 냄새" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010857" Text="너라도 살아" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010858" Text="발을 멈춘 이유" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010859" Text="몸을 지킬 무기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010860" Text="두고 갈 수 없는 추억" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010861" Text="깨진 항아리 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010862" Text="깨진 항아리 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010863" Text="뿌린대로 거두는 저주" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010864" Text="모험 이야기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010865" Text="아빠 이야기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010866" Text="핑의 부모" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010867" Text="스쿠르의 연장" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010868" Text="모래의 주인 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010869" Text="모래의 주인 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010870" Text="모래의 주인 3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010871" Text="[파티]모래의 주인 4" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010872" Text="다친 사냥꾼" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010873" Text="사냥꾼의 경고" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010874" Text="추가 업무" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010875" Text="노움의 정체 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010876" Text="노움의 정체 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010877" Text="노움의 정체 3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010878" Text="노움의 정체 4" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010879" Text="피킨이 숨겨둔 것" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010880" Text="작은 속삭임" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010881" Text="나의 오아시스" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010882" Text="물 관리" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010883" Text="노예해방군 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010884" Text="노예해방군 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010885" Text="노예해방군 3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010886" Text="노예해방군 4" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010887" Text="노예해방군 5" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010888" Text="[파티]슬픈 오아시스" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010889" Text="돌아오지 않는 주인" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010890" Text="카락스의 오아시스" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010891" Text="투르가 여행자의 행방" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010892" Text="검에 물들어버린 마음" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010893" Text="미심쩍은 행방" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010894" Text="모래바람 약탈단의 정보" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010895" Text="힘에 지배되버린 투르가" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010896" Text="정체불명의 하수인" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010897" Text="밝혀지지 않은 힘" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010898" Text="오카다의 의심" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010899" Text="마티나의 숨겨진 계략" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010900" Text="크로키 대장 푸에치!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010901" Text="크로키들의 배후" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010902" Text="카악 투에" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010903" Text="[파티]카악 투에의 함정" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010904" Text="탐부리니를 향한 분노" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010905" Text="달아난 피킨의 행방" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010906" Text="유메시로의 걱정" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010907" Text="쏘생크 탈출" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010908" Text="무기를 놓친 투르가" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010909" Text="샘솟는 악의 기운" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010910" Text="티에리아" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010911" Text="선의의 거짓말" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010912" Text="멍청이 우루드가" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010913" Text="고메드의 복수작전" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010914" Text="라임의 정체는 과일?" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010915" Text="과일로 위장할 재료" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010916" Text="철저한 이리야의 준비" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010917" Text="고메드의 마지막 일격" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010918" Text="우루드가의 곤욕" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010919" Text="신바하드의 농장 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010920" Text="신바하드의 농장 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010921" Text="신바하드의 농장 3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010922" Text="무리한 요구 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010923" Text="무리한 요구 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010924" Text="무리한 요구 3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010925" Text="무리한 요구 4" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010926" Text="무리한 요구 5" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010927" Text="안개 낀 산호 농장으로" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010928" Text="도발적인 물건? 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010929" Text="도발적인 물건? 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010930" Text="도발적인 물건? 3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010931" Text="피의 농장" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010932" Text="소금 광산으로" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010933" Text="광산 출입증" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010934" Text="무서운 노커" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010935" Text="놀란 노커 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010936" Text="놀란 노커 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010937" Text="놀란 노커 3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010938" Text="사막에서의 추억 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010939" Text="사막에서의 추억 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010940" Text="사막에서의 추억 3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010941" Text="사막에서의 추억 4" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010942" Text="사막에서의 추억 5" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010943" Text="사막에서의 추억 6" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010944" Text="길 잃은 희망 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010945" Text="길 잃은 희망 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010946" Text="길 잃은 희망 3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010947" Text="길 잃은 희망 4" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010948" Text="길 잃은 희망 5" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010949" Text="길 잃은 희망 6" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010950" Text="알 아미르로" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010951" Text="피킨과 마티나 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010952" Text="피킨과 마티나 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010953" Text="피킨과 마티나 3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010954" Text="피킨과 마티나 4" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010955" Text="피킨과 마티나 5" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010956" Text="도망친 피킨의 소식" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010957" Text="위험에 빠진 이들" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010958" Text="사막의 예언자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010959" Text="사막의 사기꾼 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010960" Text="사막의 사기꾼 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010961" Text="사막의 사기꾼 3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010962" Text="사막의 사기꾼 4" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010963" Text="사막의 사기꾼 5" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010964" Text="사막의 사기꾼 6" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010965" Text="사막의 사기꾼 7" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010966" Text="푸른 가루1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010967" Text="푸른 가루2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010968" Text="푸른 가루3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010969" Text="푸른 가루4" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010970" Text="한 밤중의 심부름1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010971" Text="한 밤중의 심부름2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010972" Text="한 밤중의 심부름3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010973" Text="한 밤중의 심부름4" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010974" Text="한 밤중의 심부름5" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010975" Text="한 밤중의 심부름6" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010976" Text="사막의 전설1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010977" Text="[파티]사막의 전설2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010978" Text="사막의 전설3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010979" Text="사막의 전설4" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010980" Text="[파티]사막의 전설5" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010981" Text="사막의 전설6" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010982" Text="사막의 전설7" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010983" Text="납치된 부인1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010984" Text="납치된 부인2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010985" Text="납치된 부인3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010986" Text="납치된 부인4" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010987" Text="납치된 부인5" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010988" Text="납치된 부인6" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010989" Text="남겨진 영혼1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010990" Text="남겨진 영혼2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010991" Text="남겨진 영혼3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010992" Text="남겨진 영혼4" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010993" Text="남겨진 영혼5" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010994" Text="남겨진 영혼6" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010995" Text="남겨진 영혼7" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010996" Text="남겨진 영혼8" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010997" Text="집 잃은 크로키1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010998" Text="집 잃은 크로키2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901010999" Text="집 잃은 크로키3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011000" Text="집 잃은 크로키4" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011001" Text="집 잃은 크로키5" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011002" Text="집 잃은 크로키6" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011003" Text="노예 사냥꾼1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011004" Text="노예 사냥꾼2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011005" Text="노예 사냥꾼3" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011006" Text="노예 사냥꾼4" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011007" Text="노예 사냥꾼5" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011008" Text="노예 사냥꾼5" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011009" Text="노예 사냥꾼5" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011010" Text="노예 사냥꾼6" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011011" Text="노예 사냥꾼7" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011012" Text="친구와의 약속" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011013" Text="입국 자격" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011014" Text="서류 발급" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011015" Text="정의의 사도?" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011016" Text="통행증 서류" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011017" Text="B.T단 추격" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011018" Text="협곡의 돌" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011019" Text="돌의 정체" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011020" Text="반납" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011021" Text="투르하만 입성" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011022" Text="오지 않는 소식" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011023" Text="투르칸의 딸" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011024" Text="사라진 경비대" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011025" Text="근원제거" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011026" Text="벨리비의 여왕" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011027" Text="죽은자는 말이 없다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011028" Text="천조각의 표식" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011029" Text="투르칸 앵글하트의 착각?" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011030" Text="카이자 호크의 문양" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011031" Text="카르야 농장" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011032" Text="카르야의 야심" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011033" Text="죽음의 꽃" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011034" Text="추격전" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011035" Text="운반대 저지" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011036" Text="경비대의 행방" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011037" Text="감염" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011038" Text="언데드" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011039" Text="[파티]알 사르바나의 악몽" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011040" Text="리저드의 지도" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011041" Text="사막의 정찰대" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011042" Text="사막의 그림자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011043" Text="잃어버린 야영지" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011044" Text="정찰대의 추적자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011045" Text="궁지에 몰린 마티나" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011046" Text="암살자의 역습" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011047" Text="[파티]잊혀진 자들의 절벽" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011048" Text="[파티]잊혀진 자들의 절벽" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011049" Text="[파티]잊혀진 자들의 절벽" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011050" Text="[파티]잊혀진 자들의 절벽" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011051" Text="사라진 카르야" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011052" Text="열풍 갈취단의 습격" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011053" Text="프레데릭의 흔적" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011054" Text="엄청난 발견" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011055" Text="정체불명의 고블린" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011056" Text="카르야의 행방" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011057" Text="모슬라 스피라" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011058" Text="[파티]사막의 저주" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011059" Text="[파티]사막의 저주" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011060" Text="[파티]사막의 저주" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011061" Text="또 다른 위협" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011062" Text="전초병 제거" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011063" Text="나라트의 제단" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011064" Text="나라트의 제단" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011065" Text="나라트의 제단" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011066" Text="[파티]반역의 샤루칸 샤마" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011067" Text="[파티]반역의 샤루칸 샤마" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011068" Text="[파티]반역의 샤루칸 샤마" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011069" Text="나라트의 제단의 힘" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011070" Text="그들이 쫓는 힘" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011071" Text="사막 경비대의 고충" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011072" Text="사막 강도단 소탕" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011073" Text="사막 강도단 소탕" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011074" Text="사막 강도단 소탕" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011075" Text="사막 강도단 소탕" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011076" Text="한방 털이단의 최후" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011077" Text="한방 털이단의 최후" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011078" Text="한방 털이단의 최후" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011079" Text="붕괴의 조짐" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011080" Text="[파티]차원의 파괴자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011081" Text="이즈마엘의 능력" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011082" Text="제단의 위기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011083" Text="제단의 그림자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011084" Text="제단의 그림자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011085" Text="제단의 그림자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011086" Text="작전상의 후퇴" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011087" Text="혼란" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011088" Text="항구마을 다르만" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011089" Text="도르토르의 보물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011090" Text="도르토르의 보물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011091" Text="도르토르의 보물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011092" Text="통로에 갇힌 동료" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011093" Text="스피럴 가루" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011094" Text="[반복]가장 피곤한 일" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011095" Text="스피럴 광석" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011096" Text="샘을 점령한 고블린" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011097" Text="뜨거울 땐 시원한 물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011098" Text="베투아의 최후" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011099" Text="희망의 샘" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011100" Text="대륙 최고의 미녀?" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011101" Text="꿈과 양심의 사이" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011102" Text="병사를 노리는 매의 눈" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011103" Text="농땡이의 최후" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011104" Text="외상 값 회수" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011105" Text="아디의 잘못" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011106" Text="단검 반납" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011107" Text="내려오지 않는 피킨" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011108" Text="상자 나르기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011109" Text="농장을 지켜라" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011110" Text="깜짝 놀랄 일" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011111" Text="[반복]벨리비 소탕" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011112" Text="위험한 그녀" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011113" Text="뚜뚜의 잘못" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011114" Text="[반복]협곡의 문제" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011115" Text="엘리스의 사랑" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011116" Text="엘리스의 사랑고백" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011117" Text="이반의 마음" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011118" Text="도둑잡기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011119" Text="되찾은 목걸이" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011120" Text="어머니의 마음" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011121" Text="[반복]위험한 무늬" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011122" Text="모슬라 상단의 고용" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011123" Text="상단 방어" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011124" Text="돈이 될만한 거래" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011125" Text="[반복]돈이 될만한 거래" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011126" Text="포션 배달" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011127" Text="샤우라의 무덤" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011128" Text="카니어스" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011129" Text="부품 수거" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011130" Text="[반복]부품 수거" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011131" Text="화염의 무도가" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011132" Text="열풍 갈취단 강탈" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011133" Text="[반복]카이자호크의 잔당" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011134" Text="모슬라 사막의 치안" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011135" Text="사막의 보물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011136" Text="사막의 보물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011137" Text="사막의 보물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011138" Text="사막의 보물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011139" Text="사막의 보물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011140" Text="모든 일의 원인" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011141" Text="고향의 맛" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011142" Text="끝나지 않는 감시" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011143" Text="죽지 않는 존재" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011144" Text="영혼구출" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011145" Text="검은 날개의 습격" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011146" Text="[반복]불멸의 발굴지" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011147" Text="[반복]작은게 죄는 아니야" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011148" Text="술래잡기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011149" Text="보이지 않는 위험" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011150" Text="위험의 근원" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011151" Text="하트 성배" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011152" Text="위험한 이빨" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011153" Text="살인 미소" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011154" Text="보기 싫은 적" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011155" Text="갖고 싶은 꽃" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011156" Text="사막 강도단의 보물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011157" Text="[반복]사막 청소" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011158" Text="뜨거운 배달" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011159" Text="준비하지 않은 일" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011160" Text="신관도 목은 마르다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011161" Text="결투신청" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011162" Text="숲의 파괴자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011163" Text="친구를 위한 도움" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011164" Text="만들어 가는 길" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011165" Text="편의" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011166" Text="투 프칸 해적단 퇴치" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011167" Text="해적선장 투 프칸" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011168" Text="[반복]투 프칸 해적단 퇴치" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011169" Text="다르만 해변 청소" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011170" Text="이해가지 않는 일" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011171" Text="비약의 재료" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011172" Text="노란 미인초의 뿌리 삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011173" Text="노란 미인초의 꽃 삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011174" Text="오래된 가로나족의 유물 삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011175" Text="오래된 가로나족의 보석 삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011176" Text="검은 자귀나무의 열매 삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011177" Text="검은 자귀나무의 목재삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011178" Text="붉은 트리티마이트의 광석삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011179" Text="붉은 트리티마이트의 금속삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011180" Text="사막 산장초의 뿌리삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011181" Text="사막 산장초의 꽃삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011182" Text="오래된 슈카족의 유물삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011183" Text="오래된 슈카족의 보석삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011184" Text="노란 미류나무의 열매삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011185" Text="노란 미류나무의 목재삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011186" Text="붉은 석영의 광석삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011187" Text="붉은 석영의 금속삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011188" Text="붉은 분꽃의 뿌리 삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011189" Text="붉은 분꽃의 꽃 삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011190" Text="오래된 카샨족의 유물 삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011191" Text="오래된 카샨족의 보석 삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011192" Text="정글 로뎀나무의 열매 삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011193" Text="정글 로뎀나무의 목재 삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011194" Text="붉은 오자이트의 광석 삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011195" Text="붉은 오자이트의 금속 삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011196" Text="[제작]드래곤 클레이모어 보급" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011197" Text="[제작]대지의 서 보급" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011198" Text="[제작]리넨 갑옷 보급" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011199" Text="[제작]리넨 다리갑옷 보급" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011200" Text="[제작]바람의 가죽튜닉 보급" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011201" Text="[제작]바람의 가죽바지 보급" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011202" Text="[제작]믿음의 로브 보급" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011203" Text="[제작]별빛가루 바지 보급" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011204" Text="[제작]검은 자귀나무맛 크로켓 보급" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011205" Text="[제작]검은 자귀나무맛 리조뜨 보급" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011206" Text="[제작]노란 미인초 에이드 보급" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011207" Text="[제작]검은 자귀나무 주스 보급" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011208" Text="[제작]소드브레이커 보급" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011209" Text="[제작]드래곤 스태프 보급" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011210" Text="[제작]브리간디 갑옷 보급" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011211" Text="[제작]브리간디 다리갑옷 보급" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011212" Text="[제작]어둠의 가죽튜닉 보급" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011213" Text="[제작]어둠의 가죽바지 보급" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011214" Text="[제작]대마법사의 예복 보급" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011215" Text="[제작]대사제의 하의 보급" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011216" Text="[제작]노란 미류나무맛 소시지 보급" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011217" Text="[제작]정글 로뎀나무맛 바비큐 보급" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011218" Text="[제작]사막 산장초 에이드 보급" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011219" Text="[제작]정글 로뎀나무 주스 보급" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011220" Text="심부름" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011221" Text="상자 옮기기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011222" Text="브리머의 차 밭" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011223" Text="찻 잎" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011224" Text="울타리 치기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011225" Text="이상한 구덩이" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011226" Text="단짝친구" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011227" Text="친구의 실수" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011228" Text="신비한 힘" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011229" Text="키드리아" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011230" Text="씨앗 회수" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011231" Text="씨앗 주머니 배달" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011232" Text="무서운 할머니" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011233" Text="혼나기 싫어" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011234" Text="잡초 뽑기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011235" Text="할머니의 심부름" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011236" Text="추출 배우기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011237" Text="정제 배우기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011238" Text="라디토마의 배짱" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011239" Text="제작 배우기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011240" Text="샤오 퇴치제" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011241" Text="모나의 행방" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011242" Text="모나의 부탁" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011243" Text="리본" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011244" Text="신비한 조각의 정체" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011245" Text="조미료 심부름" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011246" Text="다리" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011247" Text="루나의 주머니" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011248" Text="레오의 행동" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011249" Text="이상한 여자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011250" Text="귀환" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011251" Text="안전한 집" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011252" Text="원인조사" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011253" Text="수확의 기쁨" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011254" Text="마법석의 수호자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011255" Text="페이페이!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011256" Text="이상한 신전 지킴이" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011257" Text="동력장치 연료" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011258" Text="무서운 신전 지킴이" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011259" Text="동력장치 부품" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011260" Text="멀쩡한 신전 지킴이" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011261" Text="기간트리의 혼" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011262" Text="달의 신전" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011263" Text="마법석 작동" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011264" Text="누누디토로" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011265" Text="은행 심부름" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011266" Text="다르멍의 교육" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011267" Text="관리소녀" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011268" Text="편지 배달" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011269" Text="부러진 검" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011270" Text="수리 재료" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011271" Text="블루코랄로" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011272" Text="강화의 힘" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011273" Text="의문의 테스트" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011274" Text="힘의 근원" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011275" Text="불쌍한 고블린" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011276" Text="제자 코이큐티" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011277" Text="복습" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011278" Text="리더" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011279" Text="보물 사냥꾼 닉키" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011280" Text="몸 풀기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011281" Text="보물 사냥" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011282" Text="코리 누나" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011283" Text="수중 전투" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011284" Text="운이 좋은 경우" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011285" Text="마법사 마리우" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011286" Text="고요함" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011287" Text="호수의 보물 상자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011288" Text="검사 아론" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011289" Text="동료" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011290" Text="준비완료" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011291" Text="만남" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011292" Text="소란" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011293" Text="스타 브릿지" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011294" Text="해결" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011295" Text="B.T단의 횡포" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011296" Text="모험의 시작" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011297" Text="조난" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011298" Text="블루 코랄로" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011299" Text="기구의 행방" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011300" Text="기구 파손" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011301" Text="재주꾼 스팀쇼벨" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011302" Text="만능 도구" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011303" Text="마법의 재료" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011304" Text="갈퀴손의 주머니" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011305" Text="언데드 사냥꾼" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011306" Text="영혼의 가루" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011307" Text="준비된 재료" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011308" Text="손만 거들 뿐" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011309" Text="신나는 모험" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011310" Text="세이렌을 도와라!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011311" Text="아리아 섬으로!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011312" Text="점령당한 섬" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011313" Text="신비한 친구" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011314" Text="아루루" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011315" Text="킹 비잉" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011316" Text="내가 영웅?" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011317" Text="푸른 산호 숲의 영웅!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011318" Text="그린리프의 요청" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011319" Text="구호물품 배달" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011320" Text="공중여행" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011321" Text="징글징글" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011322" Text="라나 퇴치" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011323" Text="합동작전" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011324" Text="맛있는 간식?" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011325" Text="반찬투정" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011326" Text="보물 지도" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011327" Text="공정한 거래" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011328" Text="거래 성립" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011329" Text="나무 할아버지" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011330" Text="언짢은 기분" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011331" Text="궁금증" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011332" Text="윈디 탐색꾼" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011333" Text="쌍둥이 경비병" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011334" Text="쌍둥이 몬스터" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011335" Text="배가 고파요" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011336" Text="음식 재료" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011337" Text="돌돌말이" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011338" Text="감사의 보답" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011339" Text="페이페이의 죽순" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011340" Text="숲의 파괴자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011341" Text="울루쿠룸의 고민" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011342" Text="괴력의 다이페이" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011343" Text="아이들의 간식" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011344" Text="시끄러운 소리" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011345" Text="팡차단 등장!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011346" Text="악당의 정체" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011347" Text="실종된 대원" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011348" Text="겁쟁이 쿠루루" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011349" Text="비밀기지" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011350" Text="정의는 승리한다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011351" Text="예쁜 리본" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011352" Text="리본 배달" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011353" Text="진짜는 무엇?" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011354" Text="촌장이 할 일" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011355" Text="괴롭히는건 나빠!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011356" Text="무서운 엄마" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011357" Text="착각" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011358" Text="바람아 불어라" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011359" Text="도시락 배달" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011360" Text="달콤한 설탕" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011361" Text="오빠의 마음" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011362" Text="동생의 마음" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011363" Text="맛있는 튀김" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011364" Text="두두로 아저씨" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011365" Text="수영 신동" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011366" Text="다듬어진 고기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011367" Text="치쿠너 튀김" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011368" Text="낚시대 복수" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011369" Text="채집숙제 도와주기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011370" Text="너부리아의 채집숙제" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011371" Text="포로리아의 채집숙제" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011372" Text="때릴거야?" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011373" Text="불꽃의 힘" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011374" Text="마법 연습" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011375" Text="패닉상태" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011376" Text="너트너클의 실수" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011377" Text="낮말은 새가 듣고…" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011378" Text="운송상자 전달" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011379" Text="B.T단 처치" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011380" Text="무서운 푸루아" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011381" Text="식재료" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011382" Text="목재 저장" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011383" Text="스피럴 큐브 수리" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011384" Text="새로운 사업" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011385" Text="등가교환" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011386" Text="등가교환" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011387" Text="등가교환" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011388" Text="언니와의 약속" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011389" Text="감시자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011390" Text="치클멍의 본업" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011391" Text="부족한 인원" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011392" Text="기구 연료" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011393" Text="기구 연료" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011394" Text="기구 연료" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011395" Text="[제작]모아두기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011396" Text="[제작]모아두기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011397" Text="[제작]모아두기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011398" Text="[제작]불우이웃돕기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011399" Text="[제작]불우이웃돕기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011400" Text="[제작]불우이웃돕기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011401" Text="[제작]메탈 견갑 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011402" Text="[제작]고기스프 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011403" Text="[제작]행운의 가죽견장 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011404" Text="[제작]메탈 벨트 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011405" Text="[제작]자귀나무맛 훈제 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011406" Text="[제작]모험가 가죽 허리띠 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011407" Text="[전직]초록초록 상자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011408" Text="[전직]현명한 할머니" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011409" Text="[전직]연마장의 길" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011410" Text="[전직]원대장 파누" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011411" Text="[전직]아이의 소질" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011412" Text="[전직]현명한 할머니" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011413" Text="[전직]요리사의 길" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011414" Text="[전직]주방장 밀크" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011415" Text="[전직]아이의 소질" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011416" Text="[전직]현명한 할머니" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011417" Text="[전직]재봉사의 길" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011418" Text="[전직]재봉사 슈슈아" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011419" Text="[전직]아이의 소질" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011420" Text="[전직]대장장의 길" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011421" Text="[전직]대장장이의 체력" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011422" Text="[전직]대장장이의 끈기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011423" Text="[전직]대장장이의 자질" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011424" Text="[전직]대장장이의 능력" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011425" Text="[전직]조리사의 길" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011426" Text="[전직]요리사의 체력" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011427" Text="[전직]요리사의 끈기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011428" Text="[전직]요리사의 자질" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011429" Text="[전직]요리사의 능력" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011430" Text="[전직]재봉공의 길" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011431" Text="[전직]재봉사의 체력" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011432" Text="[전직]재봉사의 끈기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011433" Text="[전직]재봉사의 자질" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011434" Text="[전직]재봉사의 능력" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011435" Text="[전직]원대장의 길" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011436" Text="[전직]대장장이의 시련" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011437" Text="[전직]뜨거운 시험" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011438" Text="[전직]대장장이로써의 능력" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011439" Text="[전직]승격 원대장!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011440" Text="[전직]주방장의 길" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011441" Text="[전직]요리사의 시련" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011442" Text="[전직]매콤한 시험" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011443" Text="[전직]요리사로써의 능력" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011444" Text="[전직]승격 주방장!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011445" Text="[전직]재봉장의 길" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011446" Text="[전직]재봉사의 시련" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011447" Text="[전직]날카로운 시험" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011448" Text="[전직]재봉사로써의 능력" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011449" Text="[전직]승격 재봉장!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011450" Text="[던전]탈룬바라 공략!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011451" Text="[던전]탈룬바라 공략!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011452" Text="[던전]탈룬바라 공략!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011453" Text="[던전]탈룬바라 공략!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011454" Text="[던전]케이거의 미래" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011455" Text="[던전]칸바 레드스카의 증오" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011456" Text="[던전]저주받은 저택" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011457" Text="[던전]저주받은 저택" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011458" Text="[던전]저주받은 저택" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011459" Text="[던전]저주받은 저택" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011460" Text="[던전]괴상한 관" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011461" Text="[던전]망령의 보물 상자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011462" Text="[던전]대적의 열쇠" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011463" Text="[던전]대적의 열쇠" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011464" Text="[던전]대적의 열쇠" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011465" Text="[던전]대적의 열쇠" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011466" Text="[던전]폭풍의 열쇠" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011467" Text="[던전]폭풍의 열쇠" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011468" Text="[던전]폭풍의 열쇠" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011469" Text="[던전]폭풍의 열쇠" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011470" Text="[던전]신속의 열쇠" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011471" Text="[던전]신속의 열쇠" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011472" Text="[던전]신속의 열쇠" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011473" Text="[던전]신속의 열쇠" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011474" Text="[던전]신중의 열쇠" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011475" Text="[던전]신중의 열쇠" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011476" Text="[던전]신중의 열쇠" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011477" Text="[던전]신중의 열쇠" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011478" Text="[던전]의문의 마녀" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011479" Text="[던전]무덤지기 아우드" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011480" Text="[던전]무덤지기 아우드" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011481" Text="[던전]무덤지기 아우드" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011482" Text="[던전]장군 베루스" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011483" Text="[던전]장군 베루스" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011484" Text="[던전]장군 베루스" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011485" Text="[던전]타락의 이스달" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011486" Text="[던전]타락의 이스달" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011487" Text="[던전]타락의 이스달" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011488" Text="[던전]마법의 램프" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011489" Text="[던전]마법의 램프" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011490" Text="[던전]마법의 램프" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011491" Text="[던전]마법의 램프" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011492" Text="[던전]광산의 야생 몬스터" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011493" Text="[던전]광산 경비대의 제안" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011494" Text="[전직]신기한 물건" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011495" Text="[전직]신기한 물건의 주인" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011496" Text="[전직]연마장의 길" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011497" Text="[전직]원대장과의 만남" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011498" Text="[전직]대장장이로써 갖춰야 할 것" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011499" Text="[전직]신비한 물건의 정체" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011500" Text="[전직]요리사의 길" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011501" Text="[전직]주방장과의 만남" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011502" Text="[전직]요리사로써 갖춰야 할 것" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011503" Text="[전직]신비한 물건의 비밀" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011504" Text="[전직]재봉사의 길" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011505" Text="[전직]재봉장과의 만남" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011506" Text="[전직]재봉사로써 갖춰야 할 것" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011507" Text="[전직]대단한 물건" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011508" Text="[전직]대단한 물건의 주인" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011509" Text="[전직]연마장의 길!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011510" Text="[전직]원대장 룩서스와의 만남" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011511" Text="[전직]대장장이로써 필요한 것" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011512" Text="[전직]대단한 물건의 정체" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011513" Text="[전직]요리사의 길!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011514" Text="[전직]주방장 아일스와의 만남" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011515" Text="[전직]요리사로써 필요한 것" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011516" Text="[전직]대단한 물건의 비밀" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011517" Text="[전직]재봉사의 길!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011518" Text="[전직]재봉장 온누와의 만남" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011519" Text="[전직]재봉사로써 필요한 것" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011520" Text="[전직]대장장의 길" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011521" Text="[전직]대장장이의 체력" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011522" Text="[전직]대장장이의 끈기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011523" Text="[전직]대장장이의 자질" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011524" Text="[전직]대장장이의 능력" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011525" Text="[전직]조리사의 길" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011526" Text="[전직]요리사의 체력" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011527" Text="[전직]요리사의 끈기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011528" Text="[전직]요리사의 자질" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011529" Text="[전직]요리사의 능력" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011530" Text="[전직]재봉공의 길" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011531" Text="[전직]재봉사의 체력" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011532" Text="[전직]재봉사의 끈기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011533" Text="[전직]재봉사의 자질" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011534" Text="[전직]재봉사의 능력" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011535" Text="[전직]대장장의 길!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011536" Text="[전직]대장장이의 체력!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011537" Text="[전직]대장장이의 끈기!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011538" Text="[전직]대장장이의 자질!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011539" Text="[전직]대장장이의 능력!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011540" Text="[전직]조리사의 길!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011541" Text="[전직]요리사의 체력!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011542" Text="[전직]요리사의 끈기!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011543" Text="[전직]요리사의 자질!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011544" Text="[전직]요리사의 능력!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011545" Text="[전직]재봉공의 길!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011546" Text="[전직]재봉사의 체력!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011547" Text="[전직]재봉사의 끈기!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011548" Text="[전직]재봉사의 자질!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011549" Text="[전직]재봉사의 능력!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011550" Text="[전직]원대장의 길" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011551" Text="[전직]대장장이의 시련" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011552" Text="[전직]뜨거운 시험" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011553" Text="[전직]대장장이로써의 능력" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011554" Text="[전직]승격 원대장!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011555" Text="[전직]주방장의 길" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011556" Text="[전직]요리사의 시련" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011557" Text="[전직]매콤한 시험" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011558" Text="[전직]요리사로써의 능력" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011559" Text="[전직]승격 주방장!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011560" Text="[전직]재봉장의 길" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011561" Text="[전직]재봉사의 시련" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011562" Text="[전직]날카로운 시험" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011563" Text="[전직]재봉사로써의 능력" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011564" Text="[전직]승격 재봉장!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011565" Text="[전직]원대장의 길!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011566" Text="[전직]대장장이의 시련!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011567" Text="[전직]뜨거운 시험!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011568" Text="[전직]대장장이로써의 능력!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011569" Text="[전직]승격 원대장!!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011570" Text="[전직]주방장의 길!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011571" Text="[전직]요리사의 시련!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011572" Text="[전직]매콤한 시험!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011573" Text="[전직]요리사로써의 능력!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011574" Text="[전직]승격 주방장!!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011575" Text="[전직]재봉장의 길!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011576" Text="[전직]재봉사의 시련!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011577" Text="[전직]날카로운 시험!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011578" Text="[전직]재봉사로써의 능력!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011579" Text="[전직]승격 재봉장!!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011580" Text="건강에 좋은 재료" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011581" Text="바이올렛의 분노" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011582" Text="류사 아반의 흑심" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011583" Text="부족한 보급 메꾸기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011584" Text="특별한 손님의 의뢰" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011585" Text="신제품 야채빵" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011586" Text="베일에 쌓여진 거래" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011587" Text="마음으로 하는 간호" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011588" Text="굶주린 레드코랄" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011589" Text="연구해 볼 가치" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011590" Text="빛 뿜는 광석" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011591" Text="허세 가득찬 마음" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011592" Text="상큼한 과일 케잌" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011593" Text="어두운 신용" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011594" Text="아이에게 주는 선물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011595" Text="뱀파이어가 싫어하는 것" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011596" Text="잠깐의 여유" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011597" Text="그라니아의 보급 능력" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011598" Text="한스가 좋아하는 장비" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011599" Text="빵 상인의 걱정" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011600" Text="암거래상의 정체" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011601" Text="헬리아의 응급처치" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011602" Text="구호소의 창고설치" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011603" Text="제임스의 수집욕구" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011604" Text="바다를 밝힐 광석" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011605" Text="아들에게 줄 선물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011606" Text="불우이웃 돕기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011607" Text="헤어짐 뒤엔 만남이" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011608" Text="아트를 위한 특제 보양식" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011609" Text="레인을 지켜 줄 보호막" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011610" Text="고향으로 가기 위한 비용" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011611" Text="막내의 실수" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011612" Text="자신에게 맞는 방어구" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011613" Text="풀 뜯는 투르가" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011614" Text="아나벨의 봉사정신" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011615" Text="아내에게 바칠 선물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011616" Text="겁 많은 판데모" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011617" Text="로벤트의 재치" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011618" Text="장비 제작 차단" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011619" Text="위치가 장비를 만든다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011620" Text="달콤함의 유혹" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011621" Text="카라쿤타 천막보수" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011622" Text="바투 길들이기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011623" Text="툼바라 초원의 과거" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011624" Text="주술을 위한 재료" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011625" Text="대주술사의 결계" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011626" Text="단단함의 필요성" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011627" Text="테이스티의 자존심" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011628" Text="아름다운 신부를 위해" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011629" Text="전장속에서 빛나줘" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011630" Text="밀타의 차" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011631" Text="우정을 지키고 싶어서" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011632" Text="님을 기다리는 마음" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011633" Text="초심으로 돌아가라" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011634" Text="원점으로의 회귀" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011635" Text="아나벨의 마지막 선물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011636" Text="신에게 바치는 제물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011637" Text="아버지의 마음" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011638" Text="왕에게 바칠 보석" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011639" Text="루드라의 비보" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011640" Text="노르토의 응급처치" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011641" Text="부상자를 위한 목재" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011642" Text="시간 낭비" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011643" Text="슈카단의 강탈" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011644" Text="리더로써의 임무" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011645" Text="장사를 못하는 이유" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011646" Text="가슴 아픈 현실" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011647" Text="선조에게 바치는 꽃" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011648" Text="말 밥" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011649" Text="감사할 줄 아는 마음" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011650" Text="술 취한 남자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011651" Text="편식은 좋지 않아" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011652" Text="삭막해진 고원" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011653" Text="맨드로우의 발굴작업" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011654" Text="조달받기 힘든 금속" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011655" Text="발카라스의 세금" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011656" Text="무역의 달인 미르코" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011657" Text="그린리프 활동" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011658" Text="폴로나를 위한 꽃" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011659" Text="자꾸만 고파지는 배" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011660" Text="시간이 지날수록 가치있는 것" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011661" Text="숨겨진 유목지의 장인" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011662" Text="검은 마비" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011663" Text="정말 좋은 재료" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011664" Text="골동품 상인의 일" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011665" Text="아버지를 생각하는 마음" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011666" Text="뭉쳐야만 살아남는다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011667" Text="한가지로는 살아남을 수 없어" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011668" Text="아루나이의 일상" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011669" Text="마음을 진정시키는 향기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011670" Text="뒤숭숭한 소문에 대한 대비" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011671" Text="피케의 두가지 일거리" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011672" Text="호수가 오염된 원인" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011673" Text="배고파서 서러운 고아" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011674" Text="제단출입을 통제할 방책" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011675" Text="마티나 상인의 장사속" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011676" Text="손자의 실수" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011677" Text="장신구를 장식할 것" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011678" Text="유목민을 위한 음식" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011679" Text="언니와의 약속" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011680" Text="제리니의 나들이" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011681" Text="부상자들에게 먹일 음식" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011682" Text="피킨 유랑상단의 약속" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011683" Text="포트 카론 경비대장의 고민" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011684" Text="고원에서 자라는 약초들의 효과" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011685" Text="검문소 보수 작업" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011686" Text="마티나 상인의 뇌물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011687" Text="과거로부터 내려오는 전통" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011688" Text="대장간의 요청" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011689" Text="비린내를 제거 할 향료" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011690" Text="끝 없는 요청" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011691" Text="고양이가 먹을 것" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011692" Text="물 한잔도 터프하게" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011693" Text="빛쟁이 페이벳" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011694" Text="숨어버린 카일" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011695" Text="불쌍한 피킨 노예" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011696" Text="더스트코랄의 생활" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011697" Text="나르다쿰의 걱정" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011698" Text="마티나들의 행패" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011699" Text="대 부호 하스레딘" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011700" Text="하스레딘의 식사" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011701" Text="하스레딘의 신상 옷" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011702" Text="거대 부호 하스레딘" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011703" Text="하스레딘의 깔끔한 식사" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011704" Text="하스레딘의 질긴 옷" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011705" Text="초거대 부호 하스레딘" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011706" Text="하스레딘의 맛있는 식사" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011707" Text="하스레딘의 튼튼한 옷" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011708" Text="집중력을 높여주는 향기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011709" Text="이폴트의 센스" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011710" Text="아이클의 장식품" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011711" Text="에스텔의 첫 일거리" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011712" Text="아사스를 위하여" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011713" Text="사라져버린 물건" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011714" Text="행복한 스쿠르 연구원" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011715" Text="수질 정화를 위해서" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011716" Text="조금 부족한 수리 재료" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011717" Text="치킨을 즐기는 자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011718" Text="어린 자만심의 결과" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011719" Text="부족한 수리 재료" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011720" Text="치킨 매니아" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011721" Text="자만심의 결과…" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011722" Text="많이 부족한 수리 재료" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011723" Text="치킨 종결자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011724" Text="자만심의 결과……" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011725" Text="오빠가 어긴 약속" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011726" Text="무엇보다 소중한 목숨" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011727" Text="부룬드의 야망" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011728" Text="목숨을 건 노예생활" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011729" Text="굶주리는 동료들" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011730" Text="그리운 고향의 향기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011731" Text="고향을 향한 열망" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011732" Text="메이호의 생존법" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011733" Text="유행하는 무기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011734" Text="투 브라더의 일상" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011735" Text="경험보다 좋은 스승은 없다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011736" Text="최신 유행하는 무기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011737" Text="투 브라더의 일상…" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011738" Text="경험보다 좋은 스승은 없다…" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011739" Text="많이 유행하는 무기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011740" Text="투 브라더의 일상……" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011741" Text="경험보다 좋은 스승은 없다……" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011742" Text="엔티샤의 협박" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011743" Text="난처해진 다리아" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011744" Text="신바하드의 욕심" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011745" Text="사병을 강화시킬 재료" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011746" Text="팔레르모의 궁금증" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011747" Text="마크라의 먹이" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011748" Text="겸손함의 상징" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011749" Text="마크라 지옥" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011750" Text="마티나들의 탐욕" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011751" Text="새로운 치킨 요리" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011752" Text="지식과 지혜의 차이" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011753" Text="마티나들의 탐욕…" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011754" Text="새로운 치킨 요리…" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011755" Text="지식과 지혜의 차이…" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011756" Text="마티나들의 탐욕......" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011757" Text="새로운 치킨 요리......" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011758" Text="지식과 지혜의 차이......" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011759" Text="[제작]멀고도 험한 길" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011760" Text="[제작]부족한 무기들" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011761" Text="[제작]머리가 허전해" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011762" Text="[제작]더 강력한 무기를!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011763" Text="[제작]군침 도는 식재료들" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011764" Text="[제작]맛의 달인" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011765" Text="[제작]꽃보다 과자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011766" Text="[제작]아침보다 상쾌한" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011767" Text="[제작]바늘과 실이 하는 일" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011768" Text="[제작]여행자들을 위한 예복" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011769" Text="[제작]예쁘게 수 놓기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011770" Text="[제작]기품있는 의상" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011771" Text="[제작]최소한의 생존 수단" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011772" Text="[제작]전사의 증명" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011773" Text="[제작]전투 태세 강화" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011774" Text="[제작]툼바라의 평화를 위하여" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011775" Text="[제작]배가 너무 고파!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011776" Text="[제작]음식배달" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011777" Text="[제작]식 후엔 디저트" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011778" Text="[제작]곁 들여 팔 재료" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011779" Text="[제작]전사들을 위한 선물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011780" Text="[제작]여행에 가장 필요한 물품" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011781" Text="[제작]그녀의 여가시간" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011782" Text="[제작]장로원에 납품할 물건" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011783" Text="[제작]뛰어난 장식품" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011784" Text="[제작]흩날리는 잎사귀" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011785" Text="[제작]전통차와 어울리는 간식" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011786" Text="[제작]유목민의 애용품" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011787" Text="[제작]전쟁에 대한 소문" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011788" Text="[제작]신의 계시를…" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011789" Text="[제작]태양을 피하는 방법" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011790" Text="[제작]요리수업" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011791" Text="[제작]손자의 실수!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011792" Text="[제작]수상한 의뢰" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011793" Text="[제작]창업의 첫 걸음" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011794" Text="[제작]신단의 선물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011795" Text="[제작]교관이 되는 길" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011796" Text="[제작]연애 특강" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011797" Text="[제작]음료 장사" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011798" Text="[제작]경비대의 무기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011799" Text="[제작]난감한 심부름" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011800" Text="[제작]명품 갈레로" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011801" Text="[제작]부족한 적재 수량" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011802" Text="[제작]폴론의 밥" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011803" Text="[제작]잘 팔리는 물건" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011804" Text="[미사용][제작]붉은 힘!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011805" Text="[미사용][제작]마하의 속도로" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011806" Text="[미사용][제작]깨끗한 마음가짐" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011807" Text="[미사용][제작]안전을 위해" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011808" Text="[미사용][제작]배고픈 이유" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011809" Text="[미사용][제작]마티나 던전" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011810" Text="[미사용][제작]마지막 일격을 위해" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011811" Text="[미사용][제작]악마의 황제" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011812" Text="[미사용][제작]신성한 기운" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011813" Text="[미사용][제작]시간 여행자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011814" Text="[미사용][제작]당일치기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011815" Text="[미사용][제작]포크선장의 위협" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011816" Text="[제작]메탈 견갑 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011817" Text="[제작]메탈 벨트 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011818" Text="[제작]행운의 가죽견장 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011819" Text="[제작]행운의 가죽허리띠 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011820" Text="[제작]스테이크 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011821" Text="[제작]자귀나무맛 훈제 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011822" Text="[제작]회색 견갑 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011823" Text="[제작]회색 갑옷 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011824" Text="[제작]감시자의 가죽견장 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011825" Text="[제작]참회의 로브 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011826" Text="[제작]노란 꽃마리향 육회 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011827" Text="[제작]고원 뿔나무맛 케밥 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011828" Text="[제작]메탈 견갑 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011829" Text="[제작]메탈 벨트 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011830" Text="[제작]행운의 가죽견장 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011831" Text="[제작]행운의 가죽허리띠 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011832" Text="[제작]스테이크 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011833" Text="[제작]자귀나무맛 훈제 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011834" Text="[제작]회색 견갑 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011835" Text="[제작]회색 갑옷 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011836" Text="[제작]감시자의 가죽견장 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011837" Text="[제작]참회의 로브 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011838" Text="[제작]노란 꽃마리향 육회 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011839" Text="[제작]고원 뿔나무맛 케밥 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011840" Text="[제작]투박한 검투사 건틀릿 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011841" Text="[제작]투박한 검투사 갑옷 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011842" Text="[제작]체인 건틀릿 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011843" Text="[제작]체인 갑옷 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011844" Text="[제작]투박한 그림자 가죽장갑 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011845" Text="[제작]투박한 행운의 예복 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011846" Text="[제작]계시의 장갑 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011847" Text="[제작]홍염의 가죽튜닉 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011848" Text="[제작]붉은 고삼 에이드 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011849" Text="[제작]고원 안개나무 주스 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011850" Text="[제작]하얀 일년봉 에이드 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011851" Text="[제작]고원 리기다나무 주스 삽니다!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011852" Text="[특산물]보석산호 삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011853" Text="[특산물]소라껍질 삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011854" Text="[특산물]블루베리 열매 삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011855" Text="[특산물]톨보 열매 삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011856" Text="[특산물]바투의 솜털 삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011857" Text="[특산물]카툼바라야 뿌리 삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011858" Text="[특산물]빛나는 약초 삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011859" Text="[특산물]알파카의 털 삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011860" Text="[특산물]고원 클로버 삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011861" Text="[특산물]사막 산호 삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011862" Text="[특산물]큐티스의 침 삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011863" Text="[특산물]소금 덩어리 삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011864" Text="[특산물]특산물 몽땅 삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011865" Text="[농장]해변의 여인" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011866" Text="[농장]개밥바라기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011867" Text="[농장]물동이 배달" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011868" Text="[농장]무적 냐옹단!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011869" Text="[농장]참된 교육" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011870" Text="[농장]분노의 핫도그" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011871" Text="[농장]건초 더미" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011872" Text="[농장]평화주의자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011873" Text="[농장]형님의 마음" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011874" Text="[농장]위험한 먹이" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011875" Text="[농장]아우의 마음" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011876" Text="[농장]먹이 회수" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011877" Text="[농장]잡초 제거" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011878" Text="[농장]과자가 먹고 싶어" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011879" Text="[농장]해충방지 정책" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011880" Text="[농장]처치 곤란" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011881" Text="[농장]카르야 농장의 비밀" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011882" Text="[농장]다이어트 중" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011883" Text="[농장]농작물의 감정" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011884" Text="[농장]자이쿠의 후손" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011885" Text="[농장]목장의 티타임" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011886" Text="[농장]농장 관리인의 권리" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011887" Text="[농장]상부상조" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011888" Text="[농장]초월한 우정" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011889" Text="[농장]신선한 우유 거래 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011890" Text="[농장]신선한 우유 거래 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011891" Text="[농장]둥근 열매 거래 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011892" Text="[농장]둥근 열매 거래 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011893" Text="[농장]줄무늬 가죽 거래 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011894" Text="[농장]줄무늬 가죽 거래 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011895" Text="[농장]길쭉한 열매 거래 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011896" Text="[농장]길쭉한 열매 거래 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011897" Text="[농장]꼬인 뿔 거래 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011898" Text="[농장]꼬인 뿔 거래 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011899" Text="[농장]향기로운 꽃 거래 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011900" Text="[농장]향기로운 꽃 거래 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011901" Text="[농장]폭신한 털 거래 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011902" Text="[농장]폭신한 털 거래 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011903" Text="[농장]부드러운 가시 거래 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011904" Text="[농장]부드러운 가시 거래 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011905" Text="[농장]향긋한 죽순 거래 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011906" Text="[농장]신선한 우유 거래 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011907" Text="[농장]신선한 우유 거래 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011908" Text="[농장]둥근 열매 거래 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011909" Text="[농장]둥근 열매 거래 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011910" Text="[농장]줄무늬 가죽 거래 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011911" Text="[농장]줄무늬 가죽 거래 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011912" Text="[농장]길쭉한 열매 거래 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011913" Text="[농장]길쭉한 열매 거래 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011914" Text="[농장]꼬인 뿔 거래 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011915" Text="[농장]꼬인 뿔 거래 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011916" Text="[농장]향기로운 꽃 거래 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011917" Text="[농장]향기로운 꽃 거래 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011918" Text="[농장]폭신한 털 거래 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011919" Text="[농장]폭신한 털 거래 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011920" Text="[농장]부드러운 가시 거래 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011921" Text="[농장]부드러운 가시 거래 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011922" Text="[농장]향긋한 죽순 거래 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011923" Text="[농장]신선한 우유 거래 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011924" Text="[농장]신선한 우유 거래 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011925" Text="[농장]둥근 열매 거래 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011926" Text="[농장]둥근 열매 거래 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011927" Text="[농장]줄무늬 가죽 거래 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011928" Text="[농장]줄무늬 가죽 거래 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011929" Text="[농장]길쭉한 열매 거래 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011930" Text="[농장]길쭉한 열매 거래 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011931" Text="[농장]꼬인 뿔 거래 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011932" Text="[농장]꼬인 뿔 거래 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011933" Text="[농장]향기로운 꽃 거래 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011934" Text="[농장]향기로운 꽃 거래 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011935" Text="[농장]폭신한 털 거래 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011936" Text="[농장]폭신한 털 거래 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011937" Text="[농장]부드러운 가시 거래 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011938" Text="[농장]부드러운 가시 거래 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011939" Text="[농장]향긋한 죽순 거래 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011940" Text="[농장]신선한 우유 거래 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011941" Text="[농장]신선한 우유 거래 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011942" Text="[농장]둥근 열매 거래 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011943" Text="[농장]둥근 열매 거래 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011944" Text="[농장]줄무늬 가죽 거래 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011945" Text="[농장]줄무늬 가죽 거래 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011946" Text="[농장]길쭉한 열매 거래 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011947" Text="[농장]길쭉한 열매 거래 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011948" Text="[농장]꼬인 뿔 거래 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011949" Text="[농장]꼬인 뿔 거래 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011950" Text="[농장]향기로운 꽃 거래 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011951" Text="[농장]향기로운 꽃 거래 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011952" Text="[농장]폭신한 털 거래 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011953" Text="[농장]폭신한 털 거래 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011954" Text="[농장]부드러운 가시 거래 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011955" Text="[농장]부드러운 가시 거래 2" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011956" Text="[농장]향긋한 죽순 거래 1" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011957" Text="[파티]악당 슈크림단" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011958" Text="[파티]악당 슈크림단" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011959" Text="[파티]악당 슈크림단" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011960" Text="요리사 토르" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011961" Text="[파티]범인의 발자국" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011962" Text="묠니르 회수" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011963" Text="악명높은 레프레" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011964" Text="레브리의 위기" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011965" Text="포세이킹의 이유" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011966" Text="[파티]절대무적 그레이트 고블" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011967" Text="[파티]절대무적 그레이트 고블" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011968" Text="[파티]절대무적 그레이트 고블" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011969" Text="악덕 상인의 행패" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011970" Text="악덕 상인의 제안" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011971" Text="악덕 상인의 제안" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011972" Text="악덕 상인의 제안" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011973" Text="악덕 상인의 제안" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011974" Text="하딘의 시치미" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011975" Text="하딘의 상자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011976" Text="하딘의 상자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011977" Text="하딘의 상자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011978" Text="하딘의 세금" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011979" Text="푸치의 행방" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011980" Text="푸치의 행방" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011981" Text="푸치의 행방" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011982" Text="금도끼 은도끼" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011983" Text="금도끼 은도끼" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011984" Text="금도끼 은도끼" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011985" Text="커다란 언덕의 비밀" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011986" Text="커다란 언덕의 비밀" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011987" Text="커다란 언덕의 비밀" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011988" Text="커다란 언덕의 비밀" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011989" Text="아루나이의 심부름" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011990" Text="수상한 여행자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011991" Text="여행자의 부탁" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011992" Text="여행자의 부탁" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011993" Text="여행자의 부탁" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011994" Text="여행자의 부탁" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011995" Text="죽음의 유혹" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011996" Text="죽음의 유혹" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011997" Text="죽음의 유혹" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011998" Text="죽음의 유혹" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901011999" Text="죽음의 유혹" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012000" Text="검은 빛의 보석" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012001" Text="귀신 씌인 보석" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012002" Text="귀신 씌인 보석" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012003" Text="귀신 씌인 보석" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012004" Text="써클의 비밀" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012005" Text="써클의 비밀" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012006" Text="써클의 비밀" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012007" Text="써클의 비밀" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012008" Text="써클의 비밀" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012009" Text="도망친 땔감" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012010" Text="떠돌이 요리사" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012011" Text="하무단의 입맛" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012012" Text="프리델의 행방" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012013" Text="프리델의 부탁" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012014" Text="프리델의 부탁" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012015" Text="프리델의 부탁" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012016" Text="프리델의 안부" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012017" Text="수상한 그림자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012018" Text="수상한 그림자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012019" Text="수상한 그림자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012020" Text="수상한 그림자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012021" Text="수상한 그림자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012022" Text="회색 망치군" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012023" Text="회색 망치군" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012024" Text="회색 망치군" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012025" Text="회색 망치군" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012026" Text="결전! 토누크 샤마!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012027" Text="결전! 토누크 샤마!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012028" Text="결전! 토누크 샤마!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012029" Text="결전! 토누크 샤마!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012030" Text="[이벤트]엄마의 심장소리" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012031" Text="[이벤트]사라진 기획자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012032" Text="[이벤트]잠시 휴식 중!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012033" Text="[이벤트]잘못 심은 수집물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012034" Text="[이벤트]문제 많은 고블린" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012035" Text="[이벤트]피로 회복제를 돌려줘!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012036" Text="[이벤트]엄마의 심장소리" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012037" Text="[이벤트]사라진 기획자" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012038" Text="[이벤트]잠시 휴식 중!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012039" Text="[이벤트]잘못 심은 수집물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012040" Text="[이벤트]문제 많은 고블린" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012041" Text="[이벤트]피로 회복제를 돌려줘!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012042" Text="[이벤트]잘못된 대사" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012043" Text="[이벤트]알 수 없는 실수" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012044" Text="[이벤트]먹어야 삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012045" Text="[이벤트]잘못된 이벤트" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012046" Text="[이벤트]강력한 버그" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012047" Text="[이벤트]캡틴 스키피오 구출" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012048" Text="[이벤트]처치! 버그 대마왕!" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012049" Text="[이벤트][기획서 5개]훼손된 응모권" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012050" Text="[이벤트][기획서 6개]오래된 응모권" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012051" Text="[이벤트][기획서 7개]평범한 응모권" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012052" Text="[이벤트][기획서 8개]깨끗한 응모권" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012053" Text="[이벤트][기획서 9개]고급스러운 응모권" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012054" Text="[이벤트][기획서 10개]황금 응모권" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012055" Text="[특산물]포아석 가루 삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012056" Text="[특산물]호수 양파 껍질 삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012057" Text="[특산물]파바 나뭇가지 삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012058" Text="[특산물]바짝 마른 알로에 잎 삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012059" Text="[특산물]스테플라이의 날개 가루 삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012060" Text="[특산물]대추 야자 나뭇잎 삽니다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012061" Text="카르야의 야심" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012062" Text="카르야의 야심" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012063" Text="[파티]잊혀진 자들의 절벽" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012064" Text="도르토르의 보물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012065" Text="도르토르의 보물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012066" Text="도르토르의 보물" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012067" Text="[던전]영웅의 열쇠" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012068" Text="[던전]금니 사냥꾼" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012069" Text="[던전]많이 위험한 그들" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012070" Text="[던전]신관도 고기를 먹고 싶다" Note_File="Quest.xml" Note_Field="typeName"/>
+	<Message ID="901012071" Text="[던전]내게 너무 멋진 그대" Note_File="Quest.xml" Note_Field="typeName"/>
+</Localization>

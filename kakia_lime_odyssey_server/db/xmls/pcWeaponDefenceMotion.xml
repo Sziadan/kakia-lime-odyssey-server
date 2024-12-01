@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2006 rel. 3 U (http://www.altova.com) by 카이 (Sirius) -->
+<pcWeaponDefenceMotion>
+	<Weapons>
+		<Weapon type="0" desc="HAND" motionId="2170007" upperMotionId="2170008"/>
+		<Weapon type="1" desc="KNIFE" motionId="2170009" upperMotionId="2170010"/>
+		<Weapon type="2" desc="OHAND_SPEAR" motionId="2170003" upperMotionId="2170004"/>
+		<Weapon type="3" desc="OHAND_SWORD" motionId="2170003" upperMotionId="2170004"/>
+		<Weapon type="4" desc="OHAND_AXE" motionId="2170003" upperMotionId="2170004"/>
+		<Weapon type="5" desc="OHAND_MACE" motionId="2170003" upperMotionId="2170004"/>
+		<Weapon type="6" desc="OHAND_STAFF" motionId="2170003" upperMotionId="2170004"/>
+		<Weapon type="7" desc="OHAND_WHIP" motionId="2170017" upperMotionId="2170018"/>
+		<Weapon type="8" desc="BOOK" motionId="2170011" upperMotionId="2170012"/>
+		<Weapon type="9" desc="THAND_SPEAR" motionId="2170005" upperMotionId="2170006"/>
+		<Weapon type="10" desc="THAND_SWORD" motionId="2170005" upperMotionId="2170006"/>
+		<Weapon type="11" desc="THAND_AXE" motionId="2170005" upperMotionId="2170006"/>
+		<Weapon type="12" desc="THAND_MACE" motionId="2170005" upperMotionId="2170006"/>
+		<Weapon type="13" desc="THAND_STAFF" motionId="2170015" upperMotionId="2170016"/>
+		<Weapon type="14" desc="THAND_WHIP" motionId="2170117" upperMotionId="2170118"/>
+		<Weapon type="15" desc="OHAND_GUN" motionId="2170019" upperMotionId="2170020"/>
+		<Weapon type="16" desc="OHAND_RIFLE" motionId="2170021" upperMotionId="2170022"/>
+		<Weapon type="17" desc="BOW" motionId="2170023" upperMotionId="2170024"/>
+		<Weapon type="18" desc="CROSSBOW" motionId="2170123" upperMotionId="2170124"/>
+		<Weapon type="19" desc="ORB" motionId="2170115" upperMotionId="2170116"/>
+		<Weapon type="20" desc="WAND" motionId="2170215" upperMotionId="2170216"/>
+		<Weapon type="21" desc="DHAND_DAGGER" motionId="2170013" upperMotionId="2170014"/>
+		<Weapon type="22" desc="DHAND_SWORD" motionId="2170013" upperMotionId="2170014"/>
+		<Weapon type="23" desc="DHAND_WHIP" motionId="2170217" upperMotionId="2170218"/>
+		<Weapon type="24" desc="DHAND_GUN" motionId="2170119" upperMotionId="2170120"/>
+		<Weapon type="25" desc="DHAND" motionId="2170007" upperMotionId="2170008"/>
+		<Weapon type="26" desc="DHAND_MACE" motionId="2170013" upperMotionId="2170014"/>
+		<Weapon type="27" desc="DHAND_AXE" motionId="2170013" upperMotionId="2170014"/>
+	</Weapons>
+</pcWeaponDefenceMotion>

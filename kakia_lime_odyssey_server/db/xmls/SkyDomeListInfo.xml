@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<!-- edited with XMLSpy v2006 rel. 3 U (http://www.altova.com) by Administrator (EMBRACE) -->
+<SkyDomeInfo>
+  <SkyDomeRoot count="1">
+    <SkyDome ID="0" Name="Skydome.nif" MeshCount="3">
+      <SkyMesh MeshName="Sky1" RenderOrder="0" SkyEffectName="Df_Sky" WaterEffectName="Df_Sky_Water" TextureCount="2" TextureName0="stars.dds" ClampMode0="3" TextureName1="moon.dds" ClampMode1="0" Enable="1" />
+      <SkyMesh MeshName="Sky2" RenderOrder="1" SkyEffectName="AnimatedClouds" TextureCount="2" TextureName0="clouds1.dds" ClampMode0="3" TextureName1="clouds2.dds" ClampMode1="3" Enable="1" />
+      <SkyMesh MeshName="Sky4" RenderOrder="2" SkyEffectName="FardCloud" TextureCount="1" TextureName0="clouds3.dds" ClampMode0="3" Enable="1" />
+    </SkyDome>
+  </SkyDomeRoot>
+</SkyDomeInfo>

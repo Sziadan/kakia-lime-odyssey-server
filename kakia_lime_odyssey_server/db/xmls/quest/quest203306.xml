@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by Administrator (EMBRACE) -->
+<Quest>
+	<Quest typeID="203306001" typeName="궁금한 건 못참아 " group="200" NPC="모험가 길드원6" reportTo="모험가 길드원4" cancelable="1" repeatable="0" retryable="1" lv="15" desc="우리 모험가 길드에 레드 코랄 북쪽 동굴 안에 반짝 거리는 것이 있다는 정보가 들어왔습니다./n /n확인하러 가고 싶어도, 동굴의 리저드들이 무서워 다가 가기가 힘드니 ^#FF0000리저드 수습 투사, 수습 치유사, 수습 마술사^#FFFFFF를 처치해 조사가 수월하게 해주십시오. 처치가 끝나고 ^#3399FF고대 유적 발굴지의 저희 모험가 길드원^#FFFFFF에게 가시면 거기에 합당한 보상을 받을 수 있을겁니다./n" difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="5160" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203306001_Begin" desc="[[리저드 수습 마술사 처치]] [[리저드 수습 투사 처치]] [[리저드 수습 치유사 처치]]" draft="우리 모험가 길드에 레드 코랄 북쪽 동굴 안에 반짝 거리는 것이 있다는 정보가 들어왔습니다./n /n확인하러 가고 싶어도, 동굴의 리저드들이 무서워 다가 가기가 힘드니 ^#FF0000리저드 수습 투사, 수습 치유사, 수습 마술사^#FFFFFF를 처치해 조사가 수월하게 해주십시오. 처치가 끝나고 ^#3399FF고대 유적 발굴지의 저희 모험가 길드원^#FFFFFF에게 가시면 거기에 합당한 보상을 받을 수 있을겁니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="리저드 수습 마술사 처치" mapTargetId="203604"/>
+			<subjectPos subjectStr="리저드 수습 투사 처치" mapTargetId="203604"/>
+			<subjectPos subjectStr="리저드 수습 치유사 처치" mapTargetId="203604"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[고대 유적 발굴지 모험가 길드원에게 보고]]" draft="우리 모험가 길드에 레드 코랄 북쪽 동굴 안에 반짝 거리는 것이 있다는 정보가 들어왔습니다./n /n확인하러 가고 싶어도, 동굴의 리저드들이 무서워 다가 가기가 힘드니 ^#FF0000리저드 수습 투사, 수습 치유사, 수습 마술사^#FFFFFF를 처치해 조사가 수월하게 해주십시오. 처치가 끝나고 ^#3399FF고대 유적 발굴지의 저희 모험가 길드원^#FFFFFF에게 가시면 거기에 합당한 보상을 받을 수 있을겁니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="고대 유적 발굴지 모험가 길드원에게 보고" mapTargetId="204501"/>
+		</Subject>
+		<Storage Hunt1_typeID="96" Hunt1_goal="5" Hunt1_count="0" target1_type="Hunt" Hunt2_typeID="97" Hunt2_goal="5" Hunt2_count="0" target2_type="Hunt" Hunt3_typeID="98" Hunt3_goal="5" Hunt3_count="0" target3_type="Hunt" target_number="3"/>
+		<BasicReward typeID="2100000000" count="22"/>
+	</Quest>
+	<Quest typeID="203306002" typeName="귀엽다고 봐줄 줄 알고? " group="200" NPC="모험가 길드원4" reportTo="모험가 길드원4" cancelable="1" repeatable="0" retryable="1" lv="16" desc="발굴지 주변의 몬스터들 때문에 발굴이 늦어 진다고 스쿠르 책임자가 몹시 화가 났습니다./n^#FF0000흉포한 베이비 레모^#FFFFFF,^#FF0000흉포한 베이비 라이나^#FFFFFF를 사냥하고 ^#3399FF고대 유적 발굴지^#FFFFFF로 돌아오세요./n 놈들이 귀여워서 사냥하기 힘드시겠지만 때로는 대를 위해 소를 희생할 필요도 있답니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="5920" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203306002_Begin" desc="[[흉포한 베이비 레모 사냥]][[흉포한 베이비 라이나 사냥]]" draft="발굴지 주변의 몬스터들 때문에 발굴이 늦어 진다고 스쿠르 책임자가 몹시 화가 났습니다./n^#FF0000흉포한 베이비 레모^#FFFFFF,^#FF0000흉포한 베이비 라이나^#FFFFFF를 사냥하고 ^#3399FF고대 유적 발굴지^#FFFFFF로 돌아오세요./n 놈들이 귀여워서 사냥하기 힘드시겠지만 때로는 대를 위해 소를 희생할 필요도 있답니다." npc="모험가 길드원">
+			<subjectPos subjectStr="흉포한 베이비 레모 사냥" mapTargetId="204604"/>
+			<subjectPos subjectStr="흉포한 베이비 라이나 사냥" mapTargetId="204606"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[고대 유적 발굴지 모험가 길드원에게 보고]]" draft="발굴지 주변의 몬스터들 때문에 발굴이 늦어 진다고 스쿠르 책임자가 몹시 화가 났습니다./n^#FF0000흉포한 베이비 레모^#FFFFFF,^#FF0000흉포한 베이비 라이나^#FFFFFF를 사냥하고 ^#3399FF고대 유적 발굴지^#FFFFFF로 돌아오세요./n 놈들이 귀여워서 사냥하기 힘드시겠지만 때로는 대를 위해 소를 희생할 필요도 있답니다." npc="모험가 길드원">
+			<subjectPos subjectStr="고대 유적 발굴지 모험가 길드원에게 보고" mapTargetId="204501"/>
+		</Subject>
+		<Storage Hunt1_typeID="371" Hunt1_goal="8" Hunt1_count="0" target1_type="Hunt" Hunt2_typeID="369" Hunt2_goal="8" Hunt2_count="0" target2_type="Hunt" target_number="2"/>
+		<BasicReward typeID="2100000000" count="25"/>
+	</Quest>
+	<Quest typeID="203306003" typeName="방해꾼들 " group="200" NPC="모험가 길드원7" reportTo="모험가 길드원7" cancelable="1" repeatable="0" retryable="1" lv="8" desc="블루코랄에서 산호 세공사로 유명한 윌리 세이크러쉬 님의 의뢰입니다./n그는 까다로운 마티나 상단 부호의 요구에 걸맞는 산호 세공품을 만들기 위해 산호가 필요한데 투 마타의 투토족이 무서워 근처에 갈 엄두도 못 낸다고 합니다./n투 마타의 투토족인 ^#FF0000투토 어부^#FFFFFF와 ^#FF0000투토 채집꾼^#FFFFFF, ^#FF0000투토 전사^#FFFFFF를 물리쳐 주면 산호를 캐기 수월해 진다며 처치를 요청했습니다.일을 끝마치면 ^#3399FF하이네 해변 모험가 길드원^#FF0000에게 보고해십시오./n" difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="960" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203306003_Begin" desc="[[투토 어부 처치]][[투토 채집꾼 처치]][[투토 전사 처치]]" draft="블루코랄에서 산호 세공사로 유명한 윌리 세이크러쉬 님의 의뢰입니다./n그는 까다로운 마티나 상단 부호의 요구에 걸맞는 산호 세공품을 만들기 위해 산호가 필요한데 투 마타의 투토족이 무서워 근처에 갈 엄두도 못 낸다고 합니다./n투 마타의 투토족인 ^#FF0000투토 어부^#FFFFFF와 ^#FF0000투토 채집꾼^#FFFFFF, ^#FF0000투토 전사^#FFFFFF를 물리쳐 주면 산호를 캐기 수월해 진다며 처치를 요청했습니다.일을 끝마치면 ^#3399FF하이네 해변 모험가 길드원^#FF0000에게 보고해십시오./n" npc="모험가 길드원">
+			<subjectPos subjectStr="투토 어부 처치" mapTargetId="201601"/>
+			<subjectPos subjectStr="투토 채집꾼 처치" mapTargetId="201601"/>
+			<subjectPos subjectStr="투토 전사 처치" mapTargetId="201601"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[하이네 해변 전투 모험가 길드원에게 보고]]" draft="블루코랄에서 산호 세공사로 유명한 윌리 세이크러쉬 님의 의뢰입니다./n그는 까다로운 마티나 상단 부호의 요구에 걸맞는 산호 세공품을 만들기 위해 산호가 필요한데 투 마타의 투토족이 무서워 근처에 갈 엄두도 못 낸다고 합니다./n투 마타의 투토족인 ^#FF0000투토 어부^#FFFFFF와 ^#FF0000투토 채집꾼^#FFFFFF, ^#FF0000투토 전사^#FFFFFF를 물리쳐 주면 산호를 캐기 수월해 진다며 처치를 요청했습니다.일을 끝마치면 ^#3399FF하이네 해변 모험가 길드원^#FF0000에게 보고해십시오./n" npc="모험가 길드원">
+			<subjectPos subjectStr="하이네 해변 전투 모험가 길드원에게 보고" mapTargetId="201503"/>
+		</Subject>
+		<Storage Hunt1_typeID="149" Hunt1_goal="8" Hunt1_count="0" target1_type="Hunt" Hunt2_typeID="150" Hunt2_goal="8" Hunt2_count="0" target2_type="Hunt" Hunt3_typeID="45" Hunt3_goal="8" Hunt3_count="0" target3_type="Hunt" target_number="3"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="203306004" typeName="선장님의 부탁 " group="200" NPC="세모 루버로그" reportTo="모험가 길드원2" cancelable="1" repeatable="0" retryable="1" lv="18" desc="고놈의 아르고르 때문에 항해에 방해가 된단 말이야. ^#FF0000아르고르^#FFFFFF는 말이야 블루코랄 남쪽의 아리아섬 동쪽에 있는 ^#FF0000난파선 근처^#FFFFFF에 서식하고 있어. 네가 그 놈을 잡아 주면 좋겠구만./n가는 길에 아리아 섬에 들르거든 ^#FF0000마린비 일꾼^#FFFFFF과  ^#FF0000클레프^#FFFFFF를 만나면 그 놈들도 처치해주길 바래. 녀석들은 호전적이라 자꾸 배에 부딪히는 바람에 밑 바닥에 구멍이 뚫릴 뻔 한게 한 두번이 아니야./n보수는 전에 ^#3399FF블루 코랄 모험가 길드원^#FFFFFF에게 맡겼으니 녀석에게 가서 받으라고." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="6720" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203306004_Begin" desc="[[아르고르 사냥]][[마린비 일꾼 사냥]][[클레프 사냥]]" draft="고놈의 아르고르 때문에 항해에 방해가 된단 말이야. ^#FF0000아르고르^#FFFFFF는 말이야 블루코랄 남쪽의 아리아섬 동쪽에 있는 ^#FF0000난파선 근처^#FFFFFF에 서식하고 있어. 네가 그 놈을 잡아 주면 좋겠구만./n가는 길에 아리아 섬에 들르거든 ^#FF0000마린비 일꾼^#FFFFFF과  ^#FF0000클레프^#FFFFFF를 만나면 그 놈들도 처치해주길 바래. 녀석들은 호전적이라 자꾸 배에 부딪히는 바람에 밑 바닥에 구멍이 뚫릴 뻔 한게 한 두번이 아니야./n보수는 전에 ^#3399FF블루 코랄 모험가 길드원^#FFFFFF에게 맡겼으니 녀석에게 가서 받으라고." npc="모험가 길드원">
+			<subjectPos subjectStr="아르고르 사냥" mapTargetId="202602"/>
+			<subjectPos subjectStr="마린비 일꾼 사냥" mapTargetId="201603"/>
+			<subjectPos subjectStr="클레프 사냥" mapTargetId="201608"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[블루 코랄 전투 모험가 길드원에게 보고]]" draft="고놈의 아르고르 때문에 항해에 방해가 된단 말이야. ^#FF0000아르고르^#FFFFFF는 말이야 블루코랄 남쪽의 아리아섬 동쪽에 있는 ^#FF0000난파선 근처^#FFFFFF에 서식하고 있어. 네가 그 놈을 잡아 주면 좋겠구만./n가는 길에 아리아 섬에 들르거든 ^#FF0000마린비 일꾼^#FFFFFF과  ^#FF0000클레프^#FFFFFF를 만나면 그 놈들도 처치해주길 바래. 녀석들은 호전적이라 자꾸 배에 부딪히는 바람에 밑 바닥에 구멍이 뚫릴 뻔 한게 한 두번이 아니야./n보수는 전에 ^#3399FF블루 코랄 모험가 길드원^#FFFFFF에게 맡겼으니 녀석에게 가서 받으라고." npc="모험가 길드원">
+			<subjectPos subjectStr="블루 코랄 전투 모험가 길드원에게 보고" mapTargetId="202501"/>
+		</Subject>
+		<Storage Hunt1_typeID="89" Hunt1_goal="5" Hunt1_count="0" target1_type="Hunt" Hunt2_typeID="99" Hunt2_goal="8" Hunt2_count="0" target2_type="Hunt" Hunt3_typeID="79" Hunt3_goal="8" Hunt3_count="0" target3_type="Hunt" target_number="3"/>
+		<BasicReward typeID="2100000000" count="36"/>
+	</Quest>
+	<Quest typeID="203306006" typeName="생선은 지긋지긋해 " group="200" NPC="모험가 길드원7" reportTo="모험가 길드원7" cancelable="1" repeatable="0" retryable="1" lv="7" desc="산호 채취를 업으로 삼는, 마르코 리틀로씨가 요청한 의뢰입니다./n투 인티 해변가에서 산호를 캐려는데 바다 생물들이 산호를 몽땅 갉아먹는 등 방해를 해 쓸만한 산호를 얻을 수 없다고 하더군요./n자신의 생계를 위해 몬스터들을 사냥해 달라고 하십니다. 잡아야 할 몬스터는 ^#FF0000얌전한 코쿤^#FFFFFF,^#FF0000얌전한 로코코^#FFFFFF,^#FF0000빨강 스텔라^#FFFFFF입니다./n녀석들을 ^#3399FF하이네 해변 모험가 길드원^#FFFFF에게 보고해주십시오." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="640" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203306006_Begin" desc="[[얌전한 코쿤 사냥]][[얌전한 로코코 사냥]][[빨강 스텔라 사냥]]" draft="산호 채취를 업으로 삼는, 마르코 리틀로씨가 요청한 의뢰입니다./n투 인티 해변가에서 산호를 캐려는데 바다 생물들이 산호를 몽땅 갉아먹는 등 방해를 해 쓸만한 산호를 얻을 수 없다고 하더군요./n자신의 생계를 위해 몬스터들을 사냥해 달라고 하십니다. 잡아야 할 몬스터는 ^#FF0000얌전한 코쿤^#FFFFFF,^#FF0000얌전한 로코코^#FFFFFF,^#FF0000빨강 스텔라^#FFFFFF입니다./n녀석들을 ^#3399FF하이네 해변 모험가 길드원^#FFFFF에게 보고해주십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="얌전한 코쿤 사냥" mapTargetId="201604"/>
+			<subjectPos subjectStr="얌전한 로코코 사냥" mapTargetId="201605"/>
+			<subjectPos subjectStr="빨강 스텔라 사냥" mapTargetId="201605"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[하이네 해변 전투 모험가 길드원에게 보고]]" draft="산호 채취를 업으로 삼는, 마르코 리틀로씨가 요청한 의뢰입니다./n투 인티 해변가에서 산호를 캐려는데 바다 생물들이 산호를 몽땅 갉아먹는 등 방해를 해 쓸만한 산호를 얻을 수 없다고 하더군요./n자신의 생계를 위해 몬스터들을 사냥해 달라고 하십니다. 잡아야 할 몬스터는 ^#FF0000얌전한 코쿤^#FFFFFF,^#FF0000얌전한 로코코^#FFFFFF,^#FF0000빨강 스텔라^#FFFFFF입니다./n녀석들을 ^#3399FF하이네 해변 모험가 길드원^#FFFFF에게 보고해주십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="하이네 해변 전투 모험가 길드원에게 보고" mapTargetId="201503"/>
+		</Subject>
+		<Storage Hunt1_typeID="382" Hunt1_goal="5" Hunt1_count="0" target1_type="Hunt" Hunt2_typeID="374" Hunt2_goal="5" Hunt2_count="0" target2_type="Hunt" Hunt3_typeID="40" Hunt3_goal="5" Hunt3_count="0" target3_type="Hunt" target_number="3"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="203306007" typeName="고대 유산을 지켜라 " group="200" NPC="모험가 길드원4" reportTo="모험가 길드원4" cancelable="1" repeatable="0" retryable="1" lv="16" desc="괴짜들이 많기로 유명한 스쿠르족 라보렌씨가 청한 의뢰입니다./n /n그는 고대 유적 발굴지 주변에 ^#FF0000고블린 도굴꾼^#FFFFFF과 ^#FF0000흉포한 레모^#FFFFFF,^#FF0000흉포한 라이나^#FFFFFF가 애써 발굴한 유물을 부수거나 훔쳐가서 손해가 크다며 그 놈들에게 본 때를 보여달라고 합니다./n저도 결과가 나오는 대로 바로 보고해야 하는 입장이니 일이 끝나면 ^#3399FF고대 유적 발굴지 모험가 길드원^#FFFFFF에게 보고해주십시오." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="5920" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203306007_Begin" desc="[[고블린 도굴꾼 처치]][[흉포한 레모 사냥]][[흉포한 라이나 사냥]]" draft="괴짜들이 많기로 유명한 스쿠르족 라보렌씨가 청한 의뢰입니다./n /n그는 고대 유적 발굴지 주변에 ^#FF0000고블린 도굴꾼^#FFFFFF과 ^#FF0000흉포한 레모^#FFFFFF,^#FF0000흉포한 라이나^#FFFFFF가 애써 발굴한 유물을 부수거나 훔쳐가서 손해가 크다며 그 놈들에게 본 때를 보여달라고 합니다./n저도 결과가 나오는 대로 바로 보고해야 하는 입장이니 일이 끝나면 ^#3399FF고대 유적 발굴지 모험가 길드원^#FFFFFF에게 보고해주십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="고블린 도굴꾼 처치" mapTargetId="204605"/>
+			<subjectPos subjectStr="흉포한 레모 사냥" mapTargetId="204607"/>
+			<subjectPos subjectStr="흉포한 라이나 사냥" mapTargetId="204608"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[고대 유적 발굴지 모험가 길드원에게 보고]]" draft="괴짜들이 많기로 유명한 스쿠르족 라보렌씨가 청한 의뢰입니다./n /n그는 고대 유적 발굴지 주변에 ^#FF0000고블린 도굴꾼^#FFFFFF과 ^#FF0000흉포한 레모^#FFFFFF,^#FF0000흉포한 라이나^#FFFFFF가 애써 발굴한 유물을 부수거나 훔쳐가서 손해가 크다며 그 놈들에게 본 때를 보여달라고 합니다./n저도 결과가 나오는 대로 바로 보고해야 하는 입장이니 일이 끝나면 ^#3399FF고대 유적 발굴지 모험가 길드원^#FFFFFF에게 보고해주십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="고대 유적 발굴지 모험가 길드원에게 보고" mapTargetId="204501"/>
+		</Subject>
+		<Storage Hunt1_typeID="30" Hunt1_goal="8" Hunt1_count="0" target1_type="Hunt" Hunt2_typeID="439" Hunt2_goal="8" Hunt2_count="0" target2_type="Hunt" Hunt3_typeID="138" Hunt3_goal="8" Hunt3_count="0" target3_type="Hunt" target_number="3"/>
+		<BasicReward typeID="2100000000" count="25"/>
+	</Quest>
+	<Quest typeID="203306008" typeName="지명수배 : 카칼리 (파티) " group="200" NPC="잭 스팸로우" reportTo="모험가 길드원2" cancelable="1" repeatable="0" retryable="1" lv="18" desc="나는 바다의 황제 잭 스팸로우다. 내 악명을 익히 들어봤겠지? 못들어 봤다고? 헹! 바다의 소식엔 깜깜한 녀석이군./n 그렇다면 식인상어 카칼리의 이름은 들어봤겠지? 나는 그 놈의 어금니를 가지고 있다고. 이걸 구할 때 어찌나 힘이 들던지 온몸의 털이 다 빠져 다시 자라는데 3년이 걸렸지./n 그런 위대한 나는 이 세상에 나랑 대적할 자가 없어 외로운 참이다./n 내 너에게 내 악명과 버금가는 명성을 얻을 기회를 마련해주지. 가서 ^#FF0000카칼리의 이빨 조각^#FFFFFF을 구해와봐. 그럼 내가 갈매기들에게 시켜 네 이름을 바다에 널리 널리 퍼뜨려주지. 물론 베른해의 근해부터 먼 바다까지 돌아다니는 녀석을 찾는게 쉽진 안을테지만 말이야./n보상은 나에게 바라지 말고 ^#3399FF블루 코랄^#FFFFFF의 모험가 길드원에게 가보라고. 놈들이 식인상어의 뭘 연구한다나 뭐라나 하며 내가 가진 이빨을 노리더라고. 가져가면 좋아 할거야." difficulty="1" onMessage="HuntBoss_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="6720" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203306008_Begin" desc="[[카칼리의 이빨 조각 획득]]" draft="나는 바다의 황제 잭 스팸로우다. 내 악명을 익히 들어봤겠지? 못들어 봤다고? 헹! 바다의 소식엔 깜깜한 녀석이군./n 그렇다면 식인상어 카칼리의 이름은 들어봤겠지? 나는 그 놈의 어금니를 가지고 있다고. 이걸 구할 때 어찌나 힘이 들던지 온몸의 털이 다 빠져 다시 자라는데 3년이 걸렸지./n 그런 위대한 나는 이 세상에 나랑 대적할 자가 없어 외로운 참이다./n 내 너에게 내 악명과 버금가는 명성을 얻을 기회를 마련해주지. 가서 ^#FF0000카칼리의 이빨 조각^#FFFFFF을 구해와봐. 그럼 내가 갈매기들에게 시켜 네 이름을 바다에 널리 널리 퍼뜨려주지. 물론 베른해의 근해부터 먼 바다까지 돌아다니는 녀석을 찾는게 쉽진 안을테지만 말이야./n보상은 나에게 바라지 말고 ^#3399FF블루 코랄^#FFFFFF의 모험가 길드원에게 가보라고. 놈들이 식인상어의 뭘 연구한다나 뭐라나 하며 내가 가진 이빨을 노리더라고. 가져가면 좋아 할거야." npc="모험가 길드원">
+			<subjectPos subjectStr="카칼리의 이빨 조각 획득" mapTargetId="202603"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[블루 코랄 전투 모험가 길드원에게 보고]]" draft="나는 바다의 황제 잭 스팸로우다. 내 악명을 익히 들어봤겠지? 못들어 봤다고? 헹! 바다의 소식엔 깜깜한 녀석이군./n 그렇다면 식인상어 카칼리의 이름은 들어봤겠지? 나는 그 놈의 어금니를 가지고 있다고. 이걸 구할 때 어찌나 힘이 들던지 온몸의 털이 다 빠져 다시 자라는데 3년이 걸렸지./n 그런 위대한 나는 이 세상에 나랑 대적할 자가 없어 외로운 참이다./n 내 너에게 내 악명과 버금가는 명성을 얻을 기회를 마련해주지. 가서 ^#FF0000카칼리의 이빨 조각^#FFFFFF을 구해와봐. 그럼 내가 갈매기들에게 시켜 네 이름을 바다에 널리 널리 퍼뜨려주지. 물론 베른해의 근해부터 먼 바다까지 돌아다니는 녀석을 찾는게 쉽진 안을테지만 말이야./n보상은 나에게 바라지 말고 ^#3399FF블루 코랄^#FFFFFF의 모험가 길드원에게 가보라고. 놈들이 식인상어의 뭘 연구한다나 뭐라나 하며 내가 가진 이빨을 노리더라고. 가져가면 좋아 할거야." npc="모험가 길드원">
+			<subjectPos subjectStr="블루 코랄 전투 모험가 길드원에게 보고" mapTargetId="202501"/>
+		</Subject>
+		<Storage Hunt1_typeID="90" Hunt1_goal="1" Hunt1_count="0" target1_type="Hunt" Collect1_typeID="150136"/>
+		<BasicReward typeID="2100000000" count="36"/>
+	</Quest>
+	<Quest typeID="203306009" typeName="안락한 보금자리 " group="201" NPC="모험가 길드원4" reportTo="모험가 길드원4" cancelable="1" repeatable="0" retryable="1" lv="16" desc="고대 유적 발굴지의 연구원 다르픽토 씨가 훔바바 울루쿰에게 많은 신세를 입었다며, 그에게 보답하고 싶다고 합니다./n /n훔바바인 울루쿰은 딱딱한 나무를 베고 자는데 그런 그를 위해 푹신한 베게를 만들어 주고 싶다고 합니다. 그러니 고요한 빛의 언덕 남쪽 숲에 있는 ^#FF0000흉포한 베이비 라이나^#FFFFFF를 잡아서 ^#FF0000폭신폭신한 나뭇잎^#FFFFFF을 구해 ^#3399FF고대 유적 발굴지 모험가 길드원^#FFFFFF에게 보고해주십시오." difficulty="1" onMessage="HuntCollect2_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="5920" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203306009_Begin" desc="[[폭신폭신한 나뭇잎 획득]]" draft="고대 유적 발굴지의 연구원 다르픽토 씨가 훔바바 울루쿰에게 많은 신세를 입었다며, 그에게 보답하고 싶다고 합니다./n /n훔바바인 울루쿰은 딱딱한 나무를 베고 자는데 그런 그를 위해 푹신한 베게를 만들어 주고 싶다고 합니다. 그러니 고요한 빛의 언덕 남쪽 숲에 있는 ^#FF0000흉포한 베이비 라이나^#FFFFFF를 잡아서 ^#FF0000폭신폭신한 나뭇잎^#FFFFFF을 구해 ^#3399FF고대 유적 발굴지 모험가 길드원^#FFFFFF에게 보고해주십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="폭신폭신한 나뭇잎 획득" mapTargetId="204606"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[고대 유적 발굴지 모험가 길드원에게 보고]]" draft="고대 유적 발굴지의 연구원 다르픽토 씨가 훔바바 울루쿰에게 많은 신세를 입었다며, 그에게 보답하고 싶다고 합니다./n /n훔바바인 울루쿰은 딱딱한 나무를 베고 자는데 그런 그를 위해 푹신한 베게를 만들어 주고 싶다고 합니다. 그러니 고요한 빛의 언덕 남쪽 숲에 있는 ^#FF0000흉포한 베이비 라이나^#FFFFFF를 잡아서 ^#FF0000폭신폭신한 나뭇잎^#FFFFFF을 구해 ^#3399FF고대 유적 발굴지 모험가 길드원^#FFFFFF에게 보고해주십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="고대 유적 발굴지 모험가 길드원에게 보고" mapTargetId="204501"/>
+		</Subject>
+		<Storage Collect1_typeID="150137" Collect1_goal="10" Collect1_count="0" target1_type="Collect" target1_prob="70" Collect2_typeID="369"/>
+		<BasicReward typeID="2100000000" count="25"/>
+	</Quest>
+	<Quest typeID="203306010" typeName="반짝이는 것?" group="201" NPC="모험가 길드원5" reportTo="모험가 길드원5" cancelable="1" repeatable="0" retryable="1" lv="19" desc="북부 해변 근처의 수상한 아저씨의 수상한 의뢰입니다./n /n그 분이 다짜고짜 북부 해변 주변에서 반짝이는 것을 구해달라고 요청 했습니다./n /n우리 모험가 길드에서는 그게 무엇인지 궁리해 본 결과, 그것이 북부구호소 주변의 ^#FF0000분노한 펄메이드^#FFFFFF를 해치우면 나오는 ^#FF0000반짝이는 진주^#FFFFFF라는 결론을 얻었지요./n /n그걸 구해 ^#3399FF북부 구호소 모험가 길드원^#FFFFFF에게 가져와 주십시오. 정말 반짝이는 진주가 맞는지 감정을 할 수 있도록 말입니다./n" difficulty="1" onMessage="HuntCollect2_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="7080" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203306010_Begin" desc="[[반짝이는 진주 획득]]" draft="북부 해변 근처의 수상한 아저씨의 수상한 의뢰입니다./n /n그 분이 다짜고짜 북부 해변 주변에서 반짝이는 것을 구해달라고 요청 했습니다./n /n우리 모험가 길드에서는 그게 무엇인지 궁리해 본 결과, 그것이 북부구호소 주변의 ^#FF0000분노한 펄메이드^#FFFFFF를 해치우면 나오는 ^#FF0000반짝이는 진주^#FFFFFF라는 결론을 얻었지요./n /n그걸 구해 ^#3399FF북부 구호소 모험가 길드원^#FFFFFF에게 가져와 주십시오. 정말 반짝이는 진주가 맞는지 감정을 할 수 있도록 말입니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="반짝이는 진주 획득" mapTargetId="205603"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[북부 구호소 전투 모험가 길드원에게 보고]]" draft="북부 해변 근처의 수상한 아저씨의 수상한 의뢰입니다./n /n그 분이 다짜고짜 북부 해변 주변에서 반짝이는 것을 구해달라고 요청 했습니다./n /n우리 모험가 길드에서는 그게 무엇인지 궁리해 본 결과, 그것이 북부구호소 주변의 ^#FF0000분노한 펄메이드^#FFFFFF를 해치우면 나오는 ^#FF0000반짝이는 진주^#FFFFFF라는 결론을 얻었지요./n /n그걸 구해 ^#3399FF북부 구호소 모험가 길드원^#FFFFFF에게 가져와 주십시오. 정말 반짝이는 진주가 맞는지 감정을 할 수 있도록 말입니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="북부 구호소 전투 모험가 길드원에게 보고" mapTargetId="205501"/>
+		</Subject>
+		<Storage Collect1_typeID="150138" Collect1_goal="10" Collect1_count="0" target1_type="Collect" target1_prob="70" Collect2_typeID="136"/>
+		<BasicReward typeID="2100000000" count="48"/>
+	</Quest>
+	<Quest typeID="203306011" typeName="끊어진 목걸이 " group="201" NPC="잭 스팸로우" reportTo="모험가 길드원2" cancelable="1" repeatable="0" retryable="1" lv="18" desc="허 거참, 귀여운 여자 아이가 울면 곤란하단 말이야. 귀여운 여자애가 말하길 배를 타고 나들이를 가다가 소꿉친구가 만들어 준 소중한 구슬 목걸이를 바다에 빠뜨렸대.어디에 빠뜨렸냐면 ^#3399FF아리아 섬 주변^#FFFFFF이라고 하던데…내가 들어가면 금새 찾겠지만 내가 수영을 못 해서... 응? 선장이 수영을 못해도 되냐고? 물론 되지! 선장은 배를 모는거지 수영을 잘하면 수영선수를 하지!/n 아무튼!! 그 근처 바닷 속을 뒤져서 ^#FF0000구멍 뚫린 구슬^#FFFFFF이라도 주워다 주라고. 귀여운 여자아이한테는 ^#3399FF블루 코랄 모험가 길드원^#FFFFFF에게 목걸이를 맡겨두겠다고 했으니 찾으면 거기로 가져다 주고. 원래 은인은 이름을 밝히지 않을 때 더 멋진 법이거든. 여기서 말하는 은인이란 나를 이야기 하는 것이고. 엣헴~ 오늘도 바다 바람이 상쾌하구나. 빨리 배를 한 척 사야 할텐데..." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="6720" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203306010_Begin" desc="[[구멍 뚫린 구슬 수집]]" draft="허 거참, 귀여운 여자 아이가 울면 곤란하단 말이야. 귀여운 여자애가 말하길 배를 타고 나들이를 가다가 소꿉친구가 만들어 준 소중한 구슬 목걸이를 바다에 빠뜨렸대.어디에 빠뜨렸냐면 ^#3399FF아리아 섬 주변^#FFFFFF이라고 하던데…내가 들어가면 금새 찾겠지만 내가 수영을 못 해서... 응? 선장이 수영을 못해도 되냐고? 물론 되지! 선장은 배를 모는거지 수영을 잘하면 수영선수를 하지!/n 아무튼!! 그 근처 바닷 속을 뒤져서 ^#FF0000구멍 뚫린 구슬^#FFFFFF이라도 주워다 주라고. 귀여운 여자아이한테는 ^#3399FF블루 코랄 모험가 길드원^#FFFFFF에게 목걸이를 맡겨두겠다고 했으니 찾으면 거기로 가져다 주고. 원래 은인은 이름을 밝히지 않을 때 더 멋진 법이거든. 여기서 말하는 은인이란 나를 이야기 하는 것이고. 엣헴~ 오늘도 바다 바람이 상쾌하구나. 빨리 배를 한 척 사야 할텐데..." npc="모험가 길드원">
+			<subjectPos subjectStr="구멍 뚫린 구슬 수집" mapTargetId="202701"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[블루 코랄 전투 모험가 길드원에게 보고]]" draft="허 거참, 귀여운 여자 아이가 울면 곤란하단 말이야. 귀여운 여자애가 말하길 배를 타고 나들이를 가다가 소꿉친구가 만들어 준 소중한 구슬 목걸이를 바다에 빠뜨렸대.어디에 빠뜨렸냐면 ^#3399FF아리아 섬 주변^#FFFFFF이라고 하던데…내가 들어가면 금새 찾겠지만 내가 수영을 못 해서... 응? 선장이 수영을 못해도 되냐고? 물론 되지! 선장은 배를 모는거지 수영을 잘하면 수영선수를 하지!/n 아무튼!! 그 근처 바닷 속을 뒤져서 ^#FF0000구멍 뚫린 구슬^#FFFFFF이라도 주워다 주라고. 귀여운 여자아이한테는 ^#3399FF블루 코랄 모험가 길드원^#FFFFFF에게 목걸이를 맡겨두겠다고 했으니 찾으면 거기로 가져다 주고. 원래 은인은 이름을 밝히지 않을 때 더 멋진 법이거든. 여기서 말하는 은인이란 나를 이야기 하는 것이고. 엣헴~ 오늘도 바다 바람이 상쾌하구나. 빨리 배를 한 척 사야 할텐데..." npc="모험가 길드원">
+			<subjectPos subjectStr="블루 코랄 전투 모험가 길드원에게 보고" mapTargetId="202501"/>
+		</Subject>
+		<Storage Collect1_typeID="150139" Collect1_goal="3" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="36"/>
+	</Quest>
+	<Quest typeID="203306014" typeName="산호 표본 " group="201" NPC="모험가 길드원3" reportTo="모험가 길드원6" cancelable="1" repeatable="0" retryable="1" lv="11" desc="블루코랄 동쪽, 산호 생태 조사단에서 요청한 의뢰입니다. /n늙은 산호 숲에서 ^#FF0000산호 표본^#FFFFFF을 구해달라고 합니다./n표본으로 사용할 거니, 뿌리까지 깨끗하게 손상 없이 캐오라고 하셨고요./n /n산호 표본을 모두 모으면 ^#3399FF레드 코랄 모험가 길드원^#FFFFFF에게 전해 주십시오./n" difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="2720" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203306014_Begin" desc="[[산호 표본 수집]]" draft="블루코랄 동쪽, 산호 생태 조사단에서 요청한 의뢰입니다. /n늙은 산호 숲에서 ^#FF0000산호 표본^#FFFFFF을 구해달라고 합니다./n표본으로 사용할 거니, 뿌리까지 깨끗하게 손상 없이 캐오라고 하셨고요./n /n산호 표본을 모두 모으면 ^#3399FF레드 코랄 모험가 길드원^#FFFFFF에게 전해 주십시오./n" npc="모험가 길드원">
+			<subjectPos subjectStr="산호 표본 수집" mapTargetId="206702"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[레드코랄 전투 모험가 길드원에게 보고]]" draft="블루코랄 동쪽, 산호 생태 조사단에서 요청한 의뢰입니다. /n늙은 산호 숲에서 ^#FF0000산호 표본^#FFFFFF을 구해달라고 합니다./n표본으로 사용할 거니, 뿌리까지 깨끗하게 손상 없이 캐오라고 하셨고요./n /n산호 표본을 모두 모으면 ^#3399FF레드 코랄 모험가 길드원^#FFFFFF에게 전해 주십시오./n" npc="모험가 길드원">
+			<subjectPos subjectStr="레드코랄 전투 모험가 길드원에게 보고" mapTargetId="203501"/>
+		</Subject>
+		<Storage Collect1_typeID="150142" Collect1_goal="5" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+	<Quest typeID="203306015" typeName="아이의 부탁" group="201" NPC="숨바꼭질하는 소년" reportTo="모험가 길드원5" cancelable="1" repeatable="0" retryable="1" lv="18" desc="도와주세요. 귀신소리 숲에서 ^#FF0000모험가의 편지^#FFFFFF를 잃어 버렸어요./n 그걸 북부 구호소의 모험가 길드원에게 전해주기로 블루 코랄의 모험가 길드원 아저씨와 꼭꼭 약속했는데 말이죠. 세이람의 날개짓에 놀라 그걸 숲에 떨어뜨리고 말았어요. 전 그걸 금새 배달할 수 있을 줄 알았는데 모험가 길드원의 일은 아직 저한텐 무리인가봐요.  숲에 떨어뜨린 모험가의 편지를 찾아 ^#3399FF북부 모험가 길드원^#FFFFFF에게 전해주세요." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="6720" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203306015_Begin" desc="[[모험가의 편지 찾기]]" draft="도와주세요. 귀신소리 숲에서 ^#FF0000모험가의 편지^#FFFFFF를 잃어 버렸어요./n 그걸 북부 구호소의 모험가 길드원에게 전해주기로 블루 코랄의 모험가 길드원 아저씨와 꼭꼭 약속했는데 말이죠. 세이람의 날개짓에 놀라 그걸 숲에 떨어뜨리고 말았어요. 전 그걸 금새 배달할 수 있을 줄 알았는데 모험가 길드원의 일은 아직 저한텐 무리인가봐요.  숲에 떨어뜨린 모험가의 편지를 찾아 ^#3399FF북부 모험가 길드원^#FFFFFF에게 전해주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="모험가의 편지 찾기" mapTargetId="205701"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[북부 구호소 모험가 길드원에게 모험가의 편지 배달]]" draft="도와주세요. 귀신소리 숲에서 ^#FF0000모험가의 편지^#FFFFFF를 잃어 버렸어요./n 그걸 북부 구호소의 모험가 길드원에게 전해주기로 블루 코랄의 모험가 길드원 아저씨와 꼭꼭 약속했는데 말이죠. 세이람의 날개짓에 놀라 그걸 숲에 떨어뜨리고 말았어요. 전 그걸 금새 배달할 수 있을 줄 알았는데 모험가 길드원의 일은 아직 저한텐 무리인가봐요.  숲에 떨어뜨린 모험가의 편지를 찾아 ^#3399FF북부 모험가 길드원^#FFFFFF에게 전해주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="북부 구호소 모험가 길드원에게 모험가의 편지 배달" mapTargetId="205501"/>
+		</Subject>
+		<Storage Collect1_typeID="150321" Collect1_goal="1" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="36"/>
+	</Quest>
+	<Quest typeID="203306016" typeName="죽은 산호 청소" group="201" NPC="모험가 길드원3" reportTo="모험가 길드원3" cancelable="1" repeatable="0" retryable="1" lv="11" desc="마오 해들러 씨가 산호 해변  주변에 죽은 산호 때문에 해변가가 황폐해 진다며, 그 곳이 깨끗해지기 위해 도와 줄 사람이 필요하다고 합니다./n /n그 곳으로 가서 죽은 산호를 가져와 주십시오./n또, 그 산호는 어차피 버릴 거라고 해서 아무데나 버리면 안 됩니다. 반드시 ^#3399FF오래된 채취장의 모험가 길드원^#FFFFFF에게 가져와 주십시오./n^#FF0000죽은 산호^#FFFFFF는 약해서 손대면 부숴질지 모르니 조심해서 캐길 바랍니다." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="2720" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203306016_Begin" desc="[[죽은 산호 수집]]" draft="마오 해들러 씨가 산호 해변  주변에 죽은 산호 때문에 해변가가 황폐해 진다며, 그 곳이 깨끗해지기 위해 도와 줄 사람이 필요하다고 합니다./n /n그 곳으로 가서 죽은 산호를 가져와 주십시오./n또, 그 산호는 어차피 버릴 거라고 해서 아무데나 버리면 안 됩니다. 반드시 ^#3399FF오래된 채취장의 모험가 길드원^#FFFFFF에게 가져와 주십시오./n^#FF0000죽은 산호^#FFFFFF는 약해서 손대면 부숴질지 모르니 조심해서 캐길 바랍니다." npc="모험가 길드원">
+			<subjectPos subjectStr="죽은 산호 수집" mapTargetId="206701"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[오래된 채취장 전투 모험가 길드원에게 보고]]" draft="마오 해들러 씨가 산호 해변  주변에 죽은 산호 때문에 해변가가 황폐해 진다며, 그 곳이 깨끗해지기 위해 도와 줄 사람이 필요하다고 합니다./n /n그 곳으로 가서 죽은 산호를 가져와 주십시오./n또, 그 산호는 어차피 버릴 거라고 해서 아무데나 버리면 안 됩니다. 반드시 ^#3399FF오래된 채취장의 모험가 길드원^#FFFFFF에게 가져와 주십시오./n^#FF0000죽은 산호^#FFFFFF는 약해서 손대면 부숴질지 모르니 조심해서 캐길 바랍니다." npc="모험가 길드원">
+			<subjectPos subjectStr="오래된 채취장 전투 모험가 길드원에게 보고" mapTargetId="206501"/>
+		</Subject>
+		<Storage Collect1_typeID="150144" Collect1_goal="5" Collect1_count="Collect" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+	<Quest typeID="203306017" typeName="신속한 배달 " group="202" NPC="모험가 길드원4" reportTo="모험가 길드원5" cancelable="1" repeatable="0" retryable="1" lv="17" desc="발굴단의 바일셔터 씨가 달리기를 잘 하는 사람에게 이 일을 맡기라고 하더군요. 심부름을 보낸 발굴 단원에게 급히 전해야 할 물건이 있다고 합니다./n^#3399FF바일셔터 ^#FFFFFF씨는 앞의 발굴지에 계실테니 그분께 가보십시오./n" difficulty="1" onMessage="DeleteQuest_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="6240" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[바일셔터와 대화]]" draft="발굴단의 바일셔터 씨가 달리기를 잘 하는 사람에게 이 일을 맡기라고 하더군요. 심부름을 보낸 발굴 단원에게 급히 전해야 할 물건이 있다고 합니다./n^#3399FF바일셔터 ^#FFFFFF씨는 앞의 발굴지에 계실테니 그분께 가보십시오./n" npc="모험가 길드원">
+			<subjectPos subjectStr="바일셔터와 대화" mapTargetId="204509"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[북부 구호소에 발굴용품 목록 배달하기]]" draft="너! 모험가 길드에서 보낸 사람이지? 이 ^#FF0000고대 유적 발굴 용품 목록^#FFFFFF을 ^#3399FF북부 구호소 모험가 길드원^#FFFFFF에게 배달해 줘./n 우리 스쿠르들은 모험가 길드원과 긴밀한 거래를 하고 있지. 그 거래 품목 중에 하나가 모든 유적에서 발굴된 발굴 용품의 목록이야. 이게 얼마나 중요한 건지 알겠지?" npc="바일셔터">
+			<subjectPos subjectStr="북부 구호소에 발굴용품 목록 배달하기" mapTargetId="205501"/>
+		</Subject>
+		<Storage Collect1_typeID="150145"/>
+		<BasicReward typeID="2100000000" count="30"/>
+	</Quest>
+	<Quest typeID="203306018" typeName="커다란 친구 " group="202" NPC="모험가 길드원1" reportTo="모험가 길드원1" cancelable="1" repeatable="0" retryable="1" lv="6" desc="겁 많은 소녀의 의뢰입니다./n얼마 전 그 소녀가 숲에서 길을 잃었는데 도룽가라는 훔바바가 마을로 가는 길을 알려줘 소녀를 도와줬다고 합니다./n하지만 그 소녀는 겁이 많아 고맙다는 인사도 못하고 곧장 마을로 도망쳐 미안하다고 하더군요./n늦었지만 보답을 하고 싶다며 자신의 선물을 대신 배달해달라고 합니다. 마을 여관에서 ^#3399FF겁 많은 소녀^#FFFFFF를 만나보세요." difficulty="1" onMessage="DeleteQuest_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="480" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[겁많은 소녀와 대화]]" draft="겁 많은 소녀의 의뢰입니다./n얼마 전 그 소녀가 숲에서 길을 잃었는데 도룽가라는 훔바바가 마을로 가는 길을 알려줘 소녀를 도와줬다고 합니다./n하지만 그 소녀는 겁이 많아 고맙다는 인사도 못하고 곧장 마을로 도망쳐 미안하다고 하더군요./n늦었지만 보답을 하고 싶다며 자신의 선물을 대신 배달해달라고 합니다. 마을 여관에서 ^#3399FF겁 많은 소녀^#FFFFFF를 만나보세요." npc="모험가 길드원">
+			<subjectPos subjectStr="겁많은 소녀와 대화" mapTargetId="201515"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[도룽가에게 배달]]" draft="부탁을… 드리고 싶어서요. 들어주실래요?/n얼마 전에 숲에 놀러 갔다가 길을 잃었때 절 도와줬던 훔바바에게 고마움을 표현하고 싶어요./n그 훔바바의 이름은 ^#3399FF도룽가^#FFFFFF라고 했어요. 그 분께 이 ^#3399FF작은 버섯 바구니^#FFFFFF를 전달해 주세요./n" npc="모험가 길드원">
+			<subjectPos subjectStr="도룽가에게 배달" mapTargetId="201516"/>
+		</Subject>
+		<Storage Collect1_typeID="150146"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="203306020" typeName="수확의 기쁨 " group="202" NPC="모험가 길드원6" reportTo="올리비아 크롬웰" cancelable="1" repeatable="0" retryable="1" lv="14" desc="블루베리 농장의 ^#3399FF바이올렛^#FFFFFF씨가 산호 농장의 올리비아씨께 꼭 전해주고 싶은 선물이 있다고 합니다./n블루코랄 동쪽에 있는 바이올렛의 블루베리 농장으로 가셔서 그 물건을 받아 배달해 주십시오./n" difficulty="1" onMessage="DeleteQuest_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="4720" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[바이올렛 발하운드와 대화]]" draft="블루베리 농장의 ^#3399FF바이올렛^#FFFFFF씨가 산호 농장의 올리비아씨께 꼭 전해주고 싶은 선물이 있다고 합니다./n블루코랄 동쪽에 있는 바이올렛의 블루베리 농장으로 가셔서 그 물건을 받아 배달해 주십시오./n" npc="모험가 길드원">
+			<subjectPos subjectStr="바이올렛 발하운드와 대화" mapTargetId="203503"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[올리비아 크롬웰에게 배달]]" draft="모험가 길드에서 보낸 사람이었어? 잘 왔어./n보시다시피 난 지금 기분이 몹시 좋아. 왜냐고? 내 금쪽같은 녀석들의 수확철인데 안 기쁠 수가 있겠어? 그리고 기쁨은 나눠야 두 배가 되는 법이지./n /n그러니까, 이 ^#3399FF블루베리가 가득 담긴 바구니^#FFFFFF를 산호 농장의 ^#3399FF올리비아 크롬웰^#FFFFFF에게 전해주라고./n 내가 이렇게 힘내고 있으니 수확량을 따라잡히기 싫으면 그녀도 날 본받아 더 노력하라는 말과 함께 말이야." npc="모험가 길드원">
+			<subjectPos subjectStr="올리비아 크롬웰에게 배달" mapTargetId="202506"/>
+		</Subject>
+		<Storage Collect1_typeID="150148"/>
+		<BasicReward typeID="2100000000" count="20"/>
+	</Quest>
+	<Quest typeID="203306021" typeName="신제품 홍보" group="202" NPC="모험가 길드원2" reportTo="모험가 길드원2" cancelable="1" repeatable="0" retryable="1" lv="9" desc="블루코랄 서쪽 입구 근처 시장에서 장사하시는 앨버트씨의 의뢰입니다. 이번에 신제품이 나왔는데, 제품 홍보를 하고 싶다고 하시는군요./n 그 일을 해주셨으면 합니다. ^#3399FF앨버트^#FFFFFF씨를 찾아가시면 자세한 이야기를 들을 수 있을 겁니다./n" difficulty="1" onMessage="DeleteQuest_quest2_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="1120" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[앨버트와 대화]]" draft="블루코랄 서쪽 입구 근처 시장에서 장사하시는 앨버트씨의 의뢰입니다. 이번에 신제품이 나왔는데, 제품 홍보를 하고 싶다고 하시는군요./n 그 일을 해주셨으면 합니다. ^#3399FF앨버트^#FFFFFF씨를 찾아가시면 자세한 이야기를 들을 수 있을 겁니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="앨버트와 대화" mapTargetId="202517"/>
+		</Subject>
+		<Subject typeName="Deliver1" func="Quest203306021_Deliver" desc="[[서반 트라킷에게 배달]]" draft="뭐야, 모험가 길드에서 보낸 사람이야?/n어험, 뭐, 잘 왔어. 몸은 좀 부실해보이지만 어떻게 되겠지. 일단 이것부터 받게./n^#3399FF신제품 28호^#FFFFFF 홍보용 특별 패키지일세. 요즘 장사에는 입소문이 중요하거든. 우선 그 첫걸음으로 블루코랄 명사들에게 홍보를 해 보기로 했네./n그런데 보시다시피 나는 장사를 해야 해서 이곳을 떠날 수가 없어. 자네가 그걸 배달 해주게. ^#3399FF서반 트라킷^#FFFFFF님과 그린리프 본사 안의 ^#3399FF제이리 로터스^#FFFFFF씨에게 전해주면 좋겠군./n전부 다 배달하고 ^#3399FF블루코랄 모험가 길드원^#FFFFFF을 찾아가면 보수를 줄걸세. " npc="엘버트">
+			<subjectPos subjectStr="서반 트라킷에게 배달" mapTargetId="202512"/>
+		</Subject>
+		<Subject typeName="Deliver2" func="Quest203306021_Deliver" desc="[[제이리 로터스에게 배달]]" draft="뭐야, 모험가 길드에서 보낸 사람이야?/n어험, 뭐, 잘 왔어. 몸은 좀 부실해보이지만 어떻게 되겠지. 일단 이것부터 받게./n^#3399FF신제품 28호^#FFFFFF 홍보용 특별 패키지일세. 요즘 장사에는 입소문이 중요하거든. 우선 그 첫걸음으로 블루코랄 명사들에게 홍보를 해 보기로 했네./n그런데 보시다시피 나는 장사를 해야 해서 이곳을 떠날 수가 없어. 자네가 그걸 배달 해주게. ^#3399FF서반 트라킷^#FFFFFF님과 그린리프 본사 안의 ^#3399FF제이리 로터스^#FFFFFF씨에게 전해주면 좋겠군./n전부 다 배달하고 ^#3399FF블루코랄 모험가 길드원^#FFFFFF을 찾아가면 보수를 줄걸세. " npc="엘버트">
+			<subjectPos subjectStr="제이리 로터스에게 배달" mapTargetId="202518"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[블루 코랄 전투 모험가 길드원에게 보고]]" draft="뭐야, 모험가 길드에서 보낸 사람이야?/n어험, 뭐, 잘 왔어. 몸은 좀 부실해보이지만 어떻게 되겠지. 일단 이것부터 받게./n^#3399FF신제품 28호^#FFFFFF 홍보용 특별 패키지일세. 요즘 장사에는 입소문이 중요하거든. 우선 그 첫걸음으로 블루코랄 명사들에게 홍보를 해 보기로 했네./n그런데 보시다시피 나는 장사를 해야 해서 이곳을 떠날 수가 없어. 자네가 그걸 배달 해주게. ^#3399FF서반 트라킷^#FFFFFF님과 그린리프 본사 안의 ^#3399FF제이리 로터스^#FFFFFF씨에게 전해주면 좋겠군./n전부 다 배달하고 ^#3399FF블루코랄 모험가 길드원^#FFFFFF을 찾아가면 보수를 줄걸세. " npc="모험가 길드원">
+			<subjectPos subjectStr="블루 코랄 전투 모험가 길드원에게 보고" mapTargetId="202501"/>
+		</Subject>
+		<Storage Collect1_typeID="150149"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="203306022" typeName="도움의 손길" group="202" NPC="모험가 길드원2" reportTo="모험가 길드원3" cancelable="1" repeatable="0" retryable="1" lv="9" desc="그린리프의 제이리 로터스 님께서 구호 활동을 도와줄 사람을 구하고 있습니다. 자세한 내용은 그린리프 본관에 계신 ^#3399FF제이리 로터스^#FFFFFF님을 찾아가면 들을 수 있습니다./n" difficulty="1" onMessage="DeleteQuest_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="1120" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[제이리 로터스와 대화]]" draft="그린리프의 제이리 로터스 님께서 구호 활동을 도와줄 사람을 구하고 있습니다. 자세한 내용은 그린리프 본관에 계신 ^#3399FF제이리 로터스^#FFFFFF님을 찾아가면 들을 수 있습니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="제이리 로터스와 대화" mapTargetId="202518"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[오래된 채취장 전투 모험가 길드원에게 보고]]" draft="도와주러 온 분이신가요?/n저희 그린리프에서는 이 푸른 산호 숲 일대에 구호소를 두어 다친 분들을 돕고 있습니다. 이번에 부탁드릴 일도 구호소와 관련된 일이에요./n 블루코랄의 북쪽 다리를 건너서 오른쪽으로 더 가시다 보면 작은 길이 있는데, 그 근처에 ^#3399FF오래된 채취장의 모험가 길드원^#FFFFFF이 있습니다. 제가 드리는 ^#3399FF구호 물품^#FFFFFF을 오래된 채취장의 모험가 길드원에게 배달해 주시면 됩니다.곤경에 처한 많은 분들이 구호 물품을 기다리고 있답니다." npc="모험가 길드원">
+			<subjectPos subjectStr="오래된 채취장 전투 모험가 길드원에게 보고" mapTargetId="206501"/>
+		</Subject>
+		<Storage Collect1_typeID="150150"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="203306023" typeName="따끈한 도시락 " group="202" NPC="모험가 길드원3" reportTo="모험가 길드원3" cancelable="1" repeatable="0" retryable="1" lv="10" desc="산호 생태 조사단의 ^#3399FF한 소토^#FFFFFF씨께서 도시락을 배달을 의뢰 하셨습니다. 늙은 산호숲에 있는 산호 생태 조사단에 오시면 배달할 도시락을 주겠다고 하시는군요./n" difficulty="1" onMessage="DeleteQuest_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="2240" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[한 소토와 대화]]" draft="산호 생태 조사단의 ^#3399FF한 소토^#FFFFFF씨께서 도시락을 배달을 의뢰 하셨습니다. 늙은 산호숲에 있는 산호 생태 조사단에 오시면 배달할 도시락을 주겠다고 하시는군요./n" npc="모험가 길드원">
+			<subjectPos subjectStr="한 소토와 대화" mapTargetId="206504"/>
+		</Subject>
+		<Subject typeName="Deliver" func="NULL" desc="[[네이베리에게 도시락 배달]]" draft="모험가 길드에서 파견해 주신 분이로군요?/n일단, 이것부터 받고 이야기합시다. 아, 뜨거우니 조심하시고. 늙은 산호 숲 구석구석에서 산호 생태를 조사하고 있는 조사단 ^#3399FF네이베리^#FFFFFF에게 이 ^#3399FF따끈한 도시락^#FFFFFF을 전해주시면 됩니다." npc="한소토">
+			<subjectPos subjectStr="네이베리에게 도시락 배달" mapTargetId="206502"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[오래된 채취장 전투 모험가 길드원에게 보고]]" draft="도시락? 한이 보낸거죠?/n /n도시락도 좋지만, 전 사람이 더 그리웠어요. 나랑 좀 놀다가 가면 안 될까요? 아이, 쩨쩨하게 굴지 말고./n /n칫, 바쁘다고요? 알았어요, 알았어. 열심히 조사나 하면 되잖아요. /n아무튼 이런 데까지 배달 고마워요./n 보답은 ^#3399FF오래된 채취장의 모험가 길드원^#FFFFFF이 해줄거에요." npc="모험가 길드원">
+			<subjectPos subjectStr="오래된 채취장 전투 모험가 길드원에게 보고" mapTargetId="206501"/>
+		</Subject>
+		<Storage Collect1_typeID="150151"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+	<Quest typeID="203306024" typeName="소생 " group="202" NPC="모험가 길드원6" reportTo="모험가 길드원6" cancelable="1" repeatable="0" retryable="1" lv="14" desc="류사 아반 씨의 의뢰입니다. 류사 아반 씨께서는 장미 산호들을 되살리기 위해 많은 노력을 하고 있습니다. 그런데 일을 할 일손이 많이 부족한 모양입니다. 산호 생태 조사단에 계시는 ^#3399FF킬로이 미르드^#FFFFFF씨의 일을 도와 드리십시오./n" difficulty="1" onMessage="Quest203306024_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="4720" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[모험가 길드원과 대화]]" draft="류사 아반 씨의 의뢰입니다. 류사 아반 씨께서는 장미 산호들을 되살리기 위해 많은 노력을 하고 있습니다. 그런데 일을 할 일손이 많이 부족한 모양입니다. 산호 생태 조사단에 계시는 ^#3399FF킬로이 미르드^#FFFFFF씨의 일을 도와 드리십시오./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원과 대화" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Talk" func="NULL" desc="[[킬로이 미르드와 대화]]" draft="류사 아반 씨의 의뢰입니다. 류사 아반 씨께서는 장미 산호들을 되살리기 위해 많은 노력을 하고 있습니다. 그런데 일을 할 일손이 많이 부족한 모양입니다. 산호 생태 조사단에 계시는 ^#3399FF킬로이 미르드^#FFFFFF씨의 일을 도와 드리십시오./n" npc="모험가 길드원">
+			<subjectPos subjectStr="킬로이 미르드와 대화" mapTargetId="203507"/>
+		</Subject>
+		<Subject typeName="Deliver" func="Quest203306024_Deliver" desc="[[되살아나는 산호에게 영양제 사용]]" draft="모험가 길드에서 보낸 사람입니까? 다행입니다. 일을 할 사람이 없어 곤란하던 참이거든요./n /n이 ^#3399FF영양제^#FFFFFF를 받으시고 되살아 나는 산호 숲 부근에 있는 되살아 나는 산호에게 영양제를 뿌려 주십시오. 단 한가지 주의할 것은 영양제를 준 산호에게는 다시 영양제를 주어선 안됩니다./n 전부 뿌리시고 처음 만났던 ^#3399FF레드코랄 모험가 길드원^#FFFFFF에게 돌아가면 제가 맡긴 보수를 받을 수 있을겁니다." npc="류사 아반">
+			<subjectPos subjectStr="되살아나는 산호에게 영양제 사용" mapTargetId="203702"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[레드코랄 전투 모험가 길드원에게 보고]]" draft="모험가 길드에서 보낸 사람입니까? 다행입니다. 일을 할 사람이 없어 곤란하던 참이거든요./n /n이 ^#3399FF영양제^#FFFFFF를 받으시고 되살아 나는 산호 숲 부근에 있는 되살아 나는 산호에게 영양제를 뿌려 주십시오. 단 한가지 주의할 것은 영양제를 준 산호에게는 다시 영양제를 주어선 안됩니다./n 전부 뿌리시고 처음 만났던 ^#3399FF레드코랄 모험가 길드원^#FFFFFF에게 돌아가면 제가 맡긴 보수를 받을 수 있을겁니다." npc="모험가 길드원">
+			<subjectPos subjectStr="레드코랄 전투 모험가 길드원에게 보고" mapTargetId="203501"/>
+		</Subject>
+		<Storage Hunt1_typeID="110015" Hunt2_typeID="1033" target2_type="Hunt" Hunt2_goal="5" Hunt2_count="0"/>
+		<BasicReward typeID="2100000000" count="20"/>
+	</Quest>
+	<Quest typeID="203306035" typeName="밑빠진 독에 물 붓기 " group="205" NPC="모험가 길드원4" reportTo="모험가 길드원4" cancelable="1" repeatable="0" retryable="1" lv="17" desc="바일셔터 씨의 의뢰입니다./n최근 유적 발굴지 근처에 고블린 도굴꾼이 들끓어 불안하다고 합니다. 바일셔터는 발굴지 끝에 있는 ^#FF0000탑 뒷 편^#FFFFFF까지 도굴꾼이 출몰하는 것 같다며 경비 비용을 추가 요청할 증거를 찾길 원하십니다. 가서 도굴꾼이 발굴지 깊숙한 곳까지 들어온다는 ^#FF0000증거^#FFFFFF를 찾아 ^#3399FF고대 유적 발굴지 모험가 길드원^#FFFFFF에게 가져 오십시오." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="6240" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203306035_Begin" desc="[[도굴꾼의 증거 수집]]" draft="바일셔터 씨의 의뢰입니다./n최근 유적 발굴지 근처에 고블린 도굴꾼이 들끓어 불안하다고 합니다. 바일셔터는 발굴지 끝에 있는 ^#FF0000탑 뒷 편^#FFFFFF까지 도굴꾼이 출몰하는 것 같다며 경비 비용을 추가 요청할 증거를 찾길 원하십니다. 가서 도굴꾼이 발굴지 깊숙한 곳까지 들어온다는 ^#FF0000증거^#FFFFFF를 찾아 ^#3399FF고대 유적 발굴지 모험가 길드원^#FFFFFF에게 가져 오십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="도굴꾼의 증거 수집" mapTargetId="204701"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[고대 유적 발굴지 모험가 길드원에게 보고]]" draft="바일셔터 씨의 의뢰입니다./n최근 유적 발굴지 근처에 고블린 도굴꾼이 들끓어 불안하다고 합니다. 바일셔터는 발굴지 끝에 있는 ^#FF0000탑 뒷 편^#FFFFFF까지 도굴꾼이 출몰하는 것 같다며 경비 비용을 추가 요청할 증거를 찾길 원하십니다. 가서 도굴꾼이 발굴지 깊숙한 곳까지 들어온다는 ^#FF0000증거^#FFFFFF를 찾아 ^#3399FF고대 유적 발굴지 모험가 길드원^#FFFFFF에게 가져 오십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="고대 유적 발굴지 모험가 길드원에게 보고" mapTargetId="204501"/>
+		</Subject>
+		<Storage Collect1_typeID="150322" Collect1_goal="1" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="30"/>
+	</Quest>
+	<Quest typeID="203306036" typeName="명소 탐방 " group="205" NPC="모험가 길드원2" reportTo="모험가 길드원2" cancelable="1" repeatable="0" retryable="1" lv="9" desc="블루 코랄 관광청의 의뢰입니다. ^#3399FF블루코랄의 관광 명소 3곳^#FFFFFF을 꼭 둘러주시라고 하는군요./n관광명소 3곳은 블루코랄에서 남동쪽 바다에 있는 특이한 모양의 섬인 ^#3399FF약속의 섬^#FFFFFF, 쪽배 항구에서 남쪽에 있는 바이올렛 양식을 처음으로 시작한 오르티나 발하운드의 ^#3399FF오르티나 석상^#FFFFFF, 그리고 광장 근처의 ^#3399FF교회^#FFFFFF 입니다. 좋은 시간 되시길 바랍니다./n다 돌아보신 후엔 ^#3399FF블루 코랄 모험가 길드원^#FFFFFF에게 돌아오십시오." difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="1120" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203306036_Begin" desc="[[약속의 섬 탐색]] [[오르티나 석상 탐색]] [[교회 탐색]]" draft="블루 코랄 관광청의 의뢰입니다. ^#3399FF블루코랄의 관광 명소 3곳^#FFFFFF을 꼭 둘러주시라고 하는군요./n관광명소 3곳은 블루코랄에서 남동쪽 바다에 있는 특이한 모양의 섬인 ^#3399FF약속의 섬^#FFFFFF, 쪽배 항구에서 남쪽에 있는 바이올렛 양식을 처음으로 시작한 오르티나 발하운드의 ^#3399FF오르티나 석상^#FFFFFF, 그리고 광장 근처의 ^#3399FF교회^#FFFFFF 입니다. 좋은 시간 되시길 바랍니다./n다 돌아보신 후엔 ^#3399FF블루 코랄 모험가 길드원^#FFFFFF에게 돌아오십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="약속의 섬 탐색" mapTargetId="202422"/>
+			<subjectPos subjectStr="오르티나 석상 탐색" mapTargetId="202423"/>
+			<subjectPos subjectStr="교회 탐색" mapTargetId="202424"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[블루 코랄 전투 모험가 길드원에게 보고]]" draft="블루 코랄 관광청의 의뢰입니다. ^#3399FF블루코랄의 관광 명소 3곳^#FFFFFF을 꼭 둘러주시라고 하는군요./n관광명소 3곳은 블루코랄에서 남동쪽 바다에 있는 특이한 모양의 섬인 ^#3399FF약속의 섬^#FFFFFF, 쪽배 항구에서 남쪽에 있는 바이올렛 양식을 처음으로 시작한 오르티나 발하운드의 ^#3399FF오르티나 석상^#FFFFFF, 그리고 광장 근처의 ^#3399FF교회^#FFFFFF 입니다. 좋은 시간 되시길 바랍니다./n다 돌아보신 후엔 ^#3399FF블루 코랄 모험가 길드원^#FFFFFF에게 돌아오십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="블루 코랄 전투 모험가 길드원에게 보고" mapTargetId="202501"/>
+		</Subject>
+		<Storage Explore1_goal="1" Explore1_count="0" target1_type="Explore" Explore2_goal="1" Explore2_count="0" target2_type="Explore" Explore3_goal="1" Explore3_count="0" target3_type="Explore"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="203306038" typeName="영원한 소녀 " group="202" NPC="모험가 길드원7" reportTo="모험가 길드원7" cancelable="1" repeatable="0" retryable="1" lv="8" desc="중년 상인님이 배달해야 할 물건이 있으니, 사람을 보내달라고 하시는군요. 가끔 이렇게 본명을 밝히지 않는 분이 계시지만 신원은 확인했으니, 걱정하지 마십시오./n^#3399FF중년 상인^#FFFFFF님은 블루코랄 서쪽문 근처에 계실 겁니다./n" difficulty="1" onMessage="DeleteQuest_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="960" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[중년 상인과 대화]]" draft="중년 상인님이 배달해야 할 물건이 있으니, 사람을 보내달라고 하시는군요. 가끔 이렇게 본명을 밝히지 않는 분이 계시지만 신원은 확인했으니, 걱정하지 마십시오./n^#3399FF중년 상인^#FFFFFF님은 블루코랄 서쪽문 근처에 계실 겁니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="중년 상인과 대화" mapTargetId="202515"/>
+		</Subject>
+		<Subject typeName="Deliver" func="NULL" desc="[[루티 티엘에게 배달]]" draft="모, 모험가 길드에서 왔나?! 잘 왔어!! 얼른, 당장, 냉큼 이걸 받아!/n이걸 ^#3399FF루티 누님^#FFFFFF에게 전해줘!/n얼른 전해주지 않으면 난… /n이 ^#3399FF수수께끼의 꾸러미^#FFFFFF를 빨리 가지고 곧장 인형가게로 가! 절대 중간에 열어보지 말고! 늦었다간 무슨 일을 당할지 모르니 꾸물거리지 말고 냉큼 다녀와줘!/n" npc="중년 상인">
+			<subjectPos subjectStr="루티 티엘에게 배달" mapTargetId="202514"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[블루 코랄 전투 모험가 길드원에게 보고]]" draft="아이 참, 뭐야, 약속보다 한참 늦었잖아! 거기다가 나보고 뭐라고했더라, 누님?!/n다음에 오기만 해 봐라, 예쁜 인형은 마티나 상단이랑 거래해 버릴 테야! 흥!/n아, 당신에게 드린 말씀은 아니에요. 오해 마세요? 네? 중년 상인이 왜 저를 누님이라고 부르냐고요?/n 후훗, 여자의 비밀은 캐묻는게 아니랍니다./n^#3399FF블루 코랄 모험가 길드원^#FFFFFF에게 가서 보상이나 받으라고요!" npc="모험가 길드원">
+			<subjectPos subjectStr="블루 코랄 전투 모험가 길드원에게 보고" mapTargetId="202501"/>
+		</Subject>
+		<Storage Collect1_typeID="150156"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="203306039" typeName="전장의 빛 " group="202" NPC="모험가 길드원6" reportTo="모험가 길드원6" cancelable="1" repeatable="0" retryable="1" lv="12" desc="이번 건은 조금 위험한 일 같은데, 괜찮겠습니까?/n 리저드와 전투를 펼치시는 코랄 병사들을 통솔하는 ^#3399FF콜수스 세레우트^#FFFFFF의 의뢰이신데 직접 오면 자세한 사항을 이야기 해주신다고 합니다./n 콜수스 세레우트님과 대화해 보십시오." difficulty="1" onMessage="DeleteQuest_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="3640" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[모험가 길드원과 대화]]" draft="이번 건은 조금 위험한 일 같은데, 괜찮겠습니까?/n 리저드와 전투를 펼치시는 코랄 병사들을 통솔하는 ^#3399FF콜수스 세레우트^#FFFFFF의 의뢰이신데 직접 오면 자세한 사항을 이야기 해주신다고 합니다./n 콜수스 세레우트님과 대화해 보십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원과 대화" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Deliver" func="NULL" desc="[[콜수스 세레우트와 대화]]" draft="이번 건은 조금 위험한 일 같은데, 괜찮겠습니까?/n 리저드와 전투를 펼치시는 코랄 병사들을 통솔하는 ^#3399FF콜수스 세레우트^#FFFFFF의 의뢰이신데 직접 오면 자세한 사항을 이야기 해주신다고 합니다./n 콜수스 세레우트님과 대화해 보십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="콜수스 세레우트와 대화" mapTargetId="203506"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[부상당한 병사에게 배달]]" draft="내 부하들이 리저드와 싸우는 도중 실종되었다네. 혹시 부상 당해서 돌아오지 못하는게 가서 찾아주게. 혹시 부상을 당해 돌아오지 못하는 거라면.../n여기 전에 지스님이 주신 ^#3399FF구급 상자^#FFFFFF라네. 이걸 리저드의 소굴로 들어가 ^#3399FF부상 당한 병사^#FFFFFF에게 전해주어." npc="모험가 길드원">
+			<subjectPos subjectStr="부상당한 병사에게 배달" mapTargetId="203505"/>
+		</Subject>
+		<Storage Collect1_typeID="150157"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+</Quest>

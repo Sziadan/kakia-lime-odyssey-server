@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<!-- edited with XMLSpy v2006 rel. 3 U (http://www.altova.com) by apple (orange) -->
+<NpcModelEffectInfo>
+	<modelEffect typeId="324">
+		<effect>
+			<effectKind effectID="2239" effectOrder="start"/>
+			<effectKind effectID="2240" effectOrder="start"/>
+			<effectKind effectID="2241" effectOrder="start"/>
+			<effectKind effectID="2242" effectOrder="start"/>
+			<effectKind effectID="2243" effectOrder="start"/>
+			<effectKind effectID="2244" effectOrder="start"/>
+			<effectKind effectID="2245" effectOrder="start"/>
+			<effectKind effectID="2246" effectOrder="start"/>
+		</effect>
+	</modelEffect>
+	<modelEffect typeId="263">
+		<effect>
+			<effectKind effectID="2247" effectOrder="start"/>
+			<effectKind effectID="2248" effectOrder="start"/>
+			<effectKind effectID="2249" effectOrder="start"/>
+			<effectKind effectID="2250" effectOrder="start"/>
+			<effectKind effectID="2251" effectOrder="start"/>
+			<effectKind effectID="2252" effectOrder="start"/>
+			<effectKind effectID="2253" effectOrder="start"/>
+			<effectKind effectID="2254" effectOrder="start"/>
+		</effect>
+	</modelEffect>
+	<modelEffect typeId="325">
+		<effect>
+			<effectKind effectID="2282" effectOrder="start"/>
+		</effect>
+	</modelEffect>
+	<modelEffect typeId="335">
+		<effect>
+			<effectKind effectID="2276" effectOrder="start"/>
+		</effect>
+	</modelEffect>
+	<modelEffect typeId="336">
+		<effect>
+			<effectKind effectID="2277" effectOrder="start"/>
+			<effectKind effectID="2278" effectOrder="start"/>
+			<effectKind effectID="2279" effectOrder="start"/>
+			<effectKind effectID="2280" effectOrder="start"/>
+			<effectKind effectID="2281" effectOrder="start"/>
+		</effect>
+	</modelEffect>
+</NpcModelEffectInfo>

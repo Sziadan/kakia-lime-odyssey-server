@@ -1,0 +1,2342 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<!-- edited with XMLSpy v2008 (http://www.altova.com) by Administrator (SIRIUS) -->
+<SkillEffectInfo>
+	<skillEffect typeID="1" name="[PC]Striking Sword">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="2230001" mixmotionID="0">
+				<effectKind effectID="14" effectOrder="eff00"/>
+				<effectKind effectID="15" effectOrder="efx00"/>
+				<effectKind effectID="638" effectOrder="tff00"/>
+				<effectKind effectID="639" effectOrder="tfx00"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="375"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="2" name="[PC]Titan Crush">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="2230011" mixmotionID="0">
+				<effectKind effectID="711" effectOrder="eff00"/>
+				<effectKind effectID="712" effectOrder="eff01"/>
+				<effectKind effectID="713" effectOrder="eff02"/>
+				<effectKind effectID="714" effectOrder="eff02"/>
+				<effectKind effectID="715" effectOrder="eff02"/>
+				<effectKind effectID="717" effectOrder="eff00"/>
+				<effectKind effectID="718" effectOrder="eff00"/>
+				<effectKind effectID="716" effectOrder="eff03"/>
+				<effectKind effectID="764" effectOrder="eff03"/>
+				<effectKind effectID="727" effectOrder="efx00"/>
+				<effectKind effectID="728" effectOrder="efx01"/>
+				<effectKind effectID="729" effectOrder="efx02"/>
+				<effectKind effectID="730" effectOrder="efx02"/>
+				<effectKind effectID="731" effectOrder="efx02"/>
+				<effectKind effectID="717" effectOrder="efx00"/>
+				<effectKind effectID="718" effectOrder="efx00"/>
+				<effectKind effectID="716" effectOrder="efx03"/>
+				<effectKind effectID="764" effectOrder="efx03"/>
+				<effectKind effectID="732" effectOrder="tff00"/>
+				<effectKind effectID="733" effectOrder="tff01"/>
+				<effectKind effectID="734" effectOrder="tff02"/>
+				<effectKind effectID="735" effectOrder="tff02"/>
+				<effectKind effectID="736" effectOrder="tff02"/>
+				<effectKind effectID="717" effectOrder="tff00"/>
+				<effectKind effectID="718" effectOrder="tff00"/>
+				<effectKind effectID="716" effectOrder="tff03"/>
+				<effectKind effectID="764" effectOrder="tff03"/>
+				<effectKind effectID="737" effectOrder="tfx00"/>
+				<effectKind effectID="738" effectOrder="tfx01"/>
+				<effectKind effectID="739" effectOrder="tfx02"/>
+				<effectKind effectID="740" effectOrder="tfx02"/>
+				<effectKind effectID="741" effectOrder="tfx02"/>
+				<effectKind effectID="717" effectOrder="tfx00"/>
+				<effectKind effectID="718" effectOrder="tfx00"/>
+				<effectKind effectID="716" effectOrder="tfx03"/>
+				<effectKind effectID="764" effectOrder="tfx03"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="538"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="3" name="[PC]Heavy Blow">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="6110001" mixmotionID="0">
+				<effectKind effectID="2093" effectOrder="eff00"/>
+				<effectKind effectID="2092" effectOrder="eff02"/>
+				<effectKind effectID="2094" effectOrder="efx00"/>
+				<effectKind effectID="2095" effectOrder="efx02"/>
+				<effectKind effectID="2096" effectOrder="tff00"/>
+				<effectKind effectID="2097" effectOrder="tff01"/>
+				<effectKind effectID="2098" effectOrder="tfx01"/>
+				<effectKind effectID="2099" effectOrder="tfx00"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="2089"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="4" name="[PC]Limit Breaker">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="2120001" mixmotionID="2120002"/>
+			<shootloop/>
+			<damage effectID="2127"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="5" name="[PC]Mission Carry">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="2120001" mixmotionID="2120002"/>
+			<shootloop/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="6" name="[PC]Defense Carry">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="2120001" mixmotionID="2120002"/>
+			<shootloop/>
+			<damage effectID="2127"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="7" name="[PC]Elemental Carry">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="2120001" mixmotionID="2120002"/>
+			<shootloop/>
+			<damage effectID="2127"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="8" name="[PC]GaleMove">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="0" mixmotionID="0"/>
+			<shootloop/>
+			<damage effectID="2089"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="9" name="[PC]Face Blow">
+		<skillState>
+			<firstcast/>
+			<cast motionID="2330003">
+				<effectKind effectID="2100" effectOrder="start"/>
+			</cast>
+			<shoot motionID="2230047" mixmotionID="0">
+				<effectKind effectID="723" effectOrder="efx00"/>
+				<effectKind effectID="724" effectOrder="efx01"/>
+				<effectKind effectID="725" effectOrder="efx02"/>
+				<effectKind effectID="726" effectOrder="efx03"/>
+				<effectKind effectID="752" effectOrder="eff00"/>
+				<effectKind effectID="753" effectOrder="eff01"/>
+				<effectKind effectID="754" effectOrder="eff02"/>
+				<effectKind effectID="755" effectOrder="eff03"/>
+				<effectKind effectID="756" effectOrder="tff00"/>
+				<effectKind effectID="757" effectOrder="tff01"/>
+				<effectKind effectID="758" effectOrder="tff02"/>
+				<effectKind effectID="759" effectOrder="tff03"/>
+				<effectKind effectID="760" effectOrder="tfx00"/>
+				<effectKind effectID="761" effectOrder="tfx01"/>
+				<effectKind effectID="762" effectOrder="tfx02"/>
+				<effectKind effectID="763" effectOrder="tfx03"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="538"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="10" name="[PC]Blocking">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="2230007" mixmotionID="0">
+				<effectKind effectID="5035" effectOrder="eff00"/>
+				<effectKind effectID="5036" effectOrder="eff01"/>
+				<effectKind effectID="5035" effectOrder="efx00"/>
+				<effectKind effectID="5037" effectOrder="efx01"/>
+				<effectKind effectID="5065" effectOrder="tff00"/>
+				<effectKind effectID="5066" effectOrder="tff01"/>
+				<effectKind effectID="5065" effectOrder="tfx00"/>
+				<effectKind effectID="5067" effectOrder="tfx01"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="2089"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="11" name="[PC]Provoke">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="6160001" mixmotionID="6160002">
+				<effectKind effectID="5118" effectOrder="eff01"/>
+				<effectKind effectID="5176" effectOrder="efx01"/>
+				<effectKind effectID="5177" effectOrder="tff01"/>
+				<effectKind effectID="5178" effectOrder="tfx01"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="5119"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="12" name="[PC]AssaultSlash">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="6120001" mixmotionID="0">
+				<effectKind effectID="5038" effectOrder="eff01"/>
+				<effectKind effectID="5039" effectOrder="eff02"/>
+				<effectKind effectID="5040" effectOrder="eff03"/>
+				<effectKind effectID="5041" effectOrder="eff04"/>
+				<effectKind effectID="5042" effectOrder="eff05"/>
+				<effectKind effectID="5043" effectOrder="eff06"/>
+				<effectKind effectID="5044" effectOrder="eff00"/>
+				<effectKind effectID="5045" effectOrder="efx01"/>
+				<effectKind effectID="5046" effectOrder="efx02"/>
+				<effectKind effectID="5047" effectOrder="efx03"/>
+				<effectKind effectID="5048" effectOrder="efx04"/>
+				<effectKind effectID="5049" effectOrder="efx05"/>
+				<effectKind effectID="5050" effectOrder="efx06"/>
+				<effectKind effectID="5044" effectOrder="efx00"/>
+				<effectKind effectID="5051" effectOrder="tff01"/>
+				<effectKind effectID="5052" effectOrder="tff02"/>
+				<effectKind effectID="5053" effectOrder="tff03"/>
+				<effectKind effectID="5054" effectOrder="tff04"/>
+				<effectKind effectID="5055" effectOrder="tff05"/>
+				<effectKind effectID="5056" effectOrder="tff06"/>
+				<effectKind effectID="5057" effectOrder="tff00"/>
+				<effectKind effectID="5058" effectOrder="tfx01"/>
+				<effectKind effectID="5059" effectOrder="tfx02"/>
+				<effectKind effectID="5060" effectOrder="tfx03"/>
+				<effectKind effectID="5061" effectOrder="tfx04"/>
+				<effectKind effectID="5062" effectOrder="tfx05"/>
+				<effectKind effectID="5063" effectOrder="tfx06"/>
+				<effectKind effectID="5064" effectOrder="tfx00"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="538"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="13" name="[PC]HardSpin">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="6130001" mixmotionID="0">
+				<effectKind effectID="5068" effectOrder="eff01"/>
+				<effectKind effectID="5069" effectOrder="eff00"/>
+				<effectKind effectID="5070" effectOrder="eff01"/>
+				<effectKind effectID="5071" effectOrder="eff02"/>
+				<effectKind effectID="5072" effectOrder="eff03"/>
+				<effectKind effectID="5073" effectOrder="eff01"/>
+				<effectKind effectID="5074" effectOrder="efx01"/>
+				<effectKind effectID="5075" effectOrder="efx00"/>
+				<effectKind effectID="5076" effectOrder="efx01"/>
+				<effectKind effectID="5077" effectOrder="efx02"/>
+				<effectKind effectID="5078" effectOrder="efx03"/>
+				<effectKind effectID="5079" effectOrder="tff01"/>
+				<effectKind effectID="5080" effectOrder="tff00"/>
+				<effectKind effectID="5081" effectOrder="tff01"/>
+				<effectKind effectID="5082" effectOrder="tff02"/>
+				<effectKind effectID="5083" effectOrder="tff03"/>
+				<effectKind effectID="5084" effectOrder="tff01"/>
+				<effectKind effectID="5085" effectOrder="tfx01"/>
+				<effectKind effectID="5086" effectOrder="tfx00"/>
+				<effectKind effectID="5087" effectOrder="tfx01"/>
+				<effectKind effectID="5088" effectOrder="tfx02"/>
+				<effectKind effectID="5089" effectOrder="tfx03"/>
+				<effectKind effectID="5084" effectOrder="tfx01"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="538"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="14" name="[PC]TrifleSlash">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="6140001" mixmotionID="0">
+				<effectKind effectID="5090" effectOrder="eff00"/>
+				<effectKind effectID="5090" effectOrder="eff05"/>
+				<effectKind effectID="5091" effectOrder="eff04"/>
+				<effectKind effectID="5092" effectOrder="eff02"/>
+				<effectKind effectID="5093" effectOrder="eff04"/>
+				<effectKind effectID="5094" effectOrder="eff01"/>
+				<effectKind effectID="5095" effectOrder="eff02"/>
+				<effectKind effectID="5096" effectOrder="eff03"/>
+				<effectKind effectID="5097" effectOrder="eff04"/>
+				<effectKind effectID="5090" effectOrder="efx00"/>
+				<effectKind effectID="5090" effectOrder="efx05"/>
+				<effectKind effectID="5091" effectOrder="efx04"/>
+				<effectKind effectID="5092" effectOrder="efx02"/>
+				<effectKind effectID="5093" effectOrder="efx04"/>
+				<effectKind effectID="5098" effectOrder="efx01"/>
+				<effectKind effectID="5099" effectOrder="efx02"/>
+				<effectKind effectID="5100" effectOrder="efx03"/>
+				<effectKind effectID="5101" effectOrder="efx04"/>
+				<effectKind effectID="5102" effectOrder="tff00"/>
+				<effectKind effectID="5102" effectOrder="tff05"/>
+				<effectKind effectID="5103" effectOrder="tff04"/>
+				<effectKind effectID="5104" effectOrder="tff02"/>
+				<effectKind effectID="5105" effectOrder="tff04"/>
+				<effectKind effectID="5106" effectOrder="tff01"/>
+				<effectKind effectID="5107" effectOrder="tff02"/>
+				<effectKind effectID="5108" effectOrder="tff03"/>
+				<effectKind effectID="5109" effectOrder="tff04"/>
+				<effectKind effectID="5110" effectOrder="tfx00"/>
+				<effectKind effectID="5110" effectOrder="tfx05"/>
+				<effectKind effectID="5111" effectOrder="tfx04"/>
+				<effectKind effectID="5112" effectOrder="tfx02"/>
+				<effectKind effectID="5113" effectOrder="tfx04"/>
+				<effectKind effectID="5114" effectOrder="tfx01"/>
+				<effectKind effectID="5115" effectOrder="tfx02"/>
+				<effectKind effectID="5116" effectOrder="tfx03"/>
+				<effectKind effectID="5117" effectOrder="tfx04"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="538"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="1001" name="[PC]Sharp Cutter">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="2310006" mixmotionID="0">
+				<effectKind effectID="8096" effectOrder="eff00"/>
+				<effectKind effectID="8098" effectOrder="eff00"/>
+				<effectKind effectID="8095" effectOrder="efx00"/>
+				<effectKind effectID="8097" effectOrder="efx00"/>
+				<effectKind effectID="8093" effectOrder="tff00"/>
+				<effectKind effectID="8094" effectOrder="tff00"/>
+				<effectKind effectID="8091" effectOrder="tfx01"/>
+				<effectKind effectID="8092" effectOrder="tfx01"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="538"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="1002" name="[PC]Rolling Slash">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="2310009" mixmotionID="0">
+				<effectKind effectID="19" effectOrder="eff00"/>
+				<effectKind effectID="510" effectOrder="eff01"/>
+				<effectKind effectID="511" effectOrder="eff02"/>
+				<effectKind effectID="512" effectOrder="eff03"/>
+				<effectKind effectID="22" effectOrder="efx00"/>
+				<effectKind effectID="535" effectOrder="efx02"/>
+				<effectKind effectID="536" effectOrder="efx03"/>
+				<effectKind effectID="537" effectOrder="efx04"/>
+				<effectKind effectID="542" effectOrder="efx03"/>
+				<effectKind effectID="575" effectOrder="tff01"/>
+				<effectKind effectID="576" effectOrder="tff01"/>
+				<effectKind effectID="577" effectOrder="tff01"/>
+				<effectKind effectID="578" effectOrder="tff01"/>
+				<effectKind effectID="647" effectOrder="tfx01"/>
+				<effectKind effectID="649" effectOrder="tfx00"/>
+				<effectKind effectID="648" effectOrder="tfx02"/>
+				<effectKind effectID="650" effectOrder="tfx01"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="538"/>
+			<damage effectID="2050"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="1003" name="[PC]Burning Life">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="2310015" mixmotionID="0">
+				<effectKind effectID="531" effectOrder="eff00"/>
+				<effectKind effectID="532" effectOrder="eff00"/>
+				<effectKind effectID="539" effectOrder="efx00"/>
+				<effectKind effectID="540" effectOrder="efx00"/>
+				<effectKind effectID="541" effectOrder="efx00"/>
+				<effectKind effectID="589" effectOrder="tff00"/>
+				<effectKind effectID="590" effectOrder="tff00"/>
+				<effectKind effectID="628" effectOrder="tfx00"/>
+				<effectKind effectID="629" effectOrder="tfx00"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="2022"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="1004" name="[PC]Double Pain Blow">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="2230049" mixmotionID="0">
+				<effectKind effectID="720" effectOrder="tfx00"/>
+				<effectKind effectID="721" effectOrder="tfx01"/>
+				<effectKind effectID="722" effectOrder="tfx01"/>
+				<effectKind effectID="743" effectOrder="tff00"/>
+				<effectKind effectID="744" effectOrder="tff01"/>
+				<effectKind effectID="745" effectOrder="tff01"/>
+				<effectKind effectID="746" effectOrder="eff00"/>
+				<effectKind effectID="747" effectOrder="eff01"/>
+				<effectKind effectID="748" effectOrder="eff01"/>
+				<effectKind effectID="749" effectOrder="efx00"/>
+				<effectKind effectID="750" effectOrder="efx01"/>
+				<effectKind effectID="751" effectOrder="efx01"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="2040"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="1005" name="[PC]Kick of Silence">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="6020001" mixmotionID="0">
+				<effectKind effectID="831" effectOrder="efx00"/>
+				<effectKind effectID="830" effectOrder="eff00"/>
+				<effectKind effectID="832" effectOrder="tff00"/>
+				<effectKind effectID="833" effectOrder="tfx00"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="538"/>
+			<damage effectID="2050"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="1006" name="[PC]Disgrace Hit">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="2230001" mixmotionID="0">
+				<effectKind effectID="791" effectOrder="eff00"/>
+				<effectKind effectID="792" effectOrder="efx00"/>
+				<effectKind effectID="793" effectOrder="tff00"/>
+				<effectKind effectID="794" effectOrder="tfx00"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="375"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="1007" name="[PC]Shadow Trinity">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="6020002" mixmotionID="0">
+				<effectKind effectID="805" effectOrder="eff00"/>
+				<effectKind effectID="806" effectOrder="eff01"/>
+				<effectKind effectID="807" effectOrder="eff02"/>
+				<effectKind effectID="808" effectOrder="eff02"/>
+				<effectKind effectID="809" effectOrder="efx00"/>
+				<effectKind effectID="810" effectOrder="efx01"/>
+				<effectKind effectID="811" effectOrder="efx02"/>
+				<effectKind effectID="812" effectOrder="efx02"/>
+				<effectKind effectID="813" effectOrder="tff00"/>
+				<effectKind effectID="814" effectOrder="tff01"/>
+				<effectKind effectID="815" effectOrder="tff02"/>
+				<effectKind effectID="816" effectOrder="tff02"/>
+				<effectKind effectID="817" effectOrder="tfx00"/>
+				<effectKind effectID="818" effectOrder="tfx01"/>
+				<effectKind effectID="819" effectOrder="tfx02"/>
+				<effectKind effectID="820" effectOrder="tfx02"/>
+			</shoot>
+			<shootloop/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="1008" name="[PC]Pierce">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="6210001" mixmotionID="0">
+				<effectKind effectID="5120" effectOrder="eff01"/>
+				<effectKind effectID="5121" effectOrder="eff00"/>
+				<effectKind effectID="5122" effectOrder="eff01"/>
+				<effectKind effectID="5123" effectOrder="eff02"/>
+				<effectKind effectID="5124" effectOrder="eff03"/>
+				<effectKind effectID="5125" effectOrder="eff04"/>
+				<effectKind effectID="5126" effectOrder="eff05"/>
+				<effectKind effectID="5127" effectOrder="eff06"/>
+				<effectKind effectID="5128" effectOrder="efx01"/>
+				<effectKind effectID="5129" effectOrder="efx00"/>
+				<effectKind effectID="5130" effectOrder="efx01"/>
+				<effectKind effectID="5131" effectOrder="efx02"/>
+				<effectKind effectID="5132" effectOrder="efx03"/>
+				<effectKind effectID="5133" effectOrder="efx04"/>
+				<effectKind effectID="5134" effectOrder="efx05"/>
+				<effectKind effectID="5135" effectOrder="efx06"/>
+				<effectKind effectID="5136" effectOrder="tff01"/>
+				<effectKind effectID="5137" effectOrder="tff00"/>
+				<effectKind effectID="5138" effectOrder="tff01"/>
+				<effectKind effectID="5139" effectOrder="tff02"/>
+				<effectKind effectID="5140" effectOrder="tff03"/>
+				<effectKind effectID="5141" effectOrder="tff04"/>
+				<effectKind effectID="5142" effectOrder="tff05"/>
+				<effectKind effectID="5143" effectOrder="tff06"/>
+				<effectKind effectID="5144" effectOrder="tfx01"/>
+				<effectKind effectID="5145" effectOrder="tfx00"/>
+				<effectKind effectID="5146" effectOrder="tfx01"/>
+				<effectKind effectID="5147" effectOrder="tfx02"/>
+				<effectKind effectID="5148" effectOrder="tfx03"/>
+				<effectKind effectID="5149" effectOrder="tfx04"/>
+				<effectKind effectID="5150" effectOrder="tfx05"/>
+				<effectKind effectID="5151" effectOrder="tfx06"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="538"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="1009" name="[PC]Spinningkick">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="6220001" mixmotionID="0">
+				<effectKind effectID="5152" effectOrder="eff01"/>
+				<effectKind effectID="5153" effectOrder="eff01"/>
+				<effectKind effectID="5154" effectOrder="eff02"/>
+				<effectKind effectID="5155" effectOrder="eff03"/>
+				<effectKind effectID="5156" effectOrder="eff04"/>
+				<effectKind effectID="5157" effectOrder="eff05"/>
+				<effectKind effectID="5158" effectOrder="efx01"/>
+				<effectKind effectID="5159" effectOrder="efx01"/>
+				<effectKind effectID="5160" effectOrder="efx02"/>
+				<effectKind effectID="5161" effectOrder="efx03"/>
+				<effectKind effectID="5162" effectOrder="efx04"/>
+				<effectKind effectID="5163" effectOrder="efx05"/>
+				<effectKind effectID="5164" effectOrder="tff01"/>
+				<effectKind effectID="5165" effectOrder="tff01"/>
+				<effectKind effectID="5166" effectOrder="tff02"/>
+				<effectKind effectID="5167" effectOrder="tff03"/>
+				<effectKind effectID="5168" effectOrder="tff04"/>
+				<effectKind effectID="5169" effectOrder="tff05"/>
+				<effectKind effectID="5170" effectOrder="tfx01"/>
+				<effectKind effectID="5171" effectOrder="tfx01"/>
+				<effectKind effectID="5172" effectOrder="tfx02"/>
+				<effectKind effectID="5173" effectOrder="tfx03"/>
+				<effectKind effectID="5174" effectOrder="tfx04"/>
+				<effectKind effectID="5175" effectOrder="tfx05"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="538"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="1010" name="[PC]Sprint">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="2120001" mixmotionID="2120002">
+				<effectKind effectID="11054" effectOrder="eff01"/>
+				<effectKind effectID="2340" effectOrder="eff01"/>
+				<effectKind effectID="11054" effectOrder="efx01"/>
+				<effectKind effectID="2340" effectOrder="efx01"/>
+				<effectKind effectID="11054" effectOrder="tff01"/>
+				<effectKind effectID="2340" effectOrder="tff01"/>
+				<effectKind effectID="11054" effectOrder="tfx01"/>
+				<effectKind effectID="2340" effectOrder="tfx01"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="538"/>
+			<damage effectID="2050"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="2001" name="[PC]Oratio">
+		<skillState>
+			<firstcast/>
+			<cast motionID="2110001">
+				<effectKind effectID="854" effectOrder="eff00"/>
+				<effectKind effectID="2293" effectOrder="efx00"/>
+				<effectKind effectID="2295" effectOrder="tff00"/>
+				<effectKind effectID="2294" effectOrder="efx00"/>
+				<effectKind effectID="2292" effectOrder="tfx00"/>
+				<effectKind effectID="2296" effectOrder="tfx00"/>
+				<effectKind effectID="2291" effectOrder="tff00"/>
+				<effectKind effectID="2291" effectOrder="eff00"/>
+				<effectKind effectID="2297" effectOrder="efx00"/>
+				<effectKind effectID="2297" effectOrder="eff00"/>
+				<effectKind effectID="2298" effectOrder="tff00"/>
+				<effectKind effectID="2300" effectOrder="tfx00"/>
+				<effectKind effectID="2301" effectOrder="tfx00"/>
+			</cast>
+			<shoot motionID="2120001" mixmotionID="2120002">
+				<effectKind effectID="2258" effectOrder="eff01"/>
+				<effectKind effectID="2258" effectOrder="efx01"/>
+				<effectKind effectID="2258" effectOrder="tff01"/>
+				<effectKind effectID="2259" effectOrder="tfx01"/>
+				<effectKind effectID="2299" effectOrder="eff01"/>
+				<effectKind effectID="2299" effectOrder="efx01"/>
+				<effectKind effectID="2299" effectOrder="tff01"/>
+				<effectKind effectID="2300" effectOrder="tfx01"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="2302"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="2002" name="[PC]Ignis Dei">
+		<skillState>
+			<firstcast/>
+			<cast motionID="2110001">
+				<effectKind effectID="417" effectOrder="tff21"/>
+				<effectKind effectID="416" effectOrder="eff21"/>
+				<effectKind effectID="2332" effectOrder="eff21"/>
+				<effectKind effectID="2332" effectOrder="efx21"/>
+				<effectKind effectID="418" effectOrder="efx21"/>
+				<effectKind effectID="418" effectOrder="eff21"/>
+				<effectKind effectID="2332" effectOrder="tff21"/>
+				<effectKind effectID="418" effectOrder="tff21"/>
+				<effectKind effectID="2333" effectOrder="tff21"/>
+				<effectKind effectID="2334" effectOrder="tfx21"/>
+				<effectKind effectID="2335" effectOrder="tfx21"/>
+				<effectKind effectID="2292" effectOrder="tfx21"/>
+				<effectKind effectID="2351" effectOrder="efx21"/>
+			</cast>
+			<shoot motionID="2120001" mixmotionID="2120002">
+				<effectKind effectID="2258" effectOrder="eff21"/>
+				<effectKind effectID="27" effectOrder="eff21"/>
+				<effectKind effectID="27" effectOrder="efx21"/>
+				<effectKind effectID="2258" effectOrder="efx21"/>
+				<effectKind effectID="27" effectOrder="tff21"/>
+				<effectKind effectID="2337" effectOrder="tfx21"/>
+				<effectKind effectID="2350" effectOrder="efx21"/>
+				<effectKind effectID="2350" effectOrder="eff21"/>
+				<effectKind effectID="2349" effectOrder="efx05"/>
+				<effectKind effectID="2349" effectOrder="eff22"/>
+				<effectKind effectID="2350" effectOrder="tff21"/>
+				<effectKind effectID="2352" effectOrder="tff22"/>
+				<effectKind effectID="2354" effectOrder="tfx01"/>
+				<effectKind effectID="2353" effectOrder="tfx22"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="2114"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="2003" name="[PC]Credo">
+		<skillState>
+			<firstcast/>
+			<cast motionID="2110001">
+				<effectKind effectID="2110" effectOrder="tff00"/>
+				<effectKind effectID="2260" effectOrder="tfx00"/>
+				<effectKind effectID="2261" effectOrder="tfx00"/>
+				<effectKind effectID="2262" effectOrder="eff00"/>
+				<effectKind effectID="2263" effectOrder="eff00"/>
+				<effectKind effectID="2262" effectOrder="efx00"/>
+				<effectKind effectID="2263" effectOrder="efx00"/>
+				<effectKind effectID="2264" effectOrder="tff00"/>
+				<effectKind effectID="2265" effectOrder="tff00"/>
+				<effectKind effectID="2266" effectOrder="tfx00"/>
+				<effectKind effectID="2269" effectOrder="efx00"/>
+				<effectKind effectID="2109" effectOrder="eff00"/>
+			</cast>
+			<shoot motionID="2120001" mixmotionID="2120002">
+				<effectKind effectID="2258" effectOrder="eff01"/>
+				<effectKind effectID="2258" effectOrder="efx01"/>
+				<effectKind effectID="2258" effectOrder="tff01"/>
+				<effectKind effectID="2259" effectOrder="tfx01"/>
+				<effectKind effectID="2112" effectOrder="eff00"/>
+				<effectKind effectID="2113" effectOrder="eff00"/>
+				<effectKind effectID="2121" effectOrder="tff00"/>
+				<effectKind effectID="2122" effectOrder="tff00"/>
+				<effectKind effectID="2123" effectOrder="tfx00"/>
+				<effectKind effectID="2124" effectOrder="tfx00"/>
+				<effectKind effectID="2125" effectOrder="efx00"/>
+				<effectKind effectID="2126" effectOrder="efx00"/>
+				<effectKind effectID="27" effectOrder="eff01"/>
+				<effectKind effectID="27" effectOrder="tff01"/>
+				<effectKind effectID="2337" effectOrder="tfx01"/>
+				<effectKind effectID="27" effectOrder="efx01"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="2114"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="2004" name="[PC]Remedium">
+		<skillState>
+			<firstcast/>
+			<cast motionID="2110001">
+				<effectKind effectID="2110" effectOrder="tff00"/>
+				<effectKind effectID="2260" effectOrder="tfx00"/>
+				<effectKind effectID="2261" effectOrder="tfx00"/>
+				<effectKind effectID="2262" effectOrder="eff00"/>
+				<effectKind effectID="2263" effectOrder="eff00"/>
+				<effectKind effectID="2262" effectOrder="efx00"/>
+				<effectKind effectID="2263" effectOrder="efx00"/>
+				<effectKind effectID="2264" effectOrder="tff00"/>
+				<effectKind effectID="2265" effectOrder="tff00"/>
+				<effectKind effectID="2266" effectOrder="tfx00"/>
+				<effectKind effectID="2269" effectOrder="efx00"/>
+				<effectKind effectID="2109" effectOrder="eff00"/>
+			</cast>
+			<shoot motionID="2120001" mixmotionID="2120002">
+				<effectKind effectID="2258" effectOrder="eff01"/>
+				<effectKind effectID="2258" effectOrder="efx01"/>
+				<effectKind effectID="2258" effectOrder="tff01"/>
+				<effectKind effectID="2259" effectOrder="tfx01"/>
+				<effectKind effectID="2112" effectOrder="eff00"/>
+				<effectKind effectID="2113" effectOrder="eff00"/>
+				<effectKind effectID="2121" effectOrder="tff00"/>
+				<effectKind effectID="2122" effectOrder="tff00"/>
+				<effectKind effectID="2123" effectOrder="tfx00"/>
+				<effectKind effectID="2124" effectOrder="tfx00"/>
+				<effectKind effectID="2125" effectOrder="efx00"/>
+				<effectKind effectID="2126" effectOrder="efx00"/>
+				<effectKind effectID="27" effectOrder="efx01"/>
+				<effectKind effectID="27" effectOrder="eff01"/>
+				<effectKind effectID="27" effectOrder="tff01"/>
+				<effectKind effectID="2337" effectOrder="tfx01"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="2114"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="2005" name="[PC]Manus Vitae">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="2120001" mixmotionID="2120002">
+				<effectKind effectID="2258" effectOrder="eff01"/>
+				<effectKind effectID="2258" effectOrder="efx01"/>
+				<effectKind effectID="2258" effectOrder="tff01"/>
+				<effectKind effectID="2259" effectOrder="tfx01"/>
+				<effectKind effectID="2112" effectOrder="eff00"/>
+				<effectKind effectID="2113" effectOrder="eff00"/>
+				<effectKind effectID="2121" effectOrder="tff00"/>
+				<effectKind effectID="2122" effectOrder="tff00"/>
+				<effectKind effectID="2123" effectOrder="tfx00"/>
+				<effectKind effectID="2124" effectOrder="tfx00"/>
+				<effectKind effectID="2125" effectOrder="efx00"/>
+				<effectKind effectID="2126" effectOrder="efx00"/>
+				<effectKind effectID="27" effectOrder="efx01"/>
+				<effectKind effectID="27" effectOrder="eff01"/>
+				<effectKind effectID="27" effectOrder="tff01"/>
+				<effectKind effectID="2337" effectOrder="tfx01"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="563"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="2006" name="[PC]Medica">
+		<skillState>
+			<firstcast/>
+			<cast motionID="2260001">
+				<effectKind effectID="2101" effectOrder="eff00"/>
+				<effectKind effectID="2101" effectOrder="efx00"/>
+				<effectKind effectID="2102" effectOrder="efx00"/>
+				<effectKind effectID="2105" effectOrder="tff00"/>
+				<effectKind effectID="2106" effectOrder="tff00"/>
+				<effectKind effectID="2107" effectOrder="tfx00"/>
+				<effectKind effectID="2108" effectOrder="tfx00"/>
+				<effectKind effectID="2102" effectOrder="eff00"/>
+				<effectKind effectID="2270" effectOrder="eff00"/>
+				<effectKind effectID="2271" effectOrder="tff00"/>
+				<effectKind effectID="2272" effectOrder="tfx00"/>
+				<effectKind effectID="2273" effectOrder="efx00"/>
+			</cast>
+			<shoot motionID="2130001" mixmotionID="2130002">
+				<effectKind effectID="26" effectOrder="eff00"/>
+				<effectKind effectID="26" effectOrder="tfx00"/>
+				<effectKind effectID="642" effectOrder="tff00"/>
+				<effectKind effectID="644" effectOrder="tff00"/>
+				<effectKind effectID="646" effectOrder="tfx00"/>
+				<effectKind effectID="842" effectOrder="efx00"/>
+				<effectKind effectID="842" effectOrder="eff00"/>
+				<effectKind effectID="2256" effectOrder="tfx00"/>
+				<effectKind effectID="2255" effectOrder="eff00"/>
+				<effectKind effectID="2255" effectOrder="efx00"/>
+				<effectKind effectID="2257" effectOrder="tff00"/>
+				<effectKind effectID="27" effectOrder="efx00"/>
+				<effectKind effectID="2328" effectOrder="eff00"/>
+				<effectKind effectID="2329" effectOrder="eff00"/>
+				<effectKind effectID="2330" effectOrder="tff00"/>
+				<effectKind effectID="2330" effectOrder="efx00"/>
+				<effectKind effectID="2331" effectOrder="efx00"/>
+				<effectKind effectID="2328" effectOrder="tfx00"/>
+				<effectKind effectID="2329" effectOrder="tfx00"/>
+				<effectKind effectID="2331" effectOrder="tff00"/>
+				<effectKind effectID="841" effectOrder="efx00"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="563"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="2007" name="[PC]Manus Domini">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="2120001" mixmotionID="2120002">
+				<effectKind effectID="2258" effectOrder="eff01"/>
+				<effectKind effectID="2258" effectOrder="efx01"/>
+				<effectKind effectID="2258" effectOrder="tff01"/>
+				<effectKind effectID="2259" effectOrder="tfx01"/>
+				<effectKind effectID="2112" effectOrder="eff00"/>
+				<effectKind effectID="2113" effectOrder="eff00"/>
+				<effectKind effectID="2121" effectOrder="tff00"/>
+				<effectKind effectID="2122" effectOrder="tff00"/>
+				<effectKind effectID="2123" effectOrder="tfx00"/>
+				<effectKind effectID="2124" effectOrder="tfx00"/>
+				<effectKind effectID="2125" effectOrder="efx00"/>
+				<effectKind effectID="27" effectOrder="efx01"/>
+				<effectKind effectID="27" effectOrder="eff01"/>
+				<effectKind effectID="27" effectOrder="tff01"/>
+				<effectKind effectID="2337" effectOrder="tfx01"/>
+				<effectKind effectID="2126" effectOrder="efx00"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="563"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="2008" name="[PC]Magnus Medica">
+		<skillState>
+			<firstcast/>
+			<cast motionID="2260001">
+				<effectKind effectID="2101" effectOrder="eff00"/>
+				<effectKind effectID="2101" effectOrder="efx00"/>
+				<effectKind effectID="2102" effectOrder="efx00"/>
+				<effectKind effectID="2105" effectOrder="tff00"/>
+				<effectKind effectID="2106" effectOrder="tff00"/>
+				<effectKind effectID="2107" effectOrder="tfx00"/>
+				<effectKind effectID="2108" effectOrder="tfx00"/>
+				<effectKind effectID="2102" effectOrder="eff00"/>
+				<effectKind effectID="2270" effectOrder="eff00"/>
+				<effectKind effectID="2271" effectOrder="tff00"/>
+				<effectKind effectID="2272" effectOrder="tfx00"/>
+				<effectKind effectID="2273" effectOrder="efx00"/>
+			</cast>
+			<shoot motionID="2130001" mixmotionID="2130002">
+				<effectKind effectID="26" effectOrder="eff00"/>
+				<effectKind effectID="26" effectOrder="tfx00"/>
+				<effectKind effectID="642" effectOrder="tff00"/>
+				<effectKind effectID="644" effectOrder="tff00"/>
+				<effectKind effectID="646" effectOrder="tfx00"/>
+				<effectKind effectID="842" effectOrder="efx00"/>
+				<effectKind effectID="842" effectOrder="eff00"/>
+				<effectKind effectID="2256" effectOrder="tfx00"/>
+				<effectKind effectID="2255" effectOrder="eff00"/>
+				<effectKind effectID="2255" effectOrder="efx00"/>
+				<effectKind effectID="2257" effectOrder="tff00"/>
+				<effectKind effectID="27" effectOrder="efx00"/>
+				<effectKind effectID="2328" effectOrder="eff00"/>
+				<effectKind effectID="2329" effectOrder="eff00"/>
+				<effectKind effectID="2330" effectOrder="tff00"/>
+				<effectKind effectID="2330" effectOrder="efx00"/>
+				<effectKind effectID="2331" effectOrder="efx00"/>
+				<effectKind effectID="2328" effectOrder="tfx00"/>
+				<effectKind effectID="2329" effectOrder="tfx00"/>
+				<effectKind effectID="2331" effectOrder="tff00"/>
+				<effectKind effectID="841" effectOrder="efx00"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="563"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="2009" name="[PC]Gloria">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="2120001" mixmotionID="2120002">
+				<effectKind effectID="2258" effectOrder="eff01"/>
+				<effectKind effectID="2258" effectOrder="efx01"/>
+				<effectKind effectID="2258" effectOrder="tff01"/>
+				<effectKind effectID="2259" effectOrder="tfx01"/>
+				<effectKind effectID="2112" effectOrder="eff00"/>
+				<effectKind effectID="2113" effectOrder="eff00"/>
+				<effectKind effectID="2121" effectOrder="tff00"/>
+				<effectKind effectID="2122" effectOrder="tff00"/>
+				<effectKind effectID="2123" effectOrder="tfx00"/>
+				<effectKind effectID="2124" effectOrder="tfx00"/>
+				<effectKind effectID="2125" effectOrder="efx00"/>
+				<effectKind effectID="2126" effectOrder="efx00"/>
+				<effectKind effectID="27" effectOrder="efx01"/>
+				<effectKind effectID="27" effectOrder="eff01"/>
+				<effectKind effectID="27" effectOrder="tff01"/>
+				<effectKind effectID="2337" effectOrder="tfx01"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="2046"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="2010" name="[PC]Crucifixio">
+		<skillState>
+			<firstcast/>
+			<cast motionID="2110001">
+				<effectKind effectID="2110" effectOrder="tff00"/>
+				<effectKind effectID="2260" effectOrder="tfx00"/>
+				<effectKind effectID="2261" effectOrder="tfx00"/>
+				<effectKind effectID="2262" effectOrder="eff00"/>
+				<effectKind effectID="2263" effectOrder="eff00"/>
+				<effectKind effectID="2262" effectOrder="efx00"/>
+				<effectKind effectID="2263" effectOrder="efx00"/>
+				<effectKind effectID="2264" effectOrder="tff00"/>
+				<effectKind effectID="2265" effectOrder="tff00"/>
+				<effectKind effectID="2266" effectOrder="tfx00"/>
+				<effectKind effectID="2269" effectOrder="efx00"/>
+				<effectKind effectID="2109" effectOrder="eff00"/>
+			</cast>
+			<shoot motionID="2120001" mixmotionID="2120002">
+				<effectKind effectID="2258" effectOrder="eff01"/>
+				<effectKind effectID="2258" effectOrder="efx01"/>
+				<effectKind effectID="2258" effectOrder="tff01"/>
+				<effectKind effectID="2259" effectOrder="tfx01"/>
+				<effectKind effectID="2112" effectOrder="eff00"/>
+				<effectKind effectID="2113" effectOrder="eff00"/>
+				<effectKind effectID="2121" effectOrder="tff00"/>
+				<effectKind effectID="2122" effectOrder="tff00"/>
+				<effectKind effectID="2123" effectOrder="tfx00"/>
+				<effectKind effectID="2124" effectOrder="tfx00"/>
+				<effectKind effectID="2125" effectOrder="efx00"/>
+				<effectKind effectID="2126" effectOrder="efx00"/>
+				<effectKind effectID="27" effectOrder="efx01"/>
+				<effectKind effectID="27" effectOrder="eff01"/>
+				<effectKind effectID="27" effectOrder="tff01"/>
+				<effectKind effectID="2337" effectOrder="tfx01"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="2046"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="2011" name="[PC]Illuminatio">
+		<skillState>
+			<firstcast/>
+			<cast motionID="2260001">
+				<effectKind effectID="2101" effectOrder="eff00"/>
+				<effectKind effectID="2101" effectOrder="efx00"/>
+				<effectKind effectID="2102" effectOrder="efx00"/>
+				<effectKind effectID="2105" effectOrder="tff00"/>
+				<effectKind effectID="2106" effectOrder="tff00"/>
+				<effectKind effectID="2107" effectOrder="tfx00"/>
+				<effectKind effectID="2108" effectOrder="tfx00"/>
+				<effectKind effectID="2102" effectOrder="eff00"/>
+				<effectKind effectID="2270" effectOrder="eff00"/>
+				<effectKind effectID="2271" effectOrder="tff00"/>
+				<effectKind effectID="2272" effectOrder="tfx00"/>
+				<effectKind effectID="2273" effectOrder="efx00"/>
+			</cast>
+			<shoot motionID="2130001" mixmotionID="2130002">
+				<effectKind effectID="26" effectOrder="eff00"/>
+				<effectKind effectID="26" effectOrder="tfx00"/>
+				<effectKind effectID="642" effectOrder="tff00"/>
+				<effectKind effectID="644" effectOrder="tff00"/>
+				<effectKind effectID="646" effectOrder="tfx00"/>
+				<effectKind effectID="842" effectOrder="efx00"/>
+				<effectKind effectID="842" effectOrder="eff00"/>
+				<effectKind effectID="2256" effectOrder="tfx00"/>
+				<effectKind effectID="2255" effectOrder="eff00"/>
+				<effectKind effectID="2255" effectOrder="efx00"/>
+				<effectKind effectID="2257" effectOrder="tff00"/>
+				<effectKind effectID="27" effectOrder="efx00"/>
+				<effectKind effectID="2328" effectOrder="eff00"/>
+				<effectKind effectID="2329" effectOrder="eff00"/>
+				<effectKind effectID="2330" effectOrder="tff00"/>
+				<effectKind effectID="2330" effectOrder="efx00"/>
+				<effectKind effectID="2331" effectOrder="efx00"/>
+				<effectKind effectID="2328" effectOrder="tfx00"/>
+				<effectKind effectID="2329" effectOrder="tfx00"/>
+				<effectKind effectID="2331" effectOrder="tff00"/>
+				<effectKind effectID="841" effectOrder="efx00"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="563"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="2012" name="[PC]Sanctus">
+		<skillState>
+			<firstcast/>
+			<cast motionID="2110001">
+				<effectKind effectID="2110" effectOrder="tff00"/>
+				<effectKind effectID="2260" effectOrder="tfx00"/>
+				<effectKind effectID="2261" effectOrder="tfx00"/>
+				<effectKind effectID="2262" effectOrder="eff00"/>
+				<effectKind effectID="2263" effectOrder="eff00"/>
+				<effectKind effectID="2262" effectOrder="efx00"/>
+				<effectKind effectID="2263" effectOrder="efx00"/>
+				<effectKind effectID="2264" effectOrder="tff00"/>
+				<effectKind effectID="2265" effectOrder="tff00"/>
+				<effectKind effectID="2266" effectOrder="tfx00"/>
+				<effectKind effectID="2269" effectOrder="efx00"/>
+				<effectKind effectID="2109" effectOrder="eff00"/>
+			</cast>
+			<shoot motionID="2120001" mixmotionID="2120002">
+				<effectKind effectID="2258" effectOrder="eff01"/>
+				<effectKind effectID="2258" effectOrder="efx01"/>
+				<effectKind effectID="2258" effectOrder="tff01"/>
+				<effectKind effectID="2259" effectOrder="tfx01"/>
+				<effectKind effectID="2112" effectOrder="eff00"/>
+				<effectKind effectID="2113" effectOrder="eff00"/>
+				<effectKind effectID="2121" effectOrder="tff00"/>
+				<effectKind effectID="2122" effectOrder="tff00"/>
+				<effectKind effectID="2123" effectOrder="tfx00"/>
+				<effectKind effectID="2124" effectOrder="tfx00"/>
+				<effectKind effectID="2125" effectOrder="efx00"/>
+				<effectKind effectID="2126" effectOrder="efx00"/>
+				<effectKind effectID="27" effectOrder="efx01"/>
+				<effectKind effectID="27" effectOrder="eff01"/>
+				<effectKind effectID="27" effectOrder="tff01"/>
+				<effectKind effectID="2337" effectOrder="tfx01"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="2046"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="2013" name="[PC]Apocalypse">
+		<skillState>
+			<firstcast/>
+			<cast motionID="2260001">
+				<effectKind effectID="2101" effectOrder="eff00"/>
+				<effectKind effectID="2101" effectOrder="efx00"/>
+				<effectKind effectID="2102" effectOrder="efx00"/>
+				<effectKind effectID="2105" effectOrder="tff00"/>
+				<effectKind effectID="2106" effectOrder="tff00"/>
+				<effectKind effectID="2107" effectOrder="tfx00"/>
+				<effectKind effectID="2108" effectOrder="tfx00"/>
+				<effectKind effectID="2102" effectOrder="eff00"/>
+				<effectKind effectID="2270" effectOrder="eff00"/>
+				<effectKind effectID="2271" effectOrder="tff00"/>
+				<effectKind effectID="2272" effectOrder="tfx00"/>
+				<effectKind effectID="2273" effectOrder="efx00"/>
+			</cast>
+			<shoot motionID="2130001" mixmotionID="2130002">
+				<effectKind effectID="26" effectOrder="eff00"/>
+				<effectKind effectID="26" effectOrder="tfx00"/>
+				<effectKind effectID="644" effectOrder="tff00"/>
+				<effectKind effectID="646" effectOrder="tfx00"/>
+				<effectKind effectID="842" effectOrder="efx00"/>
+				<effectKind effectID="842" effectOrder="eff00"/>
+				<effectKind effectID="2256" effectOrder="tfx00"/>
+				<effectKind effectID="2255" effectOrder="eff00"/>
+				<effectKind effectID="2255" effectOrder="efx00"/>
+				<effectKind effectID="2257" effectOrder="tff00"/>
+				<effectKind effectID="2274" effectOrder="tff00"/>
+				<effectKind effectID="2103" effectOrder="tff00"/>
+				<effectKind effectID="2103" effectOrder="tfx00"/>
+				<effectKind effectID="2274" effectOrder="tfx00"/>
+				<effectKind effectID="2274" effectOrder="eff00"/>
+				<effectKind effectID="2103" effectOrder="eff00"/>
+				<effectKind effectID="2103" effectOrder="efx00"/>
+				<effectKind effectID="2274" effectOrder="efx00"/>
+				<effectKind effectID="27" effectOrder="efx00"/>
+				<effectKind effectID="2328" effectOrder="eff00"/>
+				<effectKind effectID="2329" effectOrder="eff00"/>
+				<effectKind effectID="2330" effectOrder="tff00"/>
+				<effectKind effectID="2331" effectOrder="tff00"/>
+				<effectKind effectID="2330" effectOrder="efx00"/>
+				<effectKind effectID="2331" effectOrder="efx00"/>
+				<effectKind effectID="2328" effectOrder="tfx00"/>
+				<effectKind effectID="2329" effectOrder="tfx00"/>
+				<effectKind effectID="841" effectOrder="efx00"/>
+				<effectKind effectID="27" effectOrder="tff00"/>
+				<effectKind effectID="642" effectOrder="tff00"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="563"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="2014" name="[PC]Repent">
+		<skillState>
+			<firstcast/>
+			<cast motionID="2110001">
+				<effectKind effectID="2304" effectOrder="tff00"/>
+				<effectKind effectID="2305" effectOrder="efx00"/>
+				<effectKind effectID="2304" effectOrder="eff00"/>
+				<effectKind effectID="2306" effectOrder="tfx00"/>
+				<effectKind effectID="2307" effectOrder="eff00"/>
+				<effectKind effectID="2308" effectOrder="eff00"/>
+				<effectKind effectID="2307" effectOrder="efx00"/>
+				<effectKind effectID="2308" effectOrder="efx00"/>
+				<effectKind effectID="2307" effectOrder="tff00"/>
+				<effectKind effectID="2308" effectOrder="tff00"/>
+				<effectKind effectID="2307" effectOrder="tfx00"/>
+				<effectKind effectID="2308" effectOrder="tfx00"/>
+			</cast>
+			<shoot motionID="2120001" mixmotionID="2120002">
+				<effectKind effectID="2112" effectOrder="eff00"/>
+				<effectKind effectID="2121" effectOrder="tff00"/>
+				<effectKind effectID="2123" effectOrder="tfx00"/>
+				<effectKind effectID="2125" effectOrder="efx00"/>
+				<effectKind effectID="27" effectOrder="efx01"/>
+				<effectKind effectID="27" effectOrder="eff01"/>
+				<effectKind effectID="27" effectOrder="tff01"/>
+				<effectKind effectID="2337" effectOrder="tfx01"/>
+				<effectKind effectID="2310" effectOrder="tfx00"/>
+				<effectKind effectID="2309" effectOrder="efx00"/>
+				<effectKind effectID="2309" effectOrder="eff00"/>
+				<effectKind effectID="2311" effectOrder="tff00"/>
+				<effectKind effectID="2319" effectOrder="tfx00"/>
+				<effectKind effectID="2319" effectOrder="tfx01"/>
+				<effectKind effectID="2321" effectOrder="efx01"/>
+				<effectKind effectID="2322" effectOrder="tff01"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="2303"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="2015" name="[PC]Judgment">
+		<skillState>
+			<firstcast/>
+			<cast motionID="2110001">
+				<effectKind effectID="2313" effectOrder="eff00"/>
+				<effectKind effectID="2316" effectOrder="eff00"/>
+				<effectKind effectID="2317" effectOrder="eff00"/>
+				<effectKind effectID="2316" effectOrder="efx00"/>
+				<effectKind effectID="2317" effectOrder="efx00"/>
+				<effectKind effectID="2314" effectOrder="efx00"/>
+				<effectKind effectID="2313" effectOrder="tff00"/>
+				<effectKind effectID="2316" effectOrder="tff00"/>
+				<effectKind effectID="2317" effectOrder="tff00"/>
+				<effectKind effectID="2313" effectOrder="tfx00"/>
+				<effectKind effectID="2316" effectOrder="tfx00"/>
+				<effectKind effectID="2317" effectOrder="tfx00"/>
+			</cast>
+			<shoot motionID="2120001" mixmotionID="2120002">
+				<effectKind effectID="2318" effectOrder="eff01"/>
+				<effectKind effectID="2320" effectOrder="eff00"/>
+				<effectKind effectID="2324" effectOrder="eff01"/>
+				<effectKind effectID="2324" effectOrder="efx01"/>
+				<effectKind effectID="2323" effectOrder="efx01"/>
+				<effectKind effectID="2320" effectOrder="efx00"/>
+				<effectKind effectID="2324" effectOrder="tff01"/>
+				<effectKind effectID="2325" effectOrder="tff01"/>
+				<effectKind effectID="2326" effectOrder="tff00"/>
+				<effectKind effectID="2318" effectOrder="tfx01"/>
+				<effectKind effectID="2324" effectOrder="tfx01"/>
+				<effectKind effectID="2327" effectOrder="tfx00"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="2312"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="2016" name="[PC]Body Purify">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="2130001" mixmotionID="2130002">
+				<effectKind effectID="26" effectOrder="eff00"/>
+				<effectKind effectID="26" effectOrder="tfx00"/>
+				<effectKind effectID="642" effectOrder="tff00"/>
+				<effectKind effectID="644" effectOrder="tff00"/>
+				<effectKind effectID="646" effectOrder="tfx00"/>
+				<effectKind effectID="842" effectOrder="efx00"/>
+				<effectKind effectID="842" effectOrder="eff00"/>
+				<effectKind effectID="2256" effectOrder="tfx00"/>
+				<effectKind effectID="2255" effectOrder="eff00"/>
+				<effectKind effectID="2255" effectOrder="efx00"/>
+				<effectKind effectID="2257" effectOrder="tff00"/>
+				<effectKind effectID="27" effectOrder="efx00"/>
+				<effectKind effectID="2328" effectOrder="eff00"/>
+				<effectKind effectID="2329" effectOrder="eff00"/>
+				<effectKind effectID="2330" effectOrder="tff00"/>
+				<effectKind effectID="2330" effectOrder="efx00"/>
+				<effectKind effectID="2331" effectOrder="efx00"/>
+				<effectKind effectID="2328" effectOrder="tfx00"/>
+				<effectKind effectID="2329" effectOrder="tfx00"/>
+				<effectKind effectID="2331" effectOrder="tff00"/>
+				<effectKind effectID="841" effectOrder="efx00"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="2283"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="2017" name="[PC]Mind Purify">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="2130001" mixmotionID="2130002">
+				<effectKind effectID="26" effectOrder="eff00"/>
+				<effectKind effectID="26" effectOrder="tfx00"/>
+				<effectKind effectID="642" effectOrder="tff00"/>
+				<effectKind effectID="644" effectOrder="tff00"/>
+				<effectKind effectID="646" effectOrder="tfx00"/>
+				<effectKind effectID="842" effectOrder="efx00"/>
+				<effectKind effectID="842" effectOrder="eff00"/>
+				<effectKind effectID="2256" effectOrder="tfx00"/>
+				<effectKind effectID="2255" effectOrder="eff00"/>
+				<effectKind effectID="2255" effectOrder="efx00"/>
+				<effectKind effectID="2257" effectOrder="tff00"/>
+				<effectKind effectID="27" effectOrder="efx00"/>
+				<effectKind effectID="2328" effectOrder="eff00"/>
+				<effectKind effectID="2329" effectOrder="eff00"/>
+				<effectKind effectID="2330" effectOrder="tff00"/>
+				<effectKind effectID="2330" effectOrder="efx00"/>
+				<effectKind effectID="2331" effectOrder="efx00"/>
+				<effectKind effectID="2328" effectOrder="tfx00"/>
+				<effectKind effectID="2329" effectOrder="tfx00"/>
+				<effectKind effectID="2331" effectOrder="tff00"/>
+				<effectKind effectID="841" effectOrder="efx00"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="2284"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="3001" name="[PC]Mana Strike">
+		<skillState>
+			<firstcast/>
+			<cast motionID="2110001">
+				<effectKind effectID="11009" effectOrder="start"/>
+			</cast>
+			<shoot motionID="2120001" mixmotionID="2120002">
+				<effectKind effectID="11010" effectOrder="start"/>
+				<effectKind effectID="11011" effectOrder="start"/>
+				<effectKind effectID="11012" effectOrder="eff03"/>
+				<effectKind effectID="11013" effectOrder="efx03"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="196"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="3002" name="[PC]Physical Barrier">
+		<skillState>
+			<firstcast/>
+			<cast motionID="2260001"/>
+			<shoot motionID="2130001" mixmotionID="2130002">
+				<effectKind effectID="5000" effectOrder="eff00"/>
+				<effectKind effectID="5000" effectOrder="efx00"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="11017"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="3003" name="[PC]Wind Barrier">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="2130001" mixmotionID="2130002">
+				<effectKind effectID="11022" effectOrder="start"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="11017"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="3004" name="[PC]Lightning Spark">
+		<skillState>
+			<firstcast/>
+			<cast motionID="2110001">
+				<effectKind effectID="9" effectOrder="efx00"/>
+				<effectKind effectID="12" effectOrder="efx00"/>
+				<effectKind effectID="9" effectOrder="eff00"/>
+				<effectKind effectID="12" effectOrder="eff00"/>
+			</cast>
+			<shoot motionID="2120001" mixmotionID="2120002">
+				<effectKind effectID="11" effectOrder="eff01"/>
+				<effectKind effectID="13" effectOrder="eff01"/>
+				<effectKind effectID="10" effectOrder="eff00"/>
+				<effectKind effectID="5029" effectOrder="eff00"/>
+				<effectKind effectID="5030" effectOrder="eff00"/>
+				<effectKind effectID="11" effectOrder="efx01"/>
+				<effectKind effectID="13" effectOrder="efx01"/>
+				<effectKind effectID="10" effectOrder="efx00"/>
+				<effectKind effectID="5030" effectOrder="efx00"/>
+				<effectKind effectID="5031" effectOrder="efx00"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="16"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="3005" name="[PC]Wind Mangling">
+		<skillState>
+			<firstcast/>
+			<cast motionID="2110001">
+				<effectKind effectID="11022" effectOrder="eff00"/>
+				<effectKind effectID="11022" effectOrder="efx00"/>
+				<effectKind effectID="5002" effectOrder="eff00"/>
+				<effectKind effectID="5002" effectOrder="efx00"/>
+			</cast>
+			<shoot motionID="2120001" mixmotionID="2120002">
+				<effectKind effectID="11023" effectOrder="eff01"/>
+				<effectKind effectID="5003" effectOrder="eff01"/>
+				<effectKind effectID="5004" effectOrder="eff00"/>
+				<effectKind effectID="11023" effectOrder="efx01"/>
+				<effectKind effectID="5003" effectOrder="efx01"/>
+				<effectKind effectID="5004" effectOrder="efx00"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="11025"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="3006" name="[PC]Gravitation Airraid">
+		<skillState>
+			<firstcast/>
+			<cast motionID="2110001">
+				<effectKind effectID="11022" effectOrder="eff00"/>
+				<effectKind effectID="11022" effectOrder="efx00"/>
+				<effectKind effectID="5002" effectOrder="eff00"/>
+				<effectKind effectID="5002" effectOrder="efx00"/>
+			</cast>
+			<shoot motionID="2120001" mixmotionID="2120002">
+				<effectKind effectID="11023" effectOrder="eff01"/>
+				<effectKind effectID="5003" effectOrder="eff01"/>
+				<effectKind effectID="11029" effectOrder="eff00"/>
+				<effectKind effectID="11030" effectOrder="eff00"/>
+				<effectKind effectID="11023" effectOrder="efx01"/>
+				<effectKind effectID="5003" effectOrder="efx01"/>
+				<effectKind effectID="11029" effectOrder="efx00"/>
+				<effectKind effectID="11030" effectOrder="efx00"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="11025"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="3007" name="[PC]Water Barrier">
+		<skillState>
+			<firstcast/>
+			<cast motionID="2260001"/>
+			<shoot motionID="2130001" mixmotionID="2130002">
+				<effectKind effectID="405" effectOrder="eff00"/>
+				<effectKind effectID="5001" effectOrder="eff00"/>
+				<effectKind effectID="5000" effectOrder="eff00"/>
+				<effectKind effectID="405" effectOrder="efx00"/>
+				<effectKind effectID="5001" effectOrder="efx00"/>
+				<effectKind effectID="5000" effectOrder="efx00"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="11017"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="3008" name="[PC]Ice Grenade">
+		<skillState>
+			<firstcast/>
+			<cast motionID="2110001">
+				<effectKind effectID="193" effectOrder="eff00"/>
+				<effectKind effectID="359" effectOrder="eff00"/>
+				<effectKind effectID="5005" effectOrder="eff00"/>
+				<effectKind effectID="193" effectOrder="efx00"/>
+				<effectKind effectID="359" effectOrder="efx00"/>
+				<effectKind effectID="5005" effectOrder="efx00"/>
+			</cast>
+			<shoot motionID="2120001" mixmotionID="2120002">
+				<effectKind effectID="192" effectOrder="eff01"/>
+				<effectKind effectID="194" effectOrder="eff00"/>
+				<effectKind effectID="195" effectOrder="eff00"/>
+				<effectKind effectID="5006" effectOrder="eff00"/>
+				<effectKind effectID="5007" effectOrder="eff01"/>
+				<effectKind effectID="192" effectOrder="efx01"/>
+				<effectKind effectID="194" effectOrder="efx00"/>
+				<effectKind effectID="195" effectOrder="efx00"/>
+				<effectKind effectID="5006" effectOrder="efx00"/>
+				<effectKind effectID="5007" effectOrder="efx01"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="196"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="3009" name="[PC]Frozen Hedgehog">
+		<skillState>
+			<firstcast/>
+			<cast motionID="6050002">
+				<effectKind effectID="871" effectOrder="efx00"/>
+				<effectKind effectID="872" effectOrder="efx00"/>
+				<effectKind effectID="878" effectOrder="eff00"/>
+				<effectKind effectID="879" effectOrder="eff00"/>
+			</cast>
+			<shoot motionID="6080002" mixmotionID="0">
+				<effectKind effectID="873" effectOrder="efx00"/>
+				<effectKind effectID="875" effectOrder="efx00"/>
+				<effectKind effectID="880" effectOrder="eff00"/>
+				<effectKind effectID="881" effectOrder="eff01"/>
+				<effectKind effectID="882" effectOrder="eff00"/>
+				<effectKind effectID="874" effectOrder="efx01"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="196"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="3010" name="[PC]Absolute Zero">
+		<skillState>
+			<firstcast/>
+			<cast motionID="2110001">
+				<effectKind effectID="885" effectOrder="eff00"/>
+				<effectKind effectID="888" effectOrder="efx00"/>
+			</cast>
+			<shoot motionID="2120001" mixmotionID="2120002">
+				<effectKind effectID="886" effectOrder="eff01"/>
+				<effectKind effectID="889" effectOrder="efx01"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="196"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="3011" name="[PC]Physical Bolt">
+		<skillState>
+			<firstcast/>
+			<cast motionID="6010002">
+				<effectKind effectID="5012" effectOrder="eff00"/>
+				<effectKind effectID="5013" effectOrder="eff00"/>
+				<effectKind effectID="5017" effectOrder="eff00"/>
+				<effectKind effectID="5024" effectOrder="eff00"/>
+				<effectKind effectID="5013" effectOrder="efx00"/>
+				<effectKind effectID="5021" effectOrder="efx00"/>
+				<effectKind effectID="5023" effectOrder="efx00"/>
+				<effectKind effectID="5025" effectOrder="efx00"/>
+			</cast>
+			<shoot motionID="2120001" mixmotionID="2120002">
+				<effectKind effectID="5014" effectOrder="eff01"/>
+				<effectKind effectID="5015" effectOrder="eff01"/>
+				<effectKind effectID="5018" effectOrder="eff02"/>
+				<effectKind effectID="5019" effectOrder="eff03"/>
+				<effectKind effectID="5020" effectOrder="eff04"/>
+				<effectKind effectID="5032" effectOrder="eff00"/>
+				<effectKind effectID="5033" effectOrder="eff01"/>
+				<effectKind effectID="5015" effectOrder="efx01"/>
+				<effectKind effectID="5018" effectOrder="efx02"/>
+				<effectKind effectID="5019" effectOrder="efx03"/>
+				<effectKind effectID="5020" effectOrder="efx04"/>
+				<effectKind effectID="5022" effectOrder="efx01"/>
+				<effectKind effectID="5032" effectOrder="efx00"/>
+				<effectKind effectID="5033" effectOrder="efx01"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="5016"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="3012" name="[PC]Teleport">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="2130001" mixmotionID="2130002">
+				<effectKind effectID="5026" effectOrder="eff00"/>
+				<effectKind effectID="5026" effectOrder="efx00"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="5028"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="50001" name="[NPC]Tolboca_Jump">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="7446052" mixmotionID="0"/>
+			<shootloop/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="50002" name="[NPC]Tolboca_Roar(shoot">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="5010007" mixmotionID="0">
+				<effectKind effectID="472" effectOrder="eff01"/>
+				<effectKind effectID="473" effectOrder="eff00"/>
+			</shoot>
+			<shootloop/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="50003" name="[NPC]Tolboca_Plasma">
+		<skillState>
+			<firstcast/>
+			<cast motionID="5010009">
+				<effectKind effectID="467" effectOrder="eff00"/>
+				<effectKind effectID="470" effectOrder="eff00"/>
+				<effectKind effectID="471" effectOrder="eff00"/>
+			</cast>
+			<shoot motionID="5010011" mixmotionID="0">
+				<effectKind effectID="467" effectOrder="eff00"/>
+				<effectKind effectID="468" effectOrder="eff00"/>
+				<effectKind effectID="469" effectOrder="eff00"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="2040"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="50005" name="[NPC]Nospeller_lighting">
+		<skillState>
+			<firstcast motionID="5010004"/>
+			<cast motionID="5010006">
+				<effectKind effectID="261" effectOrder="eff00"/>
+				<effectKind effectID="262" effectOrder="eff00"/>
+			</cast>
+			<shoot motionID="5010005" mixmotionID="0">
+				<effectKind effectID="249" effectOrder="eff00"/>
+				<effectKind effectID="250" effectOrder="eff00"/>
+				<effectKind effectID="251" effectOrder="eff01"/>
+				<effectKind effectID="252" effectOrder="eff02"/>
+				<effectKind effectID="253" effectOrder="eff03"/>
+				<effectKind effectID="258" effectOrder="eff04"/>
+				<effectKind effectID="254" effectOrder="eff05"/>
+				<effectKind effectID="255" effectOrder="eff06"/>
+				<effectKind effectID="256" effectOrder="eff07"/>
+				<effectKind effectID="257" effectOrder="eff08"/>
+				<effectKind effectID="259" effectOrder="eff09"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="2040"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="50006" name="[NPC]Nospeller_lighting02(randompos_test)">
+		<skillState>
+			<firstcast motionID="5010004"/>
+			<cast motionID="5010006">
+				<effectKind effectID="261" effectOrder="eff00"/>
+				<effectKind effectID="262" effectOrder="eff00"/>
+			</cast>
+			<shoot motionID="5010005" mixmotionID="0">
+				<effectKind effectID="475" effectOrder="eff01"/>
+				<effectKind effectID="476" effectOrder="eff02"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="2040"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="50007" name="[NPC]Nospeller_force_drain">
+		<skillState>
+			<firstcast motionID="2140503">
+				<effectKind effectID="246" effectOrder="eff00"/>
+			</firstcast>
+			<cast/>
+			<shoot motionID="2140504" mixmotionID="0">
+				<effectKind effectID="246" effectOrder="eff00"/>
+				<effectKind effectID="247" effectOrder="eff00"/>
+				<effectKind effectID="248" effectOrder="eff01"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="2040"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="50008" name="[NPC]Nospeller_Fireball">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="5010014" mixmotionID="0">
+				<effectKind effectID="11032" effectOrder="start"/>
+				<effectKind effectID="11033" effectOrder="start"/>
+				<effectKind effectID="11034" effectOrder="eff01"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="191"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="50009" name="[NPC]Nospeller_Polymorph">
+		<skillState>
+			<firstcast/>
+			<cast motionID="5010017">
+				<effectKind effectID="11035" effectOrder="start"/>
+			</cast>
+			<shoot motionID="5010018" mixmotionID="0">
+				<effectKind effectID="11036" effectOrder="start"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="11037"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="50010" name="[NPC]Nospeller_Summon">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="5010022" mixmotionID="0">
+				<effectKind effectID="11038" effectOrder="start"/>
+				<effectKind effectID="11039" effectOrder="eff01"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="11040"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="50011" name="[NPC]Huga01_Fissure">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="2140501" mixmotionID="0">
+				<effectKind effectID="147" effectOrder="eff00"/>
+				<effectKind effectID="148" effectOrder="eff01"/>
+				<effectKind effectID="149" effectOrder="eff02"/>
+				<effectKind effectID="150" effectOrder="eff02"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="538"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="50012" name="[NPC]Huga01_WheelWind">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="7446052" mixmotionID="0"/>
+			<shootloop/>
+			<damage effectID="2040"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="50013" name="[NPC]Huga01_Roar">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="5010007" mixmotionID="0">
+				<effectKind effectID="491" effectOrder="eff00"/>
+				<effectKind effectID="492" effectOrder="eff01"/>
+				<effectKind effectID="493" effectOrder="eff01"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="2040"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="50014" name="[NPC]Ramboro_Screw">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="7446052" mixmotionID="0"/>
+			<shootloop/>
+			<damage effectID="2040"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="50015" name="[NPC]Ramboro_Grenade">
+		<skillState>
+			<firstcast/>
+			<cast motionID="5010013">
+				<effectKind effectID="11001" effectOrder="start"/>
+			</cast>
+			<shoot motionID="5010014" mixmotionID="0">
+				<effectKind effectID="498" effectOrder="eff00"/>
+				<effectKind effectID="11003" effectOrder="eff01"/>
+				<effectKind effectID="11002" effectOrder="start"/>
+				<effectKind effectID="11004" effectOrder="eff02"/>
+				<effectKind effectID="11005" effectOrder="eff03"/>
+				<effectKind effectID="11006" effectOrder="eff03"/>
+				<effectKind effectID="11007" effectOrder="eff04"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="2040"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="50016" name="[NPC]Ramboro_Eat">
+		<skillState>
+			<firstcast/>
+			<cast motionID="5010001">
+				<effectKind effectID="11008" effectOrder="start"/>
+			</cast>
+			<shoot motionID="7446052" mixmotionID="0"/>
+			<shootloop/>
+			<damage effectID="2040"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="50017" name="[NPC]Kronag_Breath">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="5010010" mixmotionID="0">
+				<effectKind effectID="863" effectOrder="start"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="2040"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="50018" name="[NPC]Kronag_Tailattack">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="5010018" mixmotionID="0">
+				<effectKind effectID="859" effectOrder="eff00"/>
+				<effectKind effectID="860" effectOrder="eff01"/>
+				<effectKind effectID="861" effectOrder="eff02"/>
+				<effectKind effectID="862" effectOrder="eff03"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="2040"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="50019" name="[NPC]Kronag_Summon">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="7446052" mixmotionID="0"/>
+			<shootloop/>
+			<damage effectID="2040"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="50020" name="[NPC]Tolboca_Plasma2">
+		<skillState>
+			<firstcast/>
+			<cast motionID="5010009">
+				<effectKind effectID="467" effectOrder="eff00"/>
+				<effectKind effectID="470" effectOrder="eff00"/>
+				<effectKind effectID="471" effectOrder="eff00"/>
+			</cast>
+			<shoot motionID="5010011" mixmotionID="0">
+				<effectKind effectID="467" effectOrder="eff00"/>
+				<effectKind effectID="468" effectOrder="eff00"/>
+				<effectKind effectID="469" effectOrder="eff00"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="2040"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="60000" name="[NPC]Nemesis02">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="7446052" mixmotionID="0"/>
+			<shootloop motionID="5010011">
+				<effectKind effectID="2134" effectOrder="eff00"/>
+				<effectKind effectID="2135" effectOrder="eff00"/>
+				<effectKind effectID="2136" effectOrder="eff00"/>
+				<effectKind effectID="2137" effectOrder="eff00"/>
+				<effectKind effectID="2138" effectOrder="eff00"/>
+				<effectKind effectID="2139" effectOrder="eff00"/>
+				<effectKind effectID="2140" effectOrder="eff00"/>
+				<effectKind effectID="2141" effectOrder="eff00"/>
+				<effectKind effectID="2142" effectOrder="eff00"/>
+				<effectKind effectID="2143" effectOrder="eff00"/>
+				<effectKind effectID="2149" effectOrder="eff00"/>
+				<effectKind effectID="2144" effectOrder="eff00"/>
+				<effectKind effectID="2145" effectOrder="eff00"/>
+				<effectKind effectID="2146" effectOrder="eff00"/>
+				<effectKind effectID="2147" effectOrder="eff00"/>
+				<effectKind effectID="2148" effectOrder="eff00"/>
+			</shootloop>
+			<damage effectID="2040"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="60001" name="[NPC]eff_m_shauraz01">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="5010010" mixmotionID="0">
+				<effectKind effectID="2150" effectOrder="eff01"/>
+				<effectKind effectID="2151" effectOrder="eff00"/>
+				<effectKind effectID="2152" effectOrder="eff00"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="5"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="60002" name="[NPC]eff_m_maitoria01">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="5010010" mixmotionID="0">
+				<effectKind effectID="2187" effectOrder="eff00"/>
+				<effectKind effectID="2200" effectOrder="eff01"/>
+				<effectKind effectID="2201" effectOrder="eff02"/>
+				<effectKind effectID="2202" effectOrder="eff02"/>
+				<effectKind effectID="2205" effectOrder="eff04"/>
+				<effectKind effectID="2206" effectOrder="eff04"/>
+				<effectKind effectID="2203" effectOrder="eff02"/>
+				<effectKind effectID="2204" effectOrder="eff03"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="0"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="60003" name="[NPC]eff_m_maitoria01">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="5010010" mixmotionID="0">
+				<effectKind effectID="2187" effectOrder="eff00"/>
+				<effectKind effectID="2201" effectOrder="eff02"/>
+				<effectKind effectID="2205" effectOrder="eff04"/>
+				<effectKind effectID="2206" effectOrder="eff04"/>
+				<effectKind effectID="2203" effectOrder="eff02"/>
+				<effectKind effectID="2204" effectOrder="eff03"/>
+				<effectKind effectID="2208" effectOrder="eff02"/>
+				<effectKind effectID="2207" effectOrder="eff01"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="0"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="100001" name="[NPC]bigdom_eat">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="5010001" mixmotionID="0">
+				<effectKind effectID="154" effectOrder="eff00"/>
+				<effectKind effectID="155" effectOrder="eff01"/>
+				<effectKind effectID="156" effectOrder="eff02"/>
+				<effectKind effectID="157" effectOrder="eff03"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="5"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="100002" name="[NPC]bigdom01_sp_attack_01">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="5010003" mixmotionID="0">
+				<effectKind effectID="159" effectOrder="eff00"/>
+				<effectKind effectID="160" effectOrder="eff01"/>
+				<effectKind effectID="161" effectOrder="eff02"/>
+				<effectKind effectID="162" effectOrder="eff03"/>
+				<effectKind effectID="164" effectOrder="eff04"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="538"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="102001" name="[PC]OreBreak">
+		<skillState>
+			<firstcast/>
+			<cast motionID="1110006">
+				<effectKind effectID="4039" effectOrder="eff00"/>
+				<effectKind effectID="4051" effectOrder="eff01"/>
+				<effectKind effectID="4045" effectOrder="efx00"/>
+				<effectKind effectID="4058" effectOrder="efx01"/>
+				<effectKind effectID="4027" effectOrder="tff00"/>
+				<effectKind effectID="4064" effectOrder="tff01"/>
+				<effectKind effectID="4033" effectOrder="tfx00"/>
+				<effectKind effectID="4070" effectOrder="tfx01"/>
+			</cast>
+			<shoot motionID="0" mixmotionID="0"/>
+			<shootloop/>
+			<damage effectID="0"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="112001" name="[PC]GetWool">
+		<skillState>
+			<firstcast/>
+			<cast motionID="1110004">
+				<effectKind effectID="4040" effectOrder="eff00"/>
+				<effectKind effectID="4046" effectOrder="efx00"/>
+				<effectKind effectID="4028" effectOrder="tff00"/>
+				<effectKind effectID="4034" effectOrder="tfx00"/>
+			</cast>
+			<shoot motionID="0" mixmotionID="0"/>
+			<shootloop/>
+			<damage effectID="0"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="112002" name="[PC]GetLeather">
+		<skillState>
+			<firstcast/>
+			<cast motionID="1110004">
+				<effectKind effectID="4040" effectOrder="eff00"/>
+				<effectKind effectID="4046" effectOrder="efx00"/>
+				<effectKind effectID="4028" effectOrder="tff00"/>
+				<effectKind effectID="4034" effectOrder="tfx00"/>
+			</cast>
+			<shoot motionID="0" mixmotionID="0"/>
+			<shootloop/>
+			<damage effectID="0"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="122001" name="[PC]ButcherCutting">
+		<skillState>
+			<firstcast/>
+			<cast motionID="1110004">
+				<effectKind effectID="4040" effectOrder="eff00"/>
+				<effectKind effectID="4046" effectOrder="efx00"/>
+				<effectKind effectID="4028" effectOrder="tff00"/>
+				<effectKind effectID="4034" effectOrder="tfx00"/>
+			</cast>
+			<shoot motionID="0" mixmotionID="0"/>
+			<shootloop/>
+			<damage effectID="0"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="122004" name="[PC]GetVegetables">
+		<skillState>
+			<firstcast/>
+			<cast motionID="1110004">
+				<effectKind effectID="4040" effectOrder="eff00"/>
+				<effectKind effectID="4046" effectOrder="efx00"/>
+				<effectKind effectID="4028" effectOrder="tff00"/>
+				<effectKind effectID="4034" effectOrder="tfx00"/>
+			</cast>
+			<shoot motionID="0" mixmotionID="0"/>
+			<shootloop/>
+			<damage effectID="0"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="132001" name="[PC]WaterExtraction">
+		<skillState>
+			<firstcast/>
+			<cast motionID="1110001"/>
+			<shoot motionID="0" mixmotionID="0"/>
+			<shootloop/>
+			<damage effectID="0"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="200000" name="[PC]Dig">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="0" mixmotionID="0"/>
+			<shootloop/>
+			<damage effectID="538"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="200001" name="[PC]Gather">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="0" mixmotionID="0"/>
+			<shootloop/>
+			<damage effectID="538"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="200002" name="[PC]Cut">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="0" mixmotionID="0"/>
+			<shootloop/>
+			<damage effectID="538"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="200003" name="[PC]Search">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="0" mixmotionID="0"/>
+			<shootloop/>
+			<damage effectID="538"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="200014" name="[PC]Green Coral Warp">
+		<skillState>
+			<firstcast/>
+			<cast motionID="2110001">
+				<effectKind effectID="23" effectOrder="start"/>
+			</cast>
+			<shoot motionID="2120001" mixmotionID="2120002">
+				<effectKind effectID="369" effectOrder="start"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="0"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="200015" name="[PC]Kuniba Village Warp">
+		<skillState>
+			<firstcast/>
+			<cast motionID="2110001">
+				<effectKind effectID="23" effectOrder="start"/>
+			</cast>
+			<shoot motionID="2120001" mixmotionID="2120002">
+				<effectKind effectID="369" effectOrder="start"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="0"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="200016" name="[PC]Blue Coral Warp">
+		<skillState>
+			<firstcast/>
+			<cast motionID="2110001">
+				<effectKind effectID="23" effectOrder="start"/>
+			</cast>
+			<shoot motionID="2120001" mixmotionID="2120002">
+				<effectKind effectID="369" effectOrder="start"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="0"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="200017" name="[PC]karakunta Warp">
+		<skillState>
+			<firstcast/>
+			<cast motionID="2110001">
+				<effectKind effectID="23" effectOrder="start"/>
+			</cast>
+			<shoot motionID="2120001" mixmotionID="2120002">
+				<effectKind effectID="369" effectOrder="start"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="0"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="200018" name="[PC]Majerona Warp">
+		<skillState>
+			<firstcast/>
+			<cast motionID="2110001">
+				<effectKind effectID="23" effectOrder="start"/>
+			</cast>
+			<shoot motionID="2120001" mixmotionID="2120002">
+				<effectKind effectID="369" effectOrder="start"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="0"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="200019" name="[PC]DustCoralWarp">
+		<skillState>
+			<firstcast/>
+			<cast motionID="2110001">
+				<effectKind effectID="23" effectOrder="start"/>
+			</cast>
+			<shoot motionID="2120001" mixmotionID="2120002">
+				<effectKind effectID="369" effectOrder="start"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="0"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="200020" name="[PC]AlamirWarp">
+		<skillState>
+			<firstcast/>
+			<cast motionID="2110001">
+				<effectKind effectID="23" effectOrder="start"/>
+			</cast>
+			<shoot motionID="2120001" mixmotionID="2120002">
+				<effectKind effectID="369" effectOrder="start"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="0"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="250001" name="[PC]Position">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="2040007" mixmotionID="0">
+				<effectKind effectID="19" effectOrder="eff00"/>
+				<effectKind effectID="510" effectOrder="eff01"/>
+				<effectKind effectID="511" effectOrder="eff02"/>
+				<effectKind effectID="512" effectOrder="eff03"/>
+				<effectKind effectID="22" effectOrder="efx00"/>
+				<effectKind effectID="535" effectOrder="efx02"/>
+				<effectKind effectID="536" effectOrder="efx03"/>
+				<effectKind effectID="537" effectOrder="efx04"/>
+				<effectKind effectID="542" effectOrder="efx03"/>
+				<effectKind effectID="575" effectOrder="tff01"/>
+				<effectKind effectID="576" effectOrder="tff01"/>
+				<effectKind effectID="577" effectOrder="tff01"/>
+				<effectKind effectID="578" effectOrder="tff01"/>
+				<effectKind effectID="649" effectOrder="eff_649"/>
+				<effectKind effectID="647" effectOrder="tfx01"/>
+				<effectKind effectID="648" effectOrder="tfx02"/>
+				<effectKind effectID="650" effectOrder="tfx01"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="538"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="250002" name="[PC]Warp">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="2040007" mixmotionID="0">
+				<effectKind effectID="19" effectOrder="eff00"/>
+				<effectKind effectID="510" effectOrder="eff01"/>
+				<effectKind effectID="511" effectOrder="eff02"/>
+				<effectKind effectID="512" effectOrder="eff03"/>
+				<effectKind effectID="22" effectOrder="efx00"/>
+				<effectKind effectID="535" effectOrder="efx02"/>
+				<effectKind effectID="536" effectOrder="efx03"/>
+				<effectKind effectID="537" effectOrder="efx04"/>
+				<effectKind effectID="542" effectOrder="efx03"/>
+				<effectKind effectID="575" effectOrder="tff01"/>
+				<effectKind effectID="576" effectOrder="tff01"/>
+				<effectKind effectID="577" effectOrder="tff01"/>
+				<effectKind effectID="578" effectOrder="tff01"/>
+				<effectKind effectID="649" effectOrder="eff_649"/>
+				<effectKind effectID="647" effectOrder="tfx01"/>
+				<effectKind effectID="648" effectOrder="tfx02"/>
+				<effectKind effectID="650" effectOrder="tfx01"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="538"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="250003" name="[PC]Pet">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="2040007" mixmotionID="0">
+				<effectKind effectID="19" effectOrder="eff00"/>
+				<effectKind effectID="510" effectOrder="eff01"/>
+				<effectKind effectID="511" effectOrder="eff02"/>
+				<effectKind effectID="512" effectOrder="eff03"/>
+				<effectKind effectID="22" effectOrder="efx00"/>
+				<effectKind effectID="535" effectOrder="efx02"/>
+				<effectKind effectID="536" effectOrder="efx03"/>
+				<effectKind effectID="537" effectOrder="efx04"/>
+				<effectKind effectID="542" effectOrder="efx03"/>
+				<effectKind effectID="575" effectOrder="tff01"/>
+				<effectKind effectID="576" effectOrder="tff01"/>
+				<effectKind effectID="577" effectOrder="tff01"/>
+				<effectKind effectID="578" effectOrder="tff01"/>
+				<effectKind effectID="649" effectOrder="eff_649"/>
+				<effectKind effectID="647" effectOrder="tfx01"/>
+				<effectKind effectID="648" effectOrder="tfx02"/>
+				<effectKind effectID="650" effectOrder="tfx01"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="538"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="250004" name="[PC]defTest">
+		<skillState>
+			<firstcast/>
+			<cast motionID="2260001">
+				<effectKind effectID="23" effectOrder="eff00"/>
+				<effectKind effectID="23" effectOrder="efx00"/>
+				<effectKind effectID="640" effectOrder="tfx00"/>
+				<effectKind effectID="643" effectOrder="tff00"/>
+				<effectKind effectID="645" effectOrder="tfx00"/>
+				<effectKind effectID="24" effectOrder="eff00"/>
+				<effectKind effectID="24" effectOrder="efx00"/>
+				<effectKind effectID="641" effectOrder="tff00"/>
+			</cast>
+			<shoot motionID="0" mixmotionID="0"/>
+			<shootloop/>
+			<damage effectID="0"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="250005" name="[PC]defTest2">
+		<skillState>
+			<firstcast/>
+			<cast motionID="2110001">
+				<effectKind effectID="9" effectOrder="start"/>
+				<effectKind effectID="12" effectOrder="start"/>
+			</cast>
+			<shoot motionID="0" mixmotionID="0"/>
+			<shootloop/>
+			<damage effectID="0"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="250006" name="[PC]EventMonster">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="2040007" mixmotionID="0">
+				<effectKind effectID="19" effectOrder="eff00"/>
+				<effectKind effectID="510" effectOrder="eff01"/>
+				<effectKind effectID="511" effectOrder="eff02"/>
+				<effectKind effectID="512" effectOrder="eff03"/>
+				<effectKind effectID="22" effectOrder="efx00"/>
+				<effectKind effectID="535" effectOrder="efx02"/>
+				<effectKind effectID="536" effectOrder="efx03"/>
+				<effectKind effectID="537" effectOrder="efx04"/>
+				<effectKind effectID="542" effectOrder="efx03"/>
+				<effectKind effectID="575" effectOrder="tff01"/>
+				<effectKind effectID="576" effectOrder="tff01"/>
+				<effectKind effectID="577" effectOrder="tff01"/>
+				<effectKind effectID="578" effectOrder="tff01"/>
+				<effectKind effectID="649" effectOrder="eff_649"/>
+				<effectKind effectID="647" effectOrder="tfx01"/>
+				<effectKind effectID="648" effectOrder="tfx02"/>
+				<effectKind effectID="650" effectOrder="tfx01"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="538"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="250007" name="[PC]EventMerchant">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="2040007" mixmotionID="0">
+				<effectKind effectID="19" effectOrder="eff00"/>
+				<effectKind effectID="510" effectOrder="eff01"/>
+				<effectKind effectID="511" effectOrder="eff02"/>
+				<effectKind effectID="512" effectOrder="eff03"/>
+				<effectKind effectID="22" effectOrder="efx00"/>
+				<effectKind effectID="535" effectOrder="efx02"/>
+				<effectKind effectID="536" effectOrder="efx03"/>
+				<effectKind effectID="537" effectOrder="efx04"/>
+				<effectKind effectID="542" effectOrder="efx03"/>
+				<effectKind effectID="575" effectOrder="tff01"/>
+				<effectKind effectID="576" effectOrder="tff01"/>
+				<effectKind effectID="577" effectOrder="tff01"/>
+				<effectKind effectID="578" effectOrder="tff01"/>
+				<effectKind effectID="649" effectOrder="eff_649"/>
+				<effectKind effectID="647" effectOrder="tfx01"/>
+				<effectKind effectID="648" effectOrder="tfx02"/>
+				<effectKind effectID="650" effectOrder="tfx01"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="538"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="260001" name="[PC]UseItemHP">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="0" mixmotionID="0"/>
+			<shootloop/>
+			<damage effectID="208"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="260002" name="[PC]UseItemMP">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="0" mixmotionID="0"/>
+			<shootloop/>
+			<damage effectID="209"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="260003" name="[PC]UseItemLP">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="0" mixmotionID="0"/>
+			<shootloop/>
+			<damage effectID="210"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="260004" name="[PC]RIDE">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="0" mixmotionID="0">
+				<effectKind effectID="2008" effectOrder="start"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="5"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="260005" name="[PC]NeedleOfFrontierGuards">
+		<skillState>
+			<firstcast/>
+			<cast motionID="1120004"/>
+			<shoot motionID="0" mixmotionID="0">
+				<effectKind effectID="208" effectOrder="start"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="5"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="260006" name="[PC]EmptythermalWaterBag">
+		<skillState>
+			<firstcast/>
+			<cast motionID="1120004"/>
+			<shoot motionID="0" mixmotionID="0"/>
+			<shootloop/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="260007" name="[PC]UseItemFood">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="0" mixmotionID="0"/>
+			<shootloop/>
+			<damage effectID="208"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="260008" name="[PC]UseItemDrink ">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="0" mixmotionID="0"/>
+			<shootloop/>
+			<damage effectID="209"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="500001" name="[NPC]skeleton02_sp01">
+		<skillState>
+			<firstcast/>
+			<cast motionID="2110001">
+				<effectKind effectID="488" effectOrder="eff00"/>
+			</cast>
+			<shoot motionID="2120001" mixmotionID="2120002">
+				<effectKind effectID="489" effectOrder="eff00"/>
+				<effectKind effectID="490" effectOrder="eff01"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="2040"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="500006" name="[NPC]krona01_sp">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="5010010" mixmotionID="0">
+				<effectKind effectID="863" effectOrder="start"/>
+				<effectKind effectID="894" effectOrder="start"/>
+				<effectKind effectID="867" effectOrder="start"/>
+				<effectKind effectID="868" effectOrder="start"/>
+				<effectKind effectID="868" effectOrder="eff00"/>
+				<effectKind effectID="867" effectOrder="eff00"/>
+				<effectKind effectID="867" effectOrder="eff01"/>
+				<effectKind effectID="868" effectOrder="eff01"/>
+				<effectKind effectID="868" effectOrder="eff02"/>
+				<effectKind effectID="867" effectOrder="eff02"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="2040"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="1000018" name="[NPC]keiger04_Skill">
+		<skillState>
+			<firstcast motionID="5010004">
+				<effectKind effectID="655" effectOrder="eff00"/>
+				<effectKind effectID="656" effectOrder="eff02"/>
+				<effectKind effectID="654" effectOrder="eff01"/>
+				<effectKind effectID="669" effectOrder="eff01"/>
+			</firstcast>
+			<cast/>
+			<shoot motionID="5010005" mixmotionID="0">
+				<effectKind effectID="653" effectOrder="eff00"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="538"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="1000019" name="[NPC]lizard03_Skill">
+		<skillState>
+			<firstcast/>
+			<cast motionID="2110001">
+				<effectKind effectID="2019" effectOrder="eff00"/>
+			</cast>
+			<shoot motionID="2120001" mixmotionID="2120002">
+				<effectKind effectID="2020" effectOrder="eff00"/>
+				<effectKind effectID="2021" effectOrder="eff01"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="2022"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="1000020" name="[NPC]tuto04_Skill">
+		<skillState>
+			<firstcast/>
+			<cast motionID="2110001">
+				<effectKind effectID="675" effectOrder="eff00"/>
+				<effectKind effectID="676" effectOrder="eff00"/>
+				<effectKind effectID="677" effectOrder="eff01"/>
+				<effectKind effectID="678" effectOrder="eff02"/>
+			</cast>
+			<shoot motionID="2120001" mixmotionID="2120002">
+				<effectKind effectID="679" effectOrder="eff00"/>
+				<effectKind effectID="680" effectOrder="eff01"/>
+				<effectKind effectID="681" effectOrder="eff02"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="538"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="1000021" name="[NPC]tuto05_Skill">
+		<skillState>
+			<firstcast/>
+			<cast motionID="2110001">
+				<effectKind effectID="685" effectOrder="eff00"/>
+				<effectKind effectID="686" effectOrder="eff00"/>
+			</cast>
+			<shoot motionID="2120001" mixmotionID="2120002">
+				<effectKind effectID="686" effectOrder="eff00"/>
+				<effectKind effectID="687" effectOrder="eff01"/>
+				<effectKind effectID="688" effectOrder="eff00"/>
+				<effectKind effectID="689" effectOrder="eff00"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="538"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="1000022" name="[NPC]lizard05_Skill">
+		<skillState>
+			<firstcast/>
+			<cast motionID="2110001">
+				<effectKind effectID="2023" effectOrder="eff00"/>
+			</cast>
+			<shoot motionID="2120001" mixmotionID="2120002">
+				<effectKind effectID="2024" effectOrder="eff00"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="538"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="1000023" name="[NPC]carchari01_sp01">
+		<skillState>
+			<firstcast/>
+			<cast/>
+			<shoot motionID="5010010" mixmotionID="0">
+				<effectKind effectID="11041" effectOrder="eff01"/>
+				<effectKind effectID="11042" effectOrder="eff03"/>
+				<effectKind effectID="240" effectOrder="start"/>
+			</shoot>
+			<shootloop/>
+			<damage effectID="538"/>
+		</skillState>
+	</skillEffect>
+	<skillEffect typeID="10000000" name="[PC]Enchant">
+		<skillState>
+			<firstcast/>
+			<cast motionID="1120012">
+				<effectKind effectID="5179" effectOrder="eff00"/>
+				<effectKind effectID="5180" effectOrder="efx00"/>
+				<effectKind effectID="5181" effectOrder="tff00"/>
+				<effectKind effectID="5182" effectOrder="tfx00"/>
+			</cast>
+			<shoot motionID="0" mixmotionID="0"/>
+			<shootloop/>
+		</skillState>
+	</skillEffect>
+</SkillEffectInfo>

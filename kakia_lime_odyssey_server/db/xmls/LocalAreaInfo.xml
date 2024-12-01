@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2008 (http://www.altova.com) by Administrator (SIRIUS) -->
+<!-- index : 입력된 갯수 확인 하기위한 것 삭제해도 무관함 -->
+<!-- nameID : 맵툴과 인덱스 동일해야 하며, 지역 정보를 인식하기 위한 정보  -->
+<!-- showtime : 지역 정보가 출력될 시간 1000이 1초  -->
+<!-- width, height : 이미지 사이즈 크기  -->
+<!-- wallpapername : 지역 정보 Texture -->
+<!-- 서툼바라 초원(0), 듀발고원(1), 푸른산호숲(2), 카툼바 골짜기(3),  산호 채취장(4), 탈룬바라협곡(5), 노스펠러 남작 지하던전(6), 
+ 포효의 오르막(7),  시험의동굴(8), 산호동굴(9), 로우란사막(10)-->
+<AreaInfoRoot>
+	<AreaInfoPos posX="0.25" posY="0.25"/>
+	<AreaInfo index="0" name="서 툼바라 초원" nameID="0" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_00000000.dds" comment="서툼바라초원(일반)"/>
+	<AreaInfo index="1" name="듀발 고원" nameID="1" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_00000001.dds" comment="듀발고원(일반)"/>
+	<AreaInfo index="2" name="푸른 산호 숲" nameID="2" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_00000002.dds" comment="푸른산호숲(일반)"/>
+	<AreaInfo index="3" name="카툼바 골짜기" nameID="3" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_00000003.dds" comment="카툼바골짜기(일반)"/>
+	<AreaInfo index="4" name="산호 채취장" nameID="4" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_00000004.dds" comment="산호채취장(일반)"/>
+	<AreaInfo index="5" name="탈룬바라 협곡" nameID="5" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_00000005.dds" comment="탈룬바라협곡(던전)"/>
+	<AreaInfo index="6" name="노스펠러 남작 지하던전" nameID="6" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_00000006.dds" comment="노스펠러남작지하던전(던전)"/>
+	<AreaInfo index="7" name="포효의 오르막" nameID="7" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_00000007.dds" comment="크로나그둥지(던전)"/>
+	<AreaInfo index="8" name="시험의 동굴" nameID="8" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\limeOn.bmp" comment="시험의 동굴(던전)"/>
+	<AreaInfo index="9" name="산호 동굴" nameID="9" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\limeOn.bmp" comment="산호동굴(던전)"/>
+	<AreaInfo index="10" name="로우란 사막" nameID="10" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_00000010.dds" comment="로우란사막(일반)"/>
+	<AreaInfo index="1001" name="투 인티" nameID="20320100" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20320100.dds" comment="푸른산호(일반)"/>
+	<AreaInfo index="1002" name="그린코랄" nameID="20320200" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20320200.dds" comment="푸른산호(마을)"/>
+	<AreaInfo index="1003" name="남부 훔바바의 숲" nameID="20320300" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20320300.dds" comment="푸른산호(일반)"/>
+	<AreaInfo index="1004" name="북부 훔바바의 숲" nameID="20320400" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20320400.dds" comment="푸른산호(일반)"/>
+	<AreaInfo index="1005" name="하이네 해변" nameID="20320500" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20320500.dds" comment="푸른산호(일반)"/>
+	<AreaInfo index="1006" name="고대 유적 발굴지" nameID="20320600" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20320600.dds" comment="푸른산호(일반)"/>
+	<AreaInfo index="1007" name="투 마타" nameID="20320700" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20320700.dds" comment="푸른산호(일반)"/>
+	<AreaInfo index="1008" name="블루 코랄" nameID="20320800" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20320800.dds" comment="푸른산호(마을)"/>
+	<AreaInfo index="1009" name="브렌타노 섬" nameID="20320900" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20320900.dds" comment="푸른산호(일반)"/>
+	<AreaInfo index="1010" name="아리아 섬" nameID="20321000" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20321000.dds" comment="푸른산호(일반)"/>
+	<AreaInfo index="1011" name="고요한 빛의 언덕" nameID="20321100" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20321100.dds" comment="푸른산호(일반)"/>
+	<AreaInfo index="1012" name="귀신 소리 숲" nameID="20321200" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20321200.dds" comment="푸른산호(일반)"/>
+	<AreaInfo index="1013" name="올리비아의 산호 농장" nameID="20321300" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20321300.dds" comment="푸른산호(일반)"/>
+	<AreaInfo index="1014" name="투 파카" nameID="20321400" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20321400.dds" comment="푸른산호(일반)"/>
+	<AreaInfo index="1015" name="북부 해변" nameID="20321500" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20321500.dds" comment="푸른산호(일반)"/>
+	<AreaInfo index="1016" name="레드 코랄" nameID="20321600" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20321600.dds" comment="푸른산호(일반)"/>
+	<AreaInfo index="1017" name="바이올렛의 블루베리 농장" nameID="20321700" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20321700.dds" comment="푸른산호(일반)"/>
+	<AreaInfo index="1018" name="붉은 산호 숲" nameID="20321800" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20321800.dds" comment="푸른산호(일반)"/>
+	<AreaInfo index="1019" name="오래된 채취장" nameID="20321900" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20321900.dds" comment="푸른산호(일반)"/>
+	<AreaInfo index="1020" name="산호 해변" nameID="20322000" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20322000.dds" comment="푸른산호(일반)"/>
+	<AreaInfo index="1021" name="노스펠러 남작의 오래된 저택" nameID="20322100" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20322100.dds" comment="푸른산호(필드 던전)"/>
+	<AreaInfo index="1022" name="빅스 둥지" nameID="40220100" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40220100.dds" comment="서툼바라(일반)"/>
+	<AreaInfo index="1023" name="쿠니바 마을" nameID="40220200" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40220200.dds" comment="서툼바라(마을)"/>
+	<AreaInfo index="1024" name="샤우라 둥지" nameID="40220300" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40220300.dds" comment="서툼바라(일반)"/>
+	<AreaInfo index="1025" name="샤바두 협곡" nameID="40220400" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40220400.dds" comment="서툼바라(일반)"/>
+	<AreaInfo index="1026" name="원숭이 언덕" nameID="40220500" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40220500.dds" comment="서툼바라(필드 던전)"/>
+	<AreaInfo index="1027" name="라쿰바 야영지" nameID="40220600" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40220600.dds" comment="서툼바라(일반)"/>
+	<AreaInfo index="1028" name="칸의 무덤" nameID="40220700" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40220700.dds" comment="서툼바라(일반)"/>
+	<AreaInfo index="1029" name="카라쿤타" nameID="40220800" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40220800.dds" comment="서툼바라(일반)"/>
+	<AreaInfo index="1030" name="칸의 절벽" nameID="40220900" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40220900.dds" comment="서툼바라(일반)"/>
+	<AreaInfo index="1031" name="팔스라 목초지" nameID="40221000" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40221000.dds" comment="서툼바라(일반)"/>
+	<AreaInfo index="1032" name="페허가 된 마을" nameID="40221100" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40221100.dds" comment="서툼바라(일반)"/>
+	<AreaInfo index="1033" name="정찰자의 벌판" nameID="40221200" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40221200.dds" comment="서툼바라(일반)"/>
+	<AreaInfo index="1034" name="탈룬바라 협곡" nameID="40221300" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40221300.dds" comment="서툼바라(필드 던전)"/>
+	<AreaInfo index="1035" name="용맹한 자의 길" nameID="40221400" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40221400.dds" comment="서툼바라(일반)"/>
+	<AreaInfo index="1036" name="남부 감시 초소" nameID="40221500" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40221500.dds" comment="서툼바라(일반)"/>
+	<AreaInfo index="1037" name="중부 감시 초소" nameID="40221600" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40221600.dds" comment="서툼바라(일반)"/>
+	<AreaInfo index="1038" name="북부 감시 초소" nameID="40221700" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40221700.dds" comment="서툼바라(일반)"/>
+	<AreaInfo index="1039" name="포트 카론" nameID="40210000" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40210000.dds" comment="듀발고원(마을)"/>
+	<AreaInfo index="1040" name="포트 발듀크" nameID="40210100" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40210100.dds" comment="듀발고원(마을)"/>
+	<AreaInfo index="1041" name="국경 검문소" nameID="40210200" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40210200.dds" comment="듀발고원(일반)"/>
+	<AreaInfo index="1042" name="고대의 산" nameID="40210300" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40210300.dds" comment="듀발고원(필드 던전)"/>
+	<AreaInfo index="1043" name="단의 호수" nameID="40210400" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40210400.dds" comment="듀발고원(일반)"/>
+	<AreaInfo index="1044" name="란의 호수" nameID="40210500" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40210500.dds" comment="듀발고원(일반)"/>
+	<AreaInfo index="1045" name="하루딘의 호수" nameID="40210600" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40210600.dds" comment="듀발고원(일반)"/>
+	<AreaInfo index="1046" name="무디나의 호수" nameID="40210700" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40210700.dds" comment="듀발고원(일반)"/>
+	<AreaInfo index="1047" name="린의 호수" nameID="40210800" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40210800.dds" comment="듀발고원(일반)"/>
+	<AreaInfo index="1048" name="가로나의 둥지" nameID="40210900" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40210900.dds" comment="듀발고원(일반)"/>
+	<AreaInfo index="1049" name="피킨 유랑 상인단" nameID="40211000" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40211000.dds" comment="듀발고원(일반)"/>
+	<AreaInfo index="1050" name="리칠의 유목지" nameID="40211100" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40211100.dds" comment="듀발고원(마을)"/>
+	<AreaInfo index="1051" name="하무단의 유목지" nameID="40211200" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40211200.dds" comment="듀발고원(마을)"/>
+	<AreaInfo index="1052" name="버려진 유목지" nameID="40211300" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40211300.dds" comment="듀발고원(일반)"/>
+	<AreaInfo index="1053" name="나달의 유목지" nameID="40211400" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40211400.dds" comment="듀발고원(일반)"/>
+	<AreaInfo index="1054" name="칠흑의 내리막" nameID="40211500" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40211500.dds" comment="듀발고원(필드 던전)"/>
+	<AreaInfo index="1055" name="검은 거미 숲" nameID="40211600" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40211600.dds" comment="듀발고원(일반)"/>
+	<AreaInfo index="1056" name="남쪽 봉화탑" nameID="40211700" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40211700.dds" comment="듀발고원(일반)"/>
+	<AreaInfo index="1057" name="동쪽 봉화탑" nameID="40211800" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40211800.dds" comment="듀발고원(일반)"/>
+	<AreaInfo index="1058" name="북쪽 봉화탑" nameID="40211900" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40211900.dds" comment="듀발고원(일반)"/>
+	<AreaInfo index="1059" name="중앙 봉화탑" nameID="40212000" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40212000.dds" comment="듀발고원(일반)"/>
+	<AreaInfo index="1060" name="항구 봉화탑" nameID="40212100" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40212100.dds" comment="듀발고원(일반)"/>
+	<AreaInfo index="1061" name="마제로나" nameID="40212200" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_40212200.dds" comment="듀발고원(마을)"/>
+	<AreaInfo index="1062" name="더스트 코랄" nameID="20310100" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20310100.dds" comment="로우란사막(마을)"/>
+	<AreaInfo index="1063" name="젠트라토 개미굴" nameID="20310200" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20310200.dds" comment="로우란사막(필드 던전)"/>
+	<AreaInfo index="1064" name="마이토리아 개미굴" nameID="20310300" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20310300.dds" comment="로우란사막(필드 던전)"/>
+	<AreaInfo index="1065" name="알 아미르 동굴" nameID="20310400" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20310400.dds" comment="로우란사막(일반)"/>
+	<AreaInfo index="1066" name="알 아미르" nameID="20310500" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20310500.dds" comment="로우란사막(마을)"/>
+	<AreaInfo index="1067" name="오아시스 약탈꾼 야영지" nameID="20310600" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20310600.dds" comment="로우란사막(일반)"/>
+	<AreaInfo index="1068" name="카슬람 사구지대" nameID="20310700" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20310700.dds" comment="로우란사막(일반)"/>
+	<AreaInfo index="1069" name="사막 산호 군생지" nameID="20310800" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20310800.dds" comment="로우란사막(일반)"/>
+	<AreaInfo index="1070" name="마티나 별장지" nameID="20310900" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20310900.dds" comment="로우란사막(마을)"/>
+	<AreaInfo index="1071" name="알 하프란 변경 경비대" nameID="20311000" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20311000.dds" comment="로우란사막(일반)"/>
+	<AreaInfo index="1072" name="아르하딘 소금광산" nameID="20311100" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20311100.dds" comment="로우란사막(필드 던전)"/>
+	<AreaInfo index="1073" name="발카라스 첩보대" nameID="20311200" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20311200.dds" comment="로우란사막(일반)"/>
+	<AreaInfo index="1074" name="사라져 가는 유적군" nameID="20311300" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20311300.dds" comment="로우란사막(일반)"/>
+	<AreaInfo index="1075" name="티롤레 마을" nameID="20311400" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20311400.dds" comment="로우란사막(마을)"/>
+	<AreaInfo index="1076" name="쟈하드 샘" nameID="20311500" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20311500.dds" comment="로우란사막(일반)"/>
+	<AreaInfo index="1077" name="모래바람 약탈단 근거지" nameID="20311600" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20311600.dds" comment="로우란사막(일반)"/>
+	<AreaInfo index="1078" name="슈카 암살 일족 은신처" nameID="20311700" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20311700.dds" comment="로우란사막(일반)"/>
+	<AreaInfo index="1079" name="히스레딘 농장" nameID="20311800" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_20311800.dds" comment="로우란사막(일반)"/>
+	<AreaInfo index="1080" name="아르하딘 소금광산" nameID="50310100" showtime="3000" width="610" height="50" wallpapername="UIAreaInfo\areainfo_50311100.dds" comment="로우란사막(인스 던전)"/>
+</AreaInfoRoot>

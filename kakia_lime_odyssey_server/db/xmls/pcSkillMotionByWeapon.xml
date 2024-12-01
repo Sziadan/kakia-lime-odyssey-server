@@ -1,0 +1,2566 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by 1 (EMBRACE) -->
+<pcSkillMotionPerWeapon>
+	<Skills>
+		<Skill id="1" motionByWeapon="0" name="Striking Sword"/>
+		<Skill id="2" motionByWeapon="0" name="Titan Crush"/>
+		<Skill id="3" motionByWeapon="0" name="Heavy Blow"/>
+		<Skill id="4" motionByWeapon="0" name="Limit Breaker"/>
+		<Skill id="5" motionByWeapon="0" name="Mission Carry"/>
+		<Skill id="6" motionByWeapon="0" name="Defense Carry"/>
+		<Skill id="7" motionByWeapon="0" name="Elemental Carry"/>
+		<Skill id="8" motionByWeapon="0" name="Dash"/>
+		<Skill id="9" motionByWeapon="0" name="Face Blow"/>
+		<Skill id="10" motionByWeapon="0" name="Blocking"/>
+		<Skill id="1001" motionByWeapon="0" name="Sharp Cutter"/>
+		<Skill id="1002" motionByWeapon="0" name="Rolling Slash"/>
+		<Skill id="1003" motionByWeapon="0" name="Burning Life"/>
+		<Skill id="1004" motionByWeapon="0" name="Double Pain Blow"/>
+		<Skill id="1005" motionByWeapon="0" name="Kick of Silence"/>
+		<Skill id="1006" motionByWeapon="0" name="Disgrace Hit"/>
+		<Skill id="1007" motionByWeapon="0" name="Shadow Trinity"/>
+		<Skill id="2001" motionByWeapon="0" name="Oratio"/>
+		<Skill id="2002" motionByWeapon="0" name="Ignis Dei"/>
+		<Skill id="2003" motionByWeapon="0" name="Credo"/>
+		<Skill id="2004" motionByWeapon="0" name="Remedium"/>
+		<Skill id="2005" motionByWeapon="0" name="Manus Vitae"/>
+		<Skill id="2006" motionByWeapon="0" name="Medica"/>
+		<Skill id="2007" motionByWeapon="0" name="Manus Domini"/>
+		<Skill id="2008" motionByWeapon="0" name="Magnus Medica"/>
+		<Skill id="2009" motionByWeapon="0" name="Gloria"/>
+		<Skill id="2010" motionByWeapon="0" name="Crucifixio"/>
+		<Skill id="2011" motionByWeapon="0" name="Illuminatio"/>
+		<Skill id="2012" motionByWeapon="0" name="Sanctus"/>
+		<Skill id="2013" motionByWeapon="0" name="Apocalypse"/>
+		<Skill id="3001" motionByWeapon="0" name="Mana Strike"/>
+		<Skill id="3002" motionByWeapon="0" name="Physical Barrier"/>
+		<Skill id="3003" motionByWeapon="0" name="Wind Barrier"/>
+		<Skill id="3004" motionByWeapon="0" name="Lightning Spark"/>
+		<Skill id="3005" motionByWeapon="0" name="Wind Mangling"/>
+		<Skill id="3006" motionByWeapon="0" name="Gravitation Airraid"/>
+		<Skill id="3007" motionByWeapon="0" name="Water Barrier"/>
+		<Skill id="3008" motionByWeapon="0" name="Ice Grenade"/>
+		<Skill id="3009" motionByWeapon="0" name="Frozen Hedgehog"/>
+		<Skill id="3010" motionByWeapon="0" name="Absolute Zero"/>
+	</Skills>
+	<Pam>
+		<Male>
+			<Weapon type="0" desc="HAND">
+				<cast id="2310001">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310002"/>
+				<shoot id="2310003">
+					<effectKind effectID="8045" effectOrder="tfx00"/>
+					<effectKind effectID="8046" effectOrder="tfx00"/>
+					<effectKind effectID="8047" effectOrder="tff00"/>
+					<effectKind effectID="8048" effectOrder="tff00"/>
+					<effectKind effectID="8049" effectOrder="efx00"/>
+					<effectKind effectID="8050" effectOrder="efx00"/>
+					<effectKind effectID="8051" effectOrder="eff00"/>
+					<effectKind effectID="8052" effectOrder="eff00"/>
+					<effectKind effectID="8053" effectOrder="eff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="1" desc="KNIFE">
+				<cast id="2310004">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310005"/>
+				<shoot id="2310006">
+					<effectKind effectID="8091" effectOrder="tfx00"/>
+					<effectKind effectID="8092" effectOrder="eff_625"/>
+					<effectKind effectID="8093" effectOrder="tff00"/>
+					<effectKind effectID="8094" effectOrder="eff_584"/>
+					<effectKind effectID="8095" effectOrder="efx00"/>
+					<effectKind effectID="8096" effectOrder="eff00"/>
+					<effectKind effectID="8097" effectOrder="eff_100"/>
+					<effectKind effectID="8098" effectOrder="eff_97"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="2" desc="OHAND_SPEAR">
+				<cast id="2310007">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310008"/>
+				<shoot id="2310009">
+					<effectKind effectID="8105" effectOrder="tfx00"/>
+					<effectKind effectID="8106" effectOrder="tfx00"/>
+					<effectKind effectID="8107" effectOrder="tfx00"/>
+					<effectKind effectID="8108" effectOrder="tfx00"/>
+					<effectKind effectID="8115" effectOrder="tff00"/>
+					<effectKind effectID="8116" effectOrder="tff01"/>
+					<effectKind effectID="8117" effectOrder="tff01"/>
+					<effectKind effectID="8118" effectOrder="tff01"/>
+					<effectKind effectID="8119" effectOrder="efx04"/>
+					<effectKind effectID="8120" effectOrder="efx03"/>
+					<effectKind effectID="8121" effectOrder="efx02"/>
+					<effectKind effectID="8122" effectOrder="efx04"/>
+					<effectKind effectID="8123" effectOrder="eff00"/>
+					<effectKind effectID="8124" effectOrder="eff01"/>
+					<effectKind effectID="8125" effectOrder="eff04"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="3" desc="OHAND_SWORD">
+				<cast id="2310007">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310008"/>
+				<shoot id="2310009">
+					<effectKind effectID="8105" effectOrder="tfx00"/>
+					<effectKind effectID="8106" effectOrder="tfx00"/>
+					<effectKind effectID="8107" effectOrder="tfx00"/>
+					<effectKind effectID="8108" effectOrder="tfx00"/>
+					<effectKind effectID="8115" effectOrder="tff00"/>
+					<effectKind effectID="8116" effectOrder="tff01"/>
+					<effectKind effectID="8117" effectOrder="tff01"/>
+					<effectKind effectID="8118" effectOrder="tff01"/>
+					<effectKind effectID="8119" effectOrder="efx04"/>
+					<effectKind effectID="8120" effectOrder="efx03"/>
+					<effectKind effectID="8121" effectOrder="efx02"/>
+					<effectKind effectID="8122" effectOrder="efx04"/>
+					<effectKind effectID="8123" effectOrder="eff00"/>
+					<effectKind effectID="8124" effectOrder="eff01"/>
+					<effectKind effectID="8125" effectOrder="eff04"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="4" desc="OHAND_AXE">
+				<cast id="2310007">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310008"/>
+				<shoot id="2310009">
+					<effectKind effectID="8105" effectOrder="tfx00"/>
+					<effectKind effectID="8106" effectOrder="tfx00"/>
+					<effectKind effectID="8107" effectOrder="tfx00"/>
+					<effectKind effectID="8108" effectOrder="tfx00"/>
+					<effectKind effectID="8115" effectOrder="tff00"/>
+					<effectKind effectID="8116" effectOrder="tff01"/>
+					<effectKind effectID="8117" effectOrder="tff01"/>
+					<effectKind effectID="8118" effectOrder="tff01"/>
+					<effectKind effectID="8119" effectOrder="efx04"/>
+					<effectKind effectID="8120" effectOrder="efx03"/>
+					<effectKind effectID="8121" effectOrder="efx02"/>
+					<effectKind effectID="8122" effectOrder="efx04"/>
+					<effectKind effectID="8123" effectOrder="eff00"/>
+					<effectKind effectID="8124" effectOrder="eff01"/>
+					<effectKind effectID="8125" effectOrder="eff04"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="5" desc="OHAND_MACE">
+				<cast id="2310007">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310008"/>
+				<shoot id="2310009">
+					<effectKind effectID="8105" effectOrder="tfx00"/>
+					<effectKind effectID="8106" effectOrder="tfx00"/>
+					<effectKind effectID="8107" effectOrder="tfx00"/>
+					<effectKind effectID="8108" effectOrder="tfx00"/>
+					<effectKind effectID="8115" effectOrder="tff00"/>
+					<effectKind effectID="8116" effectOrder="tff01"/>
+					<effectKind effectID="8117" effectOrder="tff01"/>
+					<effectKind effectID="8118" effectOrder="tff01"/>
+					<effectKind effectID="8119" effectOrder="efx04"/>
+					<effectKind effectID="8120" effectOrder="efx03"/>
+					<effectKind effectID="8121" effectOrder="efx02"/>
+					<effectKind effectID="8122" effectOrder="efx04"/>
+					<effectKind effectID="8123" effectOrder="eff00"/>
+					<effectKind effectID="8124" effectOrder="eff01"/>
+					<effectKind effectID="8125" effectOrder="eff04"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="6" desc="OHAND_STAFF">
+				<cast id="2310007">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310008"/>
+				<shoot id="2310009">
+					<effectKind effectID="8105" effectOrder="tfx00"/>
+					<effectKind effectID="8106" effectOrder="tfx00"/>
+					<effectKind effectID="8107" effectOrder="tfx00"/>
+					<effectKind effectID="8108" effectOrder="tfx00"/>
+					<effectKind effectID="8115" effectOrder="tff00"/>
+					<effectKind effectID="8116" effectOrder="tff01"/>
+					<effectKind effectID="8117" effectOrder="tff01"/>
+					<effectKind effectID="8118" effectOrder="tff01"/>
+					<effectKind effectID="8119" effectOrder="efx04"/>
+					<effectKind effectID="8120" effectOrder="efx03"/>
+					<effectKind effectID="8121" effectOrder="efx02"/>
+					<effectKind effectID="8122" effectOrder="efx04"/>
+					<effectKind effectID="8123" effectOrder="eff00"/>
+					<effectKind effectID="8124" effectOrder="eff01"/>
+					<effectKind effectID="8125" effectOrder="eff04"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="7" desc="OHAND_WHIP">
+				<cast id="2310007">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310008"/>
+				<shoot id="2310009">
+					<effectKind effectID="8105" effectOrder="tfx00"/>
+					<effectKind effectID="8106" effectOrder="tfx00"/>
+					<effectKind effectID="8107" effectOrder="tfx00"/>
+					<effectKind effectID="8108" effectOrder="tfx00"/>
+					<effectKind effectID="8115" effectOrder="tff00"/>
+					<effectKind effectID="8116" effectOrder="tff01"/>
+					<effectKind effectID="8117" effectOrder="tff01"/>
+					<effectKind effectID="8118" effectOrder="tff01"/>
+					<effectKind effectID="8119" effectOrder="efx04"/>
+					<effectKind effectID="8120" effectOrder="efx03"/>
+					<effectKind effectID="8121" effectOrder="efx02"/>
+					<effectKind effectID="8122" effectOrder="efx04"/>
+					<effectKind effectID="8123" effectOrder="eff00"/>
+					<effectKind effectID="8124" effectOrder="eff01"/>
+					<effectKind effectID="8125" effectOrder="eff04"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="8" desc="BOOK">
+				<cast id="2170011"/>
+				<castLoop id="2170012"/>
+				<shoot id="2170013"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="9" desc="THAND_SPEAR">
+				<cast id="2310010">
+					<effectKind effectID="554" effectOrder="start"/>
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+					<effectKind effectID="557" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310011"/>
+				<shoot id="2310012">
+					<effectKind effectID="8138" effectOrder="tfx00"/>
+					<effectKind effectID="8139" effectOrder="tfx00"/>
+					<effectKind effectID="8140" effectOrder="tff01"/>
+					<effectKind effectID="8141" effectOrder="efx00"/>
+					<effectKind effectID="8142" effectOrder="eff00"/>
+					<effectKind effectID="8135" effectOrder="eff02"/>
+					<effectKind effectID="8136" effectOrder="efx02"/>
+					<effectKind effectID="8131" effectOrder="tff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="10" desc="THAND_SWORD">
+				<cast id="2310010">
+					<effectKind effectID="554" effectOrder="start"/>
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+					<effectKind effectID="557" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310011"/>
+				<shoot id="2310012">
+					<effectKind effectID="8138" effectOrder="tfx00"/>
+					<effectKind effectID="8139" effectOrder="tfx00"/>
+					<effectKind effectID="8140" effectOrder="tff01"/>
+					<effectKind effectID="8141" effectOrder="efx00"/>
+					<effectKind effectID="8142" effectOrder="eff00"/>
+					<effectKind effectID="8135" effectOrder="eff02"/>
+					<effectKind effectID="8136" effectOrder="efx02"/>
+					<effectKind effectID="8131" effectOrder="tff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="11" desc="THAND_AXE">
+				<cast id="2310010">
+					<effectKind effectID="554" effectOrder="start"/>
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+					<effectKind effectID="557" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310011"/>
+				<shoot id="2310012">
+					<effectKind effectID="8138" effectOrder="tfx00"/>
+					<effectKind effectID="8139" effectOrder="tfx00"/>
+					<effectKind effectID="8140" effectOrder="tff01"/>
+					<effectKind effectID="8141" effectOrder="efx00"/>
+					<effectKind effectID="8142" effectOrder="eff00"/>
+					<effectKind effectID="8135" effectOrder="eff02"/>
+					<effectKind effectID="8136" effectOrder="efx02"/>
+					<effectKind effectID="8131" effectOrder="tff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="12" desc="THAND_MACE">
+				<cast id="2310010">
+					<effectKind effectID="554" effectOrder="start"/>
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+					<effectKind effectID="557" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310011"/>
+				<shoot id="2310012">
+					<effectKind effectID="8138" effectOrder="tfx00"/>
+					<effectKind effectID="8139" effectOrder="tfx00"/>
+					<effectKind effectID="8140" effectOrder="tff01"/>
+					<effectKind effectID="8141" effectOrder="efx00"/>
+					<effectKind effectID="8142" effectOrder="eff00"/>
+					<effectKind effectID="8135" effectOrder="eff02"/>
+					<effectKind effectID="8136" effectOrder="efx02"/>
+					<effectKind effectID="8131" effectOrder="tff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="13" desc="THAND_STAFF">
+				<cast id="2310010">
+					<effectKind effectID="554" effectOrder="start"/>
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+					<effectKind effectID="557" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310011"/>
+				<shoot id="2310012">
+					<effectKind effectID="8138" effectOrder="tfx00"/>
+					<effectKind effectID="8139" effectOrder="tfx00"/>
+					<effectKind effectID="8140" effectOrder="tff01"/>
+					<effectKind effectID="8141" effectOrder="efx00"/>
+					<effectKind effectID="8142" effectOrder="eff00"/>
+					<effectKind effectID="8135" effectOrder="eff02"/>
+					<effectKind effectID="8136" effectOrder="efx02"/>
+					<effectKind effectID="8131" effectOrder="tff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="14" desc="THAND_WHIP">
+				<cast id="2310010">
+					<effectKind effectID="554" effectOrder="start"/>
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+					<effectKind effectID="557" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310011"/>
+				<shoot id="2310012">
+					<effectKind effectID="8138" effectOrder="tfx00"/>
+					<effectKind effectID="8139" effectOrder="tfx00"/>
+					<effectKind effectID="8140" effectOrder="tff01"/>
+					<effectKind effectID="8141" effectOrder="efx00"/>
+					<effectKind effectID="8142" effectOrder="eff00"/>
+					<effectKind effectID="8135" effectOrder="eff02"/>
+					<effectKind effectID="8136" effectOrder="efx02"/>
+					<effectKind effectID="8131" effectOrder="tff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="15" desc="OHAND_GUN">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="16" desc="OHAND_RIFLE">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="17" desc="BOW">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="18" desc="CROSSBOW">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="19" desc="ORB">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="20" desc="WAND">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="21" desc="DHAND_DAGGER">
+				<cast id="2310013">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310014"/>
+				<shoot id="2310015">
+					<effectKind effectID="8070" effectOrder="tfx00"/>
+					<effectKind effectID="8071" effectOrder="tfx00"/>
+					<effectKind effectID="8072" effectOrder="tff00"/>
+					<effectKind effectID="8073" effectOrder="tff00"/>
+					<effectKind effectID="8074" effectOrder="efx00"/>
+					<effectKind effectID="8075" effectOrder="efx00"/>
+					<effectKind effectID="8076" effectOrder="efx00"/>
+					<effectKind effectID="8077" effectOrder="eff00"/>
+					<effectKind effectID="8078" effectOrder="eff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="22" desc="DHAND_SWORD">
+				<cast id="2310016">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310017"/>
+				<shoot id="2310018">
+					<effectKind effectID="8070" effectOrder="tfx00"/>
+					<effectKind effectID="8071" effectOrder="tfx00"/>
+					<effectKind effectID="8072" effectOrder="tff00"/>
+					<effectKind effectID="8073" effectOrder="tff00"/>
+					<effectKind effectID="8074" effectOrder="efx00"/>
+					<effectKind effectID="8075" effectOrder="efx00"/>
+					<effectKind effectID="8076" effectOrder="efx00"/>
+					<effectKind effectID="8077" effectOrder="eff00"/>
+					<effectKind effectID="8078" effectOrder="eff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="23" desc="DHAND_WHIP">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="24" desc="DHAND_GUN">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="25" desc="DHAND">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="26" desc="DHAND_MACE">
+				<cast id="2310016"/>
+				<castLoop id="2310017"/>
+				<shoot id="2310018"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="27" desc="DHAND_AXE">
+				<cast id="2310016"/>
+				<castLoop id="2310017"/>
+				<shoot id="2310018"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+		</Male>
+		<Female>
+			<Weapon type="0" desc="HAND">
+				<cast id="2310001">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310002"/>
+				<shoot id="2310003">
+					<effectKind effectID="8045" effectOrder="tfx00"/>
+					<effectKind effectID="8046" effectOrder="tfx00"/>
+					<effectKind effectID="8047" effectOrder="tff00"/>
+					<effectKind effectID="8048" effectOrder="tff00"/>
+					<effectKind effectID="8049" effectOrder="efx00"/>
+					<effectKind effectID="8050" effectOrder="efx00"/>
+					<effectKind effectID="8051" effectOrder="eff00"/>
+					<effectKind effectID="8052" effectOrder="eff00"/>
+					<effectKind effectID="8053" effectOrder="eff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="1" desc="KNIFE">
+				<cast id="2310004">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310005"/>
+				<shoot id="2310006">
+					<effectKind effectID="8091" effectOrder="tfx00"/>
+					<effectKind effectID="8092" effectOrder="eff_625"/>
+					<effectKind effectID="8093" effectOrder="tff00"/>
+					<effectKind effectID="8094" effectOrder="eff_584"/>
+					<effectKind effectID="8095" effectOrder="efx00"/>
+					<effectKind effectID="8096" effectOrder="eff00"/>
+					<effectKind effectID="8097" effectOrder="eff_100"/>
+					<effectKind effectID="8098" effectOrder="eff_97"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="2" desc="OHAND_SPEAR">
+				<cast id="2310007">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310008"/>
+				<shoot id="2310009">
+					<effectKind effectID="8105" effectOrder="tfx00"/>
+					<effectKind effectID="8106" effectOrder="tfx00"/>
+					<effectKind effectID="8107" effectOrder="tfx00"/>
+					<effectKind effectID="8108" effectOrder="tfx00"/>
+					<effectKind effectID="8115" effectOrder="tff00"/>
+					<effectKind effectID="8116" effectOrder="tff01"/>
+					<effectKind effectID="8117" effectOrder="tff01"/>
+					<effectKind effectID="8118" effectOrder="tff01"/>
+					<effectKind effectID="8119" effectOrder="efx04"/>
+					<effectKind effectID="8120" effectOrder="efx03"/>
+					<effectKind effectID="8121" effectOrder="efx02"/>
+					<effectKind effectID="8122" effectOrder="efx04"/>
+					<effectKind effectID="8123" effectOrder="eff00"/>
+					<effectKind effectID="8124" effectOrder="eff01"/>
+					<effectKind effectID="8125" effectOrder="eff04"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="3" desc="OHAND_SWORD">
+				<cast id="2310007">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310008"/>
+				<shoot id="2310009">
+					<effectKind effectID="8105" effectOrder="tfx00"/>
+					<effectKind effectID="8106" effectOrder="tfx00"/>
+					<effectKind effectID="8107" effectOrder="tfx00"/>
+					<effectKind effectID="8108" effectOrder="tfx00"/>
+					<effectKind effectID="8115" effectOrder="tff00"/>
+					<effectKind effectID="8116" effectOrder="tff01"/>
+					<effectKind effectID="8117" effectOrder="tff01"/>
+					<effectKind effectID="8118" effectOrder="tff01"/>
+					<effectKind effectID="8119" effectOrder="efx04"/>
+					<effectKind effectID="8120" effectOrder="efx03"/>
+					<effectKind effectID="8121" effectOrder="efx02"/>
+					<effectKind effectID="8122" effectOrder="efx04"/>
+					<effectKind effectID="8123" effectOrder="eff00"/>
+					<effectKind effectID="8124" effectOrder="eff01"/>
+					<effectKind effectID="8125" effectOrder="eff04"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="4" desc="OHAND_AXE">
+				<cast id="2310007">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310008"/>
+				<shoot id="2310009">
+					<effectKind effectID="8105" effectOrder="tfx00"/>
+					<effectKind effectID="8106" effectOrder="tfx00"/>
+					<effectKind effectID="8107" effectOrder="tfx00"/>
+					<effectKind effectID="8108" effectOrder="tfx00"/>
+					<effectKind effectID="8115" effectOrder="tff00"/>
+					<effectKind effectID="8116" effectOrder="tff01"/>
+					<effectKind effectID="8117" effectOrder="tff01"/>
+					<effectKind effectID="8118" effectOrder="tff01"/>
+					<effectKind effectID="8119" effectOrder="efx04"/>
+					<effectKind effectID="8120" effectOrder="efx03"/>
+					<effectKind effectID="8121" effectOrder="efx02"/>
+					<effectKind effectID="8122" effectOrder="efx04"/>
+					<effectKind effectID="8123" effectOrder="eff00"/>
+					<effectKind effectID="8124" effectOrder="eff01"/>
+					<effectKind effectID="8125" effectOrder="eff04"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="5" desc="OHAND_MACE">
+				<cast id="2310007">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310008"/>
+				<shoot id="2310009">
+					<effectKind effectID="8105" effectOrder="tfx00"/>
+					<effectKind effectID="8106" effectOrder="tfx00"/>
+					<effectKind effectID="8107" effectOrder="tfx00"/>
+					<effectKind effectID="8108" effectOrder="tfx00"/>
+					<effectKind effectID="8115" effectOrder="tff00"/>
+					<effectKind effectID="8116" effectOrder="tff01"/>
+					<effectKind effectID="8117" effectOrder="tff01"/>
+					<effectKind effectID="8118" effectOrder="tff01"/>
+					<effectKind effectID="8119" effectOrder="efx04"/>
+					<effectKind effectID="8120" effectOrder="efx03"/>
+					<effectKind effectID="8121" effectOrder="efx02"/>
+					<effectKind effectID="8122" effectOrder="efx04"/>
+					<effectKind effectID="8123" effectOrder="eff00"/>
+					<effectKind effectID="8124" effectOrder="eff01"/>
+					<effectKind effectID="8125" effectOrder="eff04"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="6" desc="OHAND_STAFF">
+				<cast id="2310007">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310008"/>
+				<shoot id="2310009">
+					<effectKind effectID="8105" effectOrder="tfx00"/>
+					<effectKind effectID="8106" effectOrder="tfx00"/>
+					<effectKind effectID="8107" effectOrder="tfx00"/>
+					<effectKind effectID="8108" effectOrder="tfx00"/>
+					<effectKind effectID="8115" effectOrder="tff00"/>
+					<effectKind effectID="8116" effectOrder="tff01"/>
+					<effectKind effectID="8117" effectOrder="tff01"/>
+					<effectKind effectID="8118" effectOrder="tff01"/>
+					<effectKind effectID="8119" effectOrder="efx04"/>
+					<effectKind effectID="8120" effectOrder="efx03"/>
+					<effectKind effectID="8121" effectOrder="efx02"/>
+					<effectKind effectID="8122" effectOrder="efx04"/>
+					<effectKind effectID="8123" effectOrder="eff00"/>
+					<effectKind effectID="8124" effectOrder="eff01"/>
+					<effectKind effectID="8125" effectOrder="eff04"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="7" desc="OHAND_WHIP">
+				<cast id="2310007">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310008"/>
+				<shoot id="2310009">
+					<effectKind effectID="8105" effectOrder="tfx00"/>
+					<effectKind effectID="8106" effectOrder="tfx00"/>
+					<effectKind effectID="8107" effectOrder="tfx00"/>
+					<effectKind effectID="8108" effectOrder="tfx00"/>
+					<effectKind effectID="8115" effectOrder="tff00"/>
+					<effectKind effectID="8116" effectOrder="tff01"/>
+					<effectKind effectID="8117" effectOrder="tff01"/>
+					<effectKind effectID="8118" effectOrder="tff01"/>
+					<effectKind effectID="8119" effectOrder="efx04"/>
+					<effectKind effectID="8120" effectOrder="efx03"/>
+					<effectKind effectID="8121" effectOrder="efx02"/>
+					<effectKind effectID="8122" effectOrder="efx04"/>
+					<effectKind effectID="8123" effectOrder="eff00"/>
+					<effectKind effectID="8124" effectOrder="eff01"/>
+					<effectKind effectID="8125" effectOrder="eff04"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="8" desc="BOOK">
+				<cast id="2170011"/>
+				<castLoop id="2170012"/>
+				<shoot id="2170013"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="9" desc="THAND_SPEAR">
+				<cast id="2310010">
+					<effectKind effectID="554" effectOrder="start"/>
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+					<effectKind effectID="557" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310011"/>
+				<shoot id="2310012">
+					<effectKind effectID="8138" effectOrder="tfx00"/>
+					<effectKind effectID="8139" effectOrder="tfx00"/>
+					<effectKind effectID="8140" effectOrder="tff01"/>
+					<effectKind effectID="8141" effectOrder="efx00"/>
+					<effectKind effectID="8142" effectOrder="eff00"/>
+					<effectKind effectID="8135" effectOrder="eff02"/>
+					<effectKind effectID="8136" effectOrder="efx02"/>
+					<effectKind effectID="8131" effectOrder="tff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="10" desc="THAND_SWORD">
+				<cast id="2310010">
+					<effectKind effectID="554" effectOrder="start"/>
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+					<effectKind effectID="557" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310011"/>
+				<shoot id="2310012">
+					<effectKind effectID="8138" effectOrder="tfx00"/>
+					<effectKind effectID="8139" effectOrder="tfx00"/>
+					<effectKind effectID="8140" effectOrder="tff01"/>
+					<effectKind effectID="8141" effectOrder="efx00"/>
+					<effectKind effectID="8142" effectOrder="eff00"/>
+					<effectKind effectID="8135" effectOrder="eff02"/>
+					<effectKind effectID="8136" effectOrder="efx02"/>
+					<effectKind effectID="8131" effectOrder="tff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="11" desc="THAND_AXE">
+				<cast id="2310010">
+					<effectKind effectID="554" effectOrder="start"/>
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+					<effectKind effectID="557" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310011"/>
+				<shoot id="2310012">
+					<effectKind effectID="8138" effectOrder="tfx00"/>
+					<effectKind effectID="8139" effectOrder="tfx00"/>
+					<effectKind effectID="8140" effectOrder="tff01"/>
+					<effectKind effectID="8141" effectOrder="efx00"/>
+					<effectKind effectID="8142" effectOrder="eff00"/>
+					<effectKind effectID="8135" effectOrder="eff02"/>
+					<effectKind effectID="8136" effectOrder="efx02"/>
+					<effectKind effectID="8131" effectOrder="tff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="12" desc="THAND_MACE">
+				<cast id="2310010">
+					<effectKind effectID="554" effectOrder="start"/>
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+					<effectKind effectID="557" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310011"/>
+				<shoot id="2310012">
+					<effectKind effectID="8138" effectOrder="tfx00"/>
+					<effectKind effectID="8139" effectOrder="tfx00"/>
+					<effectKind effectID="8140" effectOrder="tff01"/>
+					<effectKind effectID="8141" effectOrder="efx00"/>
+					<effectKind effectID="8142" effectOrder="eff00"/>
+					<effectKind effectID="8135" effectOrder="eff02"/>
+					<effectKind effectID="8136" effectOrder="efx02"/>
+					<effectKind effectID="8131" effectOrder="tff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="13" desc="THAND_STAFF">
+				<cast id="2310010">
+					<effectKind effectID="554" effectOrder="start"/>
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+					<effectKind effectID="557" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310011"/>
+				<shoot id="2310012">
+					<effectKind effectID="8138" effectOrder="tfx00"/>
+					<effectKind effectID="8139" effectOrder="tfx00"/>
+					<effectKind effectID="8140" effectOrder="tff01"/>
+					<effectKind effectID="8141" effectOrder="efx00"/>
+					<effectKind effectID="8142" effectOrder="eff00"/>
+					<effectKind effectID="8135" effectOrder="eff02"/>
+					<effectKind effectID="8136" effectOrder="efx02"/>
+					<effectKind effectID="8131" effectOrder="tff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="14" desc="THAND_WHIP">
+				<cast id="2310010">
+					<effectKind effectID="554" effectOrder="start"/>
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+					<effectKind effectID="557" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310011"/>
+				<shoot id="2310012">
+					<effectKind effectID="8138" effectOrder="tfx00"/>
+					<effectKind effectID="8139" effectOrder="tfx00"/>
+					<effectKind effectID="8140" effectOrder="tff01"/>
+					<effectKind effectID="8141" effectOrder="efx00"/>
+					<effectKind effectID="8142" effectOrder="eff00"/>
+					<effectKind effectID="8135" effectOrder="eff02"/>
+					<effectKind effectID="8136" effectOrder="efx02"/>
+					<effectKind effectID="8131" effectOrder="tff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="15" desc="OHAND_GUN">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="16" desc="OHAND_RIFLE">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="17" desc="BOW">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="18" desc="CROSSBOW">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="19" desc="ORB">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="20" desc="WAND">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="21" desc="DHAND_DAGGER">
+				<cast id="2310013">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310014"/>
+				<shoot id="2310015">
+					<effectKind effectID="8070" effectOrder="tfx00"/>
+					<effectKind effectID="8071" effectOrder="tfx00"/>
+					<effectKind effectID="8072" effectOrder="tff00"/>
+					<effectKind effectID="8073" effectOrder="tff00"/>
+					<effectKind effectID="8074" effectOrder="efx00"/>
+					<effectKind effectID="8075" effectOrder="efx00"/>
+					<effectKind effectID="8076" effectOrder="efx00"/>
+					<effectKind effectID="8077" effectOrder="eff00"/>
+					<effectKind effectID="8078" effectOrder="eff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="22" desc="DHAND_SWORD">
+				<cast id="2310016">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310017"/>
+				<shoot id="2310018">
+					<effectKind effectID="8070" effectOrder="tfx00"/>
+					<effectKind effectID="8071" effectOrder="tfx00"/>
+					<effectKind effectID="8072" effectOrder="tff00"/>
+					<effectKind effectID="8073" effectOrder="tff00"/>
+					<effectKind effectID="8074" effectOrder="efx00"/>
+					<effectKind effectID="8075" effectOrder="efx00"/>
+					<effectKind effectID="8076" effectOrder="efx00"/>
+					<effectKind effectID="8077" effectOrder="eff00"/>
+					<effectKind effectID="8078" effectOrder="eff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="23" desc="DHAND_WHIP">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="24" desc="DHAND_GUN">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="25" desc="DHAND">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="26" desc="DHAND_MACE">
+				<cast id="2310016"/>
+				<castLoop id="2310017"/>
+				<shoot id="2310018"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="27" desc="DHAND_AXE">
+				<cast id="2310016"/>
+				<castLoop id="2310017"/>
+				<shoot id="2310018"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+		</Female>
+	</Pam>
+	<Human>
+		<Male>
+			<Weapon type="0" desc="HAND">
+				<cast id="2310001">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310002"/>
+				<shoot id="2310003">
+					<effectKind effectID="8045" effectOrder="tfx00"/>
+					<effectKind effectID="8046" effectOrder="tfx00"/>
+					<effectKind effectID="8047" effectOrder="tff00"/>
+					<effectKind effectID="8048" effectOrder="tff00"/>
+					<effectKind effectID="8049" effectOrder="efx00"/>
+					<effectKind effectID="8050" effectOrder="efx00"/>
+					<effectKind effectID="8051" effectOrder="eff00"/>
+					<effectKind effectID="8052" effectOrder="eff00"/>
+					<effectKind effectID="8053" effectOrder="eff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="1" desc="KNIFE">
+				<cast id="2310004">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310005"/>
+				<shoot id="2310006">
+					<effectKind effectID="8091" effectOrder="tfx00"/>
+					<effectKind effectID="8092" effectOrder="eff_625"/>
+					<effectKind effectID="8093" effectOrder="tff00"/>
+					<effectKind effectID="8094" effectOrder="eff_584"/>
+					<effectKind effectID="8095" effectOrder="efx00"/>
+					<effectKind effectID="8096" effectOrder="eff00"/>
+					<effectKind effectID="8097" effectOrder="eff_100"/>
+					<effectKind effectID="8098" effectOrder="eff_97"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="2" desc="OHAND_SPEAR">
+				<cast id="2310007">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310008"/>
+				<shoot id="2310009">
+					<effectKind effectID="8105" effectOrder="tfx00"/>
+					<effectKind effectID="8106" effectOrder="tfx00"/>
+					<effectKind effectID="8107" effectOrder="tfx00"/>
+					<effectKind effectID="8108" effectOrder="tfx00"/>
+					<effectKind effectID="8115" effectOrder="tff00"/>
+					<effectKind effectID="8116" effectOrder="tff01"/>
+					<effectKind effectID="8117" effectOrder="tff01"/>
+					<effectKind effectID="8118" effectOrder="tff01"/>
+					<effectKind effectID="8119" effectOrder="efx04"/>
+					<effectKind effectID="8120" effectOrder="efx03"/>
+					<effectKind effectID="8121" effectOrder="efx02"/>
+					<effectKind effectID="8122" effectOrder="efx04"/>
+					<effectKind effectID="8123" effectOrder="eff00"/>
+					<effectKind effectID="8124" effectOrder="eff01"/>
+					<effectKind effectID="8125" effectOrder="eff04"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="3" desc="OHAND_SWORD">
+				<cast id="2310007">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310008"/>
+				<shoot id="2310009">
+					<effectKind effectID="8105" effectOrder="tfx00"/>
+					<effectKind effectID="8106" effectOrder="tfx00"/>
+					<effectKind effectID="8107" effectOrder="tfx00"/>
+					<effectKind effectID="8108" effectOrder="tfx00"/>
+					<effectKind effectID="8115" effectOrder="tff00"/>
+					<effectKind effectID="8116" effectOrder="tff01"/>
+					<effectKind effectID="8117" effectOrder="tff01"/>
+					<effectKind effectID="8118" effectOrder="tff01"/>
+					<effectKind effectID="8119" effectOrder="efx04"/>
+					<effectKind effectID="8120" effectOrder="efx03"/>
+					<effectKind effectID="8121" effectOrder="efx02"/>
+					<effectKind effectID="8122" effectOrder="efx04"/>
+					<effectKind effectID="8123" effectOrder="eff00"/>
+					<effectKind effectID="8124" effectOrder="eff01"/>
+					<effectKind effectID="8125" effectOrder="eff04"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="4" desc="OHAND_AXE">
+				<cast id="2310007">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310008"/>
+				<shoot id="2310009">
+					<effectKind effectID="8105" effectOrder="tfx00"/>
+					<effectKind effectID="8106" effectOrder="tfx00"/>
+					<effectKind effectID="8107" effectOrder="tfx00"/>
+					<effectKind effectID="8108" effectOrder="tfx00"/>
+					<effectKind effectID="8115" effectOrder="tff00"/>
+					<effectKind effectID="8116" effectOrder="tff01"/>
+					<effectKind effectID="8117" effectOrder="tff01"/>
+					<effectKind effectID="8118" effectOrder="tff01"/>
+					<effectKind effectID="8119" effectOrder="efx04"/>
+					<effectKind effectID="8120" effectOrder="efx03"/>
+					<effectKind effectID="8121" effectOrder="efx02"/>
+					<effectKind effectID="8122" effectOrder="efx04"/>
+					<effectKind effectID="8123" effectOrder="eff00"/>
+					<effectKind effectID="8124" effectOrder="eff01"/>
+					<effectKind effectID="8125" effectOrder="eff04"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="5" desc="OHAND_MACE">
+				<cast id="2310007">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310008"/>
+				<shoot id="2310009">
+					<effectKind effectID="8105" effectOrder="tfx00"/>
+					<effectKind effectID="8106" effectOrder="tfx00"/>
+					<effectKind effectID="8107" effectOrder="tfx00"/>
+					<effectKind effectID="8108" effectOrder="tfx00"/>
+					<effectKind effectID="8115" effectOrder="tff00"/>
+					<effectKind effectID="8116" effectOrder="tff01"/>
+					<effectKind effectID="8117" effectOrder="tff01"/>
+					<effectKind effectID="8118" effectOrder="tff01"/>
+					<effectKind effectID="8119" effectOrder="efx04"/>
+					<effectKind effectID="8120" effectOrder="efx03"/>
+					<effectKind effectID="8121" effectOrder="efx02"/>
+					<effectKind effectID="8122" effectOrder="efx04"/>
+					<effectKind effectID="8123" effectOrder="eff00"/>
+					<effectKind effectID="8124" effectOrder="eff01"/>
+					<effectKind effectID="8125" effectOrder="eff04"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="6" desc="OHAND_STAFF">
+				<cast id="2310007">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310008"/>
+				<shoot id="2310009">
+					<effectKind effectID="8105" effectOrder="tfx00"/>
+					<effectKind effectID="8106" effectOrder="tfx00"/>
+					<effectKind effectID="8107" effectOrder="tfx00"/>
+					<effectKind effectID="8108" effectOrder="tfx00"/>
+					<effectKind effectID="8115" effectOrder="tff00"/>
+					<effectKind effectID="8116" effectOrder="tff01"/>
+					<effectKind effectID="8117" effectOrder="tff01"/>
+					<effectKind effectID="8118" effectOrder="tff01"/>
+					<effectKind effectID="8119" effectOrder="efx04"/>
+					<effectKind effectID="8120" effectOrder="efx03"/>
+					<effectKind effectID="8121" effectOrder="efx02"/>
+					<effectKind effectID="8122" effectOrder="efx04"/>
+					<effectKind effectID="8123" effectOrder="eff00"/>
+					<effectKind effectID="8124" effectOrder="eff01"/>
+					<effectKind effectID="8125" effectOrder="eff04"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="7" desc="OHAND_WHIP">
+				<cast id="2310007">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310008"/>
+				<shoot id="2310009">
+					<effectKind effectID="8105" effectOrder="tfx00"/>
+					<effectKind effectID="8106" effectOrder="tfx00"/>
+					<effectKind effectID="8107" effectOrder="tfx00"/>
+					<effectKind effectID="8108" effectOrder="tfx00"/>
+					<effectKind effectID="8115" effectOrder="tff00"/>
+					<effectKind effectID="8116" effectOrder="tff01"/>
+					<effectKind effectID="8117" effectOrder="tff01"/>
+					<effectKind effectID="8118" effectOrder="tff01"/>
+					<effectKind effectID="8119" effectOrder="efx04"/>
+					<effectKind effectID="8120" effectOrder="efx03"/>
+					<effectKind effectID="8121" effectOrder="efx02"/>
+					<effectKind effectID="8122" effectOrder="efx04"/>
+					<effectKind effectID="8123" effectOrder="eff00"/>
+					<effectKind effectID="8124" effectOrder="eff01"/>
+					<effectKind effectID="8125" effectOrder="eff04"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="8" desc="BOOK">
+				<cast id="2170011"/>
+				<castLoop id="2170012"/>
+				<shoot id="2170013"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="9" desc="THAND_SPEAR">
+				<cast id="2310010">
+					<effectKind effectID="554" effectOrder="start"/>
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+					<effectKind effectID="557" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310011"/>
+				<shoot id="2310012">
+					<effectKind effectID="8138" effectOrder="tfx00"/>
+					<effectKind effectID="8139" effectOrder="tfx00"/>
+					<effectKind effectID="8140" effectOrder="tff01"/>
+					<effectKind effectID="8141" effectOrder="efx00"/>
+					<effectKind effectID="8142" effectOrder="eff00"/>
+					<effectKind effectID="8135" effectOrder="eff02"/>
+					<effectKind effectID="8136" effectOrder="efx02"/>
+					<effectKind effectID="8131" effectOrder="tff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="10" desc="THAND_SWORD">
+				<cast id="2310010">
+					<effectKind effectID="554" effectOrder="start"/>
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+					<effectKind effectID="557" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310011"/>
+				<shoot id="2310012">
+					<effectKind effectID="8138" effectOrder="tfx00"/>
+					<effectKind effectID="8139" effectOrder="tfx00"/>
+					<effectKind effectID="8140" effectOrder="tff01"/>
+					<effectKind effectID="8141" effectOrder="efx00"/>
+					<effectKind effectID="8142" effectOrder="eff00"/>
+					<effectKind effectID="8135" effectOrder="eff02"/>
+					<effectKind effectID="8136" effectOrder="efx02"/>
+					<effectKind effectID="8131" effectOrder="tff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="11" desc="THAND_AXE">
+				<cast id="2310010">
+					<effectKind effectID="554" effectOrder="start"/>
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+					<effectKind effectID="557" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310011"/>
+				<shoot id="2310012">
+					<effectKind effectID="8138" effectOrder="tfx00"/>
+					<effectKind effectID="8139" effectOrder="tfx00"/>
+					<effectKind effectID="8140" effectOrder="tff01"/>
+					<effectKind effectID="8141" effectOrder="efx00"/>
+					<effectKind effectID="8142" effectOrder="eff00"/>
+					<effectKind effectID="8135" effectOrder="eff02"/>
+					<effectKind effectID="8136" effectOrder="efx02"/>
+					<effectKind effectID="8131" effectOrder="tff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="12" desc="THAND_MACE">
+				<cast id="2310010">
+					<effectKind effectID="554" effectOrder="start"/>
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+					<effectKind effectID="557" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310011"/>
+				<shoot id="2310012">
+					<effectKind effectID="8138" effectOrder="tfx00"/>
+					<effectKind effectID="8139" effectOrder="tfx00"/>
+					<effectKind effectID="8140" effectOrder="tff01"/>
+					<effectKind effectID="8141" effectOrder="efx00"/>
+					<effectKind effectID="8142" effectOrder="eff00"/>
+					<effectKind effectID="8135" effectOrder="eff02"/>
+					<effectKind effectID="8136" effectOrder="efx02"/>
+					<effectKind effectID="8131" effectOrder="tff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="13" desc="THAND_STAFF">
+				<cast id="2310010">
+					<effectKind effectID="554" effectOrder="start"/>
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+					<effectKind effectID="557" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310011"/>
+				<shoot id="2310012">
+					<effectKind effectID="8138" effectOrder="tfx00"/>
+					<effectKind effectID="8139" effectOrder="tfx00"/>
+					<effectKind effectID="8140" effectOrder="tff01"/>
+					<effectKind effectID="8141" effectOrder="efx00"/>
+					<effectKind effectID="8142" effectOrder="eff00"/>
+					<effectKind effectID="8135" effectOrder="eff02"/>
+					<effectKind effectID="8136" effectOrder="efx02"/>
+					<effectKind effectID="8131" effectOrder="tff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="14" desc="THAND_WHIP">
+				<cast id="2310010">
+					<effectKind effectID="554" effectOrder="start"/>
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+					<effectKind effectID="557" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310011"/>
+				<shoot id="2310012">
+					<effectKind effectID="8138" effectOrder="tfx00"/>
+					<effectKind effectID="8139" effectOrder="tfx00"/>
+					<effectKind effectID="8140" effectOrder="tff01"/>
+					<effectKind effectID="8141" effectOrder="efx00"/>
+					<effectKind effectID="8142" effectOrder="eff00"/>
+					<effectKind effectID="8135" effectOrder="eff02"/>
+					<effectKind effectID="8136" effectOrder="efx02"/>
+					<effectKind effectID="8131" effectOrder="tff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="15" desc="OHAND_GUN">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="16" desc="OHAND_RIFLE">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="17" desc="BOW">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="18" desc="CROSSBOW">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="19" desc="ORB">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="20" desc="WAND">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="21" desc="DHAND_DAGGER">
+				<cast id="2310013">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310014"/>
+				<shoot id="2310015">
+					<effectKind effectID="8070" effectOrder="tfx00"/>
+					<effectKind effectID="8071" effectOrder="tfx00"/>
+					<effectKind effectID="8072" effectOrder="tff00"/>
+					<effectKind effectID="8073" effectOrder="tff00"/>
+					<effectKind effectID="8074" effectOrder="efx00"/>
+					<effectKind effectID="8075" effectOrder="efx00"/>
+					<effectKind effectID="8076" effectOrder="efx00"/>
+					<effectKind effectID="8077" effectOrder="eff00"/>
+					<effectKind effectID="8078" effectOrder="eff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="22" desc="DHAND_SWORD">
+				<cast id="2310016">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310017"/>
+				<shoot id="2310018">
+					<effectKind effectID="8070" effectOrder="tfx00"/>
+					<effectKind effectID="8071" effectOrder="tfx00"/>
+					<effectKind effectID="8072" effectOrder="tff00"/>
+					<effectKind effectID="8073" effectOrder="tff00"/>
+					<effectKind effectID="8074" effectOrder="efx00"/>
+					<effectKind effectID="8075" effectOrder="efx00"/>
+					<effectKind effectID="8076" effectOrder="efx00"/>
+					<effectKind effectID="8077" effectOrder="eff00"/>
+					<effectKind effectID="8078" effectOrder="eff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="23" desc="DHAND_WHIP">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="24" desc="DHAND_GUN">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="25" desc="DHAND">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="26" desc="DHAND_MACE">
+				<cast id="2310016"/>
+				<castLoop id="2310017"/>
+				<shoot id="2310018"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="27" desc="DHAND_AXE">
+				<cast id="2310016"/>
+				<castLoop id="2310017"/>
+				<shoot id="2310018"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+		</Male>
+		<Female>
+			<Weapon type="0" desc="HAND">
+				<cast id="2310001">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310002"/>
+				<shoot id="2310003">
+					<effectKind effectID="8045" effectOrder="tfx00"/>
+					<effectKind effectID="8046" effectOrder="tfx00"/>
+					<effectKind effectID="8047" effectOrder="tff00"/>
+					<effectKind effectID="8048" effectOrder="tff00"/>
+					<effectKind effectID="8049" effectOrder="efx00"/>
+					<effectKind effectID="8050" effectOrder="efx00"/>
+					<effectKind effectID="8051" effectOrder="eff00"/>
+					<effectKind effectID="8052" effectOrder="eff00"/>
+					<effectKind effectID="8053" effectOrder="eff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="1" desc="KNIFE">
+				<cast id="2310004">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310005"/>
+				<shoot id="2310006">
+					<effectKind effectID="8091" effectOrder="tfx00"/>
+					<effectKind effectID="8092" effectOrder="eff_625"/>
+					<effectKind effectID="8093" effectOrder="tff00"/>
+					<effectKind effectID="8094" effectOrder="eff_584"/>
+					<effectKind effectID="8095" effectOrder="efx00"/>
+					<effectKind effectID="8096" effectOrder="eff00"/>
+					<effectKind effectID="8097" effectOrder="eff_100"/>
+					<effectKind effectID="8098" effectOrder="eff_97"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="2" desc="OHAND_SPEAR">
+				<cast id="2310007">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310008"/>
+				<shoot id="2310009">
+					<effectKind effectID="8105" effectOrder="tfx00"/>
+					<effectKind effectID="8106" effectOrder="tfx00"/>
+					<effectKind effectID="8107" effectOrder="tfx00"/>
+					<effectKind effectID="8108" effectOrder="tfx00"/>
+					<effectKind effectID="8115" effectOrder="tff00"/>
+					<effectKind effectID="8116" effectOrder="tff01"/>
+					<effectKind effectID="8117" effectOrder="tff01"/>
+					<effectKind effectID="8118" effectOrder="tff01"/>
+					<effectKind effectID="8119" effectOrder="efx04"/>
+					<effectKind effectID="8120" effectOrder="efx03"/>
+					<effectKind effectID="8121" effectOrder="efx02"/>
+					<effectKind effectID="8122" effectOrder="efx04"/>
+					<effectKind effectID="8123" effectOrder="eff00"/>
+					<effectKind effectID="8124" effectOrder="eff01"/>
+					<effectKind effectID="8125" effectOrder="eff04"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="3" desc="OHAND_SWORD">
+				<cast id="2310007">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310008"/>
+				<shoot id="2310009">
+					<effectKind effectID="8105" effectOrder="tfx00"/>
+					<effectKind effectID="8106" effectOrder="tfx00"/>
+					<effectKind effectID="8107" effectOrder="tfx00"/>
+					<effectKind effectID="8108" effectOrder="tfx00"/>
+					<effectKind effectID="8115" effectOrder="tff00"/>
+					<effectKind effectID="8116" effectOrder="tff01"/>
+					<effectKind effectID="8117" effectOrder="tff01"/>
+					<effectKind effectID="8118" effectOrder="tff01"/>
+					<effectKind effectID="8119" effectOrder="efx04"/>
+					<effectKind effectID="8120" effectOrder="efx03"/>
+					<effectKind effectID="8121" effectOrder="efx02"/>
+					<effectKind effectID="8122" effectOrder="efx04"/>
+					<effectKind effectID="8123" effectOrder="eff00"/>
+					<effectKind effectID="8124" effectOrder="eff01"/>
+					<effectKind effectID="8125" effectOrder="eff04"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="4" desc="OHAND_AXE">
+				<cast id="2310007">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310008"/>
+				<shoot id="2310009">
+					<effectKind effectID="8105" effectOrder="tfx00"/>
+					<effectKind effectID="8106" effectOrder="tfx00"/>
+					<effectKind effectID="8107" effectOrder="tfx00"/>
+					<effectKind effectID="8108" effectOrder="tfx00"/>
+					<effectKind effectID="8115" effectOrder="tff00"/>
+					<effectKind effectID="8116" effectOrder="tff01"/>
+					<effectKind effectID="8117" effectOrder="tff01"/>
+					<effectKind effectID="8118" effectOrder="tff01"/>
+					<effectKind effectID="8119" effectOrder="efx04"/>
+					<effectKind effectID="8120" effectOrder="efx03"/>
+					<effectKind effectID="8121" effectOrder="efx02"/>
+					<effectKind effectID="8122" effectOrder="efx04"/>
+					<effectKind effectID="8123" effectOrder="eff00"/>
+					<effectKind effectID="8124" effectOrder="eff01"/>
+					<effectKind effectID="8125" effectOrder="eff04"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="5" desc="OHAND_MACE">
+				<cast id="2310007">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310008"/>
+				<shoot id="2310009">
+					<effectKind effectID="8105" effectOrder="tfx00"/>
+					<effectKind effectID="8106" effectOrder="tfx00"/>
+					<effectKind effectID="8107" effectOrder="tfx00"/>
+					<effectKind effectID="8108" effectOrder="tfx00"/>
+					<effectKind effectID="8115" effectOrder="tff00"/>
+					<effectKind effectID="8116" effectOrder="tff01"/>
+					<effectKind effectID="8117" effectOrder="tff01"/>
+					<effectKind effectID="8118" effectOrder="tff01"/>
+					<effectKind effectID="8119" effectOrder="efx04"/>
+					<effectKind effectID="8120" effectOrder="efx03"/>
+					<effectKind effectID="8121" effectOrder="efx02"/>
+					<effectKind effectID="8122" effectOrder="efx04"/>
+					<effectKind effectID="8123" effectOrder="eff00"/>
+					<effectKind effectID="8124" effectOrder="eff01"/>
+					<effectKind effectID="8125" effectOrder="eff04"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="6" desc="OHAND_STAFF">
+				<cast id="2310007">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310008"/>
+				<shoot id="2310009">
+					<effectKind effectID="8105" effectOrder="tfx00"/>
+					<effectKind effectID="8106" effectOrder="tfx00"/>
+					<effectKind effectID="8107" effectOrder="tfx00"/>
+					<effectKind effectID="8108" effectOrder="tfx00"/>
+					<effectKind effectID="8115" effectOrder="tff00"/>
+					<effectKind effectID="8116" effectOrder="tff01"/>
+					<effectKind effectID="8117" effectOrder="tff01"/>
+					<effectKind effectID="8118" effectOrder="tff01"/>
+					<effectKind effectID="8119" effectOrder="efx04"/>
+					<effectKind effectID="8120" effectOrder="efx03"/>
+					<effectKind effectID="8121" effectOrder="efx02"/>
+					<effectKind effectID="8122" effectOrder="efx04"/>
+					<effectKind effectID="8123" effectOrder="eff00"/>
+					<effectKind effectID="8124" effectOrder="eff01"/>
+					<effectKind effectID="8125" effectOrder="eff04"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="7" desc="OHAND_WHIP">
+				<cast id="2310007">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310008"/>
+				<shoot id="2310009">
+					<effectKind effectID="8105" effectOrder="tfx00"/>
+					<effectKind effectID="8106" effectOrder="tfx00"/>
+					<effectKind effectID="8107" effectOrder="tfx00"/>
+					<effectKind effectID="8108" effectOrder="tfx00"/>
+					<effectKind effectID="8115" effectOrder="tff00"/>
+					<effectKind effectID="8116" effectOrder="tff01"/>
+					<effectKind effectID="8117" effectOrder="tff01"/>
+					<effectKind effectID="8118" effectOrder="tff01"/>
+					<effectKind effectID="8119" effectOrder="efx04"/>
+					<effectKind effectID="8120" effectOrder="efx03"/>
+					<effectKind effectID="8121" effectOrder="efx02"/>
+					<effectKind effectID="8122" effectOrder="efx04"/>
+					<effectKind effectID="8123" effectOrder="eff00"/>
+					<effectKind effectID="8124" effectOrder="eff01"/>
+					<effectKind effectID="8125" effectOrder="eff04"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="8" desc="BOOK">
+				<cast id="2170011"/>
+				<castLoop id="2170012"/>
+				<shoot id="2170013"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="9" desc="THAND_SPEAR">
+				<cast id="2310010">
+					<effectKind effectID="554" effectOrder="start"/>
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+					<effectKind effectID="557" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310011"/>
+				<shoot id="2310012">
+					<effectKind effectID="8138" effectOrder="tfx00"/>
+					<effectKind effectID="8139" effectOrder="tfx00"/>
+					<effectKind effectID="8140" effectOrder="tff01"/>
+					<effectKind effectID="8141" effectOrder="efx00"/>
+					<effectKind effectID="8142" effectOrder="eff00"/>
+					<effectKind effectID="8135" effectOrder="eff02"/>
+					<effectKind effectID="8136" effectOrder="efx02"/>
+					<effectKind effectID="8131" effectOrder="tff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="10" desc="THAND_SWORD">
+				<cast id="2310010">
+					<effectKind effectID="554" effectOrder="start"/>
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+					<effectKind effectID="557" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310011"/>
+				<shoot id="2310012">
+					<effectKind effectID="8138" effectOrder="tfx00"/>
+					<effectKind effectID="8139" effectOrder="tfx00"/>
+					<effectKind effectID="8140" effectOrder="tff01"/>
+					<effectKind effectID="8141" effectOrder="efx00"/>
+					<effectKind effectID="8142" effectOrder="eff00"/>
+					<effectKind effectID="8135" effectOrder="eff02"/>
+					<effectKind effectID="8136" effectOrder="efx02"/>
+					<effectKind effectID="8131" effectOrder="tff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="11" desc="THAND_AXE">
+				<cast id="2310010">
+					<effectKind effectID="554" effectOrder="start"/>
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+					<effectKind effectID="557" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310011"/>
+				<shoot id="2310012">
+					<effectKind effectID="8138" effectOrder="tfx00"/>
+					<effectKind effectID="8139" effectOrder="tfx00"/>
+					<effectKind effectID="8140" effectOrder="tff01"/>
+					<effectKind effectID="8141" effectOrder="efx00"/>
+					<effectKind effectID="8142" effectOrder="eff00"/>
+					<effectKind effectID="8135" effectOrder="eff02"/>
+					<effectKind effectID="8136" effectOrder="efx02"/>
+					<effectKind effectID="8131" effectOrder="tff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="12" desc="THAND_MACE">
+				<cast id="2310010">
+					<effectKind effectID="554" effectOrder="start"/>
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+					<effectKind effectID="557" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310011"/>
+				<shoot id="2310012">
+					<effectKind effectID="8138" effectOrder="tfx00"/>
+					<effectKind effectID="8139" effectOrder="tfx00"/>
+					<effectKind effectID="8140" effectOrder="tff01"/>
+					<effectKind effectID="8141" effectOrder="efx00"/>
+					<effectKind effectID="8142" effectOrder="eff00"/>
+					<effectKind effectID="8135" effectOrder="eff02"/>
+					<effectKind effectID="8136" effectOrder="efx02"/>
+					<effectKind effectID="8131" effectOrder="tff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="13" desc="THAND_STAFF">
+				<cast id="2310010">
+					<effectKind effectID="554" effectOrder="start"/>
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+					<effectKind effectID="557" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310011"/>
+				<shoot id="2310012">
+					<effectKind effectID="8138" effectOrder="tfx00"/>
+					<effectKind effectID="8139" effectOrder="tfx00"/>
+					<effectKind effectID="8140" effectOrder="tff01"/>
+					<effectKind effectID="8141" effectOrder="efx00"/>
+					<effectKind effectID="8142" effectOrder="eff00"/>
+					<effectKind effectID="8135" effectOrder="eff02"/>
+					<effectKind effectID="8136" effectOrder="efx02"/>
+					<effectKind effectID="8131" effectOrder="tff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="14" desc="THAND_WHIP">
+				<cast id="2310010">
+					<effectKind effectID="554" effectOrder="start"/>
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+					<effectKind effectID="557" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310011"/>
+				<shoot id="2310012">
+					<effectKind effectID="8138" effectOrder="tfx00"/>
+					<effectKind effectID="8139" effectOrder="tfx00"/>
+					<effectKind effectID="8140" effectOrder="tff01"/>
+					<effectKind effectID="8141" effectOrder="efx00"/>
+					<effectKind effectID="8142" effectOrder="eff00"/>
+					<effectKind effectID="8135" effectOrder="eff02"/>
+					<effectKind effectID="8136" effectOrder="efx02"/>
+					<effectKind effectID="8131" effectOrder="tff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="15" desc="OHAND_GUN">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="16" desc="OHAND_RIFLE">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="17" desc="BOW">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="18" desc="CROSSBOW">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="19" desc="ORB">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="20" desc="WAND">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="21" desc="DHAND_DAGGER">
+				<cast id="2310013">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310014"/>
+				<shoot id="2310015">
+					<effectKind effectID="8070" effectOrder="tfx00"/>
+					<effectKind effectID="8071" effectOrder="tfx00"/>
+					<effectKind effectID="8072" effectOrder="tff00"/>
+					<effectKind effectID="8073" effectOrder="tff00"/>
+					<effectKind effectID="8074" effectOrder="efx00"/>
+					<effectKind effectID="8075" effectOrder="efx00"/>
+					<effectKind effectID="8076" effectOrder="efx00"/>
+					<effectKind effectID="8077" effectOrder="eff00"/>
+					<effectKind effectID="8078" effectOrder="eff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="22" desc="DHAND_SWORD">
+				<cast id="2310016">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310017"/>
+				<shoot id="2310018">
+					<effectKind effectID="8070" effectOrder="tfx00"/>
+					<effectKind effectID="8071" effectOrder="tfx00"/>
+					<effectKind effectID="8072" effectOrder="tff00"/>
+					<effectKind effectID="8073" effectOrder="tff00"/>
+					<effectKind effectID="8074" effectOrder="efx00"/>
+					<effectKind effectID="8075" effectOrder="efx00"/>
+					<effectKind effectID="8076" effectOrder="efx00"/>
+					<effectKind effectID="8077" effectOrder="eff00"/>
+					<effectKind effectID="8078" effectOrder="eff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="23" desc="DHAND_WHIP">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="24" desc="DHAND_GUN">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="25" desc="DHAND">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="26" desc="DHAND_MACE">
+				<cast id="2310016"/>
+				<castLoop id="2310017"/>
+				<shoot id="2310018"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="27" desc="DHAND_AXE">
+				<cast id="2310016"/>
+				<castLoop id="2310017"/>
+				<shoot id="2310018"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+		</Female>
+	</Human>
+	<Turga>
+		<Male>
+			<Weapon type="0" desc="HAND">
+				<cast id="2310001">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310002"/>
+				<shoot id="2310003">
+					<effectKind effectID="8045" effectOrder="tfx00"/>
+					<effectKind effectID="8046" effectOrder="tfx00"/>
+					<effectKind effectID="8047" effectOrder="tff00"/>
+					<effectKind effectID="8048" effectOrder="tff00"/>
+					<effectKind effectID="8049" effectOrder="efx00"/>
+					<effectKind effectID="8050" effectOrder="efx00"/>
+					<effectKind effectID="8051" effectOrder="eff00"/>
+					<effectKind effectID="8052" effectOrder="eff00"/>
+					<effectKind effectID="8053" effectOrder="eff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="1" desc="KNIFE">
+				<cast id="2310004">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310005"/>
+				<shoot id="2310006">
+					<effectKind effectID="8091" effectOrder="tfx00"/>
+					<effectKind effectID="8092" effectOrder="eff_625"/>
+					<effectKind effectID="8093" effectOrder="tff00"/>
+					<effectKind effectID="8094" effectOrder="eff_584"/>
+					<effectKind effectID="8095" effectOrder="efx00"/>
+					<effectKind effectID="8096" effectOrder="eff00"/>
+					<effectKind effectID="8097" effectOrder="eff_100"/>
+					<effectKind effectID="8098" effectOrder="eff_97"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="2" desc="OHAND_SPEAR">
+				<cast id="2310007">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310008"/>
+				<shoot id="2310009">
+					<effectKind effectID="8105" effectOrder="tfx00"/>
+					<effectKind effectID="8106" effectOrder="tfx00"/>
+					<effectKind effectID="8107" effectOrder="tfx00"/>
+					<effectKind effectID="8108" effectOrder="tfx00"/>
+					<effectKind effectID="8115" effectOrder="tff00"/>
+					<effectKind effectID="8116" effectOrder="tff01"/>
+					<effectKind effectID="8117" effectOrder="tff01"/>
+					<effectKind effectID="8118" effectOrder="tff01"/>
+					<effectKind effectID="8119" effectOrder="efx04"/>
+					<effectKind effectID="8120" effectOrder="efx03"/>
+					<effectKind effectID="8121" effectOrder="efx02"/>
+					<effectKind effectID="8122" effectOrder="efx04"/>
+					<effectKind effectID="8123" effectOrder="eff00"/>
+					<effectKind effectID="8124" effectOrder="eff01"/>
+					<effectKind effectID="8125" effectOrder="eff04"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="3" desc="OHAND_SWORD">
+				<cast id="2310007">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310008"/>
+				<shoot id="2310009">
+					<effectKind effectID="8105" effectOrder="tfx00"/>
+					<effectKind effectID="8106" effectOrder="tfx00"/>
+					<effectKind effectID="8107" effectOrder="tfx00"/>
+					<effectKind effectID="8108" effectOrder="tfx00"/>
+					<effectKind effectID="8115" effectOrder="tff00"/>
+					<effectKind effectID="8116" effectOrder="tff01"/>
+					<effectKind effectID="8117" effectOrder="tff01"/>
+					<effectKind effectID="8118" effectOrder="tff01"/>
+					<effectKind effectID="8119" effectOrder="efx04"/>
+					<effectKind effectID="8120" effectOrder="efx03"/>
+					<effectKind effectID="8121" effectOrder="efx02"/>
+					<effectKind effectID="8122" effectOrder="efx04"/>
+					<effectKind effectID="8123" effectOrder="eff00"/>
+					<effectKind effectID="8124" effectOrder="eff01"/>
+					<effectKind effectID="8125" effectOrder="eff04"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="4" desc="OHAND_AXE">
+				<cast id="2310007">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310008"/>
+				<shoot id="2310009">
+					<effectKind effectID="8105" effectOrder="tfx00"/>
+					<effectKind effectID="8106" effectOrder="tfx00"/>
+					<effectKind effectID="8107" effectOrder="tfx00"/>
+					<effectKind effectID="8108" effectOrder="tfx00"/>
+					<effectKind effectID="8115" effectOrder="tff00"/>
+					<effectKind effectID="8116" effectOrder="tff01"/>
+					<effectKind effectID="8117" effectOrder="tff01"/>
+					<effectKind effectID="8118" effectOrder="tff01"/>
+					<effectKind effectID="8119" effectOrder="efx04"/>
+					<effectKind effectID="8120" effectOrder="efx03"/>
+					<effectKind effectID="8121" effectOrder="efx02"/>
+					<effectKind effectID="8122" effectOrder="efx04"/>
+					<effectKind effectID="8123" effectOrder="eff00"/>
+					<effectKind effectID="8124" effectOrder="eff01"/>
+					<effectKind effectID="8125" effectOrder="eff04"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="5" desc="OHAND_MACE">
+				<cast id="2310007">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310008"/>
+				<shoot id="2310009">
+					<effectKind effectID="8105" effectOrder="tfx00"/>
+					<effectKind effectID="8106" effectOrder="tfx00"/>
+					<effectKind effectID="8107" effectOrder="tfx00"/>
+					<effectKind effectID="8108" effectOrder="tfx00"/>
+					<effectKind effectID="8115" effectOrder="tff00"/>
+					<effectKind effectID="8116" effectOrder="tff01"/>
+					<effectKind effectID="8117" effectOrder="tff01"/>
+					<effectKind effectID="8118" effectOrder="tff01"/>
+					<effectKind effectID="8119" effectOrder="efx04"/>
+					<effectKind effectID="8120" effectOrder="efx03"/>
+					<effectKind effectID="8121" effectOrder="efx02"/>
+					<effectKind effectID="8122" effectOrder="efx04"/>
+					<effectKind effectID="8123" effectOrder="eff00"/>
+					<effectKind effectID="8124" effectOrder="eff01"/>
+					<effectKind effectID="8125" effectOrder="eff04"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="6" desc="OHAND_STAFF">
+				<cast id="2310007">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310008"/>
+				<shoot id="2310009">
+					<effectKind effectID="8105" effectOrder="tfx00"/>
+					<effectKind effectID="8106" effectOrder="tfx00"/>
+					<effectKind effectID="8107" effectOrder="tfx00"/>
+					<effectKind effectID="8108" effectOrder="tfx00"/>
+					<effectKind effectID="8115" effectOrder="tff00"/>
+					<effectKind effectID="8116" effectOrder="tff01"/>
+					<effectKind effectID="8117" effectOrder="tff01"/>
+					<effectKind effectID="8118" effectOrder="tff01"/>
+					<effectKind effectID="8119" effectOrder="efx04"/>
+					<effectKind effectID="8120" effectOrder="efx03"/>
+					<effectKind effectID="8121" effectOrder="efx02"/>
+					<effectKind effectID="8122" effectOrder="efx04"/>
+					<effectKind effectID="8123" effectOrder="eff00"/>
+					<effectKind effectID="8124" effectOrder="eff01"/>
+					<effectKind effectID="8125" effectOrder="eff04"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="7" desc="OHAND_WHIP">
+				<cast id="2310007">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310008"/>
+				<shoot id="2310009">
+					<effectKind effectID="8105" effectOrder="tfx00"/>
+					<effectKind effectID="8106" effectOrder="tfx00"/>
+					<effectKind effectID="8107" effectOrder="tfx00"/>
+					<effectKind effectID="8108" effectOrder="tfx00"/>
+					<effectKind effectID="8115" effectOrder="tff00"/>
+					<effectKind effectID="8116" effectOrder="tff01"/>
+					<effectKind effectID="8117" effectOrder="tff01"/>
+					<effectKind effectID="8118" effectOrder="tff01"/>
+					<effectKind effectID="8119" effectOrder="efx04"/>
+					<effectKind effectID="8120" effectOrder="efx03"/>
+					<effectKind effectID="8121" effectOrder="efx02"/>
+					<effectKind effectID="8122" effectOrder="efx04"/>
+					<effectKind effectID="8123" effectOrder="eff00"/>
+					<effectKind effectID="8124" effectOrder="eff01"/>
+					<effectKind effectID="8125" effectOrder="eff04"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="8" desc="BOOK">
+				<cast id="2170011"/>
+				<castLoop id="2170012"/>
+				<shoot id="2170013"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="9" desc="THAND_SPEAR">
+				<cast id="2310010">
+					<effectKind effectID="554" effectOrder="start"/>
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+					<effectKind effectID="557" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310011"/>
+				<shoot id="2310012">
+					<effectKind effectID="8138" effectOrder="tfx00"/>
+					<effectKind effectID="8139" effectOrder="tfx00"/>
+					<effectKind effectID="8140" effectOrder="tff01"/>
+					<effectKind effectID="8141" effectOrder="efx00"/>
+					<effectKind effectID="8142" effectOrder="eff00"/>
+					<effectKind effectID="8135" effectOrder="eff02"/>
+					<effectKind effectID="8136" effectOrder="efx02"/>
+					<effectKind effectID="8131" effectOrder="tff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="10" desc="THAND_SWORD">
+				<cast id="2310010">
+					<effectKind effectID="554" effectOrder="start"/>
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+					<effectKind effectID="557" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310011"/>
+				<shoot id="2310012">
+					<effectKind effectID="8138" effectOrder="tfx00"/>
+					<effectKind effectID="8139" effectOrder="tfx00"/>
+					<effectKind effectID="8140" effectOrder="tff01"/>
+					<effectKind effectID="8141" effectOrder="efx00"/>
+					<effectKind effectID="8142" effectOrder="eff00"/>
+					<effectKind effectID="8135" effectOrder="eff02"/>
+					<effectKind effectID="8136" effectOrder="efx02"/>
+					<effectKind effectID="8131" effectOrder="tff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="11" desc="THAND_AXE">
+				<cast id="2310010">
+					<effectKind effectID="554" effectOrder="start"/>
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+					<effectKind effectID="557" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310011"/>
+				<shoot id="2310012">
+					<effectKind effectID="8138" effectOrder="tfx00"/>
+					<effectKind effectID="8139" effectOrder="tfx00"/>
+					<effectKind effectID="8140" effectOrder="tff01"/>
+					<effectKind effectID="8141" effectOrder="efx00"/>
+					<effectKind effectID="8142" effectOrder="eff00"/>
+					<effectKind effectID="8135" effectOrder="eff02"/>
+					<effectKind effectID="8136" effectOrder="efx02"/>
+					<effectKind effectID="8131" effectOrder="tff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="12" desc="THAND_MACE">
+				<cast id="2310010">
+					<effectKind effectID="554" effectOrder="start"/>
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+					<effectKind effectID="557" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310011"/>
+				<shoot id="2310012">
+					<effectKind effectID="8138" effectOrder="tfx00"/>
+					<effectKind effectID="8139" effectOrder="tfx00"/>
+					<effectKind effectID="8140" effectOrder="tff01"/>
+					<effectKind effectID="8141" effectOrder="efx00"/>
+					<effectKind effectID="8142" effectOrder="eff00"/>
+					<effectKind effectID="8135" effectOrder="eff02"/>
+					<effectKind effectID="8136" effectOrder="efx02"/>
+					<effectKind effectID="8131" effectOrder="tff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="13" desc="THAND_STAFF">
+				<cast id="2310010">
+					<effectKind effectID="554" effectOrder="start"/>
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+					<effectKind effectID="557" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310011"/>
+				<shoot id="2310012">
+					<effectKind effectID="8138" effectOrder="tfx00"/>
+					<effectKind effectID="8139" effectOrder="tfx00"/>
+					<effectKind effectID="8140" effectOrder="tff01"/>
+					<effectKind effectID="8141" effectOrder="efx00"/>
+					<effectKind effectID="8142" effectOrder="eff00"/>
+					<effectKind effectID="8135" effectOrder="eff02"/>
+					<effectKind effectID="8136" effectOrder="efx02"/>
+					<effectKind effectID="8131" effectOrder="tff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="14" desc="THAND_WHIP">
+				<cast id="2310010">
+					<effectKind effectID="554" effectOrder="start"/>
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+					<effectKind effectID="557" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310011"/>
+				<shoot id="2310012">
+					<effectKind effectID="8138" effectOrder="tfx00"/>
+					<effectKind effectID="8139" effectOrder="tfx00"/>
+					<effectKind effectID="8140" effectOrder="tff01"/>
+					<effectKind effectID="8141" effectOrder="efx00"/>
+					<effectKind effectID="8142" effectOrder="eff00"/>
+					<effectKind effectID="8135" effectOrder="eff02"/>
+					<effectKind effectID="8136" effectOrder="efx02"/>
+					<effectKind effectID="8131" effectOrder="tff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="15" desc="OHAND_GUN">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="16" desc="OHAND_RIFLE">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="17" desc="BOW">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="18" desc="CROSSBOW">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="19" desc="ORB">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="20" desc="WAND">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="21" desc="DHAND_DAGGER">
+				<cast id="2310013">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310014"/>
+				<shoot id="2310015">
+					<effectKind effectID="8070" effectOrder="tfx00"/>
+					<effectKind effectID="8071" effectOrder="tfx00"/>
+					<effectKind effectID="8072" effectOrder="tff00"/>
+					<effectKind effectID="8073" effectOrder="tff00"/>
+					<effectKind effectID="8074" effectOrder="efx00"/>
+					<effectKind effectID="8075" effectOrder="efx00"/>
+					<effectKind effectID="8076" effectOrder="efx00"/>
+					<effectKind effectID="8077" effectOrder="eff00"/>
+					<effectKind effectID="8078" effectOrder="eff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="22" desc="DHAND_SWORD">
+				<cast id="2310016">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310017"/>
+				<shoot id="2310018">
+					<effectKind effectID="8070" effectOrder="tfx00"/>
+					<effectKind effectID="8071" effectOrder="tfx00"/>
+					<effectKind effectID="8072" effectOrder="tff00"/>
+					<effectKind effectID="8073" effectOrder="tff00"/>
+					<effectKind effectID="8074" effectOrder="efx00"/>
+					<effectKind effectID="8075" effectOrder="efx00"/>
+					<effectKind effectID="8076" effectOrder="efx00"/>
+					<effectKind effectID="8077" effectOrder="eff00"/>
+					<effectKind effectID="8078" effectOrder="eff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="23" desc="DHAND_WHIP">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="24" desc="DHAND_GUN">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="25" desc="DHAND">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="26" desc="DHAND_MACE">
+				<cast id="2310016"/>
+				<castLoop id="2310017"/>
+				<shoot id="2310018"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="27" desc="DHAND_AXE">
+				<cast id="2310016"/>
+				<castLoop id="2310017"/>
+				<shoot id="2310018"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+		</Male>
+		<Female>
+			<Weapon type="0" desc="HAND">
+				<cast id="2310001">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310002"/>
+				<shoot id="2310003">
+					<effectKind effectID="8045" effectOrder="tfx00"/>
+					<effectKind effectID="8046" effectOrder="tfx00"/>
+					<effectKind effectID="8047" effectOrder="tff00"/>
+					<effectKind effectID="8048" effectOrder="tff00"/>
+					<effectKind effectID="8049" effectOrder="efx00"/>
+					<effectKind effectID="8050" effectOrder="efx00"/>
+					<effectKind effectID="8051" effectOrder="eff00"/>
+					<effectKind effectID="8052" effectOrder="eff00"/>
+					<effectKind effectID="8053" effectOrder="eff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="1" desc="KNIFE">
+				<cast id="2310004">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310005"/>
+				<shoot id="2310006">
+					<effectKind effectID="8091" effectOrder="tfx00"/>
+					<effectKind effectID="8092" effectOrder="eff_625"/>
+					<effectKind effectID="8093" effectOrder="tff00"/>
+					<effectKind effectID="8094" effectOrder="eff_584"/>
+					<effectKind effectID="8095" effectOrder="efx00"/>
+					<effectKind effectID="8096" effectOrder="eff00"/>
+					<effectKind effectID="8097" effectOrder="eff_100"/>
+					<effectKind effectID="8098" effectOrder="eff_97"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="2" desc="OHAND_SPEAR">
+				<cast id="2310007">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310008"/>
+				<shoot id="2310009">
+					<effectKind effectID="8105" effectOrder="tfx00"/>
+					<effectKind effectID="8106" effectOrder="tfx00"/>
+					<effectKind effectID="8107" effectOrder="tfx00"/>
+					<effectKind effectID="8108" effectOrder="tfx00"/>
+					<effectKind effectID="8115" effectOrder="tff00"/>
+					<effectKind effectID="8116" effectOrder="tff01"/>
+					<effectKind effectID="8117" effectOrder="tff01"/>
+					<effectKind effectID="8118" effectOrder="tff01"/>
+					<effectKind effectID="8119" effectOrder="efx04"/>
+					<effectKind effectID="8120" effectOrder="efx03"/>
+					<effectKind effectID="8121" effectOrder="efx02"/>
+					<effectKind effectID="8122" effectOrder="efx04"/>
+					<effectKind effectID="8123" effectOrder="eff00"/>
+					<effectKind effectID="8124" effectOrder="eff01"/>
+					<effectKind effectID="8125" effectOrder="eff04"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="3" desc="OHAND_SWORD">
+				<cast id="2310007">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310008"/>
+				<shoot id="2310009">
+					<effectKind effectID="8105" effectOrder="tfx00"/>
+					<effectKind effectID="8106" effectOrder="tfx00"/>
+					<effectKind effectID="8107" effectOrder="tfx00"/>
+					<effectKind effectID="8108" effectOrder="tfx00"/>
+					<effectKind effectID="8115" effectOrder="tff00"/>
+					<effectKind effectID="8116" effectOrder="tff01"/>
+					<effectKind effectID="8117" effectOrder="tff01"/>
+					<effectKind effectID="8118" effectOrder="tff01"/>
+					<effectKind effectID="8119" effectOrder="efx04"/>
+					<effectKind effectID="8120" effectOrder="efx03"/>
+					<effectKind effectID="8121" effectOrder="efx02"/>
+					<effectKind effectID="8122" effectOrder="efx04"/>
+					<effectKind effectID="8123" effectOrder="eff00"/>
+					<effectKind effectID="8124" effectOrder="eff01"/>
+					<effectKind effectID="8125" effectOrder="eff04"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="4" desc="OHAND_AXE">
+				<cast id="2310007">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310008"/>
+				<shoot id="2310009">
+					<effectKind effectID="8105" effectOrder="tfx00"/>
+					<effectKind effectID="8106" effectOrder="tfx00"/>
+					<effectKind effectID="8107" effectOrder="tfx00"/>
+					<effectKind effectID="8108" effectOrder="tfx00"/>
+					<effectKind effectID="8115" effectOrder="tff00"/>
+					<effectKind effectID="8116" effectOrder="tff01"/>
+					<effectKind effectID="8117" effectOrder="tff01"/>
+					<effectKind effectID="8118" effectOrder="tff01"/>
+					<effectKind effectID="8119" effectOrder="efx04"/>
+					<effectKind effectID="8120" effectOrder="efx03"/>
+					<effectKind effectID="8121" effectOrder="efx02"/>
+					<effectKind effectID="8122" effectOrder="efx04"/>
+					<effectKind effectID="8123" effectOrder="eff00"/>
+					<effectKind effectID="8124" effectOrder="eff01"/>
+					<effectKind effectID="8125" effectOrder="eff04"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="5" desc="OHAND_MACE">
+				<cast id="2310007">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310008"/>
+				<shoot id="2310009">
+					<effectKind effectID="8105" effectOrder="tfx00"/>
+					<effectKind effectID="8106" effectOrder="tfx00"/>
+					<effectKind effectID="8107" effectOrder="tfx00"/>
+					<effectKind effectID="8108" effectOrder="tfx00"/>
+					<effectKind effectID="8115" effectOrder="tff00"/>
+					<effectKind effectID="8116" effectOrder="tff01"/>
+					<effectKind effectID="8117" effectOrder="tff01"/>
+					<effectKind effectID="8118" effectOrder="tff01"/>
+					<effectKind effectID="8119" effectOrder="efx04"/>
+					<effectKind effectID="8120" effectOrder="efx03"/>
+					<effectKind effectID="8121" effectOrder="efx02"/>
+					<effectKind effectID="8122" effectOrder="efx04"/>
+					<effectKind effectID="8123" effectOrder="eff00"/>
+					<effectKind effectID="8124" effectOrder="eff01"/>
+					<effectKind effectID="8125" effectOrder="eff04"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="6" desc="OHAND_STAFF">
+				<cast id="2310007">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310008"/>
+				<shoot id="2310009">
+					<effectKind effectID="8105" effectOrder="tfx00"/>
+					<effectKind effectID="8106" effectOrder="tfx00"/>
+					<effectKind effectID="8107" effectOrder="tfx00"/>
+					<effectKind effectID="8108" effectOrder="tfx00"/>
+					<effectKind effectID="8115" effectOrder="tff00"/>
+					<effectKind effectID="8116" effectOrder="tff01"/>
+					<effectKind effectID="8117" effectOrder="tff01"/>
+					<effectKind effectID="8118" effectOrder="tff01"/>
+					<effectKind effectID="8119" effectOrder="efx04"/>
+					<effectKind effectID="8120" effectOrder="efx03"/>
+					<effectKind effectID="8121" effectOrder="efx02"/>
+					<effectKind effectID="8122" effectOrder="efx04"/>
+					<effectKind effectID="8123" effectOrder="eff00"/>
+					<effectKind effectID="8124" effectOrder="eff01"/>
+					<effectKind effectID="8125" effectOrder="eff04"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="7" desc="OHAND_WHIP">
+				<cast id="2310007">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310008"/>
+				<shoot id="2310009">
+					<effectKind effectID="8105" effectOrder="tfx00"/>
+					<effectKind effectID="8106" effectOrder="tfx00"/>
+					<effectKind effectID="8107" effectOrder="tfx00"/>
+					<effectKind effectID="8108" effectOrder="tfx00"/>
+					<effectKind effectID="8115" effectOrder="tff00"/>
+					<effectKind effectID="8116" effectOrder="tff01"/>
+					<effectKind effectID="8117" effectOrder="tff01"/>
+					<effectKind effectID="8118" effectOrder="tff01"/>
+					<effectKind effectID="8119" effectOrder="efx04"/>
+					<effectKind effectID="8120" effectOrder="efx03"/>
+					<effectKind effectID="8121" effectOrder="efx02"/>
+					<effectKind effectID="8122" effectOrder="efx04"/>
+					<effectKind effectID="8123" effectOrder="eff00"/>
+					<effectKind effectID="8124" effectOrder="eff01"/>
+					<effectKind effectID="8125" effectOrder="eff04"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="8" desc="BOOK">
+				<cast id="2170011"/>
+				<castLoop id="2170012"/>
+				<shoot id="2170013"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="9" desc="THAND_SPEAR">
+				<cast id="2310010">
+					<effectKind effectID="554" effectOrder="start"/>
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+					<effectKind effectID="557" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310011"/>
+				<shoot id="2310012">
+					<effectKind effectID="8138" effectOrder="tfx00"/>
+					<effectKind effectID="8139" effectOrder="tfx00"/>
+					<effectKind effectID="8140" effectOrder="tff01"/>
+					<effectKind effectID="8141" effectOrder="efx00"/>
+					<effectKind effectID="8142" effectOrder="eff00"/>
+					<effectKind effectID="8135" effectOrder="eff02"/>
+					<effectKind effectID="8136" effectOrder="efx02"/>
+					<effectKind effectID="8131" effectOrder="tff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="10" desc="THAND_SWORD">
+				<cast id="2310010">
+					<effectKind effectID="554" effectOrder="start"/>
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+					<effectKind effectID="557" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310011"/>
+				<shoot id="2310012">
+					<effectKind effectID="8138" effectOrder="tfx00"/>
+					<effectKind effectID="8139" effectOrder="tfx00"/>
+					<effectKind effectID="8140" effectOrder="tff01"/>
+					<effectKind effectID="8141" effectOrder="efx00"/>
+					<effectKind effectID="8142" effectOrder="eff00"/>
+					<effectKind effectID="8135" effectOrder="eff02"/>
+					<effectKind effectID="8136" effectOrder="efx02"/>
+					<effectKind effectID="8131" effectOrder="tff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="11" desc="THAND_AXE">
+				<cast id="2310010">
+					<effectKind effectID="554" effectOrder="start"/>
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+					<effectKind effectID="557" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310011"/>
+				<shoot id="2310012">
+					<effectKind effectID="8138" effectOrder="tfx00"/>
+					<effectKind effectID="8139" effectOrder="tfx00"/>
+					<effectKind effectID="8140" effectOrder="tff01"/>
+					<effectKind effectID="8141" effectOrder="efx00"/>
+					<effectKind effectID="8142" effectOrder="eff00"/>
+					<effectKind effectID="8135" effectOrder="eff02"/>
+					<effectKind effectID="8136" effectOrder="efx02"/>
+					<effectKind effectID="8131" effectOrder="tff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="12" desc="THAND_MACE">
+				<cast id="2310010">
+					<effectKind effectID="554" effectOrder="start"/>
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+					<effectKind effectID="557" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310011"/>
+				<shoot id="2310012">
+					<effectKind effectID="8138" effectOrder="tfx00"/>
+					<effectKind effectID="8139" effectOrder="tfx00"/>
+					<effectKind effectID="8140" effectOrder="tff01"/>
+					<effectKind effectID="8141" effectOrder="efx00"/>
+					<effectKind effectID="8142" effectOrder="eff00"/>
+					<effectKind effectID="8135" effectOrder="eff02"/>
+					<effectKind effectID="8136" effectOrder="efx02"/>
+					<effectKind effectID="8131" effectOrder="tff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="13" desc="THAND_STAFF">
+				<cast id="2310010">
+					<effectKind effectID="554" effectOrder="start"/>
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+					<effectKind effectID="557" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310011"/>
+				<shoot id="2310012">
+					<effectKind effectID="8138" effectOrder="tfx00"/>
+					<effectKind effectID="8139" effectOrder="tfx00"/>
+					<effectKind effectID="8140" effectOrder="tff01"/>
+					<effectKind effectID="8141" effectOrder="efx00"/>
+					<effectKind effectID="8142" effectOrder="eff00"/>
+					<effectKind effectID="8135" effectOrder="eff02"/>
+					<effectKind effectID="8136" effectOrder="efx02"/>
+					<effectKind effectID="8131" effectOrder="tff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="14" desc="THAND_WHIP">
+				<cast id="2310010">
+					<effectKind effectID="554" effectOrder="start"/>
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+					<effectKind effectID="557" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310011"/>
+				<shoot id="2310012">
+					<effectKind effectID="8138" effectOrder="tfx00"/>
+					<effectKind effectID="8139" effectOrder="tfx00"/>
+					<effectKind effectID="8140" effectOrder="tff01"/>
+					<effectKind effectID="8141" effectOrder="efx00"/>
+					<effectKind effectID="8142" effectOrder="eff00"/>
+					<effectKind effectID="8135" effectOrder="eff02"/>
+					<effectKind effectID="8136" effectOrder="efx02"/>
+					<effectKind effectID="8131" effectOrder="tff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="15" desc="OHAND_GUN">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="16" desc="OHAND_RIFLE">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="17" desc="BOW">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="18" desc="CROSSBOW">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="19" desc="ORB">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="20" desc="WAND">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="21" desc="DHAND_DAGGER">
+				<cast id="2310013">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310014"/>
+				<shoot id="2310015">
+					<effectKind effectID="8070" effectOrder="tfx00"/>
+					<effectKind effectID="8071" effectOrder="tfx00"/>
+					<effectKind effectID="8072" effectOrder="tff00"/>
+					<effectKind effectID="8073" effectOrder="tff00"/>
+					<effectKind effectID="8074" effectOrder="efx00"/>
+					<effectKind effectID="8075" effectOrder="efx00"/>
+					<effectKind effectID="8076" effectOrder="efx00"/>
+					<effectKind effectID="8077" effectOrder="eff00"/>
+					<effectKind effectID="8078" effectOrder="eff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="22" desc="DHAND_SWORD">
+				<cast id="2310016">
+					<effectKind effectID="555" effectOrder="start"/>
+					<effectKind effectID="556" effectOrder="start"/>
+				</cast>
+				<castLoop id="2310017"/>
+				<shoot id="2310018">
+					<effectKind effectID="8070" effectOrder="tfx00"/>
+					<effectKind effectID="8071" effectOrder="tfx00"/>
+					<effectKind effectID="8072" effectOrder="tff00"/>
+					<effectKind effectID="8073" effectOrder="tff00"/>
+					<effectKind effectID="8074" effectOrder="efx00"/>
+					<effectKind effectID="8075" effectOrder="efx00"/>
+					<effectKind effectID="8076" effectOrder="efx00"/>
+					<effectKind effectID="8077" effectOrder="eff00"/>
+					<effectKind effectID="8078" effectOrder="eff00"/>
+				</shoot>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="23" desc="DHAND_WHIP">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="24" desc="DHAND_GUN">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="25" desc="DHAND">
+				<cast id="2310001"/>
+				<castLoop id="2310002"/>
+				<shoot id="2310003"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="26" desc="DHAND_MACE">
+				<cast id="2310016"/>
+				<castLoop id="2310017"/>
+				<shoot id="2310018"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+			<Weapon type="27" desc="DHAND_AXE">
+				<cast id="2310016"/>
+				<castLoop id="2310017"/>
+				<shoot id="2310018"/>
+				<shootLoop id="-1"/>
+			</Weapon>
+		</Female>
+	</Turga>
+</pcSkillMotionPerWeapon>

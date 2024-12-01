@@ -1,0 +1,1471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2011 rel. 2 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Localization>
+	<Message ID="1001100001" Text="[스토리]위기의 산호 채취장" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100002" Text="[스토리]산호와 티모" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100003" Text="[스토리]루티의 사정" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100004" Text="[스토리]지겨운 페모" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100005" Text="[스토리]푼바!!" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100006" Text="[스토리]수상한 사람들" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100007" Text="[스토리]기억을 잃은 남자 1" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100008" Text="[스토리]기억을 잃은 남자 2" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100009" Text="[스토리]기억을 잃은 남자 3" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100010" Text="[스토리]기억을 잃은 남자 4" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100011" Text="[스토리]기억을 잃은 남자 5" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100012" Text="[스토리]기억을 잃은 남자 6" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100013" Text="[스토리]신비한 힘" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100014" Text="[스토리]밀리아 돕기" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100015" Text="[스토리]오염된 뿔나무" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100016" Text="[스토리]오염된 백운모" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100017" Text="[스토리]휴먼의 유적" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100018" Text="[스토리]투토족의 문자" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100019" Text="[스토리]읽을 수 없는 지령서" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100020" Text="[스토리]투 인티의 시위" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100021" Text="[스토리]레팜의 농장" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100022" Text="[스토리]심각한 문제" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100023" Text="[스토리]지혜로운 숲의 친구" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100024" Text="[스토리]오염된 숲" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100025" Text="[스토리]훔바바의 말" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100026" Text="[스토리]위기의 대비책" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100027" Text="[스토리]추출" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100028" Text="[스토리]정제" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100029" Text="[스토리]제작" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100030" Text="[스토리]클로라의 부탁" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100031" Text="[스토리]시급한 문제" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100032" Text="[스토리]현란한 요술" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100033" Text="[스토리]무시무시한 투 크티론" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100034" Text="[스토리]블루 코랄로" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100035" Text="[스토리]친절한 도움" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100036" Text="[스토리]안전한 장소" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100037" Text="[스토리]현명한 소비생활" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100038" Text="[스토리]더 강해지는 법!" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100039" Text="[스토리]튼튼한 장비" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100040" Text="[스토리]휴먼과 마구간" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100041" Text="[스토리]호수와 도망친 윈더스" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100042" Text="[스토리]마구간지기의 분노" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100043" Text="[스토리]용사의 길" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100044" Text="[스토리]소식을 전하는 법" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100045" Text="[스토리]서 툼바라의 서신" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100046" Text="[스토리]믿음직한 친구들" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100047" Text="[스토리]도움을 주는 친구" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100048" Text="[스토리]그린 리프란?" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100049" Text="[스토리]니시스의 은총" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100050" Text="[스토리]도움이 필요한 소녀" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100051" Text="[스토리]사라진 오빠" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100052" Text="[스토리]오래된 채취장으로" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100053" Text="[스토리]사라진 레빗" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100054" Text="[스토리]연구는 계속 되어야 한다" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100055" Text="[스토리]그래도 배는 고파" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100056" Text="[스토리]더 걱정스러운 일" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100057" Text="[스토리]듀발 고원에서 온 손님" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100058" Text="[스토리]엘 하인의 증표" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100059" Text="[스토리]늙은 산호숲으로" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100060" Text="[스토리]급한 길은 돌아가라" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100061" Text="[스토리]구호소의 사정" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100062" Text="[스토리]새로운 판매 물품" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100063" Text="[스토리]다친 사람을 돌봐주는 장소" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100064" Text="[스토리]듀발 고원의 리칠" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100065" Text="[스토리]작은 기대" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100066" Text="[스토리]귀찮은 노움!" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100067" Text="[스토리]꼭 필요한 음료" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100068" Text="[스토리]레드 코랄에 무슨 일이?" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100069" Text="[스토리]블루베리 농장으로" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100070" Text="[스토리]블루베리의 원수" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100071" Text="[스토리]바이올렛의 지원" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100072" Text="[스토리]수상한 케이거족" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100073" Text="[스토리]공공의 적 1" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100074" Text="[스토리]공공의 적 2" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100075" Text="[스토리]공공의 적 3" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100076" Text="[스토리][파티]공공의 적 4" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100077" Text="[스토리][파티]공공의 적 5" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100078" Text="[스토리]공공의 적 6" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100079" Text="[스토리]공공의 적 7" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100080" Text="[스토리]긴급한 도움 요청!!" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100081" Text="[스토리]산호 농장으로" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100082" Text="[스토리]불안한 농장" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100083" Text="[스토리]번개손 처치!" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100084" Text="[스토리]반짝이는 가보" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100085" Text="[스토리]빛이 나는 곳 1" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100086" Text="[스토리]빛이 나는 곳 2" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100087" Text="[스토리]빛이 나는 곳 3" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100088" Text="[스토리]빛이 나는 곳 4" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100089" Text="[스토리]풀리는 봉인" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100090" Text="[스토리]실력 검증" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100091" Text="[스토리]발굴지의 미스터리" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100092" Text="[스토리]빙의 걸린 아이들" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100093" Text="[스토리]고블린을 겁나게 하는 것" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100094" Text="[스토리]말 할 수 없는 비밀" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100095" Text="[스토리]사악한 관 1" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100096" Text="[스토리]사악한 관 2" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100097" Text="[스토리]기세 등등한 부하들" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100098" Text="[스토리]자택 정화" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100099" Text="[스토리]니시스의 힘으로…" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100100" Text="[스토리]캐프티의 부름" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100101" Text="[스토리]약속의 시간" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100102" Text="[스토리]세이렌의 동맹" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100103" Text="[스토리]점령당한 섬" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100104" Text="[스토리]마린 비의 비밀" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100105" Text="[스토리]여왕을 찾아서…" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100106" Text="[스토리]여왕 구출" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100107" Text="[스토리]여왕님의 복수" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100108" Text="[스토리]새로운 여왕" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100109" Text="[스토리]다시 시작하는…" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100110" Text="[스토리]더 커다란 모험을 위한 준비" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100111" Text="[스토리]새로운 모험의 시작" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100112" Text="[스토리]듀발로" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100113" Text="[스토리]신병의 사정" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100114" Text="[스토리]신병의 부탁" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100115" Text="[스토리]첫 훈련" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100116" Text="[스토리]수준에 맞는 상대" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100117" Text="[스토리]골짜기의 골칫덩이" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100118" Text="[스토리]첫 정찰!" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100119" Text="[스토리]검은 풀 1" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100120" Text="[스토리]검은 풀 2" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100121" Text="[스토리]검은 풀 3" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100122" Text="[스토리]검은 풀 4" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100123" Text="[스토리]검은 풀 5" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100124" Text="[스토리]카툼바 골짜기의 보급 요청" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100125" Text="[스토리]백운모 캐기" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100126" Text="[스토리]단단한 뿔나무" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100127" Text="[스토리]친구의 보석" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100128" Text="[스토리]흩어진 보급품" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100129" Text="[스토리]보급병의 서신" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100130" Text="[스토리]그들이 만난 곳" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100131" Text="[스토리]크로키의 진심" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100132" Text="[스토리]협곡 정벌" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100133" Text="[스토리]크로키의 배신" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100134" Text="[스토리]보급 요청" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100135" Text="[스토리]붉은 초원의 농장" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100136" Text="[스토리]추출이란?" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100137" Text="[스토리]대장장이의 정제" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100138" Text="[스토리]모두가 원하는 일" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100139" Text="[스토리]경비 강화 요청" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100140" Text="[스토리]시야를 가리는 것들" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100141" Text="[스토리]슈이키의 주간 보고" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100142" Text="[스토리]편안한 잠자리" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100143" Text="[스토리]종족을 초월한 도움" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100144" Text="[스토리]용사의 길" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100145" Text="[스토리]튼튼한 가방" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100146" Text="[스토리]별 거 아닌 도움" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100147" Text="[스토리]녹슨 무기" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100148" Text="[스토리]내 몸과 같은 무기" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100149" Text="[스토리]마음이 통하는 친구" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100150" Text="[스토리]칸의 지령" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100151" Text="[스토리]라임 원정대" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100152" Text="[스토리]파헤쳐진 무덤" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100153" Text="[스토리]사라진 묘비" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100154" Text="[스토리]끔찍한 비밀" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100155" Text="[스토리]선발대의 뒤를 따라" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100156" Text="[스토리]성분 조사를 위해" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100157" Text="[스토리]실종된 원정대원" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100158" Text="[스토리]사라진 케이거 추격전" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100159" Text="[스토리]링고가 날뛰는 이유" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100160" Text="[스토리]어려움에 처한 조사단" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100161" Text="[스토리]사라져버린 휴먼" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100162" Text="[스토리]정말로 위험한 무기" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100163" Text="[스토리]나인호프와의 약속" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100164" Text="[스토리]의미심장한 말" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100165" Text="[스토리]변해버린 그 무엇" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100166" Text="[스토리]낯선 남자" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100167" Text="[스토리]나인호프의 여유로움" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100168" Text="[스토리]노드아의 부탁" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100169" Text="[스토리]다시 라임을 찾아서" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100170" Text="[스토리]쿠쿠스 사냥단" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100171" Text="[스토리]남부 감시 초소로" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100172" Text="[스토리]칸의 동상으로" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100173" Text="[스토리]칸의 무덤 참배" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100174" Text="[스토리]연락병을 찾아서" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100175" Text="[스토리]고참 연락병 나나세" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100176" Text="[스토리]황혼의 서신을 읽을 자" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100177" Text="[스토리]땡그랑 한 푼" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100178" Text="[스토리]보다 싸고 멋진 물건" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100179" Text="[스토리]은밀한 조사 1" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100180" Text="[스토리]은밀한 조사 2" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100181" Text="[스토리]은밀한 조사 3" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100182" Text="[스토리]은밀한 조사 4" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100183" Text="[스토리]대장군의 부름" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100184" Text="[스토리]대장군의 명령서" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100185" Text="[스토리]돌아오지 않는 피난민" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100186" Text="[스토리]추격자 저지" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100187" Text="[스토리]카샨족의 경고" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100188" Text="[스토리]탈환작전!" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100189" Text="[스토리]크로키를 격파하라!" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100190" Text="[스토리]카샨과의 한판 승부" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100191" Text="[스토리]승전보 전달" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100192" Text="[스토리]새로운 라임 원정대" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100193" Text="[스토리]우호의 서신" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100194" Text="[스토리]진득한 치료제" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100195" Text="[스토리]격려의 편지" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100196" Text="[스토리]사자상의 경비병" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100197" Text="[스토리]켈록켈록" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100198" Text="[스토리]콜록콜록" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100199" Text="[스토리]쿨럭쿨럭" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100200" Text="[스토리]용감한 자의 길" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100201" Text="[스토리]소름 돋는 날개짓 소리" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100202" Text="[스토리]태워야 하는 물건" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100203" Text="[스토리]넘치는 한" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100204" Text="[스토리]흙으로 돌아가라!" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100205" Text="[스토리]제 멋대로 대주술사" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100206" Text="[스토리]괴상한 왕" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100207" Text="[스토리]조용한 협곡" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100208" Text="[스토리]탈룬바라의 이상현상" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100209" Text="[스토리]확실한 보고 체계" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100210" Text="[스토리]칸바의 서신" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100211" Text="[스토리]이에는 이 눈에는 눈!" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100212" Text="[스토리]탈룬바라 잠입전" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100213" Text="[스토리]칸바의 단호한 명령" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100214" Text="[스토리]탈룬바라 속에 숨겨진 힘" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100215" Text="[스토리]톨보카의 존재" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100216" Text="[스토리]세상을 바꿀 힘" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100217" Text="[스토리]수련중인 무인" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100218" Text="[스토리]슈록의 강인함" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100219" Text="[스토리]실버와의 재회" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100220" Text="[스토리]진정한 수련의 길" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100221" Text="[스토리]유독 수상한.." Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100222" Text="[스토리]절벽 아래 마티나 1" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100223" Text="[스토리]절벽 아래 마티나 2" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100224" Text="[스토리]절벽 아래 마티나 3" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100225" Text="[스토리]야비암의 제안" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100226" Text="[스토리]유물을 지키는 법" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100227" Text="[스토리]가로나 둥지의 고민" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100228" Text="[스토리]바람의 기둥 1" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100229" Text="[스토리]바람의 기둥 2" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100230" Text="[스토리]바람의 기둥 3" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100231" Text="[스토리]바람의 기둥 4" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100232" Text="[스토리]바람의 기둥 5" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100233" Text="[스토리]바람의 기둥 6" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100234" Text="[스토리]라임을 찾아 남쪽으로" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100235" Text="[스토리]검은 마비 숲과 리칠 부족" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100236" Text="[스토리]라임 유적지??" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100237" Text="[스토리]작지만 큰 조각" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100238" Text="[스토리]원치 않았던 일" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100239" Text="[스토리]남쪽 봉화탑으로" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100240" Text="[스토리]신단의 그늘 1" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100241" Text="[스토리]신단의 그늘 2" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100242" Text="[스토리]신단의 그늘 3" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100243" Text="[스토리]또 하나의 부름" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100244" Text="[스토리]약속의 호수 1" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100245" Text="[스토리]약속의 호수 2" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100246" Text="[스토리]약속의 호수 3" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100247" Text="[스토리]약속의 호수 4" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100248" Text="[스토리]약속의 호수 5" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100249" Text="[스토리]약속의 호수 6" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100250" Text="[스토리]테루아의 경고" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100251" Text="[스토리]유목지의 방비" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100252" Text="[스토리]숨겨 놓은 편지" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100253" Text="[스토리]리칠의 준비" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100254" Text="[스토리]검은 마비 숲 1" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100255" Text="[스토리]검은 마비 숲 2" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100256" Text="[스토리]검은 마비 숲 3" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100257" Text="[스토리]검은 마비 숲 4" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100258" Text="[스토리]검은 마비 숲 5" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100259" Text="[스토리]검은 마비 숲 6" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100260" Text="[스토리]불행한 소식" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100261" Text="[스토리]라임의 주인?! 1" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100262" Text="[스토리]라임의 주인?! 2" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100263" Text="[스토리]라임의 주인?! 3" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100264" Text="[스토리]라임의 주인?! 4" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100265" Text="[스토리]라임의 주인?! 5" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100266" Text="[스토리]불친절!한 태수 보좌관" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100267" Text="[스토리]과거의 흔적 1" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100268" Text="[스토리]과거의 흔적 2" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100269" Text="[스토리]과거의 흔적 3" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100270" Text="[스토리]과거의 흔적 4" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100271" Text="[스토리]과거의 흔적 5" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100272" Text="[스토리]과거의 흔적 6" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100273" Text="[스토리]타란의 연구" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100274" Text="[스토리]고룡의 흔적 1" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100275" Text="[스토리]고룡의 흔적 2" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100276" Text="[스토리]고룡의 흔적 3" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100277" Text="[스토리]고룡의 흔적 4" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100278" Text="[스토리]고룡의 흔적 5" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100279" Text="[스토리]나달의 비 1" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100280" Text="[스토리]나달의 비 2" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100281" Text="[스토리]나달의 비 3" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100282" Text="[스토리]나달의 비 4" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100283" Text="[스토리]나달의 비 5" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100284" Text="[스토리]나달의 비 6" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100285" Text="[스토리]사막에서의 추억 1" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100286" Text="[스토리]사막에서의 추억 2" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100287" Text="[스토리]사막에서의 추억 3" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100288" Text="[스토리]사막에서의 추억 4" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100289" Text="[스토리]사막에서의 추억 5" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100290" Text="[스토리]사막에서의 추억 6" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100291" Text="[스토리]길 잃은 희망 1" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100292" Text="[스토리]길 잃은 희망 2" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100293" Text="[스토리]길 잃은 희망 3" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100294" Text="[스토리]길 잃은 희망 4" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100295" Text="[스토리]길 잃은 희망 5" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100296" Text="[스토리]길 잃은 희망 6" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100297" Text="[스토리]사막의 전설 1" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100298" Text="[스토리]사막의 전설 2" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100299" Text="[스토리]사막의 전설 3" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100300" Text="[스토리]사막의 전설 4" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100301" Text="[스토리]사막의 전설 5" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100302" Text="[스토리]사막의 전설 6" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100303" Text="[스토리]사막의 전설 7" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100304" Text="[스토리]알 아미르로" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100305" Text="[스토리]피킨과 마티나 1" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100306" Text="[스토리]피킨과 마티나 2" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100307" Text="[스토리]피킨과 마티나 3" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100308" Text="[스토리]피킨과 마티나 4" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100309" Text="[스토리]피킨과 마티나 5" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100310" Text="[스토리]납치된 부인 1" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100311" Text="[스토리]납치된 부인 2" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100312" Text="[스토리]납치된 부인 3" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100313" Text="[스토리]납치된 부인 4" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100314" Text="[스토리]납치된 부인 5" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100315" Text="[스토리]납치된 부인 6" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100316" Text="[스토리]도망친 피킨의 소식" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100317" Text="[스토리]노예 사냥꾼 1" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100318" Text="[스토리]노예 사냥꾼 2" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100319" Text="[스토리]노예 사냥꾼 3" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100320" Text="[스토리]노예 사냥꾼 4" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100321" Text="[스토리]노예 사냥꾼 5" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100322" Text="[스토리]노예 사냥꾼 6" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100323" Text="[스토리]노예 사냥꾼 7" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100324" Text="[스토리]위험에 빠진 이들" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100325" Text="[스토리]남겨진 영혼 1" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100326" Text="[스토리]남겨진 영혼 2" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100327" Text="[스토리]남겨진 영혼 3" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100328" Text="[스토리]남겨진 영혼 4" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100329" Text="[스토리]남겨진 영혼 5" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100330" Text="[스토리]남겨진 영혼 6" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100331" Text="[스토리]남겨진 영혼 7" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100332" Text="[스토리]남겨진 영혼 8" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100333" Text="[스토리]사막의 예언자" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100334" Text="[스토리]사막의 사기꾼 1" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100335" Text="[스토리]사막의 사기꾼 2" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100336" Text="[스토리]사막의 사기꾼 3" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100337" Text="[스토리]사막의 사기꾼 4" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100338" Text="[스토리]사막의 사기꾼 5" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100339" Text="[스토리]사막의 사기꾼 6" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100340" Text="[스토리]사막의 사기꾼 7" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100341" Text="[스토리]푸른 가루 1" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100342" Text="[스토리]푸른 가루 2" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100343" Text="[스토리]푸른 가루 3" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100344" Text="[스토리]푸른 가루 4" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100345" Text="[스토리]집 잃은 크로키 1" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100346" Text="[스토리]집 잃은 크로키 2" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100347" Text="[스토리]집 잃은 크로키 3" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100348" Text="[스토리]집 잃은 크로키 4" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100349" Text="[스토리]집 잃은 크로키 5" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100350" Text="[스토리]집 잃은 크로키 6" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100351" Text="[스토리]한 밤중의 심부름 1" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100352" Text="[스토리]한 밤중의 심부름 2" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100353" Text="[스토리]한 밤중의 심부름 3" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100354" Text="[스토리]한 밤중의 심부름 4" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100355" Text="[스토리]한 밤중의 심부름 5" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100356" Text="[스토리]한 밤중의 심부름 6" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100357" Text="[던전]탈룬바라 공략!" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100358" Text="[던전]저주받은 저택" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100359" Text="[던전]대적의 열쇠" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100360" Text="[던전]의문의 마녀" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100361" Text="[던전]마법의 램프" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100362" Text="[스토리]심부름" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100363" Text="[스토리]상자 옮기기" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100364" Text="[스토리]브리머의 차 밭" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100365" Text="[스토리]찻 잎" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100366" Text="[스토리]울타리 치기" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100367" Text="[스토리]이상한 구덩이" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100368" Text="[스토리]단짝친구" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100369" Text="[스토리]친구의 실수" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100370" Text="[스토리]신비한 힘" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100371" Text="[스토리]키드리아" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100372" Text="[스토리]씨앗 회수" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100373" Text="[스토리]씨앗 주머니 배달" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100374" Text="[스토리]무서운 할머니" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100375" Text="[스토리]혼나기 싫어" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100376" Text="[스토리]잡초 뽑기" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100377" Text="[스토리]할머니의 심부름" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100378" Text="[스토리]추출 배우기" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100379" Text="[스토리]정제 배우기" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100380" Text="[스토리]라디토마의 배짱" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100381" Text="[스토리]제작 배우기" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100382" Text="[스토리]샤오 퇴치제" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100383" Text="[스토리]모나의 행방" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100384" Text="[스토리]모나의 부탁" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100385" Text="[스토리]리본" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100386" Text="[스토리]신비한 조각의 정체" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100387" Text="[스토리]조미료 심부름" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100388" Text="[스토리]다리" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100389" Text="[스토리]루나의 주머니" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100390" Text="[스토리]레오의 행동" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100391" Text="[스토리]이상한 여자" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100392" Text="[스토리]귀환" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100393" Text="[스토리]안전한 집" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100394" Text="[스토리]원인조사" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100395" Text="[스토리]수확의 기쁨" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100396" Text="[스토리]마법석의 수호자" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100397" Text="[스토리]페이페이!" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100398" Text="[스토리]이상한 신전 지킴이" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100399" Text="[스토리]동력장치 연료" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100400" Text="[스토리]무서운 신전 지킴이" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100401" Text="[스토리]동력장치 부품" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100402" Text="[스토리]멀쩡한 신전 지킴이" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100403" Text="[스토리]기간트리의 혼" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100404" Text="[스토리]달의 신전" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100405" Text="[스토리]마법석 작동" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100406" Text="[스토리]누누디토로" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100407" Text="[스토리]은행 심부름" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100408" Text="[스토리]다르멍의 교육" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100409" Text="[스토리]관리소녀" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100410" Text="[스토리]편지 배달" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100411" Text="[스토리]부러진 검" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100412" Text="[스토리]수리 재료" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100413" Text="[스토리]블루코랄로" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100414" Text="[스토리]강화의 힘" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100415" Text="[스토리]의문의 테스트" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100416" Text="[스토리]힘의 근원" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100417" Text="[스토리]불쌍한 고블린" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100418" Text="[스토리]제자 코이큐티" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100419" Text="[스토리]복습" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100420" Text="[스토리]리더" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100421" Text="[스토리]보물 사냥꾼 닉키" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100422" Text="[스토리]몸 풀기" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100423" Text="[스토리]보물 사냥" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100424" Text="[스토리]코리 누나" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100425" Text="[스토리]수중 전투" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100426" Text="[스토리]운이 좋은 경우" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100427" Text="[스토리]마법사 마리우" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100428" Text="[스토리]고요함" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100429" Text="[스토리]호수의 보물 상자" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100430" Text="[스토리]검사 아론" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100431" Text="[스토리]동료" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100432" Text="[스토리]준비완료" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100433" Text="[스토리]만남" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100434" Text="[스토리]소란" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100435" Text="[스토리]스타 브릿지" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100436" Text="[스토리]해결" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100437" Text="[스토리]B.T단의 횡포" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100438" Text="[스토리]모험의 시작" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100439" Text="[스토리]조난" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100440" Text="[스토리]블루 코랄로" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100441" Text="[스토리]기구의 행방" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100442" Text="[스토리]기구 파손" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100443" Text="[스토리]재주꾼 스팀쇼벨" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100444" Text="[스토리]만능 도구" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100445" Text="[스토리]마법의 재료" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100446" Text="[스토리]갈퀴손의 주머니" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100447" Text="[스토리]언데드 사냥꾼" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100448" Text="[스토리]영혼의 가루" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100449" Text="[스토리]준비된 재료" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100450" Text="[스토리]손만 거들 뿐" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100451" Text="[스토리]신나는 모험" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100452" Text="[스토리]세이렌을 도와라!" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100453" Text="[스토리]아리아 섬으로!" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100454" Text="[스토리]점령당한 섬" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100455" Text="[스토리]신비한 친구" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100456" Text="[스토리]아루루" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100457" Text="[스토리]킹 비잉" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100458" Text="[스토리]내가 영웅?" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100459" Text="[스토리]푸른 산호 숲의 영웅!" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100460" Text="[스토리]그린리프의 요청" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100461" Text="[스토리]구호물품 배달" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100462" Text="[스토리]공중여행" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100463" Text="[이벤트]엄마의 심장소리" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100464" Text="[이벤트]엄마의 심장소리" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100465" Text="[이벤트]사라진 기획자" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100466" Text="[이벤트]사라진 기획자" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100467" Text="로우란 사막으로" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100468" Text="[전직]신기한 물건" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100469" Text="[전직]대단한 물건" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100470" Text="[전직]초록초록 상자" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100471" Text="[전직]대장장의 길" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100472" Text="[전직]조리사의 길" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100473" Text="[전직]재봉공의 길" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100474" Text="[전직]대장장의 길!" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100475" Text="[전직]조리사의 길!" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100476" Text="[전직]재봉공의 길!" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100477" Text="[전직]대장장의 길" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100478" Text="[전직]조리사의 길" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100479" Text="[전직]재봉공의 길" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100480" Text="[전직]원대장의 길" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100481" Text="[전직]주방장의 길" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100482" Text="[전직]재봉장의 길" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100483" Text="[전직]원대장의 길" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100484" Text="[전직]주방장의 길" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100485" Text="[전직]재봉장의 길" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100486" Text="[전직]원대장의 길" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100487" Text="[전직]주방장의 길" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100488" Text="[전직]재봉장의 길" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100489" Text="[던전]내게 너무 멋진 그대" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001200001" Text="써니" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200002" Text="루티 티엘" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200003" Text="루티 티엘" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200004" Text="유리 할아버지" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200005" Text="유리 할아버지" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200006" Text="유리 할아버지" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200007" Text="피리아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200008" Text="피리아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200009" Text="유리 할아버지" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200010" Text="티더" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200011" Text="로키" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200012" Text="로키" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200013" Text="로키" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200014" Text="티더" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200015" Text="재봉소녀 밀리아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200016" Text="나무꾼 살레온" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200017" Text="프랭크" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200018" Text="마이덕 아저씨" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200019" Text="에트워르 루인" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200020" Text="리글리 에퍼노스" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200021" Text="레팜" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200022" Text="레팜" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200023" Text="세밀로 클라하 장로" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200024" Text="툼부루" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200025" Text="툼부루" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200026" Text="세밀로 클라하 장로" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200027" Text="세밀로 클라하 장로." Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200028" Text="스쿠르 발굴단 단원" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200029" Text="랄프" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200030" Text="세밀로 클로라 부장로" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200031" Text="오마라 레이브런" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200032" Text="베르캄프" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200033" Text="경비 대장 데므론" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200034" Text="플라이트" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200035" Text="캐프티 서반 트라킷" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200036" Text="가방 상인 도나" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200037" Text="은행원 에바" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200038" Text="경매의 달인" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200039" Text="대장장이 테오라" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200040" Text="캐프티 서반 트라킷" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200041" Text="마구간 지기 윌 크로스" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200042" Text="마구간 지기 윌 크로스" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200043" Text="용사 포로롱" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200044" Text="용사 포로롱" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200045" Text="우편 배달부 리찬" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200046" Text="캐프티 서반 트라킷" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200047" Text="우리프 칸" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200048" Text="캐프티 서반 트라킷" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200049" Text="제이리 로터스" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200050" Text="로웰 발하운드" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200051" Text="퍼피" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200052" Text="경비병 펄브라운" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200053" Text="경비병 롤라운" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200054" Text="레빗" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200055" Text="경비병 제니운" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200056" Text="경비병 제니운" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200057" Text="경비병 제니운" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200058" Text="키얀" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200059" Text="키얀" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200060" Text="구호병 발라마" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200061" Text="구호병 포티아나" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200062" Text="구호병 이스터" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200063" Text="구호병 이스터" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200064" Text="호위병 홀덤" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200065" Text="리칠" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200066" Text="리칠" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200067" Text="의사 포시스" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200068" Text="의사 포시스" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200069" Text="엘시나" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200070" Text="바이올렛 발하운드" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200071" Text="바이올렛 발하운드" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200072" Text="그린 리프 대원 소나" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200073" Text="나인호프" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200074" Text="고트먼드 아줌마" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200075" Text="떨어진 바구니" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200076" Text="고드먼트" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200077" Text="고트먼드 " Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200078" Text="떨어진 상자" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200079" Text="전송 장치" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200080" Text="나인호프" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200081" Text="엘란" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200082" Text="올리비아 크롬웰" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200083" Text="올리비아 크롬웰" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200084" Text="닐" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200085" Text="노인" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200086" Text="수상한 리저드" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200087" Text="수상한 리저드" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200088" Text="수상한 리저드" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200089" Text="캐프티 서반 트라킷" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200090" Text="라르슈" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200091" Text="라르슈" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200092" Text="스팀쇼벨" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200093" Text="겁에 질린 고블린" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200094" Text="겁에 질린 고블린" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200095" Text="헬싱" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200096" Text="관" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200097" Text="헬싱" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200098" Text="헬싱" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200099" Text="헬싱" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200100" Text="로웰 발하운드" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200101" Text="캐프티 서반 트라킷" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200102" Text="세이렌 전령" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200103" Text="경비병 돈나" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200104" Text="경비병 고티가" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200105" Text="경비병 고티가" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200106" Text="쉐라" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200107" Text="마리아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200108" Text="마리아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200109" Text="쉐라" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200110" Text="캐프티 서반 트라킷" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200111" Text="길드 관리 보조 우렐레" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200112" Text="남희" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200113" Text="신병 체가스" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200114" Text="신병 누르손" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200115" Text="칸바 레드스카" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200116" Text="랄프" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200117" Text="발컨" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200118" Text="칼리" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200119" Text="피리아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200120" Text="피리아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200121" Text="나인호프" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200122" Text="마나 스트림 제어장치" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200123" Text="나인호프" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200124" Text="칼리" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200125" Text="유지" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200126" Text="릴리아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200127" Text="조제프" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200128" Text="카일" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200129" Text="카일" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200130" Text="올도반 선하울" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200131" Text="올도반 선하울" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200132" Text="감시자 추추" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200133" Text="감시자 추추" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200134" Text="올도반 선하울" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200135" Text="미아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200136" Text="미아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200137" Text="미아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200138" Text="미아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200139" Text="미아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200140" Text="슈이키" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200141" Text="슈이키" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200142" Text="드레이브 선하울" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200143" Text="여관 주인 딸 로아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200144" Text="용사 투투" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200145" Text="용사 투투" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200146" Text="가방 상인 욘나" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200147" Text="모험가 숀" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200148" Text="올쿠브 해머핸드" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200149" Text="올쿠브 해머핸드" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200150" Text="우이리" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200151" Text="우편함 관리인" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200152" Text="드레이브 선하울" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200153" Text="하이키" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200154" Text="사코로" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200155" Text="사코로" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200156" Text="테슬룬 선하울" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200157" Text="엘리스" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200158" Text="노드아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200159" Text="나인호프" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200160" Text="나인호프" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200161" Text="스쿠르 조사단장 보그" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200162" Text="어스카인드" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200163" Text="어스카인드" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200164" Text="나인호프" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200165" Text="제어 장치" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200166" Text="낡은 주머니" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200167" Text="나인호프" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200168" Text="노드아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200169" Text="테슬룬 선하울" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200170" Text="콰이어트" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200171" Text="사냥꾼 크랑크" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200172" Text="가포일 워퓨리" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200173" Text="하드루스" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200174" Text="표도르" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200175" Text="하이니스" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200176" Text="나나세" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200177" Text="던코트 라이온하트" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200178" Text="은행원 타기트" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200179" Text="곤도로" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200180" Text="던코트 라이온하트" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200181" Text="쥬우카 새도우대거" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200182" Text="그루야스" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200183" Text="곤도로" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200184" Text="칸바 레드스카" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200185" Text="칼라부 어스히터" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200186" Text="피난민 록스" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200187" Text="피난민 우고다" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200188" Text="피난민 우고다" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200189" Text="돌격대장 랄프" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200190" Text="돌격대장 랄프" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200191" Text="돌격대장 랄프" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200192" Text="칼라부 어스히터" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200193" Text="우리프 라이온하트" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200194" Text="캐프티 서반" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200195" Text="우리프 라이온하트" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200196" Text="아발치 선하울" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200197" Text="사자상 경비병 라이언" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200198" Text="모험가 길드원 제이슨" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200199" Text="모험가 길드원 제이슨" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200200" Text="아발치 선하울" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200201" Text="경비병 사이더그" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200202" Text="견습 주술사 브리가" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200203" Text="주술사 카케르" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200204" Text="주술사 리솟" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200205" Text="주술사 카케르" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200206" Text="대주술사 마시타" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200207" Text="전사 수련생 보보쿠" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200208" Text="커쉬븐 디어헌터" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200209" Text="수색대원 우디르" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200210" Text="칸바 레드스카" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200211" Text="수색대원 우디르" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200212" Text="특수부대 대장 코시데나" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200213" Text="수색대원 보거스" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200214" Text="수색대원 보거스" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200215" Text="로키" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200216" Text="로키" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200217" Text="치안대장 실버" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200218" Text="슈록" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200219" Text="슈록" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200220" Text="길드 홍보인" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200221" Text="도레" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200222" Text="야비암" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200223" Text="야비암" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200224" Text="야비암" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200225" Text="야비암" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200226" Text="도레" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200227" Text="크리낭" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200228" Text="후릴로" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200229" Text="로키" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200230" Text="로키" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200231" Text="후릴로" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200232" Text="족장 루드라" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200233" Text="족장 루드라" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200234" Text="로키" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200235" Text="경비병 제제" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200236" Text="일등항해사 루삐" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200237" Text="맨드로우" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200238" Text="맨드로우" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200239" Text="맨드로우" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200240" Text="유목지 아이" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200241" Text="발키리안의 선조" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200242" Text="발키리안의 선조" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200243" Text="유목지 아이" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200244" Text="테루아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200245" Text="라토나" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200246" Text="라토나" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200247" Text="라토나" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200248" Text="호수 항아리" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200249" Text="라토나" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200250" Text="테루아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200251" Text="리칠" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200252" Text="보좌관 로라나" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200253" Text="리칠" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200254" Text="나인호프" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200255" Text="시체" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200256" Text="나인호프" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200257" Text="드라카" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200258" Text="드레" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200259" Text="아라곤" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200260" Text="나인호프" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200261" Text="라무다" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200262" Text="피리아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200263" Text="트란디온" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200264" Text="피리아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200265" Text="피리아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200266" Text="피리아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200267" Text="태수 보좌관" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200268" Text="키드리아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200269" Text="골동품상" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200270" Text="골동품상" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200271" Text="키드리아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200272" Text="키드리아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200273" Text="키드리아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200274" Text="타란" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200275" Text="타란" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200276" Text="타란" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200277" Text="팔라도크" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200278" Text="팔라도크" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200279" Text="코라" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200280" Text="코라" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200281" Text="코라" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200282" Text="검은 제단" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200283" Text="검은 제단" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200284" Text="코라" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200285" Text="레빈" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200286" Text="나르다쿰" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200287" Text="데리코코" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200288" Text="레빈" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200289" Text="나르다쿰" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200290" Text="레빈" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200291" Text="윌틴" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200292" Text="브레이디토" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200293" Text="윌틴" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200294" Text="벨라" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200295" Text="윌틴" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200296" Text="올훼스" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200297" Text="리자" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200298" Text="제스" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200299" Text="제스" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200300" Text="카이자" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200301" Text="키드리아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200302" Text="키드리아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200303" Text="리자" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200304" Text="리자" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200305" Text="애나선" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200306" Text="수상한 항아리" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200307" Text="애나선" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200308" Text="아남둘라" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200309" Text="애나선" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200310" Text="베론" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200311" Text="베론" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200312" Text="베론" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200313" Text="레건" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200314" Text="레건" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200315" Text="보닐라" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200316" Text="베론" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200317" Text="떨어진 봇짐" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200318" Text="이렐다" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200319" Text="이렐다" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200320" Text="오카다" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200321" Text="쥬피오" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200322" Text="이렐다" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200323" Text="로치치" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200324" Text="로치치" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200325" Text="쥬드" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200326" Text="로키" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200327" Text="네드" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200328" Text="피리아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200329" Text="피리아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200330" Text="피리아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200331" Text="타렌의 비" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200332" Text="피리아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200333" Text="네드" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200334" Text="마술루니" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200335" Text="사이키" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200336" Text="조로롱" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200337" Text="둘시나" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200338" Text="로흐만" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200339" Text="로흐만" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200340" Text="마술루니" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200341" Text="지호미스" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200342" Text="지호미스" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200343" Text="푸른 돌덩이" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200344" Text="지호미스" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200345" Text="나인호프" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200346" Text="나인호프" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200347" Text="소시아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200348" Text="시푸아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200349" Text="소시아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200350" Text="소시아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200351" Text="나인호프" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200352" Text="코날 스타르" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200353" Text="에버트 윈터" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200354" Text="데이글" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200355" Text="다사린" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200356" Text="다사린" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200357" Text="잠입군 대장 녹서스" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200358" Text="윌리엄 로렌" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200359" Text="광전사의 영혼" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200360" Text="의문의 마녀" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200361" Text="광산 경비대장 압둘라마" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200362" Text="마법 경비병 올라" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200363" Text="코코리스" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200364" Text="브리머" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200365" Text="브리머" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200366" Text="포비" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200367" Text="일리아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200368" Text="일리아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200369" Text="키드리아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200370" Text="키드리아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200371" Text="키드리아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200372" Text="코마" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200373" Text="코마" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200374" Text="코코마누" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200375" Text="토토비아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200376" Text="루네" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200377" Text="코코마누" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200378" Text="메이메이" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200379" Text="메이메이" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200380" Text="라디토마" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200381" Text="라디토마" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200382" Text="라디토마" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200383" Text="코코마누" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200384" Text="모나" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200385" Text="모나" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200386" Text="모나" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200387" Text="코코마누" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200388" Text="미루" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200389" Text="라무디토" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200390" Text="루나의 주머니" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200391" Text="루나" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200392" Text="루나" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200393" Text="코코마누" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200394" Text="코코마누" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200395" Text="로미" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200396" Text="로미" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200397" Text="아론" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200398" Text="아론" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200399" Text="달의 신전 지킴이 루" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200400" Text="달의 신전 지킴이 루" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200401" Text="달의 신전 지킴이 나" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200402" Text="달의 신전 지킴이 나" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200403" Text="달의 신전 지킴이 틱" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200404" Text="달의 신전 지킴이 틱" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200405" Text="아론" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200406" Text="아론" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200407" Text="도르키바" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200408" Text="은행원 다르멍" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200409" Text="은행원 다르멍" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200410" Text="세라피" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200411" Text="의문의 남자" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200412" Text="아라스" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200413" Text="아라스" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200414" Text="한스" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200415" Text="의문의 남자" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200416" Text="의문의 남자" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200417" Text="미누크 데누티토" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200418" Text="미누크 데누티토" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200419" Text="코이큐티" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200420" Text="코이큐티" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200421" Text="코이큐티" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200422" Text="닉키" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200423" Text="닉키" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200424" Text="닉키" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200425" Text="코리" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200426" Text="코리" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200427" Text="코리" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200428" Text="마리우" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200429" Text="마리우" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200430" Text="마리우" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200431" Text="아론 펠세스" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200432" Text="아론 펠세스" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200433" Text="아론 펠세스" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200434" Text="루바리" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200435" Text="메카덕" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200436" Text="메카덕" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200437" Text="루바리" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200438" Text="마법 경비병 미누" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200439" Text="키드리아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200440" Text="조사원 캔버로크" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200441" Text="캐프티 서반 트라킷" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200442" Text="기구 조종사 아초" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200443" Text="캐프티 서반 트라킷" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200444" Text="스팀쇼벨" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200445" Text="스팀쇼벨" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200446" Text="겁에 질린 고블린" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200447" Text="겁에 질린 고블린" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200448" Text="헬싱" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200449" Text="헬싱" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200450" Text="스팀쇼벨" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200451" Text="기구 조종사 아초" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200452" Text="캐프티 서반 트라킷" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200453" Text="세이렌 전령" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200454" Text="경비병 돈나" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200455" Text="경비병 돈나" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200456" Text="아루루" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200457" Text="아루루" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200458" Text="아루루" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200459" Text="경비병 돈나" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200460" Text="캐프티 서반 트라킷" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200461" Text="제이리 로터스" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200462" Text="기구 조종사 아초" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200463" Text="시리" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200464" Text="우스" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200465" Text="캡틴 스키피오" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200466" Text="캡틴 스키피오" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200467" Text="코라" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200468" Text="신기한 상자" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200469" Text="대단한 상자" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200470" Text="마법 경비병 네로" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200471" Text="현자 오반 트라킷" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200472" Text="현자 오반 트라킷" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200473" Text="현자 오반 트라킷" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200474" Text="우리프 라이온하트" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200475" Text="우리프 라이온하트" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200476" Text="우리프 라이온하트" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200477" Text="현자 오반 트라킷" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200478" Text="현자 오반 트라킷" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200479" Text="현자 오반 트라킷" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200480" Text="원대장 쿠르서스" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200481" Text="주방장 올리세" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200482" Text="재봉장 넬리아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200483" Text="원대장 룩서스" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200484" Text="주방장 아일스" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200485" Text="재봉장 온누" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200486" Text="원대장 파누" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200487" Text="주방장 밀크" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200488" Text="재봉장 슈슈아" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200489" Text="블랙 로웬즈" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001300001" Text="누구 우리를 도와줄 사람 어디 없나요?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300002" Text="어서 산호 채취장으로 와서 도와줘!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300003" Text="어서 산호 채취장으로 와서 도와줘!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300004" Text="이 일을 어찌할꼬, 산호 채취장에 일이 생겼다네." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300005" Text="이 일을 어찌할꼬, 산호 채취장에 일이 생겼다네." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300006" Text="이 일을 어찌할꼬, 산호 채취장에 일이 생겼다네." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300007" Text="산호채취장으로 온다면 날 돕게 해주지. 영광으로 알아." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300008" Text="산호채취장으로 온다면 날 돕게 해주지. 영광으로 알아." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300009" Text="이 일을 어찌할꼬, 산호 채취장에 일이 생겼다네." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300010" Text="도와주세요. 산호채취장에 다친 사람이 있어요!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300011" Text="나를 도와줄 모험가 어디 없소? 산호채취장이오." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300012" Text="산호채취장에 신비한 힘이 느껴지는 유적이 있습니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300013" Text="나를 도와줄 모험가 어디 없소? 산호채취장이오." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300014" Text="빨리 산호채취장으로 와주세요. 도움이 필요해요!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300015" Text="나무를 베는 걸 와서 좀 도와 줘." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300016" Text="광석을 캐야하네. 어서 이리로 오게." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300017" Text="더 이상 유물이 손상되는 것을 막아야 해." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300018" Text="평화를 되찾을 방법이 여기있습니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300019" Text="에잉, 날이 갈수록 말썽이군. 어서 산호 가공소로 오게." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300020" Text="산호가공소로 와주십시오. 보통 일이 아니예요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300021" Text="농장에 대해 알려줄게. 그린 코랄 농장으로 와." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300022" Text="문제를 해결하려면 네가 필요해. 어서 그린 코랄 농장으로 와. " Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300023" Text="그린 코랄에는 자네의 도움이 필요하다네." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300024" Text="숲이…. 땅이… 오염되었다…. 도와….달라…." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300025" Text="숲이…. 땅이… 오염되었다…. 도와….달라…." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300026" Text="그린 코랄에는 자네의 도움이 필요하다네." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300027" Text="그린 코랄에는 자네의 도움이 필요하다네." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300028" Text="정제를 해줄 사람이 필요한데 네가 해주지 않을래?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300029" Text="제작을 해야 하는데 손이 모자라. 네 손 좀 빌리자." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300030" Text="그린 코랄에는 모험가들의 도움이 많이 필요해요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300031" Text="저기 해변에 이상한 것들이 나타났어요. 저게 뭘까요?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300032" Text="어서 와서 도와줘. 이곳은 하이네 해변이야." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300033" Text="투 마타에 긴급한 지원이 필요합니다!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300034" Text="투 마타에 긴급한 지원이 필요합니다!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300035" Text="블루 코랄에 어서 오시게나. 기다리고 있다네." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300036" Text="블루 코랄로 빨리 와. 내가 좋은 것을 알려줄게." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300037" Text="부자가 되는 법을 알고 싶으신가요? 창고로 오세요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300038" Text="더 강해지는 법이 바로 여기 있수다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300039" Text="블루 코랄 대장간에서 강한 무기에 대해 알려주겠소." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300040" Text="빠르게 이동하는 법이 궁금한가? 나에게 오시게." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300041" Text="이 놈의 윈더스는 왜 내 마음을 몰라주는게야!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300042" Text="모험가라면 이 분을 만나뵈어야 해!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300043" Text="진정한 용사가 되고 싶은가?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300044" Text="우편 배달부의 일을 도와 줘. 어서 빨리 와." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300045" Text="배달을 도와줄 사람이 필요해요. 저는 마구간에 있답니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300046" Text="서 툼바라의 친구에게 전할 소식이 있다네." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300047" Text="블루 코랄의 캐프티에게 칸의 마음을 전해주시오." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300048" Text="블루 코랄로 오시게나. 도움이 되는 이들을 소개해주겠네." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300049" Text="블루 코랄 성당에서 좋은 말씀 전하고 있습니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300050" Text="모험가의 도움을 필요로 하는 소녀가 있습니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300051" Text="엉엉~ 저희 오빠가 실종되었어요. 오빠를 찾아주세요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300052" Text="급한 일일세. 블루 코랄 동문으로 오면 알려주겠네." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300053" Text="연구원들이 위기에 처해있어요. 산호 채취장으로 와주세요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300054" Text="포기할 수 없는 일이 있습니다. 산호 채취장으로 와주세요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300055" Text="배가 고파서 싸울 힘이 없어요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300056" Text="이 일을 어쩌죠. 저 혼자서는 어떻게 해볼 수 없는 일인데.." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300057" Text="그 분이 어느 해변가를 해매고 계실지. 걱정되요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300058" Text="소중한 물건을 빼앗기기 전에 지켜주세요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300059" Text="그분에게 소중한 물건을 전달해야 할 텐데…." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300060" Text="조금 도와주지 그래. 늙은 산호숲엔 할 일이 많다고." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300061" Text="노움이 말썽입니다. 늙은 산호숲으로 와주세요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300062" Text="늙은 산호 숲에는 쓸만한 물건이 많답니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300063" Text="그곳에는 분명 도와야 할 일이 많을 것입니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300064" Text="리칠님이 계신 장소를 알려드리겠습니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300065" Text="이게 바로 라임의 단서일거야!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300066" Text="늙은 산혼 숲에는 노움이 너무 많다네." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300067" Text="저희를 도와주세요. 물자가 너무 부족해요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300068" Text="잠시 이곳으로 와주시지 않겠어요? 큰 일이 벌어진 것 같아요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300069" Text="다친 나를 대신해 물건을 배달해 주세요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300070" Text="블루베리 농장으로 와. 빨리~!!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300071" Text="블루베리 농장으로 와. 빨리~!!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300072" Text="레드 코랄에 수상한 케이거가 나타났어요. 무슨 일 일까요?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300073" Text="레드 코랄에 심각한 문제가 있는 것 같은데 빨리 와 봐." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300074" Text="우리 아들 고트먼드를 찾아주세요. 흐흑-" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300075" Text="레드 코랄에 바구니가 떨어져 있습니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300076" Text="레드 코랄의 리저드따위 하나도 무섭지 않아요!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300077" Text="레드 코랄에 심각한 문제가 있는 것 같은데 빨리 와 봐." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300078" Text="지드 샤마 뒤에 수상한 물건이 떨어져 있습니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300079" Text="레드 코랄 동굴 깊숙한 곳에서 이상한 기운이 흘러 나옵니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300080" Text="레드 코랄 피난민이 위기에 처하게 되었어. 빨리 와." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300081" Text="리저드가 쫓아오고 있어요. 도와주세요!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300082" Text="산호 농장 농장으로 와주세요. 부탁할 일이 있답니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300083" Text="산호 농장 농장으로 와주세요. 부탁할 일이 있답니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300084" Text="산호 농장을 돕고 싶은데 혼자서는 쉽지가 않아요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300085" Text="잠시 산호 농장으로 와주겠는가? 이상한 일이 있어서 그러네." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300086" Text="크르르…도와줘. 고요한 빛의 언덕에 비밀이…." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300087" Text="크르르…도와줘. 고요한 빛의 언덕에 비밀이…." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300088" Text="크르르…도와줘. 고요한 빛의 언덕에 비밀이…." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300089" Text="중요한 소식을 전해야 하네. 블루 코랄로 와주시게." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300090" Text="유적 발굴지의 미스터리를 풀려면 보통 실력으론 안될 걸?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300091" Text="유적 발굴지의 미스터리를 풀려면 보통 실력으론 안될 걸?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300092" Text="유적 발굴지로 와주게. 아이들이 실종되었어." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300093" Text="나… 나는 귀신 소리 숲에 사는 것에 대해 아무 것도 몰라!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300094" Text="나… 나는 귀신 소리 숲에 사는 것에 대해 아무 것도 몰라!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300095" Text="귀신 소리 숲에는 아주 사악한 것이 살고 있지." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300096" Text="북부 해안가에 수상한 관이 놓여 있습니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300097" Text="귀신 소리 숲에는 아주 사악한 것이 살고 있지." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300098" Text="귀신 소리 숲에는 아주 사악한 것이 살고 있지." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300099" Text="귀신 소리 숲에는 아주 사악한 것이 살고 있지." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300100" Text="성당으로 와주십시오. 이야기를 끝내야 할 때입니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300101" Text="블루 코랄에 중한 손님이 찾아오셨다네." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300102" Text="블루 코랄 항구에서 기다리고 있겠습니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300103" Text="아리아섬이 위기에 처했습니다. 동맹의 언약을 지켜주십시오." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300104" Text="아리아섬이 위기에 처했습니다. 동맹의 언약을 지켜주십시오." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300105" Text="아리아섬이 위기에 처했습니다. 동맹의 언약을 지켜주십시오." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300106" Text="아리아섬에 감금되있는 세이렌 여왕님을 구출해주세요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300107" Text="마린 비들에게 복수를 할테야!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300108" Text="마린 비들에게 복수를 할테야!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300109" Text="저희 세이렌의 마음을 전합니다. 아리아섬으로 와서 들어주세요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300110" Text="한 발 앞으로 나가기 위한 방법을 알려주겠네." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300111" Text="다음 여행지를 안내해드리겠습니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300112" Text="듀발 고원으로 보내줄게. 어서 블루 코랄 항구로 와." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300113" Text="아~ 억울해! 카툼바 골짜기로 와서 이 억울함을 풀어줘." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300114" Text="카툼바 골짜기로 와서 우리를 도와 줘. 계속 벌 받기 싫다고." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300115" Text="본격적인 훈련을 시작하겠다. 카툼바 골짜기로 와라!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300116" Text="카툼바 골짜기에 네 수준에 맞는 일이 있지." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300117" Text="네 수준 정도면 카툼바 골짜기로 오는 게 좋아." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300118" Text="빅스 둥지 안쪽이 조금 수상한 걸……." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300119" Text="으아아~ 이 놈의 풀을 어쩌지! 빅스 둥지에 갇혀버렸어!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300120" Text="으아아~ 이 놈의 풀을 어쩌지! 빅스 둥지에 갇혀버렸어!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300121" Text="신기한 걸 알려줄테니 날 만난 건 비밀로 하세. 쉿!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300122" Text="신비한 기운을 내뿜는 장치가 빅스 둥지에 있습니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300123" Text="신기한 걸 알려줄테니 날 만난 건 비밀로 하세. 쉿!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300124" Text="사자의 언덕에 보급대에게 곤란한 일이 생겼어." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300125" Text="카툼바 골짜기 입구에서 곤경에 처해있습니다. 어서 와주세요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300126" Text="나무를 베는 걸 도와주세요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300127" Text="가보를 찾는 것을 도와주게나." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300128" Text="보급품은 모아도 모아도 끝이 없네요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300129" Text="이 서신을 전달해주겠는가?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300130" Text="샤바두 협곡을 감시하는 일이 쉽지 않군. 감시 초소로 와주게." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300131" Text="샤바두 협곡을 감시하는 일이 쉽지 않군. 감시 초소로 와주게." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300132" Text="샤바두 협곡을 감시해야 하네. 협곡 입구에서 기다리고 있겠네." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300133" Text="샤바두 협곡을 감시해야 하네. 협곡 입구에서 기다리고 있겠네." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300134" Text="샤바두 협곡을 감시하는 일이 쉽지 않군. 감시 초소로 와주게." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300135" Text="농장에 대해 알려줄게. 쿠니바 마을 농장으로 와." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300136" Text="추출이란 걸 네가 한번 해볼테야? 쿠니바 마을 농장으로 어서 와." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300137" Text="정제이란 걸 네가 한번 해볼테야? 쿠니바 마을 농장으로 어서 와." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300138" Text="제작이란 걸 네가 한번 해볼테야? 쿠니바 마을 농장으로 어서 와." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300139" Text="쿠니바 농장을 지키기 위한 일을 도와줄거지?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300140" Text="쿠니바 마을 경비를 도와주십시오. 할 일이 여간 많지 않아요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300141" Text="쿠니바 마을 경비를 도와주십시오. 할 일이 여간 많지 않아요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300142" Text="모험을 시작하는 이라면 한 번쯤 쿠니바 마을에 왔다 간다네." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300143" Text="쿠니바 마을 근처에 무시 무시한 것이 살고 있어요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300144" Text="강해지고 싶은가? 쿠니바 마을로 오게나." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300145" Text="자네에게 줄 것이 있다네. 빨리 오시게나." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300146" Text="돕고 살아야죠. 그러니 저를 도와주시겠어요?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300147" Text="자신의 무기를 소중히 여길 줄 알아야 진정한 모험가라네." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300148" Text="쿠니바 마을의 대장장이가 최고라는 소문이 자자해. 바로 나 말이야." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300149" Text="신기한 친구가 있는데 만나보지 않겠는가?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300150" Text="중요한 일이 있는데…. 쿠니바 마을로 와주세요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300151" Text="라임 원정대에 대해 들어보셨나요?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300152" Text="이런 해괴망측한 일이 벌어지다니! 어서 와보게." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300153" Text="제비디아님의 묘비를 찾아야 해요!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300154" Text="정말 끔찍한 일이예요. 이 일을 어쩌면 좋을까요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300155" Text="칸의 대지에는 인적이 없군요. 누가 와서 좀 도와주어요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300156" Text="이 초원의 전갈들은 너무 드세군. 정리가 필요해." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300157" Text="링고 동굴 지역에서 실종된 원정대원을 찾아주세요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300158" Text="링고 동굴에 수상한 케이거가 발견되었어. 어서 빨리 와 봐!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300159" Text="케이거가 다니기 힘든 초원이군. 링고 동굴 조사를 도와주겠나?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300160" Text="케이거가 다니기 힘든 초원이군. 링고 동굴 조사를 도와주겠나?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300161" Text="동굴 링고가 너무 무서워요. 도와주세요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300162" Text="링고 동굴의 지배자 람보로라고 들어봤어? 만만치 않은 상대야." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300163" Text="링고 동굴에 수상한 케이거가 발견되었어. 어서 빨리 와 봐!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300164" Text="케이거가 다니기 힘든 초원이군. 링고 동굴 조사를 도와주겠나?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300165" Text="링고 동굴 안에 신비한 기운을 내뿜는 장치가 있습니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300166" Text="링고 동굴 안에 누군가가 두고간 낡은 주머니가 있습니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300167" Text="케이거가 다니기 힘든 초원이군. 링고 동굴 조사를 도와주겠나?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300168" Text="내가 무사하다는 사실을 알리고 싶어. 나는 링고 동굴 입구에 있어." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300169" Text="라임 원정대의 앞 날은 험난하기만 하군요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300170" Text="사냥꾼님들께 꼭 필요한 물을 전해주셨으면 해요. " Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300171" Text="이 초원은 정말 위험하단 말이야. 와서 조금 도와주게나." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300172" Text="남부 감시 초소로 와주십시오. 부탁 할 일이 있습니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300173" Text="질풍단 녀석들! 어서 와서 칸의 동상을 지켜 줘!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300174" Text="칸의 무덤에서 수상한 물건을 발견했어! " Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300175" Text="조금 곤란한 일이 생겨서요. 풍차 마을로 와주세요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300176" Text="다들 어디로 가버린거야? 카라쿤타 동문으로 오게나." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300177" Text="꼭 말해주고 싶은게 있습니다. 카라쿤타로 오시죠." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300178" Text="부자가 되는 법을 알고 싶으신가요? 창고로 오세요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300179" Text="자네 빨리 와야겠어. 자넬 찾는 사람이 있다고." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300180" Text="아주 은밀히 처리해야할 일입니다. 불꽃의 전승탑  3층으로 오십시오." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300181" Text="나는 카라쿤타 북쪽 동굴에 있다. 느려터져가지고 빨리 와." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300182" Text="잠시 저와 대화를 나누시지 않겠습니까?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300183" Text="불꽃의 전승탑  3층으로 와주세요. 급한 일입니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300184" Text="나 대장군 칸바의 명령이다. 불꽃의 전승탑  1층으로 오도록!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300185" Text="람쿠카 마을에 일이 생긴거 같아. 중부 초소로 빨리 와서 도와 줘." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300186" Text="람쿠카 마을의 피난민을 도와야 해! 늦지 않게 오게!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300187" Text="도와 주세요. 카샨 추적자들이…." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300188" Text="도와 주세요. 마을이 습격당했어요!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300189" Text="우리가 당한만큼 돌려주어야 합니다. 다신 이런 일이 벌어지지 않게요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300190" Text="우리가 당한만큼 돌려주어야 합니다. 다신 이런 일이 벌어지지 않게요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300191" Text="우리가 당한만큼 돌려주어야 합니다. 다신 이런 일이 벌어지지 않게요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300192" Text="이 사실을 칸에게 알려야 합니다. 중부 감시 초소로 와주세요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300193" Text="나 칸이 명하노니 카라쿤타로 오라. 불꽃의 전승탑에서 기다리겠다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300194" Text="투르가와 쌓은 우정을 칸에게 보답하고 싶다네. 블루 코랄로 와주시게." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300195" Text="칸을 너무 오래 기다리게 하지 말라." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300196" Text="언제나 북부 감시 초소의 경계를 소홀히 해선 안됩니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300197" Text="혹시 감기 삼형제가 돌아온 것이 아닐까?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300198" Text="혹시 감기 삼형제가 돌아온 것이 아닐까?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300199" Text="혹시 감기 삼형제가 돌아온 것이 아닐까?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300200" Text="북부 감시 초소의 경계를 강화하기 위한 지원이 필요합니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300201" Text="갈기 초원에는 이상한 일들이 많이 일어나요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300202" Text="초원 전쟁의 슬픔이 묻혀 있는 갈기 초원으로 오세요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300203" Text="초원의 한을 풀어주려면 자네의 도움이 필요하다네." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300204" Text="비록 적이지만 케이거의 전사의 용맹함을 인정해야 하네." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300205" Text="또 어디로 가셨을까…. 용맹한 자의 길 근처이신 것 같은데…." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300206" Text="용맹한 자의 길의 패왕을 자처하는 어리석은 짐승 같으니라고.." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300207" Text="카라쿤타의 서쪽에서 이런 일이 벌어지고 있었다니!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300208" Text="탈룬바라 협곡에 가보았나? 심상치 않은 일이 벌어지고 있어." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300209" Text="카라쿤타 서쪽에서 벌어지는 일들을 어서 상부에 보고해야 해!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300210" Text="긴급한 지령을 전달해야 하네! 어서 카라쿤타로……." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300211" Text="빨리 와주세요. 긴급 사태입니다!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300212" Text="신속하게 움직여야 해! 탈룬바라 협곡으로 오게!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300213" Text="신속하게 움직여야 해! 탈룬바라 협곡으로 오게!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300214" Text="신속하게 움직여야 해! 탈룬바라 협곡으로 오게!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300215" Text="협곡 안쪽에서 익숙한 기운이 느껴지오." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300216" Text="협곡 안쪽에서 익숙한 기운이 느껴지오." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300217" Text="앞으로의 일들은 모두 자네의 어깨에 달렸어." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300218" Text="날개 호수 유적지로 온다면 내 모든 것을 알려주겠소." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300219" Text="날개 호수 유적지로 온다면 더 강해지는 방법을 알려주겠소." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300220" Text="더 강해지는 법이 바로 여기 있어요! 저를 찾아 오세요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300221" Text="유랑 상인단 마차를 찾아오세요. 부탁드릴게 있어요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300222" Text="이 절벽 아래 혼자 서있으려니 처량하군. 자네가 도와줄텐가?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300223" Text="이 절벽 아래 혼자 서있으려니 처량하군. 자네가 도와줄텐가?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300224" Text="이 절벽 아래 혼자 서있으려니 처량하군. 자네가 도와줄텐가?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300225" Text="이 절벽 아래 혼자 서있으려니 처량하군. 자네가 도와줄텐가?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300226" Text="유랑 상인단 마차를 찾아오세요. 부탁드릴게 있어요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300227" Text="동쪽 봉화탑 길가로 오게. 급히 처리해야 할 일이 있네." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300228" Text="가로나 둥지에서 기다릴게요. 오셔서 저희를 도와주세요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300229" Text="가로나 둥지는 어쩐지 익숙하다오." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300230" Text="가로나족을 도와야 하오. 가로나 둥지로 와주시오." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300231" Text="저희 가로나 족을 도와주세요. 가로나 둥지로 어서 와주세요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300232" Text="우리 가로나 족에게 닥친 위기를 어떻게 해결해야 할꼬…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300233" Text="우리 가로나 족에게 닥친 위기를 어떻게 해결해야 할꼬…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300234" Text="라임에 대한 소문을 들었소. 당신에게 유용할 것 같소." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300235" Text="유목민을 도울 정의로운 모험가가 필요합니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300236" Text="라임을 찾고 있어? 그럼 나에게 와 봐. 좋은 정보가 있으니." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300237" Text="이곳은 스피럴 유적지에는 라임에 대한 단서가 있어." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300238" Text="이곳은 스피럴 유적지에는 라임에 대한 단서가 있어." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300239" Text="이곳은 스피럴 유적지에는 라임에 대한 단서가 있어." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300240" Text="어른들이 제 말을 믿어주지 않아요. 당신도 그런가요?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300241" Text="암흑의 고원으로 와 발키리안의 경고를 듣게." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300242" Text="암흑의 고원으로 와 발키리안의 경고를 듣게." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300243" Text="어른들이 제 말을 믿어주지 않아요. 당신도 그런가요?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300244" Text="암흑의 고원으로 와주게. 급한 일이야." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300245" Text="칠흑의 내리막으로 와주게. 중요한 일이야." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300246" Text="칠흑의 내리막으로 와주게. 중요한 일이야." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300247" Text="칠흑의 내리막으로 와주게. 중요한 일이야." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300248" Text="칠흑의 내리막 호수 속에 신비한 기운을 내뿜는 항아리가 있습니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300249" Text="칠흑의 내리막으로 와주게. 중요한 일이야." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300250" Text="암흑의 고원으로 와주게. 급한 일이야." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300251" Text="리칠의 유목지로 와주십시오. 모험가의 도움이 필요합니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300252" Text="리칠님과 하무단님의 오해를 풀어줄 단서를 찾아야 합니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300253" Text="리칠의 유목지로 와주십시오. 모험가의 도움이 필요합니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300254" Text="검은 거미 숲의 입구로 와줘. 바람의 고원에 있다네." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300255" Text="타툴라에게 당한 듯한 상처를 입은 시체입니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300256" Text="검은 거미 숲의 입구로 와줘. 바람의 고원에 있다네." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300257" Text="검은 거미 숲 안 쪽에 갇혔어! 동료들도 모두 죽음을 당했고!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300258" Text="검은 거미 숲에는 사냥감이 많다네. 한 번 와볼만한 곳이지." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300259" Text="검은 거미 숲에 나인호프가 찾는 휴먼이 있습니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300260" Text="검은 거미 숲의 입구로 와줘. 바람의 고원에 있다네." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300261" Text="이런 일이 벌어진 것은 모두 태수의 근무 태만이라고!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300262" Text="우리 삼촌은 어디에 계신걸까? 마제로나에서 만나기로 해놓고선." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300263" Text="허허, 마제로나 무기점으로 오면 날 찾을 수 있다네." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300264" Text="마제로나는 촌동네지만 그럭저럭 쉬어갈 만 한거 같아." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300265" Text="마제로나는 촌동네지만 그럭저럭 쉬어갈 만 한거 같아." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300266" Text="아으~ 마제로나의 태수 보좌관은 정말 무례해! 감히 나에게!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300267" Text="내가 바로 마제로나의 태수 보좌관이야. 내가 일을 주지. 와보게." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300268" Text="키키키키~ 마제로나로 와 봐. 내가 좋은 걸 알려줄게." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300269" Text="마제로나 최고의 골동품상은 바로 나라네." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300270" Text="마제로나 최고의 골동품상은 바로 나라네." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300271" Text="여기는 하무단의 유목지야~ 키키키키~ 기다리고 있을게~" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300272" Text="여기는 하무단의 유목지야~ 키키키키~ 기다리고 있을게~" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300273" Text="여기는 하무단의 유목지야~ 키키키키~ 기다리고 있을게~" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300274" Text="질주의 고원에서 하고 있는 내 연구는 아주 중요한거야." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300275" Text="질주의 고원에서 하고 있는 내 연구는 아주 중요한거야." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300276" Text="질주의 고원에서 하고 있는 내 연구는 아주 중요한거야." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300277" Text="요즘 놈들의 움직임이 심상치 않아. 국경검문소에 지원이 필요해." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300278" Text="요즘 놈들의 움직임이 심상치 않아. 국경검문소에 지원이 필요해." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300279" Text="상처의 고원에 퍼지는 울음소리가 들려? 난 이 슬픔을 이해할 수 있어." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300280" Text="상처의 고원에 퍼지는 울음소리가 들려? 난 이 슬픔을 이해할 수 있어." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300281" Text="상처의 고원에 퍼지는 울음소리가 들려? 난 이 슬픔을 이해할 수 있어." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300282" Text="상처의 고원에 음울한 기운을 퍼뜨리는 제단이 있습니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300283" Text="상처의 고원에 음울한 기운을 퍼뜨리는 제단이 있습니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300284" Text="상처의 고원에 퍼지는 울음소리가 들려? 난 이 슬픔을 이해할 수 있어." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300285" Text="나쁜 마티나 상인 같으니라고! 버섯바위 숲으로 와줘." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300286" Text="버섯 바위 숲에서 아무 것도 안하고 서있으려니 땀만 나네." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300287" Text="로우란을 벗어나고 싶은데 버섯 바위 숲에 발이 묶였어요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300288" Text="나쁜 마티나 상인 같으니라고! 버섯바위 숲으로 와줘." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300289" Text="버섯 바위 숲에서 아무 것도 안하고 서있으려니 땀만 나네." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300290" Text="나쁜 마티나 상인 같으니라고! 버섯바위 숲으로 와줘." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300291" Text="아, 하스레딘의 농장에서 일하는 건 정말 힘들어." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300292" Text="하스레딘은 인정머리 없는 마티나야. 이 사막 정말 싫군." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300293" Text="아, 하스레딘의 농장에서 일하는 건 정말 힘들어." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300294" Text="윌틴의 사랑을 위해 빨리 하스레딘 농장으로 와줘." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300295" Text="아, 하스레딘의 농장에서 일하는 건 정말 힘들어." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300296" Text="이 나이가 되도록 하스레딘의 노예로 살고 있다네." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300297" Text="더스트 코랄의 휴먼들은 다 불쌍한거 같아요. 물론..저도요…." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300298" Text="도와주게. 사막 샤우라가!!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300299" Text="도와주게. 사막 샤우라가!!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300300" Text="사막 샤우라 둥지 어딘가에 진짜 물이 있어요!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300301" Text="키키키~ 사막의 휴먼을 도울 방법을 알려줄게. 더스트 코랄로 와." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300302" Text="키키키~ 사막의 휴먼을 도울 방법을 알려줄게. 더스트 코랄로 와." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300303" Text="더스트 코랄의 휴먼들은 다 불쌍한거 같아요. 물론..저도요…." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300304" Text="더스트 코랄의 휴먼들은 다 불쌍한거 같아요. 물론..저도요…." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300305" Text="알 아미르는 피킨 노예 학대의 중심지야. 나쁜 마티나들…." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300306" Text="알 아미르에 수상한 항아리가 있습니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300307" Text="알 아미르는 피킨 노예 학대의 중심지야. 나쁜 마티나들…." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300308" Text="아, 나는 그저 중앙 오아시스에 산책을 나왔어. 하하..하.." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300309" Text="알 아미르는 피킨 노예 학대의 중심지야. 나쁜 마티나들…." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300310" Text="모래 바람 약탈단 놈들이 납치한 우리 며느리 좀 찾아주세요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300311" Text="모래 바람 약탈단 놈들이 납치한 우리 며느리 좀 찾아주세요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300312" Text="모래 바람 약탈단 놈들이 납치한 우리 며느리 좀 찾아주세요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300313" Text="모래 바람 약탈단 소굴에 네가 찾는 게 있다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300314" Text="모래 바람 약탈단 소굴에 네가 찾는 게 있다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300315" Text="우리 베솔로 여보야를 만나고 싶어요~" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300316" Text="도망친 피킨 노예 친구의 안부가 궁금합니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300317" Text="티롤레 마을 입구에 낡은 봇짐이 떨어져 있습니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300318" Text="티롤레 마을의 이치치카들은 실은 다 착한 사람들이랍니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300319" Text="티롤레 마을의 이치치카들은 실은 다 착한 사람들이랍니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300320" Text="티롤레 마을에서 문제를 일으킬 생각이라면 뒷 일은 책임질 수 없어." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300321" Text="티롤레 마을에 일어난 문제를 한 방에 해결 할 수 있다네!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300322" Text="티롤레 마을의 이치치카들은 실은 다 착한 사람들이랍니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300323" Text="티롤레 마을에는 우리들만 아는 비밀이 있다네~" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300324" Text="잠시 티롤레 마을로 와주겠는가? 도움이 필요하다네." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300325" Text="아 무서워, 사막 항구 유적에 귀신이 나타났어~!!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300326" Text="사막 항구 유적으로 와주시오. 위험에 처한 이들을 도와야 하오." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300327" Text="피리아님을 구해줘~! 사막 항구 유적 안에 갇히셨다고!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300328" Text="사막에 왠 항구 유적이야? 정말 다 이상해!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300329" Text="사막에 왠 항구 유적이야? 정말 다 이상해!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300330" Text="사막에 왠 항구 유적이야? 정말 다 이상해!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300331" Text="사막 항구 유적에 신비한 기운을 풍기는 비석이 있습니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300332" Text="사막에 왠 항구 유적이야? 정말 다 이상해!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300333" Text="사막에는 항구 유적말고 다른 신기한 일들이 있지." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300334" Text="모래 바람 언덕에서 재밌는 일이 벌어지고 있다네. 케케-" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300335" Text="너도 라임을 찾고 있어? 내가 그것에 대해 잘 알고 있지." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300336" Text="흑흑…. 이런 모래 바람이 부는 언덕에서 죽고 싶지 않아요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300337" Text="이런 사기꾼! 모래 바람 언덕으로 와서 사기꾼을 혼내주세요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300338" Text="하마터면 피 같은 돈을 잃을 뻔했어. 모래 바람 언덕으로 와주게." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300339" Text="하마터면 피 같은 돈을 잃을 뻔했어. 모래 바람 언덕으로 와주게." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300340" Text="모래 바람 언덕에서 재밌는 일이 벌어지고 있다네. 케케-" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300341" Text="젠트라토 개미굴로 와주세요. 같이 비밀을 밝혀내요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300342" Text="젠트라토 개미굴로 와주세요. 같이 비밀을 밝혀내요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300343" Text="젠트라토 개미굴 안에서 신기한 기운이 풍겨나오고 있습니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300344" Text="모험가의 도움을 필요로 하는 사람들이 많답니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300345" Text="여- 영광의 잔해로 와주게. 여기 곤란한 일이 생겼어." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300346" Text="여- 영광의 잔해로 와주게. 여기 곤란한 일이 생겼어." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300347" Text="눈에 보이는게 전부가 아니라네. 나를 찾아 오면 알게 될 걸세." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300348" Text="마티나에게 우리 마을을 부순 값을 받아내고 말거야." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300349" Text="눈에 보이는게 전부가 아니라네. 나를 찾아 오면 알게 될 걸세." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300350" Text="눈에 보이는게 전부가 아니라네. 나를 찾아 오면 알게 될 걸세." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300351" Text="라임을 손에 넣은 마티나가 있다고 하는구만. 진짜일까?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300352" Text="마티나 별장지의 아르하딘이 라임을 가지고 있는걸까?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300353" Text="마티나 별장지 주인의 부가 라임과 관련 있는 걸까?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300354" Text="나…나는 아무 것도 보지 못함…. 진짜임." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300355" Text="데이글 제발 정신차려! 누가 와서 데이글을 좀…!!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300356" Text="데이글 제발 정신차려! 누가 와서 데이글을 좀…!!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300357" Text="톨보카를 물리치는데 당신의 힘이 필요합니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300358" Text="귀신소리 숲에서 일어나는 기이한 현상에 대해 밝혀냈습니다!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300359" Text="강인한 자여....../n너의 도움이 필요하다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300360" Text="저기, 혹시 칠흑의 내리막으로 오실 수 있나요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300361" Text="돈벌이가 될만한 일이 있으니 와보지 않겠어?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300362" Text="아지랑이 섬에 온 것을 환영해!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300363" Text="흐잉… 어떻게 하지?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300364" Text="으아악! 내 차밭!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300365" Text="아이고 망하게 생겼네!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300366" Text="울타리가 필요해." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300367" Text="이상한 구멍이 발견됐어!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300368" Text="꺄악!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300369" Text="에구, 또 저질러버렸네." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300370" Text="이런 굉장한 걸 두고 사라진거야?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300371" Text="날 두고 어딜 간거야!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300372" Text="할머니한테 혼나기 전에 어서 와!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300373" Text="너 그러다가 엉덩이 맞는다!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300374" Text="네 이 녀석! 딴길로 새지 말랬지!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300375" Text="할머니가 무서워…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300376" Text="이대로라면 차밭이 엉망이 될거야." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300377" Text="네 이 녀석! 딴길로 새지 말랬지!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300378" Text="너 나한테 볼일 있던거 아니야?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300379" Text="너 나한테 볼일 있던거 아니야?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300380" Text="이봐, 나랑 이야기하다가 어딜 간거야." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300381" Text="이봐, 나랑 이야기하다가 어딜 간거야." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300382" Text="이봐, 나랑 이야기하다가 어딜 간거야." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300383" Text="네 이 녀석! 딴길로 새지 말랬지!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300384" Text="누가 우리 리본 좀 도와주세요!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300385" Text="누가 우리 리본 좀 도와주세요!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300386" Text="나랑 이야기하다 어디 가는거야?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300387" Text="네 이 녀석! 딴길로 새지 말랬지!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300388" Text="할머니 심부름을 잊은건 아니겠지?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300389" Text="낚시는 즐거워." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300390" Text="루나를 찾아야 해." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300391" Text="꺄악! 도와주세요!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300392" Text="집에 가고 싶어…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300393" Text="네 이 녀석! 딴길로 새지 말랬지!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300394" Text="네 이 녀석! 딴길로 새지 말랬지!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300395" Text="이리와봐. 재미있는게 있다니까?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300396" Text="이리와봐. 재미있는게 있다니까?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300397" Text="으악! 페이페이!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300398" Text="마법석을, 아지랑이 섬을 지켜줘." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300399" Text="으히히히…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300400" Text="으히히히, 가만두지 않겠어." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300401" Text="으악! 승질이 나서 정말!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300402" Text="으악! 빨리 안와?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300403" Text="도와줄 친구가 필요해." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300404" Text="이대로라면 같이 추락해버리겠는걸." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300405" Text="마법석을, 아지랑이 섬을 지켜줘." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300406" Text="아직 네가 해야 할 일이 있어." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300407" Text="에헴…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300408" Text="절 무시하시는 겁니까?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300409" Text="절 무시하시는 겁니까?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300410" Text="편지왔어! 편지왔어!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300411" Text="날 도와주게." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300412" Text="너 뭔가 고쳐야 한다고 하지 않았어?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300413" Text="아직 고쳐야 할 게 많다구!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300414" Text="검을 강화하려 했던게 아닌가?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300415" Text="이대로 가면 분명 후회할텐데." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300416" Text="운명은 거스르는 것이 아니야." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300417" Text="음, 오늘은 바람이 좀 찬 것 같네?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300418" Text="벌써 포기한거야?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300419" Text="아우, 심심한데 왜 안오지?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300420" Text="나 같은 미소녀를 무시하는거야?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300421" Text="벌써 지친거야? 그런거야?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300422" Text="나와 함께 보물을 찾기로 약속했잖아!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300423" Text="약속 어기지 말라구." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300424" Text="이리로 오면 내 누나를 소개시켜줄게!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300425" Text="닉키가 딴 짓을 하는건 아니겠지?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300426" Text="너 스승님한테 이른다!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300427" Text="이제 거의 끝나가는데 포기하는거야?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300428" Text="고요함이 네가 올 것을 알려주고 있어." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300429" Text="아직 해야 할 일이 많아." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300430" Text="앞으로 한발이야." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300431" Text="너 혼자서 세상을 살 수는 없어." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300432" Text="고생했으니 칭찬은 받고 가야지?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300433" Text="가장 중요한게 마무리라고 마무리!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300434" Text="흐잉…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300435" Text="으, 머리아파!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300436" Text="도와준건 고맙지만 날 무시하지말라구!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300437" Text="도와줘!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300438" Text="어서 모험을 떠나야지!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300439" Text="에헤헤헤!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300440" Text="음? 언덕위에 누가 있는 것 같은데?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300441" Text="이거 큰일이군…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300442" Text="으악! 이걸 어쩌지?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300443" Text="아까 호수로 갔던 팜 아이는 어찌 된거지?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300444" Text="번개갈취단 녀석들!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300445" Text="재료가 필요해. 재료가." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300446" Text="무, 무섭다응…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300447" Text="아직두 무섭다응…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300448" Text="나에게 볼일이 있던 것이 아닌가?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300449" Text="…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300450" Text="어서 재료를 가져오라구!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300451" Text="기구 수리 상황이 궁금하지 않아?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300452" Text="도움이 필요하구만." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300453" Text="도와주세요!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300454" Text="마린비 녀석들!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300455" Text="잠시 이쪽으로 들러주세요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300456" Text="히익!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300457" Text="히익!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300458" Text="히익!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300459" Text="잠시 이쪽으로 들러주세요." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300460" Text="허허허…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300461" Text="부탁이 있습니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300462" Text="기구 수리가 끝났어! 어서 돌아와!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300463" Text="어이! 거기! 잠깐 나한테 들려봐!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300464" Text="어이! 거기! 잠깐 나한테 들려봐!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300465" Text="모험가여! 도와주십시오!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300466" Text="모험가여! 도와주십시오!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300467" Text="앞으로 더 나아가야만 할 일이 있어." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300468" Text="그린 코랄 마을 안에 신기한 물건이 발견되었다는 소문이 돌고 있습니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300469" Text="쿠니바 마을 안에 대단한 물건이 발견되었다는 소문이 돌고 있습니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300470" Text="나무 할아버지가 이상한 걸 뱉어냈어!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300471" Text="허허허… 잠깐 이리 와보게." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300472" Text="허허허… 잠깐 이리 와보게." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300473" Text="허허허… 잠깐 이리 와보게." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300474" Text="당신에게 볼 일이 있습니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300475" Text="당신에게 볼 일이 있습니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300476" Text="당신에게 볼 일이 있습니다." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300477" Text="허허허… 잠깐 이리 와보게." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300478" Text="허허허… 잠깐 이리 와보게." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300479" Text="허허허… 잠깐 이리 와보게." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300480" Text="크으…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300481" Text="어서 이리 와보세요!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300482" Text="으에에…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300483" Text="크하하핫!!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300484" Text="벌써 시간이 된건가?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300485" Text="아, 왜 안오는거지?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300486" Text="으아! 여기는 왜 이렇게 넓은거야!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300487" Text="고티 젖은 너무 고소해!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300488" Text="우와! 정말 아름다운 곳이야!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300489" Text="나의 괴로움을 해결해주시겠어요?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+</Localization>

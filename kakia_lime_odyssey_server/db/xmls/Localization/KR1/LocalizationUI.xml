@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2011 rel. 2 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Localization>
+	<Message ID="501100001" Text="All" Note_File="chat.xml"/>
+	<Message ID="501100002" Text="Common" Note_File="chat.xml"/>
+	<Message ID="501100003" Text="Party" Note_File="chat.xml"/>
+	<Message ID="501100004" Text="Guild" Note_File="chat.xml"/>
+	<Message ID="501100005" Text="Trade" Note_File="chat.xml"/>
+	<Message ID="502100001" Text="Login" Note_File="login.xml "/>
+	<Message ID="502100002" Text="Website" Note_File="login.xml "/>
+	<Message ID="502100003" Text="Intro" Note_File="login.xml "/>
+	<Message ID="502100004" Text="Game Settings" Note_File="login.xml "/>
+	<Message ID="502100005" Text="Exit" Note_File="login.xml "/>
+	<Message ID="503100001" Text="Confirm" Note_File="mes_conf.xml"/>
+	<Message ID="504100001" Text="Yes" Note_File="mes_yesno.xml"/>
+	<Message ID="504100002" Text="No" Note_File="mes_yesno.xml"/>
+	<Message ID="505100001" Text="^#ff0000 You're wearing an item with less than 20% durability left! When an item's durability reaches zero, its stats aren't applied. Better fix it soon!" Note_File="playerStatus.xml"/>
+	<Message ID="506100001" Text="Change Channel" Note_File="UIChannelChange.xml"/>
+	<Message ID="506100002" Text="Channel List" Note_File="UIChannelChange.xml"/>
+	<Message ID="506100003" Text="Status" Note_File="UIChannelChange.xml"/>
+	<Message ID="506100004" Text="Move" Note_File="UIChannelChange.xml"/>
+	<Message ID="506100005" Text="Cancel" Note_File="UIChannelChange.xml"/>
+	<Message ID="507100001" Text="Exit Game" Note_File="UICharacterSelect.xml"/>
+	<Message ID="507100002" Text="Login Page" Note_File="UICharacterSelect.xml"/>
+	<Message ID="507100003" Text="Create" Note_File="UICharacterSelect.xml"/>
+	<Message ID="507100004" Text="Delete" Note_File="UICharacterSelect.xml"/>
+	<Message ID="508100001" Text="Connect to Game" Note_File="UICharacterSelect_Connect.xml"/>
+	<Message ID="509100001" Text="Character Stats" Note_File="UICommandSlotMenu.xml"/>
+	<Message ID="509100002" Text="Skill Window" Note_File="UICommandSlotMenu.xml"/>
+	<Message ID="509100003" Text="Inventory" Note_File="UICommandSlotMenu.xml"/>
+	<Message ID="509100004" Text="Item Mall" Note_File="UICommandSlotMenu.xml"/>
+	<Message ID="509100005" Text="Command Menu" Note_File="UICommandSlotMenu.xml"/>
+	<Message ID="509100006" Text="System Menu" Note_File="UICommandSlotMenu.xml"/>
+	<Message ID="510100001" Text="Character Info" Note_File="UIEquipment.xml"/>
+	<Message ID="510100002" Text="Equip Title" Note_File="UIEquipment.xml"/>
+	<Message ID="510100003" Text="Remove Title" Note_File="UIEquipment.xml"/>
+	<Message ID="510100004" Text="Preview Costume" Note_File="UIEquipment.xml"/>
+	<Message ID="510100005" Text="Show Costume" Note_File="UIEquipment.xml"/>
+	<Message ID="510100006" Text="Costume Stats" Note_File="UIEquipment.xml"/>
+	<Message ID="510100007" Text="Trade" Note_File="UIEquipment.xml"/>
+	<Message ID="510100008" Text="Battle" Note_File="UIEquipment.xml"/>
+	<Message ID="510100009" Text="Collecting an item will affect your chance of collecting additional items." Note_File="UIEquipment.xml"/>
+	<Message ID="510100010" Text="Affects your chance of success when attempting to collect." Note_File="UIEquipment.xml"/>
+	<Message ID="510100011" Text="Increases Gathering and Crafting speed." Note_File="UIEquipment.xml"/>
+	<Message ID="510100012" Text="Affects your maximum TS increase." Note_File="UIEquipment.xml"/>
+	<Message ID="510100013" Text="Attempting to craft affects your chance of success." Note_File="UIEquipment.xml"/>
+	<Message ID="510100014" Text="Crafting an item will affect your chance of hitting a jackpot." Note_File="UIEquipment.xml"/>
+	<Message ID="510100015" Text="Apply" Note_File="UIEquipment.xml"/>
+	<Message ID="510100016" Text="Cancel" Note_File="UIEquipment.xml"/>
+	<Message ID="510100017" Text="Affects your physical damage and chance to block attacks with a shield." Note_File="UIEquipment.xml"/>
+	<Message ID="510100018" Text="Affects your Maximum HP, HP Regeneration Rate, and Physical Defense." Note_File="UIEquipment.xml"/>
+	<Message ID="510100019" Text="Affects your Physical Critical Hit and Evasion rates." Note_File="UIEquipment.xml"/>
+	<Message ID="510100020" Text="Affects your Accuracy Rate." Note_File="UIEquipment.xml"/>
+	<Message ID="510100021" Text="Affects your Maximum MP, Magic Damage, and Magic Critical Hit Rate." Note_File="UIEquipment.xml"/>
+	<Message ID="510100022" Text="Affects your MP Recovery Speed, Magic Defense, and effectiveness of HP recovery skills on a target." Note_File="UIEquipment.xml"/>
+	<Message ID="510100023" Text="Trade Info" Note_File="UIEquipment.xml"/>
+	<Message ID="510100024" Text="Battle Info" Note_File="UIEquipment.xml"/>
+	<Message ID="510100025" Text="Costume" Note_File="UIEquipment.xml"/>
+	<Message ID="510100026" Text="HP" Note_File="UIEquipment.xml"/>
+	<Message ID="510100027" Text="MP" Note_File="UIEquipment.xml"/>
+	<Message ID="510100028" Text="TS" Note_File="UIEquipment.xml"/>
+	<Message ID="510100029" Text="LV (Level)" Note_File="UIEquipment.xml"/>
+	<Message ID="510100030" Text="Creativity" Note_File="UIEquipment.xml"/>
+	<Message ID="510100031" Text="Smarts" Note_File="UIEquipment.xml"/>
+	<Message ID="510100032" Text="Drive" Note_File="UIEquipment.xml"/>
+	<Message ID="510100033" Text="Attention" Note_File="UIEquipment.xml"/>
+	<Message ID="510100034" Text="Focus" Note_File="UIEquipment.xml"/>
+	<Message ID="510100035" Text="Judgment" Note_File="UIEquipment.xml"/>
+	<Message ID="510100036" Text="Remaining Points" Note_File="UIEquipment.xml"/>
+	<Message ID="510100037" Text="Bonus Drop Rate" Note_File="UIEquipment.xml"/>
+	<Message ID="510100038" Text="Drop Rate" Note_File="UIEquipment.xml"/>
+	<Message ID="510100039" Text="Craft SPD" Note_File="UIEquipment.xml"/>
+	<Message ID="510100040" Text="Max TS" Note_File="UIEquipment.xml"/>
+	<Message ID="510100041" Text="Craft Success Rate" Note_File="UIEquipment.xml"/>
+	<Message ID="510100042" Text="Jackpot Craft Rate" Note_File="UIEquipment.xml"/>
+	<Message ID="510100043" Text="LV" Note_File="UIEquipment.xml"/>
+	<Message ID="510100044" Text="Strength" Note_File="UIEquipment.xml"/>
+	<Message ID="510100045" Text="Vitality" Note_File="UIEquipment.xml"/>
+	<Message ID="510100046" Text="Dexterity" Note_File="UIEquipment.xml"/>
+	<Message ID="510100047" Text="Talent" Note_File="UIEquipment.xml"/>
+	<Message ID="510100048" Text="Intelligence" Note_File="UIEquipment.xml"/>
+	<Message ID="510100049" Text="Wisdom" Note_File="UIEquipment.xml"/>
+	<Message ID="510100050" Text="Attack Speed" Note_File="UIEquipment.xml"/>
+	<Message ID="510100051" Text="Weapon DMG" Note_File="UIEquipment.xml"/>
+	<Message ID="510100052" Text="Phys. DMG" Note_File="UIEquipment.xml"/>
+	<Message ID="510100053" Text="Magic DMG" Note_File="UIEquipment.xml"/>
+	<Message ID="510100054" Text="Phys. Critical Hit" Note_File="UIEquipment.xml"/>
+	<Message ID="510100055" Text="Magic Critical Hit" Note_File="UIEquipment.xml"/>
+	<Message ID="510100056" Text="Accuracy" Note_File="UIEquipment.xml"/>
+	<Message ID="510100057" Text="Phys. Defense" Note_File="UIEquipment.xml"/>
+	<Message ID="510100058" Text="Magic Defense" Note_File="UIEquipment.xml"/>
+	<Message ID="510100059" Text="Evasion" Note_File="UIEquipment.xml"/>
+	<Message ID="510100060" Text="Block" Note_File="UIEquipment.xml"/>
+	<Message ID="511100001" Text="Inventory" Note_File="UIInventory.xml"/>
+	<Message ID="511100002" Text="All" Note_File="UIInventory.xml"/>
+	<Message ID="511100003" Text="Equipment" Note_File="UIInventory.xml"/>
+	<Message ID="511100004" Text="Consumables" Note_File="UIInventory.xml"/>
+	<Message ID="511100005" Text="Quest Items" Note_File="UIInventory.xml"/>
+	<Message ID="511100006" Text="Misc." Note_File="UIInventory.xml"/>
+	<Message ID="511100007" Text="^#00FFFF Hotkey: I" Note_File="UIInventory.xml"/>
+	<Message ID="512100001" Text="^#00FFFF Hotkey: M" Note_File="UIMiniMap.xml"/>
+	<Message ID="512100002" Text="Zoom In" Note_File="UIMiniMap.xml"/>
+	<Message ID="512100003" Text="Zoom Out" Note_File="UIMiniMap.xml"/>
+	<Message ID="512100004" Text="Guide Map" Note_File="UIMiniMap.xml"/>
+	<Message ID="512100005" Text="Adventurer Guild Member" Note_File="UIMiniMap.xml"/>
+	<Message ID="512100006" Text="Merchant" Note_File="UIMiniMap.xml"/>
+	<Message ID="512100007" Text="Trade Instructor" Note_File="UIMiniMap.xml"/>
+	<Message ID="512100008" Text="Greenleaf Healer" Note_File="UIMiniMap.xml"/>
+	<Message ID="513100001" Text="Tree" Note_File="UIMinimapMenu.xml"/>
+	<Message ID="513100002" Text="Plant" Note_File="UIMinimapMenu.xml"/>
+	<Message ID="513100003" Text="Mineral" Note_File="UIMinimapMenu.xml"/>
+	<Message ID="513100004" Text="Ruins" Note_File="UIMinimapMenu.xml"/>
+	<Message ID="514100001" Text="Option" Note_File="UIOption.xml"/>
+	<Message ID="514100002" Text="Show other players' names" Note_File="UIOption.xml"/>
+	<Message ID="514100003" Text="Show my name" Note_File="UIOption.xml"/>
+	<Message ID="514100004" Text="Show monster names" Note_File="UIOption.xml"/>
+	<Message ID="514100005" Text="Show Villager NPC names" Note_File="UIOption.xml"/>
+	<Message ID="514100006" Text="Show Business NPC names" Note_File="UIOption.xml"/>
+	<Message ID="514100007" Text="Show guild names" Note_File="UIOption.xml"/>
+	<Message ID="514100008" Text="Show additional skill bar (CTRL)" Note_File="UIOption.xml"/>
+	<Message ID="514100009" Text="Show additional skill bar (ALT)" Note_File="UIOption.xml"/>
+	<Message ID="514100010" Text="Show one-on-one chat window" Note_File="UIOption.xml"/>
+	<Message ID="514100011" Text="Show Helmet" Note_File="UIOption.xml"/>
+	<Message ID="514100012" Text="Auto Item Looting" Note_File="UIOption.xml"/>
+	<Message ID="514100013" Text="Ignore Whispers" Note_File="UIOption.xml"/>
+	<Message ID="514100014" Text="Ignore trade requests" Note_File="UIOption.xml"/>
+	<Message ID="514100015" Text="Decline guild invitations" Note_File="UIOption.xml"/>
+	<Message ID="514100016" Text="Decline party invitations" Note_File="UIOption.xml"/>
+	<Message ID="514100017" Text="Decline friend requests" Note_File="UIOption.xml"/>
+	<Message ID="514100018" Text="Show Quest Assigner" Note_File="UIOption.xml"/>
+	<Message ID="514100019" Text="Full Screen" Note_File="UIOption.xml"/>
+	<Message ID="514100020" Text="Window Resolution" Note_File="UIOption.xml"/>
+	<Message ID="514100021" Text="UI Size" Note_File="UIOption.xml"/>
+	<Message ID="514100022" Text="Screen Brightness" Note_File="UIOption.xml"/>
+	<Message ID="514100023" Text="Overall Graphic Quality" Note_File="UIOption.xml"/>
+	<Message ID="514100024" Text="Low             Average            High" Note_File="UIOption.xml"/>
+	<Message ID="514100025" Text="Character's Field of View" Note_File="UIOption.xml"/>
+	<Message ID="514100026" Text="Background Field of View" Note_File="UIOption.xml"/>
+	<Message ID="514100027" Text="Game Texture" Note_File="UIOption.xml"/>
+	<Message ID="514100028" Text="Shader Quality" Note_File="UIOption.xml"/>
+	<Message ID="514100029" Text="Light Map Quality" Note_File="UIOption.xml"/>
+	<Message ID="514100030" Text="Post Shader" Note_File="UIOption.xml"/>
+	<Message ID="514100031" Text="Model Shader" Note_File="UIOption.xml"/>
+	<Message ID="514100032" Text="Full Display" Note_File="UIOption.xml"/>
+	<Message ID="514100033" Text="Show Emotions" Note_File="UIOption.xml"/>
+	<Message ID="514100034" Text="Multi Sampling" Note_File="UIOption.xml"/>
+	<Message ID="514100035" Text="Music Volume" Note_File="UIOption.xml"/>
+	<Message ID="514100036" Text="Sound Effect Volume" Note_File="UIOption.xml"/>
+	<Message ID="514100037" Text="Game" Note_File="UIOption.xml"/>
+	<Message ID="514100038" Text="Graphics" Note_File="UIOption.xml"/>
+	<Message ID="514100039" Text="Sound" Note_File="UIOption.xml"/>
+	<Message ID="514100040" Text="Default" Note_File="UIOption.xml"/>
+	<Message ID="514100041" Text="Apply" Note_File="UIOption.xml"/>
+	<Message ID="514100042" Text="100%" Note_File="UIOption.xml"/>
+	<Message ID="514100043" Text="Cancel" Note_File="UIOption.xml"/>
+	<Message ID="514100044" Text="80%           100%          150%" Note_File="UIOption.xml"/>
+	<Message ID="514100045" Text="Mouse Movement" Note_File="UIOption.xml"/>
+	<Message ID="514100046" Text="Mouse Left/Right Click Change" Note_File="UIOption.xml"/>
+	<Message ID="514100047" Text="Show Quest Target" Note_File="UIOption.xml"/>
+	<Message ID="515100001" Text="Party Info" Note_File="UIPartyInfo.xml"/>
+	<Message ID="515100002" Text="Create" Note_File="UIPartyInfo.xml"/>
+	<Message ID="515100003" Text="Loot Settings" Note_File="UIPartyInfo.xml"/>
+	<Message ID="515100004" Text="Reset" Note_File="UIPartyInfo.xml"/>
+	<Message ID="515100005" Text="Invite" Note_File="UIPartyInfo.xml"/>
+	<Message ID="515100006" Text="Kick" Note_File="UIPartyInfo.xml"/>
+	<Message ID="515100007" Text="Choose Lead" Note_File="UIPartyInfo.xml"/>
+	<Message ID="515100008" Text="Leave" Note_File="UIPartyInfo.xml"/>
+	<Message ID="516100001" Text="Please enter the name of the character you wish to invite to the party." Note_File="UIPartyInvitation.xml"/>
+	<Message ID="516100002" Text="OK" Note_File="UIPartyInvitation.xml"/>
+	<Message ID="516100003" Text="Cancel" Note_File="UIPartyInvitation.xml"/>
+	<Message ID="517100001" Text="Please enter the name of the party." Note_File="UIPartyNameMake.xml"/>
+	<Message ID="517100002" Text="OK" Note_File="UIPartyNameMake.xml"/>
+	<Message ID="517100003" Text="Cancel" Note_File="UIPartyNameMake.xml"/>
+	<Message ID="518100001" Text="Distribution Method" Note_File="UIPartySetting.xml"/>
+	<Message ID="518100002" Text="Item Grade" Note_File="UIPartySetting.xml"/>
+	<Message ID="518100003" Text="OK" Note_File="UIPartySetting.xml"/>
+	<Message ID="518100004" Text="Cancel" Note_File="UIPartySetting.xml"/>
+	<Message ID="519100001" Text="Next" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100002" Text="Cancel" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100003" Text="Turga" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100004" Text="Human" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100005" Text="Muris" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100006" Text="Male" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100007" Text="Female" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100008" Text="Race/Gender" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100009" Text="Race Description" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100010" Text="Detail Customization" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100011" Text="Name" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100012" Text="Blacksmith" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100013" Text="Tailor" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100014" Text="Chef" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100015" Text="Tea Maker" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100016" Text="Warrior" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100017" Text="Thief" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100018" Text="Cleric" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100019" Text="Mage" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100020" Text="Trade Class" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100021" Text="Battle Class" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100022" Text="Class Description" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100023" Text="OK" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100024" Text="Hair/nStyle" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100025" Text="Face/nStyle" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100026" Text="Eyebrow/nStyle" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100027" Text="Garment/nType" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100028" Text="Hair/nColor" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100029" Text="Skin/nColor" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100030" Text="Eye/nColor" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100031" Text="Feature" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100032" Text="Cancel" Note_File="UIPcCustom.xml"/>
+	<Message ID="520100001" Text="Quest List" Note_File="UIQuestSystem_QuestList.xml"/>
+	<Message ID="520100002" Text="Story" Note_File="UIQuestSystem_QuestList.xml"/>
+	<Message ID="520100003" Text="Battle" Note_File="UIQuestSystem_QuestList.xml"/>
+	<Message ID="520100004" Text="Trade" Note_File="UIQuestSystem_QuestList.xml"/>
+	<Message ID="521100001" Text="Skill Info" Note_File="UISkillTree.xml"/>
+	<Message ID="521100002" Text="Current LV" Note_File="UISkillTree.xml"/>
+	<Message ID="521100003" Text="Pts. Left" Note_File="UISkillTree.xml"/>
+	<Message ID="521100004" Text="Learn" Note_File="UISkillTree.xml"/>
+	<Message ID="521100005" Text="Cancel" Note_File="UISkillTree.xml"/>
+	<Message ID="521100006" Text="General" Note_File="UISkillTree.xml"/>
+	<Message ID="521100007" Text="Battle" Note_File="UISkillTree.xml"/>
+	<Message ID="521100008" Text="Emotes" Note_File="UISkillTree.xml"/>
+	<Message ID="522100001" Text="System Menu" Note_File="UISystemMenu.xml"/>
+	<Message ID="522100002" Text="^#00FFFF Hotkey: Esc" Note_File="UISystemMenu.xml"/>
+	<Message ID="522100003" Text="Configuration" Note_File="UISystemMenu.xml"/>
+	<Message ID="522100004" Text="Hotkey Settings" Note_File="UISystemMenu.xml"/>
+	<Message ID="522100005" Text="Help Guide" Note_File="UISystemMenu.xml"/>
+	<Message ID="522100006" Text="Change Character" Note_File="UISystemMenu.xml"/>
+	<Message ID="522100007" Text="Change Channel" Note_File="UISystemMenu.xml"/>
+	<Message ID="522100008" Text="Exit Game" Note_File="UISystemMenu.xml"/>
+	<Message ID="523100001" Text="Target" Note_File="UITarget.xml"/>
+	<Message ID="524100001" Text="Server" Note_File="UISeverSelect.xml"/>
+	<Message ID="525100001" Text="Help" Note_File="UIHelpLimeBook.xml"/>
+	<Message ID="525100002" Text="Basic" Note_File="UIHelpLimeBook.xml"/>
+	<Message ID="525100003" Text="Trade" Note_File="UIHelpLimeBook.xml"/>
+	<Message ID="525100004" Text="Battle" Note_File="UIHelpLimeBook.xml"/>
+	<Message ID="525100005" Text="Upgrd." Note_File="UIHelpLimeBook.xml"/>
+	<Message ID="525100006" Text="Misc." Note_File="UIHelpLimeBook.xml"/>
+	<Message ID="526100001" Text="Chat" Note_File="UITalk.xml"/>
+	<Message ID="526100002" Text="OK" Note_File="UITalk.xml"/>
+	<Message ID="526100003" Text="Close" Note_File="UITalk.xml"/>
+	<Message ID="527100001" Text="Shop" Note_File="UIMerchant.xml"/>
+	<Message ID="527100002" Text="Buy" Note_File="UIMerchant.xml"/>
+	<Message ID="527100003" Text="Sell" Note_File="UIMerchant.xml"/>
+	<Message ID="527100004" Text="Current Balance" Note_File="UIMerchant.xml"/>
+	<Message ID="527100005" Text="Total" Note_File="UIMerchant.xml"/>
+	<Message ID="527100006" Text="Buy" Note_File="UIMerchant.xml"/>
+	<Message ID="527100007" Text="Empty" Note_File="UIMerchant.xml"/>
+	<Message ID="527100008" Text="Sell" Note_File="UIMerchant.xml"/>
+	<Message ID="527100009" Text="Empty" Note_File="UIMerchant.xml"/>
+	<Message ID="528100001" Text="Select Amount" Note_File="UIItemCount.xml"/>
+	<Message ID="528100002" Text="Yes" Note_File="UIItemCount.xml"/>
+	<Message ID="528100003" Text="No" Note_File="UIItemCount.xml"/>
+	<Message ID="529100001" Text="Yes" Note_File="mes_yesno_Title2.xml"/>
+	<Message ID="529100002" Text="No" Note_File="mes_yesno_Title2.xml"/>
+	<Message ID="530100001" Text="Mailbox" Note_File="UIPost.xml"/>
+	<Message ID="530100002" Text="Compose Mail" Note_File="UIPost.xml"/>
+	<Message ID="530100003" Text="Sender" Note_File="UIPost.xml"/>
+	<Message ID="530100004" Text="Title" Note_File="UIPost.xml"/>
+	<Message ID="530100005" Text="Days Left" Note_File="UIPost.xml"/>
+	<Message ID="530100006" Text="You can't receive new mail if you don't have enough space." Note_File="UIPost.xml"/>
+	<Message ID="530100007" Text="Mail Space" Note_File="UIPost.xml"/>
+	<Message ID="531100001" Text="Mail" Note_File="UISendPost.xml"/>
+	<Message ID="531100002" Text="Recipient" Note_File="UISendPost.xml"/>
+	<Message ID="531100003" Text="Subject" Note_File="UISendPost.xml"/>
+	<Message ID="531100004" Text="Message" Note_File="UISendPost.xml"/>
+	<Message ID="531100005" Text="Attached Amount" Note_File="UISendPost.xml"/>
+	<Message ID="531100006" Text="Postage Fee" Note_File="UISendPost.xml"/>
+	<Message ID="531100007" Text="Attached Item" Note_File="UISendPost.xml"/>
+	<Message ID="531100008" Text="Rewrite" Note_File="UISendPost.xml"/>
+	<Message ID="531100009" Text="Send" Note_File="UISendPost.xml"/>
+	<Message ID="532100001" Text="Consignment Sales" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100002" Text="Common" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100003" Text="Magic" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100004" Text="Rare" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100005" Text="Unique" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100006" Text="Legend" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100007" Text="Level" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100008" Text="Search" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100009" Text="Reset" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100010" Text="Search Words" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100011" Text="Exact Words" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100012" Text="* Item Category *" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100013" Text="Item Name" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100014" Text="Level" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100015" Text="Sale Price" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100016" Text="Unit Price" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100017" Text="Seller" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100018" Text="Note: You can right-click an item to buy it." Note_File="UITradeAgency.xml"/>
+	<Message ID="532100019" Text="Buy" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100020" Text="Remaining Time" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100021" Text="Note: You can drag and drop items from your inventory to sell them." Note_File="UITradeAgency.xml"/>
+	<Message ID="532100022" Text="Cancel Sales" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100023" Text="Note: Click the Payment button to receive the money from successful sales." Note_File="UITradeAgency.xml"/>
+	<Message ID="532100024" Text="Year 00 Months 00 Days 00" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100025" Text="Payment" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100026" Text="Buy" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100027" Text="Payment" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100028" Text="Sales" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100029" Text="* Item Category *" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100030" Text="* Item Name" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100031" Text="* Level" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100032" Text="* Sale Price" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100033" Text="* Unit Price" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100034" Text="* Item Category *" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100035" Text="* Item Name" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100036" Text="* Level" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100037" Text="* Sale Price" Note_File="UITradeAgency.xml"/>
+	<Message ID="533100001" Text="Quest" Note_File="UIQuestSystem_Acceptance.xml"/>
+	<Message ID="533100002" Text="Finish" Note_File="UIQuestSystem_Acceptance.xml"/>
+	<Message ID="533100003" Text="Accept" Note_File="UIQuestSystem_Acceptance.xml"/>
+	<Message ID="533100004" Text="Decline" Note_File="UIQuestSystem_Acceptance.xml"/>
+	<Message ID="533100005" Text="Close" Note_File="UIQuestSystem_Acceptance.xml"/>
+	<Message ID="534100001" Text="Quest" Note_File="UIQuestSystem_Completion.xml"/>
+	<Message ID="534100002" Text="Finish" Note_File="UIQuestSystem_Completion.xml"/>
+	<Message ID="534100003" Text="Accept" Note_File="UIQuestSystem_Completion.xml"/>
+	<Message ID="534100004" Text="Decline" Note_File="UIQuestSystem_Completion.xml"/>
+	<Message ID="534100005" Text="Close" Note_File="UIQuestSystem_Completion.xml"/>
+	<Message ID="535100001" Text="Looting" Note_File="UILooting.xml"/>
+	<Message ID="535100002" Text="Take All" Note_File="UILooting.xml"/>
+	<Message ID="536100001" Text="Quest" Note_File="UIQuestSystem_DetailedQuest.xml"/>
+	<Message ID="536100002" Text="Finish" Note_File="UIQuestSystem_DetailedQuest.xml"/>
+	<Message ID="536100003" Text="Accept" Note_File="UIQuestSystem_DetailedQuest.xml"/>
+	<Message ID="536100004" Text="Decline" Note_File="UIQuestSystem_DetailedQuest.xml"/>
+	<Message ID="536100005" Text="Close" Note_File="UIQuestSystem_DetailedQuest.xml"/>
+	<Message ID="537100001" Text="Command Menu" Note_File="UICommandMenu.xml"/>
+	<Message ID="538100001" Text="You have died." Note_File="UIDeath.xml"/>
+	<Message ID="538100002" Text="Please choose a revival point." Note_File="UIDeath.xml"/>
+	<Message ID="538100003" Text="Revive from nearest town" Note_File="UIDeath.xml"/>
+	<Message ID="538100004" Text="Revive from saved location" Note_File="UIDeath.xml"/>
+	<Message ID="538100005" Text="Revive on the spot" Note_File="UIDeath.xml"/>
+	<Message ID="539100001" Text="Item Upgrade" Note_File="UIEquipReinforce.xml"/>
+	<Message ID="539100002" Text="You can drag and drop or right-click an item to register it" Note_File="UIEquipReinforce.xml"/>
+	<Message ID="539100003" Text="OK" Note_File="UIEquipReinforce.xml"/>
+	<Message ID="540100001" Text="Hotkey Settings" Note_File="UIKeyboard.xml"/>
+	<Message ID="540100002" Text="Command" Note_File="UIKeyboard.xml"/>
+	<Message ID="540100003" Text="Hotkey" Note_File="UIKeyboard.xml"/>
+	<Message ID="540100004" Text="Secondary" Note_File="UIKeyboard.xml"/>
+	<Message ID="540100005" Text="Default" Note_File="UIKeyboard.xml"/>
+	<Message ID="540100006" Text="OK" Note_File="UIKeyboard.xml"/>
+	<Message ID="540100007" Text="Cancel" Note_File="UIKeyboard.xml"/>
+	<Message ID="540100008" Text="Undesignated" Note_File="UIKeyboard.xml"/>
+	<Message ID="540100009" Text="Undesignated" Note_File="UIKeyboard.xml"/>
+	<Message ID="541100001" Text="Insert a Card" Note_File="UICardInstall.xml"/>
+	<Message ID="541100002" Text="Apply" Note_File="UICardInstall.xml"/>
+	<Message ID="541100003" Text="Cancel" Note_File="UICardInstall.xml"/>
+	<Message ID="542100001" Text="Incubator" Note_File="UIPetIncubator.xml"/>
+	<Message ID="542100002" Text="Time Remaining" Note_File="UIPetIncubator.xml"/>
+	<Message ID="543100001" Text="Do you want to discard this item?" Note_File="UIItemDelSelect.xml"/>
+	<Message ID="543100002" Text="OK" Note_File="UIItemDelSelect.xml"/>
+	<Message ID="543100003" Text="No" Note_File="UIItemDelSelect.xml"/>
+	<Message ID="544100001" Text="[All] Tab Settings" Note_File="ChatPopup.xml"/>
+	<Message ID="544100002" Text="Normal Chat" Note_File="ChatPopup.xml"/>
+	<Message ID="544100003" Text="Party Chat" Note_File="ChatPopup.xml"/>
+	<Message ID="544100004" Text="Guild Chat" Note_File="ChatPopup.xml"/>
+	<Message ID="544100005" Text="Trade Chat" Note_File="ChatPopup.xml"/>
+	<Message ID="544100006" Text="Shout" Note_File="ChatPopup.xml"/>
+	<Message ID="544100007" Text="Whisper" Note_File="ChatPopup.xml"/>
+	<Message ID="544100008" Text="Store" Note_File="ChatPopup.xml"/>
+	<Message ID="544100009" Text="Cancel" Note_File="ChatPopup.xml"/>
+	<Message ID="545100001" Text="Your adventures in Lime Odyssey start with a Trade Class! Learn to make all kinds of items and show off your hand-crafted specialties!" Note_File="LoadingScreen.xml"/>
+	<Message ID="545100002" Text="Trade Class" Note_File="LoadingScreen.xml"/>
+	<Message ID="546100001" Text="Connection Waiting Line" Note_File="LoginTicketing.xml"/>
+	<Message ID="547100001" Text="Title Section" Note_File="mes_yesno_Title.xml"/>
+	<Message ID="547100002" Text="OK" Note_File="mes_yesno_Title.xml"/>
+	<Message ID="547100003" Text="Cancel" Note_File="mes_yesno_Title.xml"/>
+	<Message ID="548100001" Text="Entering /n^#00ffff./Please wait a moment n^#ffff00." Note_File="MissionZoneTicketing.xml"/>
+	<Message ID="549100001" Text="There is no message." Note_File="notify.xml"/>
+	<Message ID="550100001" Text="Equipment" Note_File="quickmenu.xml"/>
+	<Message ID="550100002" Text="Inventory" Note_File="quickmenu.xml"/>
+	<Message ID="550100003" Text="Command" Note_File="quickmenu.xml"/>
+	<Message ID="550100004" Text="System" Note_File="quickmenu.xml"/>
+	<Message ID="551100001" Text="^#00FFFF Hotkey:  K" Note_File="TrainingSkillInfo.xml"/>
+	<Message ID="552100001" Text="Confirm Account Info" Note_File="UIAccountConfirmPopup.xml"/>
+	<Message ID="552100002" Text="Please enter the email address you used when signing up." Note_File="UIAccountConfirmPopup.xml"/>
+	<Message ID="552100003" Text="OK" Note_File="UIAccountConfirmPopup.xml"/>
+	<Message ID="552100004" Text="Cancel" Note_File="UIAccountConfirmPopup.xml"/>
+	<Message ID="553100001" Text="Time Remaining" Note_File="UIAutoPrevent.xml"/>
+	<Message ID="553100002" Text="Click the bomb deactivation code." Note_File="UIAutoPrevent.xml"/>
+	<Message ID="553100003" Text="OK" Note_File="UIAutoPrevent.xml"/>
+	<Message ID="553100004" Text="Reset" Note_File="UIAutoPrevent.xml"/>
+	<Message ID="554100001" Text="Warehouse" Note_File="UIBank.xml"/>
+	<Message ID="554100002" Text="All" Note_File="UIBank.xml"/>
+	<Message ID="554100003" Text="Equipment" Note_File="UIBank.xml"/>
+	<Message ID="554100004" Text="Consumable" Note_File="UIBank.xml"/>
+	<Message ID="554100005" Text="Quest" Note_File="UIBank.xml"/>
+	<Message ID="554100006" Text="Misc." Note_File="UIBank.xml"/>
+	<Message ID="554100007" Text="Deposit" Note_File="UIBank.xml"/>
+	<Message ID="554100008" Text="Withdraw" Note_File="UIBank.xml"/>
+	<Message ID="554100009" Text="Withdraw" Note_File="UIBank.xml"/>
+	<Message ID="554100010" Text="Deposit" Note_File="UIBank.xml"/>
+	<Message ID="555100001" Text="Disable Exclusivity" Note_File="UIBelongingness.xml"/>
+	<Message ID="555100002" Text="Equip an Exclusive-Use Item." Note_File="UIBelongingness.xml"/>
+	<Message ID="555100003" Text="Cancel exclusivity" Note_File="UIBelongingness.xml"/>
+	<Message ID="555100004" Text="Cancel" Note_File="UIBelongingness.xml"/>
+	<Message ID="556100001" Text="Air" Note_File="UIBreathGaugeBar.xml"/>
+	<Message ID="557100001" Text="Delete a Card" Note_File="UICardDel.xml"/>
+	<Message ID="557100002" Text="Cards to be Deleted" Note_File="UICardDel.xml"/>
+	<Message ID="557100003" Text="Choose Card to Delete" Note_File="UICardDel.xml"/>
+	<Message ID="557100004" Text="Description of Cards to be Deleted" Note_File="UICardDel.xml"/>
+	<Message ID="557100005" Text="Fee" Note_File="UICardDel.xml"/>
+	<Message ID="557100006" Text="OK" Note_File="UICardDel.xml"/>
+	<Message ID="557100007" Text="Cancel" Note_File="UICardDel.xml"/>
+	<Message ID="558100001" Text="Costume" Note_File="UICash.xml"/>
+	<Message ID="558100002" Text="Accessory" Note_File="UICash.xml"/>
+	<Message ID="558100003" Text="Consume" Note_File="UICash.xml"/>
+	<Message ID="558100004" Text="Special" Note_File="UICash.xml"/>
+	<Message ID="558100005" Text="Sales" Note_File="UICash.xml"/>
+	<Message ID="558100006" Text="Pet" Note_File="UICash.xml"/>
+	<Message ID="558100007" Text="All" Note_File="UICash.xml"/>
+	<Message ID="558100008" Text="Tops" Note_File="UICash.xml"/>
+	<Message ID="558100009" Text="Bottoms" Note_File="UICash.xml"/>
+	<Message ID="558100010" Text="Hats" Note_File="UICash.xml"/>
+	<Message ID="558100011" Text="Gloves" Note_File="UICash.xml"/>
+	<Message ID="558100012" Text="Shoes" Note_File="UICash.xml"/>
+	<Message ID="558100013" Text="Hot Items" Note_File="UICash.xml"/>
+	<Message ID="558100014" Text="Top 5" Note_File="UICash.xml"/>
+	<Message ID="558100015" Text="Buy" Note_File="UICash.xml"/>
+	<Message ID="558100016" Text="Gift" Note_File="UICash.xml"/>
+	<Message ID="558100017" Text="Cart" Note_File="UICash.xml"/>
+	<Message ID="558100018" Text="Check out New, Popular, and Discounted items here!" Note_File="UICash.xml"/>
+	<Message ID="558100019" Text="Popular Today!" Note_File="UICash.xml"/>
+	<Message ID="558100020" Text="New Today!" Note_File="UICash.xml"/>
+	<Message ID="558100021" Text="Discounted Today!" Note_File="UICash.xml"/>
+	<Message ID="558100022" Text="Add everything you're wearing" Note_File="UICash.xml"/>
+	<Message ID="558100023" Text="Remove all items you're wearing" Note_File="UICash.xml"/>
+	<Message ID="558100024" Text="Cart" Note_File="UICash.xml"/>
+	<Message ID="558100025" Text="Buy All" Note_File="UICash.xml"/>
+	<Message ID="558100026" Text="AP Item Storage" Note_File="UICash.xml"/>
+	<Message ID="558100027" Text="Take All" Note_File="UICash.xml"/>
+	<Message ID="558100028" Text="Aeria Points" Note_File="UICash.xml"/>
+	<Message ID="558100029" Text="Get AP" Note_File="UICash.xml"/>
+	<Message ID="558100030" Text="Buy /n Exit" Note_File="UICash.xml"/>
+	<Message ID="559100001" Text="Please choose the skill tree you wish to reset." Note_File="UICashAffiliationPopUp.xml"/>
+	<Message ID="559100002" Text="OK" Note_File="UICashAffiliationPopUp.xml"/>
+	<Message ID="559100003" Text="Cancel" Note_File="UICashAffiliationPopUp.xml"/>
+	<Message ID="559100004" Text="Choose Class" Note_File="UICashAffiliationPopUp.xml"/>
+	<Message ID="560100001" Text="Buy Item" Note_File="UICashBuy.xml"/>
+	<Message ID="560100002" Text="Remove from List" Note_File="UICashBuy.xml"/>
+	<Message ID="560100003" Text="Current AP" Note_File="UICashBuy.xml"/>
+	<Message ID="560100004" Text="Required AP" Note_File="UICashBuy.xml"/>
+	<Message ID="560100005" Text="Remaining AP" Note_File="UICashBuy.xml"/>
+	<Message ID="560100006" Text="Get AP" Note_File="UICashBuy.xml"/>
+	<Message ID="560100007" Text="Buy" Note_File="UICashBuy.xml"/>
+	<Message ID="560100008" Text="Cancel" Note_File="UICashBuy.xml"/>
+	<Message ID="561100001" Text="Send a Gift" Note_File="UICashPresent.xml"/>
+	<Message ID="561100002" Text="Recipient's Name" Note_File="UICashPresent.xml"/>
+	<Message ID="561100003" Text="Message to Send" Note_File="UICashPresent.xml"/>
+	<Message ID="561100004" Text="Enter Your Password" Note_File="UICashPresent.xml"/>
+	<Message ID="561100005" Text="Current AP" Note_File="UICashPresent.xml"/>
+	<Message ID="561100006" Text="Required AP" Note_File="UICashPresent.xml"/>
+	<Message ID="561100007" Text="Remaining AP" Note_File="UICashPresent.xml"/>
+	<Message ID="561100008" Text="Get AP!" Note_File="UICashPresent.xml"/>
+	<Message ID="561100009" Text="Send a Gift" Note_File="UICashPresent.xml"/>
+	<Message ID="561100010" Text="Cancel" Note_File="UICashPresent.xml"/>
+	<Message ID="562100001" Text="Main" Note_File="UICashShop.xml"/>
+	<Message ID="562100002" Text="Costume" Note_File="UICashShop.xml"/>
+	<Message ID="562100003" Text="Accessory" Note_File="UICashShop.xml"/>
+	<Message ID="562100004" Text="Consume" Note_File="UICashShop.xml"/>
+	<Message ID="562100005" Text="Special" Note_File="UICashShop.xml"/>
+	<Message ID="562100006" Text="Pet" Note_File="UICashShop.xml"/>
+	<Message ID="562100007" Text="Sale" Note_File="UICashShop.xml"/>
+	<Message ID="562100008" Text="All" Note_File="UICashShop.xml"/>
+	<Message ID="562100009" Text="Tops" Note_File="UICashShop.xml"/>
+	<Message ID="562100010" Text="Bottoms" Note_File="UICashShop.xml"/>
+	<Message ID="562100011" Text="Gloves" Note_File="UICashShop.xml"/>
+	<Message ID="562100012" Text="Gloves" Note_File="UICashShop.xml"/>
+	<Message ID="562100013" Text="Shoes" Note_File="UICashShop.xml"/>
+	<Message ID="562100014" Text="Top" Note_File="UICashShop.xml"/>
+	<Message ID="562100015" Text="Middle" Note_File="UICashShop.xml"/>
+	<Message ID="562100016" Text="Bottom" Note_File="UICashShop.xml"/>
+	<Message ID="562100017" Text="All" Note_File="UICashShop.xml"/>
+	<Message ID="562100018" Text="Potions" Note_File="UICashShop.xml"/>
+	<Message ID="562100019" Text="Scrolls" Note_File="UICashShop.xml"/>
+	<Message ID="562100020" Text="Upgrade" Note_File="UICashShop.xml"/>
+	<Message ID="562100021" Text="Other" Note_File="UICashShop.xml"/>
+	<Message ID="562100022" Text="All" Note_File="UICashShop.xml"/>
+	<Message ID="562100023" Text="Costume" Note_File="UICashShop.xml"/>
+	<Message ID="562100024" Text="All" Note_File="UICashShop.xml"/>
+	<Message ID="562100025" Text="All" Note_File="UICashShop.xml"/>
+	<Message ID="562100026" Text="Hot Items" Note_File="UICashShop.xml"/>
+	<Message ID="562100027" Text="Top 5" Note_File="UICashShop.xml"/>
+	<Message ID="562100028" Text="Buy" Note_File="UICashShop.xml"/>
+	<Message ID="562100029" Text="Gift" Note_File="UICashShop.xml"/>
+	<Message ID="562100030" Text="Cart" Note_File="UICashShop.xml"/>
+	<Message ID="562100031" Text="Check out New, Popular, and Discounted items here!" Note_File="UICashShop.xml"/>
+	<Message ID="562100032" Text="Popular Today!" Note_File="UICashShop.xml"/>
+	<Message ID="562100033" Text="New Today!" Note_File="UICashShop.xml"/>
+	<Message ID="562100034" Text="Discounted Today!" Note_File="UICashShop.xml"/>
+	<Message ID="562100035" Text="Add everything you're wearing" Note_File="UICashShop.xml"/>
+	<Message ID="562100036" Text="Remove all items you're wearing" Note_File="UICashShop.xml"/>
+	<Message ID="562100037" Text="Cart" Note_File="UICashShop.xml"/>
+	<Message ID="562100038" Text="Buy All" Note_File="UICashShop.xml"/>
+	<Message ID="562100039" Text="AP Item Storage" Note_File="UICashShop.xml"/>
+	<Message ID="562100040" Text="Take All" Note_File="UICashShop.xml"/>
+	<Message ID="562100041" Text="Aeria Points" Note_File="UICashShop.xml"/>
+	<Message ID="562100042" Text="Get AP" Note_File="UICashShop.xml"/>
+	<Message ID="562100043" Text="Exit" Note_File="UICashShop.xml"/>
+	<Message ID="563100001" Text="Option" Note_File="UIChatRoom.xml"/>
+	<Message ID="563100002" Text="Invite" Note_File="UIChatRoom.xml"/>
+	<Message ID="563100003" Text="Kick" Note_File="UIChatRoom.xml"/>
+	<Message ID="563100004" Text="Exit" Note_File="UIChatRoom.xml"/>
+	<Message ID="564100001" Text="Create Room" Note_File="UIChatRoomMake.xml"/>
+	<Message ID="564100002" Text="Name" Note_File="UIChatRoomMake.xml"/>
+	<Message ID="564100003" Text="Open" Note_File="UIChatRoomMake.xml"/>
+	<Message ID="564100004" Text="Password" Note_File="UIChatRoomMake.xml"/>
+	<Message ID="564100005" Text="Number of Players" Note_File="UIChatRoomMake.xml"/>
+	<Message ID="564100006" Text="OK" Note_File="UIChatRoomMake.xml"/>
+	<Message ID="564100007" Text="Cancel" Note_File="UIChatRoomMake.xml"/>
+	<Message ID="565100001" Text="Search Chat Rooms" Note_File="UIChatRoomSearch.xml"/>
+	<Message ID="565100002" Text="Search" Note_File="UIChatRoomSearch.xml"/>
+	<Message ID="565100003" Text="Update List" Note_File="UIChatRoomSearch.xml"/>
+	<Message ID="565100004" Text="Enter" Note_File="UIChatRoomSearch.xml"/>
+	<Message ID="566100001" Text="Choose a Battle Class" Note_File="UIChoiceCombatJob.xml"/>
+	<Message ID="566100002" Text="Please choose a class and click OK" Note_File="UIChoiceCombatJob.xml"/>
+	<Message ID="566100003" Text="OK" Note_File="UIChoiceCombatJob.xml"/>
+	<Message ID="567100001" Text="Choose a Class" Note_File="UIChoiceLifeJob.xml"/>
+	<Message ID="567100002" Text="OK" Note_File="UIChoiceLifeJob.xml"/>
+	<Message ID="568100001" Text="Social" Note_File="UICommunity.xml"/>
+	<Message ID="568100002" Text="Friends List" Note_File="UICommunity.xml"/>
+	<Message ID="568100003" Text="Ignore List" Note_File="UICommunity.xml"/>
+	<Message ID="568100004" Text="Name" Note_File="UICommunity.xml"/>
+	<Message ID="568100005" Text="Class" Note_File="UICommunity.xml"/>
+	<Message ID="568100006" Text="Class" Note_File="UICommunity.xml"/>
+	<Message ID="568100007" Text="Online" Note_File="UICommunity.xml"/>
+	<Message ID="568100008" Text="Add Friend" Note_File="UICommunity.xml"/>
+	<Message ID="568100009" Text="Remove Friend" Note_File="UICommunity.xml"/>
+	<Message ID="568100010" Text="Whisper" Note_File="UICommunity.xml"/>
+	<Message ID="568100011" Text="Invite to Party" Note_File="UICommunity.xml"/>
+	<Message ID="568100012" Text="Current Ignore List" Note_File="UICommunity.xml"/>
+	<Message ID="568100013" Text="Add to Ignore List" Note_File="UICommunity.xml"/>
+	<Message ID="568100014" Text="Remove from Ignore List" Note_File="UICommunity.xml"/>
+	<Message ID="569100001" Text="Please enter the name of the player you wish to add to your Ignore List." Note_File="UICommunityBlockPopup.xml"/>
+	<Message ID="569100002" Text="Add" Note_File="UICommunityBlockPopup.xml"/>
+	<Message ID="569100003" Text="Cancel" Note_File="UICommunityBlockPopup.xml"/>
+	<Message ID="570100001" Text="Please enter the name of the player you wish to add to your Friends List." Note_File="UICommunityFriendPopup.xml"/>
+	<Message ID="570100002" Text="Add" Note_File="UICommunityFriendPopup.xml"/>
+	<Message ID="570100003" Text="Cancel" Note_File="UICommunityFriendPopup.xml"/>
+	<Message ID="571100001" Text="Change Anniversary" Note_File="UICouple_Anniversary_Modify.xml"/>
+	<Message ID="571100002" Text="Year" Note_File="UICouple_Anniversary_Modify.xml"/>
+	<Message ID="571100003" Text="Month" Note_File="UICouple_Anniversary_Modify.xml"/>
+	<Message ID="571100004" Text="Date" Note_File="UICouple_Anniversary_Modify.xml"/>
+	<Message ID="571100005" Text="Change Anniversary" Note_File="UICouple_Anniversary_Modify.xml"/>
+	<Message ID="572100001" Text="Anniversary Reminder" Note_File="UICouple_Anniversary_Notification.xml"/>
+	<Message ID="572100002" Text="Confirm" Note_File="UICouple_Anniversary_Notification.xml"/>
+	<Message ID="573100001" Text="Register Anniversary" Note_File="UICouple_Anniversary_Registration.xml"/>
+	<Message ID="573100002" Text="Year" Note_File="UICouple_Anniversary_Registration.xml"/>
+	<Message ID="573100003" Text="Month" Note_File="UICouple_Anniversary_Registration.xml"/>
+	<Message ID="573100004" Text="Day" Note_File="UICouple_Anniversary_Registration.xml"/>
+	<Message ID="573100005" Text="Register Anniversary" Note_File="UICouple_Anniversary_Registration.xml"/>
+	<Message ID="574100001" Text="Couple" Note_File="UICouple_Info.xml"/>
+	<Message ID="574100002" Text="Break Up" Note_File="UICouple_Info.xml"/>
+	<Message ID="574100003" Text="Whisper" Note_File="UICouple_Info.xml"/>
+	<Message ID="574100004" Text="Invite to Party" Note_File="UICouple_Info.xml"/>
+	<Message ID="574100005" Text="Register Anniversary" Note_File="UICouple_Info.xml"/>
+	<Message ID="574100006" Text="Change Anniversary" Note_File="UICouple_Info.xml"/>
+	<Message ID="574100007" Text="Delete Anniversary" Note_File="UICouple_Info.xml"/>
+	<Message ID="574100008" Text="Name" Note_File="UICouple_Info.xml"/>
+	<Message ID="574100009" Text="Race" Note_File="UICouple_Info.xml"/>
+	<Message ID="574100010" Text="Trade Class" Note_File="UICouple_Info.xml"/>
+	<Message ID="574100011" Text="Trade Level" Note_File="UICouple_Info.xml"/>
+	<Message ID="574100012" Text="Battle Class" Note_File="UICouple_Info.xml"/>
+	<Message ID="574100013" Text="Battle Level" Note_File="UICouple_Info.xml"/>
+	<Message ID="574100014" Text="Connected/Disconnected" Note_File="UICouple_Info.xml"/>
+	<Message ID="574100015" Text="Date" Note_File="UICouple_Info.xml"/>
+	<Message ID="574100016" Text="Content" Note_File="UICouple_Info.xml"/>
+	<Message ID="574100017" Text="D-Day" Note_File="UICouple_Info.xml"/>
+	<Message ID="574100018" Text="Couple" Note_File="UICouple_Info.xml"/>
+	<Message ID="574100019" Text="Memories" Note_File="UICouple_Info.xml"/>
+	<Message ID="575100001" Text="You were revived by [                                   ]." Note_File="UIDeathPopup.xml"/>
+	<Message ID="575100002" Text="Do you want to be revived?" Note_File="UIDeathPopup.xml"/>
+	<Message ID="575100003" Text="Accept" Note_File="UIDeathPopup.xml"/>
+	<Message ID="575100004" Text="Decline" Note_File="UIDeathPopup.xml"/>
+	<Message ID="576100001" Text="Roll the Dice" Note_File="UIDiceRoller.xml"/>
+	<Message ID="576100002" Text="Roll Dice" Note_File="UIDiceRoller.xml"/>
+	<Message ID="576100003" Text="Give Up" Note_File="UIDiceRoller.xml"/>
+	<Message ID="577100001" Text="Dungeon List" Note_File="UIDungeon.xml"/>
+	<Message ID="577100002" Text="Difficulty Level" Note_File="UIDungeon.xml"/>
+	<Message ID="577100003" Text="Normal" Note_File="UIDungeon.xml"/>
+	<Message ID="577100004" Text="Entry Requirements" Note_File="UIDungeon.xml"/>
+	<Message ID="577100005" Text="[Trade LV]" Note_File="UIDungeon.xml"/>
+	<Message ID="577100006" Text="[Battle LV]" Note_File="UIDungeon.xml"/>
+	<Message ID="577100007" Text="Start" Note_File="UIDungeon.xml"/>
+	<Message ID="578100001" Text="Emoticon List" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100002" Text="/!" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100003" Text="/?" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100004" Text="/..." Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100005" Text="/;" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100006" Text="/>_>" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100007" Text="/T_T" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100008" Text="/OTL" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100009" Text="/Hi" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100010" Text="/Laugh" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100011" Text="/Upset" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100012" Text="/Startled" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100013" Text="/Yuck" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100014" Text="/Disappointed" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100015" Text="/Embarrassed" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100016" Text="/Heart 1" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100017" Text="/Heart 2" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100018" Text="/Happy" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100019" Text="/Scissors" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100020" Text="/Rock" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100021" Text="/Paper" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100022" Text="/One" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100023" Text="/Two" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100024" Text="/Three" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100025" Text="/Four" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100026" Text="/Five" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100027" Text="/Six" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100028" Text="/Hunger" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100029" Text="/Painful" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100030" Text="/Tired" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100031" Text="/100 Points" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="579100001" Text="Farm Produce Info" Note_File="UIFarm.xml"/>
+	<Message ID="579100002" Text="Dissatisfied" Note_File="UIFarm.xml"/>
+	<Message ID="579100003" Text="Hunter" Note_File="UIFarm.xml"/>
+	<Message ID="579100004" Text="10 Years" Note_File="UIFarm.xml"/>
+	<Message ID="579100005" Text="Name" Note_File="UIFarm.xml"/>
+	<Message ID="579100006" Text="Status" Note_File="UIFarm.xml"/>
+	<Message ID="579100007" Text="Satisfaction" Note_File="UIFarm.xml"/>
+	<Message ID="579100008" Text="Lifespan" Note_File="UIFarm.xml"/>
+	<Message ID="579100009" Text="Change Name" Note_File="UIFarm.xml"/>
+	<Message ID="579100010" Text="Feed" Note_File="UIFarm.xml"/>
+	<Message ID="579100011" Text="Heal" Note_File="UIFarm.xml"/>
+	<Message ID="579100012" Text="Harvest" Note_File="UIFarm.xml"/>
+	<Message ID="579100013" Text="Perform Trick" Note_File="UIFarm.xml"/>
+	<Message ID="579100014" Text="OK" Note_File="UIFarm.xml"/>
+	<Message ID="579100015" Text="Growth Stage: 1/9" Note_File="UIFarm.xml"/>
+	<Message ID="580100001" Text="Guild" Note_File="UIGuild.xml"/>
+	<Message ID="580100002" Text="Guild Announcement" Note_File="UIGuild.xml"/>
+	<Message ID="580100003" Text="Guild Member Status" Note_File="UIGuild.xml"/>
+	<Message ID="580100004" Text="Show Online Members" Note_File="UIGuild.xml"/>
+	<Message ID="580100005" Text="Register Emblem" Note_File="UIGuild.xml"/>
+	<Message ID="580100006" Text="Guild Name" Note_File="UIGuild.xml"/>
+	<Message ID="580100007" Text="Guild Ranking" Note_File="UIGuild.xml"/>
+	<Message ID="580100008" Text="Number of Players:" Note_File="UIGuild.xml"/>
+	<Message ID="580100009" Text="Write Announcement" Note_File="UIGuild.xml"/>
+	<Message ID="580100010" Text="Name" Note_File="UIGuild.xml"/>
+	<Message ID="580100011" Text="Class" Note_File="UIGuild.xml"/>
+	<Message ID="580100012" Text="Position" Note_File="UIGuild.xml"/>
+	<Message ID="580100013" Text="Show Trade Class" Note_File="UIGuild.xml"/>
+	<Message ID="580100014" Text="Show Battle Class" Note_File="UIGuild.xml"/>
+	<Message ID="580100015" Text="Guild Skills" Note_File="UIGuild.xml"/>
+	<Message ID="580100016" Text="Invite to Guild" Note_File="UIGuild.xml"/>
+	<Message ID="580100017" Text="Disband Guild" Note_File="UIGuild.xml"/>
+	<Message ID="580100018" Text="Leave Guild" Note_File="UIGuild.xml"/>
+	<Message ID="581100001" Text="Please enter the guild name." Note_File="UIGuildMake.xml"/>
+	<Message ID="581100002" Text="OK" Note_File="UIGuildMake.xml"/>
+	<Message ID="581100003" Text="Cancel" Note_File="UIGuildMake.xml"/>
+	<Message ID="582100001" Text="Member Mgmt." Note_File="UIGuildMemberAdminister.xml"/>
+	<Message ID="582100002" Text="Name" Note_File="UIGuildMemberAdminister.xml"/>
+	<Message ID="582100003" Text="Position" Note_File="UIGuildMemberAdminister.xml"/>
+	<Message ID="582100004" Text="Kick from Guild" Note_File="UIGuildMemberAdminister.xml"/>
+	<Message ID="582100005" Text="OK" Note_File="UIGuildMemberAdminister.xml"/>
+	<Message ID="582100006" Text="Cancel" Note_File="UIGuildMemberAdminister.xml"/>
+	<Message ID="583100001" Text="Info" Note_File="UIGuildMemberInfo.xml"/>
+	<Message ID="583100002" Text="Title" Note_File="UIGuildMemberInfo.xml"/>
+	<Message ID="583100003" Text="Memo" Note_File="UIGuildMemberInfo.xml"/>
+	<Message ID="583100004" Text="Decide" Note_File="UIGuildMemberInfo.xml"/>
+	<Message ID="583100005" Text="Modify" Note_File="UIGuildMemberInfo.xml"/>
+	<Message ID="583100006" Text="Cancel" Note_File="UIGuildMemberInfo.xml"/>
+	<Message ID="583100007" Text="Set Rights" Note_File="UIGuildMemberInfo.xml"/>
+	<Message ID="584100001" Text="Invite a Guild Member" Note_File="UIGuildMemberInvite.xml"/>
+	<Message ID="584100002" Text="Enter ID" Note_File="UIGuildMemberInvite.xml"/>
+	<Message ID="584100003" Text="Enter Invitation Message" Note_File="UIGuildMemberInvite.xml"/>
+	<Message ID="584100004" Text="Invite" Note_File="UIGuildMemberInvite.xml"/>
+	<Message ID="584100005" Text="Cancel" Note_File="UIGuildMemberInvite.xml"/>
+	<Message ID="585100001" Text="Instance Info" Note_File="UIInstance.xml"/>
+	<Message ID="585100002" Text="My Info" Note_File="UIInstance.xml"/>
+	<Message ID="585100003" Text="Instance Dungeon" Note_File="UIInstance.xml"/>
+	<Message ID="585100004" Text="Minimum Number of Players" Note_File="UIInstance.xml"/>
+	<Message ID="585100005" Text="Required Level" Note_File="UIInstance.xml"/>
+	<Message ID="585100006" Text="Standby Time" Note_File="UIInstance.xml"/>
+	<Message ID="585100007" Text="Required Number of Tickets" Note_File="UIInstance.xml"/>
+	<Message ID="585100008" Text="Party Member Info" Note_File="UIInstance.xml"/>
+	<Message ID="585100009" Text="Number of Party Members" Note_File="UIInstance.xml"/>
+	<Message ID="585100010" Text="Level" Note_File="UIInstance.xml"/>
+	<Message ID="585100011" Text="Standby Time" Note_File="UIInstance.xml"/>
+	<Message ID="585100012" Text="Required Number of Tickets" Note_File="UIInstance.xml"/>
+	<Message ID="586100001" Text="Magic Inventory 1" Note_File="UIInventoryCash1.xml"/>
+	<Message ID="586100002" Text="^#00FFFF Hotkey: I" Note_File="UIInventoryCash1.xml"/>
+	<Message ID="587100001" Text="Magic Inventory 2" Note_File="UIInventoryCash2.xml"/>
+	<Message ID="587100002" Text="^#00FFFF Hotkey: I" Note_File="UIInventoryCash2.xml"/>
+	<Message ID="588100001" Text="Magic Inventory 3" Note_File="UIInventoryCash3.xml"/>
+	<Message ID="588100002" Text="^#00FFFF Hotkey: I" Note_File="UIInventoryCash3.xml"/>
+	<Message ID="589100001" Text="Magic Inventory 4" Note_File="UIInventoryCash4.xml"/>
+	<Message ID="589100002" Text="^#00FFFF Hotkey: I" Note_File="UIInventoryCash4.xml"/>
+	<Message ID="590100001" Text="Part/Category" Note_File="UIItemInfo.xml"/>
+	<Message ID="590100002" Text="Material/Class" Note_File="UIItemInfo.xml"/>
+	<Message ID="590100003" Text="Level" Note_File="UIItemInfo.xml"/>
+	<Message ID="590100004" Text="Class" Note_File="UIItemInfo.xml"/>
+	<Message ID="590100005" Text="Properties" Note_File="UIItemInfo.xml"/>
+	<Message ID="590100006" Text="Set" Note_File="UIItemInfo.xml"/>
+	<Message ID="590100007" Text="Attack 150" Note_File="UIItemInfo.xml"/>
+	<Message ID="590100008" Text="Defense 500" Note_File="UIItemInfo.xml"/>
+	<Message ID="590100009" Text="INT +10 (+3)" Note_File="UIItemInfo.xml"/>
+	<Message ID="590100010" Text="STR +10 (+3)" Note_File="UIItemInfo.xml"/>
+	<Message ID="591100001" Text="See Item Info" Note_File="UIItemInfoMenu.xml"/>
+	<Message ID="592100001" Text="Craft" Note_File="UIItemMake.xml"/>
+	<Message ID="592100002" Text="Amount Possessed" Note_File="UIItemMake.xml"/>
+	<Message ID="592100003" Text="Craft Quantity" Note_File="UIItemMake.xml"/>
+	<Message ID="592100004" Text="Required TS" Note_File="UIItemMake.xml"/>
+	<Message ID="592100005" Text="Craft All" Note_File="UIItemMake.xml"/>
+	<Message ID="592100006" Text="Craft" Note_File="UIItemMake.xml"/>
+	<Message ID="592100007" Text="Stop" Note_File="UIItemMake.xml"/>
+	<Message ID="593100001" Text="Treasure Chest" Note_File="UIJewelBox.xml"/>
+	<Message ID="594100001" Text="Delete Rune Jewel" Note_File="UIJewelDelBox.xml"/>
+	<Message ID="595100001" Text="Craft List Window" Note_File="UIJobMake.xml"/>
+	<Message ID="595100002" Text="Number of Times" Note_File="UIJobMake.xml"/>
+	<Message ID="595100003" Text="Crafting" Note_File="UIJobMake.xml"/>
+	<Message ID="595100004" Text="Add Ingredients" Note_File="UIJobMake.xml"/>
+	<Message ID="596100001" Text="List of Hotkeys" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100002" Text="* Action *" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100003" Text="Move Forward" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100004" Text="Move Backward" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100005" Text="Move Right" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100006" Text="Move Left" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100007" Text="Turn Right" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100008" Text="Turn Left" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100009" Text="Jump" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100010" Text="Sit (Rest)" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100011" Text="Auto-Run" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100012" Text="Change Mode" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100013" Text="Activate Burst Gauge" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100014" Text="Follow the Target" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100015" Text="Move to Target" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100016" Text="* Battle *" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100017" Text="Target Self" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100018" Text="Select Target" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100019" Text="Change Target" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100020" Text="Auto-Attack" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100021" Text="Cancel Attack" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100022" Text="Hotkey Set 1" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100023" Text="Hotkey Set 2" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100024" Text="Hotkey Set 3" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100025" Text="* Windows *" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100026" Text="Skill Window" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100027" Text="List of Quests" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100028" Text="See Local Maps" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100029" Text="Character Stats" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100030" Text="Wear Equipment" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100031" Text="Inventory" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100032" Text="Ally" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100033" Text="Messenger" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100034" Text="Start Menu" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100035" Text="* Misc. *" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100036" Text="Default Viewpoint" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100037" Text="Rotate Viewpoint" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100038" Text="Zoom In/Out" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100039" Text="Screenshot" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100040" Text="Turn UI On/Off" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100041" Text="Command Menu" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100042" Text="Command Menu Hotkey" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100043" Text="Type in Chatbox" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100044" Text="Go to Top of Chatbox" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100045" Text="Go to Bottom of Chatbox" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100046" Text="Chatbox Next Tab" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100047" Text="Chatbox Previous Tab" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100048" Text="Chatbox Previous Tab" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="597100001" Text="Select Country" Note_File="UILocalization.xml"/>
+	<Message ID="597100002" Text="Apply" Note_File="UILocalization.xml"/>
+	<Message ID="597100003" Text="Close" Note_File="UILocalization.xml"/>
+	<Message ID="598100001" Text="Create a Party" Note_File="UIMSN.xml"/>
+	<Message ID="598100002" Text="Loot Settings" Note_File="UIMSN.xml"/>
+	<Message ID="598100003" Text="Party Info" Note_File="UIMSN.xml"/>
+	<Message ID="599100001" Text="Chat" Note_File="UINpcInfoMenu.xml"/>
+	<Message ID="599100002" Text="Trade" Note_File="UINpcInfoMenu.xml"/>
+	<Message ID="599100003" Text="Intimacy" Note_File="UINpcInfoMenu.xml"/>
+	<Message ID="599100004" Text="Quest" Note_File="UINpcInfoMenu.xml"/>
+	<Message ID="599100005" Text="Close" Note_File="UINpcInfoMenu.xml"/>
+	<Message ID="600100001" Text="Invited by the Party" Note_File="UIPartyJoinSelect.xml"/>
+	<Message ID="600100002" Text="Decide" Note_File="UIPartyJoinSelect.xml"/>
+	<Message ID="600100003" Text="Cancel" Note_File="UIPartyJoinSelect.xml"/>
+	<Message ID="601100001" Text="Recruit Party Members" Note_File="UIPartyRecruit.xml"/>
+	<Message ID="601100002" Text="Level" Note_File="UIPartyRecruit.xml"/>
+	<Message ID="601100003" Text="Keyword" Note_File="UIPartyRecruit.xml"/>
+	<Message ID="601100004" Text="Search" Note_File="UIPartyRecruit.xml"/>
+	<Message ID="601100005" Text="Message" Note_File="UIPartyRecruit.xml"/>
+	<Message ID="601100006" Text="Party Leader" Note_File="UIPartyRecruit.xml"/>
+	<Message ID="601100007" Text="Number of Players" Note_File="UIPartyRecruit.xml"/>
+	<Message ID="601100008" Text="Level of Players" Note_File="UIPartyRecruit.xml"/>
+	<Message ID="601100009" Text="Trade" Note_File="UIPartyRecruit.xml"/>
+	<Message ID="601100010" Text="Combat" Note_File="UIPartyRecruit.xml"/>
+	<Message ID="601100011" Text="Renew Recruitment Message" Note_File="UIPartyRecruit.xml"/>
+	<Message ID="601100012" Text="Hide Window" Note_File="UIPartyRecruit.xml"/>
+	<Message ID="601100013" Text="Delete Recruitment Message" Note_File="UIPartyRecruit.xml"/>
+	<Message ID="601100014" Text="Post Recruitment Message" Note_File="UIPartyRecruit.xml"/>
+	<Message ID="601100015" Text="Request to Join Party" Note_File="UIPartyRecruit.xml"/>
+	<Message ID="602100001" Text="Invitation to Join Party" Note_File="UIPartyRequest.xml"/>
+	<Message ID="602100002" Text="*Trade" Note_File="UIPartyRequest.xml"/>
+	<Message ID="602100003" Text="*Level" Note_File="UIPartyRequest.xml"/>
+	<Message ID="602100004" Text="*Battle" Note_File="UIPartyRequest.xml"/>
+	<Message ID="602100005" Text="*Level" Note_File="UIPartyRequest.xml"/>
+	<Message ID="602100006" Text=" has invited you to join the party." Note_File="UIPartyRequest.xml"/>
+	<Message ID="602100007" Text="Do you accept?" Note_File="UIPartyRequest.xml"/>
+	<Message ID="602100008" Text="Accept" Note_File="UIPartyRequest.xml"/>
+	<Message ID="602100009" Text="Decline" Note_File="UIPartyRequest.xml"/>
+	<Message ID="603100001" Text="Second Password" Note_File="UIPassword.xml"/>
+	<Message ID="603100002" Text="Please enter a second password for safer connection. /n(6-10 characters long)" Note_File="UIPassword.xml"/>
+	<Message ID="603100003" Text="Enter a New Password" Note_File="UIPassword.xml"/>
+	<Message ID="603100004" Text="Change Character Password" Note_File="UIPassword.xml"/>
+	<Message ID="603100005" Text="Confirm" Note_File="UIPassword.xml"/>
+	<Message ID="604100001" Text="Verify Resident Registration Number" Note_File="UIPasswordRegister.xml"/>
+	<Message ID="604100002" Text="/n Please enter the last 7 digits of your resident registration number." Note_File="UIPasswordRegister.xml"/>
+	<Message ID="604100003" Text="Confirm" Note_File="UIPasswordRegister.xml"/>
+	<Message ID="605100001" Text="Set Secondary Password" Note_File="UIPasswordSetup.xml"/>
+	<Message ID="605100002" Text="Please enter your current password and then a new password. /n(6-10 characters long)" Note_File="UIPasswordSetup.xml"/>
+	<Message ID="605100003" Text="Enter a New Password" Note_File="UIPasswordSetup.xml"/>
+	<Message ID="605100004" Text="Confirm New Password" Note_File="UIPasswordSetup.xml"/>
+	<Message ID="605100005" Text="Confirm" Note_File="UIPasswordSetup.xml"/>
+	<Message ID="606100001" Text="Please choose a class." Note_File="UIPcCustomLastPage.xml"/>
+	<Message ID="607100001" Text="Decide" Note_File="UIPetNameMake.xml"/>
+	<Message ID="607100002" Text="Cancel" Note_File="UIPetNameMake.xml"/>
+	<Message ID="608100001" Text="Pet Mgmt. Window" Note_File="UIPetStatus.xml"/>
+	<Message ID="608100002" Text="Pet Stage" Note_File="UIPetStatus.xml"/>
+	<Message ID="608100003" Text="Pet's Birthday" Note_File="UIPetStatus.xml"/>
+	<Message ID="608100004" Text="Pet's Name" Note_File="UIPetStatus.xml"/>
+	<Message ID="608100005" Text="Pet's Gender" Note_File="UIPetStatus.xml"/>
+	<Message ID="608100006" Text="Pet's Status" Note_File="UIPetStatus.xml"/>
+	<Message ID="608100007" Text="Show Status Message" Note_File="UIPetStatus.xml"/>
+	<Message ID="608100008" Text="Growth Level" Note_File="UIPetStatus.xml"/>
+	<Message ID="608100009" Text="Growth Value" Note_File="UIPetStatus.xml"/>
+	<Message ID="608100010" Text="Skills" Note_File="UIPetStatus.xml"/>
+	<Message ID="608100011" Text="Move Speed" Note_File="UIPetStatus.xml"/>
+	<Message ID="608100012" Text="Hunger" Note_File="UIPetStatus.xml"/>
+	<Message ID="609100001" Text="Summoned Pet" Note_File="UIPetSummon.xml"/>
+	<Message ID="609100002" Text="Pet's Name" Note_File="UIPetSummon.xml"/>
+	<Message ID="609100003" Text="Summon" Note_File="UIPetSummon.xml"/>
+	<Message ID="609100004" Text="Dismiss Summon" Note_File="UIPetSummon.xml"/>
+	<Message ID="610100001" Text="Mail" Note_File="UIPostDetail.xml"/>
+	<Message ID="610100002" Text="Sender" Note_File="UIPostDetail.xml"/>
+	<Message ID="610100003" Text="Subject" Note_File="UIPostDetail.xml"/>
+	<Message ID="610100004" Text="Message" Note_File="UIPostDetail.xml"/>
+	<Message ID="610100005" Text="Attached Item" Note_File="UIPostDetail.xml"/>
+	<Message ID="610100006" Text="Attached Cash" Note_File="UIPostDetail.xml"/>
+	<Message ID="610100007" Text="Reply" Note_File="UIPostDetail.xml"/>
+	<Message ID="610100008" Text="Receive All" Note_File="UIPostDetail.xml"/>
+	<Message ID="610100009" Text="Delete" Note_File="UIPostDetail.xml"/>
+	<Message ID="611100001" Text="Post Recruitment Message" Note_File="UIRecruitRegister_Popup.xml"/>
+	<Message ID="611100002" Text="[Message]" Note_File="UIRecruitRegister_Popup.xml"/>
+	<Message ID="611100003" Text="Post Recruitment Message" Note_File="UIRecruitRegister_Popup.xml"/>
+	<Message ID="611100004" Text="Cancel Recruitment Message" Note_File="UIRecruitRegister_Popup.xml"/>
+	<Message ID="612100001" Text="Post" Note_File="UIRegistrationPopup.xml"/>
+	<Message ID="612100002" Text="Item Name" Note_File="UIRegistrationPopup.xml"/>
+	<Message ID="612100003" Text="Unit Price" Note_File="UIRegistrationPopup.xml"/>
+	<Message ID="612100004" Text="Sale Price" Note_File="UIRegistrationPopup.xml"/>
+	<Message ID="612100005" Text="Fee" Note_File="UIRegistrationPopup.xml"/>
+	<Message ID="612100006" Text="Amount" Note_File="UIRegistrationPopup.xml"/>
+	<Message ID="612100007" Text="The posting fee is non-refundable." Note_File="UIRegistrationPopup.xml"/>
+	<Message ID="612100008" Text="Confirm" Note_File="UIRegistrationPopup.xml"/>
+	<Message ID="612100009" Text="Cancel" Note_File="UIRegistrationPopup.xml"/>
+	<Message ID="613100001" Text="Choose Server" Note_File="UIServerSelectList.xml"/>
+	<Message ID="613100002" Text="Status" Note_File="UIServerSelectList.xml"/>
+	<Message ID="613100003" Text="Choose Server" Note_File="UIServerSelectList.xml"/>
+	<Message ID="613100004" Text="Exit Game" Note_File="UIServerSelectList.xml"/>
+	<Message ID="614100001" Text="Learn Battle Skills" Note_File="UISkillLearnCombat.xml"/>
+	<Message ID="614100002" Text="Battle Skills" Note_File="UISkillLearnCombat.xml"/>
+	<Message ID="614100003" Text="Practice Skills" Note_File="UISkillLearnCombat.xml"/>
+	<Message ID="614100004" Text="Required Level          /" Note_File="UISkillLearnCombat.xml"/>
+	<Message ID="614100005" Text="Learn" Note_File="UISkillLearnCombat.xml"/>
+	<Message ID="615100001" Text="Learn Trade Skills" Note_File="UISkillLearnLife.xml"/>
+	<Message ID="615100002" Text="Trade Skills" Note_File="UISkillLearnLife.xml"/>
+	<Message ID="615100003" Text="Required Level          /" Note_File="UISkillLearnLife.xml"/>
+	<Message ID="615100004" Text="Learn" Note_File="UISkillLearnLife.xml"/>
+	<Message ID="616100001" Text="Extracting" Note_File="UIStuffMake.xml"/>
+	<Message ID="616100002" Text="Required Amount        / Obtained Amount" Note_File="UIStuffMake.xml"/>
+	<Message ID="616100003" Text="Required TS" Note_File="UIStuffMake.xml"/>
+	<Message ID="616100004" Text="Extracting" Note_File="UIStuffMake.xml"/>
+	<Message ID="616100005" Text="Choose Ingredients" Note_File="UIStuffMake.xml"/>
+	<Message ID="617100001" Text="Enter Amount" Note_File="UISumRegisterPopup.xml"/>
+	<Message ID="617100002" Text="Please enter the amount." Note_File="UISumRegisterPopup.xml"/>
+	<Message ID="617100003" Text="Enter Value:" Note_File="UISumRegisterPopup.xml"/>
+	<Message ID="617100004" Text="Confirm" Note_File="UISumRegisterPopup.xml"/>
+	<Message ID="618100001" Text="Trade" Note_File="UITrade.xml"/>
+	<Message ID="618100002" Text="Cancel Registration" Note_File="UITrade.xml"/>
+	<Message ID="618100003" Text="Register" Note_File="UITrade.xml"/>
+	<Message ID="618100004" Text="Trade" Note_File="UITrade.xml"/>
+	<Message ID="619100001" Text="Waiting for the other player to accept trade request." Note_File="UITradeAccept.xml"/>
+	<Message ID="619100002" Text="Accept" Note_File="UITradeAccept.xml"/>
+	<Message ID="619100003" Text="Decline" Note_File="UITradeAccept.xml"/>
+	<Message ID="620100001" Text="Waiting for the other player to accept trade request." Note_File="UITradeWait.xml"/>
+	<Message ID="620100002" Text="Cancel Transaction" Note_File="UITradeWait.xml"/>
+</Localization>

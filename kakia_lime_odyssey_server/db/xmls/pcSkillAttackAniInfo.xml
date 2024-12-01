@@ -1,0 +1,1165 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2008 (http://www.altova.com) by Administrator (SIRIUS) -->
+<PcSkillAttackAniInfo>
+	<Pam>
+		<Male>
+			<PcSkillAttackAniRoot>
+				<PcSkillAttackAni name="Striking Sword" skillId="1" id="2230001" mixId="2230001" duration="1.1" hitTime="0.466">
+					<HitTimeCombo comboId="1" hitTime="0.466"/>
+					<HitTimeCombo comboId="2" hitTime="0.466"/>
+					<HitTimeCombo comboId="3" hitTime="0.466"/>
+					<HitTimeCombo comboId="4" hitTime="0.466"/>
+					<HitTimeCombo comboId="5" hitTime="0.466"/>
+					<HitTimeCombo comboId="6" hitTime="0.466"/>
+					<HitTimeCombo comboId="7" hitTime="0.466"/>
+					<HitTimeCombo comboId="8" hitTime="0.466"/>
+					<HitTimeCombo comboId="9" hitTime="0.466"/>
+					<HitTimeCombo comboId="10" hitTime="0.466"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Titan Crush" skillId="2" id="2230011" mixId="2230011" duration="1.1" hitTime="0.947">
+					<HitTimeCombo comboId="1" hitTime="0.947"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Mission Carry" skillId="8" id="2050005" mixId="2050006" duration="0.933" hitTime="0.9">
+					<HitTimeCombo comboId="1" hitTime="0.9"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Heavy Smashing" skillId="452" id="2230047" mixId="2230047" duration="1.1" hitTime="0.9">
+					<HitTimeCombo comboId="1" hitTime="0.9"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Ignis Dei" skillId="2002" id="2040007" mixId="2040008" duration="0.5" hitTime="0.5">
+					<HitTimeCombo comboId="1" hitTime="0.5"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Medica" skillId="2006" id="2310006" mixId="2310006" duration="0.5" hitTime="0.099">
+					<HitTimeCombo comboId="1" hitTime="0.099"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Gloria" skillId="2009" id="2130001" mixId="2130001" duration="0.5" hitTime="0.7">
+					<HitTimeCombo comboId="1" hitTime="0.7"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Divine Strike" skillId="2454" id="2130001" mixId="2130001" duration="1.467" hitTime="0.7">
+					<HitTimeCombo comboId="1" hitTime="0.7"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Armor Chink" skillId="1002" id="2310001" mixId="2310001" duration="0.933" hitTime="0">
+					<HitTimeCombo comboId="1" hitTime="0"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Double Pain Blow" skillId="1009" id="2230049" mixId="2230049" duration="0.5" hitTime="0.7">
+					<HitTimeCombo comboId="1" hitTime="0.7"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Blow of Reversion" skillId="1010" id="2050005" mixId="2050006" duration="0.933" hitTime="0.9">
+					<HitTimeCombo comboId="1" hitTime="0.9"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Deep Throw" skillId="1454" id="2220005" mixId="2220006" duration="0.933" hitTime="0.166">
+					<HitTimeCombo comboId="1" hitTime="0.166"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Fire Ball" skillId="3007" id="2110001" mixId="2110001" duration="0.933" hitTime="0.538">
+					<HitTimeCombo comboId="1" hitTime="0.538"/>
+				</PcSkillAttackAni>
+			</PcSkillAttackAniRoot>
+			<PcSkillAttackAniByWeaponRoot>
+				<PcSkillAttackAniByWeapon type="0" desc="HAND" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="1" desc="KNIFE" id="2310006" mixId="2310006" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="2" desc="OHAND_SPEAR" id="2310009" mixId="2310009" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="3" desc="OHAND_SWORD" id="2310009" mixId="2310009" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="4" desc="OHAND_AXE" id="2310009" mixId="2310009" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="5" desc="OHAND_MACE" id="2310009" mixId="2310009" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="6" desc="OHAND_STAFF" id="2310009" mixId="2310009" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="7" desc="OHAND_WHIP" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="8" desc="BOOK" id="2170013" mixId="2170013" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="9" desc="THAND_SPEAR" id="2310012" mixId="2310012" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="10" desc="THAND_SWORD" id="2310012" mixId="2310012" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="11" desc="THAND_AXE" id="2310012" mixId="2310012" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="12" desc="THAND_MACE" id="2310012" mixId="2310012" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="13" desc="THAND_STAFF" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="14" desc="THAND_WHIP" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="15" desc="OHAND_GUN" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="16" desc="OHAND_RIFLE" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="17" desc="BOW" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="18" desc="CROSSBOW" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="19" desc="ORB" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="20" desc="WAND" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="21" desc="DHAND_DAGGER" id="2310015" mixId="2310015" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="22" desc="DHAND_SWORD" id="2310018" mixId="2310018" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="23" desc="DHAND_WHIP" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="24" desc="DHAND_GUN" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="25" desc="DHAND" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="26" desc="DHAND_MACE" id="2310018" mixId="2310018" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="27" desc="DHAND_AXE" id="2310018" mixId="2310018" hitTime="0.5"/>
+			</PcSkillAttackAniByWeaponRoot>
+		</Male>
+		<Female>
+			<PcSkillAttackAniRoot>
+				<PcSkillAttackAni name="Striking Sword" skillId="1" id="2230001" mixId="2230001" duration="1.1" hitTime="0.466">
+					<HitTimeCombo comboId="1" hitTime="0.466"/>
+					<HitTimeCombo comboId="2" hitTime="0.466"/>
+					<HitTimeCombo comboId="3" hitTime="0.466"/>
+					<HitTimeCombo comboId="4" hitTime="0.466"/>
+					<HitTimeCombo comboId="5" hitTime="0.466"/>
+					<HitTimeCombo comboId="6" hitTime="0.466"/>
+					<HitTimeCombo comboId="7" hitTime="0.466"/>
+					<HitTimeCombo comboId="8" hitTime="0.466"/>
+					<HitTimeCombo comboId="9" hitTime="0.466"/>
+					<HitTimeCombo comboId="10" hitTime="0.466"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Titan Crush" skillId="2" id="2230011" mixId="2230011" duration="1.1" hitTime="0.947">
+					<HitTimeCombo comboId="1" hitTime="0.947"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Mission Carry" skillId="8" id="2050005" mixId="2050006" duration="0.933" hitTime="0.9">
+					<HitTimeCombo comboId="1" hitTime="0.9"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Heavy Smashing" skillId="452" id="2230047" mixId="2230047" duration="1.1" hitTime="0.9">
+					<HitTimeCombo comboId="1" hitTime="0.9"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Ignis Dei" skillId="2002" id="2040007" mixId="2040008" duration="0.5" hitTime="0.5">
+					<HitTimeCombo comboId="1" hitTime="0.5"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Medica" skillId="2006" id="2310006" mixId="2310006" duration="0.5" hitTime="0.099">
+					<HitTimeCombo comboId="1" hitTime="0.099"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Gloria" skillId="2009" id="2130001" mixId="2130001" duration="0.5" hitTime="0.7">
+					<HitTimeCombo comboId="1" hitTime="0.7"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Divine Strike" skillId="2454" id="2130001" mixId="2130001" duration="1.467" hitTime="0.7">
+					<HitTimeCombo comboId="1" hitTime="0.7"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Armor Chink" skillId="1002" id="2310001" mixId="2310001" duration="0.933" hitTime="0">
+					<HitTimeCombo comboId="1" hitTime="0"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Double Pain Blow" skillId="1009" id="2230049" mixId="2230049" duration="0.5" hitTime="0.7">
+					<HitTimeCombo comboId="1" hitTime="0.7"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Blow of Reversion" skillId="1010" id="2050005" mixId="2050006" duration="0.933" hitTime="0.9">
+					<HitTimeCombo comboId="1" hitTime="0.9"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Deep Throw" skillId="1454" id="2220005" mixId="2220006" duration="0.933" hitTime="0.166">
+					<HitTimeCombo comboId="1" hitTime="0.166"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Fire Ball" skillId="3007" id="2110001" mixId="2110001" duration="0.933" hitTime="0.538">
+					<HitTimeCombo comboId="1" hitTime="0.538"/>
+				</PcSkillAttackAni>
+			</PcSkillAttackAniRoot>
+			<PcSkillAttackAniByWeaponRoot>
+				<PcSkillAttackAniByWeapon type="0" desc="HAND" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="1" desc="KNIFE" id="2310006" mixId="2310006" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="2" desc="OHAND_SPEAR" id="2310009" mixId="2310009" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="3" desc="OHAND_SWORD" id="2310009" mixId="2310009" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="4" desc="OHAND_AXE" id="2310009" mixId="2310009" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="5" desc="OHAND_MACE" id="2310009" mixId="2310009" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="6" desc="OHAND_STAFF" id="2310009" mixId="2310009" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="7" desc="OHAND_WHIP" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="8" desc="BOOK" id="2170013" mixId="2170013" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="9" desc="THAND_SPEAR" id="2310012" mixId="2310012" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="10" desc="THAND_SWORD" id="2310012" mixId="2310012" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="11" desc="THAND_AXE" id="2310012" mixId="2310012" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="12" desc="THAND_MACE" id="2310012" mixId="2310012" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="13" desc="THAND_STAFF" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="14" desc="THAND_WHIP" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="15" desc="OHAND_GUN" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="16" desc="OHAND_RIFLE" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="17" desc="BOW" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="18" desc="CROSSBOW" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="19" desc="ORB" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="20" desc="WAND" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="21" desc="DHAND_DAGGER" id="2310015" mixId="2310015" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="22" desc="DHAND_SWORD" id="2310018" mixId="2310018" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="23" desc="DHAND_WHIP" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="24" desc="DHAND_GUN" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="25" desc="DHAND" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="26" desc="DHAND_MACE" id="2310018" mixId="2310018" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="27" desc="DHAND_AXE" id="2310018" mixId="2310018" hitTime="0.5"/>
+			</PcSkillAttackAniByWeaponRoot>
+		</Female>
+	</Pam>
+	<Human>
+		<Male>
+			<PcSkillAttackAniRoot>
+				<PcSkillAttackAni name="Striking Sword" skillId="1" id="2230001" mixId="2230001" duration="1.1" hitTime="0.51">
+					<HitTimeCombo comboId="1" hitTime="0.51"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Titan Crush" skillId="2" id="2230011" mixId="2230011" duration="1.1" hitTime="0.947">
+					<HitTimeCombo comboId="1" hitTime="0.947"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Heavy Blow" skillId="3" id="6110001" mixId="2230047" duration="1.333" hitTime="0.560">
+					<HitTimeCombo comboId="1" hitTime="0.560"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Limit Breaker" skillId="4" id="2050005" mixId="2050006" duration="0.933" hitTime="0.9">
+					<HitTimeCombo comboId="1" hitTime="0.9"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Mission Carry" skillId="5" id="2050005" mixId="2050006" duration="0.933" hitTime="0.9">
+					<HitTimeCombo comboId="1" hitTime="0.9"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Defense Carry" skillId="6" id="2050005" mixId="2050006" duration="0.933" hitTime="0.9">
+					<HitTimeCombo comboId="1" hitTime="0.9"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Elemental Carry" skillId="7" id="2050005" mixId="2050006" duration="0.933" hitTime="0.9">
+					<HitTimeCombo comboId="1" hitTime="0.9"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Dash" skillId="8" id="2230001" mixId="2230001" duration="1.1" hitTime="0.466">
+					<HitTimeCombo comboId="1" hitTime="0.466"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Face Blow" skillId="9" id="2230047" mixId="2230047" duration="1.1" hitTime="0.9">
+					<HitTimeCombo comboId="1" hitTime="0.9"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Blocking" skillId="10" id="2230007" mixId="2230001" duration="0.38" hitTime="0.600">
+					<HitTimeCombo comboId="1" hitTime="0.600"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Provoke" skillId="11" id="2120001" mixId="2230001" duration="0.5" hitTime="0.45">
+					<HitTimeCombo comboId="1" hitTime="0.45"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Assault Slash" skillId="12" id="6120001" mixId="2230001" duration="0.5" hitTime="0.285">
+					<HitTimeCombo comboId="1" hitTime="0.285"/>
+					<HitTimeCombo comboId="2" hitTime="0.419"/>
+					<HitTimeCombo comboId="3" hitTime="0.663"/>
+					<HitTimeCombo comboId="4" hitTime="0.862"/>
+					<HitTimeCombo comboId="5" hitTime="1.255"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Hard Spin" skillId="13" id="6130001" mixId="2230001" duration="0.5" hitTime="0.580">
+					<HitTimeCombo comboId="1" hitTime="0.580"/>
+					<HitTimeCombo comboId="2" hitTime="0.790"/>
+					<HitTimeCombo comboId="3" hitTime="1.025"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Trifle Slash" skillId="14" id="6140001" mixId="2230001" duration="0.5" hitTime="0.593">
+					<HitTimeCombo comboId="1" hitTime="0.593"/>
+					<HitTimeCombo comboId="2" hitTime="0.932"/>
+					<HitTimeCombo comboId="3" hitTime="1.590"/>
+					<HitTimeCombo comboId="4" hitTime="1.680"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Sharp Cutter" skillId="1001" id="2310006" mixId="2040008" duration="0.933" hitTime="0.64">
+					<HitTimeCombo comboId="1" hitTime="0.64"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Rolling Slash" skillId="1002" id="2310009" mixId="2040008" duration="0.933" hitTime="0.495">
+					<HitTimeCombo comboId="1" hitTime="0.495"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Burning Life" skillId="1003" id="2310015" mixId="2040008" duration="0.933" hitTime="0.515">
+					<HitTimeCombo comboId="1" hitTime="0.515"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Double Pain Blow" skillId="1004" id="2230049" mixId="2230049" duration="0.5" hitTime="0.7">
+					<HitTimeCombo comboId="1" hitTime="0.7"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Kick of Silence" skillId="1005" id="6020001" mixId="2040008" duration="0.933" hitTime="0.4">
+					<HitTimeCombo comboId="1" hitTime="0.4"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Disgrace Hit" skillId="1006" id="2230001" mixId="2230001" duration="0.933" hitTime="0.466">
+					<HitTimeCombo comboId="1" hitTime="0.466"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Shadow Trinity" skillId="1007" id="6020002" mixId="2230049" duration="0.5" hitTime="0.28">
+					<HitTimeCombo comboId="1" hitTime="0.28"/>
+					<HitTimeCombo comboId="2" hitTime="0.68"/>
+					<HitTimeCombo comboId="3" hitTime="1.25"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Pierce" skillId="1008" id="6210001" mixId="2230001" duration="0.5" hitTime="0.333">
+					<HitTimeCombo comboId="1" hitTime="0.333"/>
+					<HitTimeCombo comboId="2" hitTime="0.504"/>
+					<HitTimeCombo comboId="3" hitTime="0.666"/>
+					<HitTimeCombo comboId="4" hitTime="0.826"/>
+					<HitTimeCombo comboId="5" hitTime="0.995"/>
+					<HitTimeCombo comboId="6" hitTime="1.167"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Spinning Kick" skillId="1009" id="6220001" mixId="2230001" duration="0.5" hitTime="0.770">
+					<HitTimeCombo comboId="1" hitTime="0.770"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Sprint " skillId="1010" id="2120001" mixId="2230001" duration="0.5" hitTime="0.45">
+					<HitTimeCombo comboId="1" hitTime="0.45"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Oratio" skillId="2001" id="2120001" mixId="2230049" duration="0.933" hitTime="0.535">
+					<HitTimeCombo comboId="1" hitTime="0.535"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Ignis Dei" skillId="2002" id="2120001" mixId="2040008" duration="0.933" hitTime="0.535">
+					<HitTimeCombo comboId="1" hitTime="0.535"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Credo" skillId="2003" id="2120001" mixId="2130001" duration="0.5" hitTime="0.45">
+					<HitTimeCombo comboId="1" hitTime="0.45"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Remedium" skillId="2004" id="2120001" mixId="2130001" duration="0.5" hitTime="0.45">
+					<HitTimeCombo comboId="1" hitTime="0.45"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Manus Vitae" skillId="2005" id="2120001" mixId="2130001" duration="0.5" hitTime="0.45">
+					<HitTimeCombo comboId="1" hitTime="0.45"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Medica" skillId="2006" id="2130001" mixId="2310006" duration="0.5" hitTime="0.7">
+					<HitTimeCombo comboId="1" hitTime="0.7"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Manus Domini" skillId="2007" id="2130001" mixId="2310006" duration="0.5" hitTime="0.7">
+					<HitTimeCombo comboId="1" hitTime="0.7"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Magnus Medica" skillId="2008" id="2130001" mixId="2310006" duration="0.5" hitTime="0.7">
+					<HitTimeCombo comboId="1" hitTime="0.7"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Gloria" skillId="2009" id="2130001" mixId="2130001" duration="0.5" hitTime="0.7">
+					<HitTimeCombo comboId="1" hitTime="0.7"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Crucifixio" skillId="2010" id="2120001" mixId="2130001" duration="0.5" hitTime="0.45">
+					<HitTimeCombo comboId="1" hitTime="0.45"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Illuminatio" skillId="2011" id="2130001" mixId="2130001" duration="0.5" hitTime="0.7">
+					<HitTimeCombo comboId="1" hitTime="0.7"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Sanctus" skillId="2012" id="2120001" mixId="2130001" duration="0.5" hitTime="0.45">
+					<HitTimeCombo comboId="1" hitTime="0.45"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Apocalypse" skillId="2013" id="6080002" mixId="2130001" duration="0.5" hitTime="0.92">
+					<HitTimeCombo comboId="1" hitTime="0.92"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Repent" skillId="2014" id="2120001" mixId="2130001" duration="0.5" hitTime="0.7">
+					<HitTimeCombo comboId="1" hitTime="0.7"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Judgment" skillId="2015" id="2120001" mixId="2130001" duration="0.5" hitTime="0.7">
+					<HitTimeCombo comboId="1" hitTime="0.7"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Body Purify" skillId="2016" id="2130001" mixId="2310006" duration="0.5" hitTime="0.45">
+					<HitTimeCombo comboId="1" hitTime="0.45"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Mind Purify" skillId="2017" id="2130001" mixId="2310006" duration="0.5" hitTime="0.45">
+					<HitTimeCombo comboId="1" hitTime="0.45"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Mana Strike" skillId="3001" id="2120001" mixId="2230049" duration="0.933" hitTime="0.833">
+					<HitTimeCombo comboId="1" hitTime="0.833"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Physical Barrier" skillId="3002" id="2130001" mixId="2130001" duration="0.5" hitTime="0.7">
+					<HitTimeCombo comboId="1" hitTime="0.7"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Wind Barrier" skillId="3003" id="2130001" mixId="2130001" duration="0.5" hitTime="0.7">
+					<HitTimeCombo comboId="1" hitTime="0.7"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Lightning Spark" skillId="3004" id="2120001" mixId="2130001" duration="0.5" hitTime="0.45">
+					<HitTimeCombo comboId="1" hitTime="0.45"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Wind Mangling" skillId="3005" id="2120001" mixId="2130001" duration="0.5" hitTime="0.45">
+					<HitTimeCombo comboId="1" hitTime="0.45"/>
+					<HitTimeCombo comboId="2" hitTime="0.65"/>
+					<HitTimeCombo comboId="3" hitTime="0.85"/>
+					<HitTimeCombo comboId="4" hitTime="1.05"/>
+					<HitTimeCombo comboId="5" hitTime="1.25"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Gravitation Airraid" skillId="3006" id="2120001" mixId="2130001" duration="0.5" hitTime="0.0">
+					<HitTimeCombo comboId="1" hitTime="0.0"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Water Barrier" skillId="3007" id="2130001" mixId="2130001" duration="0.5" hitTime="0.7">
+					<HitTimeCombo comboId="1" hitTime="0.7"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Ice Grenade" skillId="3008" id="2120001" mixId="2130001" duration="0.5" hitTime="0.0">
+					<HitTimeCombo comboId="1" hitTime="0.0"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Frozen Hedgehog" skillId="3009" id="6080002" mixId="2130001" duration="0.5" hitTime="0.92">
+					<HitTimeCombo comboId="1" hitTime="0.92"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Absolute Zero" skillId="3010" id="2120001" mixId="2130001" duration="0.5" hitTime="0.45">
+					<HitTimeCombo comboId="1" hitTime="0.45"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Physical Bolt" skillId="3011" id="6010002" mixId="2120001" duration="0.5" hitTime="0.0">
+					<HitTimeCombo comboId="1" hitTime="1.1"/>
+					<HitTimeCombo comboId="2" hitTime="1.3"/>
+					<HitTimeCombo comboId="3" hitTime="1.5"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Teleport" skillId="3012" id="2130001" mixId="2310006" duration="0.5" hitTime="0.45">
+					<HitTimeCombo comboId="1" hitTime="0.45"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="OreBreak" skillId="102001" id="1110006" mixId="200000" duration="1" hitTime="1">
+					<HitTimeCombo comboId="1" hitTime="1"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="GetWool" skillId="112001" id="1110004" mixId="200002" duration="1" hitTime="1">
+					<HitTimeCombo comboId="1" hitTime="1"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="GetLeather" skillId="112002" id="1110004" mixId="200002" duration="1" hitTime="1">
+					<HitTimeCombo comboId="1" hitTime="1"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="ButcherCutting" skillId="122001" id="1110004" mixId="200002" duration="1" hitTime="1">
+					<HitTimeCombo comboId="1" hitTime="1"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="GetVegetables" skillId="122004" id="1110004" mixId="200002" duration="1" hitTime="1">
+					<HitTimeCombo comboId="1" hitTime="1"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="WaterExtraction" skillId="132001" id="1110001" mixId="200001" duration="1" hitTime="1">
+					<HitTimeCombo comboId="1" hitTime="1"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="UseItemHP" skillId="260001" id="1020001" mixId="1020001" duration="0.0" hitTime="0.0">
+					<HitTimeCombo comboId="1" hitTime="0.0"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="UseItemMP" skillId="260002" id="1020001" mixId="1020001" duration="0.0" hitTime="0.0">
+					<HitTimeCombo comboId="1" hitTime="0.0"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="UseItemSP" skillId="260003" id="1020001" mixId="1020001" duration="0.0" hitTime="0.0">
+					<HitTimeCombo comboId="1" hitTime="0.0"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="[PC]UseItemFood" skillId="260007" id="1020001" mixId="1020001" duration="0.0" hitTime="0.0">
+					<HitTimeCombo comboId="1" hitTime="0.0"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="[PC]UseItemDrink " skillId="260008" id="1020001" mixId="1020001" duration="0.0" hitTime="0.0">
+					<HitTimeCombo comboId="1" hitTime="0.0"/>
+				</PcSkillAttackAni>
+			</PcSkillAttackAniRoot>
+			<PcSkillAttackAniByWeaponRoot>
+				<PcSkillAttackAniByWeapon type="0" desc="HAND" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="1" desc="KNIFE" id="2310006" mixId="2310006" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="2" desc="OHAND_SPEAR" id="2310009" mixId="2310009" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="3" desc="OHAND_SWORD" id="2310009" mixId="2310009" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="4" desc="OHAND_AXE" id="2310009" mixId="2310009" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="5" desc="OHAND_MACE" id="2310009" mixId="2310009" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="6" desc="OHAND_STAFF" id="2310009" mixId="2310009" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="7" desc="OHAND_WHIP" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="8" desc="BOOK" id="2170013" mixId="2170013" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="9" desc="THAND_SPEAR" id="2310012" mixId="2310012" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="10" desc="THAND_SWORD" id="2310012" mixId="2310012" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="11" desc="THAND_AXE" id="2310012" mixId="2310012" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="12" desc="THAND_MACE" id="2310012" mixId="2310012" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="13" desc="THAND_STAFF" id="2310012" mixId="2310012" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="14" desc="THAND_WHIP" id="2310012" mixId="2310012" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="15" desc="OHAND_GUN" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="16" desc="OHAND_RIFLE" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="17" desc="BOW" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="18" desc="CROSSBOW" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="19" desc="ORB" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="20" desc="WAND" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="21" desc="DHAND_DAGGER" id="2310015" mixId="2310015" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="22" desc="DHAND_SWORD" id="2310018" mixId="2310018" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="23" desc="DHAND_WHIP" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="24" desc="DHAND_GUN" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="25" desc="DHAND" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="26" desc="DHAND_MACE" id="2310018" mixId="2310018" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="27" desc="DHAND_AXE" id="2310018" mixId="2310018" hitTime="0.5"/>
+			</PcSkillAttackAniByWeaponRoot>
+		</Male>
+		<Female>
+			<PcSkillAttackAniRoot>
+				<PcSkillAttackAni name="Striking Sword" skillId="1" id="2230001" mixId="2230001" duration="1.1" hitTime="0.14">
+					<HitTimeCombo comboId="1" hitTime="0.14"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Titan Crush" skillId="2" id="2230011" mixId="2230011" duration="1.1" hitTime="1.033">
+					<HitTimeCombo comboId="1" hitTime="1.033"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Heavy Blow" skillId="3" id="6110001" mixId="2230047" duration="1.333" hitTime="0.704">
+					<HitTimeCombo comboId="1" hitTime="0.704"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Limit Breaker" skillId="4" id="2050005" mixId="2050006" duration="0.933" hitTime="0.966">
+					<HitTimeCombo comboId="1" hitTime="0.966"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Mission Carry" skillId="5" id="2050005" mixId="2050006" duration="0.933" hitTime="0.966">
+					<HitTimeCombo comboId="1" hitTime="0.966"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Defense Carry" skillId="6" id="2050005" mixId="2050006" duration="0.933" hitTime="0.966">
+					<HitTimeCombo comboId="1" hitTime="0.966"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Elemental Carry" skillId="7" id="2050005" mixId="2050006" duration="0.933" hitTime="0.966">
+					<HitTimeCombo comboId="1" hitTime="0.966"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Dash" skillId="8" id="2230001" mixId="2230001" duration="1.1" hitTime="0.466">
+					<HitTimeCombo comboId="1" hitTime="0.466"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Face Blow" skillId="9" id="2230047" mixId="2230047" duration="1.1" hitTime="0.9">
+					<HitTimeCombo comboId="1" hitTime="0.9"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Blocking" skillId="10" id="2230007" mixId="2230001" duration="0.38" hitTime="0.215">
+					<HitTimeCombo comboId="1" hitTime="0.215"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Provoke" skillId="11" id="2120001" mixId="2230001" duration="0.5" hitTime="0.45">
+					<HitTimeCombo comboId="1" hitTime="0.378"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Assault Slash" skillId="12" id="6120001" mixId="2230001" duration="0.5" hitTime="0.360">
+					<HitTimeCombo comboId="1" hitTime="0.360"/>
+					<HitTimeCombo comboId="2" hitTime="0.492"/>
+					<HitTimeCombo comboId="3" hitTime="0.693"/>
+					<HitTimeCombo comboId="4" hitTime="0.800"/>
+					<HitTimeCombo comboId="5" hitTime="0.960"/>
+					<HitTimeCombo comboId="6" hitTime="1.060"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Hard Spin" skillId="13" id="6130001" mixId="2230001" duration="0.5" hitTime="0.410">
+					<HitTimeCombo comboId="1" hitTime="0.410"/>
+					<HitTimeCombo comboId="2" hitTime="0.580"/>
+					<HitTimeCombo comboId="3" hitTime="0.775"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Trifle Slash" skillId="14" id="6140001" mixId="2230001" duration="0.5" hitTime="0.450">
+					<HitTimeCombo comboId="1" hitTime="0.450"/>
+					<HitTimeCombo comboId="2" hitTime="0.864"/>
+					<HitTimeCombo comboId="3" hitTime="1.495"/>
+					<HitTimeCombo comboId="4" hitTime="1.565"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Sharp Cutter" skillId="1001" id="2310006" mixId="2040008" duration="0.933" hitTime="0.45">
+					<HitTimeCombo comboId="1" hitTime="0.45"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Rolling Slash" skillId="1002" id="2310009" mixId="2040008" duration="0.933" hitTime="0.21">
+					<HitTimeCombo comboId="1" hitTime="0.21"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Burning Life" skillId="1003" id="2310015" mixId="2040008" duration="0.933" hitTime="0.12">
+					<HitTimeCombo comboId="1" hitTime="0.12"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Double Pain Blow" skillId="1004" id="2230049" mixId="2230049" duration="0.5" hitTime="0.7">
+					<HitTimeCombo comboId="1" hitTime="0.7"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Kick of Silence" skillId="1005" id="6020001" mixId="2040008" duration="0.933" hitTime="0.35">
+					<HitTimeCombo comboId="1" hitTime="0.35"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Disgrace Hit" skillId="1006" id="2230001" mixId="2230001" duration="0.933" hitTime="0.14">
+					<HitTimeCombo comboId="1" hitTime="0.14"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Shadow Trinity" skillId="1007" id="6020002" mixId="2230049" duration="0.5" hitTime="0.28">
+					<HitTimeCombo comboId="1" hitTime="0.28"/>
+					<HitTimeCombo comboId="2" hitTime="0.73"/>
+					<HitTimeCombo comboId="3" hitTime="1.25"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Pierce" skillId="1008" id="6210001" mixId="2230001" duration="0.5" hitTime="0.255">
+					<HitTimeCombo comboId="1" hitTime="0.255"/>
+					<HitTimeCombo comboId="2" hitTime="0.460"/>
+					<HitTimeCombo comboId="3" hitTime="0.630"/>
+					<HitTimeCombo comboId="4" hitTime="0.800"/>
+					<HitTimeCombo comboId="5" hitTime="0.993"/>
+					<HitTimeCombo comboId="6" hitTime="1.133"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Spinning Kick" skillId="1009" id="6220001" mixId="2230001" duration="0.5" hitTime="0.870">
+					<HitTimeCombo comboId="1" hitTime="0.870"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Sprint " skillId="1010" id="2120001" mixId="2230001" duration="0.5" hitTime="0.45">
+					<HitTimeCombo comboId="1" hitTime="0.45"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Oratio" skillId="2001" id="2120001" mixId="2230049" duration="0.933" hitTime="0.535">
+					<HitTimeCombo comboId="1" hitTime="0.535"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Ignis Dei" skillId="2002" id="2120001" mixId="2040008" duration="0.933" hitTime="0.535">
+					<HitTimeCombo comboId="1" hitTime="0.535"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Credo" skillId="2003" id="2120001" mixId="2130001" duration="0.5" hitTime="0.5">
+					<HitTimeCombo comboId="1" hitTime="0.5"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Remedium" skillId="2004" id="2120001" mixId="2130001" duration="0.5" hitTime="0.5">
+					<HitTimeCombo comboId="1" hitTime="0.5"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Manus Vitae" skillId="2005" id="2120001" mixId="2130001" duration="0.5" hitTime="0.5">
+					<HitTimeCombo comboId="1" hitTime="0.5"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Medica" skillId="2006" id="2130001" mixId="2310006" duration="0.5" hitTime="0.614">
+					<HitTimeCombo comboId="1" hitTime="0.614"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Manus Domini" skillId="2007" id="2130001" mixId="2310006" duration="0.5" hitTime="0.614">
+					<HitTimeCombo comboId="1" hitTime="0.614"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Magnus Medica" skillId="2008" id="2130001" mixId="2310006" duration="0.5" hitTime="0.614">
+					<HitTimeCombo comboId="1" hitTime="0.614"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Gloria" skillId="2009" id="2130001" mixId="2130001" duration="0.5" hitTime="0.614">
+					<HitTimeCombo comboId="1" hitTime="0.614"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Crucifixio" skillId="2010" id="2120001" mixId="2130001" duration="0.5" hitTime="0.5">
+					<HitTimeCombo comboId="1" hitTime="0.5"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Illuminatio" skillId="2011" id="2130001" mixId="2130001" duration="0.5" hitTime="0.614">
+					<HitTimeCombo comboId="1" hitTime="0.614"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Sanctus" skillId="2012" id="2120001" mixId="2130001" duration="0.5" hitTime="0.5">
+					<HitTimeCombo comboId="1" hitTime="0.5"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Apocalypse" skillId="2013" id="6080002" mixId="2130001" duration="0.5" hitTime="0.95">
+					<HitTimeCombo comboId="1" hitTime="0.95"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Repent" skillId="2014" id="2120001" mixId="2130001" duration="0.5" hitTime="0.7">
+					<HitTimeCombo comboId="1" hitTime="0.7"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Judgment" skillId="2015" id="2120001" mixId="2130001" duration="0.5" hitTime="0.7">
+					<HitTimeCombo comboId="1" hitTime="0.7"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Body Purify" skillId="2016" id="2130001" mixId="2310006" duration="0.5" hitTime="0.45">
+					<HitTimeCombo comboId="1" hitTime="0.45"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Mind Purify" skillId="2017" id="2130001" mixId="2310006" duration="0.5" hitTime="0.45">
+					<HitTimeCombo comboId="1" hitTime="0.45"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Mana Strike" skillId="3001" id="2120001" mixId="2230049" duration="0.933" hitTime="0.833">
+					<HitTimeCombo comboId="1" hitTime="0.833"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Physical Barrier" skillId="3002" id="2130001" mixId="2130001" duration="0.5" hitTime="0.614">
+					<HitTimeCombo comboId="1" hitTime="0.614"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Wind Barrier" skillId="3003" id="2130001" mixId="2130001" duration="0.5" hitTime="0.614">
+					<HitTimeCombo comboId="1" hitTime="0.614"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Lightning Spark" skillId="3004" id="2120001" mixId="2130001" duration="0.5" hitTime="0.5">
+					<HitTimeCombo comboId="1" hitTime="0.5"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Wind Mangling" skillId="3005" id="2120001" mixId="2130001" duration="0.5" hitTime="0.5">
+					<HitTimeCombo comboId="1" hitTime="0.5"/>
+					<HitTimeCombo comboId="2" hitTime="0.7"/>
+					<HitTimeCombo comboId="3" hitTime="0.9"/>
+					<HitTimeCombo comboId="4" hitTime="1.1"/>
+					<HitTimeCombo comboId="5" hitTime="1.3"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Gravitation Airraid" skillId="3006" id="2120001" mixId="2130001" duration="0.5" hitTime="0.0">
+					<HitTimeCombo comboId="1" hitTime="0.0"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Water Barrier" skillId="3007" id="2130001" mixId="2130001" duration="0.5" hitTime="0.614">
+					<HitTimeCombo comboId="1" hitTime="0.614"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Ice Grenade" skillId="3008" id="2120001" mixId="2130001" duration="0.5" hitTime="0.0">
+					<HitTimeCombo comboId="1" hitTime="0.0"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Frozen Hedgehog" skillId="3009" id="6080002" mixId="2130001" duration="0.5" hitTime="0.95">
+					<HitTimeCombo comboId="1" hitTime="0.95"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Absolute Zero" skillId="3010" id="2120001" mixId="2130001" duration="0.5" hitTime="0.5">
+					<HitTimeCombo comboId="1" hitTime="0.5"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Physical Bolt" skillId="3011" id="6010002" mixId="2120001" duration="0.5" hitTime="0.0">
+					<HitTimeCombo comboId="1" hitTime="0.0"/>
+					<HitTimeCombo comboId="2" hitTime="0.3"/>
+					<HitTimeCombo comboId="3" hitTime="0.5"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Teleport" skillId="3012" id="2130001" mixId="2310006" duration="0.5" hitTime="0.45">
+					<HitTimeCombo comboId="1" hitTime="0.45"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="OreBreak" skillId="102001" id="1110006" mixId="200000" duration="0.0" hitTime="0.0">
+					<HitTimeCombo comboId="1" hitTime="1"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="GetWool" skillId="112001" id="1110004" mixId="200002" duration="0.0" hitTime="0.0">
+					<HitTimeCombo comboId="1" hitTime="1"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="GetLeather" skillId="112002" id="1110004" mixId="200002" duration="0.0" hitTime="0.0">
+					<HitTimeCombo comboId="1" hitTime="1"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="ButcherCutting" skillId="122001" id="1110004" mixId="200002" duration="0.0" hitTime="0.0">
+					<HitTimeCombo comboId="1" hitTime="1"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="GetVegetables" skillId="122004" id="1110004" mixId="200002" duration="0.0" hitTime="0.0">
+					<HitTimeCombo comboId="1" hitTime="1"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="WaterExtraction" skillId="132001" id="1110001" mixId="200001" duration="0.0" hitTime="0.0">
+					<HitTimeCombo comboId="1" hitTime="1"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="UseItemHP" skillId="260001" id="1020001" mixId="1020001" duration="0.0" hitTime="0.0">
+					<HitTimeCombo comboId="1" hitTime="0.0"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="UseItemMP" skillId="260002" id="1020001" mixId="1020001" duration="0.0" hitTime="0.0">
+					<HitTimeCombo comboId="1" hitTime="0.0"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="UseItemSP" skillId="260003" id="1020001" mixId="1020001" duration="0.0" hitTime="0.0">
+					<HitTimeCombo comboId="1" hitTime="0.0"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="[PC]UseItemFood" skillId="260007" id="1020001" mixId="1020001" duration="0.0" hitTime="0.0">
+					<HitTimeCombo comboId="1" hitTime="0.0"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="[PC]UseItemDrink " skillId="260008" id="1020001" mixId="1020001" duration="0.0" hitTime="0.0">
+					<HitTimeCombo comboId="1" hitTime="0.0"/>
+				</PcSkillAttackAni>
+			</PcSkillAttackAniRoot>
+			<PcSkillAttackAniByWeaponRoot>
+				<PcSkillAttackAniByWeapon type="0" desc="HAND" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="1" desc="KNIFE" id="2310006" mixId="2310006" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="2" desc="OHAND_SPEAR" id="2310009" mixId="2310009" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="3" desc="OHAND_SWORD" id="2310009" mixId="2310009" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="4" desc="OHAND_AXE" id="2310009" mixId="2310009" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="5" desc="OHAND_MACE" id="2310009" mixId="2310009" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="6" desc="OHAND_STAFF" id="2310009" mixId="2310009" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="7" desc="OHAND_WHIP" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="8" desc="BOOK" id="2170013" mixId="2170013" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="9" desc="THAND_SPEAR" id="2310012" mixId="2310012" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="10" desc="THAND_SWORD" id="2310012" mixId="2310012" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="11" desc="THAND_AXE" id="2310012" mixId="2310012" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="12" desc="THAND_MACE" id="2310012" mixId="2310012" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="13" desc="THAND_STAFF" id="2310012" mixId="2310012" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="14" desc="THAND_WHIP" id="2310012" mixId="2310012" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="15" desc="OHAND_GUN" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="16" desc="OHAND_RIFLE" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="17" desc="BOW" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="18" desc="CROSSBOW" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="19" desc="ORB" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="20" desc="WAND" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="21" desc="DHAND_DAGGER" id="2310015" mixId="2310015" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="22" desc="DHAND_SWORD" id="2310018" mixId="2310018" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="23" desc="DHAND_WHIP" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="24" desc="DHAND_GUN" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="25" desc="DHAND" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="26" desc="DHAND_MACE" id="2310018" mixId="2310018" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="27" desc="DHAND_AXE" id="2310018" mixId="2310018" hitTime="0.5"/>
+			</PcSkillAttackAniByWeaponRoot>
+		</Female>
+	</Human>
+	<Turga>
+		<Male>
+			<PcSkillAttackAniRoot>
+				<PcSkillAttackAni name="Striking Sword" skillId="1" id="2230001" mixId="2230001" duration="1.1" hitTime="0.43">
+					<HitTimeCombo comboId="1" hitTime="0.43"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Titan Crush" skillId="2" id="2230011" mixId="2230011" duration="1.1" hitTime="1.039">
+					<HitTimeCombo comboId="1" hitTime="1.039"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Heavy Blow" skillId="3" id="6110001" mixId="2230047" duration="1.333" hitTime="0.583">
+					<HitTimeCombo comboId="1" hitTime="0.583"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Limit Breaker" skillId="4" id="2050005" mixId="2050006" duration="0.933" hitTime="0.933">
+					<HitTimeCombo comboId="1" hitTime="0.933"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Mission Carry" skillId="5" id="2050005" mixId="2050006" duration="0.933" hitTime="0.933">
+					<HitTimeCombo comboId="1" hitTime="0.933"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Defense Carry" skillId="6" id="2050005" mixId="2050006" duration="0.933" hitTime="0.933">
+					<HitTimeCombo comboId="1" hitTime="0.933"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Elemental Carry" skillId="7" id="2050005" mixId="2050006" duration="0.933" hitTime="0.933">
+					<HitTimeCombo comboId="1" hitTime="0.933"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Dash" skillId="8" id="2230001" mixId="2230001" duration="1.1" hitTime="0.533">
+					<HitTimeCombo comboId="1" hitTime="0.533"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Face Blow" skillId="9" id="2230047" mixId="2230047" duration="1.1" hitTime="0.848">
+					<HitTimeCombo comboId="1" hitTime="0.848"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Blocking" skillId="10" id="2230007" mixId="2230001" duration="0.38" hitTime="0.685">
+					<HitTimeCombo comboId="1" hitTime="0.685"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Provoke" skillId="11" id="2120001" mixId="2230001" duration="0.5" hitTime="0.45">
+					<HitTimeCombo comboId="1" hitTime="0.45"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Assault Slash" skillId="12" id="6120001" mixId="2230001" duration="0.5" hitTime="0.163">
+					<HitTimeCombo comboId="1" hitTime="0.163"/>
+					<HitTimeCombo comboId="2" hitTime="0.333"/>
+					<HitTimeCombo comboId="3" hitTime="0.520"/>
+					<HitTimeCombo comboId="4" hitTime="0.725"/>
+					<HitTimeCombo comboId="5" hitTime="0.930"/>
+					<HitTimeCombo comboId="6" hitTime="1.140"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Hard Spin" skillId="13" id="6130001" mixId="2230001" duration="0.5" hitTime="0.450">
+					<HitTimeCombo comboId="1" hitTime="0.450"/>
+					<HitTimeCombo comboId="2" hitTime="0.666"/>
+					<HitTimeCombo comboId="3" hitTime="0.905"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Trifle Slash" skillId="14" id="6140001" mixId="2230001" duration="0.5" hitTime="0.360">
+					<HitTimeCombo comboId="1" hitTime="0.360"/>
+					<HitTimeCombo comboId="2" hitTime="0.770"/>
+					<HitTimeCombo comboId="3" hitTime="1.457"/>
+					<HitTimeCombo comboId="4" hitTime="1.555"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Sharp Cutter" skillId="1001" id="2310006" mixId="2040008" duration="0.933" hitTime="0.75">
+					<HitTimeCombo comboId="1" hitTime="0.75"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Rolling Slash" skillId="1002" id="2310009" mixId="2040008" duration="0.933" hitTime="0.415">
+					<HitTimeCombo comboId="1" hitTime="0.415"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Burning Life" skillId="1003" id="2310015" mixId="2040008" duration="0.933" hitTime="0.399">
+					<HitTimeCombo comboId="1" hitTime="0.399"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Double Pain Blow" skillId="1004" id="2230049" mixId="2230049" duration="0.5" hitTime="0.68">
+					<HitTimeCombo comboId="1" hitTime="0.68"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Kick of Silence" skillId="1005" id="6020001" mixId="2040008" duration="0.933" hitTime="0.4">
+					<HitTimeCombo comboId="1" hitTime="0.4"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Disgrace Hit" skillId="1006" id="2230001" mixId="2230001" duration="0.933" hitTime="0.43">
+					<HitTimeCombo comboId="1" hitTime="0.43"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Shadow Trinity" skillId="1007" id="6020002" mixId="2230049" duration="0.5" hitTime="0.28">
+					<HitTimeCombo comboId="1" hitTime="0.28"/>
+					<HitTimeCombo comboId="2" hitTime="0.7"/>
+					<HitTimeCombo comboId="3" hitTime="1.3"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Pierce" skillId="1008" id="6210001" mixId="2230001" duration="0.5" hitTime="0.333">
+					<HitTimeCombo comboId="1" hitTime="0.333"/>
+					<HitTimeCombo comboId="2" hitTime="0.452"/>
+					<HitTimeCombo comboId="3" hitTime="0.574"/>
+					<HitTimeCombo comboId="4" hitTime="0.704"/>
+					<HitTimeCombo comboId="5" hitTime="0.840"/>
+					<HitTimeCombo comboId="6" hitTime="0.980"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Spinning Kick" skillId="1009" id="6220001" mixId="2230001" duration="0.5" hitTime="0.867">
+					<HitTimeCombo comboId="1" hitTime="0.867"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Sprint " skillId="1010" id="2120001" mixId="2230001" duration="0.5" hitTime="0.45">
+					<HitTimeCombo comboId="1" hitTime="0.45"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Oratio" skillId="2001" id="2120001" mixId="2230049" duration="0.933" hitTime="0.45">
+					<HitTimeCombo comboId="1" hitTime="0.45"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Ignis Dei" skillId="2002" id="2120001" mixId="2040008" duration="0.933" hitTime="0.45">
+					<HitTimeCombo comboId="1" hitTime="0.45"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Credo" skillId="2003" id="2120001" mixId="2130001" duration="0.5" hitTime="0.6">
+					<HitTimeCombo comboId="1" hitTime="0.6"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Remedium" skillId="2004" id="2120001" mixId="2130001" duration="0.5" hitTime="0.6">
+					<HitTimeCombo comboId="1" hitTime="0.6"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Manus Vitae" skillId="2005" id="2120001" mixId="2130001" duration="0.5" hitTime="0.6">
+					<HitTimeCombo comboId="1" hitTime="0.6"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Medica" skillId="2006" id="2130001" mixId="2310006" duration="0.5" hitTime="0.78">
+					<HitTimeCombo comboId="1" hitTime="0.78"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Manus Domini" skillId="2007" id="2130001" mixId="2310006" duration="0.5" hitTime="0.78">
+					<HitTimeCombo comboId="1" hitTime="0.78"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Magnus Medica" skillId="2008" id="2130001" mixId="2310006" duration="0.5" hitTime="0.78">
+					<HitTimeCombo comboId="1" hitTime="0.78"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Gloria" skillId="2009" id="2130001" mixId="2130001" duration="0.5" hitTime="0.78">
+					<HitTimeCombo comboId="1" hitTime="0.78"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Crucifixio" skillId="2010" id="2120001" mixId="2130001" duration="0.5" hitTime="0.6">
+					<HitTimeCombo comboId="1" hitTime="0.6"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Illuminatio" skillId="2011" id="2130001" mixId="2130001" duration="0.5" hitTime="0.78">
+					<HitTimeCombo comboId="1" hitTime="0.78"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Sanctus" skillId="2012" id="2120001" mixId="2130001" duration="0.5" hitTime="0.6">
+					<HitTimeCombo comboId="1" hitTime="0.6"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Apocalypse" skillId="2013" id="6080002" mixId="2130001" duration="0.5" hitTime="1.1">
+					<HitTimeCombo comboId="1" hitTime="1.1"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Repent" skillId="2014" id="2120001" mixId="2130001" duration="0.5" hitTime="0.7">
+					<HitTimeCombo comboId="1" hitTime="0.7"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Judgment" skillId="2015" id="2120001" mixId="2130001" duration="0.5" hitTime="0.7">
+					<HitTimeCombo comboId="1" hitTime="0.7"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Body Purify" skillId="2016" id="2130001" mixId="2310006" duration="0.5" hitTime="0.45">
+					<HitTimeCombo comboId="1" hitTime="0.45"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Mind Purify" skillId="2017" id="2130001" mixId="2310006" duration="0.5" hitTime="0.45">
+					<HitTimeCombo comboId="1" hitTime="0.45"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Mana Strike" skillId="3001" id="2120001" mixId="2230049" duration="0.933" hitTime="0.833">
+					<HitTimeCombo comboId="1" hitTime="0.833"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Physical Barrier" skillId="3002" id="2130001" mixId="2130001" duration="0.5" hitTime="0.78">
+					<HitTimeCombo comboId="1" hitTime="0.78"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Wind Barrier" skillId="3003" id="2130001" mixId="2130001" duration="0.5" hitTime="0.78">
+					<HitTimeCombo comboId="1" hitTime="0.78"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Lightning Spark" skillId="3004" id="2120001" mixId="2130001" duration="0.5" hitTime="0.6">
+					<HitTimeCombo comboId="1" hitTime="0.6"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Wind Mangling" skillId="3005" id="2120001" mixId="2130001" duration="0.5" hitTime="0.6">
+					<HitTimeCombo comboId="1" hitTime="0.6"/>
+					<HitTimeCombo comboId="2" hitTime="0.8"/>
+					<HitTimeCombo comboId="3" hitTime="1"/>
+					<HitTimeCombo comboId="4" hitTime="1.2"/>
+					<HitTimeCombo comboId="5" hitTime="1.4"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Gravitation Airraid" skillId="3006" id="2120001" mixId="2130001" duration="0.5" hitTime="0.0">
+					<HitTimeCombo comboId="1" hitTime="0.0"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Water Barrier" skillId="3007" id="2130001" mixId="2130001" duration="0.5" hitTime="0.78">
+					<HitTimeCombo comboId="1" hitTime="0.78"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Ice Grenade" skillId="3008" id="2120001" mixId="2130001" duration="0.5" hitTime="0.0">
+					<HitTimeCombo comboId="1" hitTime="0.0"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Frozen Hedgehog" skillId="3009" id="6080002" mixId="2130001" duration="0.5" hitTime="1.1">
+					<HitTimeCombo comboId="1" hitTime="1.1"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Absolute Zero" skillId="3010" id="2120001" mixId="2130001" duration="0.5" hitTime="0.6">
+					<HitTimeCombo comboId="1" hitTime="0.6"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Physical Bolt" skillId="3011" id="6010002" mixId="2120001" duration="0.5" hitTime="0.0">
+					<HitTimeCombo comboId="1" hitTime="0.0"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Teleport" skillId="3012" id="2130001" mixId="2310006" duration="0.5" hitTime="0.45">
+					<HitTimeCombo comboId="1" hitTime="0.45"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="OreBreak" skillId="102001" id="1110006" mixId="200000" duration="1" hitTime="1">
+					<HitTimeCombo comboId="1" hitTime="1"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="GetWool" skillId="112001" id="1110004" mixId="200002" duration="1" hitTime="1">
+					<HitTimeCombo comboId="1" hitTime="1"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="GetLeather" skillId="112002" id="1110004" mixId="200002" duration="1" hitTime="1">
+					<HitTimeCombo comboId="1" hitTime="1"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="ButcherCutting" skillId="122001" id="1110004" mixId="200002" duration="1" hitTime="1">
+					<HitTimeCombo comboId="1" hitTime="1"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="GetVegetables" skillId="122004" id="1110004" mixId="200002" duration="1" hitTime="1">
+					<HitTimeCombo comboId="1" hitTime="1"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="WaterExtraction" skillId="132001" id="1110001" mixId="200001" duration="1" hitTime="1">
+					<HitTimeCombo comboId="1" hitTime="1"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="UseItemHP" skillId="260001" id="1020001" mixId="1020001" duration="0.0" hitTime="0.0">
+					<HitTimeCombo comboId="1" hitTime="0.0"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="UseItemMP" skillId="260002" id="1020001" mixId="1020001" duration="0.0" hitTime="0.0">
+					<HitTimeCombo comboId="1" hitTime="0.0"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="UseItemSP" skillId="260003" id="1020001" mixId="1020001" duration="0.0" hitTime="0.0">
+					<HitTimeCombo comboId="1" hitTime="0.0"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="[PC]UseItemFood" skillId="260007" id="1020001" mixId="1020001" duration="0.0" hitTime="0.0">
+					<HitTimeCombo comboId="1" hitTime="0.0"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="[PC]UseItemDrink " skillId="260008" id="1020001" mixId="1020001" duration="0.0" hitTime="0.0">
+					<HitTimeCombo comboId="1" hitTime="0.0"/>
+				</PcSkillAttackAni>
+			</PcSkillAttackAniRoot>
+			<PcSkillAttackAniByWeaponRoot>
+				<PcSkillAttackAniByWeapon type="0" desc="HAND" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="1" desc="KNIFE" id="2310006" mixId="2310006" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="2" desc="OHAND_SPEAR" id="2310009" mixId="2310009" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="3" desc="OHAND_SWORD" id="2310009" mixId="2310009" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="4" desc="OHAND_AXE" id="2310009" mixId="2310009" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="5" desc="OHAND_MACE" id="2310009" mixId="2310009" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="6" desc="OHAND_STAFF" id="2310009" mixId="2310009" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="7" desc="OHAND_WHIP" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="8" desc="BOOK" id="2170013" mixId="2170013" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="9" desc="THAND_SPEAR" id="2310012" mixId="2310012" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="10" desc="THAND_SWORD" id="2310012" mixId="2310012" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="11" desc="THAND_AXE" id="2310012" mixId="2310012" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="12" desc="THAND_MACE" id="2310012" mixId="2310012" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="13" desc="THAND_STAFF" id="2310012" mixId="2310012" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="14" desc="THAND_WHIP" id="2310012" mixId="2310012" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="15" desc="OHAND_GUN" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="16" desc="OHAND_RIFLE" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="17" desc="BOW" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="18" desc="CROSSBOW" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="19" desc="ORB" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="20" desc="WAND" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="21" desc="DHAND_DAGGER" id="2310015" mixId="2310015" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="22" desc="DHAND_SWORD" id="2310018" mixId="2310018" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="23" desc="DHAND_WHIP" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="24" desc="DHAND_GUN" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="25" desc="DHAND" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="26" desc="DHAND_MACE" id="2310018" mixId="2310018" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="27" desc="DHAND_AXE" id="2310018" mixId="2310018" hitTime="0.5"/>
+			</PcSkillAttackAniByWeaponRoot>
+		</Male>
+		<Female>
+			<PcSkillAttackAniRoot>
+				<PcSkillAttackAni name="Striking Sword" skillId="1" id="2230001" mixId="2230001" duration="1.1" hitTime="0.41">
+					<HitTimeCombo comboId="1" hitTime="0.41"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Titan Crush" skillId="2" id="2230011" mixId="2230011" duration="1.1" hitTime="0.933">
+					<HitTimeCombo comboId="1" hitTime="0.933"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Heavy Blow" skillId="3" id="6110001" mixId="2230047" duration="1.333" hitTime="0.490">
+					<HitTimeCombo comboId="1" hitTime="0.490"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Limit Breaker" skillId="4" id="2050005" mixId="2050006" duration="0.933" hitTime="0.933">
+					<HitTimeCombo comboId="1" hitTime="0.933"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Mission Carry" skillId="5" id="2050005" mixId="2050006" duration="0.933" hitTime="0.933">
+					<HitTimeCombo comboId="1" hitTime="0.933"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Defense Carry" skillId="6" id="2050005" mixId="2050006" duration="0.933" hitTime="0.933">
+					<HitTimeCombo comboId="1" hitTime="0.933"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Elemental Carry" skillId="7" id="2050005" mixId="2050006" duration="0.933" hitTime="0.933">
+					<HitTimeCombo comboId="1" hitTime="0.933"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Dash" skillId="8" id="2230001" mixId="2230001" duration="1.1" hitTime="0.466">
+					<HitTimeCombo comboId="1" hitTime="0.466"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Face Blow" skillId="9" id="2230047" mixId="2230047" duration="1.1" hitTime="0.9">
+					<HitTimeCombo comboId="1" hitTime="0.9"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Blocking" skillId="10" id="2230007" mixId="2230001" duration="0.38" hitTime="0.520">
+					<HitTimeCombo comboId="1" hitTime="0.520"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Provoke" skillId="11" id="2120001" mixId="2230001" duration="0.5" hitTime="0.45">
+					<HitTimeCombo comboId="1" hitTime="0.45"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Assault Slash" skillId="12" id="6120001" mixId="2230001" duration="0.5" hitTime="0.300">
+					<HitTimeCombo comboId="1" hitTime="0.300"/>
+					<HitTimeCombo comboId="2" hitTime="0.465"/>
+					<HitTimeCombo comboId="3" hitTime="0.633"/>
+					<HitTimeCombo comboId="4" hitTime="0.793"/>
+					<HitTimeCombo comboId="5" hitTime="0.925"/>
+					<HitTimeCombo comboId="6" hitTime="1.063"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Hard Spin" skillId="13" id="6130001" mixId="2230001" duration="0.5" hitTime="0.510">
+					<HitTimeCombo comboId="1" hitTime="0.510"/>
+					<HitTimeCombo comboId="2" hitTime="0.705"/>
+					<HitTimeCombo comboId="3" hitTime="0.970"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Trifle Slash" skillId="14" id="6140001" mixId="2230001" duration="0.5" hitTime="0.378">
+					<HitTimeCombo comboId="1" hitTime="0.378"/>
+					<HitTimeCombo comboId="2" hitTime="0.705"/>
+					<HitTimeCombo comboId="3" hitTime="1.383"/>
+					<HitTimeCombo comboId="4" hitTime="1.485"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Sharp Cutter" skillId="1001" id="2310006" mixId="2040008" duration="0.933" hitTime="0.31">
+					<HitTimeCombo comboId="1" hitTime="0.31"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Rolling Slash" skillId="1002" id="2310009" mixId="2040008" duration="0.933" hitTime="0.5">
+					<HitTimeCombo comboId="1" hitTime="0.5"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Burning Life" skillId="1003" id="2310015" mixId="2040008" duration="0.933" hitTime="0.505">
+					<HitTimeCombo comboId="1" hitTime="0.505"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Double Pain Blow" skillId="1004" id="2230049" mixId="2230049" duration="0.5" hitTime="0.7">
+					<HitTimeCombo comboId="1" hitTime="0.7"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Kick of Silence" skillId="1005" id="6020001" mixId="2040008" duration="0.933" hitTime="0.6">
+					<HitTimeCombo comboId="1" hitTime="0.6"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Disgrace Hit" skillId="1006" id="2230001" mixId="2230001" duration="0.933" hitTime="0.41">
+					<HitTimeCombo comboId="1" hitTime="0.41"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Shadow Trinity" skillId="1007" id="6020002" mixId="2230049" duration="0.5" hitTime="0.29">
+					<HitTimeCombo comboId="1" hitTime="0.29"/>
+					<HitTimeCombo comboId="2" hitTime="0.81"/>
+					<HitTimeCombo comboId="3" hitTime="1.29"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Pierce" skillId="1008" id="6210001" mixId="2230001" duration="0.5" hitTime="0.425">
+					<HitTimeCombo comboId="1" hitTime="0.425"/>
+					<HitTimeCombo comboId="2" hitTime="0.522"/>
+					<HitTimeCombo comboId="3" hitTime="0.622"/>
+					<HitTimeCombo comboId="4" hitTime="0.722"/>
+					<HitTimeCombo comboId="5" hitTime="0.822"/>
+					<HitTimeCombo comboId="6" hitTime="0.922"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Spinning Kick" skillId="1009" id="6220001" mixId="2230001" duration="0.5" hitTime="0.835">
+					<HitTimeCombo comboId="1" hitTime="0.835"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Sprint " skillId="1010" id="2120001" mixId="2230001" duration="0.5" hitTime="0.45">
+					<HitTimeCombo comboId="1" hitTime="0.45"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Oratio" skillId="2001" id="2120001" mixId="2230049" duration="0.933" hitTime="0.45">
+					<HitTimeCombo comboId="1" hitTime="0.45"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Ignis Dei" skillId="2002" id="2120001" mixId="2040008" duration="0.933" hitTime="0.45">
+					<HitTimeCombo comboId="1" hitTime="0.45"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Credo" skillId="2003" id="2120001" mixId="2130001" duration="0.5" hitTime="0.6">
+					<HitTimeCombo comboId="1" hitTime="0.6"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Remedium" skillId="2004" id="2120001" mixId="2130001" duration="0.5" hitTime="0.6">
+					<HitTimeCombo comboId="1" hitTime="0.6"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Manus Vitae" skillId="2005" id="2120001" mixId="2130001" duration="0.5" hitTime="0.6">
+					<HitTimeCombo comboId="1" hitTime="0.6"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Medica" skillId="2006" id="2130001" mixId="2310006" duration="0.5" hitTime="0.8">
+					<HitTimeCombo comboId="1" hitTime="0.8"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Manus Domini" skillId="2007" id="2130001" mixId="2310006" duration="0.5" hitTime="0.8">
+					<HitTimeCombo comboId="1" hitTime="0.8"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Magnus Medica" skillId="2008" id="2130001" mixId="2310006" duration="0.5" hitTime="0.8">
+					<HitTimeCombo comboId="1" hitTime="0.8"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Gloria" skillId="2009" id="2130001" mixId="2130001" duration="0.5" hitTime="0.8">
+					<HitTimeCombo comboId="1" hitTime="0.8"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Crucifixio" skillId="2010" id="2120001" mixId="2130001" duration="0.5" hitTime="0.6">
+					<HitTimeCombo comboId="1" hitTime="0.6"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Illuminatio" skillId="2011" id="2130001" mixId="2130001" duration="0.5" hitTime="0.8">
+					<HitTimeCombo comboId="1" hitTime="0.8"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Sanctus" skillId="2012" id="2120001" mixId="2130001" duration="0.5" hitTime="0.6">
+					<HitTimeCombo comboId="1" hitTime="0.6"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Apocalypse" skillId="2013" id="6080002" mixId="2130001" duration="0.5" hitTime="1.05">
+					<HitTimeCombo comboId="1" hitTime="1.05"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Repent" skillId="2014" id="2120001" mixId="2130001" duration="0.5" hitTime="0.7">
+					<HitTimeCombo comboId="1" hitTime="0.7"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Judgment" skillId="2015" id="2120001" mixId="2130001" duration="0.5" hitTime="0.7">
+					<HitTimeCombo comboId="1" hitTime="0.7"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Body Purify" skillId="2016" id="2130001" mixId="2310006" duration="0.5" hitTime="0.45">
+					<HitTimeCombo comboId="1" hitTime="0.45"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Mind Purify" skillId="2017" id="2130001" mixId="2310006" duration="0.5" hitTime="0.45">
+					<HitTimeCombo comboId="1" hitTime="0.45"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Mana Strike" skillId="3001" id="2120001" mixId="2230049" duration="0.933" hitTime="0.833">
+					<HitTimeCombo comboId="1" hitTime="0.833"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Physical Barrier" skillId="3002" id="2130001" mixId="2130001" duration="0.5" hitTime="0.8">
+					<HitTimeCombo comboId="1" hitTime="0.8"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Wind Barrier" skillId="3003" id="2130001" mixId="2130001" duration="0.5" hitTime="0.8">
+					<HitTimeCombo comboId="1" hitTime="0.8"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Lightning Spark" skillId="3004" id="2120001" mixId="2130001" duration="0.5" hitTime="0.6">
+					<HitTimeCombo comboId="1" hitTime="0.6"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Wind Mangling" skillId="3005" id="2120001" mixId="2130001" duration="0.5" hitTime="0.6">
+					<HitTimeCombo comboId="1" hitTime="0.6"/>
+					<HitTimeCombo comboId="2" hitTime="0.8"/>
+					<HitTimeCombo comboId="3" hitTime="1"/>
+					<HitTimeCombo comboId="4" hitTime="1.2"/>
+					<HitTimeCombo comboId="5" hitTime="1.4"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Gravitation Airraid" skillId="3006" id="2120001" mixId="2130001" duration="0.5" hitTime="0.0">
+					<HitTimeCombo comboId="1" hitTime="0.0"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Water Barrier" skillId="3007" id="2130001" mixId="2130001" duration="0.5" hitTime="0.8">
+					<HitTimeCombo comboId="1" hitTime="0.8"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Ice Grenade" skillId="3008" id="2120001" mixId="2130001" duration="0.5" hitTime="0.0">
+					<HitTimeCombo comboId="1" hitTime="0.0"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Frozen Hedgehog" skillId="3009" id="6080002" mixId="2130001" duration="0.5" hitTime="1.05">
+					<HitTimeCombo comboId="1" hitTime="1.05"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Absolute Zero" skillId="3010" id="2120001" mixId="2130001" duration="0.5" hitTime="0.6">
+					<HitTimeCombo comboId="1" hitTime="0.6"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Physical Bolt" skillId="3011" id="6010002" mixId="2120001" duration="0.5" hitTime="0.0">
+					<HitTimeCombo comboId="1" hitTime="0.0"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="Teleport" skillId="3012" id="2130001" mixId="2310006" duration="0.5" hitTime="0.45">
+					<HitTimeCombo comboId="1" hitTime="0.45"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="OreBreak" skillId="102001" id="1110006" mixId="200000" duration="1" hitTime="1">
+					<HitTimeCombo comboId="1" hitTime="1"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="GetWool" skillId="112001" id="1110004" mixId="200002" duration="1" hitTime="1">
+					<HitTimeCombo comboId="1" hitTime="1"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="GetLeather" skillId="112002" id="1110004" mixId="200002" duration="1" hitTime="1">
+					<HitTimeCombo comboId="1" hitTime="1"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="ButcherCutting" skillId="122001" id="1110004" mixId="200002" duration="1" hitTime="1">
+					<HitTimeCombo comboId="1" hitTime="1"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="GetVegetables" skillId="122004" id="1110004" mixId="200002" duration="1" hitTime="1">
+					<HitTimeCombo comboId="1" hitTime="1"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="WaterExtraction" skillId="132001" id="1110001" mixId="200001" duration="1" hitTime="1">
+					<HitTimeCombo comboId="1" hitTime="1"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="UseItemHP" skillId="260001" id="1020001" mixId="1020001" duration="0.0" hitTime="0.0">
+					<HitTimeCombo comboId="1" hitTime="0.0"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="UseItemMP" skillId="260002" id="1020001" mixId="1020001" duration="0.0" hitTime="0.0">
+					<HitTimeCombo comboId="1" hitTime="0.0"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="UseItemSP" skillId="260003" id="1020001" mixId="1020001" duration="0.0" hitTime="0.0">
+					<HitTimeCombo comboId="1" hitTime="0.0"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="[PC]UseItemFood" skillId="260007" id="1020001" mixId="1020001" duration="0.0" hitTime="0.0">
+					<HitTimeCombo comboId="1" hitTime="0.0"/>
+				</PcSkillAttackAni>
+				<PcSkillAttackAni name="[PC]UseItemDrink " skillId="260008" id="1020001" mixId="1020001" duration="0.0" hitTime="0.0">
+					<HitTimeCombo comboId="1" hitTime="0.0"/>
+				</PcSkillAttackAni>
+			</PcSkillAttackAniRoot>
+			<PcSkillAttackAniByWeaponRoot>
+				<PcSkillAttackAniByWeapon type="0" desc="HAND" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="1" desc="KNIFE" id="2310006" mixId="2310006" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="2" desc="OHAND_SPEAR" id="2310009" mixId="2310009" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="3" desc="OHAND_SWORD" id="2310009" mixId="2310009" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="4" desc="OHAND_AXE" id="2310009" mixId="2310009" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="5" desc="OHAND_MACE" id="2310009" mixId="2310009" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="6" desc="OHAND_STAFF" id="2310009" mixId="2310009" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="7" desc="OHAND_WHIP" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="8" desc="BOOK" id="2170013" mixId="2170013" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="9" desc="THAND_SPEAR" id="2310012" mixId="2310012" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="10" desc="THAND_SWORD" id="2310012" mixId="2310012" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="11" desc="THAND_AXE" id="2310012" mixId="2310012" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="12" desc="THAND_MACE" id="2310012" mixId="2310012" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="13" desc="THAND_STAFF" id="2310012" mixId="2310012" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="14" desc="THAND_WHIP" id="2310012" mixId="2310012" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="15" desc="OHAND_GUN" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="16" desc="OHAND_RIFLE" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="17" desc="BOW" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="18" desc="CROSSBOW" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="19" desc="ORB" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="20" desc="WAND" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="21" desc="DHAND_DAGGER" id="2310015" mixId="2310015" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="22" desc="DHAND_SWORD" id="2310018" mixId="2310018" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="23" desc="DHAND_WHIP" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="24" desc="DHAND_GUN" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="25" desc="DHAND" id="2310003" mixId="2310003" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="26" desc="DHAND_MACE" id="2310018" mixId="2310018" hitTime="0.5"/>
+				<PcSkillAttackAniByWeapon type="27" desc="DHAND_AXE" id="2310018" mixId="2310018" hitTime="0.5"/>
+			</PcSkillAttackAniByWeaponRoot>
+		</Female>
+	</Turga>
+</PcSkillAttackAniInfo>

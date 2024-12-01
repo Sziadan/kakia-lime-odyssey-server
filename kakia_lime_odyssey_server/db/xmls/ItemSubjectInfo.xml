@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- Type : 없음(0), 주장비(1), 보조장비(2), 원거리주장비(3), 소모장비(4), 머리(5), 이마(6), 눈(7), 입(8), 목(9), 어깨(10), 상의(11), 손(12), 허리(13), 하의(14), 발(15), 유물(16), 반지1(17), 반지2(18), 장신구1(19), 장신구2(20), 가방1(21), 가방2(22), 가방3(23), 가방4(24), 가방5(25), 소모품(97), 수집품(98), 퀘스트(99), 가공품(101), 기타(102)-->
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by Administrator (siriusent) -->
+<Root>
+	<series typeID="0" typeName=" "/>
+	<series typeID="1" typeName="단검"/>
+	<series typeID="2" typeName="한손도검"/>
+	<series typeID="3" typeName="한손둔기"/>
+	<series typeID="4" typeName="양손도검"/>
+	<series typeID="5" typeName="양손도끼"/>
+	<series typeID="6" typeName="양손지팡이"/>
+	<series typeID="7" typeName="책"/>
+	<series typeID="8" typeName="쌍수단검"/>
+	<series typeID="9" typeName="쌍수도검"/>
+	<series typeID="10" typeName="쌍수둔기"/>
+	<series typeID="11" typeName="방패"/>
+	<series typeID="12" typeName="헬멧"/>
+	<series typeID="13" typeName="머리장식"/>
+	<series typeID="14" typeName="눈장식"/>
+	<series typeID="15" typeName="입장식"/>
+	<series typeID="16" typeName="목걸이"/>
+	<series typeID="17" typeName="어깨갑옷"/>
+	<series typeID="18" typeName="가슴보호구"/>
+	<series typeID="19" typeName="장갑"/>
+	<series typeID="20" typeName="허리띠"/>
+	<series typeID="21" typeName="다리보호구"/>
+	<series typeID="22" typeName="신발"/>
+	<series typeID="23" typeName="유물"/>
+	<series typeID="24" typeName="반지"/>
+	<series typeID="25" typeName="장신구"/>
+	<series typeID="26" typeName="생활도구"/>
+	<series typeID="51" typeName="물약"/>
+	<series typeID="52" typeName="요리"/>
+	<series typeID="53" typeName="차"/>
+	<series typeID="54" typeName="탈것"/>
+	<series typeID="55" typeName="레시피"/>
+	<series typeID="56" typeName="레시피 세트"/>
+	<series typeID="57" typeName="풀 요리"/>
+	<series typeID="58" typeName="고기 요리"/>
+	<series typeID="59" typeName="열매 요리"/>
+	<series typeID="60" typeName="혼합 요리"/>
+	<series typeID="61" typeName="풀잎 차"/>
+	<series typeID="62" typeName="열매 차"/>
+	<series typeID="63" typeName="풀 혼합 차"/>
+	<series typeID="64" typeName="열매 혼합 차"/>
+	<series typeID="101" typeName="가죽"/>
+	<series typeID="102" typeName="고기"/>
+	<series typeID="103" typeName="광석"/>
+	<series typeID="104" typeName="금속"/>
+	<series typeID="105" typeName="기름"/>
+	<series typeID="106" typeName="나무"/>
+	<series typeID="107" typeName="라임"/>
+	<series typeID="108" typeName="방어구"/>
+	<series typeID="109" typeName="보석"/>
+	<series typeID="110" typeName="뼈"/>
+	<series typeID="111" typeName="섬유"/>
+	<series typeID="112" typeName="숯"/>
+	<series typeID="113" typeName="암석"/>
+	<series typeID="114" typeName="야채"/>
+	<series typeID="115" typeName="양념"/>
+	<series typeID="116" typeName="열매"/>
+	<series typeID="117" typeName="옷감"/>
+	<series typeID="118" typeName="요리재료"/>
+	<series typeID="119" typeName="잉크"/>
+	<series typeID="120" typeName="종이"/>
+	<series typeID="121" typeName="풀"/>
+	<series typeID="122" typeName="철"/>
+	<series typeID="123" typeName="물"/>
+	<series typeID="124" typeName="기타"/>
+	<series typeID="125" typeName="룬"/>
+	<series typeID="126" typeName="강화석"/>
+	<series typeID="127" typeName="꽃"/>
+	<series typeID="501" typeName="가죽 - 가공품"/>
+	<series typeID="502" typeName="고기 - 가공품"/>
+	<series typeID="503" typeName="광석 - 가공품"/>
+	<series typeID="504" typeName="금속 - 가공품"/>
+	<series typeID="505" typeName="기름 - 가공품"/>
+	<series typeID="506" typeName="나무 - 가공품"/>
+	<series typeID="507" typeName="라임 - 가공품"/>
+	<series typeID="508" typeName="방어구 - 가공품"/>
+	<series typeID="509" typeName="보석 - 가공품"/>
+	<series typeID="510" typeName="뼈 - 가공품"/>
+	<series typeID="511" typeName="섬유 - 가공품"/>
+	<series typeID="512" typeName="숯 - 가공품"/>
+	<series typeID="513" typeName="암석 - 가공품"/>
+	<series typeID="514" typeName="야채 - 가공품"/>
+	<series typeID="515" typeName="양념 - 가공품"/>
+	<series typeID="516" typeName="열매 - 가공품"/>
+	<series typeID="517" typeName="옷감 - 가공품"/>
+	<series typeID="518" typeName="요리재료 - 가공품"/>
+	<series typeID="519" typeName="잉크 - 가공품"/>
+	<series typeID="520" typeName="종이 - 가공품"/>
+	<series typeID="521" typeName="풀 - 가공품"/>
+	<series typeID="522" typeName="철 - 가공품"/>
+	<series typeID="999" typeName="퀘스트"/>
+	<series typeID="2001" typeName="수련스킬"/>
+	<series typeID="2002" typeName="능력스킬"/>
+	<series typeID="2003" typeName="수집스킬"/>
+	<series typeID="2004" typeName="가공스킬"/>
+	<series typeID="2005" typeName="제작스킬"/>
+	<series typeID="2006" typeName="레시피스킬"/>
+	<ItemType typeID="0" typeName=""/>
+	<ItemType typeID="1" typeName="주장비"/>
+	<ItemType typeID="2" typeName="보조장비"/>
+	<ItemType typeID="3" typeName="원거리주장비"/>
+	<ItemType typeID="4" typeName="소모장비"/>
+	<ItemType typeID="5" typeName="머리"/>
+	<ItemType typeID="6" typeName="이마"/>
+	<ItemType typeID="7" typeName="눈"/>
+	<ItemType typeID="8" typeName="입"/>
+	<ItemType typeID="9" typeName="목"/>
+	<ItemType typeID="10" typeName="어깨"/>
+	<ItemType typeID="11" typeName="상의"/>
+	<ItemType typeID="12" typeName="손"/>
+	<ItemType typeID="13" typeName="허리"/>
+	<ItemType typeID="14" typeName="하의"/>
+	<ItemType typeID="15" typeName="발"/>
+	<ItemType typeID="16" typeName="유물"/>
+	<ItemType typeID="17" typeName="반지"/>
+	<ItemType typeID="18" typeName="반지"/>
+	<ItemType typeID="19" typeName="장신구"/>
+	<ItemType typeID="20" typeName="장신구"/>
+	<ItemType typeID="21" typeName="가방"/>
+	<ItemType typeID="22" typeName="가방"/>
+	<ItemType typeID="23" typeName="가방"/>
+	<ItemType typeID="24" typeName="가방"/>
+	<ItemType typeID="25" typeName="가방"/>
+	<ItemType typeID="97" typeName="소모품"/>
+	<ItemType typeID="98" typeName="수집물"/>
+	<ItemType typeID="99" typeName="퀘스트"/>
+	<ItemType typeID="101" typeName="가공품"/>
+	<ItemType typeID="102" typeName="기타"/>
+</Root>

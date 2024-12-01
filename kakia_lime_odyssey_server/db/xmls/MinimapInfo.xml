@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2006 rel. 3 U (http://www.altova.com) by Administrator (EMBRACE) -->
+<WorldLayout>
+	<!--월드에어리어xml파일과 맞추기 위한 더미 존  꼭 있어야됨-->
+	<Area name="더미" width="1" height="1">
+		<Map name="dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="0" worldMapTypeId="-1"/>
+	</Area>
+	<!--북오르타 Type id=1 -->
+	<Area name="북오르타 " width="15" height="9">
+		<!--1줄-->
+		<Map name="no000_dummy_00" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="0" worldMapTypeId="-1"/>
+		<Map name="no000_dummy_01" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="1" worldMapTypeId="-1"/>
+		<Map name="no000_dummy_02" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="2" worldMapTypeId="-1"/>
+		<Map name="no000_dummy_03" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="3" worldMapTypeId="-1"/>
+		<Map name="no000_dummy_04" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="4" worldMapTypeId="-1"/>
+		<Map name="no000_dummy_05" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="5" worldMapTypeId="-1"/>
+		<Map name="no000_dummy_06" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="6" worldMapTypeId="-1"/>
+		<Map name="no000_dummy_07" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="7" worldMapTypeId="-1"/>
+		<Map name="no000_dummy_08" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="8" worldMapTypeId="-1"/>
+		<Map name="no001_dummy_00" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="9" worldMapTypeId="-1"/>
+		<Map name="no001_dummy_01" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="10" worldMapTypeId="-1"/>
+		<Map name="no001_dummy_02" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="11" worldMapTypeId="-1"/>
+		<Map name="no001_dummy_03" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="12" worldMapTypeId="-1"/>
+		<Map name="no001_dummy_04" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="13" worldMapTypeId="-1"/>
+		<Map name="no001_dummy_05" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="14" worldMapTypeId="-1"/>
+		<!--2줄-->
+		<Map name="no003_dummy_00" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="15" worldMapTypeId="-1"/>
+		<Map name="no003_dummy_01" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="16" worldMapTypeId="-1"/>
+		<Map name="no003_dummy_02" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="17" worldMapTypeId="-1"/>
+		<Map name="no003_dummy_03" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="18" worldMapTypeId="-1"/>
+		<Map name="no003_dummy_04" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="19" worldMapTypeId="-1"/>
+		<Map name="no003_dummy_05" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="20" worldMapTypeId="-1"/>
+		<Map name="no003_dummy_06" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="21" worldMapTypeId="-1"/>
+		<Map name="no003_dummy_07" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="22" worldMapTypeId="-1"/>
+		<Map name="no003_dummy_08" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="23" worldMapTypeId="-1"/>
+		<Map name="no004_dummy_00" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="24" worldMapTypeId="-1"/>
+		<Map name="no004_dummy_01" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="25" worldMapTypeId="-1"/>
+		<Map name="no004_dummy_02" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="26" worldMapTypeId="-1"/>
+		<Map name="no004_dummy_03" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="27" worldMapTypeId="-1"/>
+		<Map name="no004_dummy_04" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="28" worldMapTypeId="-1"/>
+		<Map name="no004_dummy_05" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="29" worldMapTypeId="-1"/>
+		<!--3줄-->
+		<Map name="no006_dummy_00" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="30" worldMapTypeId="-1"/>
+		<Map name="no006_dummy_01" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="31" worldMapTypeId="-1"/>
+		<Map name="no006_dummy_02" imageName="ui/MiniMap/no_dummy_143.dds" tokName="32" worldMapTypeId="1"/>
+		<Map name="no006_dummy_03" imageName="ui/MiniMap/no_dummy_144.dds" tokName="33" worldMapTypeId="1"/>
+		<Map name="no006_dummy_04" imageName="ui/MiniMap/no_dummy_145.dds" tokName="34" worldMapTypeId="1"/>
+		<Map name="no006_dummy_05" imageName="ui/MiniMap/no_dummy_146.dds" tokName="35" worldMapTypeId="1"/>
+		<Map name="no006_dummy_06" imageName="ui/MiniMap/no_dummy_147.dds" tokName="36" worldMapTypeId="0"/>
+		<Map name="no006_dummy_07" imageName="ui/MiniMap/no_dummy_148.dds" tokName="37" worldMapTypeId="0"/>
+		<Map name="no006_dummy_08" imageName="ui/MiniMap/no_dummy_149.dds" tokName="38" worldMapTypeId="0"/>
+		<Map name="no007_dummy_00" imageName="ui/MiniMap/no_dummy_150.dds" tokName="39" worldMapTypeId="0"/>
+		<Map name="no007_dummy_01" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="40" worldMapTypeId="-1"/>
+		<Map name="no007_dummy_02" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="41" worldMapTypeId="-1"/>
+		<Map name="no007_dummy_03" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="42" worldMapTypeId="-1"/>
+		<Map name="no007_dummy_04" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="43" worldMapTypeId="-1"/>
+		<Map name="no007_dummy_05" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="44" worldMapTypeId="-1"/>
+		<!--4줄-듀발,서툼-->
+		<Map name="no009_dummy_00" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="45" worldMapTypeId="-1"/>
+		<Map name="no009_dummy_01" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="46" worldMapTypeId="-1"/>
+		<Map name="no009_dummy_02" imageName="ui/MiniMap/no_dummy_170.dds" tokName="47" worldMapTypeId="1"/>
+		<Map name="no009_dummy_03" imageName="ui/MiniMap/no021_dubal00.dds" tokName="48" worldMapTypeId="1"/>
+		<Map name="no009_dummy_04" imageName="ui/MiniMap/no021_dubal01.dds" tokName="49" worldMapTypeId="1"/>
+		<Map name="no009_dummy_05" imageName="ui/MiniMap/no021_dubal02.dds" tokName="50" worldMapTypeId="1"/>
+		<Map name="no009_dummy_06" imageName="ui/MiniMap/no022_wtum00.dds" tokName="51" worldMapTypeId="0"/>
+		<Map name="no009_dummy_07" imageName="ui/MiniMap/no022_wtum01.dds" tokName="52" worldMapTypeId="0"/>
+		<Map name="no009_dummy_08" imageName="ui/MiniMap/no022_wtum02.dds" tokName="53" worldMapTypeId="0"/>
+		<Map name="no010_dummy_00" imageName="ui/MiniMap/no_dummy_177.dds" tokName="54" worldMapTypeId="0"/>
+		<Map name="no010_dummy_01" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="55" worldMapTypeId="-1"/>
+		<Map name="no010_dummy_02" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="56" worldMapTypeId="-1"/>
+		<Map name="no010_dummy_03" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="57" worldMapTypeId="-1"/>
+		<Map name="no010_dummy_04" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="58" worldMapTypeId="-1"/>
+		<Map name="no010_dummy_05" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="59" worldMapTypeId="-1"/>
+		<!--5줄-듀발,서툼-->
+		<Map name="no012_dummy_00" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="60" worldMapTypeId="-1"/>
+		<Map name="no012_dummy_01" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="61" worldMapTypeId="-1"/>
+		<Map name="no012_dummy_02" imageName="ui/MiniMap/no_dummy_197.dds" tokName="62" worldMapTypeId="1"/>
+		<Map name="no012_dummy_03" imageName="ui/MiniMap/no021_dubal03.dds" tokName="63" worldMapTypeId="1"/>
+		<Map name="no012_dummy_04" imageName="ui/MiniMap/no021_dubal04.dds" tokName="64" worldMapTypeId="1"/>
+		<Map name="no012_dummy_05" imageName="ui/MiniMap/no021_dubal05.dds" tokName="65" worldMapTypeId="1"/>
+		<Map name="no012_dummy_06" imageName="ui/MiniMap/no022_wtum03.dds" tokName="66" worldMapTypeId="0"/>
+		<Map name="no012_dummy_07" imageName="ui/MiniMap/no022_wtum04.dds" tokName="67" worldMapTypeId="0"/>
+		<Map name="no012_dummy_08" imageName="ui/MiniMap/no022_wtum05.dds" tokName="68" worldMapTypeId="0"/>
+		<Map name="no013_dummy_00" imageName="ui/MiniMap/no_dummy_204.dds" tokName="69" worldMapTypeId="0"/>
+		<Map name="no013_dummy_01" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="70" worldMapTypeId="-1"/>
+		<Map name="no013_dummy_02" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="71" worldMapTypeId="-1"/>
+		<Map name="no013_dummy_03" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="72" worldMapTypeId="-1"/>
+		<Map name="no013_dummy_04" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="73" worldMapTypeId="-1"/>
+		<Map name="no013_dummy_05" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="74" worldMapTypeId="-1"/>
+		<!--6줄-듀발,서툼-->
+		<Map name="no015_dummy_00" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="75" worldMapTypeId="-1"/>
+		<Map name="no015_dummy_01" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="76" worldMapTypeId="-1"/>
+		<Map name="no015_dummy_02" imageName="ui/MiniMap/no_dummy_224.dds" tokName="77" worldMapTypeId="1"/>
+		<Map name="no015_dummy_03" imageName="ui/MiniMap/no021_dubal06.dds" tokName="78" worldMapTypeId="1"/>
+		<Map name="no015_dummy_04" imageName="ui/MiniMap/no021_dubal07.dds" tokName="79" worldMapTypeId="1"/>
+		<Map name="no015_dummy_05" imageName="ui/MiniMap/no021_dubal08.dds" tokName="80" worldMapTypeId="1"/>
+		<Map name="no015_dummy_06" imageName="ui/MiniMap/no022_wtum06.dds" tokName="81" worldMapTypeId="0"/>
+		<Map name="no015_dummy_07" imageName="ui/MiniMap/no022_wtum07.dds" tokName="82" worldMapTypeId="0"/>
+		<Map name="no015_dummy_08" imageName="ui/MiniMap/no022_wtum08.dds" tokName="83" worldMapTypeId="0"/>
+		<Map name="no016_dummy_00" imageName="ui/MiniMap/no_dummy_231.dds" tokName="84" worldMapTypeId="0"/>
+		<Map name="no016_dummy_01" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="85" worldMapTypeId="-1"/>
+		<Map name="no016_dummy_02" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="86" worldMapTypeId="-1"/>
+		<Map name="no016_dummy_03" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="87" worldMapTypeId="-1"/>
+		<Map name="no016_dummy_04" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="88" worldMapTypeId="-1"/>
+		<Map name="no016_dummy_05" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="89" worldMapTypeId="-1"/>
+		<!--7줄-->
+		<Map name="no018_dummy_01" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="90" worldMapTypeId="-1"/>
+		<Map name="no018_dummy_02" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="91" worldMapTypeId="-1"/>
+		<Map name="no018_dummy_03" imageName="ui/MiniMap/no_dummy_251.dds" tokName="92" worldMapTypeId="1"/>
+		<Map name="no018_dummy_04" imageName="ui/MiniMap/no_dummy_252.dds" tokName="93" worldMapTypeId="1"/>
+		<Map name="no018_dummy_05" imageName="ui/MiniMap/no_dummy_253.dds" tokName="94" worldMapTypeId="1"/>
+		<Map name="no018_dummy_06" imageName="ui/MiniMap/no_dummy_254.dds" tokName="95" worldMapTypeId="1"/>
+		<Map name="no018_dummy_07" imageName="ui/MiniMap/no_dummy_255.dds" tokName="96" worldMapTypeId="0"/>
+		<Map name="no018_dummy_08" imageName="ui/MiniMap/no_dummy_256.dds" tokName="97" worldMapTypeId="0"/>
+		<Map name="no021_dubal00" imageName="ui/MiniMap/no_dummy_257.dds" tokName="98" worldMapTypeId="0"/>
+		<Map name="no021_dubal01" imageName="ui/MiniMap/no_dummy_258.dds" tokName="99" worldMapTypeId="0"/>
+		<Map name="no021_dubal02" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="100" worldMapTypeId="-1"/>
+		<Map name="no022_wtum00" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="101" worldMapTypeId="-1"/>
+		<Map name="no022_wtum01" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="102" worldMapTypeId="-1"/>
+		<Map name="no022_wtum02" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="103" worldMapTypeId="-1"/>
+		<Map name="no019_dummy_06" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="104" worldMapTypeId="-1"/>
+		<!--8줄-->
+		<Map name="no023_dummy_00" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="105" worldMapTypeId="-1"/>
+		<Map name="no023_dummy_01" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="106" worldMapTypeId="-1"/>
+		<Map name="no023_dummy_02" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="107" worldMapTypeId="-1"/>
+		<Map name="no023_dummy_03" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="108" worldMapTypeId="-1"/>
+		<Map name="no023_dummy_04" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="109" worldMapTypeId="-1"/>
+		<Map name="no023_dummy_05" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="110" worldMapTypeId="-1"/>
+		<Map name="no023_dummy_06" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="111" worldMapTypeId="-1"/>
+		<Map name="no023_dummy_00" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="112" worldMapTypeId="-1"/>
+		<Map name="no023_dummy_00" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="113" worldMapTypeId="-1"/>
+		<Map name="no021_dubal03" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="114" worldMapTypeId="-1"/>
+		<Map name="no021_dubal04" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="115" worldMapTypeId="-1"/>
+		<Map name="no021_dubal05" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="116" worldMapTypeId="-1"/>
+		<Map name="no022_wtum03" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="117" worldMapTypeId="-1"/>
+		<Map name="no022_wtum04" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="118" worldMapTypeId="-1"/>
+		<Map name="no022_wtum05" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="119" worldMapTypeId="-1"/>
+		<!--9줄-->
+		<Map name="no024_dummy_00" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="120" worldMapTypeId="-1"/>
+		<Map name="no024_dummy_01" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="121" worldMapTypeId="-1"/>
+		<Map name="no024_dummy_02" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="122" worldMapTypeId="-1"/>
+		<Map name="no024_dummy_03" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="123" worldMapTypeId="-1"/>
+		<Map name="no024_dummy_04" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="124" worldMapTypeId="-1"/>
+		<Map name="no024_dummy_05" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="125" worldMapTypeId="-1"/>
+		<Map name="no024_dummy_06" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="126" worldMapTypeId="-1"/>
+		<Map name="no024_dummy_07" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="127" worldMapTypeId="-1"/>
+		<Map name="no024_dummy_08" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="128" worldMapTypeId="-1"/>
+		<Map name="no021_dubal06" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="129" worldMapTypeId="-1"/>
+		<Map name="no021_dubal07" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="130" worldMapTypeId="-1"/>
+		<Map name="no021_dubal08" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="131" worldMapTypeId="-1"/>
+		<Map name="no022_wtum06" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="132" worldMapTypeId="-1"/>
+		<Map name="no022_wtum07" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="133" worldMapTypeId="-1"/>
+		<Map name="no022_wtum08" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="134" worldMapTypeId="-1"/>
+		<!--10줄-->
+		<Map name="no027_dummy_00" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="135" worldMapTypeId="-1"/>
+		<Map name="no027_dummy_01" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="136" worldMapTypeId="-1"/>
+		<Map name="no027_dummy_02" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="137" worldMapTypeId="-1"/>
+		<Map name="no027_dummy_03" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="138" worldMapTypeId="-1"/>
+		<Map name="no027_dummy_04" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="139" worldMapTypeId="-1"/>
+		<Map name="no027_dummy_05" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="140" worldMapTypeId="-1"/>
+		<Map name="no027_dummy_06" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="141" worldMapTypeId="-1"/>
+		<Map name="no027_dummy_07" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="142" worldMapTypeId="-1"/>
+		<Map name="no027_dummy_08" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="143" worldMapTypeId="-1"/>
+		<Map name="no028_dummy_00" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="144" worldMapTypeId="-1"/>
+		<Map name="no028_dummy_01" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="145" worldMapTypeId="-1"/>
+		<Map name="no028_dummy_02" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="146" worldMapTypeId="-1"/>
+		<Map name="no028_dummy_03" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="147" worldMapTypeId="-1"/>
+		<Map name="no028_dummy_04" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="148" worldMapTypeId="-1"/>
+		<Map name="no028_dummy_05" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="149" worldMapTypeId="-1"/>
+		<!--11줄-->
+		<Map name="no030_dummy_00" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="150" worldMapTypeId="-1"/>
+		<Map name="no030_dummy_01" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="151" worldMapTypeId="-1"/>
+		<Map name="no030_dummy_02" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="152" worldMapTypeId="-1"/>
+		<Map name="no030_dummy_03" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="153" worldMapTypeId="-1"/>
+		<Map name="no030_dummy_04" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="154" worldMapTypeId="-1"/>
+		<Map name="no030_dummy_05" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="155" worldMapTypeId="-1"/>
+		<Map name="no030_dummy_06" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="156" worldMapTypeId="-1"/>
+		<Map name="no030_dummy_07" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="157" worldMapTypeId="-1"/>
+		<Map name="no030_dummy_08" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="158" worldMapTypeId="-1"/>
+		<Map name="no031_dummy_00" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="159" worldMapTypeId="-1"/>
+		<Map name="no031_dummy_01" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="160" worldMapTypeId="-1"/>
+		<Map name="no031_dummy_02" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="161" worldMapTypeId="-1"/>
+		<Map name="no031_dummy_03" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="162" worldMapTypeId="-1"/>
+		<Map name="no031_dummy_04" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="163" worldMapTypeId="-1"/>
+		<Map name="no031_dummy_05" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="164" worldMapTypeId="-1"/>
+		<!--12줄-->
+		<Map name="no034_dummy_01" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="165" worldMapTypeId="-1"/>
+		<Map name="no034_dummy_02" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="166" worldMapTypeId="-1"/>
+		<Map name="no034_dummy_03" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="167" worldMapTypeId="-1"/>
+		<Map name="no034_dummy_04" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="168" worldMapTypeId="-1"/>
+		<Map name="no034_dummy_05" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="169" worldMapTypeId="-1"/>
+		<Map name="no034_dummy_06" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="170" worldMapTypeId="-1"/>
+		<Map name="no034_dummy_07" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="171" worldMapTypeId="-1"/>
+		<Map name="no034_dummy_08" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="172" worldMapTypeId="-1"/>
+		<Map name="no035_dummy_00" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="173" worldMapTypeId="-1"/>
+		<Map name="no035_dummy_01" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="174" worldMapTypeId="-1"/>
+		<Map name="no035_dummy_02" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="175" worldMapTypeId="-1"/>
+		<Map name="no035_dummy_03" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="176" worldMapTypeId="-1"/>
+		<Map name="no035_dummy_04" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="177" worldMapTypeId="-1"/>
+		<Map name="no035_dummy_05" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="178" worldMapTypeId="-1"/>
+		<Map name="no035_dummy_06" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="179" worldMapTypeId="-1"/>
+		<!--13줄-->
+		<Map name="no037_dummy_00" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="180" worldMapTypeId="-1"/>
+		<Map name="no037_dummy_01" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="181" worldMapTypeId="-1"/>
+		<Map name="no037_dummy_02" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="182" worldMapTypeId="-1"/>
+		<Map name="no037_dummy_03" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="183" worldMapTypeId="-1"/>
+		<Map name="no037_dummy_04" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="184" worldMapTypeId="-1"/>
+		<Map name="no037_dummy_05" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="185" worldMapTypeId="-1"/>
+		<Map name="no037_dummy_06" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="186" worldMapTypeId="-1"/>
+		<Map name="no037_dummy_07" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="187" worldMapTypeId="-1"/>
+		<Map name="no037_dummy_08" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="188" worldMapTypeId="-1"/>
+		<Map name="no038_dummy_00" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="189" worldMapTypeId="-1"/>
+		<Map name="no038_dummy_01" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="190" worldMapTypeId="-1"/>
+		<Map name="no038_dummy_02" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="191" worldMapTypeId="-1"/>
+		<Map name="no038_dummy_03" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="192" worldMapTypeId="-1"/>
+		<Map name="no038_dummy_04" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="193" worldMapTypeId="-1"/>
+		<Map name="no038_dummy_05" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="194" worldMapTypeId="-1"/>
+		<!--14줄-->
+		<Map name="no040_dummy_00" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="195" worldMapTypeId="-1"/>
+		<Map name="no040_dummy_01" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="196" worldMapTypeId="-1"/>
+		<Map name="no040_dummy_02" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="197" worldMapTypeId="-1"/>
+		<Map name="no040_dummy_03" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="198" worldMapTypeId="-1"/>
+		<Map name="no040_dummy_04" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="199" worldMapTypeId="-1"/>
+		<Map name="no040_dummy_05" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="200" worldMapTypeId="-1"/>
+		<Map name="no040_dummy_06" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="201" worldMapTypeId="-1"/>
+		<Map name="no040_dummy_07" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="202" worldMapTypeId="-1"/>
+		<Map name="no040_dummy_08" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="203" worldMapTypeId="-1"/>
+		<Map name="no041_dummy_00" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="204" worldMapTypeId="-1"/>
+		<Map name="no041_dummy_01" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="205" worldMapTypeId="-1"/>
+		<Map name="no041_dummy_02" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="206" worldMapTypeId="-1"/>
+		<Map name="no041_dummy_03" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="207" worldMapTypeId="-1"/>
+		<Map name="no041_dummy_04" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="208" worldMapTypeId="-1"/>
+		<Map name="no041_dummy_05" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="209" worldMapTypeId="-1"/>
+		<!--15줄-->
+		<Map name="no043_dummy_00" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="210" worldMapTypeId="-1"/>
+		<Map name="no043_dummy_01" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="211" worldMapTypeId="-1"/>
+		<Map name="no043_dummy_02" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="212" worldMapTypeId="-1"/>
+		<Map name="no043_dummy_03" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="213" worldMapTypeId="-1"/>
+		<Map name="no043_dummy_04" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="214" worldMapTypeId="-1"/>
+		<Map name="no043_dummy_05" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="215" worldMapTypeId="-1"/>
+		<Map name="no043_dummy_06" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="216" worldMapTypeId="-1"/>
+		<Map name="no043_dummy_07" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="217" worldMapTypeId="-1"/>
+		<Map name="no043_dummy_08" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="218" worldMapTypeId="-1"/>
+		<Map name="no044_dummy_00" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="219" worldMapTypeId="-1"/>
+		<Map name="no044_dummy_01" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="220" worldMapTypeId="-1"/>
+		<Map name="no044_dummy_02" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="221" worldMapTypeId="-1"/>
+		<Map name="no044_dummy_03" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="222" worldMapTypeId="-1"/>
+		<Map name="no044_dummy_04" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="223" worldMapTypeId="-1"/>
+		<Map name="no044_dummy_05" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="224" worldMapTypeId="-1"/>
+	</Area>
+	<!--서오르타  Type id=2 -->
+	<Area name="서오르타" width="15" height="9">
+		<!--  1줄 시작 -->
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta0" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta1" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta2" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta3" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta4" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta5" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta6" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta7" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta8" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta9" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta10" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta11" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta12" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta13" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta14" worldMapTypeId="-1"/>
+		<!--  2줄 시작 -->
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta15" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta16" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta17" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta18" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta19" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta20" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta21" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta22" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta23" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta24" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta25" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta26" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta27" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta28" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta29" worldMapTypeId="-1"/>
+		<!--  3줄 시작 -->
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta30" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta31" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo_dummy_239.dds" tokName="wOrta32" worldMapTypeId="10"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo_dummy_240.dds" tokName="wOrta33" worldMapTypeId="10"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo_dummy_241.dds" tokName="wOrta34" worldMapTypeId="10"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo_dummy_242.dds" tokName="wOrta35" worldMapTypeId="10"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo_dummy_243.dds" tokName="wOrta36" worldMapTypeId="2"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo_dummy_244.dds" tokName="wOrta37" worldMapTypeId="2"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo_dummy_245.dds" tokName="wOrta38" worldMapTypeId="2"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo_dummy_246.dds" tokName="wOrta39" worldMapTypeId="2"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta40" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta41" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta42" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta43" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta44" worldMapTypeId="-1"/>
+		<!-- 4줄 시작  로우란 0,1,2/블루코랄 0,1,2-->
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta45" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta46" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo_dummy_260.dds" tokName="wOrta47" worldMapTypeId="10"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo_031_louran00.dds" tokName="wOrta48" worldMapTypeId="10"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo_031_louran01.dds" tokName="wOrta49" worldMapTypeId="10"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo_031_louran02.dds" tokName="wOrta50" worldMapTypeId="10"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo032_bluecoral00.dds" tokName="wOrta51" worldMapTypeId="2"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo032_bluecoral01.dds" tokName="wOrta52" worldMapTypeId="2"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo032_bluecoral02.dds" tokName="wOrta53" worldMapTypeId="2"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo_dummy_263.dds" tokName="wOrta54" worldMapTypeId="2"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta55" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta56" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta57" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta58" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta59" worldMapTypeId="-1"/>
+		<!--5줄 시작 로우란 3,4,5/블루코랄 3,4,5-->
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta60" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta61" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo_dummy_281.dds" tokName="wOrta62" worldMapTypeId="10"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo_031_louran03.dds" tokName="wOrta63" worldMapTypeId="10"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo_031_louran04.dds" tokName="wOrta64" worldMapTypeId="10"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo_031_louran05.dds" tokName="wOrta65" worldMapTypeId="10"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo032_bluecoral03.dds" tokName="wOrta66" worldMapTypeId="2"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo032_bluecoral04.dds" tokName="wOrta67" worldMapTypeId="2"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo032_bluecoral05.dds" tokName="wOrta68" worldMapTypeId="2"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo_dummy_288.dds" tokName="wOrta69" worldMapTypeId="2"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta70" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta71" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta72" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta73" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta74" worldMapTypeId="-1"/>
+		<!--6줄 시작 로우란 6,7,8/블루코랄 6,7,8-->
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta75" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta76" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo_dummy_302.dds" tokName="wOrta77" worldMapTypeId="10"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo_031_louran06.dds" tokName="wOrta78" worldMapTypeId="10"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo_031_louran07.dds" tokName="wOrta79" worldMapTypeId="10"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo_031_louran08.dds" tokName="wOrta80" worldMapTypeId="10"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo032_bluecoral06.dds" tokName="wOrta81" worldMapTypeId="2"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo032_bluecoral07.dds" tokName="wOrta82" worldMapTypeId="2"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo032_bluecoral08.dds" tokName="wOrta83" worldMapTypeId="2"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo_dummy_309.dds" tokName="wOrta84" worldMapTypeId="2"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta85" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta86" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta87" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta88" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta89" worldMapTypeId="-1"/>
+		<!--7줄 시작-->
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta90" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta91" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo_dummy_323.dds" tokName="wOrta92" worldMapTypeId="10"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo_dummy_324.dds" tokName="wOrta93" worldMapTypeId="10"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo_dummy_325.dds" tokName="wOrta94" worldMapTypeId="10"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo_dummy_326.dds" tokName="wOrta95" worldMapTypeId="10"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo_dummy_327.dds" tokName="wOrta96" worldMapTypeId="2"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo_dummy_328.dds" tokName="wOrta97" worldMapTypeId="2"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo_dummy_329.dds" tokName="wOrta98" worldMapTypeId="2"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/wo_dummy_330.dds" tokName="wOrta99" worldMapTypeId="2"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta100" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta101" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta102" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta103" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta104" worldMapTypeId="-1"/>
+		<!--  8줄 시작 -->
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta105" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta106" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta107" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta108" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta109" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta110" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta111" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta112" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta113" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta114" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta115" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta116" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta117" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta118" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta119" worldMapTypeId="-1"/>
+		<!--  9줄 시작 -->
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta120" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta121" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta122" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta123" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta124" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta125" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta126" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta127" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta128" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta129" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta130" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta131" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta132" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta133" worldMapTypeId="-1"/>
+		<Map name="wOrta_dummy" imageName="ui/MiniMap/no_023_testcave_01.dds" tokName="wOrta134" worldMapTypeId="-1"/>
+	</Area>
+	<!--Type id=3 -->
+	<Area name="패턴던젼" width="1" height="1">
+		<Map name="pattern" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="6"/>
+	</Area>
+	<!--Type id=4 -->
+	<Area name="테스트맵" width="1" height="1">
+		<Map name="test" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="5"/>
+	</Area>
+	<!--Type id=5 -->
+	<Area name="시험의동굴" width="1" height="1">
+		<Map name="cave" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="8"/>
+	</Area>
+	<!--Type id=6 -->
+	<Area name="산호동굴" width="1" height="1">
+		<Map name="cave" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="9"/>
+	</Area>
+	<!--Type id=7 -->
+	<Area name="talun던전" width="1" height="1">
+		<!--  1줄 -->
+		<Map name="talun" imageName="ui/MiniMap/dun_no022_talrun01.dds" worldMapTypeId="5"/>
+	</Area>
+	<!--Type id=8 -->
+	<Area name="크로나그 던전" width="1" height="1">
+		<!--  1줄 -->
+		<Map name="kronag" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="7"/>
+	</Area>
+	<!--Type id=9 -->
+	<Area name="안탈리아 테스트" width="3" height="3">
+		<!--  1줄 -->
+		<Map name="MAP_01" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="2"/>
+		<Map name="MAP_02" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="2"/>
+		<Map name="MAP_03" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="2"/>
+		<!--  2줄 -->
+		<Map name="MAP_04" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="2"/>
+		<Map name="MAP_05" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="2"/>
+		<Map name="MAP_06" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="2"/>
+		<!--  3줄 -->
+		<Map name="MAP_07" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="2"/>
+		<Map name="MAP_08" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="2"/>
+		<Map name="MAP_09" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="2"/>
+	</Area>
+	<!-- 산호 채취장 Type id=10-->
+	<Area name="산호 채취장" width="3" height="3">
+		<Map name="wo_dummy_242" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="4"/>
+		<Map name="wo_dummy_243" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="4"/>
+		<Map name="wo_dummy_244" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="4"/>
+		<Map name="wo_dummy_263" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="4"/>
+		<Map name="wo032_bluecoral00" imageName="ui/MiniMap/wo032_bluecoral00.dds" worldMapTypeId="4"/>
+		<Map name="wo032_bluecoral01" imageName="ui/MiniMap/wo032_bluecoral01.dds" worldMapTypeId="4"/>
+		<Map name="wo_dummy_284" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="4"/>
+		<Map name="wo032_bluecoral03" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="4"/>
+		<Map name="wo032_bluecoral04" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="4"/>
+	</Area>
+	<!--카툼바 골짜기 Type id=11 -->
+	<Area name="카툼바 골짜기" width="3" height="3">
+		<Map name="wo_dummy_242" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="3"/>
+		<Map name="wo_dummy_243" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="3"/>
+		<Map name="wo_dummy_244" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="3"/>
+		<Map name="wo_dummy_263" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="3"/>
+		<Map name="no022_wtum00" imageName="ui/MiniMap/no022_wtum00.dds" worldMapTypeId="3"/>
+		<Map name="no022_wtum00" imageName="ui/MiniMap/no022_wtum00.dds" worldMapTypeId="3"/>
+		<Map name="wo_dummy_284" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="3"/>
+		<Map name="no022_wtum00" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="3"/>
+		<Map name="no022_wtum00" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="3"/>
+	</Area>
+	<!--Type id=12 -->
+	<Area name="소금광산" width="1" height="1">
+		<!--  1줄 -->
+		<Map name="saltmine" imageName="ui/MiniMap/dun_wo031_saltmine.dds" worldMapTypeId="11"/>
+	</Area>
+	<!--Type id=13 -->
+	<Area name="북오르타CB버전" width="3" height="3">
+		<!--  1줄 -->
+		<Map name="MAP_01" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="2"/>
+		<Map name="MAP_02" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="2"/>
+		<Map name="MAP_03" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="2"/>
+		<!--  2줄 -->
+		<Map name="MAP_04" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="2"/>
+		<Map name="MAP_05" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="2"/>
+		<Map name="MAP_06" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="2"/>
+		<!--  3줄 -->
+		<Map name="MAP_07" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="2"/>
+		<Map name="MAP_08" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="2"/>
+		<Map name="MAP_09" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="2"/>
+	</Area>
+	<!--Type id=13 -->
+	<Area name="북오르타CB버전축약" width="3" height="3">
+		<!--  1줄 -->
+		<Map name="MAP_01" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="2"/>
+		<Map name="MAP_02" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="2"/>
+		<Map name="MAP_03" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="2"/>
+		<!--  2줄 -->
+		<Map name="MAP_04" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="2"/>
+		<Map name="MAP_05" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="2"/>
+		<Map name="MAP_06" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="2"/>
+		<!--  3줄 -->
+		<Map name="MAP_07" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="2"/>
+		<Map name="MAP_08" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="2"/>
+		<Map name="MAP_09" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="2"/>
+	</Area>
+	<!--Type id=14 -->
+	<Area name="카툼바 골짜기 채널링" width="3" height="3">
+		<!--  1줄 -->
+		<Map name="MAP_01" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="2"/>
+		<Map name="MAP_02" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="2"/>
+		<Map name="MAP_03" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="2"/>
+		<!--  2줄 -->
+		<Map name="MAP_04" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="2"/>
+		<Map name="MAP_05" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="2"/>
+		<Map name="MAP_06" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="2"/>
+		<!--  3줄 -->
+		<Map name="MAP_07" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="2"/>
+		<Map name="MAP_08" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="2"/>
+		<Map name="MAP_09" imageName="ui/MiniMap/no_023_testcave_01.dds" worldMapTypeId="2"/>
+	</Area>
+	<WorldAreaMap>
+		<Map typeId="0" name="서 툼바라 초원" imageName="MiniMap\wtumMap.dds" frameimageName="MiniMap\wtumMap_Girth.dds" width="4" height="4" offSetX="-1" offSetY="-1"/>
+		<Map typeId="1" name="듀발 고원" imageName="MiniMap\dubalMap.dds" frameimageName="MiniMap\dubalMap_Girth.dds" width="4" height="4" offSetX="-1" offSetY="1"/>
+		<Map typeId="2" name="푸른 산호 숲" imageName="MiniMap\bluecoralMap.dds" frameimageName="MiniMap\bluecoralMap_Girth.dds" width="3" height="3" offSetX="0" offSetY="0"/>
+		<Map typeId="3" name="카툼바 골짜기" imageName="MiniMap\st_tuto.dds" frameimageName="MiniMap\st_tuto_Girth.dds" width="3" height="3" offSetX="0" offSetY="0"/>
+		<Map typeId="4" name="산호 채취장" imageName="MiniMap\bc_tuto.dds" frameimageName="MiniMap\bc_tuto_Girth.dds" width="3" height="3" offSetX="0" offSetY="0"/>
+		<Map typeId="5" name="탈룬바라 협곡" imageName="MiniMap\wtumMap.dds" frameimageName="MiniMap\wtumMap_Girth.dds" width="1" height="1" offSetX="0" offSetY="0"/>
+		<Map typeId="6" name="노스펠러 남작 지하 던젼" imageName="MiniMap\bluecoralMap.dds" frameimageName="MiniMap\bluecoralMap_Girth.dds" width="1" height="1" offSetX="0" offSetY="0"/>
+		<Map typeId="7" name="포효의 오르막" imageName="MiniMap\dubalMap.dds" frameimageName="MiniMap\dubalMap_Girth.dds" width="1" height="1" offSetX="0" offSetY="0"/>
+		<Map typeId="8" name="시험의 동굴" imageName="MiniMap\dubalMap.dds" frameimageName="MiniMap\dubalMap_Girth.dds" width="1" height="1" offSetX="0" offSetY="0"/>
+		<Map typeId="9" name="산호 동굴" imageName="MiniMap\dubalMap.dds" frameimageName="MiniMap\dubalMap_Girth.dds" width="1" height="1" offSetX="0" offSetY="0"/>
+		<Map typeId="10" name="로우란 사막" imageName="MiniMap\LouranMap.dds" frameimageName="MiniMap\LouranMap_Girth.dds" width="5" height="5" offSetX="-2" offSetY="0"/>
+		<Map typeId="11" name="소금광산" imageName="MiniMap\LouranMap.dds" frameimageName="MiniMap\LouranMap_Girth.dds" width="1" height="1" offSetX="0" offSetY="0"/>
+	</WorldAreaMap>
+</WorldLayout>

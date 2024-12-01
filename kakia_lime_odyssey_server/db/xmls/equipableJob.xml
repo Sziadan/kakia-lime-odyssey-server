@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by 최의동 (EMBRACE) -->
+<Root>
+	<Type typeID="0" typeName="^#00ffff모든직업">
+		<Job typeID="1"/>
+		<Job typeID="2"/>
+		<Job typeID="3"/>
+		<Job typeID="4"/>
+		<Job typeID="5"/>
+		<Job typeID="6"/>
+		<Job typeID="7"/>
+		<Job typeID="8"/>
+		<Job typeID="9"/>
+		<Job typeID="10"/>
+		<Job typeID="11"/>
+		<Job typeID="12"/>
+		<Job typeID="13"/>
+		<Job typeID="14"/>
+		<Job typeID="15"/>
+		<Job typeID="16"/>
+		<Job typeID="17"/>
+		<Job typeID="18"/>
+		<Job typeID="19"/>
+		<Job typeID="20"/>
+		<Job typeID="21"/>
+		<Job typeID="22"/>
+		<Job typeID="23"/>
+		<Job typeID="24"/>
+		<Job typeID="25"/>
+		<Job typeID="26"/>
+		<Job typeID="27"/>
+		<Job typeID="28"/>
+		<Job typeID="29"/>
+		<Job typeID="101"/>
+		<Job typeID="102"/>
+		<Job typeID="103"/>
+		<Job typeID="104"/>
+		<Job typeID="105"/>
+		<Job typeID="106"/>
+		<Job typeID="107"/>
+		<Job typeID="108"/>
+		<Job typeID="109"/>
+		<Job typeID="110"/>
+		<Job typeID="111"/>
+		<Job typeID="112"/>
+		<Job typeID="113"/>
+		<Job typeID="114"/>
+	</Type>
+	<Type typeID="1" typeName="^#00ffff전사 전용">
+		<Job typeID="1"/>
+	</Type>
+	<Type typeID="2" typeName="^#00ffff도적 전용">
+		<Job typeID="2"/>
+	</Type>
+	<Type typeID="3" typeName="^#00ffff마술사 전용">
+		<Job typeID="3"/>
+	</Type>
+	<Type typeID="4" typeName="^#00ffff치유사 전용">
+		<Job typeID="4"/>
+	</Type>
+	<Type typeID="5" typeName="^#00ffff악사 전용">
+		<Job typeID="5"/>
+	</Type>
+	<Type typeID="6" typeName="^#00ffff조련사 전용">
+		<Job typeID="6"/>
+	</Type>
+	<Type typeID="7" typeName="^#00ffff인형술사 전용">
+		<Job typeID="7"/>
+	</Type>
+	<Type typeID="8" typeName="^#00ffff검투사 전용">
+		<Job typeID="8"/>
+	</Type>
+	<Type typeID="9" typeName="^#00ffff수호자 전용">
+		<Job typeID="9"/>
+	</Type>
+	<Type typeID="10" typeName="^#00ffff광전사 전용">
+		<Job typeID="10"/>
+	</Type>
+	<Type typeID="11" typeName="^#00ffff마법기사 전용">
+		<Job typeID="11"/>
+	</Type>
+	<Type typeID="12" typeName="^#00ffff어쌔신 전용">
+		<Job typeID="12"/>
+	</Type>
+	<Type typeID="13" typeName="^#00ffff닌자 전용">
+		<Job typeID="13"/>
+	</Type>
+	<Type typeID="14" typeName="^#00ffff마법사 전용">
+		<Job typeID="14"/>
+	</Type>
+	<Type typeID="15" typeName="^#00ffff두루마리제작사 전용">
+		<Job typeID="15"/>
+	</Type>
+	<Type typeID="16" typeName="^#00ffff현자 전용">
+		<Job typeID="16"/>
+	</Type>
+	<Type typeID="17" typeName="^#00ffff소환사 전용">
+		<Job typeID="17"/>
+	</Type>
+	<Type typeID="18" typeName="^#00ffff사제 전용">
+		<Job typeID="18"/>
+	</Type>
+	<Type typeID="19" typeName="^#00ffff풍수사 전용">
+		<Job typeID="19"/>
+	</Type>
+	<Type typeID="20" typeName="^#00ffff퇴마사 전용">
+		<Job typeID="20"/>
+	</Type>
+	<Type typeID="21" typeName="^#00ffff연주가 전용">
+		<Job typeID="21"/>
+	</Type>
+	<Type typeID="22" typeName="^#00ffff무용가 전용">
+		<Job typeID="22"/>
+	</Type>
+	<Type typeID="23" typeName="^#00ffff악기제작가 전용">
+		<Job typeID="23"/>
+	</Type>
+	<Type typeID="24" typeName="^#00ffff총잡이 전용">
+		<Job typeID="24"/>
+	</Type>
+	<Type typeID="25" typeName="^#00ffff야수조련사 전용">
+		<Job typeID="25"/>
+	</Type>
+	<Type typeID="26" typeName="^#00ffff추적자 전용">
+		<Job typeID="26"/>
+	</Type>
+	<Type typeID="27" typeName="^#00ffff인형수집가 전용">
+		<Job typeID="27"/>
+	</Type>
+	<Type typeID="28" typeName="^#00ffff인형술대가 전용">
+		<Job typeID="28"/>
+	</Type>
+	<Type typeID="29" typeName="^#00ffff인형제작가 전용">
+		<Job typeID="29"/>
+	</Type>
+	<Type typeID="101" typeName="^#00ffff상인 전용">
+		<Job typeID="101"/>
+	</Type>
+	<Type typeID="102" typeName="^#00ffff재봉사 전용">
+		<Job typeID="102"/>
+	</Type>
+	<Type typeID="103" typeName="^#00ffff건축가 전용">
+		<Job typeID="103"/>
+	</Type>
+	<Type typeID="104" typeName="^#00ffff다인 전용">
+		<Job typeID="104"/>
+	</Type>
+	<Type typeID="105" typeName="^#00ffff약제사 전용">
+		<Job typeID="105"/>
+	</Type>
+	<Type typeID="106" typeName="^#00ffff나무공예사 전용">
+		<Job typeID="106"/>
+	</Type>
+	<Type typeID="107" typeName="^#00ffff고기공사 전용">
+		<Job typeID="107"/>
+	</Type>
+	<Type typeID="108" typeName="^#00ffff대장장이 전용">
+		<Job typeID="108"/>
+	</Type>
+	<Type typeID="109" typeName="^#00ffff요리사 전용">
+		<Job typeID="109"/>
+	</Type>
+	<Type typeID="110" typeName="^#00ffff재배사 전용">
+		<Job typeID="110"/>
+	</Type>
+	<Type typeID="111" typeName="^#00ffff양식전문가 전용">
+		<Job typeID="111"/>
+	</Type>
+	<Type typeID="112" typeName="^#00ffff연금술사 전용">
+		<Job typeID="112"/>
+	</Type>
+	<Type typeID="113" typeName="^#00ffff식품가공사 전용">
+		<Job typeID="113"/>
+	</Type>
+	<Type typeID="114" typeName="^#00ffff발명가 전용">
+		<Job typeID="114"/>
+	</Type>
+	<Type typeID="501" typeName="^#00ffff전투직업 전용">
+		<Job typeID="1"/>
+		<Job typeID="2"/>
+		<Job typeID="3"/>
+		<Job typeID="4"/>
+		<Job typeID="5"/>
+		<Job typeID="6"/>
+		<Job typeID="7"/>
+		<Job typeID="8"/>
+		<Job typeID="9"/>
+		<Job typeID="10"/>
+		<Job typeID="11"/>
+		<Job typeID="12"/>
+		<Job typeID="13"/>
+		<Job typeID="14"/>
+		<Job typeID="15"/>
+		<Job typeID="16"/>
+		<Job typeID="17"/>
+		<Job typeID="18"/>
+		<Job typeID="19"/>
+		<Job typeID="20"/>
+		<Job typeID="21"/>
+		<Job typeID="22"/>
+		<Job typeID="23"/>
+		<Job typeID="24"/>
+		<Job typeID="25"/>
+		<Job typeID="26"/>
+		<Job typeID="27"/>
+		<Job typeID="28"/>
+		<Job typeID="29"/>
+	</Type>
+	<Type typeID="502" typeName="^#00ffff생활직업 전용">
+		<Job typeID="101"/>
+		<Job typeID="102"/>
+		<Job typeID="103"/>
+		<Job typeID="104"/>
+		<Job typeID="105"/>
+		<Job typeID="106"/>
+		<Job typeID="107"/>
+		<Job typeID="108"/>
+		<Job typeID="109"/>
+		<Job typeID="110"/>
+		<Job typeID="111"/>
+		<Job typeID="112"/>
+		<Job typeID="113"/>
+		<Job typeID="114"/>
+	</Type>
+	<Type typeID="503" typeName="^#00ffff전사직업류 전용">
+		<Job typeID="1"/>
+		<Job typeID="8"/>
+		<Job typeID="9"/>
+		<Job typeID="10"/>
+		<Job typeID="11"/>
+	</Type>
+	<Type typeID="504" typeName="^#00ffff도적직업류 전용">
+		<Job typeID="2"/>
+		<Job typeID="12"/>
+		<Job typeID="13"/>
+	</Type>
+	<Type typeID="505" typeName="^#00ffff마술사직업류 전용">
+		<Job typeID="3"/>
+		<Job typeID="14"/>
+		<Job typeID="15"/>
+		<Job typeID="16"/>
+		<Job typeID="17"/>
+	</Type>
+	<Type typeID="506" typeName="^#00ffff치유사직업류 전용">
+		<Job typeID="4"/>
+		<Job typeID="17"/>
+		<Job typeID="18"/>
+		<Job typeID="19"/>
+		<Job typeID="20"/>
+	</Type>
+	<Type typeID="507" typeName="^#00ffff악사직업류 전용">
+		<Job typeID="5"/>
+		<Job typeID="21"/>
+		<Job typeID="22"/>
+		<Job typeID="23"/>
+	</Type>
+	<Type typeID="508" typeName="^#00ffff조련사직업류 전용">
+		<Job typeID="6"/>
+		<Job typeID="24"/>
+		<Job typeID="25"/>
+		<Job typeID="26"/>
+	</Type>
+	<Type typeID="509" typeName="^#00ffff인형술사직업류 전용">
+		<Job typeID="7"/>
+		<Job typeID="27"/>
+		<Job typeID="28"/>
+		<Job typeID="29"/>
+	</Type>
+	<Type typeID="510" typeName="^#00ffff전투1차지망직업 전용">
+		<Job typeID="5"/>
+		<Job typeID="6"/>
+		<Job typeID="7"/>
+		<Job typeID="8"/>
+		<Job typeID="9"/>
+		<Job typeID="10"/>
+		<Job typeID="11"/>
+		<Job typeID="12"/>
+		<Job typeID="13"/>
+		<Job typeID="14"/>
+		<Job typeID="15"/>
+		<Job typeID="16"/>
+		<Job typeID="17"/>
+		<Job typeID="18"/>
+		<Job typeID="19"/>
+		<Job typeID="20"/>
+		<Job typeID="21"/>
+		<Job typeID="22"/>
+		<Job typeID="23"/>
+		<Job typeID="24"/>
+		<Job typeID="25"/>
+		<Job typeID="26"/>
+		<Job typeID="27"/>
+		<Job typeID="28"/>
+		<Job typeID="29"/>
+	</Type>
+	<Type typeID="601" typeName="^#00ffff전사,치유사 전용">
+		<Job typeID="1"/>
+		<Job typeID="4"/>
+	</Type>
+	<Type typeID="602" typeName="^#00ffff전사,도적 전용">
+		<Job typeID="1"/>
+		<Job typeID="2"/>
+	</Type>
+	<Type typeID="603" typeName="^#00ffff치유사,마술사 전용">
+		<Job typeID="3"/>
+		<Job typeID="4"/>
+	</Type>
+</Root>

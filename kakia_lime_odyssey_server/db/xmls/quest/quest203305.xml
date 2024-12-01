@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by Administrator (EMBRACE) -->
+<Quest>
+	<Quest typeID="203305311" typeName="부스러진 체리라이트" group="207" NPC="생활 모험가(그린 코랄)" reportTo="생활 모험가(그린 코랄)" cancelable="1" repeatable="0" retryable="1" lv="5" desc="길 가에 뿌려진 광물은 줍는 사람이 임자랍니다. 저희 클로버 투 페어 모험가 길드의 쏠쏠한 부업거리가 되기도 하지요./n^#3399FF부스러진 체리라이트^#FFFFFF를 ^#3399FF캐^#FFFFFF와 주세요./n모일 때 마다 제게 가져다 주시면 더 좋고요./n다 모으면 저에게 가져다 주세요. ^#3399FF그린 코랄^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="30" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[부스러진 체리라이트 수집]]" draft="길 가에 뿌려진 광물은 줍는 사람이 임자랍니다. 저희 클로버 투 페어 모험가 길드의 쏠쏠한 부업거리가 되기도 하지요./n^#3399FF부스러진 체리라이트^#FFFFFF를 ^#3399FF캐^#FFFFFF와 주세요./n모일 때 마다 제게 가져다 주시면 더 좋고요./n다 모으면 저에게 가져다 주세요. ^#3399FF그린 코랄^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="부스러진 체리라이트 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[그린 코랄 생활 모험가 길드원에게 보고]]" draft="길 가에 뿌려진 광물은 줍는 사람이 임자랍니다. 저희 클로버 투 페어 모험가 길드의 쏠쏠한 부업거리가 되기도 하지요./n^#3399FF부스러진 체리라이트^#FFFFFF를 ^#3399FF캐^#FFFFFF와 주세요./n모일 때 마다 제게 가져다 주시면 더 좋고요./n다 모으면 저에게 가져다 주세요. ^#3399FF그린 코랄^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="그린 코랄 생활 모험가 길드원에게 보고" mapTargetId="201502"/>
+		</Subject>
+		<Storage Collect1_typeID="200003" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="3"/>
+	</Quest>
+	<Quest typeID="203305312" typeName="티끌 모아 태산! (반복)" group="207" NPC="생활 모험가(그린 코랄)" reportTo="생활 모험가(그린 코랄)" cancelable="1" repeatable="1" retryable="1" lv="5" desc="티끌 모아 태산!이랍니다. 아무리 잘게 부스러진 광석이라도 모으고 또 모으면 멋진 메이스나 대거가 될 수도 있지요./n^#3399FF부스러진 광석^#FFFFFF을 ^#3399FF캐^#FFFFFF와 주세요. 광석이 모일 때 마다 제게 가져다 주시면 더 좋고요./n다 모으면 저에게 가져다 주세요. ^#3399FF그린 코랄^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="30" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[부스러진 광석 수집]]" draft="티끌 모아 태산!이랍니다. 아무리 잘게 부스러진 광석이라도 모으고 또 모으면 멋진 메이스나 대거가 될 수도 있지요./n^#3399FF부스러진 광석^#FFFFFF을 ^#3399FF캐^#FFFFFF와 주세요. 광석이 모일 때 마다 제게 가져다 주시면 더 좋고요./n다 모으면 저에게 가져다 주세요. ^#3399FF그린 코랄^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="부스러진 광석 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[그린 코랄 생활 모험가 길드원에게 보고]]" draft="티끌 모아 태산!이랍니다. 아무리 잘게 부스러진 광석이라도 모으고 또 모으면 멋진 메이스나 대거가 될 수도 있지요./n^#3399FF부스러진 광석^#FFFFFF을 ^#3399FF캐^#FFFFFF와 주세요. 광석이 모일 때 마다 제게 가져다 주시면 더 좋고요./n다 모으면 저에게 가져다 주세요. ^#3399FF그린 코랄^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="그린 코랄 생활 모험가 길드원에게 보고" mapTargetId="201502"/>
+		</Subject>
+		<Storage Collect1_typeID="200001" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="3"/>
+	</Quest>
+	<Quest typeID="203305313" typeName="시든 꽃의 시간" group="207" NPC="생활 모험가(그린 코랄)" reportTo="생활 모험가(그린 코랄)" cancelable="1" repeatable="0" retryable="1" lv="5" desc="시간이 흐르는 걸 아쉬워하는 할머니께서 의뢰하신 일이예요. ^#3399FF시든 꽃봉오리^#FFFFFF를  ^#3399FF찾아^#FFFFFF 달라고 하시는데요./n할머니께서는 시들어서 아쉽다고 하시지만 진정 꽃을 아름답다고 생각한다면 시간이 지나도 아름다워 보이는 거 거겠지요?/n^#3399FF그린 코랄^#FFFFFF에서 기다릴게요. 더 시간이 흐르기 전에 저에게 갖다 주세요." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="30" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[시든 꽃봉오리 수집]]" draft="시간이 흐르는 걸 아쉬워하는 할머니께서 의뢰하신 일이예요. ^#3399FF시든 꽃봉오리^#FFFFFF를  ^#3399FF찾아^#FFFFFF 달라고 하시는데요./n할머니께서는 시들어서 아쉽다고 하시지만 진정 꽃을 아름답다고 생각한다면 시간이 지나도 아름다워 보이는 거 거겠지요?/n^#3399FF그린 코랄^#FFFFFF에서 기다릴게요. 더 시간이 흐르기 전에 저에게 갖다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="시든 꽃봉오리 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[그린 코랄 생활 모험가 길드원에게 보고]]" draft="시간이 흐르는 걸 아쉬워하는 할머니께서 의뢰하신 일이예요. ^#3399FF시든 꽃봉오리^#FFFFFF를  ^#3399FF찾아^#FFFFFF 달라고 하시는데요./n할머니께서는 시들어서 아쉽다고 하시지만 진정 꽃을 아름답다고 생각한다면 시간이 지나도 아름다워 보이는 거 거겠지요?/n^#3399FF그린 코랄^#FFFFFF에서 기다릴게요. 더 시간이 흐르기 전에 저에게 갖다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="그린 코랄 생활 모험가 길드원에게 보고" mapTargetId="201502"/>
+		</Subject>
+		<Storage Collect1_typeID="200032" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="3"/>
+	</Quest>
+	<Quest typeID="203305314" typeName="과거의 흔적 (반복)" group="207" NPC="생활 모험가(그린 코랄)" reportTo="생활 모험가(그린 코랄)" cancelable="1" repeatable="1" retryable="1" lv="5" desc="코어란 과거 사라진 문명의 기계 장치라는 말도 있고 예술품이라는 말도 있어요./n저는 기계에도 예술에도 문외한이라 잘 모르겠지만.. 확실한 건 그것들이 과거의 역사를 밝히는데 도움이 된다는 사실이랍니다. ^#3399FF부스러진 코어^#FFFFFF를 
+^#3399FF캐^#FFFFFF와 주시면 많은 도움이 될거예요./n다 모으면 저에게 가져다 주세요. ^#3399FF그린 코랄^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="30" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[부스러진 코어 수집]]" draft="코어란 과거 사라진 문명의 기계 장치라는 말도 있고 예술품이라는 말도 있어요./n저는 기계에도 예술에도 문외한이라 잘 모르겠지만.. 확실한 건 그것들이 과거의 역사를 밝히는데 도움이 된다는 사실이랍니다. ^#3399FF부스러진 코어^#FFFFFF를 
+^#3399FF캐^#FFFFFF와 주시면 많은 도움이 될거예요./n다 모으면 저에게 가져다 주세요. ^#3399FF그린 코랄^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="부스러진 코어 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[그린 코랄 생활 모험가 길드원에게 보고]]" draft="코어란 과거 사라진 문명의 기계 장치라는 말도 있고 예술품이라는 말도 있어요./n저는 기계에도 예술에도 문외한이라 잘 모르겠지만.. 확실한 건 그것들이 과거의 역사를 밝히는데 도움이 된다는 사실이랍니다. ^#3399FF부스러진 코어^#FFFFFF를 
+^#3399FF캐^#FFFFFF와 주시면 많은 도움이 될거예요./n다 모으면 저에게 가져다 주세요. ^#3399FF그린 코랄^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="그린 코랄 생활 모험가 길드원에게 보고" mapTargetId="201502"/>
+		</Subject>
+		<Storage Collect1_typeID="200006" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="3"/>
+	</Quest>
+	<Quest typeID="203305315" typeName="뗄감으로 쓰일 나무" group="207" NPC="생활 모험가(그린 코랄)" reportTo="생활 모험가(그린 코랄)" cancelable="1" repeatable="0" retryable="1" lv="5" desc="나무는 푸르른 잎으로 우리들을 시원하게 쉴 수 있게 해주고, 죽어서는 몸을 불태워 따뜻하게 만들어 주기도 하답니다. ^#3399FF시든 나무^#FFFFFF를 구해오세요. 나무를 ^#3399FF베^#FFFFFF면 얻을 수 있다는 건 굳이 말씀 안드려도 되겠지요?/n다 모으면 저에게 가져다 주세요. ^#3399FF그린 코랄^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="30" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[시든 나무 수집]]" draft="나무는 푸르른 잎으로 우리들을 시원하게 쉴 수 있게 해주고, 죽어서는 몸을 불태워 따뜻하게 만들어 주기도 하답니다. ^#3399FF시든 나무^#FFFFFF를 구해오세요. 나무를 ^#3399FF베^#FFFFFF면 얻을 수 있다는 건 굳이 말씀 안드려도 되겠지요?/n다 모으면 저에게 가져다 주세요. ^#3399FF그린 코랄^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="시든 나무 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[그린 코랄 생활 모험가 길드원에게 보고]]" draft="나무는 푸르른 잎으로 우리들을 시원하게 쉴 수 있게 해주고, 죽어서는 몸을 불태워 따뜻하게 만들어 주기도 하답니다. ^#3399FF시든 나무^#FFFFFF를 구해오세요. 나무를 ^#3399FF베^#FFFFFF면 얻을 수 있다는 건 굳이 말씀 안드려도 되겠지요?/n다 모으면 저에게 가져다 주세요. ^#3399FF그린 코랄^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="그린 코랄 생활 모험가 길드원에게 보고" mapTargetId="201502"/>
+		</Subject>
+		<Storage Collect1_typeID="200017" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="3"/>
+	</Quest>
+	<Quest typeID="203305316" typeName="훔바바와 버섯 (반복)" group="207" NPC="생활 모험가(그린 코랄)" reportTo="생활 모험가(그린 코랄)" cancelable="1" repeatable="1" retryable="1" lv="5" desc="네… 이번 의뢰는… 응? 어머나, 훔바바 족의 의뢰로군요. 시든... 버섯…을... 모아…달…라… 풉. /n어머머! 저만 웃긴가요? 아무튼 ^#3399FF시든 버섯^#FFFFFF을 ^#3399FF찾아^#FFFFFF 오세요./n다 모으면 저에게 가져다 주세요. ^#3399FF그린 코랄^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="30" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[시든 버섯 수집]]" draft="네… 이번 의뢰는… 응? 어머나, 훔바바 족의 의뢰로군요. 시든... 버섯…을... 모아…달…라… 풉. /n어머머! 저만 웃긴가요? 아무튼 ^#3399FF시든 버섯^#FFFFFF을 ^#3399FF찾아^#FFFFFF 오세요./n다 모으면 저에게 가져다 주세요. ^#3399FF그린 코랄^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="시든 버섯 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[그린 코랄 생활 모험가 길드원에게 보고]]" draft="네… 이번 의뢰는… 응? 어머나, 훔바바 족의 의뢰로군요. 시든... 버섯…을... 모아…달…라… 풉. /n어머머! 저만 웃긴가요? 아무튼 ^#3399FF시든 버섯^#FFFFFF을 ^#3399FF찾아^#FFFFFF 오세요./n다 모으면 저에게 가져다 주세요. ^#3399FF그린 코랄^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="그린 코랄 생활 모험가 길드원에게 보고" mapTargetId="201502"/>
+		</Subject>
+		<Storage Collect1_typeID="200025" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="3"/>
+	</Quest>
+	<Quest typeID="203305317" typeName="푸른 목걸이의 재료" group="207" NPC="생활 모험가(그린 코랄)" reportTo="생활 모험가(그린 코랄)" cancelable="1" repeatable="0" retryable="1" lv="5" desc="보석상인님의 의뢰입니다. 목걸이를 장식하는 필요한 ^#3399FF부스러진 사피이어^#FFFFFF가 필요하니 ^#3399FF찾아^#FFFFFF달라고 하시네요./n푸른 사파이어로 만들어진 목걸이라... 저도 갖고 싶은 걸요./n다 모으면 저에게 가져다 주세요. ^#3399FF그린 코랄^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="30" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[부스러진 사파이어 수집]]" draft="보석상인님의 의뢰입니다. 목걸이를 장식하는 필요한 ^#3399FF부스러진 사피이어^#FFFFFF가 필요하니 ^#3399FF찾아^#FFFFFF달라고 하시네요./n푸른 사파이어로 만들어진 목걸이라... 저도 갖고 싶은 걸요./n다 모으면 저에게 가져다 주세요. ^#3399FF그린 코랄^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="부스러진 사파이어 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[그린 코랄 생활 모험가 길드원에게 보고]]" draft="보석상인님의 의뢰입니다. 목걸이를 장식하는 필요한 ^#3399FF부스러진 사피이어^#FFFFFF가 필요하니 ^#3399FF찾아^#FFFFFF달라고 하시네요./n푸른 사파이어로 만들어진 목걸이라... 저도 갖고 싶은 걸요./n다 모으면 저에게 가져다 주세요. ^#3399FF그린 코랄^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="그린 코랄 생활 모험가 길드원에게 보고" mapTargetId="201502"/>
+		</Subject>
+		<Storage Collect1_typeID="200007" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="3"/>
+	</Quest>
+	<Quest typeID="203305318" typeName="정성 듬뿍 저녁식사 (반복)" group="207" NPC="생활 모험가(그린 코랄)" reportTo="생활 모험가(그린 코랄)" cancelable="1" repeatable="1" retryable="1" lv="5" desc="아기 엄마님의 의뢰입니다. 아기에게 젖을 먹이느라 정작 남편의 저녁식사는 준비하지 못했다면서 발을 동동 구르고 계세요./n어서 가서 ^#3399FF손질된 고기^#FFFFFF를 구해다 주시겠어요? 어서요~/n다 모으면 저에게 가져다 주세요. ^#3399FF그린 코랄^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="50" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[가공품 손질된 고기 수집]]" draft="아기 엄마님의 의뢰입니다. 아기에게 젖을 먹이느라 정작 남편의 저녁식사는 준비하지 못했다면서 발을 동동 구르고 계세요./n어서 가서 ^#3399FF손질된 고기^#FFFFFF를 구해다 주시겠어요? 어서요~/n다 모으면 저에게 가져다 주세요. ^#3399FF그린 코랄^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="가공품 손질된 고기 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[그린 코랄 생활 모험가 길드원에게 보고]]" draft="아기 엄마님의 의뢰입니다. 아기에게 젖을 먹이느라 정작 남편의 저녁식사는 준비하지 못했다면서 발을 동동 구르고 계세요./n어서 가서 ^#3399FF손질된 고기^#FFFFFF를 구해다 주시겠어요? 어서요~/n다 모으면 저에게 가져다 주세요. ^#3399FF그린 코랄^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="그린 코랄 생활 모험가 길드원에게 보고" mapTargetId="201502"/>
+		</Subject>
+		<Storage Collect1_typeID="201062" Collect1_goal="3" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="203305319" typeName="떠돌이의 목을 축일 음료" group="207" NPC="생활 모험가(그린 코랄)" reportTo="생활 모험가(그린 코랄)" cancelable="1" repeatable="0" retryable="1" lv="5" desc="떠돌이 장사꾼님의 의뢰입니다. 오랜 여행에 지친 몸을 달래고 싶으니 향긋한 티를 만들어 달라고 부탁하셨어요./n^#3399FF그린티 라이프^#FFFFFF 정도면 괜찮겠죠? 어서 구해다 주세요./n다인 교관에게 스킬을 배운 다인이 만들 수 있을 거예요. ^#3399FF그린 코랄^#FFFFFF에서 기다릴게요. 어서 갖다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="75" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[제작품 그린티 라이프 수집]]" draft="떠돌이 장사꾼님의 의뢰입니다. 오랜 여행에 지친 몸을 달래고 싶으니 향긋한 티를 만들어 달라고 부탁하셨어요./n^#3399FF그린티 라이프^#FFFFFF 정도면 괜찮겠죠? 어서 구해다 주세요./n다인 교관에게 스킬을 배운 다인이 만들 수 있을 거예요. ^#3399FF그린 코랄^#FFFFFF에서 기다릴게요. 어서 갖다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="제작품 그린티 라이프 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[그린 코랄 생활 모험가 길드원에게 보고]]" draft="떠돌이 장사꾼님의 의뢰입니다. 오랜 여행에 지친 몸을 달래고 싶으니 향긋한 티를 만들어 달라고 부탁하셨어요./n^#3399FF그린티 라이프^#FFFFFF 정도면 괜찮겠죠? 어서 구해다 주세요./n다인 교관에게 스킬을 배운 다인이 만들 수 있을 거예요. ^#3399FF그린 코랄^#FFFFFF에서 기다릴게요. 어서 갖다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="그린 코랄 생활 모험가 길드원에게 보고" mapTargetId="201502"/>
+		</Subject>
+		<Storage Collect1_typeID="104001" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+	<Quest typeID="203305320" typeName="배고픔의 법칙 (반복)" group="207" NPC="생활 모험가(그린 코랄)" reportTo="생활 모험가(그린 코랄)" cancelable="1" repeatable="1" retryable="1" lv="5" desc="배가 고플 때는 뭐든지 맛있다가 배가 부르면 뭘 먹어도 맛없어지는 거.. 아시죠? 이번 의뢰인도 그러셨대요./n배고플 땐 뭘 먹어도 맛있었는데 배가 좀 부르니까 맛있는거 아니면 먹고 싶은 마음이 들지 않는다고요. 그래서 제가 ^#3399FF스테이크^#FFFFFF를 구해드리기로 했는데 빨리 구해주실 수 있지요? 기다릴게요./n요리사 교관에게 스킬을 배운 요리사라면 금새 따끈 따끈하게 만들어 주실 수 있을 것 같은데...다 모으면 저에게 가져다 주세요. ^#3399FF그린 코랄^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="75" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[제작품 스테이크 수집]]" draft="배가 고플 때는 뭐든지 맛있다가 배가 부르면 뭘 먹어도 맛없어지는 거.. 아시죠? 이번 의뢰인도 그러셨대요./n배고플 땐 뭘 먹어도 맛있었는데 배가 좀 부르니까 맛있는거 아니면 먹고 싶은 마음이 들지 않는다고요. 그래서 제가 ^#3399FF스테이크^#FFFFFF를 구해드리기로 했는데 빨리 구해주실 수 있지요? 기다릴게요./n요리사 교관에게 스킬을 배운 요리사라면 금새 따끈 따끈하게 만들어 주실 수 있을 것 같은데...다 모으면 저에게 가져다 주세요. ^#3399FF그린 코랄^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="제작품 스테이크 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[그린 코랄 생활 모험가 길드원에게 보고]]" draft="배가 고플 때는 뭐든지 맛있다가 배가 부르면 뭘 먹어도 맛없어지는 거.. 아시죠? 이번 의뢰인도 그러셨대요./n배고플 땐 뭘 먹어도 맛있었는데 배가 좀 부르니까 맛있는거 아니면 먹고 싶은 마음이 들지 않는다고요. 그래서 제가 ^#3399FF스테이크^#FFFFFF를 구해드리기로 했는데 빨리 구해주실 수 있지요? 기다릴게요./n요리사 교관에게 스킬을 배운 요리사라면 금새 따끈 따끈하게 만들어 주실 수 있을 것 같은데...다 모으면 저에게 가져다 주세요. ^#3399FF그린 코랄^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="그린 코랄 생활 모험가 길드원에게 보고" mapTargetId="201502"/>
+		</Subject>
+		<Storage Collect1_typeID="130360" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+	<Quest typeID="203305321" typeName="클로버 투 페어의 부수입" group="207" NPC="생활 모험가(블루 코랄)" reportTo="생활 모험가(블루 코랄)" cancelable="1" repeatable="0" retryable="1" lv="10" desc="광물은 가격이 비싼 것 아시죠? 아무리 작은 부스러기라도 모아서 뜨거운 불에 녹이면 비싼 가격으로 되팔 수 있답니다. 그건 저희 클로버 투 페어 모험가 길드의 작은 부입이 되기도 하지요./n^#3399FF부스러진 코코나이트^#FFFFFF를 ^#3399FF캐^#FFFFFF와 주세요. 많~이요./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="82" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[부스러진 코코나이트 수집]]" draft="광물은 가격이 비싼 것 아시죠? 아무리 작은 부스러기라도 모아서 뜨거운 불에 녹이면 비싼 가격으로 되팔 수 있답니다. 그건 저희 클로버 투 페어 모험가 길드의 작은 부입이 되기도 하지요./n^#3399FF부스러진 코코나이트^#FFFFFF를 ^#3399FF캐^#FFFFFF와 주세요. 많~이요./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="부스러진 코코나이트 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[블루 코랄 생활 모험가 길드원에게 보고]]" draft="광물은 가격이 비싼 것 아시죠? 아무리 작은 부스러기라도 모아서 뜨거운 불에 녹이면 비싼 가격으로 되팔 수 있답니다. 그건 저희 클로버 투 페어 모험가 길드의 작은 부입이 되기도 하지요./n^#3399FF부스러진 코코나이트^#FFFFFF를 ^#3399FF캐^#FFFFFF와 주세요. 많~이요./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="블루 코랄 생활 모험가 길드원에게 보고" mapTargetId="202502"/>
+		</Subject>
+		<Storage Collect1_typeID="200004" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+	<Quest typeID="203305322" typeName="대장장이의 광석 (반복)" group="207" NPC="생활 모험가(블루 코랄)" reportTo="생활 모험가(블루 코랄)" cancelable="1" repeatable="1" retryable="1" lv="10" desc="아무리 작은 것이라도 모으면 큰 게 될 수 있답니다. 그래서 인지 대장장이들은 부스러진 광석도 애지중지 모신다고 해요./n^#3399FF부스러진 그레이피늄^#FFFFFF을 ^#3399FF캐^#FFFFFF와 주세요. 많~이요./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="82" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[부스러진 그레이피늄 수집]]" draft="아무리 작은 것이라도 모으면 큰 게 될 수 있답니다. 그래서 인지 대장장이들은 부스러진 광석도 애지중지 모신다고 해요./n^#3399FF부스러진 그레이피늄^#FFFFFF을 ^#3399FF캐^#FFFFFF와 주세요. 많~이요./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="부스러진 그레이피늄 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[블루 코랄 생활 모험가 길드원에게 보고]]" draft="아무리 작은 것이라도 모으면 큰 게 될 수 있답니다. 그래서 인지 대장장이들은 부스러진 광석도 애지중지 모신다고 해요./n^#3399FF부스러진 그레이피늄^#FFFFFF을 ^#3399FF캐^#FFFFFF와 주세요. 많~이요./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="블루 코랄 생활 모험가 길드원에게 보고" mapTargetId="202502"/>
+		</Subject>
+		<Storage Collect1_typeID="200002" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+	<Quest typeID="203305323" typeName="호기심 덩어리" group="207" NPC="생활 모험가(블루 코랄)" reportTo="생활 모험가(블루 코랄)" cancelable="1" repeatable="0" retryable="1" lv="10" desc="마을 꼬마의 의뢰입니다. ^#3399FF부스러진 암석^#FFFFFF을 ^#3399FF모아^#FFFFFF달라고 해요./n이 꼬마는 과학 실험에 아주 흥미가 많은 호기심 덩어리인데 실험에 필요한 암석은 너무 비싸고 부스러진 것이라도 꼭 좀 찾아 달라고 하더군요. 호기심 많은 꼬마를 위해 어서 다녀와 주세요./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="82" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[부스러진 암석 수집]]" draft="마을 꼬마의 의뢰입니다. ^#3399FF부스러진 암석^#FFFFFF을 ^#3399FF모아^#FFFFFF달라고 해요./n이 꼬마는 과학 실험에 아주 흥미가 많은 호기심 덩어리인데 실험에 필요한 암석은 너무 비싸고 부스러진 것이라도 꼭 좀 찾아 달라고 하더군요. 호기심 많은 꼬마를 위해 어서 다녀와 주세요./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="부스러진 암석 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[블루 코랄 생활 모험가 길드원에게 보고]]" draft="마을 꼬마의 의뢰입니다. ^#3399FF부스러진 암석^#FFFFFF을 ^#3399FF모아^#FFFFFF달라고 해요./n이 꼬마는 과학 실험에 아주 흥미가 많은 호기심 덩어리인데 실험에 필요한 암석은 너무 비싸고 부스러진 것이라도 꼭 좀 찾아 달라고 하더군요. 호기심 많은 꼬마를 위해 어서 다녀와 주세요./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="블루 코랄 생활 모험가 길드원에게 보고" mapTargetId="202502"/>
+		</Subject>
+		<Storage Collect1_typeID="200016" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+	<Quest typeID="203305324" typeName="바람 부는 날 (반복)" group="207" NPC="생활 모험가(블루 코랄)" reportTo="생활 모험가(블루 코랄)" cancelable="1" repeatable="1" retryable="1" lv="10" desc="후후… 오늘은 참 기분 좋은 날이네요. 왜냐고요? 날씨도 좋고, 바람도 좋고, 사랑도 넘치고…/n이런 날은 ^#3399FF시든 들꽃^#FFFFFF도 아름다워보이는 법이죠. 사람 마음은 다 똑같나봐요. 저 같은 생각을 하곤 시든 들꽃을 ^#3399FF모아^#FFFFFF달라는 분이 계시니 말이예요. /n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="82" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[시든 들꽃 수집]]" draft="후후… 오늘은 참 기분 좋은 날이네요. 왜냐고요? 날씨도 좋고, 바람도 좋고, 사랑도 넘치고…/n이런 날은 ^#3399FF시든 들꽃^#FFFFFF도 아름다워보이는 법이죠. 사람 마음은 다 똑같나봐요. 저 같은 생각을 하곤 시든 들꽃을 ^#3399FF모아^#FFFFFF달라는 분이 계시니 말이예요. /n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="시든 들꽃 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[블루 코랄 생활 모험가 길드원에게 보고]]" draft="후후… 오늘은 참 기분 좋은 날이네요. 왜냐고요? 날씨도 좋고, 바람도 좋고, 사랑도 넘치고…/n이런 날은 ^#3399FF시든 들꽃^#FFFFFF도 아름다워보이는 법이죠. 사람 마음은 다 똑같나봐요. 저 같은 생각을 하곤 시든 들꽃을 ^#3399FF모아^#FFFFFF달라는 분이 계시니 말이예요. /n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="블루 코랄 생활 모험가 길드원에게 보고" mapTargetId="202502"/>
+		</Subject>
+		<Storage Collect1_typeID="200019" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+	<Quest typeID="203305325" typeName="향수는 시든 허브로" group="207" NPC="생활 모험가(블루 코랄)" reportTo="생활 모험가(블루 코랄)" cancelable="1" repeatable="0" retryable="1" lv="10" desc="할아버지의 의뢰입니다. 방향제나 향수를 만들면 손자들이 더 자주 집에 놀러 올 것 같으시대요. 향이 진한 방향제를 만들어야 하니 ^#3399FF시든 들꽃^#FFFFFF을 ^#3399FF찾아^#FFFFFF와주세요./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="82" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[시든 허브 수집]]" draft="할아버지의 의뢰입니다. 방향제나 향수를 만들면 손자들이 더 자주 집에 놀러 올 것 같으시대요. 향이 진한 방향제를 만들어야 하니 ^#3399FF시든 들꽃^#FFFFFF을 ^#3399FF찾아^#FFFFFF와주세요./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="시든 허브 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[블루 코랄 생활 모험가 길드원에게 보고]]" draft="할아버지의 의뢰입니다. 방향제나 향수를 만들면 손자들이 더 자주 집에 놀러 올 것 같으시대요. 향이 진한 방향제를 만들어야 하니 ^#3399FF시든 들꽃^#FFFFFF을 ^#3399FF찾아^#FFFFFF와주세요./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="블루 코랄 생활 모험가 길드원에게 보고" mapTargetId="202502"/>
+		</Subject>
+		<Storage Collect1_typeID="200031" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+	<Quest typeID="203305326" typeName="거름이 될 과실 (반복)" group="207" NPC="생활 모험가(블루 코랄)" reportTo="생활 모험가(블루 코랄)" cancelable="1" repeatable="1" retryable="1" lv="10" desc="이번에는 ^#3399FF시든 과실^#FFFFFF을 ^#3399FF모아^#FFFFFF오셔야 합니다. 촌장 세밀로 클라하께서 훔바바 숲의 나무들의 성장에 도움을 줄 거름으로 쓰려고 하신대요./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="82" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[시든 과실 수집]]" draft="이번에는 ^#3399FF시든 과실^#FFFFFF을 ^#3399FF모아^#FFFFFF오셔야 합니다. 촌장 세밀로 클라하께서 훔바바 숲의 나무들의 성장에 도움을 줄 거름으로 쓰려고 하신대요./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="시든 과실 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[블루 코랄 생활 모험가 길드원에게 보고]]" draft="이번에는 ^#3399FF시든 과실^#FFFFFF을 ^#3399FF모아^#FFFFFF오셔야 합니다. 촌장 세밀로 클라하께서 훔바바 숲의 나무들의 성장에 도움을 줄 거름으로 쓰려고 하신대요./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="블루 코랄 생활 모험가 길드원에게 보고" mapTargetId="202502"/>
+		</Subject>
+		<Storage Collect1_typeID="200022" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+	<Quest typeID="203305327" typeName="휴먼의 훔바바 사랑" group="207" NPC="생활 모험가(블루 코랄)" reportTo="생활 모험가(블루 코랄)" cancelable="1" repeatable="0" retryable="1" lv="15" desc="이 마을의 사람들은 숲의 훔바바를 진심으로 사랑하나봐요. 여기 저기서 거름으로 쓸 ^#3399FF메마른 들꽃^#FFFFFF을 ^#3399FF잘라^#FFFFFF다 훔바바의 숲의 나무를 우거지게 만들고 싶다고 하니까요. 그냥 거름도 아니고 들꽃을 뿌린 숲은 얼마나 향기로울까요? 그린 코랄 사람들의 마음만큼이나 아름다울거예요. 저도 보고 싶어요./n어서 그것들을 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="720" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[메마른 들꽃 수집]]" draft="이 마을의 사람들은 숲의 훔바바를 진심으로 사랑하나봐요. 여기 저기서 거름으로 쓸 ^#3399FF메마른 들꽃^#FFFFFF을 ^#3399FF잘라^#FFFFFF다 훔바바의 숲의 나무를 우거지게 만들고 싶다고 하니까요. 그냥 거름도 아니고 들꽃을 뿌린 숲은 얼마나 향기로울까요? 그린 코랄 사람들의 마음만큼이나 아름다울거예요. 저도 보고 싶어요./n어서 그것들을 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="메마른 들꽃 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[블루 코랄 생활 모험가 길드원에게 보고]]" draft="이 마을의 사람들은 숲의 훔바바를 진심으로 사랑하나봐요. 여기 저기서 거름으로 쓸 ^#3399FF메마른 들꽃^#FFFFFF을 ^#3399FF잘라^#FFFFFF다 훔바바의 숲의 나무를 우거지게 만들고 싶다고 하니까요. 그냥 거름도 아니고 들꽃을 뿌린 숲은 얼마나 향기로울까요? 그린 코랄 사람들의 마음만큼이나 아름다울거예요. 저도 보고 싶어요./n어서 그것들을 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="블루 코랄 생활 모험가 길드원에게 보고" mapTargetId="202502"/>
+		</Subject>
+		<Storage Collect1_typeID="200046" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="16"/>
+	</Quest>
+	<Quest typeID="203305328" typeName="말라버린 과실수 (반복)" group="207" NPC="생활 모험가(블루 코랄)" reportTo="생활 모험가(블루 코랄)" cancelable="1" repeatable="1" retryable="1" lv="15" desc="요즘 푸른 산호 숲에 문제가 있는 건 아시죠? 몬스터가 들끓지 않나.. 나무가 말라 죽지를 않나../n촌장님께서 나무가 말라죽는 이유를 알고 싶으시대요.^#3399FF메마른 열매^#FFFFFF를 ^#3399F모아^#FFFFFF오시면 조사하는데 도움이 될거예요./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="720" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[메마른 열매 수집]]" draft="요즘 푸른 산호 숲에 문제가 있는 건 아시죠? 몬스터가 들끓지 않나.. 나무가 말라 죽지를 않나../n촌장님께서 나무가 말라죽는 이유를 알고 싶으시대요.^#3399FF메마른 열매^#FFFFFF를 ^#3399F모아^#FFFFFF오시면 조사하는데 도움이 될거예요./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="메마른 열매 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[블루 코랄 생활 모험가 길드원에게 보고]]" draft="요즘 푸른 산호 숲에 문제가 있는 건 아시죠? 몬스터가 들끓지 않나.. 나무가 말라 죽지를 않나../n촌장님께서 나무가 말라죽는 이유를 알고 싶으시대요.^#3399FF메마른 열매^#FFFFFF를 ^#3399F모아^#FFFFFF오시면 조사하는데 도움이 될거예요./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="블루 코랄 생활 모험가 길드원에게 보고" mapTargetId="202502"/>
+		</Subject>
+		<Storage Collect1_typeID="200052" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="16"/>
+	</Quest>
+	<Quest typeID="203305329" typeName="메마른 마음" group="207" NPC="생활 모험가(블루 코랄)" reportTo="생활 모험가(블루 코랄)" cancelable="1" repeatable="0" retryable="1" lv="15" desc="풀의 강한 생명력은 모험가님도 익히 알고 계시죠? 물 한 방울 없을 것 같은 사막이나 가파른 절벽에서 꽃을 피우는 것들을 보면 쉽게 알 수 있잖아요. ^#3399FF메마른 풀뿌리^#FFFFFF를 ^#3399FF캐^#FFFFFF주세요. 삶의 목표를 잃고 도탄에 빠진 사람들에게 보여주며 한 마디 해주고 싶네요./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="720" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[메마른 풀뿌리 수집]]" draft="풀의 강한 생명력은 모험가님도 익히 알고 계시죠? 물 한 방울 없을 것 같은 사막이나 가파른 절벽에서 꽃을 피우는 것들을 보면 쉽게 알 수 있잖아요. ^#3399FF메마른 풀뿌리^#FFFFFF를 ^#3399FF캐^#FFFFFF주세요. 삶의 목표를 잃고 도탄에 빠진 사람들에게 보여주며 한 마디 해주고 싶네요./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="메마른 풀뿌리 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[블루 코랄 생활 모험가 길드원에게 보고]]" draft="풀의 강한 생명력은 모험가님도 익히 알고 계시죠? 물 한 방울 없을 것 같은 사막이나 가파른 절벽에서 꽃을 피우는 것들을 보면 쉽게 알 수 있잖아요. ^#3399FF메마른 풀뿌리^#FFFFFF를 ^#3399FF캐^#FFFFFF주세요. 삶의 목표를 잃고 도탄에 빠진 사람들에게 보여주며 한 마디 해주고 싶네요./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="블루 코랄 생활 모험가 길드원에게 보고" mapTargetId="202502"/>
+		</Subject>
+		<Storage Collect1_typeID="200050" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="16"/>
+	</Quest>
+	<Quest typeID="203305330" typeName="여행자의 여비 (반복)" group="207" NPC="생활 모험가(블루 코랄)" reportTo="생활 모험가(블루 코랄)" cancelable="1" repeatable="1" retryable="1" lv="15" desc="현상금을 노리는 전사님의 의뢰입니다. 그분은 현상금을 받기 위한 모험을 떠난지 오래라고 하는 데 아직 원하는 만큼 돈을 모으지 못해서 집으로 돌아가지 못하겠다고 하세요. ^#3399FF조각난 토파즈^#FFFFFF ^#3399FF라도 찾아^#FFFFFF드리면 여비에 도움이 될 것 같은데 말이죠. 도와주시겠어요?/n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="720" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[조각난 토파즈 수집]]" draft="현상금을 노리는 전사님의 의뢰입니다. 그분은 현상금을 받기 위한 모험을 떠난지 오래라고 하는 데 아직 원하는 만큼 돈을 모으지 못해서 집으로 돌아가지 못하겠다고 하세요. ^#3399FF조각난 토파즈^#FFFFFF ^#3399FF라도 찾아^#FFFFFF드리면 여비에 도움이 될 것 같은데 말이죠. 도와주시겠어요?/n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="조각난 토파즈 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[블루 코랄 생활 모험가 길드원에게 보고]]" draft="현상금을 노리는 전사님의 의뢰입니다. 그분은 현상금을 받기 위한 모험을 떠난지 오래라고 하는 데 아직 원하는 만큼 돈을 모으지 못해서 집으로 돌아가지 못하겠다고 하세요. ^#3399FF조각난 토파즈^#FFFFFF ^#3399FF라도 찾아^#FFFFFF드리면 여비에 도움이 될 것 같은데 말이죠. 도와주시겠어요?/n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="블루 코랄 생활 모험가 길드원에게 보고" mapTargetId="202502"/>
+		</Subject>
+		<Storage Collect1_typeID="200041" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="16"/>
+	</Quest>
+	<Quest typeID="203305331" typeName="발굴 붐!" group="207" NPC="생활 모험가(블루 코랄)" reportTo="생활 모험가(블루 코랄)" cancelable="1" repeatable="0" retryable="1" lv="15" desc="요즘 푸른 산호 숲에서 유물 발굴 붐이 일어나고 있다는 거 알고 계시죠? 저희 모험가 길드에도 유물을 소장하고 싶으니 모아 달라는 의뢰가 많아요. ^#3399FF조각난 금속^#FFFFFF을 ^#3399FF캐^#FFFFFF주시면 저희 길드에 많은 도움이 된답니다./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="720" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[조각난 금속 수집]]" draft="요즘 푸른 산호 숲에서 유물 발굴 붐이 일어나고 있다는 거 알고 계시죠? 저희 모험가 길드에도 유물을 소장하고 싶으니 모아 달라는 의뢰가 많아요. ^#3399FF조각난 금속^#FFFFFF을 ^#3399FF캐^#FFFFFF주시면 저희 길드에 많은 도움이 된답니다./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="조각난 금속 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[블루 코랄 생활 모험가 길드원에게 보고]]" draft="요즘 푸른 산호 숲에서 유물 발굴 붐이 일어나고 있다는 거 알고 계시죠? 저희 모험가 길드에도 유물을 소장하고 싶으니 모아 달라는 의뢰가 많아요. ^#3399FF조각난 금속^#FFFFFF을 ^#3399FF캐^#FFFFFF주시면 저희 길드에 많은 도움이 된답니다./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="블루 코랄 생활 모험가 길드원에게 보고" mapTargetId="202502"/>
+		</Subject>
+		<Storage Collect1_typeID="200038" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="16"/>
+	</Quest>
+	<Quest typeID="203305332" typeName="모험가의 호기심 (반복)" group="207" NPC="생활 모험가(블루 코랄)" reportTo="생활 모험가(블루 코랄)" cancelable="1" repeatable="1" retryable="1" lv="15" desc="코어에는 과거의 흔적이 들어있다고 하던데... 모험가의 기본 소양은 호기심이란 거 아시죠?/n최고의 모험가들이 모인 저희 모험가 길드의 길드원들도 예외는 아니랍니다!/n^#3399FF조각난 코어^#FFFFFF를 ^#3399FF캐^#FFFFFF오시면^#FFFFFF 제 동료와 저의 궁금증이 조금은 충족될 것 같은데.. 도와주실거죠? /n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="720" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[조각난 코어 수집]]" draft="코어에는 과거의 흔적이 들어있다고 하던데... 모험가의 기본 소양은 호기심이란 거 아시죠?/n최고의 모험가들이 모인 저희 모험가 길드의 길드원들도 예외는 아니랍니다!/n^#3399FF조각난 코어^#FFFFFF를 ^#3399FF캐^#FFFFFF오시면^#FFFFFF 제 동료와 저의 궁금증이 조금은 충족될 것 같은데.. 도와주실거죠? /n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="조각난 코어 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[블루 코랄 생활 모험가 길드원에게 보고]]" draft="코어에는 과거의 흔적이 들어있다고 하던데... 모험가의 기본 소양은 호기심이란 거 아시죠?/n최고의 모험가들이 모인 저희 모험가 길드의 길드원들도 예외는 아니랍니다!/n^#3399FF조각난 코어^#FFFFFF를 ^#3399FF캐^#FFFFFF오시면^#FFFFFF 제 동료와 저의 궁금증이 조금은 충족될 것 같은데.. 도와주실거죠? /n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="블루 코랄 생활 모험가 길드원에게 보고" mapTargetId="202502"/>
+		</Subject>
+		<Storage Collect1_typeID="200039" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="16"/>
+	</Quest>
+	<Quest typeID="203305333" typeName="차 사랑의 기본" group="207" NPC="생활 모험가(블루 코랄)" reportTo="생활 모험가(블루 코랄)" cancelable="1" repeatable="0" retryable="1" lv="10" desc="다도를 즐기는 분들이 늘어나면서 이런 의뢰의 양도 늘고 있어요. 바로 ^#3399FF잘 말린 찻잎^#FFFFFF 을 가져다 달라는 것이죠. 저도 잘 말려서 뜨거운 물에 푹~ 담궈 우려낸 맛있는 차 생각이 간절하네요./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="98" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[가공품 잘 말린 찻잎 수집]]" draft="다도를 즐기는 분들이 늘어나면서 이런 의뢰의 양도 늘고 있어요. 바로 ^#3399FF잘 말린 찻잎^#FFFFFF 을 가져다 달라는 것이죠. 저도 잘 말려서 뜨거운 물에 푹~ 담궈 우려낸 맛있는 차 생각이 간절하네요./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="가공품 잘 말린 찻잎 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[블루 코랄 생활 모험가 길드원에게 보고]]" draft="다도를 즐기는 분들이 늘어나면서 이런 의뢰의 양도 늘고 있어요. 바로 ^#3399FF잘 말린 찻잎^#FFFFFF 을 가져다 달라는 것이죠. 저도 잘 말려서 뜨거운 물에 푹~ 담궈 우려낸 맛있는 차 생각이 간절하네요./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="블루 코랄 생활 모험가 길드원에게 보고" mapTargetId="202502"/>
+		</Subject>
+		<Storage Collect1_typeID="201072" Collect1_goal="3" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="15"/>
+	</Quest>
+	<Quest typeID="203305334" typeName="펄펄 끓인 물" group="207" NPC="생활 모험가(블루 코랄)" reportTo="생활 모험가(블루 코랄)" cancelable="1" repeatable="0" retryable="1" lv="10" desc="어서, 어서요. 펄펄 뜨겁게 끓인 물이 필요해요! 근처 가정 집에서 새 생명이 탄생하는 중인데 제가 뜨겁게 ^#3399FF끓인 물^#FFFFFF 구해다 주기로 했답니다./n어서 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="98" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[가공품 끓인 물 수집]]" draft="어서, 어서요. 펄펄 뜨겁게 끓인 물이 필요해요! 근처 가정 집에서 새 생명이 탄생하는 중인데 제가 뜨겁게 ^#3399FF끓인 물^#FFFFFF 구해다 주기로 했답니다./n어서 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="가공품 끓인 물 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[블루 코랄 생활 모험가 길드원에게 보고]]" draft="어서, 어서요. 펄펄 뜨겁게 끓인 물이 필요해요! 근처 가정 집에서 새 생명이 탄생하는 중인데 제가 뜨겁게 ^#3399FF끓인 물^#FFFFFF 구해다 주기로 했답니다./n어서 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="블루 코랄 생활 모험가 길드원에게 보고" mapTargetId="202502"/>
+		</Subject>
+		<Storage Collect1_typeID="201071" Collect1_goal="3" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="15"/>
+	</Quest>
+	<Quest typeID="203305335" typeName="아이의 조끼" group="207" NPC="생활 모험가(블루 코랄)" reportTo="생활 모험가(블루 코랄)" cancelable="1" repeatable="0" retryable="1" lv="10" desc="저는 나중에 다시 태어나면 나무가 되고 싶어요. 이렇게 서서 모험가 분들께 봉사하는 것도 물론 좋지만... 나무는 수명이 다해도 아주아주 작은 부분까지 사람들을 위해 쓰여지잖아요. ^#3399FF작은 나무 단추^#FFFFFF같은 게 되어서요. 요 앞에서 놀던 아이의 조끼에 단추가 없어서 앞섶이 펄럭거리던데 ^#3399FF작은 나무 단추^#FFFFFF를 가져다 주시면 제가 아이의 옷을 수선해 줄 수 있답니다./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="98" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[가공품 작은 나무 단추 수집]]" draft="저는 나중에 다시 태어나면 나무가 되고 싶어요. 이렇게 서서 모험가 분들께 봉사하는 것도 물론 좋지만... 나무는 수명이 다해도 아주아주 작은 부분까지 사람들을 위해 쓰여지잖아요. ^#3399FF작은 나무 단추^#FFFFFF같은 게 되어서요. 요 앞에서 놀던 아이의 조끼에 단추가 없어서 앞섶이 펄럭거리던데 ^#3399FF작은 나무 단추^#FFFFFF를 가져다 주시면 제가 아이의 옷을 수선해 줄 수 있답니다./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="가공품 작은 나무 단추 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[블루 코랄 생활 모험가 길드원에게 보고]]" draft="저는 나중에 다시 태어나면 나무가 되고 싶어요. 이렇게 서서 모험가 분들께 봉사하는 것도 물론 좋지만... 나무는 수명이 다해도 아주아주 작은 부분까지 사람들을 위해 쓰여지잖아요. ^#3399FF작은 나무 단추^#FFFFFF같은 게 되어서요. 요 앞에서 놀던 아이의 조끼에 단추가 없어서 앞섶이 펄럭거리던데 ^#3399FF작은 나무 단추^#FFFFFF를 가져다 주시면 제가 아이의 옷을 수선해 줄 수 있답니다./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="블루 코랄 생활 모험가 길드원에게 보고" mapTargetId="202502"/>
+		</Subject>
+		<Storage Collect1_typeID="201018" Collect1_goal="3" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="15"/>
+	</Quest>
+	<Quest typeID="203305336" typeName="작은 것의 소중함" group="207" NPC="생활 모험가(블루 코랄)" reportTo="생활 모험가(블루 코랄)" cancelable="1" repeatable="0" retryable="1" lv="10" desc="부스러진 광석을 모아 가공하면 ^#3399FF작은 금속 나사^#FFFFFF가 된다는 거 알고 계시죠? 그러니까 아주 작은 것도 소홀히 하면 나중에 후회한다니까요! 스쿠르족이 기계를 만드는데 나사가 모자라다며 급하게 찾고 있어요./n빨리 구해서 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="98" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[가공품 작은 금속 나사 수집]]" draft="부스러진 광석을 모아 가공하면 ^#3399FF작은 금속 나사^#FFFFFF가 된다는 거 알고 계시죠? 그러니까 아주 작은 것도 소홀히 하면 나중에 후회한다니까요! 스쿠르족이 기계를 만드는데 나사가 모자라다며 급하게 찾고 있어요./n빨리 구해서 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="가공품 작은 금속 나사 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[블루 코랄 생활 모험가 길드원에게 보고]]" draft="부스러진 광석을 모아 가공하면 ^#3399FF작은 금속 나사^#FFFFFF가 된다는 거 알고 계시죠? 그러니까 아주 작은 것도 소홀히 하면 나중에 후회한다니까요! 스쿠르족이 기계를 만드는데 나사가 모자라다며 급하게 찾고 있어요./n빨리 구해서 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="블루 코랄 생활 모험가 길드원에게 보고" mapTargetId="202502"/>
+		</Subject>
+		<Storage Collect1_typeID="201010" Collect1_goal="3" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="15"/>
+	</Quest>
+	<Quest typeID="203305337" typeName="팜의 멋쟁이 모자" group="207" NPC="생활 모험가(블루 코랄)" reportTo="생활 모험가(블루 코랄)" cancelable="1" repeatable="0" retryable="1" lv="10" desc="에코네 벨토님의 의뢰입니다. 그분은 팜족이라는 희귀한 종족 중 하나인데요. 라임을 찾기 위해 여행 중이시래요. 여행 중에 발견한 ^#3399FF어둠의 전령 모자^#FFFFFF가 마음에 드신다고 하던데 그걸 저에게 갖다 주실 수 있으시죠?/n재봉사 교관에게 스킬을 배운 재봉사라면 만들 수 있어요./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="112" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[제작품 어둠의 전령 모자 수집]]" draft="에코네 벨토님의 의뢰입니다. 그분은 팜족이라는 희귀한 종족 중 하나인데요. 라임을 찾기 위해 여행 중이시래요. 여행 중에 발견한 ^#3399FF어둠의 전령 모자^#FFFFFF가 마음에 드신다고 하던데 그걸 저에게 갖다 주실 수 있으시죠?/n재봉사 교관에게 스킬을 배운 재봉사라면 만들 수 있어요./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="제작품 어둠의 전령 모자 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[블루 코랄 생활 모험가 길드원에게 보고]]" draft="에코네 벨토님의 의뢰입니다. 그분은 팜족이라는 희귀한 종족 중 하나인데요. 라임을 찾기 위해 여행 중이시래요. 여행 중에 발견한 ^#3399FF어둠의 전령 모자^#FFFFFF가 마음에 드신다고 하던데 그걸 저에게 갖다 주실 수 있으시죠?/n재봉사 교관에게 스킬을 배운 재봉사라면 만들 수 있어요./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="블루 코랄 생활 모험가 길드원에게 보고" mapTargetId="202502"/>
+		</Subject>
+		<Storage Collect1_typeID="130080" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="20"/>
+		<ChoiceReward typeID="60004" count="1"/>
+		<ChoiceReward typeID="60005" count="1"/>
+	</Quest>
+	<Quest typeID="203305338" typeName="신성한 책" group="207" NPC="생활 모험가(블루 코랄)" reportTo="생활 모험가(블루 코랄)" cancelable="1" repeatable="0" retryable="1" lv="10" desc="산책하는 청년님의 의뢰입니다. 그분의 취미는 산책하기인데요. 저한테 슬며시 오시더니 바람이 차니 ^#3399FF엘사라임 바이블^#FFFFFF이 갖고 싶다고 하시더라고요. 요즘 복잡한 일이 많아서 마음을 기댈 곳이 필요하다면서요./n대장장이 교관에게 스킬을 배운 대장장이라면 만들 수 있을거예요./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="112" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[제작품 엘사라임 바이블 수집]]" draft="산책하는 청년님의 의뢰입니다. 그분의 취미는 산책하기인데요. 저한테 슬며시 오시더니 바람이 차니 ^#3399FF엘사라임 바이블^#FFFFFF이 갖고 싶다고 하시더라고요. 요즘 복잡한 일이 많아서 마음을 기댈 곳이 필요하다면서요./n대장장이 교관에게 스킬을 배운 대장장이라면 만들 수 있을거예요./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="제작품 엘사라임 바이블 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[블루 코랄 생활 모험가 길드원에게 보고]]" draft="산책하는 청년님의 의뢰입니다. 그분의 취미는 산책하기인데요. 저한테 슬며시 오시더니 바람이 차니 ^#3399FF엘사라임 바이블^#FFFFFF이 갖고 싶다고 하시더라고요. 요즘 복잡한 일이 많아서 마음을 기댈 곳이 필요하다면서요./n대장장이 교관에게 스킬을 배운 대장장이라면 만들 수 있을거예요./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="블루 코랄 생활 모험가 길드원에게 보고" mapTargetId="202502"/>
+		</Subject>
+		<Storage Collect1_typeID="130001" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="20"/>
+		<ChoiceReward typeID="60004" count="1"/>
+		<ChoiceReward typeID="60005" count="1"/>
+	</Quest>
+	<Quest typeID="203305339" typeName="멋진 벨트" group="207" NPC="생활 모험가(블루 코랄)" reportTo="생활 모험가(블루 코랄)" cancelable="1" repeatable="0" retryable="1" lv="10" desc="블루 코랄 여관 주인님께서 의뢰하셨어요. 여관에 손님이 허리에 찬 ^#3399FF신앙의 벨트^#FFFFFF가 멋졌다며 하나 갖고 싶다고 하시더라고요. 재봉사 교관에게 스킬을 배운 재봉사라면 만들 수 있을거예요./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="112" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[제작품 신앙의 벨트 수집]]" draft="블루 코랄 여관 주인님께서 의뢰하셨어요. 여관에 손님이 허리에 찬 ^#3399FF신앙의 벨트^#FFFFFF가 멋졌다며 하나 갖고 싶다고 하시더라고요. 재봉사 교관에게 스킬을 배운 재봉사라면 만들 수 있을거예요./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="제작품 신앙의 벨트 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[블루 코랄 생활 모험가 길드원에게 보고]]" draft="블루 코랄 여관 주인님께서 의뢰하셨어요. 여관에 손님이 허리에 찬 ^#3399FF신앙의 벨트^#FFFFFF가 멋졌다며 하나 갖고 싶다고 하시더라고요. 재봉사 교관에게 스킬을 배운 재봉사라면 만들 수 있을거예요./n다 모으면 저에게 가져다 주세요. ^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="블루 코랄 생활 모험가 길드원에게 보고" mapTargetId="202502"/>
+		</Subject>
+		<Storage Collect1_typeID="130294" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="20"/>
+		<ChoiceReward typeID="60004" count="1"/>
+		<ChoiceReward typeID="60005" count="1"/>
+	</Quest>
+	<Quest typeID="203305340" typeName="방해꾼을 없애자!" group="207" NPC="생활 모험가(블루 코랄)" reportTo="생활 모험가(블루 코랄)" cancelable="1" repeatable="0" retryable="1" lv="10" desc="마르코 리들리님의 의뢰입니다. 산호를 채취하는데 방해꾼들이 너무 많아 무기가 필요할 것 같으시대요. ^#3399FF하프 젠더^#FFFFFF 정도면 멀리서 봐도 무서우니 방해꾼들이 함부로 못덤빌 거라며 하나 구해달라고 하셨어요./n대장장이 교관에게 스킬을 배운 대장장이라면 만들 수 있을 거예요./n^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="112" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[제작품 하프 젠더 수집]]" draft="마르코 리들리님의 의뢰입니다. 산호를 채취하는데 방해꾼들이 너무 많아 무기가 필요할 것 같으시대요. ^#3399FF하프 젠더^#FFFFFF 정도면 멀리서 봐도 무서우니 방해꾼들이 함부로 못덤빌 거라며 하나 구해달라고 하셨어요./n대장장이 교관에게 스킬을 배운 대장장이라면 만들 수 있을 거예요./n^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="제작품 하프 젠더 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[블루 코랄 생활 모험가 길드원에게 보고]]" draft="마르코 리들리님의 의뢰입니다. 산호를 채취하는데 방해꾼들이 너무 많아 무기가 필요할 것 같으시대요. ^#3399FF하프 젠더^#FFFFFF 정도면 멀리서 봐도 무서우니 방해꾼들이 함부로 못덤빌 거라며 하나 구해달라고 하셨어요./n대장장이 교관에게 스킬을 배운 대장장이라면 만들 수 있을 거예요./n^#3399FF블루 코랄^#FFFFFF에서 기다리고 있을게요." npc="모험가 길드원">
+			<subjectPos subjectStr="블루 코랄 생활 모험가 길드원에게 보고" mapTargetId="202502"/>
+		</Subject>
+		<Storage Collect1_typeID="130069" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="20"/>
+		<ChoiceReward typeID="60004" count="1"/>
+		<ChoiceReward typeID="60005" count="1"/>
+	</Quest>
+	<Quest typeID="203305341" typeName="시작되는 저항 (반복)" group="207" NPC="생활 모험가(레드 코랄)" reportTo="생활 모험가(레드 코랄)" cancelable="1" repeatable="1" retryable="1" lv="15" desc="이 곳 레드코랄은 리저드에게 침략을 받아 폐허가 되기 직전이예요. 하지만 그래도 휴먼은 희망을 잃지 않고 ^#3399FF조각난 암석^#FFFFFF이라도 ^#3399FF모아^#FFFFFF 리저드에 대적해보려 한답니다. 암석을 모아 그들을 도와주세요./n다 모으시면 ^#3399FF^#3399FF레드 코랄^#FFFFFF^#FFFFFF에서 기다릴테니 갖다주세요." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="720" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[조각난 암석 수집]]" draft="이 곳 레드코랄은 리저드에게 침략을 받아 폐허가 되기 직전이예요. 하지만 그래도 휴먼은 희망을 잃지 않고 ^#3399FF조각난 암석^#FFFFFF이라도 ^#3399FF모아^#FFFFFF 리저드에 대적해보려 한답니다. 암석을 모아 그들을 도와주세요./n다 모으시면 ^#3399FF^#3399FF레드 코랄^#FFFFFF^#FFFFFF에서 기다릴테니 갖다주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="조각난 암석 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[레드 코랄 생활 모험가 길드원에게 보고]]" draft="이 곳 레드코랄은 리저드에게 침략을 받아 폐허가 되기 직전이예요. 하지만 그래도 휴먼은 희망을 잃지 않고 ^#3399FF조각난 암석^#FFFFFF이라도 ^#3399FF모아^#FFFFFF 리저드에 대적해보려 한답니다. 암석을 모아 그들을 도와주세요./n다 모으시면 ^#3399FF^#3399FF레드 코랄^#FFFFFF^#FFFFFF에서 기다릴테니 갖다주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="레드 코랄 생활 모험가 길드원에게 보고" mapTargetId="203502"/>
+		</Subject>
+		<Storage Collect1_typeID="200043" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="16"/>
+	</Quest>
+	<Quest typeID="203305342" typeName="희망은 조각나지 않아!" group="207" NPC="생활 모험가(레드 코랄)" reportTo="생활 모험가(레드 코랄)" cancelable="1" repeatable="0" retryable="1" lv="15" desc="콜수스 세레우트님의 의뢰입니다. ^#3399FF조각난 광석^#FFFFFF ^#3399FF캐^#FFFFFF와 주세요. 모인 광석은 레드 코랄 병사들의 무기를 제작하는 데 쓰일 겁니다./n그럼, 이번에도 수고 해 주세요. 다 모으시면 ^#3399FF^#3399FF레드 코랄^#FFFFFF^#FFFFFF에서 기다릴테니 갖다주세요." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="720" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[조각난 광석 수집]]" draft="콜수스 세레우트님의 의뢰입니다. ^#3399FF조각난 광석^#FFFFFF ^#3399FF캐^#FFFFFF와 주세요. 모인 광석은 레드 코랄 병사들의 무기를 제작하는 데 쓰일 겁니다./n그럼, 이번에도 수고 해 주세요. 다 모으시면 ^#3399FF^#3399FF레드 코랄^#FFFFFF^#FFFFFF에서 기다릴테니 갖다주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="조각난 광석 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[레드 코랄 생활 모험가 길드원에게 보고]]" draft="콜수스 세레우트님의 의뢰입니다. ^#3399FF조각난 광석^#FFFFFF ^#3399FF캐^#FFFFFF와 주세요. 모인 광석은 레드 코랄 병사들의 무기를 제작하는 데 쓰일 겁니다./n그럼, 이번에도 수고 해 주세요. 다 모으시면 ^#3399FF^#3399FF레드 코랄^#FFFFFF^#FFFFFF에서 기다릴테니 갖다주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="레드 코랄 생활 모험가 길드원에게 보고" mapTargetId="203502"/>
+		</Subject>
+		<Storage Collect1_typeID="200034" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="16"/>
+	</Quest>
+	<Quest typeID="203305343" typeName="과거의 영광 (반복)" group="207" NPC="생활 모험가(레드 코랄)" reportTo="생활 모험가(레드 코랄)" cancelable="1" repeatable="1" retryable="1" lv="15" desc="이번 의뢰는 레드코랄 촌장님께서 하신 의뢰에요. ^#3399FF메마른 새싹^#FFFFFF ^#3399FF잘라^#FFFFFF달라고 하세요. 리저드의 침략으로 인해 마을이 이렇게 황폐해졌지만 매마른 새싹이라도 모아 잘 키우고 싶다시면서요. /n다 모으시면 ^#3399FF^#3399FF레드 코랄^#FFFFFF^#FFFFFF에서 기다릴테니 갖다주세요." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="720" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[메마른 새싹 수집]]" draft="이번 의뢰는 레드코랄 촌장님께서 하신 의뢰에요. ^#3399FF메마른 새싹^#FFFFFF ^#3399FF잘라^#FFFFFF달라고 하세요. 리저드의 침략으로 인해 마을이 이렇게 황폐해졌지만 매마른 새싹이라도 모아 잘 키우고 싶다시면서요. /n다 모으시면 ^#3399FF^#3399FF레드 코랄^#FFFFFF^#FFFFFF에서 기다릴테니 갖다주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="메마른 새싹 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[레드 코랄 생활 모험가 길드원에게 보고]]" draft="이번 의뢰는 레드코랄 촌장님께서 하신 의뢰에요. ^#3399FF메마른 새싹^#FFFFFF ^#3399FF잘라^#FFFFFF달라고 하세요. 리저드의 침략으로 인해 마을이 이렇게 황폐해졌지만 매마른 새싹이라도 모아 잘 키우고 싶다시면서요. /n다 모으시면 ^#3399FF^#3399FF레드 코랄^#FFFFFF^#FFFFFF에서 기다릴테니 갖다주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="레드 코랄 생활 모험가 길드원에게 보고" mapTargetId="203502"/>
+		</Subject>
+		<Storage Collect1_typeID="200045" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="16"/>
+	</Quest>
+	<Quest typeID="203305344" typeName="나도 여자랍니다" group="207" NPC="생활 모험가(레드 코랄)" reportTo="생활 모험가(레드 코랄)" cancelable="1" repeatable="0" retryable="1" lv="15" desc="이번에는 제가 모험가님께 드리는 의뢰예요. 매일 이렇게 전장을 바라보고 있으려니 왠지 쓸쓸해서요. ^#3399FF메마른 꽃봉오리^#FFFFFF라도 좋으니 꽃을 보고 싶어요. 저를 위해 그걸 ^#3399FF찾아^#FFFFFF다 주시겠어요?/n다 모으시면 ^#3399FF^#3399FF레드 코랄^#FFFFFF^#FFFFFF에서 기다릴테니 갖다주세요." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="720" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[메마른 꽃봉오리 수집]]" draft="이번에는 제가 모험가님께 드리는 의뢰예요. 매일 이렇게 전장을 바라보고 있으려니 왠지 쓸쓸해서요. ^#3399FF메마른 꽃봉오리^#FFFFFF라도 좋으니 꽃을 보고 싶어요. 저를 위해 그걸 ^#3399FF찾아^#FFFFFF다 주시겠어요?/n다 모으시면 ^#3399FF^#3399FF레드 코랄^#FFFFFF^#FFFFFF에서 기다릴테니 갖다주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="메마른 꽃봉오리 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[레드 코랄 생활 모험가 길드원에게 보고]]" draft="이번에는 제가 모험가님께 드리는 의뢰예요. 매일 이렇게 전장을 바라보고 있으려니 왠지 쓸쓸해서요. ^#3399FF메마른 꽃봉오리^#FFFFFF라도 좋으니 꽃을 보고 싶어요. 저를 위해 그걸 ^#3399FF찾아^#FFFFFF다 주시겠어요?/n다 모으시면 ^#3399FF^#3399FF레드 코랄^#FFFFFF^#FFFFFF에서 기다릴테니 갖다주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="레드 코랄 생활 모험가 길드원에게 보고" mapTargetId="203502"/>
+		</Subject>
+		<Storage Collect1_typeID="200049" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="16"/>
+	</Quest>
+	<Quest typeID="203305345" typeName="최고의 식사 (반복)" group="207" NPC="생활 모험가(레드 코랄)" reportTo="생활 모험가(레드 코랄)" cancelable="1" repeatable="1" retryable="1" lv="15" desc="레드 코랄 병사의 의뢰입니다. 고된 전투 뒤에 젖은 빵을 먹는 동료들의 모습이 안쓰럽다며 ^#3399FF메마른 과실^#FFFFFF이라도 ^#3399FF모아^#FFFFFF 달라고 하셨어요./n다 모으시면 ^#3399FF^#3399FF레드 코랄^#FFFFFF^#FFFFFF에서 기다릴테니 갖다주세요." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="720" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[메마른 과실 수집]]" draft="레드 코랄 병사의 의뢰입니다. 고된 전투 뒤에 젖은 빵을 먹는 동료들의 모습이 안쓰럽다며 ^#3399FF메마른 과실^#FFFFFF이라도 ^#3399FF모아^#FFFFFF 달라고 하셨어요./n다 모으시면 ^#3399FF^#3399FF레드 코랄^#FFFFFF^#FFFFFF에서 기다릴테니 갖다주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="메마른 과실 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[레드 코랄 생활 모험가 길드원에게 보고]]" draft="레드 코랄 병사의 의뢰입니다. 고된 전투 뒤에 젖은 빵을 먹는 동료들의 모습이 안쓰럽다며 ^#3399FF메마른 과실^#FFFFFF이라도 ^#3399FF모아^#FFFFFF 달라고 하셨어요./n다 모으시면 ^#3399FF^#3399FF레드 코랄^#FFFFFF^#FFFFFF에서 기다릴테니 갖다주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="레드 코랄 생활 모험가 길드원에게 보고" mapTargetId="203502"/>
+		</Subject>
+		<Storage Collect1_typeID="200051" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="16"/>
+	</Quest>
+	<Quest typeID="203305346" typeName="사랑의 사파이어" group="207" NPC="생활 모험가(레드 코랄)" reportTo="생활 모험가(레드 코랄)" cancelable="1" repeatable="0" retryable="1" lv="15" desc="늙은 산호숲에서 일하는 류사 아반님의 의뢰입니다. ^#3399FF조각난 사파이어^#FFFFFF를 ^#3399FF찾아^#FFFFFF 달라고 하시네요. 아마도 원하는 만큼 모이면 가공해 좋아하는 여자에게 선물하실 모양이던데.../n다 모으시면 ^#3399FF^#3399FF레드 코랄^#FFFFFF^#FFFFFF에서 기다릴테니 갖다주세요." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="720" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[조각난 사파이어 수집]]" draft="늙은 산호숲에서 일하는 류사 아반님의 의뢰입니다. ^#3399FF조각난 사파이어^#FFFFFF를 ^#3399FF찾아^#FFFFFF 달라고 하시네요. 아마도 원하는 만큼 모이면 가공해 좋아하는 여자에게 선물하실 모양이던데.../n다 모으시면 ^#3399FF^#3399FF레드 코랄^#FFFFFF^#FFFFFF에서 기다릴테니 갖다주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="조각난 사파이어 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[레드 코랄 생활 모험가 길드원에게 보고]]" draft="늙은 산호숲에서 일하는 류사 아반님의 의뢰입니다. ^#3399FF조각난 사파이어^#FFFFFF를 ^#3399FF찾아^#FFFFFF 달라고 하시네요. 아마도 원하는 만큼 모이면 가공해 좋아하는 여자에게 선물하실 모양이던데.../n다 모으시면 ^#3399FF^#3399FF레드 코랄^#FFFFFF^#FFFFFF에서 기다릴테니 갖다주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="레드 코랄 생활 모험가 길드원에게 보고" mapTargetId="203502"/>
+		</Subject>
+		<Storage Collect1_typeID="200040" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="16"/>
+	</Quest>
+	<Quest typeID="203305347" typeName="끈질긴 의뢰 (반복)" group="207" NPC="생활 모험가(레드 코랄)" reportTo="생활 모험가(레드 코랄)" cancelable="1" repeatable="1" retryable="1" lv="15" desc="늙은 산호숲에서 일하는 류사 아반님의 의뢰입니다. ^#3399FF조각난 수정^#FFFFFF을 ^#3399FF찾아^#FFFFFF 달라고 하세요. 투명한 수정 모으는 걸 자주 의뢰하곤 하시는데 아무래도 좋아하는 분이 있는 것 같단 말이예요./n다 모으시면 ^#3399FF^#3399FF레드 코랄^#FFFFFF^#FFFFFF에서 기다릴테니 갖다주세요." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="720" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[조각난 수정 수집]]" draft="늙은 산호숲에서 일하는 류사 아반님의 의뢰입니다. ^#3399FF조각난 수정^#FFFFFF을 ^#3399FF찾아^#FFFFFF 달라고 하세요. 투명한 수정 모으는 걸 자주 의뢰하곤 하시는데 아무래도 좋아하는 분이 있는 것 같단 말이예요./n다 모으시면 ^#3399FF^#3399FF레드 코랄^#FFFFFF^#FFFFFF에서 기다릴테니 갖다주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="조각난 수정 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[레드 코랄 생활 모험가 길드원에게 보고]]" draft="늙은 산호숲에서 일하는 류사 아반님의 의뢰입니다. ^#3399FF조각난 수정^#FFFFFF을 ^#3399FF찾아^#FFFFFF 달라고 하세요. 투명한 수정 모으는 걸 자주 의뢰하곤 하시는데 아무래도 좋아하는 분이 있는 것 같단 말이예요./n다 모으시면 ^#3399FF^#3399FF레드 코랄^#FFFFFF^#FFFFFF에서 기다릴테니 갖다주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="레드 코랄 생활 모험가 길드원에게 보고" mapTargetId="203502"/>
+		</Subject>
+		<Storage Collect1_typeID="200042" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="16"/>
+	</Quest>
+	<Quest typeID="203305348" typeName="깨끗한 붕대" group="207" NPC="생활 모험가(레드 코랄)" reportTo="생활 모험가(레드 코랄)" cancelable="1" repeatable="0" retryable="1" lv="15" desc="이 곳은 전장이라 모든 물품이 부족해서 애를 먹고 있어요. ^#3399FF무명 옷감을 모아서 제게 주시면 깨끗하게 빨아서 병사들의 상처를 감싸드릴거예요./n어서 모아다 주세요. ^#3399FF^#3399FF레드 코랄^#FFFFFF^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="785" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[가공품 무명 옷감 수집]]" draft="이 곳은 전장이라 모든 물품이 부족해서 애를 먹고 있어요. ^#3399FF무명 옷감을 모아서 제게 주시면 깨끗하게 빨아서 병사들의 상처를 감싸드릴거예요./n어서 모아다 주세요. ^#3399FF^#3399FF레드 코랄^#FFFFFF^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="가공품 무명 옷감 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[레드 코랄 생활 모험가 길드원에게 보고]]" draft="이 곳은 전장이라 모든 물품이 부족해서 애를 먹고 있어요. ^#3399FF무명 옷감을 모아서 제게 주시면 깨끗하게 빨아서 병사들의 상처를 감싸드릴거예요./n어서 모아다 주세요. ^#3399FF^#3399FF레드 코랄^#FFFFFF^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="레드 코랄 생활 모험가 길드원에게 보고" mapTargetId="203502"/>
+		</Subject>
+		<Storage Collect1_typeID="201020" Collect1_goal="3" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="22"/>
+	</Quest>
+	<Quest typeID="203305349" typeName="떠돌이 용병의 차" group="207" NPC="생활 모험가(레드 코랄)" reportTo="생활 모험가(레드 코랄)" cancelable="1" repeatable="0" retryable="1" lv="15" desc="레드코랄의 리저드와 싸우고 있는 떠돌이 용병님의 의뢰입니다. ^#3399FF핫 그린티 멘탈^#FFFFFF을 구해 달라는군요. 그걸 마시면 용감하게 선두에 서서 리저드를 둘로 가를 힘이 날 것 같다고 하시네요./n다인이 다인 교관에게 스킬을 배우면 만들 수있게 되요./n다 모으시면 ^#3399FF^#3399FF레드 코랄^#FFFFFF^#FFFFFF에서 기다릴테니 갖다주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="832" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[제작품 핫 그린티 멘탈 수집]]" draft="레드코랄의 리저드와 싸우고 있는 떠돌이 용병님의 의뢰입니다. ^#3399FF핫 그린티 멘탈^#FFFFFF을 구해 달라는군요. 그걸 마시면 용감하게 선두에 서서 리저드를 둘로 가를 힘이 날 것 같다고 하시네요./n다인이 다인 교관에게 스킬을 배우면 만들 수있게 되요./n다 모으시면 ^#3399FF^#3399FF레드 코랄^#FFFFFF^#FFFFFF에서 기다릴테니 갖다주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="제작품 핫 그린티 멘탈 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[레드 코랄 생활 모험가 길드원에게 보고]]" draft="레드코랄의 리저드와 싸우고 있는 떠돌이 용병님의 의뢰입니다. ^#3399FF핫 그린티 멘탈^#FFFFFF을 구해 달라는군요. 그걸 마시면 용감하게 선두에 서서 리저드를 둘로 가를 힘이 날 것 같다고 하시네요./n다인이 다인 교관에게 스킬을 배우면 만들 수있게 되요./n다 모으시면 ^#3399FF^#3399FF레드 코랄^#FFFFFF^#FFFFFF에서 기다릴테니 갖다주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="레드 코랄 생활 모험가 길드원에게 보고" mapTargetId="203502"/>
+		</Subject>
+		<Storage Collect1_typeID="130409" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="31"/>
+	</Quest>
+	<Quest typeID="203305350" typeName="잠깐의 휴식" group="207" NPC="생활 모험가(레드 코랄)" reportTo="생활 모험가(레드 코랄)" cancelable="1" repeatable="0" retryable="1" lv="15" desc="킬로이 미르드님의 의뢰예요. ^#3399FF샐러드^#FFFFFF를 구해달라고 하세요. 싸움에 지친 병사들에게 잠깐의 휴식을 주고 싶다고 하시는군요./n요리사라면 요리사 교관에게 스킬을 배워 만들 수 있을거예요./n다 모으시면 ^#3399FF^#3399FF레드 코랄^#FFFFFF^#FFFFFF에서 기다릴테니 갖다주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="832" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[제작품 샐러드 수집]]" draft="킬로이 미르드님의 의뢰예요. ^#3399FF샐러드^#FFFFFF를 구해달라고 하세요. 싸움에 지친 병사들에게 잠깐의 휴식을 주고 싶다고 하시는군요./n요리사라면 요리사 교관에게 스킬을 배워 만들 수 있을거예요./n다 모으시면 ^#3399FF^#3399FF레드 코랄^#FFFFFF^#FFFFFF에서 기다릴테니 갖다주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="제작품 샐러드 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[레드 코랄 생활 모험가 길드원에게 보고]]" draft="킬로이 미르드님의 의뢰예요. ^#3399FF샐러드^#FFFFFF를 구해달라고 하세요. 싸움에 지친 병사들에게 잠깐의 휴식을 주고 싶다고 하시는군요./n요리사라면 요리사 교관에게 스킬을 배워 만들 수 있을거예요./n다 모으시면 ^#3399FF^#3399FF레드 코랄^#FFFFFF^#FFFFFF에서 기다릴테니 갖다주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="레드 코랄 생활 모험가 길드원에게 보고" mapTargetId="203502"/>
+		</Subject>
+		<Storage Collect1_typeID="130364" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="31"/>
+	</Quest>
+	<Quest typeID="203305351" typeName="20lV초보 대장장이용 의복 (반복)" group="207" NPC="특산물 행상" reportTo="특산물 행상" cancelable="1" repeatable="1" retryable="1" lv="20" desc='반갑소! 모험가여!나는 지방의 특산물을 모아 판매하는 특산물 행상이라오. 내게 특산물을 가져다 주면, 훌륭한 생활의복과 교환 해 주겠소. 내게 가져 올 특산물은 이거요. "^#ca0202카툼바라야 뿌리, 바투의 솜털, 톨보 열매, 블루베리 열매, 보석산호, 소라껍질. 이 특산물을 2개씩^#e6d6c5" 모아 내게 주면, 내가 멀리 마제로나의 장인이 직접 만든 훌륭한 의복을 드리지. 어떻소? 나쁘지 않은 제안이지 않소?' difficulty="1" onMessage="Quest203305_Trade_onMessage" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="832" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_203305" desc="[[카툼바라야 뿌리]][[바투의 솜털]][[톨보 열매]][[블루베리 열매]][[보석산호]][[소라껍질]]" draft='반갑소! 모험가여!나는 지방의 특산물을 모아 판매하는 특산물 행상이라오. 내게 특산물을 가져다 주면, 훌륭한 생활의복과 교환 해 주겠소. 내게 가져 올 특산물은 이거요. "^#ca0202카툼바라야 뿌리, 바투의 솜털, 톨보 열매, 블루베리 열매, 보석산호, 소라껍질. 이 특산물을 2개씩^#e6d6c5" 모아 내게 주면, 내가 멀리 마제로나의 장인이 직접 만든 훌륭한 의복을 드리지. 어떻소? 나쁘지 않은 제안이지 않소?' npc="특산물 행상">
+			<subjectPos subjectStr="카툼바라야 뿌리" mapTargetId="2"/>
+			<subjectPos subjectStr="바투의 솜털" mapTargetId="2"/>
+			<subjectPos subjectStr="톨보 열매" mapTargetId="2"/>
+			<subjectPos subjectStr="블루베리 열매" mapTargetId="2"/>
+			<subjectPos subjectStr="보석산호" mapTargetId="2"/>
+			<subjectPos subjectStr="소라껍질" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[특산물 행상에게 보고]]" draft='반갑소! 모험가여!나는 지방의 특산물을 모아 판매하는 특산물 행상이라오. 내게 특산물을 가져다 주면, 훌륭한 생활의복과 교환 해 주겠소. 내게 가져 올 특산물은 이거요. "^#ca0202카툼바라야 뿌리, 바투의 솜털, 톨보 열매, 블루베리 열매, 보석산호, 소라껍질. 이 특산물을 2개씩^#e6d6c5" 모아 내게 주면, 내가 멀리 마제로나의 장인이 직접 만든 훌륭한 의복을 드리지. 어떻소? 나쁘지 않은 제안이지 않소?' npc="특산물 행상">
+			<subjectPos subjectStr="특산물 행상에게 보고" mapTargetId="200595"/>
+			<subjectPos subjectStr="특산물 행상에게 보고" mapTargetId="200594"/>
+		</Subject>
+		<Storage Collect1_typeID="220004" Collect1_goal="2" Collect1_count="0" target1_type="Collect" Collect2_typeID="201017" Collect2_goal="2" Collect2_count="0" target2_type="Collect" Collect3_typeID="201026" Collect3_goal="2" Collect3_count="0" target3_type="Collect" Collect4_typeID="201027" Collect4_goal="2" Collect4_count="0" target4_type="Collect" Collect5_typeID="201031" Collect5_goal="2" Collect5_count="0" target5_type="Collect" Collect6_typeID="201033" Collect6_goal="2" Collect6_count="0" target6_type="Collect"/>
+		<BasicReward typeID="2100000000" count="0"/>
+		<ChoiceReward typeID="70006" count="1"/>
+		<ChoiceReward typeID="70007" count="1"/>
+		<ChoiceReward typeID="70008" count="1"/>
+		<ChoiceReward typeID="70009" count="1"/>
+		<ChoiceReward typeID="70010" count="1"/>
+	</Quest>
+	<Quest typeID="203305352" typeName="20LV초보용 대장장이 도구 (반복)" group="207" NPC="특산물 행상" reportTo="특산물 행상" cancelable="1" repeatable="1" retryable="1" lv="20" desc="반갑소! 모험가여!나는 지방의 특산물을 모아 판매하는 특산물 행상이라오. 내게 특산물을 가져다 주면, 훌륭한 생활도구와 교환 해 주겠소. 내게 가져 올 특산물은 이거요. 카툼바라야 뿌리, 바투의 솜털, 톨보 열매, 블루베리 열매, 보석산호, 소라껍질. 이 특산물을 2개씩 모아 내게 주면, 내가 멀리 알 아미르의 장인이 직접 만든 훌륭한 도구를 드리지. 어떻소? 나쁘지 않은 제안이지 않소?" difficulty="1" onMessage="Quest203305_Trade_onMessage" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="832" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_203305" desc="[[카툼바라야 뿌리]][[바투의 솜털]][[톨보 열매]][[블루베리 열매]][[보석산호]][[소라껍질]]" draft="반갑소! 모험가여!나는 지방의 특산물을 모아 판매하는 특산물 행상이라오. 내게 특산물을 가져다 주면, 훌륭한 생활도구와 교환 해 주겠소. 내게 가져 올 특산물은 이거요. 카툼바라야 뿌리, 바투의 솜털, 톨보 열매, 블루베리 열매, 보석산호, 소라껍질. 이 특산물을 2개씩 모아 내게 주면, 내가 멀리 알 아미르의 장인이 직접 만든 훌륭한 도구를 드리지. 어떻소? 나쁘지 않은 제안이지 않소?" npc="특산물 행상">
+			<subjectPos subjectStr="카툼바라야 뿌리" mapTargetId="2"/>
+			<subjectPos subjectStr="바투의 솜털" mapTargetId="2"/>
+			<subjectPos subjectStr="톨보 열매" mapTargetId="2"/>
+			<subjectPos subjectStr="블루베리 열매" mapTargetId="2"/>
+			<subjectPos subjectStr="보석산호" mapTargetId="2"/>
+			<subjectPos subjectStr="소라껍질" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[특산물 행상에게 보고]]" draft="반갑소! 모험가여!나는 지방의 특산물을 모아 판매하는 특산물 행상이라오. 내게 특산물을 가져다 주면, 훌륭한 생활도구와 교환 해 주겠소. 내게 가져 올 특산물은 이거요. 카툼바라야 뿌리, 바투의 솜털, 톨보 열매, 블루베리 열매, 보석산호, 소라껍질. 이 특산물을 2개씩 모아 내게 주면, 내가 멀리 알 아미르의 장인이 직접 만든 훌륭한 도구를 드리지. 어떻소? 나쁘지 않은 제안이지 않소?" npc="특산물 행상">
+			<subjectPos subjectStr="특산물 행상에게 보고" mapTargetId="200595"/>
+			<subjectPos subjectStr="특산물 행상에게 보고" mapTargetId="200594"/>
+		</Subject>
+		<Storage Collect1_typeID="220004" Collect1_goal="2" Collect1_count="0" target1_type="Collect" Collect2_typeID="201017" Collect2_goal="2" Collect2_count="0" target2_type="Collect" Collect3_typeID="201026" Collect3_goal="2" Collect3_count="0" target3_type="Collect" Collect4_typeID="201027" Collect4_goal="2" Collect4_count="0" target4_type="Collect" Collect5_typeID="201031" Collect5_goal="2" Collect5_count="0" target5_type="Collect" Collect6_typeID="201033" Collect6_goal="2" Collect6_count="0" target6_type="Collect"/>
+		<BasicReward typeID="2100000000" count="0"/>
+		<ChoiceReward typeID="20004" count="1"/>
+		<ChoiceReward typeID="20005" count="1"/>
+		<ChoiceReward typeID="20006" count="1"/>
+	</Quest>
+	<Quest typeID="203305353" typeName="30LV숙련자용 대장장이 의복 (반복)" group="207" NPC="특산물 행상" reportTo="특산물 행상" cancelable="1" repeatable="1" retryable="1" lv="30" desc="오오, 일전에 가져 간 의상은 유용하게 잘 쓴 거요? 어땠소, 정말 질 좋은 의복이었지 않소? 이렇게 내게 다시 온 걸 보면 그랬던 게지! 자자, 이번에도 좋은 의복이 있소이다. 대신에 요번에는 2개씩이 아니라 5개씩 모아와야 하오. 아시겠소? .고원 클로버, 빛나는 약초, 알파카의 털, 큐티스의 침, 사막산호, 소금 덩어리. 이 특산물을 5개씩 내게 가져 오시오. 예전 의복과 비교할 수 없을 만큼 좋은 의상과 바꿔 줄 테니. 그럼, 수고 해 주시게!" difficulty="1" onMessage="Quest203305_Trade_onMessage" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="1402" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_203305" desc="[[고원 클로버]][[빛나는 약초]][[알파카의 털]][[큐티스의 침]][[사막산호]][[소금 덩어리]]" draft="오오, 일전에 가져 간 의상은 유용하게 잘 쓴 거요? 어땠소, 정말 질 좋은 의복이었지 않소? 이렇게 내게 다시 온 걸 보면 그랬던 게지! 자자, 이번에도 좋은 의복이 있소이다. 대신에 요번에는 2개씩이 아니라 5개씩 모아와야 하오. 아시겠소? .고원 클로버, 빛나는 약초, 알파카의 털, 큐티스의 침, 사막산호, 소금 덩어리. 이 특산물을 5개씩 내게 가져 오시오. 예전 의복과 비교할 수 없을 만큼 좋은 의상과 바꿔 줄 테니. 그럼, 수고 해 주시게!" npc="특산물 행상">
+			<subjectPos subjectStr="고원 클로버" mapTargetId="2"/>
+			<subjectPos subjectStr="빛나는 약초" mapTargetId="2"/>
+			<subjectPos subjectStr="알파카의 털" mapTargetId="2"/>
+			<subjectPos subjectStr="큐티스의 침" mapTargetId="2"/>
+			<subjectPos subjectStr="사막산호" mapTargetId="2"/>
+			<subjectPos subjectStr="소금 덩어리" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[특산물 행상에게 보고]]" draft="오오, 일전에 가져 간 의상은 유용하게 잘 쓴 거요? 어땠소, 정말 질 좋은 의복이었지 않소? 이렇게 내게 다시 온 걸 보면 그랬던 게지! 자자, 이번에도 좋은 의복이 있소이다. 대신에 요번에는 2개씩이 아니라 5개씩 모아와야 하오. 아시겠소? .고원 클로버, 빛나는 약초, 알파카의 털, 큐티스의 침, 사막산호, 소금 덩어리. 이 특산물을 5개씩 내게 가져 오시오. 예전 의복과 비교할 수 없을 만큼 좋은 의상과 바꿔 줄 테니. 그럼, 수고 해 주시게!" npc="특산물 행상">
+			<subjectPos subjectStr="특산물 행상에게 보고" mapTargetId="200595"/>
+			<subjectPos subjectStr="특산물 행상에게 보고" mapTargetId="200594"/>
+		</Subject>
+		<Storage Collect1_typeID="220001" Collect1_goal="5" Collect1_count="0" target1_type="Collect" Collect2_typeID="220002" Collect2_goal="5" Collect2_count="0" target2_type="Collect" Collect3_typeID="220003" Collect3_goal="5" Collect3_count="0" target3_type="Collect" Collect4_typeID="220005" Collect4_goal="5" Collect4_count="0" target4_type="Collect" Collect5_typeID="220006" Collect5_goal="5" Collect5_count="0" target5_type="Collect" Collect6_typeID="220007" Collect6_goal="5" Collect6_count="0" target6_type="Collect"/>
+		<BasicReward typeID="2100000000" count="0"/>
+		<ChoiceReward typeID="70011" count="1"/>
+		<ChoiceReward typeID="70012" count="1"/>
+		<ChoiceReward typeID="70013" count="1"/>
+		<ChoiceReward typeID="70014" count="1"/>
+		<ChoiceReward typeID="70015" count="1"/>
+	</Quest>
+	<Quest typeID="203305354" typeName="30LV숙련자용 대장장이 도구 (반복)" group="207" NPC="특산물 행상" reportTo="특산물 행상" cancelable="1" repeatable="1" retryable="1" lv="30" desc="예전에 가져 간 도구는 잘 쓴 게요? 또 내게 온 걸 보면 정말 좋은 도구였나 보군. 그렇지 않소? 자아, 이번에도 특산물을 모아 오면 원하는 도구로 바꿔 주겠소. 고원 클로버, 빛나는 약초, 알파카의 털, 큐티스의 침, 사막산호, 소금 덩어리. 이 특산물을 5개씩 내게 가져 오도록 하시오. 튼튼하고 잘 만들어 진 도구와 바꿔 줄 테니. 그럼, 또 볼 수 있기를 바라오!" difficulty="1" onMessage="Quest203305_Trade_onMessage" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="1402" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_203305" desc="[[고원 클로버]][[빛나는 약초]][[알파카의 털]][[큐티스의 침]][[사막산호]][[소금 덩어리]]" draft="예전에 가져 간 도구는 잘 쓴 게요? 또 내게 온 걸 보면 정말 좋은 도구였나 보군. 그렇지 않소? 자아, 이번에도 특산물을 모아 오면 원하는 도구로 바꿔 주겠소. 고원 클로버, 빛나는 약초, 알파카의 털, 큐티스의 침, 사막산호, 소금 덩어리. 이 특산물을 5개씩 내게 가져 오도록 하시오. 튼튼하고 잘 만들어 진 도구와 바꿔 줄 테니. 그럼, 또 볼 수 있기를 바라오!" npc="특산물 행상">
+			<subjectPos subjectStr="고원 클로버" mapTargetId="2"/>
+			<subjectPos subjectStr="빛나는 약초" mapTargetId="2"/>
+			<subjectPos subjectStr="알파카의 털" mapTargetId="2"/>
+			<subjectPos subjectStr="큐티스의 침" mapTargetId="2"/>
+			<subjectPos subjectStr="사막산호" mapTargetId="2"/>
+			<subjectPos subjectStr="소금 덩어리" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[특산물 행상에게 보고]]" draft="예전에 가져 간 도구는 잘 쓴 게요? 또 내게 온 걸 보면 정말 좋은 도구였나 보군. 그렇지 않소? 자아, 이번에도 특산물을 모아 오면 원하는 도구로 바꿔 주겠소. 고원 클로버, 빛나는 약초, 알파카의 털, 큐티스의 침, 사막산호, 소금 덩어리. 이 특산물을 5개씩 내게 가져 오도록 하시오. 튼튼하고 잘 만들어 진 도구와 바꿔 줄 테니. 그럼, 또 볼 수 있기를 바라오!" npc="특산물 행상">
+			<subjectPos subjectStr="특산물 행상에게 보고" mapTargetId="200595"/>
+			<subjectPos subjectStr="특산물 행상에게 보고" mapTargetId="200594"/>
+		</Subject>
+		<Storage Collect1_typeID="220001" Collect1_goal="5" Collect1_count="0" target1_type="Collect" Collect2_typeID="220002" Collect2_goal="5" Collect2_count="0" target2_type="Collect" Collect3_typeID="220003" Collect3_goal="5" Collect3_count="0" target3_type="Collect" Collect4_typeID="220005" Collect4_goal="5" Collect4_count="0" target4_type="Collect" Collect5_typeID="220006" Collect5_goal="5" Collect5_count="0" target5_type="Collect" Collect6_typeID="220007" Collect6_goal="5" Collect6_count="0" target6_type="Collect"/>
+		<BasicReward typeID="2100000000" count="0"/>
+		<ChoiceReward typeID="20025" count="1"/>
+		<ChoiceReward typeID="20026" count="1"/>
+		<ChoiceReward typeID="20027" count="1"/>
+	</Quest>
+	<Quest typeID="203305355" typeName="20LV초보 재봉사용 의복 (반복)" group="207" NPC="특산물 행상" reportTo="특산물 행상" cancelable="1" repeatable="1" retryable="1" lv="20" desc="반갑소! 모험가여!나는 지방의 특산물을 모아 판매하는 특산물 행상이라오. 내게 특산물을 가져다 주면, 훌륭한 생활의복과 교환 해 주겠소. 내게 가져 올 특산물은 이거요. ^#ca0202카툼바라야 뿌리, 바투의 솜털, 톨보 열매, 블루베리 열매, 보석산호, 소라껍질. 이 특산물을 2개씩^#e6d6c5 모아 내게 주면, 내가 멀리 마제로나의 장인이 직접 만든 훌륭한 의복을 드리지. 어떻소? 나쁘지 않은 제안이지 않소?" difficulty="1" onMessage="Quest203305_Trade_onMessage" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="832" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_203305" desc="[[카툼바라야 뿌리]][[바투의 솜털]][[톨보 열매]][[블루베리 열매]][[보석산호]][[소라껍질]]" draft="반갑소! 모험가여!나는 지방의 특산물을 모아 판매하는 특산물 행상이라오. 내게 특산물을 가져다 주면, 훌륭한 생활의복과 교환 해 주겠소. 내게 가져 올 특산물은 이거요. ^#ca0202카툼바라야 뿌리, 바투의 솜털, 톨보 열매, 블루베리 열매, 보석산호, 소라껍질. 이 특산물을 2개씩^#e6d6c5 모아 내게 주면, 내가 멀리 마제로나의 장인이 직접 만든 훌륭한 의복을 드리지. 어떻소? 나쁘지 않은 제안이지 않소?" npc="특산물 행상">
+			<subjectPos subjectStr="카툼바라야 뿌리" mapTargetId="2"/>
+			<subjectPos subjectStr="바투의 솜털" mapTargetId="2"/>
+			<subjectPos subjectStr="톨보 열매" mapTargetId="2"/>
+			<subjectPos subjectStr="블루베리 열매" mapTargetId="2"/>
+			<subjectPos subjectStr="보석산호" mapTargetId="2"/>
+			<subjectPos subjectStr="소라껍질" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[특산물 행상에게 보고]]" draft="반갑소! 모험가여!나는 지방의 특산물을 모아 판매하는 특산물 행상이라오. 내게 특산물을 가져다 주면, 훌륭한 생활의복과 교환 해 주겠소. 내게 가져 올 특산물은 이거요. ^#ca0202카툼바라야 뿌리, 바투의 솜털, 톨보 열매, 블루베리 열매, 보석산호, 소라껍질. 이 특산물을 2개씩^#e6d6c5 모아 내게 주면, 내가 멀리 마제로나의 장인이 직접 만든 훌륭한 의복을 드리지. 어떻소? 나쁘지 않은 제안이지 않소?" npc="특산물 행상">
+			<subjectPos subjectStr="특산물 행상에게 보고" mapTargetId="200595"/>
+			<subjectPos subjectStr="특산물 행상에게 보고" mapTargetId="200594"/>
+		</Subject>
+		<Storage Collect1_typeID="220004" Collect1_goal="2" Collect1_count="0" target1_type="Collect" Collect2_typeID="201017" Collect2_goal="2" Collect2_count="0" target2_type="Collect" Collect3_typeID="201026" Collect3_goal="2" Collect3_count="0" target3_type="Collect" Collect4_typeID="201027" Collect4_goal="2" Collect4_count="0" target4_type="Collect" Collect5_typeID="201031" Collect5_goal="2" Collect5_count="0" target5_type="Collect" Collect6_typeID="201033" Collect6_goal="2" Collect6_count="0" target6_type="Collect"/>
+		<BasicReward typeID="2100000000" count="0"/>
+		<ChoiceReward typeID="70021" count="1"/>
+		<ChoiceReward typeID="70022" count="1"/>
+		<ChoiceReward typeID="70023" count="1"/>
+		<ChoiceReward typeID="70024" count="1"/>
+		<ChoiceReward typeID="70025" count="1"/>
+	</Quest>
+	<Quest typeID="203305356" typeName="20LV초보용 재봉 도구 (반복)" group="207" NPC="특산물 행상" reportTo="특산물 행상" cancelable="1" repeatable="1" retryable="1" lv="20" desc="반갑소! 모험가여!나는 지방의 특산물을 모아 판매하는 특산물 행상이라오. 내게 특산물을 가져다 주면, 훌륭한 생활도구와 교환 해 주겠소. 내게 가져 올 특산물은 이거요. 카툼바라야 뿌리, 바투의 솜털, 톨보 열매, 블루베리 열매, 보석산호, 소라껍질. 이 특산물을 2개씩 모아 내게 주면, 내가 멀리 알 아미르의 장인이 직접 만든 훌륭한 도구를 드리지. 어떻소? 나쁘지 않은 제안이지 않소?" difficulty="1" onMessage="Quest203305_Trade_onMessage" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="832" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_203305" desc="[[카툼바라야 뿌리]][[바투의 솜털]][[톨보 열매]][[블루베리 열매]][[보석산호]][[소라껍질]]" draft="반갑소! 모험가여!나는 지방의 특산물을 모아 판매하는 특산물 행상이라오. 내게 특산물을 가져다 주면, 훌륭한 생활도구와 교환 해 주겠소. 내게 가져 올 특산물은 이거요. 카툼바라야 뿌리, 바투의 솜털, 톨보 열매, 블루베리 열매, 보석산호, 소라껍질. 이 특산물을 2개씩 모아 내게 주면, 내가 멀리 알 아미르의 장인이 직접 만든 훌륭한 도구를 드리지. 어떻소? 나쁘지 않은 제안이지 않소?" npc="특산물 행상">
+			<subjectPos subjectStr="카툼바라야 뿌리" mapTargetId="2"/>
+			<subjectPos subjectStr="바투의 솜털" mapTargetId="2"/>
+			<subjectPos subjectStr="톨보 열매" mapTargetId="2"/>
+			<subjectPos subjectStr="블루베리 열매" mapTargetId="2"/>
+			<subjectPos subjectStr="보석산호" mapTargetId="2"/>
+			<subjectPos subjectStr="소라껍질" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[특산물 행상에게 보고]]" draft="반갑소! 모험가여!나는 지방의 특산물을 모아 판매하는 특산물 행상이라오. 내게 특산물을 가져다 주면, 훌륭한 생활도구와 교환 해 주겠소. 내게 가져 올 특산물은 이거요. 카툼바라야 뿌리, 바투의 솜털, 톨보 열매, 블루베리 열매, 보석산호, 소라껍질. 이 특산물을 2개씩 모아 내게 주면, 내가 멀리 알 아미르의 장인이 직접 만든 훌륭한 도구를 드리지. 어떻소? 나쁘지 않은 제안이지 않소?" npc="특산물 행상">
+			<subjectPos subjectStr="특산물 행상에게 보고" mapTargetId="200595"/>
+			<subjectPos subjectStr="특산물 행상에게 보고" mapTargetId="200594"/>
+		</Subject>
+		<Storage Collect1_typeID="220004" Collect1_goal="2" Collect1_count="0" target1_type="Collect" Collect2_typeID="201017" Collect2_goal="2" Collect2_count="0" target2_type="Collect" Collect3_typeID="201026" Collect3_goal="2" Collect3_count="0" target3_type="Collect" Collect4_typeID="201027" Collect4_goal="2" Collect4_count="0" target4_type="Collect" Collect5_typeID="201031" Collect5_goal="2" Collect5_count="0" target5_type="Collect" Collect6_typeID="201033" Collect6_goal="2" Collect6_count="0" target6_type="Collect"/>
+		<BasicReward typeID="2100000000" count="0"/>
+		<ChoiceReward typeID="20016" count="1"/>
+		<ChoiceReward typeID="20017" count="1"/>
+		<ChoiceReward typeID="20018" count="1"/>
+	</Quest>
+	<Quest typeID="203305357" typeName="30LV숙련자용 재봉사 의복 (반복)" group="207" NPC="특산물 행상" reportTo="특산물 행상" cancelable="1" repeatable="1" retryable="1" lv="30" desc="오오, 일전에 가져 간 의상은 유용하게 잘 쓴 거요? 어땠소, 정말 질 좋은 의복이었지 않소? 이렇게 내게 다시 온 걸 보면 그랬던 게지! 자자, 이번에도 좋은 의복이 있소이다. 대신에 요번에는 2개씩이 아니라 5개씩 모아와야 하오. 아시겠소? 고원 클로버, 빛나는 약초, 알파카의 털, 큐티스의 침, 사막산호, 소금 덩어리. 이 특산물을 5개씩 내게 가져 오시오. 예전 의복과 비교할 수 없을 만큼 좋은 의상과 바꿔 줄 테니. 그럼, 수고 해 주시게!" difficulty="1" onMessage="Quest203305_Trade_onMessage" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="1402" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_203305" desc="[[고원 클로버]][[빛나는 약초]][[알파카의 털]][[큐티스의 침]][[사막산호]][[소금 덩어리]]" draft="오오, 일전에 가져 간 의상은 유용하게 잘 쓴 거요? 어땠소, 정말 질 좋은 의복이었지 않소? 이렇게 내게 다시 온 걸 보면 그랬던 게지! 자자, 이번에도 좋은 의복이 있소이다. 대신에 요번에는 2개씩이 아니라 5개씩 모아와야 하오. 아시겠소? 고원 클로버, 빛나는 약초, 알파카의 털, 큐티스의 침, 사막산호, 소금 덩어리. 이 특산물을 5개씩 내게 가져 오시오. 예전 의복과 비교할 수 없을 만큼 좋은 의상과 바꿔 줄 테니. 그럼, 수고 해 주시게!" npc="특산물 행상">
+			<subjectPos subjectStr="고원 클로버" mapTargetId="2"/>
+			<subjectPos subjectStr="빛나는 약초" mapTargetId="2"/>
+			<subjectPos subjectStr="알파카의 털" mapTargetId="2"/>
+			<subjectPos subjectStr="큐티스의 침" mapTargetId="2"/>
+			<subjectPos subjectStr="사막산호" mapTargetId="2"/>
+			<subjectPos subjectStr="소금 덩어리" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[특산물 행상에게 보고]]" draft="오오, 일전에 가져 간 의상은 유용하게 잘 쓴 거요? 어땠소, 정말 질 좋은 의복이었지 않소? 이렇게 내게 다시 온 걸 보면 그랬던 게지! 자자, 이번에도 좋은 의복이 있소이다. 대신에 요번에는 2개씩이 아니라 5개씩 모아와야 하오. 아시겠소? 고원 클로버, 빛나는 약초, 알파카의 털, 큐티스의 침, 사막산호, 소금 덩어리. 이 특산물을 5개씩 내게 가져 오시오. 예전 의복과 비교할 수 없을 만큼 좋은 의상과 바꿔 줄 테니. 그럼, 수고 해 주시게!" npc="특산물 행상">
+			<subjectPos subjectStr="특산물 행상에게 보고" mapTargetId="200595"/>
+			<subjectPos subjectStr="특산물 행상에게 보고" mapTargetId="200594"/>
+		</Subject>
+		<Storage Collect1_typeID="220001" Collect1_goal="5" Collect1_count="0" target1_type="Collect" Collect2_typeID="220002" Collect2_goal="5" Collect2_count="0" target2_type="Collect" Collect3_typeID="220003" Collect3_goal="5" Collect3_count="0" target3_type="Collect" Collect4_typeID="220005" Collect4_goal="5" Collect4_count="0" target4_type="Collect" Collect5_typeID="220006" Collect5_goal="5" Collect5_count="0" target5_type="Collect" Collect6_typeID="220007" Collect6_goal="5" Collect6_count="0" target6_type="Collect"/>
+		<BasicReward typeID="2100000000" count="0"/>
+		<ChoiceReward typeID="70026" count="1"/>
+		<ChoiceReward typeID="70027" count="1"/>
+		<ChoiceReward typeID="70028" count="1"/>
+		<ChoiceReward typeID="70029" count="1"/>
+		<ChoiceReward typeID="70030" count="1"/>
+	</Quest>
+	<Quest typeID="203305358" typeName="30LV숙련자용 재봉 도구 (반복)" group="207" NPC="특산물 행상" reportTo="특산물 행상" cancelable="1" repeatable="1" retryable="1" lv="30" desc="예전에 가져 간 도구는 잘 쓴 게요? 또 내게 온 걸 보면 정말 좋은 도구였나 보군. 그렇지 않소? 자아, 이번에도 특산물을 모아 오면 원하는 도구로 바꿔 주겠소. 고원 클로버, 빛나는 약초, 알파카의 털, 큐티스의 침, 사막산호, 소금 덩어리. 이 특산물을 5개씩 내게 가져 오도록 하시오. 튼튼하고 잘 만들어 진 도구와 바꿔 줄 테니. 그럼, 또 볼 수 있기를 바라오!" difficulty="1" onMessage="Quest203305_Trade_onMessage" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="1402" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_203305" desc="[[고원 클로버]][[빛나는 약초]][[알파카의 털]][[큐티스의 침]][[사막산호]][[소금 덩어리]]" draft="예전에 가져 간 도구는 잘 쓴 게요? 또 내게 온 걸 보면 정말 좋은 도구였나 보군. 그렇지 않소? 자아, 이번에도 특산물을 모아 오면 원하는 도구로 바꿔 주겠소. 고원 클로버, 빛나는 약초, 알파카의 털, 큐티스의 침, 사막산호, 소금 덩어리. 이 특산물을 5개씩 내게 가져 오도록 하시오. 튼튼하고 잘 만들어 진 도구와 바꿔 줄 테니. 그럼, 또 볼 수 있기를 바라오!" npc="특산물 행상">
+			<subjectPos subjectStr="고원 클로버" mapTargetId="2"/>
+			<subjectPos subjectStr="빛나는 약초" mapTargetId="2"/>
+			<subjectPos subjectStr="알파카의 털" mapTargetId="2"/>
+			<subjectPos subjectStr="큐티스의 침" mapTargetId="2"/>
+			<subjectPos subjectStr="사막산호" mapTargetId="2"/>
+			<subjectPos subjectStr="소금 덩어리" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[특산물 행상에게 보고]]" draft="예전에 가져 간 도구는 잘 쓴 게요? 또 내게 온 걸 보면 정말 좋은 도구였나 보군. 그렇지 않소? 자아, 이번에도 특산물을 모아 오면 원하는 도구로 바꿔 주겠소. 고원 클로버, 빛나는 약초, 알파카의 털, 큐티스의 침, 사막산호, 소금 덩어리. 이 특산물을 5개씩 내게 가져 오도록 하시오. 튼튼하고 잘 만들어 진 도구와 바꿔 줄 테니. 그럼, 또 볼 수 있기를 바라오!" npc="특산물 행상">
+			<subjectPos subjectStr="특산물 행상에게 보고" mapTargetId="200595"/>
+			<subjectPos subjectStr="특산물 행상에게 보고" mapTargetId="200594"/>
+		</Subject>
+		<Storage Collect1_typeID="220001" Collect1_goal="5" Collect1_count="0" target1_type="Collect" Collect2_typeID="220002" Collect2_goal="5" Collect2_count="0" target2_type="Collect" Collect3_typeID="220003" Collect3_goal="5" Collect3_count="0" target3_type="Collect" Collect4_typeID="220005" Collect4_goal="5" Collect4_count="0" target4_type="Collect" Collect5_typeID="220006" Collect5_goal="5" Collect5_count="0" target5_type="Collect" Collect6_typeID="220007" Collect6_goal="5" Collect6_count="0" target6_type="Collect"/>
+		<BasicReward typeID="2100000000" count="0"/>
+		<ChoiceReward typeID="20028" count="1"/>
+		<ChoiceReward typeID="20029" count="1"/>
+		<ChoiceReward typeID="20030" count="1"/>
+	</Quest>
+	<Quest typeID="203305359" typeName="20LV초보 요리사용 의복 (반복)" group="207" NPC="특산물 행상" reportTo="특산물 행상" cancelable="1" repeatable="1" retryable="1" lv="20" desc="반갑소! 모험가여!나는 지방의 특산물을 모아 판매하는 특산물 행상이라오. 내게 특산물을 가져다 주면, 훌륭한 생활의복과 교환 해 주겠소. 내게 가져 올 특산물은 이거요. ^#ca0202카툼바라야 뿌리, 바투의 솜털, 톨보 열매, 블루베리 열매, 보석산호, 소라껍질. 이 특산물을 2개씩^#e6d6c5 모아 내게 주면, 내가 멀리 마제로나의 장인이 직접 만든 훌륭한 의복을 드리지. 어떻소? 나쁘지 않은 제안이지 않소?" difficulty="1" onMessage="Quest203305_Trade_onMessage" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="832" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_203305" desc="[[카툼바라야 뿌리]][[바투의 솜털]][[톨보 열매]][[블루베리 열매]][[보석산호]][[소라껍질]]" draft="반갑소! 모험가여!나는 지방의 특산물을 모아 판매하는 특산물 행상이라오. 내게 특산물을 가져다 주면, 훌륭한 생활의복과 교환 해 주겠소. 내게 가져 올 특산물은 이거요. ^#ca0202카툼바라야 뿌리, 바투의 솜털, 톨보 열매, 블루베리 열매, 보석산호, 소라껍질. 이 특산물을 2개씩^#e6d6c5 모아 내게 주면, 내가 멀리 마제로나의 장인이 직접 만든 훌륭한 의복을 드리지. 어떻소? 나쁘지 않은 제안이지 않소?" npc="특산물 행상">
+			<subjectPos subjectStr="카툼바라야 뿌리" mapTargetId="2"/>
+			<subjectPos subjectStr="바투의 솜털" mapTargetId="2"/>
+			<subjectPos subjectStr="톨보 열매" mapTargetId="2"/>
+			<subjectPos subjectStr="블루베리 열매" mapTargetId="2"/>
+			<subjectPos subjectStr="보석산호" mapTargetId="2"/>
+			<subjectPos subjectStr="소라껍질" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[특산물 행상에게 보고]]" draft="반갑소! 모험가여!나는 지방의 특산물을 모아 판매하는 특산물 행상이라오. 내게 특산물을 가져다 주면, 훌륭한 생활의복과 교환 해 주겠소. 내게 가져 올 특산물은 이거요. ^#ca0202카툼바라야 뿌리, 바투의 솜털, 톨보 열매, 블루베리 열매, 보석산호, 소라껍질. 이 특산물을 2개씩^#e6d6c5 모아 내게 주면, 내가 멀리 마제로나의 장인이 직접 만든 훌륭한 의복을 드리지. 어떻소? 나쁘지 않은 제안이지 않소?" npc="특산물 행상">
+			<subjectPos subjectStr="특산물 행상에게 보고" mapTargetId="200595"/>
+			<subjectPos subjectStr="특산물 행상에게 보고" mapTargetId="200594"/>
+		</Subject>
+		<Storage Collect1_typeID="220004" Collect1_goal="2" Collect1_count="0" target1_type="Collect" Collect2_typeID="201017" Collect2_goal="2" Collect2_count="0" target2_type="Collect" Collect3_typeID="201026" Collect3_goal="2" Collect3_count="0" target3_type="Collect" Collect4_typeID="201027" Collect4_goal="2" Collect4_count="0" target4_type="Collect" Collect5_typeID="201031" Collect5_goal="2" Collect5_count="0" target5_type="Collect" Collect6_typeID="201033" Collect6_goal="2" Collect6_count="0" target6_type="Collect"/>
+		<BasicReward typeID="2100000000" count="0"/>
+		<ChoiceReward typeID="70036" count="1"/>
+		<ChoiceReward typeID="70037" count="1"/>
+		<ChoiceReward typeID="70038" count="1"/>
+		<ChoiceReward typeID="70039" count="1"/>
+		<ChoiceReward typeID="70040" count="1"/>
+	</Quest>
+	<Quest typeID="203305360" typeName="20LV초보용 요리 도구 (반복)" group="207" NPC="특산물 행상" reportTo="특산물 행상" cancelable="1" repeatable="1" retryable="1" lv="20" desc="반갑소! 모험가여!나는 지방의 특산물을 모아 판매하는 특산물 행상이라오. 내게 특산물을 가져다 주면, 훌륭한 생활도구와 교환 해 주겠소. 내게 가져 올 특산물은 이거요. 카툼바라야 뿌리, 바투의 솜털, 톨보 열매, 블루베리 열매, 보석산호, 소라껍질. 이 특산물을 2개씩 모아 내게 주면, 내가 멀리 알 아미르의 장인이 직접 만든 훌륭한 도구를 드리지. 어떻소? 나쁘지 않은 제안이지 않소?" difficulty="1" onMessage="Quest203305_Trade_onMessage" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="832" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_203305" desc="[[카툼바라야 뿌리]][[바투의 솜털]][[톨보 열매]][[블루베리 열매]][[보석산호]][[소라껍질]]" draft="반갑소! 모험가여!나는 지방의 특산물을 모아 판매하는 특산물 행상이라오. 내게 특산물을 가져다 주면, 훌륭한 생활도구와 교환 해 주겠소. 내게 가져 올 특산물은 이거요. 카툼바라야 뿌리, 바투의 솜털, 톨보 열매, 블루베리 열매, 보석산호, 소라껍질. 이 특산물을 2개씩 모아 내게 주면, 내가 멀리 알 아미르의 장인이 직접 만든 훌륭한 도구를 드리지. 어떻소? 나쁘지 않은 제안이지 않소?" npc="특산물 행상">
+			<subjectPos subjectStr="카툼바라야 뿌리" mapTargetId="2"/>
+			<subjectPos subjectStr="바투의 솜털" mapTargetId="2"/>
+			<subjectPos subjectStr="톨보 열매" mapTargetId="2"/>
+			<subjectPos subjectStr="블루베리 열매" mapTargetId="2"/>
+			<subjectPos subjectStr="보석산호" mapTargetId="2"/>
+			<subjectPos subjectStr="소라껍질" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[특산물 행상에게 보고]]" draft="반갑소! 모험가여!나는 지방의 특산물을 모아 판매하는 특산물 행상이라오. 내게 특산물을 가져다 주면, 훌륭한 생활도구와 교환 해 주겠소. 내게 가져 올 특산물은 이거요. 카툼바라야 뿌리, 바투의 솜털, 톨보 열매, 블루베리 열매, 보석산호, 소라껍질. 이 특산물을 2개씩 모아 내게 주면, 내가 멀리 알 아미르의 장인이 직접 만든 훌륭한 도구를 드리지. 어떻소? 나쁘지 않은 제안이지 않소?" npc="특산물 행상">
+			<subjectPos subjectStr="특산물 행상에게 보고" mapTargetId="200595"/>
+			<subjectPos subjectStr="특산물 행상에게 보고" mapTargetId="200594"/>
+		</Subject>
+		<Storage Collect1_typeID="220004" Collect1_goal="2" Collect1_count="0" target1_type="Collect" Collect2_typeID="201017" Collect2_goal="2" Collect2_count="0" target2_type="Collect" Collect3_typeID="201026" Collect3_goal="2" Collect3_count="0" target3_type="Collect" Collect4_typeID="201027" Collect4_goal="2" Collect4_count="0" target4_type="Collect" Collect5_typeID="201031" Collect5_goal="2" Collect5_count="0" target5_type="Collect" Collect6_typeID="201033" Collect6_goal="2" Collect6_count="0" target6_type="Collect"/>
+		<BasicReward typeID="2100000000" count="0"/>
+		<ChoiceReward typeID="20010" count="1"/>
+		<ChoiceReward typeID="20011" count="1"/>
+		<ChoiceReward typeID="20012" count="1"/>
+	</Quest>
+	<Quest typeID="203305361" typeName="30LV숙련자용 요리사 의복 (반복)" group="207" NPC="특산물 행상" reportTo="특산물 행상" cancelable="1" repeatable="1" retryable="1" lv="30" desc="오오, 일전에 가져 간 의상은 유용하게 잘 쓴 거요? 어땠소, 정말 질 좋은 의복이었지 않소? 이렇게 내게 다시 온 걸 보면 그랬던 게지! 자자, 이번에도 좋은 의복이 있소이다. 대신에 요번에는 2개씩이 아니라 5개씩 모아와야 하오. 아시겠소? 고원 클로버, 빛나는 약초, 알파카의 털, 큐티스의 침, 사막산호, 소금 덩어리. 이 특산물을 5개씩 내게 가져 오시오. 예전 의복과 비교할 수 없을 만큼 좋은 의상과 바꿔 줄 테니. 그럼, 수고 해 주시게!" difficulty="1" onMessage="Quest203305_Trade_onMessage" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="1402" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_203305" desc="[[고원 클로버]][[빛나는 약초]][[알파카의 털]][[큐티스의 침]][[사막산호]][[소금 덩어리]]" draft="오오, 일전에 가져 간 의상은 유용하게 잘 쓴 거요? 어땠소, 정말 질 좋은 의복이었지 않소? 이렇게 내게 다시 온 걸 보면 그랬던 게지! 자자, 이번에도 좋은 의복이 있소이다. 대신에 요번에는 2개씩이 아니라 5개씩 모아와야 하오. 아시겠소? 고원 클로버, 빛나는 약초, 알파카의 털, 큐티스의 침, 사막산호, 소금 덩어리. 이 특산물을 5개씩 내게 가져 오시오. 예전 의복과 비교할 수 없을 만큼 좋은 의상과 바꿔 줄 테니. 그럼, 수고 해 주시게!" npc="특산물 행상">
+			<subjectPos subjectStr="고원 클로버" mapTargetId="2"/>
+			<subjectPos subjectStr="빛나는 약초" mapTargetId="2"/>
+			<subjectPos subjectStr="알파카의 털" mapTargetId="2"/>
+			<subjectPos subjectStr="큐티스의 침" mapTargetId="2"/>
+			<subjectPos subjectStr="사막산호" mapTargetId="2"/>
+			<subjectPos subjectStr="소금 덩어리" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[특산물 행상에게 보고]]" draft="오오, 일전에 가져 간 의상은 유용하게 잘 쓴 거요? 어땠소, 정말 질 좋은 의복이었지 않소? 이렇게 내게 다시 온 걸 보면 그랬던 게지! 자자, 이번에도 좋은 의복이 있소이다. 대신에 요번에는 2개씩이 아니라 5개씩 모아와야 하오. 아시겠소? 고원 클로버, 빛나는 약초, 알파카의 털, 큐티스의 침, 사막산호, 소금 덩어리. 이 특산물을 5개씩 내게 가져 오시오. 예전 의복과 비교할 수 없을 만큼 좋은 의상과 바꿔 줄 테니. 그럼, 수고 해 주시게!" npc="특산물 행상">
+			<subjectPos subjectStr="특산물 행상에게 보고" mapTargetId="200595"/>
+			<subjectPos subjectStr="특산물 행상에게 보고" mapTargetId="200594"/>
+		</Subject>
+		<Storage Collect1_typeID="220001" Collect1_goal="5" Collect1_count="0" target1_type="Collect" Collect2_typeID="220002" Collect2_goal="5" Collect2_count="0" target2_type="Collect" Collect3_typeID="220003" Collect3_goal="5" Collect3_count="0" target3_type="Collect" Collect4_typeID="220005" Collect4_goal="5" Collect4_count="0" target4_type="Collect" Collect5_typeID="220006" Collect5_goal="5" Collect5_count="0" target5_type="Collect" Collect6_typeID="220007" Collect6_goal="5" Collect6_count="0" target6_type="Collect"/>
+		<BasicReward typeID="2100000000" count="0"/>
+		<ChoiceReward typeID="70041" count="1"/>
+		<ChoiceReward typeID="70042" count="1"/>
+		<ChoiceReward typeID="70043" count="1"/>
+		<ChoiceReward typeID="70044" count="1"/>
+		<ChoiceReward typeID="70045" count="1"/>
+	</Quest>
+	<Quest typeID="203305362" typeName="30LV숙련자용 요리 도구 (반복)" group="207" NPC="특산물 행상" reportTo="특산물 행상" cancelable="1" repeatable="1" retryable="1" lv="30" desc="예전에 가져 간 도구는 잘 쓴 게요? 또 내게 온 걸 보면 정말 좋은 도구였나 보군. 그렇지 않소? 자아, 이번에도 특산물을 모아 오면 원하는 도구로 바꿔 주겠소. 고원 클로버, 빛나는 약초, 알파카의 털, 큐티스의 침, 사막산호, 소금 덩어리. 이 특산물을 5개씩 내게 가져 오도록 하시오. 튼튼하고 잘 만들어 진 도구와 바꿔 줄 테니. 그럼, 또 볼 수 있기를 바라오!" difficulty="1" onMessage="Quest203305_Trade_onMessage" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="1402" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_203305" desc="[[고원 클로버]][[빛나는 약초]][[알파카의 털]][[큐티스의 침]][[사막산호]][[소금 덩어리]]" draft="예전에 가져 간 도구는 잘 쓴 게요? 또 내게 온 걸 보면 정말 좋은 도구였나 보군. 그렇지 않소? 자아, 이번에도 특산물을 모아 오면 원하는 도구로 바꿔 주겠소. 고원 클로버, 빛나는 약초, 알파카의 털, 큐티스의 침, 사막산호, 소금 덩어리. 이 특산물을 5개씩 내게 가져 오도록 하시오. 튼튼하고 잘 만들어 진 도구와 바꿔 줄 테니. 그럼, 또 볼 수 있기를 바라오!" npc="특산물 행상">
+			<subjectPos subjectStr="고원 클로버" mapTargetId="2"/>
+			<subjectPos subjectStr="빛나는 약초" mapTargetId="2"/>
+			<subjectPos subjectStr="알파카의 털" mapTargetId="2"/>
+			<subjectPos subjectStr="큐티스의 침" mapTargetId="2"/>
+			<subjectPos subjectStr="사막산호" mapTargetId="2"/>
+			<subjectPos subjectStr="소금 덩어리" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[특산물 행상에게 보고]]" draft="예전에 가져 간 도구는 잘 쓴 게요? 또 내게 온 걸 보면 정말 좋은 도구였나 보군. 그렇지 않소? 자아, 이번에도 특산물을 모아 오면 원하는 도구로 바꿔 주겠소. 고원 클로버, 빛나는 약초, 알파카의 털, 큐티스의 침, 사막산호, 소금 덩어리. 이 특산물을 5개씩 내게 가져 오도록 하시오. 튼튼하고 잘 만들어 진 도구와 바꿔 줄 테니. 그럼, 또 볼 수 있기를 바라오!" npc="특산물 행상">
+			<subjectPos subjectStr="특산물 행상에게 보고" mapTargetId="200595"/>
+			<subjectPos subjectStr="특산물 행상에게 보고" mapTargetId="200594"/>
+		</Subject>
+		<Storage Collect1_typeID="220001" Collect1_goal="5" Collect1_count="0" target1_type="Collect" Collect2_typeID="220002" Collect2_goal="5" Collect2_count="0" target2_type="Collect" Collect3_typeID="220003" Collect3_goal="5" Collect3_count="0" target3_type="Collect" Collect4_typeID="220005" Collect4_goal="5" Collect4_count="0" target4_type="Collect" Collect5_typeID="220006" Collect5_goal="5" Collect5_count="0" target5_type="Collect" Collect6_typeID="220007" Collect6_goal="5" Collect6_count="0" target6_type="Collect"/>
+		<BasicReward typeID="2100000000" count="0"/>
+		<ChoiceReward typeID="20031" count="1"/>
+		<ChoiceReward typeID="20032" count="1"/>
+		<ChoiceReward typeID="20033" count="1"/>
+	</Quest>
+	<Quest typeID="203305363" typeName="20LV초보 다인용 의복 (반복)" group="207" NPC="특산물 행상" reportTo="특산물 행상" cancelable="1" repeatable="1" retryable="1" lv="20" desc="반갑소! 모험가여!나는 지방의 특산물을 모아 판매하는 특산물 행상이라오. 내게 특산물을 가져다 주면, 훌륭한 생활의복과 교환 해 주겠소. 내게 가져 올 특산물은 이거요. ^#ca0202카툼바라야 뿌리, 바투의 솜털, 톨보 열매, 블루베리 열매, 보석산호, 소라껍질. 이 특산물을 2개씩^#e6d6c5 모아 내게 주면, 내가 멀리 마제로나의 장인이 직접 만든 훌륭한 의복을 드리지. 어떻소? 나쁘지 않은 제안이지 않소?" difficulty="1" onMessage="Quest203305_Trade_onMessage" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="832" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_203305" desc="[[카툼바라야 뿌리]][[바투의 솜털]][[톨보 열매]][[블루베리 열매]][[보석산호]][[소라껍질]]" draft="반갑소! 모험가여!나는 지방의 특산물을 모아 판매하는 특산물 행상이라오. 내게 특산물을 가져다 주면, 훌륭한 생활의복과 교환 해 주겠소. 내게 가져 올 특산물은 이거요. ^#ca0202카툼바라야 뿌리, 바투의 솜털, 톨보 열매, 블루베리 열매, 보석산호, 소라껍질. 이 특산물을 2개씩^#e6d6c5 모아 내게 주면, 내가 멀리 마제로나의 장인이 직접 만든 훌륭한 의복을 드리지. 어떻소? 나쁘지 않은 제안이지 않소?" npc="특산물 행상">
+			<subjectPos subjectStr="카툼바라야 뿌리" mapTargetId="2"/>
+			<subjectPos subjectStr="바투의 솜털" mapTargetId="2"/>
+			<subjectPos subjectStr="톨보 열매" mapTargetId="2"/>
+			<subjectPos subjectStr="블루베리 열매" mapTargetId="2"/>
+			<subjectPos subjectStr="보석산호" mapTargetId="2"/>
+			<subjectPos subjectStr="소라껍질" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[특산물 행상에게 보고]]" draft="반갑소! 모험가여!나는 지방의 특산물을 모아 판매하는 특산물 행상이라오. 내게 특산물을 가져다 주면, 훌륭한 생활의복과 교환 해 주겠소. 내게 가져 올 특산물은 이거요. ^#ca0202카툼바라야 뿌리, 바투의 솜털, 톨보 열매, 블루베리 열매, 보석산호, 소라껍질. 이 특산물을 2개씩^#e6d6c5 모아 내게 주면, 내가 멀리 마제로나의 장인이 직접 만든 훌륭한 의복을 드리지. 어떻소? 나쁘지 않은 제안이지 않소?" npc="특산물 행상">
+			<subjectPos subjectStr="특산물 행상에게 보고" mapTargetId="200595"/>
+			<subjectPos subjectStr="특산물 행상에게 보고" mapTargetId="200594"/>
+		</Subject>
+		<Storage Collect1_typeID="220004" Collect1_goal="2" Collect1_count="0" target1_type="Collect" Collect2_typeID="201017" Collect2_goal="2" Collect2_count="0" target2_type="Collect" Collect3_typeID="201026" Collect3_goal="2" Collect3_count="0" target3_type="Collect" Collect4_typeID="201027" Collect4_goal="2" Collect4_count="0" target4_type="Collect" Collect5_typeID="201031" Collect5_goal="2" Collect5_count="0" target5_type="Collect" Collect6_typeID="201033" Collect6_goal="2" Collect6_count="0" target6_type="Collect"/>
+		<BasicReward typeID="2100000000" count="0"/>
+		<ChoiceReward typeID="70051" count="1"/>
+		<ChoiceReward typeID="70052" count="1"/>
+		<ChoiceReward typeID="70053" count="1"/>
+		<ChoiceReward typeID="70054" count="1"/>
+		<ChoiceReward typeID="70055" count="1"/>
+	</Quest>
+	<Quest typeID="203305364" typeName="20LV초보용 다인 도구 (반복)" group="207" NPC="특산물 행상" reportTo="특산물 행상" cancelable="1" repeatable="1" retryable="1" lv="20" desc="반갑소! 모험가여!나는 지방의 특산물을 모아 판매하는 특산물 행상이라오. 내게 특산물을 가져다 주면, 훌륭한 생활도구와 교환 해 주겠소. 내게 가져 올 특산물은 이거요. 카툼바라야 뿌리, 바투의 솜털, 톨보 열매, 블루베리 열매, 보석산호, 소라껍질. 이 특산물을 2개씩 모아 내게 주면, 내가 멀리 알 아미르의 장인이 직접 만든 훌륭한 도구를 드리지. 어떻소? 나쁘지 않은 제안이지 않소?" difficulty="1" onMessage="Quest203305_Trade_onMessage" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="832" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_203305" desc="[[카툼바라야 뿌리]][[바투의 솜털]][[톨보 열매]][[블루베리 열매]][[보석산호]][[소라껍질]]" draft="반갑소! 모험가여!나는 지방의 특산물을 모아 판매하는 특산물 행상이라오. 내게 특산물을 가져다 주면, 훌륭한 생활도구와 교환 해 주겠소. 내게 가져 올 특산물은 이거요. 카툼바라야 뿌리, 바투의 솜털, 톨보 열매, 블루베리 열매, 보석산호, 소라껍질. 이 특산물을 2개씩 모아 내게 주면, 내가 멀리 알 아미르의 장인이 직접 만든 훌륭한 도구를 드리지. 어떻소? 나쁘지 않은 제안이지 않소?" npc="특산물 행상">
+			<subjectPos subjectStr="카툼바라야 뿌리" mapTargetId="2"/>
+			<subjectPos subjectStr="바투의 솜털" mapTargetId="2"/>
+			<subjectPos subjectStr="톨보 열매" mapTargetId="2"/>
+			<subjectPos subjectStr="블루베리 열매" mapTargetId="2"/>
+			<subjectPos subjectStr="보석산호" mapTargetId="2"/>
+			<subjectPos subjectStr="소라껍질" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[특산물 행상에게 보고]]" draft="반갑소! 모험가여!나는 지방의 특산물을 모아 판매하는 특산물 행상이라오. 내게 특산물을 가져다 주면, 훌륭한 생활도구와 교환 해 주겠소. 내게 가져 올 특산물은 이거요. 카툼바라야 뿌리, 바투의 솜털, 톨보 열매, 블루베리 열매, 보석산호, 소라껍질. 이 특산물을 2개씩 모아 내게 주면, 내가 멀리 알 아미르의 장인이 직접 만든 훌륭한 도구를 드리지. 어떻소? 나쁘지 않은 제안이지 않소?" npc="특산물 행상">
+			<subjectPos subjectStr="특산물 행상에게 보고" mapTargetId="200595"/>
+			<subjectPos subjectStr="특산물 행상에게 보고" mapTargetId="200594"/>
+		</Subject>
+		<Storage Collect1_typeID="220004" Collect1_goal="2" Collect1_count="0" target1_type="Collect" Collect2_typeID="201017" Collect2_goal="2" Collect2_count="0" target2_type="Collect" Collect3_typeID="201026" Collect3_goal="2" Collect3_count="0" target3_type="Collect" Collect4_typeID="201027" Collect4_goal="2" Collect4_count="0" target4_type="Collect" Collect5_typeID="201031" Collect5_goal="2" Collect5_count="0" target5_type="Collect" Collect6_typeID="201033" Collect6_goal="2" Collect6_count="0" target6_type="Collect"/>
+		<BasicReward typeID="2100000000" count="0"/>
+		<ChoiceReward typeID="20022" count="1"/>
+		<ChoiceReward typeID="20023" count="1"/>
+		<ChoiceReward typeID="20024" count="1"/>
+	</Quest>
+	<Quest typeID="203305365" typeName="30LV숙련자용 다인 의복 (반복)" group="207" NPC="특산물 행상" reportTo="특산물 행상" cancelable="1" repeatable="1" retryable="1" lv="30" desc="오오, 일전에 가져 간 의상은 유용하게 잘 쓴 거요? 어땠소, 정말 질 좋은 의복이었지 않소? 이렇게 내게 다시 온 걸 보면 그랬던 게지! 자자, 이번에도 좋은 의복이 있소이다. 대신에 요번에는 2개씩이 아니라 5개씩 모아와야 하오. 아시겠소? 고원 클로버, 빛나는 약초, 알파카의 털, 큐티스의 침, 사막산호, 소금 덩어리. 이 특산물을 5개씩 내게 가져 오시오. 예전 의복과 비교할 수 없을 만큼 좋은 의상과 바꿔 줄 테니. 그럼, 수고 해 주시게!" difficulty="1" onMessage="Quest203305_Trade_onMessage" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="1402" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_203305" desc="[[고원 클로버]][[빛나는 약초]][[알파카의 털]][[큐티스의 침]][[사막산호]][[소금 덩어리]]" draft="오오, 일전에 가져 간 의상은 유용하게 잘 쓴 거요? 어땠소, 정말 질 좋은 의복이었지 않소? 이렇게 내게 다시 온 걸 보면 그랬던 게지! 자자, 이번에도 좋은 의복이 있소이다. 대신에 요번에는 2개씩이 아니라 5개씩 모아와야 하오. 아시겠소? 고원 클로버, 빛나는 약초, 알파카의 털, 큐티스의 침, 사막산호, 소금 덩어리. 이 특산물을 5개씩 내게 가져 오시오. 예전 의복과 비교할 수 없을 만큼 좋은 의상과 바꿔 줄 테니. 그럼, 수고 해 주시게!" npc="특산물 행상">
+			<subjectPos subjectStr="고원 클로버" mapTargetId="2"/>
+			<subjectPos subjectStr="빛나는 약초" mapTargetId="2"/>
+			<subjectPos subjectStr="알파카의 털" mapTargetId="2"/>
+			<subjectPos subjectStr="큐티스의 침" mapTargetId="2"/>
+			<subjectPos subjectStr="사막산호" mapTargetId="2"/>
+			<subjectPos subjectStr="소금 덩어리" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[특산물 행상에게 보고]]" draft="오오, 일전에 가져 간 의상은 유용하게 잘 쓴 거요? 어땠소, 정말 질 좋은 의복이었지 않소? 이렇게 내게 다시 온 걸 보면 그랬던 게지! 자자, 이번에도 좋은 의복이 있소이다. 대신에 요번에는 2개씩이 아니라 5개씩 모아와야 하오. 아시겠소? 고원 클로버, 빛나는 약초, 알파카의 털, 큐티스의 침, 사막산호, 소금 덩어리. 이 특산물을 5개씩 내게 가져 오시오. 예전 의복과 비교할 수 없을 만큼 좋은 의상과 바꿔 줄 테니. 그럼, 수고 해 주시게!" npc="특산물 행상">
+			<subjectPos subjectStr="특산물 행상에게 보고" mapTargetId="200595"/>
+			<subjectPos subjectStr="특산물 행상에게 보고" mapTargetId="200594"/>
+		</Subject>
+		<Storage Collect1_typeID="220001" Collect1_goal="5" Collect1_count="0" target1_type="Collect" Collect2_typeID="220002" Collect2_goal="5" Collect2_count="0" target2_type="Collect" Collect3_typeID="220003" Collect3_goal="5" Collect3_count="0" target3_type="Collect" Collect4_typeID="220005" Collect4_goal="5" Collect4_count="0" target4_type="Collect" Collect5_typeID="220006" Collect5_goal="5" Collect5_count="0" target5_type="Collect" Collect6_typeID="220007" Collect6_goal="5" Collect6_count="0" target6_type="Collect"/>
+		<BasicReward typeID="2100000000" count="0"/>
+		<ChoiceReward typeID="70056" count="1"/>
+		<ChoiceReward typeID="70057" count="1"/>
+		<ChoiceReward typeID="70058" count="1"/>
+		<ChoiceReward typeID="70059" count="1"/>
+		<ChoiceReward typeID="70060" count="1"/>
+	</Quest>
+	<Quest typeID="203305366" typeName="30LV숙련자용 다인 도구 (반복)" group="207" NPC="특산물 행상" reportTo="특산물 행상" cancelable="1" repeatable="1" retryable="1" lv="30" desc="예전에 가져 간 도구는 잘 쓴 게요? 또 내게 온 걸 보면 정말 좋은 도구였나 보군. 그렇지 않소? 자아, 이번에도 특산물을 모아 오면 원하는 도구로 바꿔 주겠소. 고원 클로버, 빛나는 약초, 알파카의 털, 큐티스의 침, 사막산호, 소금 덩어리. 이 특산물을 5개씩 내게 가져 오도록 하시오. 튼튼하고 잘 만들어 진 도구와 바꿔 줄 테니. 그럼, 또 볼 수 있기를 바라오!" difficulty="1" onMessage="Quest203305_Trade_onMessage" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="1402" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_203305" desc="[[고원 클로버]][[빛나는 약초]][[알파카의 털]][[큐티스의 침]][[사막산호]][[소금 덩어리]]" draft="예전에 가져 간 도구는 잘 쓴 게요? 또 내게 온 걸 보면 정말 좋은 도구였나 보군. 그렇지 않소? 자아, 이번에도 특산물을 모아 오면 원하는 도구로 바꿔 주겠소. 고원 클로버, 빛나는 약초, 알파카의 털, 큐티스의 침, 사막산호, 소금 덩어리. 이 특산물을 5개씩 내게 가져 오도록 하시오. 튼튼하고 잘 만들어 진 도구와 바꿔 줄 테니. 그럼, 또 볼 수 있기를 바라오!" npc="특산물 행상">
+			<subjectPos subjectStr="고원 클로버" mapTargetId="2"/>
+			<subjectPos subjectStr="빛나는 약초" mapTargetId="2"/>
+			<subjectPos subjectStr="알파카의 털" mapTargetId="2"/>
+			<subjectPos subjectStr="큐티스의 침" mapTargetId="2"/>
+			<subjectPos subjectStr="사막산호" mapTargetId="2"/>
+			<subjectPos subjectStr="소금 덩어리" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[특산물 행상에게 보고]]" draft="예전에 가져 간 도구는 잘 쓴 게요? 또 내게 온 걸 보면 정말 좋은 도구였나 보군. 그렇지 않소? 자아, 이번에도 특산물을 모아 오면 원하는 도구로 바꿔 주겠소. 고원 클로버, 빛나는 약초, 알파카의 털, 큐티스의 침, 사막산호, 소금 덩어리. 이 특산물을 5개씩 내게 가져 오도록 하시오. 튼튼하고 잘 만들어 진 도구와 바꿔 줄 테니. 그럼, 또 볼 수 있기를 바라오!" npc="특산물 행상">
+			<subjectPos subjectStr="특산물 행상에게 보고" mapTargetId="200595"/>
+			<subjectPos subjectStr="특산물 행상에게 보고" mapTargetId="200594"/>
+		</Subject>
+		<Storage Collect1_typeID="220001" Collect1_goal="5" Collect1_count="0" target1_type="Collect" Collect2_typeID="220002" Collect2_goal="5" Collect2_count="0" target2_type="Collect" Collect3_typeID="220003" Collect3_goal="5" Collect3_count="0" target3_type="Collect" Collect4_typeID="220005" Collect4_goal="5" Collect4_count="0" target4_type="Collect" Collect5_typeID="220006" Collect5_goal="5" Collect5_count="0" target5_type="Collect" Collect6_typeID="220007" Collect6_goal="5" Collect6_count="0" target6_type="Collect"/>
+		<BasicReward typeID="2100000000" count="0"/>
+		<ChoiceReward typeID="20034" count="1"/>
+		<ChoiceReward typeID="20035" count="1"/>
+		<ChoiceReward typeID="20036" count="1"/>
+	</Quest>
+</Quest>

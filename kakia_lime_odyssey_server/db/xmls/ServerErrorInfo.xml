@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2006 rel. 3 U (http://www.altova.com) by apple (orange) -->
+<ExceptionMessage>
+	<Message id="0" name="CANT_USE_SKILL__NOTIFY_FORCE_CLOSING" text="10분동안 입력이 없어서 1분뒤 접속이 종료됩니다" type="0"/>
+	<Message id="1" name="CANT_USE_SKILL__COOL_TIME_REMAINS" text="아직 쿨타임이 끝나지 않아서 스킬을 사용할 수 없습니다" type="0"/>
+	<Message id="2" name="CANT_USE_SKILL__NOT_ENOUGH_HP" text="사용할 HP가 모자라서 스킬을 사용할 수 없습니다" type="0"/>
+	<Message id="3" name="CANT_USE_SKILL__NOT_ENOUGH_SP" text="SP가 부족하여  스킬을 사용할 수 없습니다" type="0"/>
+	<Message id="4" name="CANT_USE_SKILL__NOT_ENOUGH_MP" text="MP가 부족하여  스킬을 사용할 수 없습니다" type="0"/>
+	<Message id="5" name="CANT_USE_SKILL__NOT_ENOUGH_LP" text="LP가 부족하여  스킬을 사용할 수 없습니다" type="0"/>
+	<Message id="6" name="CANT_USE_SKILL__RIDING" text="말을 타고 있어서 스킬을 사용할 수 없습니다" type="0"/>
+	<Message id="7" name="CANT_USE_SKILL__NO_TARGET" text="스킬 대상이 없습니다" type="0"/>
+	<Message id="8" name="CANT_USE_SKILL__TOO_FAR_FROM_TARGET" text="거리가 멀어서 스킬을 사용할 수 없습니다" type="0"/>
+	<Message id="9" name="CANT_USE_SKILL__TARGET_IS_INVALID" text="스킬을 사용하려고 했으나, 대상이 유효하지 않습니다" type="0"/>
+	<Message id="10" name="CANT_USE_SKILL__NONE_SUITABLE_TARGET" text="선택한 대상에게는 이 스킬을 사용할 수 없습니다" type="0"/>
+	<Message id="11" name="CANT_USE_SKILL__TARGET_IS_DEAD" text="스킬을 사용하려고 했으나, 대상이 이미 죽었습니다" type="0"/>
+	<Message id="12" name="CANT_USE_SKILL__TARGET_IS_OUT_OF_SIGHT" text="대상이 시야각 밖에 있어서 스킬을 사용할 수 없습니다" type="0"/>
+	<Message id="13" name="CANT_USE_RIDE_SKILL__COMBAT_MODE" text="전투 상태에서는 말을 탈 수 없습니다" type="0"/>
+	<Message id="14" name="CANT_USE_ITEM__COOL_TIME_REMAINS" text="아직 쿨타임이 끝나지 않아서 아이템을 사용할 수 없습니다" type="0"/>
+	<Message id="15" name="CANT_USE_ITEM__NOT_ENOUGH_HP" text="사용할 HP가 모자라서 아이템을 사용할 수 없습니다" type="0"/>
+	<Message id="16" name="CANT_USE_ITEM__RIDING" text="말을 타고 있어서 아이템을 사용할 수 없습니다" type="0"/>
+	<Message id="17" name="CANT_USE_ITEM__NO_TARGET" text="아이템 사용 대상이 없습니다" type="0"/>
+	<Message id="18" name="CANT_USE_ITEM__TOO_FAR_FROM_TARGET" text="거리가 멀어서 아이템을 사용할 수 없습니다" type="0"/>
+	<Message id="19" name="CANT_USE_ITEM__TARGET_IS_DEAD" text="아이템을 사용하려고 했으나, 대상이 이미 죽었습니다" type="0"/>
+	<Message id="20" name="CANT_USE_ITEM__TARGET_IS_INVALID" text="아이템을 사용하려고 했으나, 대상이 유효하지 않습니" type="0"/>
+	<Message id="21" name="CANT_USE_ITEM__NONE_SUITABLE_TARGET" text="선택한 대상에게는 이 아이템을 쓸 수 없습니다" type="0"/>
+	<Message id="22" name="CANT_USE_ITEM__TARGET_IS_OUT_OF_SIGHT" text="대상이 시야각 밖에 있어서 아이템을 사용할 수 없습니다" type="0"/>
+	<Message id="23" name="NO_SELECT_COMBATJOB" text="전투 직업 미결정 상태입니다. " type="0"/>
+	<Message id="24" name="CANT_COMBAT_STATE_IS_LIFEJOB" text="생활직업 상태에서는 전투를 할 수 없습니다. " type="0"/>
+	<Message id="25" name="CANT_USE_COLLECT_STATE_IS_COMBATJOB" text="전투 직업 상태에서는 수집을 할 수 없습니다. " type="0"/>
+	<Message id="26" name="CANT_SAY_FAR_FROM_TARGET" text="너무 멀어서 대화 할 수 없습니다. " type="0"/>
+	<Message id="27" name="CANT_ATTACK_FAR_FROM_TARGET" text="너무 멀어서 공격 할 수 없습니다. " type="0"/>
+	<Message id="28" name="NO_TARGET" text="대상이 없습니다. " type="0"/>
+	<Message id="29" name="NO_ITEM" text="루팅할 아이템이 없습니다. " type="0"/>
+	<Message id="30" name="BE_SHORT_OF_MONEY" text="돈이 부족합니다. " type="0"/>
+	<Message id="31" name="MONEY_IS_SCARCE" text="돈이 모자랍니다. " type="0"/>
+	<Message id="32" name="CANT_ABANDON_QUEST" text="포기 할 수 없는 퀘스트 입니다. " type="0"/>
+	<Message id="33" name="SELECT_REPARATION" text="보상을 선택해 주십시오. " type="0"/>
+	<Message id="34" name="CANT_STATE_IS_COMBAT" text="전투 상태에서는 할 수 없습니다." type="0"/>
+	<Message id="35" name="CANT_USE_COLLECT__NOT_ENOUGH_LIFE_LV" text="생활직업 레벨이 낮아 수집할 수 없습니다." type="0"/>
+	<Message id="36" name="TOO_LONG_DISTANCE_TO_WEAPONHIT" text="상대가 너무 멀리 있어 공격할 수 없습니다." type="0"/>
+	<Message id="37" name="NOT_IN_AVAILABLE_ANGLE_TO_WEAPONHIT" text="적이 정면에 있지 않아서 공격할 수 없습니다." type="0"/>
+</ExceptionMessage>

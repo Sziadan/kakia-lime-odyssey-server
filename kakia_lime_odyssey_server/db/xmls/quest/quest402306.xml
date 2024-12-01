@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by Administrator (siriusent) -->
+<Quest>
+	<Quest typeID="402306008" typeName="완성된 망치" group="202" NPC="모험가1" reportTo="모험가 길드원1" cancelable="1" repeatable="0" retryable="1" lv="6" desc="대장간의 대장장이 올쿠브 씨가 의뢰한 망치를 배달하는 일입니다. 별로 어렵지 않은 일입니다. 흥미가 있으신 분은 대장간의 대장장이 ^#3399FF올쿠브 해머핸드^#FFFFFF씨를 찾으시면 자세한 이야기를 들을 수 있습니다./n" difficulty="1" onMessage="DeleteQuest_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="480" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[올쿠브 해머핸드와 대화]]" draft="대장간의 대장장이 올쿠브 씨가 의뢰한 망치를 배달하는 일입니다. 별로 어렵지 않은 일입니다. 흥미가 있으신 분은 대장간의 대장장이 ^#3399FF올쿠브 해머핸드^#FFFFFF씨를 찾으시면 자세한 이야기를 들을 수 있습니다./n" npc="올쿠브 해머핸드">
+			<subjectPos subjectStr="올쿠브 해머핸드와 대화" mapTargetId="101509"/>
+		</Subject>
+		<Subject typeName="Deliver" func="NULL" desc="[[주문한 망치 배달]]" draft="여, 와 줬군./n부탁할 일은 쉬운 일이오. 나무공예사인 ^#3399FF아막칼 우드스톡^#FFFFFF이 주문한 ^#3399FF나무망치^#FFFFFF가 완성되었으니 배달해 주었으면 하오. 아막칼은 마을 남동쪽의 큰 나무 앞에 있을 거요. 일을 마치고 ^#3399FF쿠니바 마을 모험가 길드원^#FFFFFF을 찾아가면 내가 맡긴 보수를 받을 수 있을 거요. 그는 마을 남쪽의 큰 나무 앞에 있소." npc="아막칼 우드스톡">
+			<subjectPos subjectStr="주문한 망치 배달" mapTargetId="101507"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[쿠니바 마을 전투 모험가 길드원에게 보고]]" draft="여, 와 줬군./n부탁할 일은 쉬운 일이오. 나무공예사인 ^#3399FF아막칼 우드스톡^#FFFFFF이 주문한 ^#3399FF나무망치^#FFFFFF가 완성되었으니 배달해 주었으면 하오. 아막칼은 마을 남동쪽의 큰 나무 앞에 있을 거요. 일을 마치고 ^#3399FF쿠니바 마을 모험가 길드원^#FFFFFF을 찾아가면 내가 맡긴 보수를 받을 수 있을 거요. 그는 마을 남쪽의 큰 나무 앞에 있소." npc="모험가 길드원">
+			<subjectPos subjectStr="쿠니바 마을 전투 모험가 길드원에게 보고" mapTargetId="101501"/>
+		</Subject>
+		<Storage Collect1_typeID="150063"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="402306009" typeName="새로운 판매 방식 " group="202" NPC="모험가 길드원1" reportTo="모험가 길드원1" cancelable="1" repeatable="0" retryable="1" lv="6" desc="요리사 율라프 파이어미트씨가 새로 개발한 요리를 배달해달라는 의뢰를 하셨습니다./n 마을 동쪽 입구의 ^#3399FF율라프 파이어미트^#FFFFFF씨를 찾아가 음식을 받은 후 쿠니바 마을 사람들에게 배달해 주십시오." difficulty="1" onMessage="Quest402306009_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="480" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[율라프 파이어미트와 대화]]" draft="요리사 율라프 파이어미트씨가 새로 개발한 요리를 배달해달라는 의뢰를 하셨습니다./n 마을 동쪽 입구의 ^#3399FF율라프 파이어미트^#FFFFFF씨를 찾아가 음식을 받은 후 쿠니바 마을 사람들에게 배달해 주십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="율라프 파이어미트와 대화" mapTargetId="101508"/>
+		</Subject>
+		<Subject typeName="Deliver1" func="NULL" desc="[[투마하 할머니에게 배달]]" draft="어서오게! 율라프의 따끈따끈한 생선요리 전문점에 잘 왔네./n호수를 끼고 있는 우리 쿠니바 마을의 자랑은 뭐니뭐니 해도 양념이 잘 배어 맛있는 생선 요리지! 투르가가 어찌 물고기 따위를 먹느냐고? 보게 물고기는 물에 사는 고기가 아닌가! 당연히 맛있게 먹을 수 있는 거라네. 알겠지?/n이번에 ^#3399FF소고기 풍미 잉어 야채찜^#FFFFFF이라는 새 요리를 개발했다네. 쿠니바 호수의 잉어에 야채와 갖은 양념을 해서 찌고 그 위에 쇠기름을 끼얹어 튀기듯 익힌 것인데…. 아, 더 이상은 기업 비밀이고./n이 요리를 만방에 알리고 싶으니 서쪽 민가에 계시는 ^#3399FF투마하 할머니^#FFFFFF와 보급 마차 근처에 있는 ^#3399FF노르둔 어반엑스^#FFFFFF에게 빨리 배달하게. 지금 당장! 보수는 ^#3399FF쿠니바 마을 모험가 길드원^#FFFFFF이 줄 테니, 날 찾아오지 말고 그에게 찾아가!" npc="율라프 파이어미트">
+			<subjectPos subjectStr="투마하 할머니에게 배달" mapTargetId="101516"/>
+		</Subject>
+		<Subject typeName="Deliver2" func="NULL" desc="[[노르둔 어반엑스에게 배달]]" draft="어서오게! 율라프의 따끈따끈한 생선요리 전문점에 잘 왔네./n호수를 끼고 있는 우리 쿠니바 마을의 자랑은 뭐니뭐니 해도 양념이 잘 배어 맛있는 생선 요리지! 투르가가 어찌 물고기 따위를 먹느냐고? 보게 물고기는 물에 사는 고기가 아닌가! 당연히 맛있게 먹을 수 있는 거라네. 알겠지?/n이번에 ^#3399FF소고기 풍미 잉어 야채찜^#FFFFFF이라는 새 요리를 개발했다네. 쿠니바 호수의 잉어에 야채와 갖은 양념을 해서 찌고 그 위에 쇠기름을 끼얹어 튀기듯 익힌 것인데…. 아, 더 이상은 기업 비밀이고./n이 요리를 만방에 알리고 싶으니 서쪽 민가에 계시는 ^#3399FF투마하 할머니^#FFFFFF와 보급 마차 근처에 있는 ^#3399FF노르둔 어반엑스^#FFFFFF에게 빨리 배달하게. 지금 당장! 보수는 ^#3399FF쿠니바 마을 모험가 길드원^#FFFFFF이 줄 테니, 날 찾아오지 말고 그에게 찾아가!" npc="율라프 파이어미트">
+			<subjectPos subjectStr="노르둔 어반엑스에게 배달" mapTargetId="101510"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[쿠니바 마을 전투 모험가 길드원에게 보고]]" draft="어서오게! 율라프의 따끈따끈한 생선요리 전문점에 잘 왔네./n호수를 끼고 있는 우리 쿠니바 마을의 자랑은 뭐니뭐니 해도 양념이 잘 배어 맛있는 생선 요리지! 투르가가 어찌 물고기 따위를 먹느냐고? 보게 물고기는 물에 사는 고기가 아닌가! 당연히 맛있게 먹을 수 있는 거라네. 알겠지?/n이번에 ^#3399FF소고기 풍미 잉어 야채찜^#FFFFFF이라는 새 요리를 개발했다네. 쿠니바 호수의 잉어에 야채와 갖은 양념을 해서 찌고 그 위에 쇠기름을 끼얹어 튀기듯 익힌 것인데…. 아, 더 이상은 기업 비밀이고./n이 요리를 만방에 알리고 싶으니 서쪽 민가에 계시는 ^#3399FF투마하 할머니^#FFFFFF와 보급 마차 근처에 있는 ^#3399FF노르둔 어반엑스^#FFFFFF에게 빨리 배달하게. 지금 당장! 보수는 ^#3399FF쿠니바 마을 모험가 길드원^#FFFFFF이 줄 테니, 날 찾아오지 말고 그에게 찾아가!" npc="모험가 길드원">
+			<subjectPos subjectStr="쿠니바 마을 전투 모험가 길드원에게 보고" mapTargetId="101501"/>
+		</Subject>
+		<Storage Collect1_typeID="110011"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="402306010" typeName="30년만의 답장 " group="202" NPC="모험가 길드원1" reportTo="모험가 길드원1" cancelable="1" repeatable="0" retryable="1" lv="6" desc="노르둔 어반액스 씨의 의뢰입니다. 노르둔 씨가 창고를 정리하다가 30년이나 된 오래된 편지를 발견하셨다고 합니다. 늦었지만 지금에서라도 원래 주인에게 배달하고 싶다고 하시는군요./n^#3399FF노르둔 어반엑스^#FFFFFF씨께서는 쿠니바 마을 한가운데서 기다리고 있으니, 그분께 가보십시오./n" difficulty="1" onMessage="DeleteQuest_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="480" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[노르둔 어반액스와 대화]]" draft="노르둔 어반액스 씨의 의뢰입니다. 노르둔 씨가 창고를 정리하다가 30년이나 된 오래된 편지를 발견하셨다고 합니다. 늦었지만 지금에서라도 원래 주인에게 배달하고 싶다고 하시는군요./n^#3399FF노르둔 어반엑스^#FFFFFF씨께서는 쿠니바 마을 한가운데서 기다리고 있으니, 그분께 가보십시오./n" npc="모험가 길드원">
+			<subjectPos subjectStr="노르둔 어반액스와 대화" mapTargetId="101510"/>
+		</Subject>
+		<Subject typeName="Deliver" func="NULL" desc="[[얼바인 헝거액스에게 배달]]" draft="어서 오게. 젊은이. 쿠니바 마을은 어떤가? 괜찮은 마을이지?/n부탁할 건 다른 게 아니라 이 편지일세. 오래된 창고를 정리하다가 발견한 것인데....놀라지 말게. 무려 ^#3399FF년 전의 편지^#FFFFFF야!이 편지는 30년 동안 주인을 찾지 못하고 잠들어 있었던 거야. 놀랍지 않나?/n게다가 수취인은 아직 이 마을에 있다네. 2차와 3차 초원전쟁에 모두 참가한 역전의 용사인 ^#3399FF얼바인 헝거엑스^#FFFFFF라네. 그분께 이 편지를 전해 드리게나. 틀림없이 기뻐하실 걸세./n일이 끝나면 ^#3399FF쿠니바 마을 모험가 길드원^#FFFFFF에게 가면 보수를 줄 걸세." npc="노르둔 어반엑스">
+			<subjectPos subjectStr="얼바인 헝거액스에게 배달" mapTargetId="101514"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[쿠니바 마을 전투 모험가 길드원에게 보고]]" draft="어서 오게. 젊은이. 쿠니바 마을은 어떤가? 괜찮은 마을이지?/n부탁할 건 다른 게 아니라 이 편지일세. 오래된 창고를 정리하다가 발견한 것인데....놀라지 말게. 무려 ^#3399FF년 전의 편지^#FFFFFF야!이 편지는 30년 동안 주인을 찾지 못하고 잠들어 있었던 거야. 놀랍지 않나?/n게다가 수취인은 아직 이 마을에 있다네. 2차와 3차 초원전쟁에 모두 참가한 역전의 용사인 ^#3399FF얼바인 헝거엑스^#FFFFFF라네. 그분께 이 편지를 전해 드리게나. 틀림없이 기뻐하실 걸세./n일이 끝나면 ^#3399FF쿠니바 마을 모험가 길드원^#FFFFFF에게 가면 보수를 줄 걸세." npc="모험가 길드원">
+			<subjectPos subjectStr="쿠니바 마을 전투 모험가 길드원에게 보고" mapTargetId="101501"/>
+		</Subject>
+		<Storage Collect1_typeID="150065"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="402306011" typeName="따뜻한 도시락 " group="202" NPC="모험가 길드원1" reportTo="모험가 길드원1" cancelable="1" repeatable="0" retryable="1" lv="7" desc="요리사 ^#3399FF율라프 파이어미트^#FFFFFF 씨의 의뢰입니다./n급하게 배달할 도시락이 있으니 빨리 쿠니바 마을의 무기점으로 와달라고 하십니다." difficulty="1" onMessage="Quest402306011_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="640" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[율라프 파이어미트와 대화]]" draft="요리사 ^#3399FF율라프 파이어미트^#FFFFFF 씨의 의뢰입니다./n급하게 배달할 도시락이 있으니 빨리 쿠니바 마을의 무기점으로 와달라고 하십니다." npc="모험가 길드원">
+			<subjectPos subjectStr="율라프 파이어미트와 대화" mapTargetId="101508"/>
+		</Subject>
+		<Subject typeName="Deliver" func="NULL" desc="[[타라델 스톤블레이드에게 배달]]" draft="오, 와 줬군./n남부 감시 초소장인 ^#3399FF티라델 스톤블레이드^#FFFFFF님께서 주문한 도시락을 배달해주게. 원래 내가 가야 할 일이지만 다른 주문이 너무 많이 밀려서 갈 시간이 없어./n동쪽으로 나가서 갈림길에서 북쪽으로 가면 되네./n그리고 ^#3399FF커다란 도시락^#FFFFFF이 따뜻할 때 배달해 주게. 만약 식어버린다면 나에게 와서 새 도시락을 가져가게./n배달을 제대로 한다면 ^#3399FF쿠니바 마을 모험가 길드원^#FFFFFF이 자네에게 보수를 줄걸세./n" npc="가포일 워퓨리">
+			<subjectPos subjectStr="타라델 스톤블레이드에게 배달" mapTargetId="102503"/>
+		</Subject>
+		<Subject typeName="Deliver_2" func="NULL" desc="[[율라프 파이어미트에게 되돌아가기]]" draft="오, 와 줬군./n남부 감시 초소장인 ^#3399FF티라델 스톤블레이드^#FFFFFF님께서 주문한 도시락을 배달해주게. 원래 내가 가야 할 일이지만 다른 주문이 너무 많이 밀려서 갈 시간이 없어./n동쪽으로 나가서 갈림길에서 북쪽으로 가면 되네./n그리고 ^#3399FF커다란 도시락^#FFFFFF이 따뜻할 때 배달해 주게. 만약 식어버린다면 나에게 와서 새 도시락을 가져가게./n배달을 제대로 한다면 ^#3399FF쿠니바 마을 모험가 길드원^#FFFFFF이 자네에게 보수를 줄걸세./n" npc="율라프 파이어미트">
+			<subjectPos subjectStr="율라프 파이어미트에게 되돌아가기" mapTargetId="101508"/>
+		</Subject>
+		<Subject typeName="Deliver_3" func="NULL" desc="[[타라델 스톤블레이드에게 빨리 배달하기]]" draft="오, 와 줬군./n남부 감시 초소장인 ^#3399FF티라델 스톤블레이드^#FFFFFF님께서 주문한 도시락을 배달해주게. 원래 내가 가야 할 일이지만 다른 주문이 너무 많이 밀려서 갈 시간이 없어./n동쪽으로 나가서 갈림길에서 북쪽으로 가면 되네./n그리고 ^#3399FF커다란 도시락^#FFFFFF이 따뜻할 때 배달해 주게. 만약 식어버린다면 나에게 와서 새 도시락을 가져가게./n배달을 제대로 한다면 ^#3399FF쿠니바 마을 모험가 길드원^#FFFFFF이 자네에게 보수를 줄걸세./n" npc="가포일 워퓨리">
+			<subjectPos subjectStr="타라델 스톤블레이드에게 빨리 배달하기" mapTargetId="102503"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[쿠니바 마을 전투 모험가 길드원에게 보고]]" draft="오, 와 줬군./n남부 감시 초소장인 ^#3399FF티라델 스톤블레이드^#FFFFFF님께서 주문한 도시락을 배달해주게. 원래 내가 가야 할 일이지만 다른 주문이 너무 많이 밀려서 갈 시간이 없어./n동쪽으로 나가서 갈림길에서 북쪽으로 가면 되네./n그리고 ^#3399FF커다란 도시락^#FFFFFF이 따뜻할 때 배달해 주게. 만약 식어버린다면 나에게 와서 새 도시락을 가져가게./n배달을 제대로 한다면 ^#3399FF쿠니바 마을 모험가 길드원^#FFFFFF이 자네에게 보수를 줄걸세./n" npc="모험가 길드원">
+			<subjectPos subjectStr="쿠니바 마을 전투 모험가 길드원에게 보고" mapTargetId="101501"/>
+		</Subject>
+		<Storage Collect1_typeID="150066"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="402306012" typeName="편지 전달 " group="202" NPC="모험가 길드원2" reportTo="응급대원" cancelable="1" repeatable="0" retryable="1" lv="13" desc="테이스티 굿이츠  님의 의뢰입니다. 중요한 편지를 전달할 일이 있으시다고 발이 빠른 분을 보내달라고 하셨습니다./n /n자세한 이야기는  ^#3399FF테이스티 굿이츠씨^#FFFFFF에게 찾아가셔서 들어주십시오./n" difficulty="1" onMessage="DeleteQuest_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="4340" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[테이스티 굿이츠와 대화]]" draft="테이스티 굿이츠  님의 의뢰입니다. 중요한 편지를 전달할 일이 있으시다고 발이 빠른 분을 보내달라고 하셨습니다./n /n자세한 이야기는  ^#3399FF테이스티 굿이츠씨^#FFFFFF에게 찾아가셔서 들어주십시오./n" npc="모험가 길드원">
+			<subjectPos subjectStr="테이스티 굿이츠와 대화" mapTargetId="103515"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[응급대원에게 배달]]" draft="테이스티 굿이츠  님의 의뢰입니다. 중요한 편지를 전달할 일이 있으시다고 발이 빠른 분을 보내달라고 하셨습니다./n /n자세한 이야기는  ^#3399FF테이스티 굿이츠씨^#FFFFFF에게 찾아가셔서 들어주십시오./n" npc="모험가 길드원">
+			<subjectPos subjectStr="응급대원에게 배달" mapTargetId="103425"/>
+		</Subject>
+		<Storage Collect1_typeID="150067"/>
+		<BasicReward typeID="2100000000" count="15"/>
+	</Quest>
+	<Quest typeID="402306013" typeName="칸의 절벽 " group="202" NPC="모험가 길드원2" reportTo="모험가 길드원2" cancelable="1" repeatable="0" retryable="1" lv="12" desc="이 일은 염료를 배달하는 일입니다. 렌트리 스카이시커씨께서 염료를 배달하실 분을 찾고 있습니다./n관심이 있으시다면, 카라 쿤타 남동쪽 동문 근처에 있는 ^#3399FF렌트리 스카이시커^#FFFFFF씨를 찾아가십시오./n" difficulty="1" onMessage="DeleteQuest_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="3640" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[렌트리 스카이시커와 대화]]" draft="이 일은 염료를 배달하는 일입니다. 렌트리 스카이시커씨께서 염료를 배달하실 분을 찾고 있습니다./n관심이 있으시다면, 카라 쿤타 남동쪽 동문 근처에 있는 ^#3399FF렌트리 스카이시커^#FFFFFF씨를 찾아가십시오./n" npc="모험가 길드원">
+			<subjectPos subjectStr="렌트리 스카이시커와 대화" mapTargetId="103510"/>
+		</Subject>
+		<Subject typeName="Deliver" func="NULL" desc="[[벽화 보수 직공에게 배달]]" draft="어서 와요./n 부탁할 일은 염료 배달입니다./n카라 쿤타의 남쪽 절벽을 칸의 절벽이라 부르는 것은 알고 계시겠지요? 이 칸의 절벽에는 우리 투르가의 천 년 역사가 그려져 있습니다. 물론 지금도 계속 그려 나가고 있지요./n /n직공이 새 그림을 그리면서 옛 그림도 보수하고 있는데, 염료가 다 떨어져 간다는 연락이 왔어요. 저는 제 가게를 두고 배달을 할 수 없어 부탁하는 겁니다./n 카라 쿤타 남쪽의 칸의 절벽 아래에 ^#3399FF직공^#FFFFFF이 있을 겁니다. ^#3399FF화공의 염료^#FFFFFF를 그에게 건네주십시오. 그 후에 ^#3399FF카라쿤타 모험가 길드원^#FFFFFF에게 보수를 지급 받으세요." npc="노르나르 그래스워커">
+			<subjectPos subjectStr="벽화 보수 직공에게 배달" mapTargetId="103508"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[카라쿤타 전투 모험가 길드원에게 보고]]" draft="어서 와요./n 부탁할 일은 염료 배달입니다./n카라 쿤타의 남쪽 절벽을 칸의 절벽이라 부르는 것은 알고 계시겠지요? 이 칸의 절벽에는 우리 투르가의 천 년 역사가 그려져 있습니다. 물론 지금도 계속 그려 나가고 있지요./n /n직공이 새 그림을 그리면서 옛 그림도 보수하고 있는데, 염료가 다 떨어져 간다는 연락이 왔어요. 저는 제 가게를 두고 배달을 할 수 없어 부탁하는 겁니다./n 카라 쿤타 남쪽의 칸의 절벽 아래에 ^#3399FF직공^#FFFFFF이 있을 겁니다. ^#3399FF화공의 염료^#FFFFFF를 그에게 건네주십시오. 그 후에 ^#3399FF카라쿤타 모험가 길드원^#FFFFFF에게 보수를 지급 받으세요." npc="모험가 길드원">
+			<subjectPos subjectStr="카라쿤타 전투 모험가 길드원에게 보고" mapTargetId="103501"/>
+		</Subject>
+		<Storage Collect1_typeID="150076"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+	<Quest typeID="402306014" typeName="위험한 배달 " group="202" NPC="모험가 길드원2" reportTo="모험가 길드원5" cancelable="1" repeatable="0" retryable="1" lv="15" desc="정찰자의 벌판에 있는 ^#3399FF노련한 사냥꾼^#FFFFFF님의 의뢰입니다. 급하게 전달할 물건이 있다고 하니 그분께 가서 직접 의뢰 내용을 들어보시길 바랍니다." difficulty="1" onMessage="DeleteQuest_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="5160" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[노련한 사냥꾼과 대화]]" draft="정찰자의 벌판에 있는 ^#3399FF노련한 사냥꾼^#FFFFFF님의 의뢰입니다. 급하게 전달할 물건이 있다고 하니 그분께 가서 직접 의뢰 내용을 들어보시길 바랍니다." npc="모험가 길드원">
+			<subjectPos subjectStr="노련한 사냥꾼과 대화" mapTargetId="105504"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[북부 감시 초소 전투 모험가 길드원에게 보고]]" draft="배달할 물건은 ^#3399FF포장된 망원경^#FFFFFF입니다. ^#3399FF북부 감시초소의 모험가 길드원^#FFFFFF에게 보내는 것이지요./n그가 임무를 수행하는데 제가 가진 이 성능이 좋은 망원경을 필요로 한다지 뭡니까? 평소 모험가 길드원에게 도움을 받았던 게 많으니 이번 기회에 조금이나 돕고 싶습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="북부 감시 초소 전투 모험가 길드원에게 보고" mapTargetId="105501"/>
+		</Subject>
+		<Storage Collect1_typeID="150077"/>
+		<BasicReward typeID="2100000000" count="22"/>
+	</Quest>
+	<Quest typeID="402306016" typeName="사계청소" group="200" NPC="모험가 길드원6" reportTo="모험가 길드원7" cancelable="1" repeatable="0" retryable="1" lv="17" desc="북부 감시 초소에 인력이 부족해 몬스터들을 퇴치하는게 일손이 부족하다고 합니다. 그들을 돕기 위해 용맹한 자의 길  아래의 ^#FF0000광포한 트럼블러^#FFFFFF를 사냥해 주십시오. 끝나면 ^#3399FF탈룬바라 전투 모험가 길드원^#FFFFFF을 찾아 가십시오." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="6240" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[광포한 트럼블러 사냥]]" draft="북부 감시 초소에 인력이 부족해 몬스터들을 퇴치하는게 일손이 부족하다고 합니다. 그들을 돕기 위해 용맹한 자의 길  아래의 ^#FF0000광포한 트럼블러^#FFFFFF를 사냥해 주십시오. 끝나면 ^#3399FF탈룬바라 전투 모험가 길드원^#FFFFFF을 찾아 가십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="광포한 트럼블러 사냥" mapTargetId="106602"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[탈룬바라 전투 모험가 길드원에게 보고]]" draft="북부 감시 초소에 인력이 부족해 몬스터들을 퇴치하는게 일손이 부족하다고 합니다. 그들을 돕기 위해 용맹한 자의 길  아래의 ^#FF0000광포한 트럼블러^#FFFFFF를 사냥해 주십시오. 끝나면 ^#3399FF탈룬바라 전투 모험가 길드원^#FFFFFF을 찾아 가십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="탈룬바라 전투 모험가 길드원에게 보고" mapTargetId="107501"/>
+		</Subject>
+		<Storage Hunt1_typeID="526" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="30"/>
+	</Quest>
+	<Quest typeID="402306017" typeName="동물학대는 아니야 " group="200" NPC="모험가 길드원3" reportTo="모험가 길드원3" cancelable="1" repeatable="0" retryable="1" lv="8" desc="쿠니바 마을 장로이신 드레이븐 선하울님께서 분노한 아가마 때문에 아이들이 마을 주변에서 뛰어놀지 못하게 되었다며 걱정스러운 마음에 하신 의뢰입니다./n^#FF0000분노한 아가마^#FFFFFF를 사냥해 주세요./n일이 끝나면 ^#3399FF남부 감시 초소의 모험가 길드원^#FFFFFF에게 보수를 받으십시오." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="960" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[분노한 아가마 사냥]]" draft="쿠니바 마을 장로이신 드레이븐 선하울님께서 분노한 아가마 때문에 아이들이 마을 주변에서 뛰어놀지 못하게 되었다며 걱정스러운 마음에 하신 의뢰입니다./n^#FF0000분노한 아가마^#FFFFFF를 사냥해 주세요./n일이 끝나면 ^#3399FF남부 감시 초소의 모험가 길드원^#FFFFFF에게 보수를 받으십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="분노한 아가마 사냥" mapTargetId="102602"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[남부 감시 초소 전투 모험가 길드원에게 보고]]" draft="쿠니바 마을 장로이신 드레이븐 선하울님께서 분노한 아가마 때문에 아이들이 마을 주변에서 뛰어놀지 못하게 되었다며 걱정스러운 마음에 하신 의뢰입니다./n^#FF0000분노한 아가마^#FFFFFF를 사냥해 주세요./n일이 끝나면 ^#3399FF남부 감시 초소의 모험가 길드원^#FFFFFF에게 보수를 받으십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="남부 감시 초소 전투 모험가 길드원에게 보고" mapTargetId="102501"/>
+		</Subject>
+		<Storage Hunt1_typeID="505" Hunt1_goal="3" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="402306018" typeName="복수해 줘! " group="200" NPC="모험가 길드원5" reportTo="모험가 길드원5" cancelable="1" repeatable="0" retryable="1" lv="16" desc="이번 일은…. 한 부상당한 모험가께서 부탁하신 일입니다. 자신의 본명을 적어 놓지 않으셨군요./n일은 간단합니다. 자신의 손을 물어버린 고약한 ^#FF0000흉포한 트럼블러^#FFFFFF를 해치워 달라고 하십니다. 흉포한 트럼블러는 정찰자의 벌판 서쪽에서 찾을 수 있을 겁니다./n일이 끝나면 ^#3399FF북부 감시 초소의 모험가 길드원^#FFFFFF에게 보수를 받으십시오." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="5920" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[흉포한 트럼블러 사냥]]" draft="이번 일은…. 한 부상당한 모험가께서 부탁하신 일입니다. 자신의 본명을 적어 놓지 않으셨군요./n일은 간단합니다. 자신의 손을 물어버린 고약한 ^#FF0000흉포한 트럼블러^#FFFFFF를 해치워 달라고 하십니다. 흉포한 트럼블러는 정찰자의 벌판 서쪽에서 찾을 수 있을 겁니다./n일이 끝나면 ^#3399FF북부 감시 초소의 모험가 길드원^#FFFFFF에게 보수를 받으십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="흉포한 트럼블러 사냥" mapTargetId="105603"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[북부 감시 초소 전투 모험가 길드원에게 보고]]" draft="이번 일은…. 한 부상당한 모험가께서 부탁하신 일입니다. 자신의 본명을 적어 놓지 않으셨군요./n일은 간단합니다. 자신의 손을 물어버린 고약한 ^#FF0000흉포한 트럼블러^#FFFFFF를 해치워 달라고 하십니다. 흉포한 트럼블러는 정찰자의 벌판 서쪽에서 찾을 수 있을 겁니다./n일이 끝나면 ^#3399FF북부 감시 초소의 모험가 길드원^#FFFFFF에게 보수를 받으십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="북부 감시 초소 전투 모험가 길드원에게 보고" mapTargetId="105501"/>
+		</Subject>
+		<Storage Hunt1_typeID="524" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="25"/>
+	</Quest>
+	<Quest typeID="402306019" typeName="전염병 방지" group="200" NPC="모험가 길드원5" reportTo="모험가 길드원6" cancelable="1" repeatable="0" retryable="1" lv="16" desc="요즘 따라 카라 쿤타 북쪽에 크림슨 샤우라들이 무리를 늘리고 있는데 이 짐승들은 종종 전염병을 옮기기 때문에 굉장히 위험합니다./n특히 카라 쿤타 처럼 자연적인 장벽으로 주변과 분리되어 있는 도시는 만에 하나 전염병이 퍼진다면 손 쓸 사이 없이 퍼질 수 있으니 북부 감시 초소 근처의 ^#FF0000크림슨 샤우라^#FFFFFF를 해치우는게 마을 사람들에게 많은 도움이 될 겁니다./n일이 끝나면 ^#3399FF용맹한 자의 길 주변을 맡고 있는 모험가 길드원^#FFFFFF에게 보고 해주십시오." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="5920" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[크림슨 샤우라 처치]]" draft="요즘 따라 카라 쿤타 북쪽에 크림슨 샤우라들이 무리를 늘리고 있는데 이 짐승들은 종종 전염병을 옮기기 때문에 굉장히 위험합니다./n특히 카라 쿤타 처럼 자연적인 장벽으로 주변과 분리되어 있는 도시는 만에 하나 전염병이 퍼진다면 손 쓸 사이 없이 퍼질 수 있으니 북부 감시 초소 근처의 ^#FF0000크림슨 샤우라^#FFFFFF를 해치우는게 마을 사람들에게 많은 도움이 될 겁니다./n일이 끝나면 ^#3399FF용맹한 자의 길 주변을 맡고 있는 모험가 길드원^#FFFFFF에게 보고 해주십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="크림슨 샤우라 처치" mapTargetId="105604"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[용맹한 자의 길 모험가 길드원에게 보고]]" draft="요즘 따라 카라 쿤타 북쪽에 크림슨 샤우라들이 무리를 늘리고 있는데 이 짐승들은 종종 전염병을 옮기기 때문에 굉장히 위험합니다./n특히 카라 쿤타 처럼 자연적인 장벽으로 주변과 분리되어 있는 도시는 만에 하나 전염병이 퍼진다면 손 쓸 사이 없이 퍼질 수 있으니 북부 감시 초소 근처의 ^#FF0000크림슨 샤우라^#FFFFFF를 해치우는게 마을 사람들에게 많은 도움이 될 겁니다./n일이 끝나면 ^#3399FF용맹한 자의 길 주변을 맡고 있는 모험가 길드원^#FFFFFF에게 보고 해주십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="용맹한 자의 길 모험가 길드원에게 보고" mapTargetId="106501"/>
+		</Subject>
+		<Storage Hunt1_typeID="131" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="25"/>
+	</Quest>
+	<Quest typeID="402306020" typeName="카라쿤타의 안전" group="200" NPC="모험가 길드원7" reportTo="모험가 길드원7" cancelable="1" repeatable="0" retryable="1" lv="18" desc="이 일은 비밀을 지켜 주셔야 하는 일입니다. 지금 탈룬바라 협곡 안에 ^#FF0000케이거 투사^#FFFFFF와 ^#FF0000케이거 보초^#FFFFFF들이 쳐들어와 숨어있다는 소식입니다./n그들을 처치할 투르가 경비병을 소집하는데에는 시간이 조금 걸리니 그 때까지 먼저 가서 그들을 저지해 주십시오./n이 소문이 퍼지면 조용한 툼바라 초원에 어떤 일이 벌어질지 모르니 부디 조용히 진행해 주십시오./n일이 끝나면 ^#3399FF탈룬바라의 모험가 길드원^#FFFFFF에게 조용히 보고해 주십시오." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="6720" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest2" desc="[[케이거 투사 처치]] [[케이거 보초 처치]]" draft="이 일은 비밀을 지켜 주셔야 하는 일입니다. 지금 탈룬바라 협곡 안에 ^#FF0000케이거 투사^#FFFFFF와 ^#FF0000케이거 보초^#FFFFFF들이 쳐들어와 숨어있다는 소식입니다./n그들을 처치할 투르가 경비병을 소집하는데에는 시간이 조금 걸리니 그 때까지 먼저 가서 그들을 저지해 주십시오./n이 소문이 퍼지면 조용한 툼바라 초원에 어떤 일이 벌어질지 모르니 부디 조용히 진행해 주십시오./n일이 끝나면 ^#3399FF탈룬바라의 모험가 길드원^#FFFFFF에게 조용히 보고해 주십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="케이거 투사 처치" mapTargetId="107601"/>
+			<subjectPos subjectStr="케이거 보초 처치" mapTargetId="107601"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[탈룬바라 전투 모험가 길드원에게 보고]]" draft="이 일은 비밀을 지켜 주셔야 하는 일입니다. 지금 탈룬바라 협곡 안에 ^#FF0000케이거 투사^#FFFFFF와 ^#FF0000케이거 보초^#FFFFFF들이 쳐들어와 숨어있다는 소식입니다./n그들을 처치할 투르가 경비병을 소집하는데에는 시간이 조금 걸리니 그 때까지 먼저 가서 그들을 저지해 주십시오./n이 소문이 퍼지면 조용한 툼바라 초원에 어떤 일이 벌어질지 모르니 부디 조용히 진행해 주십시오./n일이 끝나면 ^#3399FF탈룬바라의 모험가 길드원^#FFFFFF에게 조용히 보고해 주십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="탈룬바라 전투 모험가 길드원에게 보고" mapTargetId="107501"/>
+		</Subject>
+		<Storage Hunt1_typeID="6" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" Hunt2_typeID="7" Hunt2_goal="10" Hunt2_count="0" target2_type="Hunt" target_number="2"/>
+		<BasicReward typeID="2100000000" count="36"/>
+	</Quest>
+	<Quest typeID="402306021" typeName="교역로는 안전제일 " group="200" NPC="모험가 길드원6" reportTo="모험가 길드원6" cancelable="1" repeatable="0" retryable="1" lv="16" desc="이 용맹한 자의 길은 툼바라 초원과 발카라스 왕국의 듀발고원을 이어주는 중요한 대로 이죠./n헌대 듀크 아가마가 난리를 쳐 모험가와 상인의 수가 줄고 있으니 걱정이 됩니다. 이대로 두면 많은 손해를 입게 되니, 어서 카라 쿤타 서쪽이나 북쪽 길 부근에 있는 ^#FF0000듀크 아가마^#FFFFFF를 처치해 주십시오./n일이 끝나면 ^#3399FF용맹한 자의 길의 모험자 길드원^#FFFFFF에게 보고 해 주십시오." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="5920" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[듀크 아가마 처치]]" draft="이 용맹한 자의 길은 툼바라 초원과 발카라스 왕국의 듀발고원을 이어주는 중요한 대로 이죠./n헌대 듀크 아가마가 난리를 쳐 모험가와 상인의 수가 줄고 있으니 걱정이 됩니다. 이대로 두면 많은 손해를 입게 되니, 어서 카라 쿤타 서쪽이나 북쪽 길 부근에 있는 ^#FF0000듀크 아가마^#FFFFFF를 처치해 주십시오./n일이 끝나면 ^#3399FF용맹한 자의 길의 모험자 길드원^#FFFFFF에게 보고 해 주십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="듀크 아가마 처치" mapTargetId="106601"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[용맹한 자의 길 전투 모험가 길드원에게 보고]]" draft="이 용맹한 자의 길은 툼바라 초원과 발카라스 왕국의 듀발고원을 이어주는 중요한 대로 이죠./n헌대 듀크 아가마가 난리를 쳐 모험가와 상인의 수가 줄고 있으니 걱정이 됩니다. 이대로 두면 많은 손해를 입게 되니, 어서 카라 쿤타 서쪽이나 북쪽 길 부근에 있는 ^#FF0000듀크 아가마^#FFFFFF를 처치해 주십시오./n일이 끝나면 ^#3399FF용맹한 자의 길의 모험자 길드원^#FFFFFF에게 보고 해 주십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="용맹한 자의 길 전투 모험가 길드원에게 보고" mapTargetId="106501"/>
+		</Subject>
+		<Storage Hunt1_typeID="132" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="25"/>
+	</Quest>
+	<Quest typeID="402306022" typeName="팬더의 피" group="201" NPC="모험가 길드원2" reportTo="모험가 길드원2" cancelable="1" repeatable="0" retryable="1" lv="12" desc="얼바인 헝거액스 씨가 가죽세공을 하는데, 접착제가 떨어져 작업을 할 수 없을 지경이랍니다./n접착제를 새로 만들기 위한 재료가 필요하고 합니다. 팔스라 목초지에 사는 ^#FF0000팬더 움바의 피^#FFFFFF를 가져다 주십시오./n일이 끝나면 ^#3399FF카라쿤타의 모험가 길드원^#FFFFFF에게 보고해주십시오." difficulty="1" onMessage="HuntCollect2_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="3640" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[팬더 움바의 피 획득]] " draft="얼바인 헝거액스 씨가 가죽세공을 하는데, 접착제가 떨어져 작업을 할 수 없을 지경이랍니다./n접착제를 새로 만들기 위한 재료가 필요하고 합니다. 팔스라 목초지에 사는 ^#FF0000팬더 움바의 피^#FFFFFF를 가져다 주십시오./n일이 끝나면 ^#3399FF카라쿤타의 모험가 길드원^#FFFFFF에게 보고해주십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="팬더 움바의 피 획득" mapTargetId="103602"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[카라쿤타 전투 모험가 길드원에게 보고]]" draft="얼바인 헝거액스 씨가 가죽세공을 하는데, 접착제가 떨어져 작업을 할 수 없을 지경이랍니다./n접착제를 새로 만들기 위한 재료가 필요하고 합니다. 팔스라 목초지에 사는 ^#FF0000팬더 움바의 피^#FFFFFF를 가져다 주십시오./n일이 끝나면 ^#3399FF카라쿤타의 모험가 길드원^#FFFFFF에게 보고해주십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="카라쿤타 전투 모험가 길드원에게 보고" mapTargetId="103501"/>
+		</Subject>
+		<Storage Collect1_typeID="150069" Collect1_goal="5" target1_type="Collect" Collect1_count="0" target1_prob="70" Collect2_typeID="367"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+	<Quest typeID="402306023" typeName="도둑맞은 지갑 " group="201" NPC="모험가 길드원1" reportTo="모험가 길드원1" cancelable="1" repeatable="0" retryable="1" lv="5" desc="아막칼 우드스톡 씨가 전 재산이 들어있는 지갑을 잃어버렸다고 합니다./n지갑을 잃어버린 장소에서 발견된 빳빳한 짐승의 털을 보았을 때 우리 모험가 길드에서는 그 털이 베이비 자이쿠의 것이라는 결론을 냈지요./n^#FF0000너덜너덜한 지갑^#FFFFFF이 나올 때까지 마을 근처의 ^#FF0000얌전한 베이비 자이쿠^#FFFFFF를 잡아서 ^#3399FF쿠니바 마을 모험가 길드원^#FFFFFF에게 갖다 주십시오." difficulty="1" onMessage="HuntCollect2_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="2" rewardCombatJobEXP="360" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[너덜너덜한 지갑 획득]]" draft="아막칼 우드스톡 씨가 전 재산이 들어있는 지갑을 잃어버렸다고 합니다./n지갑을 잃어버린 장소에서 발견된 빳빳한 짐승의 털을 보았을 때 우리 모험가 길드에서는 그 털이 베이비 자이쿠의 것이라는 결론을 냈지요./n^#FF0000너덜너덜한 지갑^#FFFFFF이 나올 때까지 마을 근처의 ^#FF0000얌전한 베이비 자이쿠^#FFFFFF를 잡아서 ^#3399FF쿠니바 마을 모험가 길드원^#FFFFFF에게 갖다 주십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="너덜너덜한 지갑 획득" mapTargetId="101702"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[쿠니바 마을 전투 모험가 길드원에게 보고]]" draft="아막칼 우드스톡 씨가 전 재산이 들어있는 지갑을 잃어버렸다고 합니다./n지갑을 잃어버린 장소에서 발견된 빳빳한 짐승의 털을 보았을 때 우리 모험가 길드에서는 그 털이 베이비 자이쿠의 것이라는 결론을 냈지요./n^#FF0000너덜너덜한 지갑^#FFFFFF이 나올 때까지 마을 근처의 ^#FF0000얌전한 베이비 자이쿠^#FFFFFF를 잡아서 ^#3399FF쿠니바 마을 모험가 길드원^#FFFFFF에게 갖다 주십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="쿠니바 마을 전투 모험가 길드원에게 보고" mapTargetId="101501"/>
+		</Subject>
+		<Storage Collect1_typeID="150072" Collect1_goal="1" Collect1_count="0" target1_type="Collect" target1_prob="50" Collect2_typeID="571"/>
+		<BasicReward typeID="2100000000" count="5"/>
+		<ChoiceReward typeID="50007" count="1"/>
+		<ChoiceReward typeID="50063" count="1"/>
+		<ChoiceReward typeID="50119" count="1"/>
+		<ChoiceReward typeID="50175" count="1"/>
+	</Quest>
+	<Quest typeID="402306024" typeName="관절염에는 엘름! " group="201" NPC="모험가 길드원1" reportTo="모험가 길드원3" cancelable="1" repeatable="0" retryable="1" lv="8" desc="쿠니바 마을의 약사 호루그 님께서 남부 감시 초소의 감시병들이 원하는 관절염 치료제를 만들기 위해 엘름 풀과 붉은 자갈이 필요하다고 하시네요./n^#3399FF엘름 풀^#FFFFFF은 마을 바로 뒤편에 있는 쿠니바 호수의 바닥을 살피면 찾을 수 있고 ^#3399FF붉은 자갈^#FFFFFF도 마을 근처에 많으니 구하기 어렵지 않을 겁니다/n이것들을 다 구하면 ^#3399FF남부 감시초소의 모험가 길드원^#FFFFFF에게 전달해 주십시오./n" difficulty="1" onMessage="Quest402306024_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="960" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest402306024_Begin" desc="[[엘름 풀 수집]] [[붉은 자갈 수집]]" draft="쿠니바 마을의 약사 호루그 님께서 남부 감시 초소의 감시병들이 원하는 관절염 치료제를 만들기 위해 엘름 풀과 붉은 자갈이 필요하다고 하시네요./n^#3399FF엘름 풀^#FFFFFF은 마을 바로 뒤편에 있는 쿠니바 호수의 바닥을 살피면 찾을 수 있고 ^#3399FF붉은 자갈^#FFFFFF도 마을 근처에 많으니 구하기 어렵지 않을 겁니다/n이것들을 다 구하면 ^#3399FF남부 감시초소의 모험가 길드원^#FFFFFF에게 전달해 주십시오./n" npc="모험가 길드원">
+			<subjectPos subjectStr="엘름 풀 수집" mapTargetId="101701"/>
+			<subjectPos subjectStr="붉은 자갈 수집" mapTargetId="101703"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[남부 감시 초소 전투 모험가 길드원에게 보고]]" draft="쿠니바 마을의 약사 호루그 님께서 남부 감시 초소의 감시병들이 원하는 관절염 치료제를 만들기 위해 엘름 풀과 붉은 자갈이 필요하다고 하시네요./n^#3399FF엘름 풀^#FFFFFF은 마을 바로 뒤편에 있는 쿠니바 호수의 바닥을 살피면 찾을 수 있고 ^#3399FF붉은 자갈^#FFFFFF도 마을 근처에 많으니 구하기 어렵지 않을 겁니다/n이것들을 다 구하면 ^#3399FF남부 감시초소의 모험가 길드원^#FFFFFF에게 전달해 주십시오./n" npc="모험가 길드원">
+			<subjectPos subjectStr="남부 감시 초소 전투 모험가 길드원에게 보고" mapTargetId="102501"/>
+		</Subject>
+		<Storage Collect1_typeID="150073" Collect1_goal="5" Collect1_count="0" target1_type="Collect" Collect2_typeID="150074" Collect2_goal="5" Collect2_count="0" target2_type="Collect"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="402306025" typeName="고대의 보물 " group="201" NPC="모험가 길드원8" reportTo="모험가 길드원8" cancelable="1" repeatable="0" retryable="1" lv="9" desc="말라두스님 께서 원숭이 언덕의 동굴 안에 ^#FF0000고대의 유물^#FFFFFF이 있다는 소문을 듣고 정말인지 확인해 보고 싶다고 하는군요./n보물이 보이지 않으면 ^#FF0000링고^#FFFFFF를 잡아서 빼앗으면 될 것 같습니다./n그걸 얻으면 다시 ^#3399FF라쿰바 야영지의 모험가 길드원^#FFFFFF에게 갖다 주세요. 정말 고대 시절의 물건이 맞는지 확인을 해야겠습니다./n" difficulty="1" onMessage="HuntCollect2_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="1120" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[고대 유물 획득]]" draft="말라두스님 께서 원숭이 언덕의 동굴 안에 ^#FF0000고대의 유물^#FFFFFF이 있다는 소문을 듣고 정말인지 확인해 보고 싶다고 하는군요./n보물이 보이지 않으면 ^#FF0000링고^#FFFFFF를 잡아서 빼앗으면 될 것 같습니다./n그걸 얻으면 다시 ^#3399FF라쿰바 야영지의 모험가 길드원^#FFFFFF에게 갖다 주세요. 정말 고대 시절의 물건이 맞는지 확인을 해야겠습니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="고대 유물 획득" mapTargetId="108601"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[라쿰바 야영지 전투 모험가 길드원에게 보고]]" draft="말라두스님 께서 원숭이 언덕의 동굴 안에 ^#FF0000고대의 유물^#FFFFFF이 있다는 소문을 듣고 정말인지 확인해 보고 싶다고 하는군요./n보물이 보이지 않으면 ^#FF0000링고^#FFFFFF를 잡아서 빼앗으면 될 것 같습니다./n그걸 얻으면 다시 ^#3399FF라쿰바 야영지의 모험가 길드원^#FFFFFF에게 갖다 주세요. 정말 고대 시절의 물건이 맞는지 확인을 해야겠습니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="라쿰바 야영지 전투 모험가 길드원에게 보고" mapTargetId="108501"/>
+		</Subject>
+		<Storage Collect1_typeID="150075" Collect1_goal="10" Collect1_count="0" target1_type="Collect" Collect2_typeID="0" target1_prob="70"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="402306026" typeName="도와주세요! " group="201" NPC="모험가 길드원7" reportTo="모험가 길드원7" cancelable="1" repeatable="0" retryable="1" lv="18" desc="이번 의뢰는 절대 어디 가서도 소문을 내서는 안 됩니다. 아셨으리라 믿고 어떤 일인지 말씀 드리겠습니다./n경비병께서 약혼 반지로 준비한 금반지를 탈룬바라 협곡 근처의 ^#FF0000숙련된 크로키 보초^#FFFFFF에게 강탈 당했다며 빨리 되찾아 달라고 합니다. 그의 약혼녀가 이 사실을 알게 되면 자기의 목덜미를 물어버릴 지도 모른다며 잔뜩 겁에 질려 계시더라고요./n한 시라도 빨리 ^#FF0000금반지를 ^#FFFFFF찾아 ^#3399FF탈룬바라 모험가 길드원^#FFFFFF에게 갖다 주시어 그를 곤란에서 벗어나게 해주세요." difficulty="1" onMessage="HuntCollect2_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="6720" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[금반지 획득]]" draft="이번 의뢰는 절대 어디 가서도 소문을 내서는 안 됩니다. 아셨으리라 믿고 어떤 일인지 말씀 드리겠습니다./n경비병께서 약혼 반지로 준비한 금반지를 탈룬바라 협곡 근처의 ^#FF0000숙련된 크로키 보초^#FFFFFF에게 강탈 당했다며 빨리 되찾아 달라고 합니다. 그의 약혼녀가 이 사실을 알게 되면 자기의 목덜미를 물어버릴 지도 모른다며 잔뜩 겁에 질려 계시더라고요./n한 시라도 빨리 ^#FF0000금반지를 ^#FFFFFF찾아 ^#3399FF탈룬바라 모험가 길드원^#FFFFFF에게 갖다 주시어 그를 곤란에서 벗어나게 해주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="금반지 획득" mapTargetId="107602"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[탈룬바라 전투 모험가 길드원에게 보고]]" draft="이번 의뢰는 절대 어디 가서도 소문을 내서는 안 됩니다. 아셨으리라 믿고 어떤 일인지 말씀 드리겠습니다./n경비병께서 약혼 반지로 준비한 금반지를 탈룬바라 협곡 근처의 ^#FF0000숙련된 크로키 보초^#FFFFFF에게 강탈 당했다며 빨리 되찾아 달라고 합니다. 그의 약혼녀가 이 사실을 알게 되면 자기의 목덜미를 물어버릴 지도 모른다며 잔뜩 겁에 질려 계시더라고요./n한 시라도 빨리 ^#FF0000금반지를 ^#FFFFFF찾아 ^#3399FF탈룬바라 모험가 길드원^#FFFFFF에게 갖다 주시어 그를 곤란에서 벗어나게 해주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="탈룬바라 전투 모험가 길드원에게 보고" mapTargetId="107501"/>
+		</Subject>
+		<Storage Collect1_typeID="150078" Collect1_goal="1" Collect1_count="0" target1_type="Collect" Collect2_typeID="157" target1_prob="70"/>
+		<BasicReward typeID="2100000000" count="36"/>
+	</Quest>
+	<Quest typeID="402306027" typeName="가죽 수집 " group="201" NPC="모험가 길드원4" reportTo="모험가 길드원4" cancelable="1" repeatable="0" retryable="1" lv="13" desc="이번에는 대장로 칸바 님의 의뢰입니다./n군수물자 생산에 필요한 ^#FF0000자이언트 움바의 가죽^#FFFFFF을 모아 달라고 하십니다./n가죽을 다 모으면 ^#3399FF북부 감시초소 모험가 길드원^#FFFFFF에게 갖다 주십시오." difficulty="1" onMessage="HuntCollect1_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="4340" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[자이언트 움바의 가죽 획득]]" draft="이번에는 대장로 칸바 님의 의뢰입니다./n군수물자 생산에 필요한 ^#FF0000자이언트 움바의 가죽^#FFFFFF을 모아 달라고 하십니다./n가죽을 다 모으면 ^#3399FF북부 감시초소 모험가 길드원^#FFFFFF에게 갖다 주십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="자이언트 움바의 가죽 획득" mapTargetId="105605"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[북부 감시 초소 전투 모험가 길드원에게 보고]]" draft="이번에는 대장로 칸바 님의 의뢰입니다./n군수물자 생산에 필요한 ^#FF0000자이언트 움바의 가죽^#FFFFFF을 모아 달라고 하십니다./n가죽을 다 모으면 ^#3399FF북부 감시초소 모험가 길드원^#FFFFFF에게 갖다 주십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="북부 감시 초소 전투 모험가 길드원에게 보고" mapTargetId="105501"/>
+		</Subject>
+		<Storage Collect1_typeID="150079" Collect1_goal="10" Collect1_count="0" target1_type="Collect" Collect2_typeID="3"/>
+		<BasicReward typeID="2100000000" count="15"/>
+	</Quest>
+	<Quest typeID="402306028" typeName="화살깃 수집" group="201" NPC="모험가 길드원5" reportTo="모험가 길드원5" cancelable="1" repeatable="0" retryable="1" lv="15" desc="서쪽 대장간의 수습생 쿠룬다의 의뢰입니다./n최근 화살 주문이 부쩍 늘었는데 화살깃의 재료가 모자라 주문량을 따라갈 수 없다고 하더군요./n필요한 재료는 카라 쿤타 북쪽에 서식하는 ^#FF0000수컷 볼드의 꽁지깃^#FFFFFF입니다. 모아서 ^#3399FF북부 감시 초소 모험가 길드원^#FFFFFF에게 갖다 주십시오./n" difficulty="1" onMessage="HuntCollect1_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="5160" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[수컷볼드의 꽁지깃 획득]]" draft="서쪽 대장간의 수습생 쿠룬다의 의뢰입니다./n최근 화살 주문이 부쩍 늘었는데 화살깃의 재료가 모자라 주문량을 따라갈 수 없다고 하더군요./n필요한 재료는 카라 쿤타 북쪽에 서식하는 ^#FF0000수컷 볼드의 꽁지깃^#FFFFFF입니다. 모아서 ^#3399FF북부 감시 초소 모험가 길드원^#FFFFFF에게 갖다 주십시오./n" npc="모험가 길드원">
+			<subjectPos subjectStr="수컷볼드의 꽁지깃 획득" mapTargetId="105602"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[북부 감시 초소 전투 모험가 길드원에게 보고]]" draft="서쪽 대장간의 수습생 쿠룬다의 의뢰입니다./n최근 화살 주문이 부쩍 늘었는데 화살깃의 재료가 모자라 주문량을 따라갈 수 없다고 하더군요./n필요한 재료는 카라 쿤타 북쪽에 서식하는 ^#FF0000수컷 볼드의 꽁지깃^#FFFFFF입니다. 모아서 ^#3399FF북부 감시 초소 모험가 길드원^#FFFFFF에게 갖다 주십시오./n" npc="모험가 길드원">
+			<subjectPos subjectStr="북부 감시 초소 전투 모험가 길드원에게 보고" mapTargetId="105501"/>
+		</Subject>
+		<Storage Collect1_typeID="150080" Collect1_goal="5" Collect1_count="0" target1_type="Collect" Collect2_typeID="58"/>
+		<BasicReward typeID="2100000000" count="22"/>
+	</Quest>
+	<Quest typeID="402306029" typeName="지명수배 : 람보로 (파티)" group="200" NPC="모험가 길드원3" reportTo="모험가 길드원3" cancelable="1" repeatable="0" retryable="1" lv="10" desc="대장장이 올쿠브 님께서 의뢰를 부탁했습니다./n여기서 동쪽 원숭이 동굴 안에서 링고의 보스 람보로가 가보 연사포 툴을 훔쳐갔다고 합니다./n^#FF0000람보로^#FFFFFF를 처치하고 연사포 툴을 저에게 가져오면 되겠습니다./n 람보로가 훔쳐간 ^#FF0000연사포 툴^#FFFFFF을 사용한다면 결코 쉽게 상대할 수 없을테니 믿음직한 동료들과 함께 가시는 것을 권해드립니다./n일이 끝나면 ^#3399FF카라쿤타의 모험가 길드원^#FFFFFF이 보수를 드릴 것입니다." difficulty="1" onMessage="HuntCollect1_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="2240" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[연사포 톨 획득]]" draft="대장장이 올쿠브 님께서 의뢰를 부탁했습니다./n여기서 동쪽 원숭이 동굴 안에서 링고의 보스 람보로가 가보 연사포 툴을 훔쳐갔다고합니다./n^#FF0000람보로^#FFFFFF를 처치하고 연사포 툴을 저에게 가져오면 되겠습니다./n 람보로가 훔쳐간 ^#FF0000연사포 툴^#FFFFFF을 사용한다면 결코 쉽게 상대할 수 없을테니 믿음직한 동료들과 함께 가시는 것을 권해드립니다./n일이 끝나면 ^#3399FF카라쿤타의 모험가 길드원^#FFFFFF이 보수를 드릴 것입니다." npc="모험가 길드원">
+			<subjectPos subjectStr="연사포 톨 획득" mapTargetId="102603"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[남부 감시 초소 전투 모험가 길드원에게 보고]]" draft="대장장이 올쿠브 님께서 의뢰를 부탁했습니다./n여기서 동쪽 원숭이 동굴 안에서 링고의 보스 람보로가 가보 연사포 툴을 훔쳐갔다고 합니다./n^#FF0000람보로^#FFFFFF를 처치하고 연사포 툴을 저에게 가져오면 되겠습니다./n 람보로가 훔쳐간 ^#FF0000연사포 툴^#FFFFFF을 사용한다면 결코 쉽게 상대할 수 없을테니 믿음직한 동료들과 함께 가시는 것을 권해드립니다./n일이 끝나면 ^#3399FF카라쿤타의 모험가 길드원^#FFFFFF이 보수를 드릴 것입니다." npc="모험가 길드원">
+			<subjectPos subjectStr="남부 감시 초소 전투 모험가 길드원에게 보고" mapTargetId="102501"/>
+		</Subject>
+		<Storage Collect1_typeID="150081" Collect1_goal="1" Collect1_count="0" target1_type="Collect" Collect2_typeID="38"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+	<Quest typeID="402306030" typeName="지명수배 : 샤우라즈 (파티)" group="200" NPC="페이 한" reportTo="모험가 길드원2" cancelable="1" repeatable="0" retryable="1" lv="19" desc="샤우라의 변종 ^#FF0000샤우라즈^#FFFFFF가 근처 주민에게 많은 피해를 입히는 데다가, 근처의 정찰 임무를 하기 힘들다는 보고가 와서, 남부 감시 초소장 가포일 워퓨리 님이 없애달라고 의뢰 하셨습니다./n/n샤우라즈는 ^#3399FF쿠니바 마을 근처에 있는 샤우라 둥지 서쪽 깊숙한 곳^#FFFFFF에 있습니다. 아, 그리고 녀석의 ^#FF0000독이 흐르는 꼬리^#FFFFFF를 가져올 수 있으시면 부탁드리겠습니다. 그 녀석의 꼬리 독과 특별한 약초를 섞으면 몸의 힘을 일시적으로 올려주는 연고를 만들수 있으니 큰 도움이 될겁니다./n/n^#FF0000샤우라즈^#FFFFFF는 강력한 편이니 동료들과 함께 가시기를 권해드립니다./n일이 끝나면 ^#3399FF카라쿤타의 모험가 길드원^#FFFFFF이 보수를 드릴 것입니다." difficulty="1" onMessage="HuntCollect1_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="7080" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[독이 흐르는 꼬리 획득]]" draft="샤우라의 변종 ^#FF0000샤우라즈^#FFFFFF가 근처 주민에게 많은 피해를 입히는 데다가, 근처의 정찰 임무를 하기 힘들다는 보고가 와서, 남부 감시 초소장 가포일 워퓨리 님이 없애달라고 의뢰 하셨습니다./n/n샤우라즈는 ^#3399FF쿠니바 마을 근처에 있는 샤우라 둥지 서쪽 깊숙한 곳^#FFFFFF에 있습니다. 아, 그리고 녀석의 ^#FF0000독이 흐르는 꼬리^#FFFFFF를 가져올 수 있으시면 부탁드리겠습니다. 그 녀석의 꼬리 독과 특별한 약초를 섞으면 몸의 힘을 일시적으로 올려주는 연고를 만들수 있으니 큰 도움이 될겁니다./n/n^#FF0000샤우라즈^#FFFFFF는 강력한 편이니 동료들과 함께 가시기를 권해드립니다./n일이 끝나면 ^#3399FF카라쿤타의 모험가 길드원^#FFFFFF이 보수를 드릴 것입니다." npc="모험가 길드원">
+			<subjectPos subjectStr="독이 흐르는 꼬리 획득" mapTargetId="103603"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[카라쿤타 전투 모험가 길드원에게 보고]]" draft="샤우라의 변종 ^#FF0000샤우라즈^#FFFFFF가 근처 주민에게 많은 피해를 입히는 데다가, 근처의 정찰 임무를 하기 힘들다는 보고가 와서, 남부 감시 초소장 가포일 워퓨리 님이 없애달라고 의뢰 하셨습니다./n/n샤우라즈는 ^#3399FF쿠니바 마을 근처에 있는 샤우라 둥지 서쪽 깊숙한 곳^#FFFFFF에 있습니다. 아, 그리고 녀석의 ^#FF0000독이 흐르는 꼬리^#FFFFFF를 가져올 수 있으시면 부탁드리겠습니다. 그 녀석의 꼬리 독과 특별한 약초를 섞으면 몸의 힘을 일시적으로 올려주는 연고를 만들수 있으니 큰 도움이 될겁니다./n/n^#FF0000샤우라즈^#FFFFFF는 강력한 편이니 동료들과 함께 가시기를 권해드립니다./n일이 끝나면 ^#3399FF카라쿤타의 모험가 길드원^#FFFFFF이 보수를 드릴 것입니다." npc="모험가 길드원">
+			<subjectPos subjectStr="카라쿤타 전투 모험가 길드원에게 보고" mapTargetId="103501"/>
+		</Subject>
+		<Storage Collect1_typeID="150082" Collect1_goal="1" Collect1_count="0" target1_type="Collect" Collect2_typeID="39"/>
+		<BasicReward typeID="2100000000" count="48"/>
+	</Quest>
+	<Quest typeID="402306031" typeName="호수를 지키는 마법 " group="205" NPC="모험가 길드원1" reportTo="모험가 길드원1" cancelable="1" repeatable="0" retryable="1" lv="7" desc="드레이브 장로님의 시원한 의뢰입니다./n마을 뒤에 있는 쿠니바 호수에는 오래된 마법석이 있는데 상태가 괜찮은가 대신 점검을 해 달라고 하시더군요./n호숫가를 빙 둘러 있는 ^#3399FF3개의 마법석^#FFFFFF을 점검하시고 ^#3399FF쿠니바 마을 모험가 길드원^#FFFFFF에게 보고하시면 됩니다./n" difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="640" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest402306031_Begin" desc="[[첫 번째 마법석 점검]] [[두 번째 마법석 점검]] [[세 번째 마법석 점검]]" draft="드레이브 장로님의 시원한 의뢰입니다./n마을 뒤에 있는 쿠니바 호수에는 오래된 마법석이 있는데 상태가 괜찮은가 대신 점검을 해 달라고 하시더군요./n호숫가를 빙 둘러 있는 ^#3399FF3개의 마법석^#FFFFFF을 점검하시고 ^#3399FF쿠니바 마을 모험가 길드원^#FFFFFF에게 보고하시면 됩니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="첫 번째 마법석 점검" mapTargetId="101503"/>
+			<subjectPos subjectStr="두 번째 마법석 점검" mapTargetId="101504"/>
+			<subjectPos subjectStr="세 번째 마법석 점검" mapTargetId="101505"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[쿠니바 마을 전투 모험가 길드원에게 보고]]" draft="드레이브 장로님의 시원한 의뢰입니다./n마을 뒤에 있는 쿠니바 호수에는 오래된 마법석이 있는데 상태가 괜찮은가 대신 점검을 해 달라고 하시더군요./n호숫가를 빙 둘러 있는 ^#3399FF3개의 마법석^#FFFFFF을 점검하시고 ^#3399FF쿠니바 마을 모험가 길드원^#FFFFFF에게 보고하시면 됩니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="쿠니바 마을 전투 모험가 길드원에게 보고" mapTargetId="101501"/>
+		</Subject>
+		<Storage RuneStoneA="0" RuneStoneB="0" RuneStoneC="0"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="402306032" typeName="칸의 절벽 관광" group="205" NPC="모험가 길드원3" reportTo="모험가 길드원3" cancelable="1" repeatable="0" retryable="1" lv="9" desc="자주 뵙는 얼굴이 아니군요. 이 근처엔 처음이신가요? 그렇다면 칸의 절벽에 가보셨습니까?/n 이 서툼바라 초원에 오셨으면 투르가의 자랑인 ^#3399FF칸의 절벽^#FFFFFF 에 가보셔야죠. 그곳은 대대로 칸의 후보자들이 벌거 벗겨 절벽을 오르게 한 후 가장 빨리 올라오는 사람을 칸으로 뽑는 유서 깊은 역사의 현장입니다. 그곳에 가보시는게 당신에게 도움이 될 것 같습니다./n일이 끝나면 ^#3399FF남부 감시 초소의 모험가 길드원^#FFFFFF에게 보고해 주십시오." difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="1120" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest402306032_Begin" desc="[[칸의 절벽 탐색]]" draft="자주 뵙는 얼굴이 아니군요. 이 근처엔 처음이신가요? 그렇다면 칸의 절벽에 가보셨습니까?/n 이 서툼바라 초원에 오셨으면 투르가의 자랑인 ^#3399FF칸의 절벽^#FFFFFF 에 가보셔야죠. 그곳은 대대로 칸의 후보자들이 벌거 벗겨 절벽을 오르게 한 후 가장 빨리 올라오는 사람을 칸으로 뽑는 유서 깊은 역사의 현장입니다. 그곳에 가보시는게 당신에게 도움이 될 것 같습니다./n일이 끝나면 ^#3399FF남부 감시 초소의 모험가 길드원^#FFFFFF에게 보고해 주십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="칸의 절벽 탐색" mapTargetId="2000233100"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[남부 감시 초소 전투 모험가 길드원에게 보고]]" draft="자주 뵙는 얼굴이 아니군요. 이 근처엔 처음이신가요? 그렇다면 칸의 절벽에 가보셨습니까?/n 이 서툼바라 초원에 오셨으면 투르가의 자랑인 ^#3399FF칸의 절벽^#FFFFFF 에 가보셔야죠. 그곳은 대대로 칸의 후보자들이 벌거 벗겨 절벽을 오르게 한 후 가장 빨리 올라오는 사람을 칸으로 뽑는 유서 깊은 역사의 현장입니다. 그곳에 가보시는게 당신에게 도움이 될 것 같습니다./n일이 끝나면 ^#3399FF남부 감시 초소의 모험가 길드원^#FFFFFF에게 보고해 주십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="남부 감시 초소 전투 모험가 길드원에게 보고" mapTargetId="102501"/>
+		</Subject>
+		<Storage Explore1_goal="1" Explore1_count="0" target1_type="Explore"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="402306033" typeName="내려다보기" group="205" NPC="모험가 길드원2" reportTo="우리프 라이온하트" cancelable="1" repeatable="0" retryable="1" lv="12" desc="우리프 칸께서 골짜기의 수행을 졸업한 분이라면 당장 해야 한다고 독촉하는 의뢰입니다./n /n의뢰의 내용은 칸이 계시는 ^#3399FF불꽃 전승의 탑 꼭대기 층^#FFFFFF에서 카라 쿤타의 전경을 내려다 보라고 하십니다./n /n과거 조상들이 지켜오고, 현재의 투르가들이 번영시키려 하며 후손들에게 물려 줄 우리의 카라 쿤타를 제대로 봐야 한다고 하시니 보고 나서 ^#3399FF우리프 칸에^#FFFFFF게 어땠는지 이야기 하십시오./n" difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="3640" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest402306033_Begin" desc="[[불꽃 전승의 탑 3층 탐색]]" draft="우리프 칸께서 골짜기의 수행을 졸업한 분이라면 당장 해야 한다고 독촉하는 의뢰입니다./n /n의뢰의 내용은 칸이 계시는 ^#3399FF불꽃 전승의 탑 꼭대기 층^#FFFFFF에서 카라 쿤타의 전경을 내려다 보라고 하십니다./n /n과거 조상들이 지켜오고, 현재의 투르가들이 번영시키려 하며 후손들에게 물려 줄 우리의 카라 쿤타를 제대로 봐야 한다고 하시니 보고 나서 ^#3399FF우리프 칸에^#FFFFFF게 어땠는지 이야기 하십시오./n" npc="모험가 길드원">
+			<subjectPos subjectStr="불꽃 전승의 탑 3층 탐색" mapTargetId="103703"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[우리프 칸에게 보고]]" draft="우리프 칸께서 골짜기의 수행을 졸업한 분이라면 당장 해야 한다고 독촉하는 의뢰입니다./n /n의뢰의 내용은 칸이 계시는 ^#3399FF불꽃 전승의 탑 꼭대기 층^#FFFFFF에서 카라 쿤타의 전경을 내려다 보라고 하십니다./n /n과거 조상들이 지켜오고, 현재의 투르가들이 번영시키려 하며 후손들에게 물려 줄 우리의 카라 쿤타를 제대로 봐야 한다고 하시니 보고 나서 ^#3399FF우리프 칸에^#FFFFFF게 어땠는지 이야기 하십시오./n" npc="모험가 길드원">
+			<subjectPos subjectStr="우리프 칸에게 보고" mapTargetId="103507"/>
+		</Subject>
+		<Storage target1_x="-137" target1_y="4242" target1_z="1092.94" target2_x="-402" target2_y="4210" target2_z="1102.88"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+	<Quest typeID="402306036" typeName="폐허가 된 마을" group="200" NPC="모험가 길드원4" reportTo="모험가 길드원4" cancelable="1" repeatable="0" retryable="1" lv="15" desc="카라 쿤타 동쪽의 중부 초소장 칼라부 님께서 카샨 족의 거동이 수상하다며, 딴 생각을 못하도록 본 때를 보여달라고 합니다./n중부 초소에서 동쪽으로 멀리 가면 폐허가 된 마을이 있는데, 그 곳의 ^#FF0000카샨 도적^#FFFFFF과 ^#FF0000카산 투사^#FFFFFF를 처치해 달라고 하십니다./n처치가 끝나면 바로 돌아오십시오. 혼자 계시긴 위험한 곳이니까요./n일이 끝나면 ^#3399FF중부 감시 초소의 모험가 길드원^#FFFFFF에게 보고해 주십시오." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="5160" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest2" desc="[[카샨 도적 처치]][[카샨 투사 처치]]" draft="카라 쿤타 동쪽의 중부 초소장 칼라부 님께서 카샨 족의 거동이 수상하다며, 딴 생각을 못하도록 본 때를 보여달라고 합니다./n중부 초소에서 동쪽으로 멀리 가면 폐허가 된 마을이 있는데, 그 곳의 ^#FF0000카샨 도적^#FFFFFF과 ^#FF0000카산 투사^#FFFFFF를 처치해 달라고 하십니다./n처치가 끝나면 바로 돌아오십시오. 혼자 계시긴 위험한 곳이니까요./n일이 끝나면 ^#3399FF중부 감시 초소의 모험가 길드원^#FFFFFF에게 보고해 주십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="카샨 도적 처치" mapTargetId="105606"/>
+			<subjectPos subjectStr="카샨 투사 처치" mapTargetId="105606"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[중부 감시 초소 전투 모험가 길드원에게 보고]]" draft="카라 쿤타 동쪽의 중부 초소장 칼라부 님께서 카샨 족의 거동이 수상하다며, 딴 생각을 못하도록 본 때를 보여달라고 합니다./n중부 초소에서 동쪽으로 멀리 가면 폐허가 된 마을이 있는데, 그 곳의 ^#FF0000카샨 도적^#FFFFFF과 ^#FF0000카산 투사^#FFFFFF를 처치해 달라고 하십니다./n처치가 끝나면 바로 돌아오십시오. 혼자 계시긴 위험한 곳이니까요./n일이 끝나면 ^#3399FF중부 감시 초소의 모험가 길드원^#FFFFFF에게 보고해 주십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="중부 감시 초소 전투 모험가 길드원에게 보고" mapTargetId="104501"/>
+		</Subject>
+		<Storage Hunt1_typeID="32" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" Hunt2_typeID="33" Hunt2_goal="10" Hunt2_count="0" target2_type="Hunt" target_number="2"/>
+		<BasicReward typeID="2100000000" count="22"/>
+	</Quest>
+	<Quest typeID="402306037" typeName="정찰병을 찾아라 " group="202" NPC="모험가 길드원3" reportTo="모험가 길드원3" cancelable="1" repeatable="0" retryable="1" lv="11" desc="중부 감시 초소장 칼라부 님께서 칸의 대지에 정찰을 보낸 전사들의 소식이 며칠 째 없다고 합니다./n칸의 대지 주변에서 ^#FF0000전사^#FFFFFF들을 찾아 보고, 무슨 일이 생겼다면 ^#FF0000보고서^#FFFFFF라도 찾아오라고 의뢰를 하셨습니다./n보고서를 찾으면 바로 ^#3399FF남부 감시 초소의 모험가 길드원^#FFFFFF에게 보고해 주십시오." difficulty="1" onMessage="DeleteQuest_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="2720" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[정찰병과 대화]]" draft="중부 감시 초소장 칼라부 님께서 칸의 대지에 정찰을 보낸 전사들의 소식이 며칠 째 없다고 합니다./n칸의 대지 주변에서 ^#FF0000전사^#FFFFFF들을 찾아 보고, 무슨 일이 생겼다면 ^#FF0000보고서^#FFFFFF라도 찾아오라고 의뢰를 하셨습니다./n보고서를 찾으면 바로 ^#3399FF남부 감시 초소의 모험가 길드원^#FFFFFF에게 보고해 주십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="정찰병과 대화" mapTargetId="102506"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[남부 감시 초소 전투 모험가 길드원에게 보고]]" draft="중부 감시 초소장 칼라부 님께서 칸의 대지에 정찰을 보낸 전사들의 소식이 며칠 째 없다고 합니다./n칸의 대지 주변에서 ^#FF0000전사^#FFFFFF들을 찾아 보고, 무슨 일이 생겼다면 ^#FF0000보고서^#FFFFFF라도 찾아오라고 의뢰를 하셨습니다./n보고서를 찾으면 바로 ^#3399FF남부 감시 초소의 모험가 길드원^#FFFFFF에게 보고해 주십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="남부 감시 초소 전투 모험가 길드원에게 보고" mapTargetId="102501"/>
+		</Subject>
+		<Storage Collect1_typeID="150083"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+</Quest>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2006 rel. 3 U (http://www.altova.com) by Administrator (EMBRACE) -->
+<NameInfo>
+	<Pc>
+		<Name type="PAM_MALE" height="20" scale="-0.2">
+			<PcName type="RACE_RELATION_VERY_BAD" textColor="255 38 0" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<PcName type="RACE_RELATION_BAD" textColor="24 152 255" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<PcName type="RACE_RELATION_NORMAL" textColor="24 152 255" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<PcName type="RACE_RELATION_GOOD" textColor="24 152 255" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<PcName type="RACE_RELATION_VERY_GOOD" textColor="24 152 255" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<PcName type="RACE_RELATION_NONE" textColor="124 152 255" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+		</Name>
+		<Name type="PAM_FEMALE" height="20" scale="-0.2">
+			<PcName type="RACE_RELATION_VERY_BAD" textColor="255 38 0" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<PcName type="RACE_RELATION_BAD" textColor="24 152 255" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<PcName type="RACE_RELATION_NORMAL" textColor="24 152 255" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<PcName type="RACE_RELATION_GOOD" textColor="24 152 255" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<PcName type="RACE_RELATION_VERY_GOOD" textColor="24 152 255" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<PcName type="RACE_RELATION_NONE" textColor="124 152 255" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+		</Name>
+		<Name type="HUMAN_MALE" height="19" scale="0">
+			<PcName type="RACE_RELATION_VERY_BAD" textColor="255 38 0" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<PcName type="RACE_RELATION_BAD" textColor="24 73 255" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<PcName type="RACE_RELATION_NORMAL" textColor="24 73 255" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<PcName type="RACE_RELATION_GOOD" textColor="24 73 255" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<PcName type="RACE_RELATION_VERY_GOOD" textColor="24 73 255" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<PcName type="RACE_RELATION_NONE" textColor="124 152 255" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+		</Name>
+		<Name type="HUMAN_FEMALE" height="19" scale="-0.1">
+			<PcName type="RACE_RELATION_VERY_BAD" textColor="255 38 0" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<PcName type="RACE_RELATION_BAD" textColor="24 73 255" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<PcName type="RACE_RELATION_NORMAL" textColor="24 73 255" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<PcName type="RACE_RELATION_GOOD" textColor="24 73 255" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<PcName type="RACE_RELATION_VERY_GOOD" textColor="24 73 255" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<PcName type="RACE_RELATION_NONE" textColor="124 152 255" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+		</Name>
+		<Name type="TURGA_MALE" height="24" scale="0.5">
+			<PcName type="RACE_RELATION_VERY_BAD" textColor="255 38 0" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<PcName type="RACE_RELATION_BAD" textColor="24 73 255" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<PcName type="RACE_RELATION_NORMAL" textColor="24 73 255" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<PcName type="RACE_RELATION_GOOD" textColor="24 73 255" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<PcName type="RACE_RELATION_VERY_GOOD" textColor="24 73 255" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<PcName type="RACE_RELATION_NONE" textColor="124 152 255" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+		</Name>
+		<Name type="TURGA_FEMALE" height="21" scale="0.2">
+			<PcName type="RACE_RELATION_VERY_BAD" textColor="255 38 0" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<PcName type="RACE_RELATION_BAD" textColor="24 73 255" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<PcName type="RACE_RELATION_NORMAL" textColor="24 73 255" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<PcName type="RACE_RELATION_GOOD" textColor="24 73 255" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<PcName type="RACE_RELATION_VERY_GOOD" textColor="24 73 255" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<PcName type="RACE_RELATION_NONE" textColor="124 152 255" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+		</Name>
+	</Pc>
+	<Npc>
+		<Name type="MONSTER">
+			<NpcName type="RACE_RELATION_VERY_BAD" textColor="255 138 0" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<NpcName type="RACE_RELATION_BAD" textColor="255 138 0" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<NpcName type="RACE_RELATION_NORMAL" textColor="255 138 0" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<NpcName type="RACE_RELATION_GOOD" textColor="255 138 0" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<NpcName type="RACE_RELATION_VERY_GOOD" textColor="255 138 0" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<NpcName type="RACE_RELATION_NONE" textColor="255 138 0" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+		</Name>
+		<Name type="MONSTER_AGGRESIVE">
+			<NpcName type="RACE_RELATION_VERY_BAD" textColor="240 33 54" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<NpcName type="RACE_RELATION_BAD" textColor="240 33 54" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<NpcName type="RACE_RELATION_NORMAL" textColor="240 33 54" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<NpcName type="RACE_RELATION_GOOD" textColor="240 33 54" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<NpcName type="RACE_RELATION_VERY_GOOD" textColor="240 33 54" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<NpcName type="RACE_RELATION_NONE" textColor="240 33 54" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+		</Name>
+		<Name type="VILLAGER">
+			<NpcName type="RACE_RELATION_VERY_BAD" textColor="216 208 37" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<NpcName type="RACE_RELATION_BAD" textColor="216 208 37" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<NpcName type="RACE_RELATION_NORMAL" textColor="250 243 251" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<NpcName type="RACE_RELATION_GOOD" textColor="250 243 251" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<NpcName type="RACE_RELATION_VERY_GOOD" textColor="250 243 251" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<NpcName type="RACE_RELATION_NONE" textColor="250 243 251" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+		</Name>
+		<Name type="BOARD">
+			<NpcName type="RACE_RELATION_VERY_BAD" textColor="12 232 98" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<NpcName type="RACE_RELATION_BAD" textColor="12 232 98" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<NpcName type="RACE_RELATION_NORMAL" textColor="12 232 98" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<NpcName type="RACE_RELATION_GOOD" textColor="12 232 98" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<NpcName type="RACE_RELATION_VERY_GOOD" textColor="12 232 98" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<NpcName type="RACE_RELATION_NONE" textColor="12 232 98" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+		</Name>
+		<Name type="PROP">
+			<NpcName type="RACE_RELATION_VERY_BAD" textColor="12 232 98" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<NpcName type="RACE_RELATION_BAD" textColor="12 232 98" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<NpcName type="RACE_RELATION_NORMAL" textColor="12 232 98" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<NpcName type="RACE_RELATION_GOOD" textColor="12 232 98" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<NpcName type="RACE_RELATION_VERY_GOOD" textColor="12 232 98" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<NpcName type="RACE_RELATION_NONE" textColor="12 232 98" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+		</Name>
+		<Name type="MERCHANT">
+			<NpcName type="RACE_RELATION_VERY_BAD" textColor="12 232 98" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<NpcName type="RACE_RELATION_BAD" textColor="12 232 98" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<NpcName type="RACE_RELATION_NORMAL" textColor="12 232 98" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<NpcName type="RACE_RELATION_GOOD" textColor="12 232 98" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<NpcName type="RACE_RELATION_VERY_GOOD" textColor="12 232 98" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<NpcName type="RACE_RELATION_NONE" textColor="12 232 98" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+		</Name>
+		<Name type="TRANSFER">
+			<NpcName type="RACE_RELATION_VERY_BAD" textColor="12 232 98" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<NpcName type="RACE_RELATION_BAD" textColor="12 232 98" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<NpcName type="RACE_RELATION_NORMAL" textColor="12 232 98" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<NpcName type="RACE_RELATION_GOOD" textColor="12 232 98" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<NpcName type="RACE_RELATION_VERY_GOOD" textColor="12 232 98" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+			<NpcName type="RACE_RELATION_NONE" textColor="12 232 98" fontname="Sirius2002L" fontHeight="45" fontWeight="400" nameSize="0.38"/>
+		</Name>
+	</Npc>
+	<FamilyName>
+		<Pam>
+			<Male>
+				<Name type="0" familyName=""/>
+				<Name type="1" familyName="테스트"/>
+				<Name type="2" familyName="테스트1"/>
+			</Male>
+			<Female>
+				<Name type="0" familyName=""/>
+				<Name type="1" familyName="테스트"/>
+				<Name type="2" familyName="테스트1"/>
+			</Female>
+		</Pam>
+		<Human>
+			<Male>
+				<Name type="0" familyName=""/>
+				<Name type="1" familyName="발하운드"/>
+				<Name type="2" familyName="세레우트"/>
+				<Name type="3" familyName="크롬웰"/>
+				<Name type="4" familyName="반"/>
+				<Name type="5" familyName="로터스"/>
+				<Name type="6" familyName="카운티엔"/>
+				<Name type="7" familyName="티엘"/>
+				<Name type="8" familyName="벨토"/>
+				<Name type="9" familyName="웰테르"/>
+				<Name type="10" familyName="해들러"/>
+				<Name type="11" familyName="Balhound"/>
+				<Name type="12" familyName="Sereut"/>
+				<Name type="13" familyName="Cromwell"/>
+				<Name type="14" familyName="Van"/>
+				<Name type="15" familyName="Loters"/>
+				<Name type="16" familyName="Countien"/>
+				<Name type="17" familyName="Tiel"/>
+				<Name type="18" familyName="Velto"/>
+				<Name type="19" familyName="Welter"/>
+				<Name type="20" familyName="Hadler"/>
+			</Male>
+			<Female>
+				<Name type="0" familyName=""/>
+				<Name type="1" familyName="발하운드"/>
+				<Name type="2" familyName="세레우트"/>
+				<Name type="3" familyName="크롬웰"/>
+				<Name type="4" familyName="반"/>
+				<Name type="5" familyName="로터스"/>
+				<Name type="6" familyName="카운티엔"/>
+				<Name type="7" familyName="티엘"/>
+				<Name type="8" familyName="벨토"/>
+				<Name type="9" familyName="웰테르"/>
+				<Name type="10" familyName="해들러"/>
+				<Name type="11" familyName="Balhound"/>
+				<Name type="12" familyName="Sereut"/>
+				<Name type="13" familyName="Cromwell"/>
+				<Name type="14" familyName="Van"/>
+				<Name type="15" familyName="Loters"/>
+				<Name type="16" familyName="Countien"/>
+				<Name type="17" familyName="Tiel"/>
+				<Name type="18" familyName="Velto"/>
+				<Name type="19" familyName="Welter"/>
+				<Name type="20" familyName="Hadler"/>
+			</Female>
+		</Human>
+		<Turga>
+			<Male>
+				<Name type="0" familyName=""/>
+				<Name type="1" familyName="브리즈러너"/>
+				<Name type="2" familyName="스톰블로우"/>
+				<Name type="3" familyName="스카이시커"/>
+				<Name type="4" familyName="앰버스톤"/>
+				<Name type="5" familyName="싱잉윈드"/>
+				<Name type="6" familyName="윈드워드"/>
+				<Name type="7" familyName="새들래인"/>
+				<Name type="8" familyName="아크브리즈"/>
+				<Name type="9" familyName="크라이비스트"/>
+				<Name type="10" familyName="샤프클로우"/>
+				<Name type="11" familyName="Breezerunner"/>
+				<Name type="12" familyName="Stormblow"/>
+				<Name type="13" familyName="Skyseeker"/>
+				<Name type="14" familyName="Amberstone"/>
+				<Name type="15" familyName="Singingwind"/>
+				<Name type="16" familyName="Windword"/>
+				<Name type="17" familyName="Saddlain"/>
+				<Name type="18" familyName="Arcbreeze"/>
+				<Name type="19" familyName="Crybeast"/>
+				<Name type="20" familyName="Sharpclaw"/>
+			</Male>
+			<Female>
+				<Name type="0" familyName=""/>
+				<Name type="1" familyName="브리즈러너"/>
+				<Name type="2" familyName="스톰블로우"/>
+				<Name type="3" familyName="스카이시커"/>
+				<Name type="4" familyName="앰버스톤"/>
+				<Name type="5" familyName="싱잉윈드"/>
+				<Name type="6" familyName="윈드워드"/>
+				<Name type="7" familyName="새들래인"/>
+				<Name type="8" familyName="아크브리즈"/>
+				<Name type="9" familyName="크라이비스트"/>
+				<Name type="10" familyName="샤프클로우"/>
+				<Name type="11" familyName="Breezerunner"/>
+				<Name type="12" familyName="Stormblow"/>
+				<Name type="13" familyName="Skyseeker"/>
+				<Name type="14" familyName="Amberstone"/>
+				<Name type="15" familyName="Singingwind"/>
+				<Name type="16" familyName="Windword"/>
+				<Name type="17" familyName="Saddlain"/>
+				<Name type="18" familyName="Arcbreeze"/>
+				<Name type="19" familyName="Crybeast"/>
+				<Name type="20" familyName="Sharpclaw"/>
+			</Female>
+		</Turga>
+	</FamilyName>
+</NameInfo>

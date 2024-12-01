@@ -1,0 +1,1471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2011 rel. 2 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<Localization>
+	<Message ID="1001100001" Text="[Story] Coraleve Mine in Danger" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100002" Text="[Story] Coral and Timo" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100003" Text="[Story] Ruty's Situation" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100004" Text="[Story] Bored Pemo" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100005" Text="[Story] Punbas!" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100006" Text="[Story] Suspicious People" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100007" Text="[Story] A Man Who Lost His Memory I" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100008" Text="[Story] A Man Who Lost His Memory II" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100009" Text="[Story] A Man Who Lost His Memory III" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100010" Text="[Story] A Man Who Lost His Memory IV" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100011" Text="[Story] A Man Who Lost His Memory V" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100012" Text="[Story] A Man Who Lost His Memory VI" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100013" Text="[Story] Mysterious Power" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100014" Text="[Story] Help Millia" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100015" Text="[Story] Contaminated Horntree" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100016" Text="[Story] Contaminated Muscovite" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100017" Text="[Story] Humans' Historical Site" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100018" Text="[Story] Tuto Clan's Written Language" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100019" Text="[Story] An Illegible Written Order" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100020" Text="[Story] Tu Inti's Demonstration" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100021" Text="[Story] Rhea Pam's Farm" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100022" Text="[Story] A Serious Problem" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100023" Text="[Story] A Wise Friend of the Forest" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100024" Text="[Story] Contaminated Forest" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100025" Text="[Story] Humbaba's Message" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100026" Text="[Story] Risky Plan" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100027" Text="[Story] Extract" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100028" Text="[Story] Refine" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100029" Text="[Story] Craft" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100030" Text="[Story] Clora's Favor" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100031" Text="[Story] An Urgent Problem" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100032" Text="[Story] Warrior's Way" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100033" Text="[Story] Frightening Kapiron" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100034" Text="[Story] To Blue Coral" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100035" Text="[Story] Friendly Help" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100036" Text="[Story] A Safe Place" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100037" Text="[Story] Spending Wisely" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100038" Text="[Story] How to Become Stronger!" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100039" Text="[Story] Heavy Duty Equipment" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100040" Text="[Story] Human and Stable" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100041" Text="[Story] Lake and Runaway Winger" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100042" Text="[Story] Stable Keeper's Wrath" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100043" Text="[Story] The Fighter's Way" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100044" Text="[Story] How to Deliver News" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100045" Text="[Story] Letter from West Tumbara" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100046" Text="[Story] Trustworthy Friends" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100047" Text="[Story] Helping Friend" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100048" Text="[Story] What's Green Leaf?" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100049" Text="[Story] Nysis' Blessings" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100050" Text="[Story] The Girl Who Needs Help" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100051" Text="[Story] Missing Older Brother" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100052" Text="[Story] To the Old Mine" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100053" Text="[Story] Missing Rabbit" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100054" Text="[Story] The Research Must Go On" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100055" Text="[Story] I'm Still Hungry" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100056" Text="[Story] What's More Troubling" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100057" Text="[Story] A Customer from Duval Highlands" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100058" Text="[Story] El Hain's Voucher" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100059" Text="[Story] To the Old Coral Forest" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100060" Text="[Story] Go Around When in Emergency" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100061" Text="[Story] Circumstances of the First-Aid Station" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100062" Text="[Story] New Sales Item" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100063" Text="[Story] A Safe Place for the Injured" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100064" Text="[Story] Lichil of Duval Highlands" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100065" Text="[Story] Small Expectations" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100066" Text="[Story] Troublesome Sobek!" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100067" Text="[Story] A Must-Have Drink" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100068" Text="[Story] What Happened in Red Coral?" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100069" Text="[Story] To the Blueberry Farm" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100070" Text="[Story] Blueberry's Worst Enemy" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100071" Text="[Story] Violet's Support" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100072" Text="[Story] Suspicious Keiger Clan" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100073" Text="[Story] Public Enemy I" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100074" Text="[Story] Public Enemy II" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100075" Text="[Story] Public Enemy III" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100076" Text="[Story] [Party] Public Enemy IV" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100077" Text="[Story] [Party] Public Enemy V" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100078" Text="[Story] Public Enemy VI" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100079" Text="[Story] Public Enemy VII" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100080" Text="[Story] A Request for Help in an Emergency!" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100081" Text="[Story] To the Coral Farm" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100082" Text="[Story] Unstable Farm" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100083" Text="[Story] Kill the Lightning Hand" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100084" Text="[Story] Shining Heirloom" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100085" Text="[Story] The Shining Place I" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100086" Text="[Story] The Shining Place II" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100087" Text="[Story] The Shining Place III" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100088" Text="[Story] The Shining Place IV" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100089" Text="[Story] Breaking a Seal" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100090" Text="[Story] Skill Test" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100091" Text="[Story] The Mystery of the Excavation Site" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100092" Text="[Story] Possessed Children" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100093" Text="[Story] What Frightens the Kobolds" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100094" Text="[Story] A Secret That Can't Be Told" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100095" Text="[Story] Evil Coffin I" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100096" Text="[Story] Evil Coffin II" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100097" Text="[Story] Men in High Spirit" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100098" Text="[Story] House Purification" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100099" Text="[Story] With the Power of Nysis…" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100100" Text="[Story] Chief's Calling" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100101" Text="[Story] The Promised Time" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100102" Text="[Story] Seiren's Alliance" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100103" Text="[Story] Occupied Island" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100104" Text="[Story] The Secret of the Marinebee" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100105" Text="[Story] In Search of the Queen…" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100106" Text="[Story] Rescue the Queen" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100107" Text="[Story] The Queen's Revenge" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100108" Text="[Story] New Queen" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100109" Text="[Story] Starting Over…" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100110" Text="[Story] Preparation for a Great Adventure" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100111" Text="[Story] The Beginning of a New Adventure" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100112" Text="[Story] To Duval" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100113" Text="[Story] The New Recruit's Situation" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100114" Text="[Story] New Recruit's Favor" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100115" Text="[Story] First Training" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100116" Text="[Story] A Match for You" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100117" Text="[Story] Canyon Trouble" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100118" Text="[Story] First Patrol!" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100119" Text="[Story] Thornbush I" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100120" Text="[Story] Thornbush II" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100121" Text="[Story] Thornbush III" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100122" Text="[Story] Thornbush IV" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100123" Text="[Story] Thornbush V" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100124" Text="[Story] Katumba Canyon Supply Request" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100125" Text="[Story] Muscovite Digging" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100126" Text="[Story] Hard Horntree" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100127" Text="[Story] Friend's Jewel" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100128" Text="[Story] Scattered Supplies" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100129" Text="[Story] Supply Soldier's Letter" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100130" Text="[Story] The Place They Met" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100131" Text="[Story] Khroki's True Intentions" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100132" Text="[Story] The Invasion of the Canyon" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100133" Text="[Story] Khroki's Betrayal" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100134" Text="[Story] Supply Request" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100135" Text="[Story] A Farm in the Red Meadow" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100136" Text="[Story] What's Extraction?" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100137" Text="[Story] The Refinement of the Blacksmith" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100138" Text="[Story] What Everyone Wants" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100139" Text="[Story] The Updated Request of a Guard" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100140" Text="[Story] What Blocks Your Vision" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100141" Text="[Story] Shuiki's Weekly Report" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100142" Text="[Story] A Comfortable Bed" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100143" Text="[Story] Help Beyond the Race" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100144" Text="[Story] The Fighter's Way" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100145" Text="[Story] A Heavy Duty Bag" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100146" Text="[Story] Very Little Help" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100147" Text="[Story] A Rusty Weapon" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100148" Text="[Story] The Weapon That's Like an Extension of Your Body" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100149" Text="[Story] A Sympathetic Friend" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100150" Text="[Story] The Khan's Written Order" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100151" Text="[Story] The Lime Expedition" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100152" Text="[Story] Dug Grave" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100153" Text="[Story] A Missing Tombstone" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100154" Text="[Story] A Terrible Secret" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100155" Text="[Story] Following the Advance Force" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100156" Text="[Story] For Component Analysis" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100157" Text="[Story] Missing Expedition Member" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100158" Text="[Story] The Pursuit of the Missing Keiger" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100159" Text="[Story] The Reason Rinkee is Going Berserk" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100160" Text="[Story] Investigation Team in a Difficult Situation" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100161" Text="[Story] Disappeared Human " Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100162" Text="[Story] A Very Dangerous Weapon" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100163" Text="[Story] A Compact with Ninehof" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100164" Text="[Story] Meaningful Message" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100165" Text="[Story] A Change Coming" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100166" Text="[Story] Stranger" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100167" Text="[Story] Ninehof's State of Mind" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100168" Text="[Story] Noda's Favor" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100169" Text="[Story] In Search of the Lime Again" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100170" Text="[Story] Dohmu Hunters" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100171" Text="[Story] To the South Watch Tower" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100172" Text="[Story] To the Khan's Statue" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100173" Text="[Story] Pay Homage to the Khan's Grave" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100174" Text="[Story] In Search of the Messenger" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100175" Text="[Story] Senior Messenger Nanase" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100176" Text="[Story] The One Who Will Read the Twilight Letter." Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100177" Text="[Story] A Lone Coin" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100178" Text="[Story] Cheaper but Better" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100179" Text="[Story] Secret Investigation I" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100180" Text="[Story] Secret Investigation II" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100181" Text="[Story] Secret Investigation III" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100182" Text="[Story] Secret Investigation IV" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100183" Text="[Story] General's Calling" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100184" Text="[Story] General's Written Command" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100185" Text="[Story] The Refugee Who's Not Coming Back" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100186" Text="[Story] Stop the Pursuer" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100187" Text="[Story] Kashan Clan's Warning" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100188" Text="[Story] Recovery Mission!" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100189" Text="[Story] Destroy the Khrokies!" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100190" Text="[Story] A Battle with the Kashans" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100191" Text="[Story] Deliver the Victory Message" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100192" Text="[Story] New Lime Expedition" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100193" Text="[Story] A Letter of Friendship" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100194" Text="[Story] Sticky Medicine" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100195" Text="[Story] A Letter of Encouragement" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100196" Text="[Story] Lion Statue Guard" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100197" Text="[Story] Flegm" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100198" Text="[Story] Myucus" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100199" Text="[Story] Cough" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100200" Text="[Story] The Road of the Brave" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100201" Text="[Story] The Hair Raising Sound of Flapping Wings" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100202" Text="[Story] Something in Need of Burning" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100203" Text="[Story] Overflowing Hatred" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100204" Text="[Story] Return to Dirt!" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100205" Text="[Story] The Unruly Spellcaster" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100206" Text="[Story] Strange King" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100207" Text="[Story] Quiet Canyon" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100208" Text="[Story] Strange Phenomena in Talunvara" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100209" Text="[Story] A Firm Chain of Command" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100210" Text="[Story] Kale's Letter" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100211" Text="[Story] An Eye for an Eye!" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100212" Text="[Story] Talunvara Infiltration" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100213" Text="[Story] Kale's Decisive Order" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100214" Text="[Story] The Power Hidden in Talunvara" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100215" Text="[Story] Tolboka's Existence" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100216" Text="[Story] The Power to Change the World" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100217" Text="[Story] Martial Artist In Training" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100218" Text="[Story] The Great Strength of Shurok" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100219" Text="[Story] The Reunion with Silver" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100220" Text="[Story] A True Path of Training" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100221" Text="[Story] Particularly Suspicious" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100222" Text="[Story] Matina Under the Cliff I" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100223" Text="[Story] Matina Under the Cliff II" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100224" Text="[Story] Matina Under the Cliff III" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100225" Text="[Story] Yabiam's Proposal" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100226" Text="[Story] How to Protect the Relics" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100227" Text="[Story] Garona Nest's Problem" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100228" Text="[Story] Wind Pillar I" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100229" Text="[Story] Wind Pillar II" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100230" Text="[Story] Wind Pillar III" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100231" Text="[Story] Wind Pillar IV" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100232" Text="[Story] Wind Pillar V" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100233" Text="[Story] Wind Pillar VI" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100234" Text="[Story] To the South in Search for the Lime" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100235" Text="[Story] The Mirebound Forest and the Lichil Clan" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100236" Text="[Story] Lime Ruins??" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100237" Text="[Story] A Small but Significant Piece" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100238" Text="[Story] Something You Didn't Want to Do" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100239" Text="[Story] To the South Beacon" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100240" Text="[Story] The Shade of the Altar I" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100241" Text="[Story] The Shade of the Altar II" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100242" Text="[Story] The Shade of the Altar III" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100243" Text="[Story] Yet Another Calling" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100244" Text="[Story] Lake of Promise I" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100245" Text="[Story] Lake of Promise II" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100246" Text="[Story] Lake of Promise III" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100247" Text="[Story] Lake of Promise IV" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100248" Text="[Story] Lake of Promise V" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100249" Text="[Story] Lake of Promise VI" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100250" Text="[Story] Terua's Warning" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100251" Text="[Story] Nomadic Tribe's Defense" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100252" Text="[Story] A Hidden Letter" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100253" Text="[Story] Lichil's Preparation" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100254" Text="[Story] Mirebound Forest I" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100255" Text="[Story] Mirebound Forest II" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100256" Text="[Story] Mirebound Forest III" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100257" Text="[Story] Mirebound Forest IV" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100258" Text="[Story] Mirebound Forest V" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100259" Text="[Story] Mirebound Forest VI" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100260" Text="[Story] Unfortunate News" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100261" Text="[Story] The Lime Owner?! I" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100262" Text="[Story] The Lime Owner?! I" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100263" Text="[Story] The Lime Owner?! III" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100264" Text="[Story] The Lime Owner?! IV" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100265" Text="[Story] The Lime Owner?! V" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100266" Text="[Story] Viceroy's Evil Help" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100267" Text="[Story] Traces of the Past I" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100268" Text="[Story] Traces of the Past II" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100269" Text="[Story] Traces of the Past III" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100270" Text="[Story] Traces of the Past IV" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100271" Text="[Story] Traces of the Past V" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100272" Text="[Story] Traces of the Past VI" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100273" Text="[Story] Taran's Research" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100274" Text="[Story] Traces of Ancient Dragon I" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100275" Text="[Story] Traces of Ancient Dragon II" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100276" Text="[Story] Traces of Ancient Dragon III" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100277" Text="[Story] Traces of Ancient Dragon IV" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100278" Text="[Story] Traces of Ancient Dragon V" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100279" Text="[Story] Nadal's Tombstone I" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100280" Text="[Story] Nadal's Tombstone I" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100281" Text="[Story] Nadal's Tombstone III" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100282" Text="[Story] Nadal's Tombstone IV" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100283" Text="[Story] Nadal's Tombstone V" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100284" Text="[Story] Nadal's Tombstone VI" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100285" Text="[Story] Desert Memories I" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100286" Text="[Story] Desert Memories II" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100287" Text="[Story] Desert Memories III" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100288" Text="[Story] Desert Memories IV" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100289" Text="[Story] Desert Memories V" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100290" Text="[Story] Desert Memories VI" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100291" Text="[Story] Lost Hope I" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100292" Text="[Story] Lost Hope II" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100293" Text="[Story] Lost Hope III" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100294" Text="[Story] Lost Hope IV" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100295" Text="[Story] Lost Hope V" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100296" Text="[Story] Lost Hope VI" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100297" Text="[Story] Desert Legend I" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100298" Text="[Story] Desert Legend II" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100299" Text="[Story] Desert Legend III" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100300" Text="[Story] Desert Legend IV" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100301" Text="[Story] Desert Legend V" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100302" Text="[Story] Desert Legend VI" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100303" Text="[Story] Desert Legend VII" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100304" Text="[Story] Al Amirro" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100305" Text="[Story] Pikin and Matina I" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100306" Text="[Story] Pikin and Matina II" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100307" Text="[Story] Pikin and Matina III" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100308" Text="[Story] Pikin and Matina IV" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100309" Text="[Story] Pikin and Matina V" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100310" Text="[Story] Kidnapped Lady I" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100311" Text="[Story] Kidnapped Lady II" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100312" Text="[Story] Kidnapped Lady III" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100313" Text="[Story] Kidnapped Lady IV" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100314" Text="[Story] Kidnapped Lady V" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100315" Text="[Story] Kidnapped Lady VI" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100316" Text="[Story] Pikin's News" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100317" Text="[Story] Hunter Slave I" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100318" Text="[Story] Hunter Slave II" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100319" Text="[Story] Hunter Slave III" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100320" Text="[Story] Hunter Slave IV" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100321" Text="[Story] Hunter Slave V" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100322" Text="[Story] Hunter Slave VI" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100323" Text="[Story] Hunter Slave VII" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100324" Text="[Story] Threat" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100325" Text="[Story] Deserted Soul I" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100326" Text="[Story] Deserted Soul III" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100327" Text="[Story] Deserted Soul III" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100328" Text="[Story] Deserted Soul IV" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100329" Text="[Story] Deserted Soul V" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100330" Text="[Story] Deserted Soul VI" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100331" Text="[Story] Deserted Soul VII" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100332" Text="[Story] Deserted Soul VIII" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100333" Text="[Story] Desert Prophet" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100334" Text="[Story] Desert Swindler I" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100335" Text="[Story] Desert Swindler II" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100336" Text="[Story] Desert Swindler III" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100337" Text="[Story] Desert Swindler IV" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100338" Text="[Story] Desert Swindler V" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100339" Text="[Story] Desert Swindler VI" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100340" Text="[Story] Desert Swindler VII" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100341" Text="[Story] Blue Powder I" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100342" Text="[Story] Blue Powder II" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100343" Text="[Story] Blue Powder III" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100344" Text="[Story] Blue Powder IV" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100345" Text="[Story] Homeless Khroki I" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100346" Text="[Story] Homeless Khroki II" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100347" Text="[Story] Homeless Khroki III" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100348" Text="[Story] Homeless Khroki IV" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100349" Text="[Story] Homeless Khroki V" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100350" Text="[Story] Homeless Khroki VI" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100351" Text="[Story] Late Night Chore I" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100352" Text="[Story] Late Night Chore II" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100353" Text="[Story] Late Night Chore III" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100354" Text="[Story] Late Night Chore IV" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100355" Text="[Story] Late Night Chore V" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100356" Text="[Story] Late Night Chore VI" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100357" Text="[Dungeon] Invading Talunvara" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100358" Text="[Dungeon] Cursed Home" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100359" Text="[Dungeon] Archfiend Key" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100360" Text="[Dungeon] Mysterious Witch" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100361" Text="[Dungeon] Magic Lamp" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100362" Text="[Story] Errand" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100363" Text="[Story] Moving Box" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100364" Text="[Story] Brenner's Tea Field" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100365" Text="[Story] Tea Leaf" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100366" Text="[Story] Putting up Fences" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100367" Text="[Story] The Strange Pit" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100368" Text="[Story] The Best Friend" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100369" Text="[Story] A Friend's Mistake" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100370" Text="[Story] Mysterious Power" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100371" Text="[Story] Kidria" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100372" Text="[Story] Collecting Seeds" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100373" Text="[Story] Seed Pouch Delivery" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100374" Text="[Story] Evil Grandmother" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100375" Text="[Story] I Don't Want to Get Scolded" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100376" Text="[Story] Pulling Weeds" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100377" Text="[Story] Grandmother's Errand" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100378" Text="[Story] Learn Extraction" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100379" Text="[Story] Learn Refining" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100380" Text="[Story] Radikha's Guts" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100381" Text="[Story] Learn Crafting" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100382" Text="[Story] Shao Repellant" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100383" Text="[Story] Find Mona" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100384" Text="[Story] Mona's Request" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100385" Text="[Story] Ribbon" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100386" Text="[Story] Mysterious Fragment Identified" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100387" Text="[Story] Find Me Seasonings" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100388" Text="[Story] Bridge" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100389" Text="[Story] Luna's Pouch" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100390" Text="[Story] Leon's Actions" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100391" Text="[Story] A Strange Woman" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100392" Text="[Story] Return" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100393" Text="[Story] Safe House" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100394" Text="[Story] Investigate the Cause" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100395" Text="[Story] Happy Harvest" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100396" Text="[Story] Magic Stone's Guard" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100397" Text="[Story] Fettru!" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100398" Text="[Story] Mysterious Temple Keeper" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100399" Text="[Story] Fuel for the Power Source" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100400" Text="[Story] Terrifying Temple Keeper" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100401" Text="[Story] Power Supply Component" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100402" Text="[Story] Temple Keeper" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100403" Text="[Story] Aeon Tree's Spirit" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100404" Text="[Story] Moon Altar" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100405" Text="[Story] Magic Stone Activation" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100406" Text="[Story] To Pripet" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100407" Text="[Story] Bank Errand" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100408" Text="[Story] Darmon's Lesson" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100409" Text="[Story] Administration" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100410" Text="[Story] Letter Delivery" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100411" Text="[Story] A Broken Sword" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100412" Text="[Story] Repair Materials" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100413" Text="[Story] To Blue Coral" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100414" Text="[Story] Costly Upgrade" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100415" Text="[Story] Questionable Test" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100416" Text="[Story] Source of Power" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100417" Text="[Story] Miserable Kobold" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100418" Text="[Story] Coitia the Disciple" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100419" Text="[Story] Review" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100420" Text="[Story] Leader" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100421" Text="[Story] Nord the Treasure Hunter" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100422" Text="[Story] Warm Up" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100423" Text="[Story] Treasure Hunt" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100424" Text="[Story] Korrey's Sister" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100425" Text="[Story] Underwater Battle" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100426" Text="[Story] Lucky Case" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100427" Text="[Story] Marue the Wizard" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100428" Text="[Story] Silence" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100429" Text="[Story] Lake Treasure Box" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100430" Text="[Story] Aron the Investigator" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100431" Text="[Story] Ally" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100432" Text="[Story] Ready for Action" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100433" Text="[Story] Meeting" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100434" Text="[Story] Ruckus" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100435" Text="[Story] Star Bridge" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100436" Text="[Story] Resolution" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100437" Text="[Story] Conquest, Inc.'s Tyranny" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100438" Text="[Story] The Beginning of a New Adventure" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100439" Text="[Story] SOS" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100440" Text="[Story] To the Blue Coral" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100441" Text="[Story] Find the Balloon" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100442" Text="[Story] Balloon Destruction" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100443" Text="[Story] Stein Shovel the Handyman" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100444" Text="[Story] Utility Tool" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100445" Text="[Story] Magic Ingredients" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100446" Text="[Story] Clawhand's Pouch" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100447" Text="[Story] Zombie Hunter" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100448" Text="[Story] Soul Powder" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100449" Text="[Story] Prepared Ingredients" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100450" Text="[Story] Roll Up Your Sleeves" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100451" Text="[Story] An Exciting Adventure" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100452" Text="[Story] Help the Seiren!" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100453" Text="[Story] To Aria Island!" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100454" Text="[Story] Occupied Island" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100455" Text="[Story] Mysterious Friend" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100456" Text="[Story] Arkada" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100457" Text="[Story] King Birn" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100458" Text="[Story] Me? A Hero?" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100459" Text="[Story] Blue Coral Forest's Hero" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100460" Text="Greenleaf's Request" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100461" Text="Relief Supplies Delivery" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100462" Text="Air Travel" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100463" Text="[Event]Mom's Heartbeat" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100464" Text="[Event]Mom's Heartbeat" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100465" Text="[Event]Missing Planner" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100466" Text="[Event]Missing Planner" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100467" Text="Louran Desert" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100468" Text="[Trade Speciality] A Strange Item" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100469" Text="[Trade Speciality] A Great Item" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100470" Text="[Trade Speciality] A Thistlebury Box" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100471" Text="[Trade Speciality] The Blacksmith's Way" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100472" Text="[Trade Speciality] The Chef's Way" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100473" Text="[Trade Speciality] The Tailor's Way" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100474" Text="[Trade Speciality] The Blacksmith's Way" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100475" Text="[Trade Speciality] The Chef's Way" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100476" Text="[Trade Speciality] The Tailor's Way" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100477" Text="[Trade Speciality] The Blacksmith's Way" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100478" Text="[Trade Speciality] The Chef's Way" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100479" Text="[Trade Speciality] The Tailor's Way" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100480" Text="[Trade Speciality] The Captain's Way" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100481" Text="[Trade Speciality] The Chef's Way" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100482" Text="[Trade Speciality] The Head Tailor's Way" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100483" Text="[Trade Speciality] The Captain's Way" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100484" Text="[Trade Speciality] The Chef's Way" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100485" Text="[Trade Speciality] The Head Tailor's Way" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100486" Text="[Trade Speciality] The Captain's Way" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100487" Text="[Trade Speciality] The Chef's Way" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100488" Text="[Trade Speciality] The Head Tailor's Way" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001100489" Text="" Note_File="QuestOperator.xml" Note_Field="QuestTitle"/>
+	<Message ID="1001200001" Text="Sunny" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200002" Text="Ruty Tiel" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200003" Text="Ruty Tiel" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200004" Text="Yuri's Grandpa" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200005" Text="Yuri's Grandpa" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200006" Text="Yuri's Grandpa" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200007" Text="Firia" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200008" Text="Firia" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200009" Text="Yuri's Grandpa" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200010" Text="Tider" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200011" Text="Roki" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200012" Text="Roki" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200013" Text="Roki" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200014" Text="Tider" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200015" Text="Tailoring Girl Millia" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200016" Text="Lumberjack Salleon" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200017" Text="Frane" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200018" Text="Mr. Maddock" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200019" Text="Etwar Looin" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200020" Text="Rigly Eppernos" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200021" Text="Rhea Pam" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200022" Text="Rhea Pam" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200023" Text="Elder Semillo Claha" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200024" Text="Tuburu" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200025" Text="Tuburu" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200026" Text="Elder Semillo Claha" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200027" Text="Elder Semillo Claha" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200028" Text="Schier Excavation Member" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200029" Text="Lafi" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200030" Text="Second Elder Semillo Clora" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200031" Text="Omara Reivaran" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200032" Text="Bercamp" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200033" Text="Guard Captain Demron" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200034" Text="Flyte" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200035" Text="Sirben Traecit" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200036" Text="Bag Merchant Dona" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200037" Text="Banker Eva" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200038" Text="Master of Auction" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200039" Text="Blacksmith Theor" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200040" Text="Sirben Traecit" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200041" Text="Stable Keeper Will Cross" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200042" Text="Stable Keeper Will Cross" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200043" Text="Fighter Pororong" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200044" Text="Fighter Pororong" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200045" Text="Mailman Lichan" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200046" Text="Sirben Traecit" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200047" Text="Unif Khan" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200048" Text="Sirben Traecit" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200049" Text="Jieri Lotess" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200050" Text="Lowell Balhound" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200051" Text="Puppy" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200052" Text="Guard Pearlbrown" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200053" Text="Guard Rollaun" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200054" Text="Rabbit" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200055" Text="Guard Jeniun" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200056" Text="Guard Jeniun" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200057" Text="Guard Jeniun" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200058" Text="Kiyan" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200059" Text="Kiyan" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200060" Text="Relief Guard Ballama" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200061" Text="Relief Guard Potiana" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200062" Text="Relief Guard Easter" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200063" Text="Rescue Soldier Easter" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200064" Text="Guard Holdem" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200065" Text="Lichil" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200066" Text="Lichil" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200067" Text="Doctor Posis" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200068" Text="Doctor Posis" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200069" Text="Elsina" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200070" Text="Violet Balhound" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200071" Text="Violet Balhound" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200072" Text="Greenleaf Healer Sona" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200073" Text="Ninehof" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200074" Text="Ms. Gormand" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200075" Text="Dropped Basket" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200076" Text="Godmant" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200077" Text="Gotmand " Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200078" Text="Dropped Box" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200079" Text="Transmitter" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200080" Text="Ninehof" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200081" Text="Ellan" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200082" Text="Olivia Cromwell" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200083" Text="Olivia Cromwell" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200084" Text="Nill" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200085" Text="Old Man" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200086" Text="Mysterious Balaur" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200087" Text="Mysterious Balaur" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200088" Text="Mysterious Balaur" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200089" Text="Sirben Traecit" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200090" Text="Rarshu" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200091" Text="Rarshu" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200092" Text="Stein Shovel" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200093" Text="Frightened Kobold" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200094" Text="Frightened Kobold" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200095" Text="Helsing" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200096" Text="Coffin" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200097" Text="Helsing" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200098" Text="Helsing" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200099" Text="Helsing" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200100" Text="Lowell Balhound" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200101" Text="Sirben Traecit" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200102" Text="Seiren Messenger" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200103" Text="Guard Donnah" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200104" Text="Guard Gotiga" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200105" Text="Guard Gotiga" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200106" Text="Shera" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200107" Text="Maria" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200108" Text="Maria" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200109" Text="Shera" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200110" Text="Sirben Traecit" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200111" Text="Assistant Guild Officer Urell" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200112" Text="Namhii" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200113" Text="New Recruit Chagass" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200114" Text="New Recruit Nurson" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200115" Text="Kale Redscar" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200116" Text="Lafi" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200117" Text="Valkun" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200118" Text="Kalli" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200119" Text="Firia" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200120" Text="Firia" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200121" Text="Ninehof" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200122" Text="Mana Concentrator" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200123" Text="Ninehof" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200124" Text="Kalli" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200125" Text="Yuzi" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200126" Text="Lillia" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200127" Text="Joseina" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200128" Text="Kyle" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200129" Text="Kyle" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200130" Text="Oldoban Sunhowl" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200131" Text="Oldoban Sunhowl" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200132" Text="Watcher Kucu" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200133" Text="Watcher Kucu" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200134" Text="Oldoban Sunhowl" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200135" Text="Mia" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200136" Text="Mia" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200137" Text="Mia" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200138" Text="Mia" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200139" Text="Mia" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200140" Text="Shuiki" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200141" Text="Shuiki" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200142" Text="Dreve Sunhowl" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200143" Text="Innkeeper's Daughter Roa" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200144" Text="Fighter Tutu" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200145" Text="Fighter Tutu" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200146" Text="Bag Merchant Yonna" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200147" Text="Adventurer Sean" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200148" Text="Olkubu Hammerhand" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200149" Text="Olkubu Hammerhand" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200150" Text="Uiri" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200151" Text="Mailbox Keeper" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200152" Text="Dreve Sunhowl" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200153" Text="Haiki" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200154" Text="Sakoro" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200155" Text="Sakoro" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200156" Text="Teslun Sunhowl" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200157" Text="Elise" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200158" Text="Noda" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200159" Text="Ninehof" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200160" Text="Ninehof" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200161" Text="Schier Research Captain Bogue" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200162" Text="Erdekind" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200163" Text="Erdekind" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200164" Text="Ninehof" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200165" Text="Controller" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200166" Text="Worn Pouch" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200167" Text="Ninehof" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200168" Text="Noda" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200169" Text="Teslun Sunhowl" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200170" Text="Kuaiet" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200171" Text="Hunter Crank" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200172" Text="Gafoil Warfury" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200173" Text="Hadris" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200174" Text="Fedor" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200175" Text="Hanis" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200176" Text="Nanase" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200177" Text="Duncote Lion Heart" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200178" Text="Banker Tagit" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200179" Text="Gondoro" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200180" Text="Duncote Lion Heart" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200181" Text="Orien Cultri" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200182" Text="Gruyas" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200183" Text="Gondoro" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200184" Text="Kale Redscar" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200185" Text="Khalrabu Earthheater" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200186" Text="Refugee Rox" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200187" Text="Refugee Ugoda" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200188" Text="Refugee Ugoda" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200189" Text="Ranger Captain Arden" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200190" Text="Ranger Captain Arden" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200191" Text="Ranger Captain Arden" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200192" Text="Khalrabu Earthheater" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200193" Text="Unif Lionheart" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200194" Text="Chief Sirben Traecit" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200195" Text="Unif Lionheart" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200196" Text="Abalchi Sunhowl" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200197" Text="Lion Statue Guard Ryan" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200198" Text="Adventurer Guild Member Jacon" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200199" Text="Adventurer Guild Member Jacon" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200200" Text="Abalchi Sunhowl" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200201" Text="Guard Siderg" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200202" Text="Apprentice Mage Briga" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200203" Text="Mage Kaker" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200204" Text="Mage Resot" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200205" Text="Mage Kaker" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200206" Text="Great Spellcaster Masita" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200207" Text="Apprentice Warrior Bobok" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200208" Text="Kusheven Deerhunter" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200209" Text="Search Member Udir" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200210" Text="Kale Redscar" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200211" Text="Search Member Udir" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200212" Text="Special Forces Captain Cosidena" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200213" Text="Search Member Borges" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200214" Text="Search Member Borges" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200215" Text="Roki" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200216" Text="Roki" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200217" Text="Police Captain Silver" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200218" Text="Shurok" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200219" Text="Shurok" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200220" Text="Guild Promoter" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200221" Text="Doray" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200222" Text="Yabiam" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200223" Text="Yabiam" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200224" Text="Yabiam" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200225" Text="Yabiam" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200226" Text="Doray" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200227" Text="Crinang" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200228" Text="Furilo" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200229" Text="Roki" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200230" Text="Roki" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200231" Text="Furilo" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200232" Text="Chief Rudra" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200233" Text="Chief Rudra" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200234" Text="Roki" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200235" Text="Guard Jejek" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200236" Text="Chief Mate Rupi" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200237" Text="Mandrow" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200238" Text="Mandrow" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200239" Text="Mandrow" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200240" Text="Nomadic Boy" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200241" Text="Valkyrian's Ancestor" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200242" Text="Valkyrian's Ancestor" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200243" Text="Nomadic Boy" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200244" Text="Terua" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200245" Text="Latona" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200246" Text="Latona" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200247" Text="Latona" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200248" Text="Lake Jar" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200249" Text="Latona" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200250" Text="Terua" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200251" Text="Lichil" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200252" Text="Attendant Lorana" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200253" Text="Lichil" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200254" Text="Ninehof" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200255" Text="Corpse" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200256" Text="Ninehof" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200257" Text="Draka" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200258" Text="Dray" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200259" Text="Aragon" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200260" Text="Ninehof" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200261" Text="Ramuda" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200262" Text="Firia" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200263" Text="Trandion" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200264" Text="Firia" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200265" Text="Firia" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200266" Text="Firia" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200267" Text="Viceroy's Aide" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200268" Text="Kidria" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200269" Text="Antique Dealer" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200270" Text="Antique Dealer" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200271" Text="Kidria" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200272" Text="Kidria" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200273" Text="Kidria" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200274" Text="Taran" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200275" Text="Taran" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200276" Text="Taran" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200277" Text="Palladok" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200278" Text="Palladok" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200279" Text="Cora" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200280" Text="Cora" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200281" Text="Cora" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200282" Text="Black Altar" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200283" Text="Black Altar" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200284" Text="Cora" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200285" Text="Rebin" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200286" Text="Nardakum" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200287" Text="Dericoco" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200288" Text="Rebin" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200289" Text="Nardakum" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200290" Text="Rebin" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200291" Text="Wiltin" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200292" Text="Bredito" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200293" Text="Wiltin" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200294" Text="Bella" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200295" Text="Wiltin" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200296" Text="Olwhes" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200297" Text="Liza" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200298" Text="Zess" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200299" Text="Zess" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200300" Text="Kaiza" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200301" Text="Kidria" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200302" Text="Kidria" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200303" Text="Liza" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200304" Text="Liza" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200305" Text="Anasun" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200306" Text="Mysterious Pot" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200307" Text="Anasun" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200308" Text="Anamdullah" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200309" Text="Anasun" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200310" Text="Beron" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200311" Text="Beron" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200312" Text="Beron" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200313" Text="Regun" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200314" Text="Regun" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200315" Text="Bonilla" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200316" Text="Beron" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200317" Text="Fallen Bundle" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200318" Text="Irelda" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200319" Text="Irelda" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200320" Text="Okada" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200321" Text="Zupio" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200322" Text="Irelda" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200323" Text="Rochichi" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200324" Text="Rochichi" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200325" Text="Jude" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200326" Text="Roki" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200327" Text="Naul" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200328" Text="Firia" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200329" Text="Firia" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200330" Text="Firia" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200331" Text="Taren's Tombstone" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200332" Text="Firia" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200333" Text="Naul" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200334" Text="Prophet Mayalune" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200335" Text="Saikey" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200336" Text="Jororong" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200337" Text="Dullsina" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200338" Text="Rohman" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200339" Text="Rohman" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200340" Text="Prophet Mayalune" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200341" Text="Ziomis" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200342" Text="Ziomis" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200343" Text="Blue Stone" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200344" Text="Ziomis" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200345" Text="Ninehof" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200346" Text="Ninehof" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200347" Text="Sosia" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200348" Text="Cipua" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200349" Text="Sosia" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200350" Text="Sosia" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200351" Text="Ninehof" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200352" Text="Connel Starr" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200353" Text="Everett Winter" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200354" Text="Deigel" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200355" Text="Dasarin" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200356" Text="Dasarin" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200357" Text="Infiltration Army Captain Noxus" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200358" Text="William Lauren" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200359" Text="Berserker's Soul" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200360" Text="Mysterious Witch" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200361" Text="Mine Guard Captain Abdullama" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200362" Text="Magician Guard Olah" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200363" Text="Cochrane" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200364" Text="Brenner" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200365" Text="Brenner" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200366" Text="Pobbley" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200367" Text="Ilya" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200368" Text="Ilya" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200369" Text="Kidria" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200370" Text="Kidria" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200371" Text="Kidria" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200372" Text="Khoma" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200373" Text="Khoma" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200374" Text="Cotmandu" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200375" Text="Tobia" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200376" Text="Runa" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200377" Text="Cotmandu" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200378" Text="Mimi" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200379" Text="Mimi" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200380" Text="Radikha" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200381" Text="Radikha" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200382" Text="Radikha" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200383" Text="Cotmandu" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200384" Text="Mona" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200385" Text="Mona" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200386" Text="Mona" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200387" Text="Cotmandu" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200388" Text="Micha" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200389" Text="Ramundio" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200390" Text="Luna's Pouch" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200391" Text="Luna " Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200392" Text="Luna" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200393" Text="Cotmandu" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200394" Text="Cotmandu" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200395" Text="Romy" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200396" Text="Romy" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200397" Text="Aron" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200398" Text="Aron" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200399" Text="Temple Keeper Lu" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200400" Text="Temple Keeper Lu" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200401" Text="Temple Keeper Na" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200402" Text="Temple Keeper Na" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200403" Text="Temple Keeper Tik" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200404" Text="Temple Keeper Tik" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200405" Text="Aron" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200406" Text="Aron" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200407" Text="Dorika" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200408" Text="Banker Darmon" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200409" Text="Banker Darmon" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200410" Text="Serapi" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200411" Text="Mysterious Man" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200412" Text="Eras" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200413" Text="Eras" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200414" Text="Hans" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200415" Text="Mysterious Man" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200416" Text="Mysterious Man" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200417" Text="Minuk Denutito" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200418" Text="Minuk Denutito" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200419" Text="Coitia" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200420" Text="Coitia" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200421" Text="Coitia" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200422" Text="Nord" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200423" Text="Nord" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200424" Text="Nord" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200425" Text="Korrey" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200426" Text="Korrey" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200427" Text="Korrey" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200428" Text="Marue" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200429" Text="Marue" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200430" Text="Marue" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200431" Text="Aron Palsis" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200432" Text="Aron Palsis" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200433" Text="Aron Palsis" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200434" Text="Rubri" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200435" Text="Meynard" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200436" Text="Meynard" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200437" Text="Rubri" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200438" Text="Magic Guard Minu" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200439" Text="Kidria" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200440" Text="Researcher Kenbrock" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200441" Text="Sirben Traecit" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200442" Text="Balloonist Aiko" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200443" Text="Sirben Traecit" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200444" Text="Stein Shovel" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200445" Text="Stein Shovel" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200446" Text="Frightened Kobold" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200447" Text="Frightened Kobold" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200448" Text="Helsing" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200449" Text="Helsing" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200450" Text="Stein Shovel" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200451" Text="Balloonist Aiko" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200452" Text="Sirben Traecit" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200453" Text="Seiren Messenger" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200454" Text="Guard Donnah" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200455" Text="Guard Donnah" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200456" Text="Arkada" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200457" Text="Arkada" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200458" Text="Arkada" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200459" Text="Guard Donnah" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200460" Text="Sirben Traecit" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200461" Text="Jieri Lotess" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200462" Text="Balloonist Aiko" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200463" Text="Siri" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200464" Text="Ose" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200465" Text="Captain Spicchio" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200466" Text="Captain Spicchio" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200467" Text="Cora" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200468" Text="The Mysterious Box" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200469" Text="The Great Box" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200470" Text="Magician Guard Naro" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200471" Text="Sage Oban Trakit" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200472" Text="Sage Oban Trakit" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200473" Text="Sage Oban Trakit" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200474" Text="Hurif Lionheart" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200475" Text="Hurif Lionheart" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200476" Text="Hurif Lionheart" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200477" Text="Sage Oban Trakit" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200478" Text="Sage Oban Trakit" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200479" Text="Sage Oban Trakit" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200480" Text="Captain Cursis" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200481" Text="Master Chef Olise" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200482" Text="Master Tailor Nellia" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200483" Text="Captain Ruxus" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200484" Text="Master Chef Iils" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200485" Text="Master Tailor Onnu" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200486" Text="Captain Paulus" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200487" Text="Master Chef Milke" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200488" Text="Master Tailor Shushua" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001200489" Text="" Note_File="QuestOperator.xml" Note_Field="giveNPCName"/>
+	<Message ID="1001300001" Text="Can't anyone help us?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300002" Text="We need help at the Coraleve Mine!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300003" Text="We need help at the Coraleve Mine!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300004" Text="What should we do? There's a problem at the Coraleve Mine." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300005" Text="What should we do? There's a problem at the Coraleve Mine." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300006" Text="What should we do? There's a problem at the Coraleve Mine." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300007" Text="If you come on out to the Coral Mine, I just may let you help me. Consider yourself lucky." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300008" Text="If you come on out to the Coral Mine, I just may let you help me. Consider yourself lucky." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300009" Text="Something's gone wrong at the Coraleve Mine! What do we do?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300010" Text="Help! We've got a man down at the Coral Mine! He's hurt bad." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300011" Text="I'm at the Coral Mine and I need help! There has to be an adventurer who can help me." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300012" Text="Deep in the Coral Mine there's an ancient site with mysterious powers." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300013" Text="I'm at the Coral Mine and I need help! There has to be an adventurer who can help me." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300014" Text="Please come help us at the Coral Mine! We need your help, now!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300015" Text="Help us cut down the trees!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300016" Text="We need to mine ore double fast. Come help us! Quick!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300017" Text="We need to protect the relics from harm!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300018" Text="Here's how we restore the peace." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300019" Text="It just gets worse and worse at that Coral Factory every day. Go help them." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300020" Text="Please come to the Coral Factory. Something strange is happening." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300021" Text="Come to Green Coral Farm and I'll tell you all about the place." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300022" Text="We need your help to fix this. Come to Green Coral Farm as fast as you can!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300023" Text="We need your help in Green Coral." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300024" Text="The forest… the land… they're… contaminated… Help…us…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300025" Text="The forest… the land… they're… contaminated… Help…us…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300026" Text="We need your help in Green Coral!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300027" Text="We need your help in Green Coral!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300028" Text="We need someone to refine it for us. Could you do that?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300029" Text="We need some help to craft this. Can you give me a hand?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300030" Text="In Green Coral we need as much help as we can get from adventurers like yourself." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300031" Text="There are bizarre… things… all over the beach! What in the world are they?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300032" Text="Please help! I'm at Heine Beach." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300033" Text="We need some urgent help in Tu Mata." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300034" Text="We need some urgent help in Tu Mata." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300035" Text="Please come to Blue Coral. I've been waiting to meet you." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300036" Text="Come to Blue Coral as fast as you can! I have important information for you." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300037" Text="You want to learn how to get rich? Come to the warehouse." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300038" Text="This is how you get stronger." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300039" Text="You want to know which is the most powerful weapon at Blue Coral Smithy? I'll tell you." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300040" Text="If you want to learn how to move faster, come see me." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300041" Text="Why won't the Wingers understand me?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300042" Text="If you're an adventurer, you've got to see him!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300043" Text="Do you want to be a true fighter?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300044" Text="Quick! Help the postman." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300045" Text="We could use an extra hand for deliveries! Meet me at the stable." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300046" Text="I've got a message for a friend in West Tumbara." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300047" Text="Send the Khan's regard to the Chief at the Blue Coral." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300048" Text="Come on over to the Blue Coral. I'll introduce you to a bunch of people who can help you out." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300049" Text="Go to the Blue Coral Cathedral to hear some words of wisdom." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300050" Text="There's a girl in distress. She could use an adventurer's help." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300051" Text="Please! My older brother is missing. Can you find him? Please, we need to find him!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300052" Text="It's urgent! Come to the East Gate of Blue Coral and I'll tell you everything." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300053" Text="The researchers are in trouble! We need you at the Coraleve Mine!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300054" Text="We can't let this happen, but just we're not strong enough to prevent it! Can you come to the Coraleve Mine and help?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300055" Text="I'm too hungry to fight." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300056" Text="What should we do? I can't do this alone." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300057" Text="He's wandering around on some beach! But which one? I'm so worried…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300058" Text="Please protect these treasures from getting stolen." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300059" Text="I need to deliver this treasure to him…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300060" Text="There's so much to do in the Old Coral Forest. You should help him." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300061" Text="The Sobeks are making trouble again in the Old Coral Forest. We need you here." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300062" Text="There's lots of useful stuff in the Old Coral Forest, if you can find it." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300063" Text="There's plenty that you could help us with." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300064" Text="I'll tell you where Lichil is." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300065" Text="This has to be a clue to finding the Lime!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300066" Text="There are just too many Sobek infesting the Old Coral Forest." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300067" Text="Please help us! We're running out of supplies." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300068" Text="Come here for a sec. Something serious has happened." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300069" Text="Since I'm hurt I can't make any deliveries, but maybe you could do it for me?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300070" Text="Come to the Blueberry Farm! Hurry!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300071" Text="Come to the Blueberry Farm! Hurry!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300072" Text="There's a suspicious looking Keiger in Red Coral. How did that happen?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300073" Text="There's an emergency in Red Coral. We need you to get here as fast as you can!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300074" Text="Oh, please! Please find my son Gormand. I don't know what I'll do…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300075" Text="Someone dropped a basket in Red Coral." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300076" Text="I'm not scared of any Balaur hiding out in Red Coral!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300077" Text="There's an emergency in Red Coral. Come quickly!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300078" Text="Someone dropped a suspicious item behind Foul Shama." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300079" Text="There's something hidden deep in Red Coral Cave that's sending out energy. I've never seen anything quite like it…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300080" Text="The refugees in Red Coral are in danger. Hurry!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300081" Text="Balaur are after me! Help!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300082" Text="Please come to the Coral Farm! You could really help me out." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300083" Text="Please come to the Coral Farm! You could really help me out." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300084" Text="I'd like to help out at the Coral Farm, but it's not easy." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300085" Text="Something strange going on at the Coral Farm. Could you check it out?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300086" Text="Grrr…Help me. The Hill of Silent Light has a hidden secret…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300087" Text="Grrr…Help me. The Hill of Silent Light has a hidden secret…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300088" Text="Grrr…Help me. The Hill of Silent Light has a hidden secret…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300089" Text="I need to tell you something important. Come to Blue Coral!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300090" Text="You'll have to be the best if you want to solve the mystery of the ancient ruins at the Excavation Site." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300091" Text="You'll have to be the best if you want to solve the mystery of the ancient ruins at the Excavation Site." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300092" Text="The children have gone missing! We need your help at the ancient ruins in the Excavation Site." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300093" Text="I… I don't know what you're talking about. I've never lived in the Forest of the Howling Ghost." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300094" Text="I… I don't know what you're talking about. I've never lived in the Forest of the Howling Ghost." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300095" Text="There's a darkness in the Forest of the Howling Ghost. Something evil lives there…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300096" Text="A mysterious coffin appeared on North Beach." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300097" Text="There's a darkness in the Forest of the Howling Ghost. Something evil lives there…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300098" Text="There's a darkness in the Forest of the Howling Ghost. Something evil lives there…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300099" Text="There's a darkness in the Forest of the Howling Ghost. Something evil lives there…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300100" Text="It's time to finish our conversation. Come to the cathedral." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300101" Text="A very important customer came to Blue Coral." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300102" Text="I'll be waiting for you at Blue Coral Port." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300103" Text="You swore to defend Aria Island against any threat. We need you now, if we're going to have any chance of saving the Island." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300104" Text="You swore to defend Aria Island against any threat. We need you now, if we're going to have any chance of saving the Island." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300105" Text="You swore to defend Aria Island against any threat. We need you now, if we're going to have any chance of saving the Island." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300106" Text="The Queen of Seirens is imprisoned on Aria Island. You need to rescue her!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300107" Text="I'll have revenge on the Marinebees!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300108" Text="I'll have revenge on Marinebees!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300109" Text="We Seirens send our warm regards. Please come listen to us on Aria Island, we would be delighted by your company." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300110" Text="I'll tell you how you can step forward." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300111" Text="I can tell you where you're going." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300112" Text="Meet me at Blue Coral Port and I can get you to Duval Highland." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300113" Text="Oh, it's so unfair! I want justice. Please come to Katumba, I know you can make this right." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300114" Text="We need your help in Katumba Canyon. We can't endure this punishment any longer. You can end it, you can help us!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300115" Text="Come to Katumba Canyon and we'll begin your real training." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300116" Text="Over in Katumba Canyon, well… There's something that could use your skill." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300117" Text="At your level of skill, best to go to Katumba Canyon." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300118" Text="Something is a bit suspicious about the inside of the Vics Nest." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300119" Text="Argh! What can I do to let go of this anger? I'm trapped inside the Katumba Nest!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300120" Text="Argh! What can I do to let go of this anger? I'm trapped inside the Katumba Nest!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300121" Text="I'll tell you a secret, but you can't tell anyone you met me, all right?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300122" Text="There is a device that emits mysterious energy in the Vics Nest." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300123" Text="I'll tell you a secret, but you can't tell anyone you met me, all right?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300124" Text="Something's gone wrong with the Supply Army on Lion Hill." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300125" Text="We're in danger at the entrance to Katumba Canyon. Please, we need you now!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300126" Text="We need your help cutting down the trees!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300127" Text="Please help me find the lost artifact." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300128" Text="You can always use supplies, so keep gathering them when you see them." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300129" Text="Would you deliver this letter?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300130" Text="We don't have enough people to man the Shabadu Canyon watch. We could really use your help at the Watch Tower." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300131" Text="We don't have enough people to man the Shabadu Canyon watch. We could really use your help at the Watch Tower." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300132" Text="We have to keep an eye on Shabadu Canyon at all times. Meet me at the canyon entrance." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300133" Text="We have to keep an eye on Shabadu Canyon at all times. Meet me at the canyon entrance." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300134" Text="We don't have enough people to man the Shabadu Canyon watch. We could really use your help at the Watch Tower." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300135" Text="I'll tell you about the farm. Come to Kuniba Farm." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300136" Text="Do you want to try extracting something? Come to Kuniba Farm right now." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300137" Text="Do you want to try extracting something? Come to Kuniba Farm right now." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300138" Text="Do you want to try extracting something? Come to Kuniba Farm right now." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300139" Text="You'll help us protect the Kuniba Farm, won't you?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300140" Text="Please help the guard in Kuniba. There isn't much you can do here." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300141" Text="Please help the guard in Kuniba. There isn't much you can do here." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300142" Text="Just about every new adventurer comes by Kuniba." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300143" Text="Something very scary is living near Kuniba." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300144" Text="Do you want to become stronger? Come to Kuniba." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300145" Text="I have something for you. Come here as soon as you can!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300146" Text="We have to help each other here. What do you say? Are you willing to give me a hand?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300147" Text="A true adventurer knows how to take care of his weapons." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300148" Text="Everyone says that the blacksmith in Kuniba is the best. And that would be me." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300149" Text="One of my friends is quite an interesting person. Mysterious, you might say. Want to meet him?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300150" Text="There's something urgent… Please come to Kuniba." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300151" Text="Have you ever heard of the Lime Expedition?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300152" Text="You have to see this! I can't believe it. I just can't believe something so strange could happen. Come on! Get a move on!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300153" Text="We must find the tombstone of Jebidia!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300154" Text="This is horrible! What should we do?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300155" Text="No one visits the Khan's Land if they can avoid it. But I need help.  Is there anyone who'd be willing to come and help me?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300156" Text="The scorpions in this meadow are too powerful. We need to get rid of them." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300157" Text="Please find the Missing Expedition Member near the Rinkee Cave." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300158" Text="We found a Suspicious Keiger in the Rinkee Cave. Come! Quickly!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300159" Text="I see this is a type of meadow that Keigers have a hard time passing through. Would you help us search the Rinkee Cave?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300160" Text="I see this is a type of meadow that Keigers have a hard time passing through. Would you help us search the Rinkee Cave?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300161" Text="I'm so scared of the Rinkee Cave! Help!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300162" Text="Have you ever heard of Ramboro the ruler of Rinkee Cave? He's no easy fight." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300163" Text="We found a Suspicious Keiger in the Rinkee Cave. Come! Quickly!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300164" Text="I see this is a type of meadow that Keigers have a hard time passing through. Would you help us search the Rinkee Cave?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300165" Text="There is a device that emits mysterious energy inside the Rinkee Cave." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300166" Text="Someone left a Worn Pouch in the Rinkee Cave." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300167" Text="I see this is a type of meadow that Keigers have a hard time passing through. Would you help us search the Rinkee Cave?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300168" Text="I want to let them know that I'm safe. I'm at the entrance to the Rinkee Cave." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300169" Text="The Lime Expedition has a rough road ahead." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300170" Text="The hunters desperately need water. Can you deliver it to them?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300171" Text="This meadow is deadly. We need your help. Please, hurry!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300172" Text="Please come to the South Watch Tower. There's something I need you to do for us." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300173" Text="Oh, those evil Hurricane Members! Please come protect the Khan's Frostbite!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300174" Text="We've found something suspicious looking at the Khan's grave!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300175" Text="Something troubling happened at Windmill Town. Please come as soon as you can." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300176" Text="Where did everyone go? Come to the East Gate of Karakunta!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300177" Text="Where did everyone go? Come to the East Gate of Karakunta!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300178" Text="You want to learn how to get rich? Come to the warehouse." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300179" Text="Get over here as soon as you can. Someone's looking for you." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300180" Text="This must be done it total secrecy! Come to the 3rd floor of the Tower of Fire Tradition." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300181" Text="I'm at the North Karakunta Cave. What's taking you so long? Get over here right now!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300182" Text="Can I talk to you for a second?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300183" Text="Please come to the 3rd Floor of the Tower of Fire Tradition. It's urgent." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300184" Text="I'm General Kale. This is an order! Come to the 1st Floor of the Tower of Fire Tradition." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300185" Text="It looks like something has happened in Lamkuka Town. Come over to the Central Sentry Post and help us!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300186" Text="The refugees in Lamkuka Town need your help. Don't waste any time getting to them." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300187" Text="Please help us! The Kashan Chasers are…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300188" Text="Please help us! Our town is under attack!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300189" Text="We must make them pay for what they've done! So that something like this will never happen again!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300190" Text="We must make them pay for what they've done! So that something like this will never happen again!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300191" Text="We must make them pay for what they've done! So that something like this will never happen again!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300192" Text="We need to inform the Khan of what happened! Please come to the Central Watch Tower." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300193" Text="This is the Khan speaking! Come to Karakunta! I'll be waiting for you at the Tower of Fire Tradition!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300194" Text="Come to Blue Coral. I want the Khan to see that we're friends with Turgas." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300195" Text="Don't make the Khan wait too long!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300196" Text="We can never let our guard down at the North Watch Tower. Someone must always be watching." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300197" Text="Are the Three Plague Brothers really back?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300198" Text="Are the Three Plague Brothers really back?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300199" Text="Are the Three Plague Brothers really back?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300200" Text="We need better security at the North Watch Tower. So we're looking for volunteers!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300201" Text="Lots of weird things have happened at Mane Meadow." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300202" Text="The Mane Meadow is where the War of the Plains took place. It's almost become a memorial to the suffering and loss war causes. We need your help there." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300203" Text="We need your help getting our revenge on the plains." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300204" Text="The Keiger Warriors may be our enemies, but you can't deny they're brave." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300205" Text="Where did he go? It looks like he may have gone near the Road of the Brave…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300206" Text="Don't be a donkey. You aren't the Conqueror of the Road of the Brave." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300207" Text="I can't believe something like this was happening in the western part of Karakunta!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300208" Text="Have you been to Talunvara Canyon? Something strange is happening there." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300209" Text="We need to notify our superiors of the incidents that are taking place in the western part of Karakunta!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300210" Text="We need to send an emergency order! To Karakunta!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300211" Text="Please come quickly! It's an emergency!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300212" Text="You need to move fast! Get yourself to Talnuvara Canyon." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300213" Text="You need to move fast! Get yourself to Talnuvara Canyon." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300214" Text="You need to move fast! Get yourself to Talnuvara Canyon." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300215" Text="I feel something familiar deep inside the canyon." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300216" Text="I feel something familiar deep inside the canyon." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300217" Text="Everything that happens from this point onward is up to you." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300218" Text="I'll tell you everything if you come to the Historical Site at Wing Lake!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300219" Text="I'll tell you everything if you come to the Historical Site at Wing Lake!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300220" Text="Come see me if you want to learn how to get stronger." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300221" Text="Please meet me at the Nomads' Wagon. I have a favor to ask of you, my friend." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300222" Text="It's so sad to be standing under the cliff all by myself. Would you come with me?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300223" Text="It's so sad to be standing under the cliff all by myself. Would you come with me?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300224" Text="It's so sad to be standing under the cliff all by myself. Would you come with me?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300225" Text="It's so sad to be standing under the cliff all by myself. Would you come with me?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300226" Text="Please meet me at the Nomads' Wagon. I have a favor to ask of you, my friend." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300227" Text="Come to the East Beacon Tower. There's something you need to do right now." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300228" Text="I'll be waiting for you at the Garona Nest. Please come and help us!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300229" Text="The Garona Nest feels… familiar. Like I've been there before." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300230" Text="You have to help the Garona clan! Please, come to our Nest. We need you!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300231" Text="You have to help the Garona clan! Please, come to our Nest. We need you!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300232" Text="How can we save the Garonas from this crisis of theirs?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300233" Text="How can we save the Garonas from this crisis?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300234" Text="I heard an interesting rumor about the Lime. It could be very useful…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300235" Text="We need some good adventurers to help the nomads." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300236" Text="You're digging around for information about the Lime? Come see me. I might have something very interesting to tell you. Very interesting." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300237" Text="There is a clue to finding the Lime here at the Spiral Ruins." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300238" Text="There is a clue to finding the Lime here at the Spiral Ruins." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300239" Text="There is a clue to finding the Lime here at the Spiral Ruins." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300240" Text="The grown ups just won't believe me. Do you believe me? Or are you like them?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300241" Text="Come to the Ebon Highland  and hear the Valkyrian's Warning." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300242" Text="Come to the Ebon Highland  and hear the Valkyrian's Warning." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300243" Text="The grown ups just won't believe me. Do you believe me? Or are you like them?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300244" Text="Please come to Ebon Highland . It's urgent." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300245" Text="Please come to the Pitchdark Slope. It's important." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300246" Text="Please come to the Pitchdark Slope. It's important." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300247" Text="Please come to the Pitchdark Slope. It's important." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300248" Text="There is a jar that emits some mysterious energy in the lake on Pitchdark Slope." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300249" Text="Please come to the Pitchdark Slope. It's important." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300250" Text="Please come to Ebon Highland . It's urgent." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300251" Text="Please come to Lichil's Tribe. We need the help of adventurers." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300252" Text="We need to find out why the Lichil and Hamudan hate each other so much. Or else we'll never end this grudge of theirs." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300253" Text="Please come to Lichil's Tribe. We need the help of adventurers." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300254" Text="Come to the entrance to the Black Spider Forest! I'm in the Venti Highland." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300255" Text="Another one of Tatula's victims!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300256" Text="Come to the entrance to the Black Spider Forest! I'm in the Venti Highland." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300257" Text="I'm alone in the Black Spider Forest! My friends are dead! I don't know how to get free." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300258" Text="Black Spider Forest holds a wealth of adventures ripe for the taking. Every traveler should pass through at least once." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300259" Text="Ninehof was looking for a human in the Black Spider Forest." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300260" Text="Come to the entrance to the Black Spider Forest! I'm in the Venti Highland." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300261" Text="If the Viceroy had just done his job, none of this would have happened!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300262" Text="My uncle said he'd meet me in Majerona. Have you seen him?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300263" Text="Haha! You'll find me at the Majerona Weapon Store." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300264" Text="Majerona's a small village, but it makes a good enough rest stop." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300265" Text="Majerona's a small village, but it makes a good enough rest stop." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300266" Text="For goodness sake! The Viceroy's Aide is extraordinarily rude. How dare he use that tone of voice with me!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300267" Text="I am the Aide to the Viceroy of Majerona. I can give you something to do. Follow me, and be snappy about it. I don't have all day, you know." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300268" Text="Hah! Come to Majerona and I'll tell you something you'll like!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300269" Text="You won't find a better Antique Dealer in all of Majerona!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300270" Text="You won't find a better Antique Dealer in all of Majerona!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300271" Text="I'm in Hamudan's Savanna. I'll be waiting for you." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300272" Text="I'm in Hamudan's Savanna. I'll be waiting for you." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300273" Text="I'm in Hamudan's Savanna. I'll be waiting for you." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300274" Text="The research I'm doing on the Scamper Highland is very important." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300275" Text="The research I'm doing in the Scamper Highland is very important." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300276" Text="The research I'm doing in the Scamper Highland is very important." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300277" Text="They're up to something, I know it! We need more volunteers at the Border Checkpoint." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300278" Text="They're up to something, I know it! We need more volunteers at the Border Checkpoint." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300279" Text="Can you hear the howling echoing on the Festering Highland? I can understand that kind of grief." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300280" Text="Can you hear the howling echoing on the Festering Highland? I can understand that kind of grief." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300281" Text="Can you hear the howling echoing on the Festering Highland? I can understand that kind of grief." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300282" Text="There is an altar that emits gloomy energy over the Festering Highland." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300283" Text="There is an altar that emits gloomy energy over the Festering Highland." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300284" Text="Can you hear the howling echoing on the Festering Highland? I can understand that kind of grief." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300285" Text="What a Bad Matina Merchant! Come to the Mushrock Forest." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300286" Text="Standing in the Mushrock Forest doing nothing makes me sweat." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300287" Text="I want to get out of Louran, but I'm tied up in the Mushrock Forest." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300288" Text="I want to get out of Louran, but I'm tied up in the Mushrock Forest." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300289" Text="Standing in the Mushrock Forest without doing anything makes me sweat." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300290" Text="What a Bad Matina Merchant! Come to the Mushrock Forest." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300291" Text="It's very hard working at Hasredin's Farm." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300292" Text="I really hate this desert, have I told you that? And Hasredin is one ruthless Matina." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300293" Text="It's very hard working at Hasredin's Farm." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300294" Text="For Wiltin's sake, please come to Hasredin Farm as fast as you can." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300295" Text="It's very hard working at Hasredin's Farm." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300296" Text="I'm old now, but I'm still Hasredin's slave." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300297" Text="I feel bad for the humans in the Dust Coral. I really do." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300298" Text="Please--help! Can you go to Shaura Desert?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300299" Text="Please--help! Can you go to Shaura Desert?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300300" Text="Believe me, there's water in Desert Shuara Nest." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300301" Text="I'll tell you how you can help the Desert Humans. Come to Dust Coral!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300302" Text="I'll tell you how you can help the Desert Humans. But first you have to come to Dust Coral!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300303" Text="I feel bad for the humans in the Dust Coral. I really do." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300304" Text="I feel sorrry for the humans in Dust Coral. Really, I do." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300305" Text="Most of the Pikin Slaves are in Al Amir, mistreated and abused by the Matina… I swear, the Matina are pure evil!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300306" Text="There's a strange jar in Al Amir." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300307" Text="Most of the Pikin Slaves are in Al Amir, mistreated and abused by the Matina… I swear, the Matina are pure evil!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300308" Text="Oh, I just wanted to take a walk in the Central Oasis. Hahaha!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300309" Text="Most of the Pikin Slaves are in Al Amir, mistreated and abused by the Matina… I swear, the Matina are pure evil!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300310" Text="Please find my daughter in law. She was kidnapped by the Droughtstorm Thieves." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300311" Text="Please find my daughter in law. She was kidnapped by the Droughtstorm Thieves." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300312" Text="Please find my daughter in law. She was kidnapped by the Droughtstorm Thieves." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300313" Text="What you're looking for is in the Droughtstorm Thieves' Den." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300314" Text="What you're looking for is in the Droughtstorm Thieves' Den." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300315" Text="I want to meet my hubby, Besollo!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300316" Text="I want to know what happened to the Pikin slave who ran away. We were friends." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300317" Text="Someone dropped a worn bundle at the entrance to Tirole." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300318" Text="All the Ichichikas in Tirole are friendly" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300319" Text="All the Ichichikas in Tirole are friendly" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300320" Text="If you cause any trouble in Tirole, I won't clean up your mess. It's all on you." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300321" Text="You can solve the problem in Tirole in one shot!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300322" Text="All the Ichichikas in Tirole are friendly." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300323" Text="Only we know the secret of Tirole." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300324" Text="Would you come to Tirole for a little while? I need your help." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300325" Text="There's a ghost in the ruins of the Desert Port! A ghost!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300326" Text="Please come to the ruins of the Desert Port. The people there are in danger. They need help!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300327" Text="Please rescue Firia! She's trapped in the Historical Site of Desert Port!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300328" Text="What do you mean, there's a port in the desert? This place is crazy." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300329" Text="What do you mean, there's a port in the desert? This place is crazy." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300330" Text="What do you mean, there's a port in the desert? This place is crazy." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300331" Text="There's this tombstone in the ruins of Desert Port. It's got some sort of strange energy coming off it… An aura, maybe?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300332" Text="What do you mean, there's a port in the desert? This place is crazy." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300333" Text="The desert holds more mysteries than just the ruined port." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300334" Text="Something interesting is happening on the Droughtstorm Hill." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300335" Text="Are you looking for the Lime, too? I know all about it!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300336" Text="No, please, no! I don't want to die on some forsaken hill in the middle of a sandstorm." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300337" Text="You scoundrel! Please come to the Sandstorm Hill and teach the scoundrel a lesson!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300338" Text="I almost lost my money when I worked so hard for it! Come to the Droughtstorm Hill." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300339" Text="I almost lost my money when I worked so hard for it! Come to the Droughtstorm Hill." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300340" Text="Something interesting is happening on the Droughtstorm Hill." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300341" Text="Come to Gentrato Ant Tunnel and we can uncover the mystery together, my friend." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300342" Text="Come to Gentrato Ant Tunnel and we can uncover the mystery together, my friend." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300343" Text="Gentrato Ant Tunnel is emitting some mysterious energy." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300344" Text="There are plenty of people who could use some help from an adventurer like yourself." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300345" Text="Hi there! Please come to the Ruins of Glory! Something troubling has just happened." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300346" Text="Hi there! Please come to the Ruins of Glory! Something troubling has just happened." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300347" Text="Looks can be deceiving. You'll understand when you meet me." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300348" Text="I'll make the Matina pay for destroying our town!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300349" Text="Looks can be deceiving. You'll understand when you meet me." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300350" Text="Looks can be deceiving. You'll understand when you meet me." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300351" Text="I heard that a Matina found the Lime. Is this true?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300352" Text="Do you think Al-Hadin of Matina Cottage really has the Lime?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300353" Text="Could it be that the Lime has something to do with the Matina Cottage Owner's continued good fortune?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300354" Text="I can't see anything. I'm serious." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300355" Text="Deigel! Stay focused! Would someone please come help Deigel?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300356" Text="Deigel! Stay focused! Would someone please come help Deigel?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300357" Text="We need your help to defeat Tolboka." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300358" Text="We've discovered what's causing the abnormal phenomena in the Forest of Howling Ghosts!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300359" Text="The strength in your arms is matched only by the strength in your heart…/n We need your help." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300360" Text="Excuse me. Could you come to Pitchdark Slope by any chance?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300361" Text="Come over here! I have something you can do that could earn you a bit of gold, friend." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300362" Text="Welcome to the Shimmering Isle!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300363" Text="Drat…what should we do?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300364" Text="Oh, gods! My tea field!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300365" Text="I'm…ruined…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300366" Text="What I need is a fence." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300367" Text="I stumbled on the strangest pit…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300368" Text="Ack!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300369" Text="Oh, not again…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300370" Text="You abandoned something this amazing?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300371" Text="All I know is that you left me behind; where did you go?!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300372" Text="Come home soon, or grandmother will get very angry…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300373" Text="At this rate, your rear will be black and blue for weeks!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300374" Text="Hey, you! I warned you not to try weaseling away somewhere!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300375" Text="Is it odd that my own grandmother terrifies me?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300376" Text="The tea field is going to be completely destroyed!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300377" Text="Hey, you! I warned you not to try weaseling away somewhere!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300378" Text="Do you have some business with me?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300379" Text="Do you have some business with me?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300380" Text="Where did you go? We were in the middle of a conversation!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300381" Text="Where did you go? We were in the middle of a conversation!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300382" Text="Where did you go? We were in the middle of a conversation!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300383" Text="Hey, you! I warned you not to try weaseling away somewhere!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300384" Text="Please! Somebody! Help! Oh, Ribbon…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300385" Text="Please! Somebody! Help! Oh, Ribbon…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300386" Text="Where did you go? We were in the middle of a conversation!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300387" Text="Hey, you! I warned you not to try weaseling away somewhere!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300388" Text="You didn't forget about the errand for grandmother….did you?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300389" Text="Fishing is my favorite sport. Besides eating, I mean." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300390" Text="We have to find Luna." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300391" Text="Help!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300392" Text="I just want to go home…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300393" Text="Hey, you! I warned you not to try weaseling away somewhere!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300394" Text="Hey, you! I warned you not to try weaseling away somewhere!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300395" Text="Follow me! You can't miss this!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300396" Text="Follow me! You can't miss this!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300397" Text="Oh, dear Nysis--Fettru!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300398" Text="Look after the Magic Stone and Shimmering Isle for me." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300399" Text="Heh." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300400" Text="Don't look so smug; I'll get you back for that." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300401" Text="Damn! It's so frustrating…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300402" Text="Can't you move any faster?!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300403" Text="I need a friend to help." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300404" Text="Better watch it; we're likely to fall." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300405" Text="Look after the Magic Stone and Shimmering Isle for me." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300406" Text="I'm sorry, young adventurer; your trials aren't through yet." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300407" Text="Ahem…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300408" Text="I'm sorry, for a second there, it sounded like you were underestimating me." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300409" Text="I'm sorry, for a second there, it sounded like you were underestimating me." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300410" Text="A letter! A letter arrived!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300411" Text="I'm just…I'm just not very strong. Can you help me?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300412" Text="Didn't you say you needed something fixed?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300413" Text="There are lots of things left to fix." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300414" Text="Weren't you trying to strengthen that sword?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300415" Text="You can't leave things like this. Regret will scar your heart forever." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300416" Text="Fate is a force you don't want to cross." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300417" Text="Brisk wind, isn't it?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300418" Text="Have you given up already? You've just begun!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300419" Text="Gods, this is nap-inducing…where are you?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300420" Text="Beauty is power. And I've got an overwhelming amount of both. " Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300421" Text="Tired already? You can't be serious! " Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300422" Text="You swore you'd come on an adventure with me. Treasure hunting. Remember?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300423" Text="I'll be so disappointed if you break your promise." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300424" Text="Come, come! Let me introduce you to my family." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300425" Text="Nord didn't ruin things, did he?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300426" Text="Master will hear of this." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300427" Text="But we're almost there! You're not honestly giving up already? We're so close!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300428" Text="I sensed your arrival. You have a peaceful aura, like a mountain brook in spring." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300429" Text="Much to do remains." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300430" Text="It's a step in the right direction." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300431" Text="You can't live your life alone. " Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300432" Text="You've survived so much…you deserve some recognition." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300433" Text="The finale is the most important element--it's what everyone walks away thinking about." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300434" Text="Bleh." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300435" Text="My head is throbbing…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300436" Text="Look. I appreciate your help and all, but I really don't need it, and I'm insulted that you think I do." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300437" Text="Help!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300438" Text="Don't dawdle! We've got to begin our adventure." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300439" Text="Ha!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300440" Text="What…is there someone on top of the hill?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300441" Text="This is serious." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300442" Text="What should I do?!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300443" Text="I wonder what happened to that kid who was headed to the lake?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300444" Text="Damn highwaymen scoundrels." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300445" Text="We need more materials. Please." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300446" Text="I can't believe I'm saying this, but I'm scared. Really, really scared." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300447" Text="Yep. Still scared." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300448" Text="Maybe they had some legitimate business with me." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300449" Text="Uh…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300450" Text="Didn't you hear me? Hurry up with those!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300451" Text="Aren't you curious how close the repair is to being finished?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300452" Text="Looks like some help might be required." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300453" Text="Please, help!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300454" Text="Marinebee rogues!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300455" Text="Just…wait…hm. Turn it like this for a second…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300456" Text="Agh!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300457" Text="Agh!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300458" Text="Agh!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300459" Text="Just…wait…hm. Turn it like this for a second…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300460" Text="Now we're getting somewhere!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300461" Text="I have a modest request to make." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300462" Text="Done! Fixed! Finished! Hurry back." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300463" Text="Hey! You! Come here for a second!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300464" Text="Hey! You! Come here for a second!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300465" Text="Oh, adventurer! Please help me!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300466" Text="Oh, adventurer! Please help me!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300467" Text="You need to go further if you want to find work." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300468" Text="Rumor has it that something mysterious was found in Green Coral." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300469" Text="Rumor has it that something grand was found in Kuniba." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300470" Text="The Grandfather Tree spit out something strange!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300471" Text="Hahaha! Come here for a sec!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300472" Text="Hahaha! Come here for a sec!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300473" Text="Hahaha! Come here for a sec!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300474" Text="I need to talk to you." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300475" Text="I need to talk to you." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300476" Text="I need to talk to you." Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300477" Text="Hahaha! Come here for a sec!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300478" Text="Hahaha! Come here for a sec!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300479" Text="Hahaha! Come here for a sec!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300480" Text="Awww…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300481" Text="Get over here!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300482" Text="Eh…" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300483" Text="Kahahaha!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300484" Text="Is it already time?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300485" Text="Oh, why isn't he coming?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300486" Text="Argh! Why is this place so huge?" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300487" Text="Mmm…I can't get enough of that refreshing Goty milk!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300488" Text="Wow! This is a really beautiful place!" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+	<Message ID="1001300489" Text="" Note_File="QuestOperator.xml" Note_Field="giveNPCTalk"/>
+</Localization>

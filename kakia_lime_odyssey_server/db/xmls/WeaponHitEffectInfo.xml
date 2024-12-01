@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!--  AttackPattern :  맨손(0), 단검(1), 한손창(2), 한손도검(3), 한손도끼(4), 한손둔기(5), 한손지팡이(6), 한손채찍(7), 책(8), 양손창(9), 양손도검(10), 양손도끼(11), 양손둔기(12), 양손지팡이(13), 양손채찍(14), 권총(15), 장총(16), 활(17), 석궁(18), 오브(19), 완드(20), 쌍수(21), 더미(28~49)-->
+<!-- edited with XMLSpy v2006 rel. 3 U (http://www.altova.com) by apple (orange) -->
+<ShapeInfo>
+	<Pam>
+		<Male>
+			<Effect weaponType="0">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="1">
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="683" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="2">
+				<weaponTypeEffect hitEffect="683" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="707" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="3">
+				<weaponTypeEffect hitEffect="683" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="707" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="4">
+				<weaponTypeEffect hitEffect="683" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="707" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="5">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="6">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="7">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="8">
+				<weaponTypeEffect hitEffect="2342" criticalHitEffect="2342" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2342" criticalHitEffect="2342" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2342" criticalHitEffect="2342" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="9">
+				<weaponTypeEffect hitEffect="683" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="10">
+				<weaponTypeEffect hitEffect="683" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="11">
+				<weaponTypeEffect hitEffect="683" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="12">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="13">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="14">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="15">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="16">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="17">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="18">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="19">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="20">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="21">
+				<weaponTypeEffect hitEffect="707" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="683" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="22">
+				<weaponTypeEffect hitEffect="707" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="683" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="23">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="24">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="25">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="26">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="27">
+				<weaponTypeEffect hitEffect="707" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="683" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+		</Male>
+		<Female>
+			<Effect weaponType="0">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="1">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="707" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="2">
+				<weaponTypeEffect hitEffect="707" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="708" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="3">
+				<weaponTypeEffect hitEffect="707" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="708" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="4">
+				<weaponTypeEffect hitEffect="707" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="708" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="5">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="6">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="7">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="8">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="9">
+				<weaponTypeEffect hitEffect="707" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="10">
+				<weaponTypeEffect hitEffect="707" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="11">
+				<weaponTypeEffect hitEffect="707" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="12">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="13">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="14">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="15">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="16">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="17">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="18">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="19">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="20">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="21">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="22">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="23">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="24">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="25">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="26">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="27">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+		</Female>
+	</Pam>
+	<Human>
+		<Male>
+			<Effect weaponType="0">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="1">
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="683" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="2">
+				<weaponTypeEffect hitEffect="683" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="707" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="3">
+				<weaponTypeEffect hitEffect="683" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="707" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="4">
+				<weaponTypeEffect hitEffect="683" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="707" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="5">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="6">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="7">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="8">
+				<weaponTypeEffect hitEffect="2342" criticalHitEffect="2342" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2342" criticalHitEffect="2342" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2342" criticalHitEffect="2342" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="9">
+				<weaponTypeEffect hitEffect="708" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="10">
+				<weaponTypeEffect hitEffect="708" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="11">
+				<weaponTypeEffect hitEffect="708" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="12">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="13">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="14">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="15">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="16">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="17">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="18">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="19">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="20">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="21">
+				<weaponTypeEffect hitEffect="707" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="683" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="22">
+				<weaponTypeEffect hitEffect="707" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="683" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="23">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="24">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="25">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="26">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="27">
+				<weaponTypeEffect hitEffect="707" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="683" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+		</Male>
+		<Female>
+			<Effect weaponType="0">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="1">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="707" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="2">
+				<weaponTypeEffect hitEffect="707" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="708" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="3">
+				<weaponTypeEffect hitEffect="707" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="708" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="4">
+				<weaponTypeEffect hitEffect="707" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="708" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="5">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="6">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="7">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="8">
+				<weaponTypeEffect hitEffect="2342" criticalHitEffect="2342" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2342" criticalHitEffect="2342" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2342" criticalHitEffect="2342" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="9">
+				<weaponTypeEffect hitEffect="707" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="10">
+				<weaponTypeEffect hitEffect="707" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="11">
+				<weaponTypeEffect hitEffect="707" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="12">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="13">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="14">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="15">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="16">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="17">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="18">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="19">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="20">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="21">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="22">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="23">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="24">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="25">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="26">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="27">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+		</Female>
+	</Human>
+	<Turga>
+		<Male>
+			<Effect weaponType="0">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="1">
+				<weaponTypeEffect hitEffect="707" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="2">
+				<weaponTypeEffect hitEffect="683" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="3">
+				<weaponTypeEffect hitEffect="683" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="4">
+				<weaponTypeEffect hitEffect="683" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="5">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="6">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="7">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="8">
+				<weaponTypeEffect hitEffect="2342" criticalHitEffect="2342" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2342" criticalHitEffect="2342" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2342" criticalHitEffect="2342" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="9">
+				<weaponTypeEffect hitEffect="708" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="10">
+				<weaponTypeEffect hitEffect="708" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="11">
+				<weaponTypeEffect hitEffect="708" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="12">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="13">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="14">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="15">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="16">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="17">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="18">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="19">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="20">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="21">
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="683" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="22">
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="683" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="23">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="24">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="25">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="26">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="27">
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="683" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+		</Male>
+		<Female>
+			<Effect weaponType="0">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="1">
+				<weaponTypeEffect hitEffect="708" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="683" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="2">
+				<weaponTypeEffect hitEffect="708" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="683" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="683" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="3">
+				<weaponTypeEffect hitEffect="708" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="683" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="683" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="4">
+				<weaponTypeEffect hitEffect="708" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="683" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="683" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="5">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="6">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="7">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="8">
+				<weaponTypeEffect hitEffect="2342" criticalHitEffect="2342" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2342" criticalHitEffect="2342" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2342" criticalHitEffect="2342" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="9">
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="683" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="10">
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="683" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="11">
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="683" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="12">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="13">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="14">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="15">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="16">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="17">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="18">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="19">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="20">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="21">
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="22">
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="23">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="24">
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="5" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="25">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="26">
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="2040" criticalHitEffect="2041" streamHitEffect="358"/>
+			</Effect>
+			<Effect weaponType="27">
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="684" criticalHitEffect="538" streamHitEffect="358"/>
+				<weaponTypeEffect hitEffect="5" criticalHitEffect="538" streamHitEffect="358"/>
+			</Effect>
+		</Female>
+	</Turga>
+	<Npc>
+		<Hit type="hit" hitEffect="6"/>
+		<Hit type="criticalHit" hitEffect="6"/>
+		<Hit type="recovery" hitEffect="6"/>
+		<Hit type="criticalRecovery" hitEffect="6"/>
+		<Hit type="skillhit" hitEffect="6"/>
+		<Hit type="criticalSkillhit" hitEffect="6"/>
+		<Hit type="miss" hitEffect="6"/>
+		<Hit type="avoid" hitEffect="6"/>
+		<Hit type="guard" hitEffect="6"/>
+	</Npc>
+</ShapeInfo>

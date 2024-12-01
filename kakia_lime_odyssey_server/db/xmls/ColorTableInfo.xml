@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by .. (..) -->
+<ColorTable>
+	<ColorTable TypeID="0" EnumType="COLOR_TABLE_ITEM_DEFAULT" Decription="아이템 이름 디폴트 색상" ColorIndex="1"/>
+	<ColorTable TypeID="1" EnumType="COLOR_TABLE_SKILL_DEFAULT" Decription="스킬 이름 디폴트 색상" ColorIndex="1"/>
+	<ColorTable TypeID="2" EnumType="COLOR_TABLE_QUEST_VERY_HARD" Decription="퀘스트 목록창 +5 이상" ColorIndex="2"/>
+	<ColorTable TypeID="3" EnumType="COLOR_TABLE_QUEST_HARD" Decription="퀘스트 목록창 +3 이상" ColorIndex="4"/>
+	<ColorTable TypeID="4" EnumType="COLOR_TABLE_QUEST_NORMAL" Decription="퀘스트 목록창 0 이상" ColorIndex="6"/>
+	<ColorTable TypeID="5" EnumType="COLOR_TABLE_QUEST_EASY" Decription="퀘스트 목록창 -3 이상" ColorIndex="12"/>
+	<ColorTable TypeID="6" EnumType="COLOR_TABLE_ITEM_CAN_ENABLE" Decription="툴팁 사용가능" ColorIndex="1"/>
+	<ColorTable TypeID="7" EnumType="COLOR_TABLE_ITEM_CANT_ENABLE" Decription="툴팁 불가 색상" ColorIndex="2"/>
+	<ColorTable TypeID="8" EnumType="COLOR_TABLE_ITEM_SPECIAL_ABILITY" Decription="툴팁 특수 효과 색상" ColorIndex="3"/>
+	<ColorTable TypeID="9" EnumType="COLOR_TABLE_ITEM_SPECIAL_SET_ABILITY" Decription="툴팁 세트 종류 색상" ColorIndex="4"/>
+	<ColorTable TypeID="10" EnumType="COLOR_TABLE_ITEM_NORMAL" Decription="아이템 이름(일반 : 등급 0)" ColorIndex="1"/>
+	<ColorTable TypeID="11" EnumType="COLOR_TABLE_ITEM_MAGIC" Decription="아이템 이름(매직 : 등급 1)" ColorIndex="6"/>
+	<ColorTable TypeID="12" EnumType="COLOR_TABLE_ITEM_RARE" Decription="아이템 이름(레어 : 등급 2)" ColorIndex="9"/>
+	<ColorTable TypeID="13" EnumType="COLOR_TABLE_ITEM_UNIQUE" Decription="아이템 이름(유닉 : 등급 3)" ColorIndex="4"/>
+	<ColorTable TypeID="14" EnumType="COLOR_TABLE_ITEM_EPIC" Decription="아이템 이름(에픽 : 등급 4)" ColorIndex="3"/>
+	<ColorTable TypeID="15" EnumType="COLOR_TABLE_MONSTER_VERY_HARD" Decription="몬스터 레벨 - 캐릭터 전투 레벨 = +5 이상" ColorIndex="2"/>
+	<ColorTable TypeID="16" EnumType="COLOR_TABLE_MONSTER_HARD" Decription="몬스터 레벨 - 캐릭터 전투 레벨 = +3 이상" ColorIndex="4"/>
+	<ColorTable TypeID="17" EnumType="COLOR_TABLE_MONSTER_NORMAL" Decription="몬스터 레벨 - 캐릭터 전투 레벨 = 0 이상" ColorIndex="6"/>
+	<ColorTable TypeID="18" EnumType="COLOR_TABLE_MONSTER_EASY" Decription="몬스터 레벨 - 캐릭터 전투 레벨 = -3 이상" ColorIndex="12"/>
+	<ColorTable TypeID="19" EnumType="COLOR_TABLE_ITEM_NORMAL_ABILITY" Decription="툴팁 기본 스텟 색상" ColorIndex="19"/>
+	<ColorIndex Index="0" EnumType="0" Description="흰색" Red="255" Green="255" Blue="255"/>
+	<ColorIndex Index="1" EnumType="0" Description="흰색" Red="255" Green="255" Blue="255"/>
+	<ColorIndex Index="2" EnumType="0" Description="빨강" Red="238" Green="0" Blue="0"/>
+	<ColorIndex Index="3" EnumType="0" Description="주황" Red="255" Green="113" Blue="19"/>
+	<ColorIndex Index="4" EnumType="0" Description="노랑" Red="255" Green="222" Blue="0"/>
+	<ColorIndex Index="5" EnumType="0" Description="연두" Red="162" Green="255" Blue="82"/>
+	<ColorIndex Index="6" EnumType="0" Description="초록" Red="18" Green="255" Blue="0"/>
+	<ColorIndex Index="7" EnumType="0" Description="풀색" Red="196" Green="249" Blue="113"/>
+	<ColorIndex Index="8" EnumType="0" Description="옥색" Red="0" Green="255" Blue="168"/>
+	<ColorIndex Index="9" EnumType="0" Description="파랑" Red="0" Green="225" Blue="245"/>
+	<ColorIndex Index="10" EnumType="0" Description="연분홍" Red="255" Green="140" Blue="248"/>
+	<ColorIndex Index="11" EnumType="0" Description="보라" Red="222" Green="0" Blue="255"/>
+	<ColorIndex Index="12" EnumType="0" Description="회색" Red="152" Green="152" Blue="152"/>
+	<ColorIndex Index="13" EnumType="0" Description="검정" Red="0" Green="0" Blue="0"/>
+	<ColorIndex Index="14" EnumType="0" Description="연빨강" Red="255" Green="85" Blue="87"/>
+	<ColorIndex Index="15" EnumType="0" Description="개나리" Red="252" Green="199" Blue="45"/>
+	<ColorIndex Index="16" EnumType="0" Description="연보라" Red="138" Green="152" Blue="255"/>
+	<ColorIndex Index="17" EnumType="0" Description="진한회색" Red="107" Green="107" Blue="107"/>
+	<ColorIndex Index="18" EnumType="0" Description="황색" Red="162" Green="143" Blue="87"/>
+	<ColorIndex Index="19" EnumType="0" Description="툴팁용_주황색" Red="255" Green="153" Blue="0"/>
+</ColorTable>

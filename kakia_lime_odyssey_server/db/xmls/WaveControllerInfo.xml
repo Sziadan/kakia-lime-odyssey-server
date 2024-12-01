@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2006 rel. 3 U (http://www.altova.com) by gh (EMBRACE) -->
+<!-- type ="MOVE" "ROT"-->
+<!-- dir ="LEFT" "RIGHT" "UP" "DWON" "FRONT" "BACK"-->
+<!-- bRestore가 1이면 절반이동했다가 제자리로 돌아옴.-->
+<!-- bChangeDir 1이면 다음번엔 정반대방향으로.-->
+<Info active="1">
+	<MotionData type="MOVE" dir="DOWN" bind="ATTACK_NORMAL" iCount="1" fRange="0.04f" fLength="20.0f" fDelay="0.0f" bRestore="1" bChangeDir="0"/>
+	<MotionData type="MOVE" dir="DOWN" bind="ATTACK_CRITICAL" iCount="1" fRange="0.15f" fLength="25.f" fDelay="0.0f" bRestore="1" bChangeDir="0"/>
+	<MotionData type="ROT" dir="LEFT" bind="HIT_NORMAL" iCount="1" fRange="0.0f" fLength="0.0f" fDelay="0.f" bRestore="1" bChangeDir="1"/>
+	<MotionData type="ROT" dir="LEFT" bind="HIT_CRITICAL" iCount="1" fRange="0.0f" fLength="0.0f" fDelay="0.f" bRestore="1" bChangeDir="1"/>
+	<MotionData type="MOVE" dir="BACK" bind="GUARD_SHIELD" iCount="1" fRange="0.0f" fLength="0.0f" fDelay="0.f" bRestore="1" bChangeDir="1"/>
+	<MotionData type="MOVE" dir="BACK" bind="GUARD_WEAPON" iCount="1" fRange="0.0f" fLength="0.0f" fDelay="0.f" bRestore="1" bChangeDir="1"/>
+	<MotionData type="MOVE" dir="BACK" bind="AVOID" iCount="1" fRange="0.0f" fLength="0.0f" fDelay="0.f" bRestore="1" bChangeDir="1"/>
+</Info>

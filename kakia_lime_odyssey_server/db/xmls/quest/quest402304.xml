@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by Administrator (EMBRACE) -->
+<Quest>
+	<Quest typeID="402304001" typeName="전승 수집" group="100" NPC="룬가 우드위버" reportTo="룬가 우드위버" cancelable="1" repeatable="1" retryable="1" lv="1" desc="난 룬가 우드위버라고 하네. 카라쿤타의 제사장이신 이던 리프테일 님의 대리인으로 이 마을에 전승을 모으러 와 있지./n오늘 두 분을 만나뵙고 전승 이야기를 듣기로 했는데, 일이 생겨서 내가 갈 수 없게 되었네. 그러니 자네가 대신 가서 이야기를 받아적고 오지 않겠나?/n투마하 할머니와 얼바인 헝거액스라는 할아버지일세. 두 분에게 전승을 듣고 그걸 기록해서 가져오면 돼./n" difficulty="1" onMessage="NULL" ChoiceRewardLimit="-1" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="0" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[룬가 우드위버와 대화]]"/>
+		<Subject typeName="Deliver" func="Quest402304001_Deliver" desc="[[투마하 할머니와 대화]] [[얼바인 헝거액스와 대화]]"/>
+		<Subject typeName="Success" func="NULL" desc="[[룬가 우드위버에게 보고]]"/>
+		<Storage target1_typeID="150054" target2_typeID="150055" target2_count="0" target3_typeID="150056" target3_count="0"/>
+		<BasicReward typeID="30008" count="1"/>
+		<BasicReward typeID="30009" count="1"/>
+		<BasicReward typeID="30010" count="1"/>
+		<ChoiceReward typeID="2100000000" count="1"/>
+	</Quest>
+	<Quest typeID="402304002" typeName="공부를 도와다오!" group="100" NPC="룬가 우드위버" reportTo="룬가 우드위버" cancelable="1" repeatable="1" retryable="1" lv="1" desc="이던 님의 제자가 되기 위해 열심히 공부하고 있다네. 하지만 쿠니바에 온 뒤로 혼자 공부하려니 너무 힘들군./n공부 방법을 바꿔보려고 해. 내가 문제를 내고 자네가 맞추는 거지.  나는 문제를 내면서 복습을 하고, 의미를 되새길 수 있지. 훌륭한 공부라네./n어떤가, 도와주겠나? 문제와 관련된 지식을 담은 책이 있네. 내가 공부하기 위해 엮은 건데, 읽어보면 도움이 될 거야./n" difficulty="1" onMessage="NULL" ChoiceRewardLimit="-1" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="0" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[룬가 우드위버와 대화]]"/>
+		<Subject typeName="Talk" func="NULL" desc="[[룬가 우드위버와 대화]]"/>
+		<Subject typeName="Quiz1" func="NULL" desc="[[룬가 우드위버와 대화]]"/>
+		<Subject typeName="Quiz2" func="NULL" desc="[[룬가 우드위버와 대화]]"/>
+		<Subject typeName="Quiz3" func="NULL" desc="[[룬가 우드위버와 대화]]"/>
+		<Subject typeName="Quiz4" func="NULL" desc="[[룬가 우드위버와 대화]]"/>
+		<Subject typeName="Quiz5" func="NULL" desc="[[룬가 우드위버와 대화]]"/>
+		<Subject typeName="Success" func="NULL" desc="[[룬가 우드위버에게 보고]]"/>
+		<Storage target1_typeID="150057"/>
+	</Quest>
+	<Quest typeID="402304003" typeName="정체불명의 가루" group="100" NPC="레손 레드스카" reportTo="렌트리 스카이시커" cancelable="1" repeatable="1" retryable="1" lv="1" desc="안녕하십니까. 젊은 투르가. 갈 길이 바쁘지 않다면 제 부탁 하나만 들어주지 않겠습니까?/n치유사이신 렌트리 스카이시커 님에게 이 가루을 분석해 달라고 부탁해 주십시오./n" difficulty="1" onMessage="NULL" ChoiceRewardLimit="-1" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="0" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[레손 레드스카와 대화]]"/>
+		<Subject typeName="Deliver" func="NULL" desc="[[렌트리 스카이시커와 대화]]"/>
+		<Subject typeName="Success" func="NULL" desc="[[렌트리 스카이시커와 대화]]"/>
+		<Storage target1_typeID="150058"/>
+	</Quest>
+	<Quest typeID="402304004" typeName="광인" group="100" NPC="렌트리 스카이시커" reportTo="레손 레드스카" cancelable="1" repeatable="1" retryable="1" lv="1" desc="제가 돌보는 환자 중에 3차 초원전쟁 때 병을 얻어 투병중인 옛 전사분이 있어요./n정기적으로 치료약을 먹어야 하는데, 배달을 해줄 사람이 필요해요. 그 불쌍한 분은 사당 근처에 있답니다./n그 분에게 약을 전달하고 레손에게 돌아가 이야기해 주시겠어요?/n" difficulty="1" onMessage="NULL" ChoiceRewardLimit="-1" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="0" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[렌트리 스카이시커와 대화]]"/>
+		<Subject typeName="Deliver" func="NULL" desc="[[미친 노인에게 치료약 배달]]"/>
+		<Subject typeName="Success" func="NULL" desc="[[레손 레드스카에게 보고]]"/>
+		<Storage target1_typeID="150059"/>
+	</Quest>
+	<Quest typeID="402304005" typeName="연인" group="100" NPC="레손 레드스카" reportTo="에밀라 스카이시커" cancelable="1" repeatable="1" retryable="1" lv="1" desc="칸의 호위대장인 에밀라 스카이시커에게 가루에 대한 이야기를 전해 주시겠습니까?/n그녀는 '불꽃 전승의 탑' 최상층에서 칸을 지키고 있습니다./n" difficulty="1" onMessage="NULL" ChoiceRewardLimit="-1" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="0" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[레손 레드스카와 대화]]"/>
+		<Subject typeName="Success" func="NULL" desc="[[에밀라 스카이시커와 대화]]"/>
+		<Storage temp="1"/>
+	</Quest>
+	<Quest typeID="402304006" typeName="붉은 얼룩 책" group="100" NPC="NULL" reportTo="에밀라 스카이시커" cancelable="1" repeatable="1" retryable="1" lv="1" desc="기분나쁜 책입니다. 에밀라에게 가져가 보여주는 것이 좋겠습니다./n" difficulty="1" onMessage="NULL" ChoiceRewardLimit="-1" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="0" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest402304006_Begin" desc="[[레손 레드스카와 대화]]"/>
+		<Subject typeName="Collect" func="NULL" desc="[[피묻은 낡은 책 조사]]"/>
+		<Subject typeName="Deliver" func="NULL" desc="[[에밀라 스카이시커와 대화]]"/>
+		<Subject typeName="Success" func="NULL" desc="[[에밀라 스카이시커와 대화]]"/>
+		<Storage target1_x="-373" target1_y="4033" target1_z="484.89" target2_typeID="150060" target3_typeID="6"/>
+	</Quest>
+	<Quest typeID="402304007" typeName="셋이 들어오고, 그리고 아무도 없었다." group="100" NPC="에밀라 스카이시커" reportTo="에밀라 스카이시커" cancelable="1" repeatable="1" retryable="1" lv="1" desc="당신이라면 믿을 수 있으니, 중요한 부탁을 드리려고 합니다./n칸바 대장로님에게 가서 이 장부를 보여 드리고, 사건의 전모를 알아와 주십시오. 카툴룬 님에게 더 이상 오명을 씌울 수는 없습니다./n" difficulty="1" onMessage="NULL" ChoiceRewardLimit="-1" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="0" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[에밀라 스카이시커와 대화]]"/>
+		<Subject typeName="Talk" func="NULL" desc="[[칸바 레드스카와 대화]]"/>
+		<Subject typeName="Success" func="NULL" desc="[[에밀라 스카이시커와 대화]]"/>
+		<Storage temp="1"/>
+	</Quest>
+	<Quest typeID="402304008" typeName="그때의 진실" group="100" NPC="에밀라 스카이시커" reportTo="에밀라 스카이시커" cancelable="1" repeatable="1" retryable="1" lv="1" desc="룬센에게 가세요. 그리고 그에게서 이 과거의 진실을 알아내어 제게 알려주세요./n그는 사당에 있을 거예요./n" difficulty="1" onMessage="NULL" ChoiceRewardLimit="-1" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="0" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[에밀라 스카이시커와 대화]]"/>
+		<Subject typeName="Talk" func="NULL" desc="[[룬센 스톤해머와 대화]]"/>
+		<Subject typeName="Success" func="NULL" desc="[[에밀라 스카이시커와 대화]]"/>
+		<Storage temp="1"/>
+	</Quest>
+	<Quest typeID="402304009" typeName="절연" group="100" NPC="에밀라 스카이시커" reportTo="미친 노인" cancelable="1" repeatable="1" retryable="1" lv="1" desc="렌트리 님에게 가 주세요. /n 그분이 약을 분석하셨다면, 풀리지 않는 마지막 실마리를 풀 수 있을지도 모릅니다./n" difficulty="1" onMessage="NULL" ChoiceRewardLimit="-1" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="0" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[에밀라 스카이시커와 대화]]"/>
+		<Subject typeName="Talk" func="NULL" desc="[[렌트리 스카이시커와 대화]]"/>
+		<Subject typeName="Success" func="NULL" desc="[[미친 노인과 대화]]"/>
+		<Storage temp="1"/>
+	</Quest>
+	<Quest typeID="402304010" typeName="오해는 흘러 없어지고" group="100" NPC="에밀라 스카이시커" reportTo="레손 레드스카" cancelable="1" repeatable="1" retryable="1" lv="1" desc="레손을 찾아야 해요! /n그가 씻을 수 없는 실수를 저지르기 전에 반드시 막아야 돼요!/n" difficulty="1" onMessage="NULL" ChoiceRewardLimit="-1" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="0" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest402304010_Begin" desc="[[에밀라 스카이시커와 대화]]"/>
+		<Subject typeName="Explore" func="Quest402304010_Explore" desc="[[에밀라 스카이시커와 대화]]"/>
+		<Subject typeName="Event" func="Quest402304010_Event" desc="[[레손 레드스카와 대화]]"/>
+		<Subject typeName="Talking" func="NULL" desc="[[레손 레드스카와 대화]]"/>
+		<Subject typeName="Success" func="NULL" desc="[[레손 레드스카와 대화]]"/>
+		<Storage temp="1" GroupInstID="0"/>
+	</Quest>
+	<Quest typeID="402304021" typeName="겁에 질린 바투" group="100" NPC="칸의 절벽 안내자" reportTo="칸의 절벽 안내자" cancelable="1" repeatable="1" retryable="1" lv="11" desc="놀라서 도망간 무투를 찾아줘! 서쪽에 있는 팔스라 목초지에서 무투를 찾은 다음, 카툼바야라 풀뿌리로 유인해서 나에게 데려오면 될 거야./n" difficulty="1" onMessage="Quest402304021_onMessage" ChoiceRewardLimit="1" rewardEXP="120" rewardLifeJobEXP="55" rewardCombatJobEXP="40" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[칸의 절벽 안내자와 대화]]" draft="칸의 절벽 안내자의 말을 듣고, 그의 ^#048dcd지시대로 행동^#e6d6c5하십시오." npc="칸의 절벽 안내자">
+			<subjectPos subjectStr="칸의 절벽 안내자와 대화" mapTargetId="3641100"/>
+		</Subject>
+		<Subject typeName="Escort" func="NULL" desc="[[무투 호위하기]]" draft="^#048dcd칸의 절벽 서쪽에 있는 팔스라 목초지^#e6d6c5에서 놀라서 도망간 ^#048dcd무투^#e6d6c5를 찾은 다음, ^#048dcd카툼바야라 풀뿌리로 유인해서 칸의 절벽 안내자에게 안전하게 데려와야^#e6d6c5 합니다." npc="칸의 절벽 안내자">
+			<subjectPos subjectStr="무투 호위하기" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[칸의 절벽 안내자에게 보고]]" draft="무투를 칸의 절벽 안내자에게 안전히 데려왔습니다. 그에게 ^#048dcd돌아가서 보고^#e6d6c5 하십시오." npc="칸의 절벽 안내자">
+			<subjectPos subjectStr="칸의 절벽 안내자에게 보고" mapTargetId="3642100"/>
+		</Subject>
+		<Storage target1_typeID="110012"/>
+		<BasicReward typeID="2100000000" count="10"/>
+		<ChoiceReward typeID="60029" count="1"/>
+		<ChoiceReward typeID="60030" count="1"/>
+	</Quest>
+	<Quest typeID="402304022" typeName="검은 괴물" group="100" NPC="칸의 절벽 안내자" reportTo="아나인 선보우" cancelable="1" repeatable="1" retryable="1" lv="11" desc="^#048dcd칸의 절벽을 따라 동쪽으로 가면 작은 길^#e6d6c5이 보일 거야. 그곳에 ^#048dcd작은 민가^#e6d6c5가 있는데, 그곳에 ^#048dcd아나인 선보우^#e6d6c5가 살고 있지. 그를 찾아서 이번 일에 대해 물어 보라고./n" difficulty="1" onMessage="NULL" ChoiceRewardLimit="1" rewardEXP="120" rewardLifeJobEXP="55" rewardCombatJobEXP="40" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[칸의 절벽 안내자와 대화]]" draft="칸의 절벽 안내자가 하는 이야기를 주의깊게 들은 다음, ^#048dcd그의 지시대로^#e6d6c5 따라야 합니다./n" npc="칸의 절벽 안내자">
+			<subjectPos subjectStr="칸의 절벽 안내자와 대화" mapTargetId="3641100"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[아나인 선보우와 대화]]" draft="^#048dcd아나인 선보우^#e6d6c5를 찾아가 이번 일에 대해 자세히 물어봐야 합니다./n그는 ^#048dcd칸의 절벽을 따라 동쪽으로 가면 보이면 샛길 안, 작은 민가^#e6d6c5에 살고 있습니다./n" npc="아나인 선보우">
+			<subjectPos subjectStr="아나인 선보우와 대화" mapTargetId="3672100"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="10"/>
+		<ChoiceReward typeID="60026" count="1"/>
+		<ChoiceReward typeID="60027" count="1"/>
+		<ChoiceReward typeID="60028" count="1"/>
+	</Quest>
+	<Quest typeID="402304023" typeName="전설의 동물" group="100" NPC="아나인 선보우" reportTo="아나인 선보우" cancelable="1" repeatable="1" retryable="1" lv="11" desc="^#048dcd칸의 절벽^#e6d6c5에 가서 ^#048dcd괴물에 대한 기록^#e6d6c5을 찾아보고, 나에게 돌아오게./n" difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="120" rewardLifeJobEXP="55" rewardCombatJobEXP="40" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[아나인 선보우와 대화]]" draft="아나인 선보우에게 하늘의 재앙이 어떤 일인지 자세하게 들어봐야 합니다." npc="아나인 선보우">
+			<subjectPos subjectStr="아나인 선보우와 대화" mapTargetId="3671100"/>
+		</Subject>
+		<Subject typeName="Explore" func="Quest402304023_Event" desc="[[칸의 절벽 조사]]" draft="^#048dcd칸의 절벽에 가서 하늘의 재앙인 괴물에 대한 기록을 찾아^#e6d6c5봐야 합니다." npc="아나인 선보우">
+			<subjectPos subjectStr="칸의 절벽 조사" mapTargetId="2000233100"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[아나인 선보우에게 보고]]" draft="칸의 절벽 벽화에서 과거에 대한 이야기를 보았습니다./n어서 이 사실을 ^#048dcd아나인 선보우에게 돌아가^#e6d6c5 알려야 합니다./n" npc="아나인 선보우">
+			<subjectPos subjectStr="아나인 선보우에게 보고" mapTargetId="3672100"/>
+		</Subject>
+		<Storage target1_x="243" target1_y="776" target1_z="890.06"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+	<Quest typeID="402304024" typeName="또 하나의 전설" group="100" NPC="아나인 선보우" reportTo="우리프 라이온하트" cancelable="1" repeatable="1" retryable="1" lv="11" desc="^#048dcd하늘의 재앙은 칸의 무덤 북쪽에 있는 봉인의 돌^#e6d6c5에 있을 걸세. 그 놈을 해치워서 초원의 위험을 없애주게. 그런 다음 우리프 칸께 이번 일에 대해 전하게." difficulty="1" onMessage="Quest402304024_onMessage" ChoiceRewardLimit="1" rewardEXP="120" rewardLifeJobEXP="55" rewardCombatJobEXP="40" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[아나인 선보우와 대화]]" draft="아나인 선보우에게 하늘의 재앙에 대해 어떻게 대처해야 하는지 들어야 합니다." npc="아나인 선보우">
+			<subjectPos subjectStr="아나인 선보우와 대화" mapTargetId="3671100"/>
+		</Subject>
+		<Subject typeName="Explore" func="NULL" desc="[[봉인의 돌 조사]]" draft="^#048dcd칸의 무덤 북쪽에 있는 봉인의 돌^#e6d6c5을 찾은 다음, ^#ca0202아카마^#e6d6c5를 깨워야 합니다." npc="아나인 선보우">
+			<subjectPos subjectStr="봉인의 돌 조사" mapTargetId="4341100"/>
+		</Subject>
+		<Subject typeName="Combat" func="Quest402304024_Combat" desc="[[아카마 처치하기]]" draft="^#ca0202아카마를 처치^#e6d6c5해야 합니다." npc="아나인 선보우">
+			<subjectPos subjectStr="아카마 처치하기" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Combat2" func="Quest402304024_Combat2" desc="[[거대한 아카마 처치하기]]" draft="^#ca0202거대 아카마를 처치^#e6d6c5해야 합니다." npc="아나인 선보우">
+			<subjectPos subjectStr="거대한 아카마 처치하기" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[우리프 라이온하트와 대화]]" draft="아카마를 처치했으니 칸, ^#048dcd우리프 라이온하트와 대화^#e6d6c5하십시오." npc="우리프 라이온하트">
+			<subjectPos subjectStr="우리프 라이온하트와 대화" mapTargetId="1552100"/>
+		</Subject>
+		<Storage target1_x="5637" target1_y="262" target1_z="440.95"/>
+		<BasicReward typeID="2100000000" count="10"/>
+		<ChoiceReward typeID="2100000000" count="1"/>
+	</Quest>
+	<Quest typeID="402304025" typeName="기록" group="100" NPC="우리프 라이온하트" reportTo="벽화 보수 직공" cancelable="1" repeatable="1" retryable="1" lv="11" desc="^#048dcd칸의 절벽^#e6d6c5으로 돌아가서 ^#048dcd벽화 보수 직공에게 이번 일에 대해 전해줘.^#e6d6c5 그러면 그가 칸의 절벽에 이번 일을 기록해 후세에 전할 거야./n" difficulty="1" onMessage="NULL" ChoiceRewardLimit="1" rewardEXP="120" rewardLifeJobEXP="55" rewardCombatJobEXP="40" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[우리프 라이온하트와 대화]]" draft="우리프 라이온하트의 말을 듣고 ^#048dcd지시에 따라야 합니다.^#e6d6c5" npc="우리프 라이온하트">
+			<subjectPos subjectStr="우리프 라이온하트와 대화" mapTargetId="1551100"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[벽화 보수 직공과 대화]]" draft="^#048dcd벽화 보수 직공^#e6d6c5에게 찾아가서 이번 일을 전하고 벽화로 기록해 달라고 말해야 합니다./n그는 ^#048dcd칸의 절벽^#e6d6c5에 있습니다." npc="벽화 보수 직공">
+			<subjectPos subjectStr="벽화 보수 직공과 대화" mapTargetId="1602100"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="10"/>
+		<ChoiceReward typeID="2100000000" count="1"/>
+	</Quest>
+	<Quest typeID="402304031" typeName="소식 없는 경비병" group="100" NPC="가포일 워퓨리" reportTo="아트 크라이비스트" cancelable="1" repeatable="1" retryable="1" lv="17" desc="^#e6d6c5남부 감시 초소에서 일하는 경비병 ^#048dcd아트^#e6d6c5가 정찰을 나가 돌아오지 않고 있네./n그의 정찰 코스는 ^#048dcd이 초소^#e6d6c5와 ^#048dcd북쪽의 풍차마을 주변^#e6d6c5이니, ^#048dcd그를 찾아서^#e6d6c5 당장 나에게 오라고 일러주게./n" difficulty="1" onMessage="Quest402304031_onMessage" ChoiceRewardLimit="1" rewardEXP="150" rewardLifeJobEXP="100" rewardCombatJobEXP="75" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[가포일 워퓨리와 대화]]" draft="남부 감시 초소에서 일하는 경비병 아트가 정찰을 나가 돌아오지 않아 찾으러 가야합니다. 그의 ^#048dcd정찰 코스는 이 초소와 북쪽의 풍차마을 주변^#e6d6c5입니다." npc="가포일 워퓨리">
+			<subjectPos subjectStr="가포일 워퓨리와 대화" mapTargetId="71100"/>
+		</Subject>
+		<Subject typeName="Explore" func="Quest402304031_Explore" desc="[[아트 크라이비스트찾기]]" draft="아트 크라이비스트를 찾았습니다. 그는 그의 연인 레인과 대화하는 것 같습니다. ^#048dcd그들의 이야기가 끝날 때까지 기다려야^#e6d6c5 합니다." npc="아트 크라이비스트">
+			<subjectPos subjectStr="아트 크라이비스트 찾기" mapTargetId="4211100"/>
+		</Subject>
+		<Subject typeName="Success" func="Quest402304031_Success" desc="[[레인 하트브리지와 대화]]" draft="아트가 트럼블러의 독에 찔려 위태롭습니다. 우선 그의 연인 ^#048dcd레인 하트브리지와 대화^#e6d6c5해야 합니다." npc="레인 하트브리지">
+			<subjectPos subjectStr="레인 하트브리지와 대화" mapTargetId="4222100"/>
+		</Subject>
+		<Storage target1_typeID="26" target2_typeID="416"/>
+		<BasicReward typeID="2100000000" count="30"/>
+		<ChoiceReward typeID="2100000000" count="1"/>
+	</Quest>
+	<Quest typeID="402304032" typeName="다급한 구조 요청" group="100" NPC="레인 하트브리지" reportTo="응급 대원" cancelable="1" repeatable="1" retryable="1" lv="17" desc="^#e6d6c5아트가 트럼블러의 촉수 독이 온 몸에 퍼져서 죽어가요!/n 이 ^#048dcd풍차 마을^#e6d6c5에서 ^#048dcd북쪽^#e6d6c5에 있는 ^#048dcd중부 감시 초소^#e6d6c5의 응급 대원님이라면 그 독을 해독할 수 있는 약이 있어요./n전 그 동안 아트의 상태를 살펴보고 있을 테니, 여행자님께서 ^#048dcd그 약을 가져와주세요!/n" difficulty="1" onMessage="NULL" ChoiceRewardLimit="1" rewardEXP="150" rewardLifeJobEXP="100" rewardCombatJobEXP="75" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[아트 크라이비스트와 대화]]" draft="아트 크라이비스트의 상태를 확인해야 합니다. 그에게 말을 걸어 보십시오." npc="아트 크라이비스트">
+			<subjectPos subjectStr="아트 크라이비스트와 대화" mapTargetId="4211100"/>
+		</Subject>
+		<Subject typeName="Talk" func="Quest402304032_Talk" desc="[[레인 하트브리지와 대화]]" draft="아트의 상태가 매우 위독합니다. 일단 그의 연인 ^#048dcd레인 하트브리지와 대책을 강구해야^#e6d6c5 합니다." npc="레인 하트브리지">
+			<subjectPos subjectStr="레인 하트브리지와 대화" mapTargetId="4222100"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[응급 대원에게 보고]]" draft="트럼블러의 독을 해독하는 약을 가진 ^#048dcd응급 대원^#e6d6c5을 찾아가야 합니다./n그는 ^#048dcd풍차마을 북쪽, 중부 감시 초소^#e6d6c5에 있습니다." npc="응급 대원">
+			<subjectPos subjectStr="응급 대원에게 보고" mapTargetId="4232100"/>
+		</Subject>
+		<Storage temp="1"/>
+		<BasicReward typeID="2100000000" count="30"/>
+		<ChoiceReward typeID="2100000000" count="1"/>
+	</Quest>
+	<Quest typeID="402304033" typeName="약은 독이며, 독은 약이다." group="100" NPC="응급 대원" reportTo="응급 대원" cancelable="1" repeatable="1" retryable="1" lv="17" desc="^#e6d6c5트럼블러 촉수 독을 해제하는 ^#048dcd카툼바 전통 해독제^#e6d6c5를 만들어야 하는데, 트럼블러의 진액이 없네./n내가 주는 ^#048dcd추출기^#e6d6c5를 가지고 ^#048dcd트럼블러의 시체에서 진액을 5개만 추출^#e6d6c5해 오게나./n^#048dcd트럼블러는 카라쿤타 주변 나무^#e6d6c5에 서식하고 있네./n" difficulty="1" onMessage="Quest402304033_onMessage" ChoiceRewardLimit="0" rewardEXP="150" rewardLifeJobEXP="100" rewardCombatJobEXP="75" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[응급 대원과 대화]]" draft="응급 대원과 이야기를 하고, 그의 지시대로 행동하십시오." npc="응급 대원">
+			<subjectPos subjectStr="응급 대원과 대화" mapTargetId="4231100"/>
+		</Subject>
+		<Subject typeName="Collect" func="Quest402304033_Collect" desc="[[트럼블러의 진액 수집]]" draft="^#048dcd추출기를 ^#ca0202트럼블러^#e6d6c5의 시체에 사용^#e6d6c5해서 트럼블러의 진액을 5개 모아야 합니다./n^#ca0202트럼블러^#e6d6c5는 ^#048dcd카라쿤타 주변 나무에 서식^#e6d6c5합니다." npc="응급 대원">
+			<subjectPos subjectStr="트럼블러의 진액 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[응급 대원에게 보고]]" draft="트럼블러의 진액을 요청한 만큼 추출했으니, ^#048dcd응급 대원에게 돌아가야^#e6d6c5 합니다." npc="응급 대원">
+			<subjectPos subjectStr="응급 대원에게 보고" mapTargetId="4232100"/>
+		</Subject>
+		<Storage target1_typeID="150285" target1_goal="5" target1_count="0" target1_type="2" target1_prob="90" target2_typeID="110018"/>
+		<BasicReward typeID="2100000000" count="30"/>
+	</Quest>
+	<Quest typeID="402304034" typeName="누구보다도 더 빠르게 달려라." group="100" NPC="응급 대원" reportTo="응급 대원" cancelable="1" repeatable="1" retryable="1" lv="17" desc="^#e6d6c5이 카툼바 전통 해독제는 제조하고 ^#048dcd10분 이내로 복용^#e6d6c5해야 해독을 할 수 있네./n 10분을 넘기면 독으로 변하니, 이 약을 가지고 빨리 ^#048dcd풍차 마을^#e6d6c5로 돌아가서 ^#048dcd아트에게 약을 먹이게나!/n" difficulty="1" onMessage="Quest402304034_onMessage" ChoiceRewardLimit="1" rewardEXP="150" rewardLifeJobEXP="100" rewardCombatJobEXP="75" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[응급 대원과 대화]]" draft="응급 대원에게 카툼바 전통 해독제를 받고 그의 지시에 따라야 합니다." npc="응급 대원">
+			<subjectPos subjectStr="응급 대원과 대화" mapTargetId="4231100"/>
+		</Subject>
+		<Subject typeName="Deliver" func="NULL" desc="[[카툼바 전통 해독제 배달]]" draft="^#048dcd풍차 마을에 있는 레인에게 10분 내로 카툼바 전통 해독제를 배달^#e6d6c5해야 합니다./n해독제는 10분이 지나면 독으로 변질되기 때문에 서둘러야 합니다." npc="응급 대원">
+			<subjectPos subjectStr="카툼바 전통 해독제 배달" mapTargetId="4221100"/>
+		</Subject>
+		<Subject typeName="Deliver_2" func="NULL" desc="[[카툼바 전통 해독제 배달]]" draft="^#048dcd풍차 마을에 있는 레인에게 10분 내로 카툼바 전통 해독제를 배달^#e6d6c5해야 합니다./n해독제는 10분이 지나면 독으로 변질되기 때문에 서둘러야 합니다." npc="응급 대원">
+			<subjectPos subjectStr="카툼바 전통 해독제 배달" mapTargetId="4221100"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[레인 하트브리지에게 보고]]" draft="빨리 레인에게 해독제를 줘, 아트에게 먹일 수 있도록 해야 합니다." npc="레인 하트브리지">
+			<subjectPos subjectStr="레인 하트브리지에게 보고" mapTargetId="4222100"/>
+		</Subject>
+		<Storage target1_typeID="110016"/>
+		<BasicReward typeID="2100000000" count="30"/>
+		<ChoiceReward typeID="2100000000" count="1"/>
+	</Quest>
+	<Quest typeID="402304035" typeName="진실된 마음" group="100" NPC="레인 하트브리지" reportTo="아트 크라이비스트" cancelable="1" repeatable="1" retryable="1" lv="17" desc="^#e6d6c5여행자님이 구한 ^#048dcd카툼바 전통 해독제를 아트에게 먹여주면 ^#e6d6c5그는 나을 거에요./n하지만 그가 다시 회복된다 해도 예전처럼 저랑 잘 지내기에는 힘들 것 같아요./n" difficulty="1" onMessage="Quest402304035_onMessage" ChoiceRewardLimit="1" rewardEXP="150" rewardLifeJobEXP="100" rewardCombatJobEXP="75" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[레인 하트브리지와 대화]]" draft="레인과 대화하고, 그녀의 지시대로 따라야 합니다." npc="레인 하트브리지">
+			<subjectPos subjectStr="레인 하트브리지와 대화" mapTargetId="4221100"/>
+		</Subject>
+		<Subject typeName="Talk" func="NULL" desc="[[아트 크라이비스트 치료]]" draft="카툼바 전통 해독제를 빨리 아트에게 먹여야 합니다." npc="레인 하트브리지">
+			<subjectPos subjectStr="아트 크라이비스트 치료" mapTargetId="4211100"/>
+		</Subject>
+		<Subject typeName="Talk_2" func="Quest402304035_Talk" desc="[[레인의 인사 듣기]]" draft="레인 하트브리지가 당신에게 고맙다고 인사하려 합니다. 그녀에게 말을 거십시오." npc="아트 크라이비스트">
+			<subjectPos subjectStr="레인의 인사 듣기" mapTargetId="4221100"/>
+		</Subject>
+		<Subject typeName="Talk_3" func="NULL" desc="[[아트 크라이비스트와 대화]]" draft="아트에게 그 동안의 일을 이야기 해야 합니다." npc="아트 크라이비스트">
+			<subjectPos subjectStr="아트 크라이비스트와 대화" mapTargetId="4211100"/>
+		</Subject>
+		<Subject typeName="Talk_4" func="NULL" desc="[[아트에게 진실 말하기]]" draft="아트에게 레인의 진심을 말해줘야 합니다." npc="아트 크라이비스트">
+			<subjectPos subjectStr="아트에게 진실 말하기" mapTargetId="4211100"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[아트 크라이비스트에게 보고]]" draft="아트의 결심을 들어야 합니다." npc="아트 크라이비스트">
+			<subjectPos subjectStr="아트 크라이비스트와 대화" mapTargetId="4222100"/>
+		</Subject>
+		<Storage target1_typeID="110016"/>
+		<BasicReward typeID="2100000000" count="30"/>
+		<ChoiceReward typeID="2100000000" count="1"/>
+	</Quest>
+</Quest>

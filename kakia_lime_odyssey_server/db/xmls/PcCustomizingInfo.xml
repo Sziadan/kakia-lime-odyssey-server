@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2006 rel. 3 U (http://www.altova.com) by bla (EMBRACE) -->
+<Customizing>
+	<Race>
+		<Part slotId="0">
+			<Select typeId="0" name="팜(남자)" imageName="UiPcMake\chr_7.JPG"/>
+			<Select typeId="1" name="팜(여자)" imageName="UiPcMake\chr_8.JPG"/>
+		</Part>
+		<Part slotId="1">
+			<Select typeId="2" name="휴먼(남자)" imageName="UiPcMake\chr_9.JPG"/>
+			<Select typeId="3" name="휴먼(여자)" imageName="UiPcMake\chr_10.JPG"/>
+		</Part>
+		<Part slotId="2">
+			<Select typeId="4" name="트루가(남자)" imageName="UiPcMake\chr_11.JPG"/>
+			<Select typeId="5" name="트루가(여자)" imageName="UiPcMake\chr_12.JPG"/>
+		</Part>
+	</Race>
+	<LifeJob>
+		<Part slotId="0">
+			<Select typeId="101" name="상인" imageName="UiPcMake\test_6.JPG"/>
+		</Part>
+		<Part slotId="1">
+			<Select typeId="102" name="재봉사" imageName="UiPcMake\test_1.JPG"/>
+		</Part>
+		<Part slotId="2">
+			<Select typeId="103" name="건축가" imageName="UiPcMake\test_2_old.JPG"/>
+		</Part>
+		<Part slotId="3">
+			<Select typeId="104" name="다인" imageName="UiPcMake\test_3.JPG"/>
+		</Part>
+		<Part slotId="4">
+			<Select typeId="105" name="약제사" imageName="UiPcMake\test_4_old.JPG"/>
+		</Part>
+		<Part slotId="5">
+			<Select typeId="106" name="나무공예사" imageName="UiPcMake\test_5.JPG"/>
+		</Part>
+		<Part slotId="6">
+			<Select typeId="107" name="고기공사" imageName="UiPcMake\test_7.JPG"/>
+		</Part>
+		<Part slotId="7">
+			<Select typeId="108" name="대장장이" imageName="UiPcMake\test_8.JPG"/>
+		</Part>
+		<Part slotId="8">
+			<Select typeId="109" name="요리사" imageName="UiPcMake\test_9.JPG"/>
+		</Part>
+	</LifeJob>
+	<CustomizingPart>
+		<Part slotId="0" slotName="머리모양">
+			<Select race="0">
+				<custom typeId="0" name="스타일A" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="1" name="스타일B" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="2" name="스타일C" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="3" name="스타일D" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="4" name="스타일E" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="5" name="스타일F" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="6" name="스타일G" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="7" name="스타일H" imageName="UiPcMake\chr_6.JPG"/>
+			</Select>
+			<Select race="1">
+				<custom typeId="0" name="스타일A" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="1" name="스타일B" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="2" name="스타일C" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="3" name="스타일D" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="4" name="스타일E" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="5" name="스타일F" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="6" name="스타일G" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="7" name="스타일H" imageName="UiPcMake\chr_6.JPG"/>
+			</Select>
+			<Select race="2">
+				<custom typeId="0" name="스타일A" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="1" name="스타일B" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="2" name="스타일C" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="3" name="스타일D" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="4" name="스타일E" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="5" name="스타일F" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="6" name="스타일G" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="7" name="스타일H" imageName="UiPcMake\chr_6.JPG"/>
+			</Select>
+			<Select race="3">
+				<custom typeId="0" name="스타일A" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="1" name="스타일B" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="2" name="스타일C" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="3" name="스타일D" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="4" name="스타일E" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="5" name="스타일F" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="6" name="스타일G" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="7" name="스타일H" imageName="UiPcMake\chr_6.JPG"/>
+			</Select>
+			<Select race="4">
+				<custom typeId="0" name="스타일A" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="1" name="스타일B" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="2" name="스타일C" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="3" name="스타일D" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="4" name="스타일E" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="5" name="스타일F" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="6" name="스타일G" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="7" name="스타일H" imageName="UiPcMake\chr_6.JPG"/>
+			</Select>
+			<Select race="5">
+				<custom typeId="0" name="스타일A" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="1" name="스타일B" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="2" name="스타일C" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="3" name="스타일D" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="4" name="스타일E" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="5" name="스타일F" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="6" name="스타일G" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="7" name="스타일H" imageName="UiPcMake\chr_6.JPG"/>
+			</Select>
+		</Part>
+		<Part slotId="1" slotName="속옷종류">
+			<Select race="0">
+				<custom typeId="-1" name="스타일A" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="-2" name="스타일B" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="-3" name="스타일C" imageName="UiPcMake\chr_6.JPG"/>
+			</Select>
+			<Select race="1">
+				<custom typeId="-1" name="스타일A" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="-2" name="스타일B" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="-3" name="스타일C" imageName="UiPcMake\chr_6.JPG"/>
+			</Select>
+			<Select race="2">
+				<custom typeId="-1" name="스타일A" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="-2" name="스타일B" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="-3" name="스타일C" imageName="UiPcMake\chr_6.JPG"/>
+			</Select>
+			<Select race="3">
+				<custom typeId="-1" name="스타일A" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="-2" name="스타일B" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="-3" name="스타일C" imageName="UiPcMake\chr_6.JPG"/>
+			</Select>
+			<Select race="4">
+				<custom typeId="-1" name="스타일A" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="-2" name="스타일B" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="-3" name="스타일C" imageName="UiPcMake\chr_6.JPG"/>
+			</Select>
+			<Select race="5">
+				<custom typeId="-1" name="스타일A" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="-2" name="스타일B" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="-3" name="스타일C" imageName="UiPcMake\chr_6.JPG"/>
+			</Select>
+		</Part>
+		<Part slotId="2" slotName="머리카락색">
+			<Select race="0">
+				<custom typeId="0" name="빨강" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="1" name="노랑" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="2" name="파랑" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="3" name="갈색" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="4" name="흰색" imageName="UiPcMake\chr_6.JPG"/>
+			</Select>
+			<Select race="1">
+				<custom typeId="0" name="빨강" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="1" name="노랑" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="2" name="파랑" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="3" name="갈색" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="4" name="흰색" imageName="UiPcMake\chr_6.JPG"/>
+			</Select>
+			<Select race="2">
+				<custom typeId="0" name="빨강" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="1" name="노랑" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="2" name="파랑" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="3" name="갈색" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="4" name="흰색" imageName="UiPcMake\chr_6.JPG"/>
+			</Select>
+			<Select race="3">
+				<custom typeId="0" name="빨강" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="1" name="노랑" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="2" name="파랑" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="3" name="갈색" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="4" name="흰색" imageName="UiPcMake\chr_6.JPG"/>
+			</Select>
+			<Select race="4">
+				<custom typeId="0" name="노랑" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="1" name="보라" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="2" name="검정" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="3" name="갈색" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="4" name="흰색" imageName="UiPcMake\chr_6.JPG"/>
+			</Select>
+			<Select race="5">
+				<custom typeId="0" name="노랑" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="1" name="보라" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="2" name="검정" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="3" name="갈색" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="4" name="흰색" imageName="UiPcMake\chr_6.JPG"/>
+			</Select>
+		</Part>
+		<Part slotId="3" slotName="귀모양">
+			<Select race="0">
+				<custom typeId="0" name="" imageName="UiPcMake\chr_1.JPG"/>
+			</Select>
+			<Select race="1">
+				<custom typeId="0" name="" imageName="UiPcMake\chr_3.JPG"/>
+			</Select>
+			<Select race="2">
+				<custom typeId="0" name="없음" imageName="UiPcMake\chr_5.JPG"/>
+			</Select>
+			<Select race="3">
+				<custom typeId="0" name="없음" imageName="UiPcMake\chr_5.JPG"/>
+			</Select>
+			<Select race="4">
+				<custom typeId="0" name="스타일A" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="1" name="스타일B" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="2" name="스타일C" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="3" name="스타일D" imageName="UiPcMake\chr_6.JPG"/>
+			</Select>
+			<Select race="5">
+				<custom typeId="0" name="스타일A" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="1" name="스타일B" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="2" name="스타일C" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="3" name="스타일D" imageName="UiPcMake\chr_6.JPG"/>
+			</Select>
+		</Part>
+		<Part slotId="4" slotName="피부색">
+			<Select race="0">
+				<custom typeId="0" name="피부A" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="1" name="피부B" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="2" name="피부C" imageName="UiPcMake\chr_6.JPG"/>
+			</Select>
+			<Select race="1">
+				<custom typeId="0" name="피부A" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="1" name="피부B" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="2" name="피부C" imageName="UiPcMake\chr_6.JPG"/>
+			</Select>
+			<Select race="2">
+				<custom typeId="0" name="피부A" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="1" name="피부B" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="2" name="피부C" imageName="UiPcMake\chr_6.JPG"/>
+			</Select>
+			<Select race="3">
+				<custom typeId="0" name="피부A" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="1" name="피부B" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="2" name="피부C" imageName="UiPcMake\chr_6.JPG"/>
+			</Select>
+			<Select race="4">
+				<custom typeId="0" name="피부A" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="1" name="피부B" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="2" name="피부C" imageName="UiPcMake\chr_6.JPG"/>
+			</Select>
+			<Select race="5">
+				<custom typeId="0" name="피부A" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="1" name="피부B" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="2" name="피부C" imageName="UiPcMake\chr_6.JPG"/>
+			</Select>
+		</Part>
+		<Part slotId="5" slotName="눈알색">
+			<Select race="0">
+				<custom typeId="0" name="스타일A" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="1" name="스타일B" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="2" name="스타일C" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="3" name="스타일D" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="4" name="스타일E" imageName="UiPcMake\chr_6.JPG"/>
+			</Select>
+			<Select race="1">
+				<custom typeId="0" name="스타일A" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="1" name="스타일B" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="2" name="스타일C" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="3" name="스타일D" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="4" name="스타일E" imageName="UiPcMake\chr_6.JPG"/>
+			</Select>
+			<Select race="2">
+				<custom typeId="0" name="스타일A" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="1" name="스타일B" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="2" name="스타일C" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="3" name="스타일D" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="4" name="스타일E" imageName="UiPcMake\chr_6.JPG"/>
+			</Select>
+			<Select race="3">
+				<custom typeId="0" name="스타일A" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="1" name="스타일B" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="2" name="스타일C" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="3" name="스타일D" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="4" name="스타일E" imageName="UiPcMake\chr_6.JPG"/>
+			</Select>
+			<Select race="4">
+				<custom typeId="0" name="스타일A" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="1" name="스타일B" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="2" name="스타일C" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="3" name="스타일D" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="4" name="스타일E" imageName="UiPcMake\chr_6.JPG"/>
+			</Select>
+			<Select race="5">
+				<custom typeId="0" name="스타일A" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="1" name="스타일B" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="2" name="스타일C" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="3" name="스타일D" imageName="UiPcMake\chr_6.JPG"/>
+				<custom typeId="4" name="스타일E" imageName="UiPcMake\chr_6.JPG"/>
+			</Select>
+		</Part>
+		<Part slotId="6" slotName="눈썹모양">
+			<Select race="0">
+				<custom typeId="0" name="스타일A" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="1" name="스타일B" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="2" name="스타일C" imageName="UiPcMake\chr_6.JPG"/>
+			</Select>
+			<Select race="1">
+				<custom typeId="0" name="스타일A" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="1" name="스타일B" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="2" name="스타일C" imageName="UiPcMake\chr_6.JPG"/>
+			</Select>
+			<Select race="2">
+				<custom typeId="0" name="스타일A" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="1" name="스타일B" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="2" name="스타일C" imageName="UiPcMake\chr_6.JPG"/>
+			</Select>
+			<Select race="3">
+				<custom typeId="0" name="스타일A" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="1" name="스타일B" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="2" name="스타일C" imageName="UiPcMake\chr_6.JPG"/>
+			</Select>
+			<Select race="4">
+				<custom typeId="0" name="없음" imageName="UiPcMake\chr_5.JPG"/>
+			</Select>
+			<Select race="5">
+				<custom typeId="0" name="스타일A" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="1" name="스타일B" imageName="UiPcMake\chr_5.JPG"/>
+				<custom typeId="2" name="스타일C" imageName="UiPcMake\chr_6.JPG"/>
+			</Select>
+		</Part>
+	</CustomizingPart>
+</Customizing>

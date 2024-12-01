@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2006 rel. 3 U (http://www.altova.com) by Na (EMBRACE) -->
+<QuestInfo>
+	<QuestIcon>
+		<Group typeId="000" imageName="UIQuest\TypeIcon_History.dds"/>
+		<Group typeId="001" imageName="UIQuest\TypeIcon_Race.dds"/>
+		<Group typeId="002" imageName="UIQuest\TypeIcon_Camp.dds"/>
+
+		<Group typeId="100" imageName="UIQuest\TypeIcon_Zone.dds"/>
+		<Group typeId="101" imageName="UIQuest\TypeIcon_Job.dds"/>
+		<Group typeId="102" imageName="UIQuest\TypeIcon_Legend.dds"/>
+
+		<Group typeId="200" imageName="UIQuest\TypeIcon_Hunting.dds"/>
+		<Group typeId="201" imageName="UIQuest\TypeIcon_Gather.dds"/>
+		<Group typeId="202" imageName="UIQuest\TypeIcon_Delivery.dds"/>
+		<Group typeId="203" imageName="UIQuest\TypeIcon_Default.dds"/>
+		<Group typeId="204" imageName="UIQuest\TypeIcon_Guard.dds"/>
+		<Group typeId="205" imageName="UIQuest\TypeIcon_Finding.dds"/>
+		<Group typeId="206" imageName="UIQuest\TypeIcon_Quiz.dds"/>
+		<Group typeId="207" imageName="UIQuest\TypeIcon_Making.dds"/>
+	</QuestIcon>
+	<LevelList>
+		<Level typeId="0" imageName="UIQuest\Level0.dds"/>
+		<Level typeId="1" imageName="UIQuest\Level1.dds"/>
+		<Level typeId="2" imageName="UIQuest\Level2.dds"/>
+		<Level typeId="3" imageName="UIQuest\Level3.dds"/>
+		<Level typeId="4" imageName="UIQuest\Level4.dds"/>
+		<Level typeId="5" imageName="UIQuest\Level5.dds"/>
+	</LevelList>
+</QuestInfo>

@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by Administrator (siriusent) -->
+<Quest>
+	<Quest typeID="402205001 " typeName="최고의 과일주를 위해!" group="207" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="올해 빚은 과일주를 드셔보신 적이 있습니까?/n아…. 없다고요? 그거 정말 다행이군요. 올해 과일주는 정말 최악이거든요./n /n매년 술집 주인이 열매를 수확해서 술을 빚는데, 그 맛이 달콤하고 상큼해서 마제로나의 명물이지요!/n /n하지만 올해 수확한 열매들의 질이 대체적으로 떨어져, 과일 주 맛이 텁텁하고 씁쓸하기만 합니다. 술집 주인도 그것 때문에 매상이 떨어져서 걱정이라며 도와달라고 의뢰하셨고요./n /n저희 길드에서 이 의뢰를 가지고 궁리를 해 본 결과, 상큼하고 달콤한 ^#3399FF과일즙^#3399FF을 술에 첨가하면 본래의 맛이 나올 것 같다는 결론을 냈습니다. 그러니 ^#3399FF그걸 3개 만드신 다음 저에게 가지고 오세요.^#3399FF/n오세요.^#3399FF/n" difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[과일즙 만들기]]" draft="올해 빚은 과일주를 드셔보신 적이 있습니까?/n아…. 없다고요? 그거 정말 다행이군요. 올해 과일주는 정말 최악이거든요./n /n매년 술집 주인이 열매를 수확해서 술을 빚는데, 그 맛이 달콤하고 상큼해서 마제로나의 명물이지요!/n /n하지만 올해 수확한 열매들의 질이 대체적으로 떨어져, 과일 주 맛이 텁텁하고 씁쓸하기만 합니다. 술집 주인도 그것 때문에 매상이 떨어져서 걱정이라며 도와달라고 의뢰하셨고요./n /n저희 길드에서 이 의뢰를 가지고 궁리를 해 본 결과, 상큼하고 달콤한 ^#3399FF과일즙^#3399FF을 술에 첨가하면 본래의 맛이 나올 것 같다는 결론을 냈습니다. 그러니 ^#3399FF그걸 3개 만드신 다음 저에게 가지고 오세요.^#3399FF/n오세요.^#3399FF/n" npc="모험가 길드원">
+			<subjectPos subjectStr="과일즙 만들기" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[모험가 길드원에게 보고]]" draft="과일즙을 만들었으니, 마제로나 모험가 길드원에게 가져다주어야 합니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원에게 보고" mapTargetId="28252100"/>
+		</Subject>
+		<Storage Collect1_typeID="201032" Collect1_goal="3" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<ChoiceReward typeID="201062" count="1"/>
+		<ChoiceReward typeID="201064" count="1"/>
+	</Quest>
+	<Quest typeID="402205002 " typeName="일도 중요하지만, 건강부터 챙기세요." group="201" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="이번 의뢰는 태수님 대신 마제로나를 위해 동분서주하시는 태수 보좌관 님을 위한 일입니다./n /n요즘 그 분이 태수님이 부재중이라 대행으로 업무를 맡고 있는데, 두 사람 몫을 하느라 식사할 겨를이 없다고 하더군요. 그래서인지 점점 안색이 파리해지고 있어서 전속 요리사가 고민이라셔요./n /n그래서 몸을 보할 수 있는 요리가 뭐가 있을까 해서 레시피를 고민해 본 결과, 몸을 보하는데 중점을 둬 생각한 특선 요리, 산뜻한 고티 영양탕이면 태수 보좌관님의 안색이 좋아질 거라고 하세요./n /n하지만 주 재료인 ^#3399FF영양가 많은 내장과, 내장의 비린내를 없애 줄 민트향 허브^#3399FF가 없다는데요. 각 3개씩 구해달라고 합니다. 다 모으시면 ^#3399FF저에게 가져오십시오.^#3399FF/n" difficulty="1" onMessage="CollectMake2_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin2" desc="[[영양가 많은 내장]][[민트향 허브]]" draft="이번 의뢰는 태수님 대신 마제로나를 위해 동분서주하시는 태수 보좌관 님을 위한 일입니다./n /n요즘 그 분이 태수님이 부재중이라 대행으로 업무를 맡고 있는데, 두 사람 몫을 하느라 식사할 겨를이 없다고 하더군요. 그래서인지 점점 안색이 파리해지고 있어서 전속 요리사가 고민이라셔요./n /n그래서 몸을 보할 수 있는 요리가 뭐가 있을까 해서 레시피를 고민해 본 결과, 몸을 보하는데 중점을 둬 생각한 특선 요리, 산뜻한 고티 영양탕이면 태수 보좌관님의 안색이 좋아질 거라고 하세요./n /n하지만 주 재료인 ^#3399FF영양가 많은 내장과, 내장의 비린내를 없애 줄 민트향 허브^#3399FF가 없다는데요. 각 3개씩 구해달라고 합니다. 다 모으시면 ^#3399FF저에게 가져오십시오.^#3399FF/n" npc="모험가 길드원">
+			<subjectPos subjectStr="영양가 많은 내장" mapTargetId="2"/>
+			<subjectPos subjectStr="민트향 허브" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[모험가 길드원에게 보고]]" draft="산뜻한 고티 영양탕의 재료를 모두 모았습니다. 마제로나 모험가 길드원에게 가져가십시오./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원에게 보고" mapTargetId="28252100"/>
+		</Subject>
+		<Storage Collect1_typeID="200026" Collect1_goal="3" Collect1_count="0" target1_type="Collect" Collect2_typeID="200032" Collect2_goal="3" Collect2_count="0" target2_type="Collect"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<BasicReward typeID="70042" count="1"/>
+		<ChoiceReward typeID="201040" count="1"/>
+		<ChoiceReward typeID="201035" count="1"/>
+	</Quest>
+	<Quest typeID="402205003 " typeName="만병통치약 보다 더 좋은 것." group="201" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="유목지의 약재상 님은 약재를 다루는 일을 하지만, 사실 건강 관리에서 으뜸으로 생각하는 건 끼니 때마다 챙겨먹는 든든한 식사라고 합니다./n /n그런데…. 그 분 주변에 배를 너무 곪아 몸이 허약해진 상태에서 병에 걸린 아이가 있다고 하더군요./n그 아이에게 약을 줘서 치료를 하려고 해도 몸이 워낙 쇠약해진 상태라 약의 독성을 견딜 수가 없다고 합니다./n그래서 삼과 외양만 비슷할 뿐 아니라 영양도 못지않게 함유된 ^#3399FF풀뿌리^#3399FF를 식사에 섞어서 주려고 한다면서 그걸 ^#3399FF10개 구해달라고 하셨습니다.^#3399FF/n /n초원 전역에 보이는 싱싱한 풀을 세심하게 캐서 뿌리를 채취해 오십시오./n" difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[풀뿌리 캐오기]]" draft="쇠약해진 몸을 보하기 위한 ^#3399FF풀뿌리를 구해^#3399FF 야 합니다./n /n풀뿌리는 마을 밖 필드에 있는 ^#3399FF풀^#3399FF에 수집스킬 ^#3399FF캐기^#3399FF를 사용하면 얻을 수 있습니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="풀뿌리 캐오기" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[모험가 길드원에게 보고]]" draft="풀뿌리를 모두 구했으니 하무단의 유목지 모험가 길드원에게 가져가십시오./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원에게 보고" mapTargetId="28242100"/>
+		</Subject>
+		<Storage Collect1_typeID="200033" Collect1_goal="10" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<BasicReward typeID="70043" count="1"/>
+		<ChoiceReward typeID="201063" count="1"/>
+		<ChoiceReward typeID="201032" count="1"/>
+	</Quest>
+	<Quest typeID="402205004 " typeName="음식의 유혹" group="207" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="이번 의뢰는 딸을 걱정하는 어머니의 마음이 한껏 느껴지는 일입니다./n /n메이씨는 오랜기간 무리한 다이어트를 하느라 끼니를 거르고 있어, 보다 못한 어머니께서 그녀가 평소, 제일 좋아하는 '헬시 파워업 스튜'를 주려고 한답니다./n /n그러니 ^#3399FF헬시 파워업 스튜를 만드시고 조리를 끝내시면 저에게 찾아오십시오./n" difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[헬시 파워업 스튜 만들기]]" draft="^#3399FF헬시 파워업 스튜를 제작^#3399FF 해야 합니다./n /n수련스킬에서 ^#3399FF혼합 요리법 수련^#3399FF을 익힌 다음, 능력스킬의 ^#3399FF혼합 요리 만들기^#3399FF에 있는 ^#3399FF헬시 파워업 스튜 제작^#3399FF을 선택하면 얻을 수 있습니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="헬시 파워업 스튜 만들기" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[모험가 길드원에게 보고]]" draft="헬시 파워업 스튜를 제작했으니 하무단의 유목지 모험가 길드원에게 가져다 주어야 합니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원에게 보고" mapTargetId="28242100"/>
+		</Subject>
+		<Storage Collect1_typeID="102019" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<BasicReward typeID="70045" count="1"/>
+		<ChoiceReward typeID="201036" count="1"/>
+		<ChoiceReward typeID="201037" count="1"/>
+	</Quest>
+	<Quest typeID="402205005 " typeName="파릇파릇한 새싹" group="207" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="타무르 할아버지 께서는 나이가 들어 건강 관리를 해야 한다며 매일 원기를 돋구어주는 효과가 있는 새싹을 생으로 드신다고 합니다./n /n그런데 오늘 따라 감기 기운 때문에 본인이 직접 새싹을 구해올 수 없으시다며 우리 길드에 대신 3개 구해 오라고 의뢰하셨습니다./n /n그러니 초원의 풀을 잘 찾아 ^#3399FF새싹을 구해오십시오.^#3399FF/n" difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[새싹 구하기]]" draft="감기에 걸린 타무르 할아버지 대신 ^#3399FF새싹을 구해와^#3399FF야 합니다./n새싹은 마을 밖 필드에 있는 ^#3399FF풀^#3399FF에 수집스킬 ^#3399FF베기^#3399FF를 사용하면 얻을 수 있습니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="새싹 구하기" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[모험가 길드원에게 보고]]" draft="새싹을 요청한 개수만큼 구했으니 리칠의 유목지 모험가 길드원에게 돌아가야 합니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원에게 보고" mapTargetId="28262100"/>
+		</Subject>
+		<Storage Collect1_typeID="200018" Collect1_goal="3" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<BasicReward typeID="70044" count="1"/>
+		<ChoiceReward typeID="201034" count="1"/>
+		<ChoiceReward typeID="201030" count="1"/>
+	</Quest>
+	<Quest typeID="402205006 " typeName="비전의 요리!" group="207" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="제가 직접 모험가분들에게 부탁하는 의뢰입니다. 저는 제 키에 대해 불만은 없지만, 저보다 눈곱만큼 크면서 제 앞에서 키 자랑을 하는 친구를 도저히 눈 뜨고 볼 수가 없습니다./n 그 친구의 코를 납작하게 만들기 위해 비장의 수를 준비해 둔 것이 있는데, 제 대신 그 일을 해주셨으면 좋겠습니다. 제 개인적인 일이라, 자세한 이야기는 아루나이에게 부탁해 놓았으니, 그녀를 찾아가세요./n /n^#3399FF아루나이^#3399FF는 ^#3399FF마제로나 마법용품점 근처^#3399FF에서 기다리고 있을 겁니다./n" difficulty="1" onMessage="Quest402205006_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="NULL" desc="[[아루나이와 대화]]" draft="^#3399FF아루나이^#3399FF는 ^#3399FF마제로나 마법용품점 근처^#3399FF에서 기다리고 있으니, 그녀를 찾아가야 합니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="아루나이와 대화" mapTargetId="22321100"/>
+		</Subject>
+		<Subject typeName="Collect" func="UpdateQuestExplain_quest2_2" desc="[[성장의 경단 만들기]]" draft="^#3399FF성장의 경단^#3399FF을 만들어야 합니다./n /n성장의 경단에는 다음 재료가 필요합니다./n마제로나 근방의 ^#3399FF해바라기^#3399FF에 수집스킬 ^#3399FF모으기^#3399FF를 사용해서 얻은 ^#3399FF해바라기 씨앗^#3399FF 2개/n^#3399FF라임의 조각^#3399FF에 수집스킬 ^#3399FF모으기^#3399FF나 ^#3399FF캐기^#3399FF를 사용해 얻은 ^#3399FF라임의 조각^#3399FF 2개/n동물형 몬스터에게 능력스킬 ^#3399FF식칼질^#3399FF을 사용하여 얻은 ^#3399FF고깃덩어리^#3399FF 1개/n" npc="아루나이">
+			<subjectPos subjectStr="성장의 경단 만들기" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[모험가 길드원에게 보고]]" draft="성장의 경단을 만들었으니 마제로나 모험가 길드원에게 돌아가야 합니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원에게 보고" mapTargetId="28252100"/>
+		</Subject>
+		<Storage Collect1_typeID="110032" Hunt2_typeID="150250" Hunt2_goal="1" Hunt2_count="0" target2_type="Hunt" Collect3_typeID="150263" Collect4_typeID="150116" Collect5_typeID="200027"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<BasicReward typeID="20010" count="1"/>
+		<ChoiceReward typeID="201062" count="1"/>
+		<ChoiceReward typeID="201064" count="1"/>
+	</Quest>
+	<Quest typeID="402205007 " typeName="평범한 맛은 싫어" group="207" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="한 미식가 분의 의뢰입니다. 의뢰주께서는 색다른 맛의 고기 커틀릿을 드시고 싶어하시더군요. 입에 불이 날 정도로 화끈한 맛을 원하십니다. 요리사님께서 그 욕구를 충족시킬 수 있는, ^#3399FF매운 제로 레인지 커틀렛^#3399FF을 만들어 주십시오./n /n그 요리에 필요한 ^#3399FF특제 소스^#3399FF는 ^#3399FF마제로나 중앙에 계시는 상회 단장님^#3399FF에게 부탁해 놓았으니, 그분께 가시면 특제 소스를 주실 겁니다./n" difficulty="1" onMessage="Quest402205007_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="NULL" desc="[[상회 단장과 대화]]" draft="^#3399FF마제로나 중앙^#3399FF에 계시는 ^#3399FF상회 단장님^#3399FF을 찾아가서 특제 소스를 받아야 합니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="상회 단장과 대화" mapTargetId="22681100"/>
+		</Subject>
+		<Subject typeName="Collect" func="UpdateQuestExplain_quest2_2" desc="[[매운 제로 레인지 커틀렛 만들기]]" draft="^#3399FF매운 제로 레인지 커틀렛^#3399FF을 만들어야 합니다./n이 요리에는 다음 재료가 필요합니다./n /n
+마제로나의 상회 단장이 주는 ^#3399FF특제 소스^#3399FF 1개/n^#3399FF손질된 고기^#3399FF, ^#3399FF짭짤한 양념^#3399FF, ^#3399FF동물성 기름^#3399FF을 소지한 상태에서 제작스킬 ^#3399FF고기 요리 만들기^#3399FF에 있는 ^#3399FF제로 레인지 커틀렛 제작^#3399FF을 선택하여 제작하면 얻을 수 있는 ^#3399FF제로 레인지 커틀렛^#3399FF 1개/n /n제로 레인지 커틀렛을 소지한 상태에서 특제 소스를 사용하면 매운 제로 레인지 커틀렛이 됩니다./n" npc="상회 단장">
+			<subjectPos subjectStr="매운 제로 레인지 커틀렛 만들기" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[모험가 길드원에게 보고]]" draft="매운 제로 레인지 커틀렛을 만들었으니, 마제로나 모험가 길드원에게 가져가야 합니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원에게 보고" mapTargetId="28252100"/>
+		</Subject>
+		<Storage Collect1_typeID="110033" Hunt2_typeID="150261" Hunt2_goal="1" Hunt2_count="0" target2_type="Hunt" Collect3_typeID="102008"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<BasicReward typeID="20011" count="1"/>
+		<ChoiceReward typeID="201040" count="1"/>
+		<ChoiceReward typeID="201035" count="1"/>
+	</Quest>
+	<Quest typeID="402205008 " typeName="따끈한 달걀" group="207" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="이곳 유목지의 전통요리를 지켜오신 한 요리사의 의뢰입니다./n의뢰주께서는 매일 신선한 달걀로 수프를 만들어 먹는다고 합니다. 그런데 오늘 아침에 달걀을 낳아주던 미키라는 자신이 닭이 어디론가 사라져 버렸다고 합니다. 분명히 유목지 안에 있는 것은 확실한데 찾을 수가 없어 저희에게 의뢰해 오셨습니다./n /n^#3399FF유목지 어딘가^#3399FF에 있는 ^#3399FF미키^#3399FF를 찾아서 낳은 ^#3399FF달걀^#3399FF을 찾아오고, 미키가 있는 곳을 알려 주십시오./n" difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[따끈한 달걀 찾기]]" draft="^#3399FF따끈한 달걀^#3399FF은 하무단의 유목지 어딘가에 있는 닭, ^#3399FF미키^#3399FF를 선택하면 얻을 수 있습니다./n /n닭은 높은 곳을 좋아하니 높은 곳을 찾아보는 것이 좋을 것 같습니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="따끈한 달걀 찾기" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[모험가 길드원에게 보고]]" draft="따끈한 달걀을 얻었으니, 하무단의 유목지 모험가 길드원에게 돌아가십시오./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원에게 보고" mapTargetId="28242100"/>
+		</Subject>
+		<Storage Collect1_typeID="150262" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<BasicReward typeID="20012" count="1"/>
+		<ChoiceReward typeID="201063" count="1"/>
+		<ChoiceReward typeID="201032" count="1"/>
+	</Quest>
+	<Quest typeID="402205009 " typeName="검은 숲의 진미" group="201" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="리칠의 유목지 사람들이 가끔 맛보는 진미가 있지요. 그건 바로 검은 거미의 알입니다./n이곳에서 ^#3399FF남동쪽에 있는 검은 거미 숲^#3399FF에서 볼 수 있는 이 알의 독특한 맛은 한번 맛본 자들은 잊지 못한다고 합니다./n하지만, 검은 거미 숲은 무척 위험한 곳이라 알을 구하기는 하늘의 별 따기지요. 최근에 한 미식가분께서 그 알을 맛보고 싶다고 의뢰를 하셨습니다./n /n검은 거미 숲 깊숙한 곳에 가시면 거미들이 알이 있는 곳을 발견하실 수 있을 겁니다. 그곳에서 아직 ^#3399FF미성숙 된 검은 거미 알^#3399FF를 10개만 구해주십시오./n" difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[검은 거미 알 모으기]]" draft="검은 거미 알을 모아야 합니다. ^#3399FF검은 거미 알^#3399FF은 검은 거미 숲 속에 있는 수집물 ^#3399FF검은 거미 알^#3399FF에 ^#3399FF모으기^#3399FF를 사용하면 얻을 수 있습니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="검은 거미 알 모으기" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[모험가 길드원에게 보고]]" draft="요리에 쓰일 거미알들을 모두 모았으니 리칠의 유목지 모험가 길드원에게 돌아가십시오./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원에게 보고" mapTargetId="28262100"/>
+		</Subject>
+		<Storage Collect1_typeID="150251" Collect1_goal="10" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<BasicReward typeID="70041" count="1"/>
+		<ChoiceReward typeID="60019" count="1"/>
+		<ChoiceReward typeID="60020" count="1"/>
+	</Quest>
+	<Quest typeID="402205010 " typeName="요리를 배우고 싶어요" group="207" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="한 재능있는 요리사 지망생의 의뢰입니다./n그는 책을 보며 독학하며 요리를 공부하는 청년이라고 합니다. 하지만, 책만 보며 공부하는 것은 아무래도 한계가 있지요./n /n그는 유독 풀뿌리 샐러드만은 제대로 만들지 못한다고 합니다. 그래서 진짜로 제대로 만든 스킬업 스테이크 샐러드를 보며 요리를 공부하고 싶다고 하는군요. 그에게 도움이 될 ^#3399FF스킬업 스테이크 샐러드^#3399FF를 만들어 주십시오./n" difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[스킬업 스테이크 샐러드 제작]]" draft="열정적인 요리사 지망생을 위한 ^#3399FF스킬업 스테이크 샐러드^#3399FF를 만들어 주십시오./n /n스킬업 스테이크 샐러드는 능력스킬 ^#3399FF혼합 요리 만들기^#3399FF에서 ^#3399FF스킬업 스테이크 샐러드 제작^#3399FF을 선택하여 제작하면 얻을 수 있습니다./n /n스킬업 스테이크 샐러드에는 재료로 ^#3399FF손질된 고기^#3399FF와 ^#3399FF손질된 풀^#3399FF에 ^#3399FF매콤한 양념^#3399FF과 ^#3399FF진하게 우려낸 육수^#3399FF가 필요합니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="스킬업 스테이크 샐러드 제작" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[모험가 길드원에게 보고]]" draft="요청한 스킬업 스테이크 샐러드를 만들었으니 리칠의 유목지 모험가 길드원에게 돌아가야 합니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원에게 보고" mapTargetId="28262100"/>
+		</Subject>
+		<Storage Collect1_typeID="102023" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<ChoiceReward typeID="60044" count="1"/>
+		<ChoiceReward typeID="60045" count="1"/>
+	</Quest>
+	<Quest typeID="402205101 " typeName="행복한 고민" group="207" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="장신구 거간꾼 님의 의뢰입니다. 요즘따라 마제로나에 방문하는 모험가들 덕분에 장사가 너무 잘 되어서 장사 물품의 수가 부족하다고 합니다./n /n우리 길드에 ^#3399FF모직이나 가죽 장식 중, 어떤 것이라도 상관 없으니 일단 장식이 꼭 필요하다며, 1개 정도 만들어 오라고 요청하셨습니다.^#3399FF/n /n… 그 분은 장사가 잘 되어도 걱정이 많으신가봐요. 좀 부럽네요. 어쨌든 만들어 오시면 저에게 가져오십시오./n" difficulty="1" onMessage="CollectMake2_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin2" desc="[[가죽 장식]][[모직 장식]]" draft="^#3399FF가죽장식^#3399FF 또는 ^#3399FF모직장식^#3399FF을 1개씩 만들어야 합니다./n /n가죽 장식은 능력스킬 ^#3399FF가죽 가공하기^#3399FF에서 ^#3399FF가죽 장식^#3399FF을 선택하면 제작할 수 있습니다./n모직 장식은 능력스킬 ^#3399FF천 가공하기^#3399FF에서 ^#3399FF모직 장식^#3399FF을 선택하면 제작할 수 있습니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="가죽 장식" mapTargetId="2"/>
+			<subjectPos subjectStr="모직 장식" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[모험가 길드원에게 보고]]" draft="^#3399FF장식을 제작했으니 모험가 길드원에게 전해^#3399FF줘야 합니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원에게 보고" mapTargetId="2"/>
+		</Subject>
+		<Storage Collect1_typeID="201006" Collect1_goal="1" Collect1_count="0" target1_type="Collect" Collect2_typeID="201023" Collect2_goal="1" Collect2_count="0" target2_type="Collect"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<BasicReward typeID="70026" count="1"/>
+		<ChoiceReward typeID="201001" count="1"/>
+		<ChoiceReward typeID="201004" count="1"/>
+	</Quest>
+	<Quest typeID="402205102 " typeName="꿩대신 닭" group="207" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="왕국 수의사 님의 의뢰입니다. 요즘 따라 영문도 모르는 채, 윈더스 들이 다치는 일이 잦아졌다고 하네요. 거기다 엎친데 덮친 격으로 윈더스의 치료에 필요한 붕대가 다 떨어졌다고 합니다./n /n그래서 발카라스 왕국에 붕대를 조달해 달라고 요청했지만, 물건이 오려면 며칠 걸린다며 급한대로 무명 옷감을 붕대로 쓰겠다며 제작을 의뢰했습니다./n /n그 분은 ^#3399FF무명 옷감을 대략 3 개 정도 제작^#3399FF해 달라고 하셨으니 만드신 후, 저에게 가져오십시오./n" difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[무명 옷감 만들기]]" draft="^#3399FF무명 옷감^#3399FF을 제작 해야 합니다./n /n무명 옷감은 능력스킬 ^#3399FF천 가공하기^#3399FF 에서 ^#3399FF무명 옷감 제작^#3399FF을 선택하여 제작하면 만들 수 있습니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="무명 옷감 만들기" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[모험가 길드원에게 보고]]" draft="무명 옷감을 제작했으니 ^#3399FF모험가 길드원에게 가져가야 합니다.^#3399FF/n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원에게 보고" mapTargetId="28252100"/>
+		</Subject>
+		<Storage Collect1_typeID="201020" Collect1_goal="3" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<BasicReward typeID="20016" count="1"/>
+		<ChoiceReward typeID="201006" count="1"/>
+		<ChoiceReward typeID="201002" count="1"/>
+	</Quest>
+	<Quest typeID="402205103 " typeName="누구보다 더 예쁘게!" group="201" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="메리엘 씨는 몸은 유목지에 있지만, 마음만은 도시에 있다며, 도시민 답게 세련되고 예쁘게 꾸미고 싶다고 합니다./n /n하지만, 유목지에서는 도시에서 볼 수 있는 예쁜 장식들이 없다며, 그나마 털로 초라한 머리 장식이라도 만드려고 하니, ^#3399FF털을 3개 구해오라고 하셨습니다./n /n다 모으시면 저에게 들고 오십시오.^#3399FF/n" difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[털 모으기]]" draft="메리엘씨의 머리 장식 제작에 필요한 재료, ^#3399FF털^#3399FF을 모아야 합니다./n /n마을 밖 필드에 있는 ^#3399FF동물형 몬스터^#3399FF를 처치하면 ^#3399FF털^#3399FF을 얻을 수 있습니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="털 모으기" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[모험가 길드원에게 보고]]" draft="털을 요청한 개수만큼 모았으니 하무단의 유목지 모험가 길드원에게 가져가야 합니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원에게 보고" mapTargetId="28242100"/>
+		</Subject>
+		<Storage Collect1_typeID="200014" Collect1_goal="3" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<BasicReward typeID="70027" count="1"/>
+		<ChoiceReward typeID="201021" count="1"/>
+		<ChoiceReward typeID="201023" count="1"/>
+	</Quest>
+	<Quest typeID="402205104 " typeName="튼튼한 천막" group="207" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="하무단을 보좌하는 리안님의 의뢰입니다. 요즘 하무단 님이 계시는 천막의 천이 점점 닳고 있어, 비가 샐 때가 있다고 하시는데요. 이번에는 두껍고 질긴 가죽 재질로 천막을 만들어서 천이 쉽게 닳지 않고, 비나 눈을 막아아줄 가죽 옷감을 만들어 오라고 하셨습니다./n /n죄송한데 천막을 덮으려고 ^#3399FF가죽 옷감을 제작 요청^#3399FF한 거니 좀 많이 만드셔야 겠습니다. 대략 3 개 정도면 천막을 만드는데 도움이 되겠다고 하시네요./n /n가죽 옷감을 요청한 개수만큼 다 만드시면 저에게 가져오십시오./n" difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[가죽 옷감 만들기]]" draft="천막의 재료가 되는 ^#3399FF가죽 옷감^#3399FF을 만들어야 합니다./n /n가죽 옷감은 ^#3399FF가죽^#3399FF을 가지고, 능력스킬 ^#3399FF가죽 가공하기^#3399FF에서 ^#3399FF가죽 옷감^#3399FF을 선택하여 제작하면 얻을 수 있습니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="가죽 옷감 만들기" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[모험가 길드원에게 보고]]" draft="요청한 가죽 옷감을 만들었으니 하무단의 유목지 모험가 길드원에게 가져가십시오./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원에게 보고" mapTargetId="28242100"/>
+		</Subject>
+		<Storage Collect1_typeID="201002" Collect1_goal="3" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<BasicReward typeID="70028" count="1"/>
+		<ChoiceReward typeID="201024" count="1"/>
+		<ChoiceReward typeID="201003" count="1"/>
+	</Quest>
+	<Quest typeID="402205105 " typeName="실수 방지" group="207" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="리칠 님께서는 유목지에서 일어나는 일을 매일 빠짐없이 기록하시는데, 실수로 그 기록장의 종이를 찢어버렸다고 합니다./n /n워낙 매사에 꼼꼼하신 분이라 그런지, 앞으로는 이런 실수를 또 겪지 않겠다며, 종이 대신 천에다가 글을 써야겠다고 ^#3399FF모직 옷감을 만들어 오라고 의뢰하셨습니다./n /n넉넉잡아 3개 정도 필요^#3399FF하다고 하셨습니다./n제작을 마치시면 저에게 보여주십시오./n" difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[모직 옷감 만들기]]" draft="종이대신 사용할 ^#3399FF모직 옷감^#3399FF을 만들어야 합니다./n /n모직 옷감은 ^#3399FF섬유^#3399FF를 가지고, 능력스킬 ^#3399FF천 가공하기^#3399FF에서 ^#3399FF모직 옷감 제작^#3399FF을 선택하면 얻을 수 있습니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모직 옷감 만들기" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[모험가 길드원에게 보고]]" draft="모직 옷감을 만들었으니 리칠의 유목지 모험가 길드원에게 돌아가십시오./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원에게 보고" mapTargetId="28262100"/>
+		</Subject>
+		<Storage Collect1_typeID="201021" Collect1_goal="3" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<BasicReward typeID="70030" count="1"/>
+		<ChoiceReward typeID="201020" count="1"/>
+		<ChoiceReward typeID="201022" count="1"/>
+	</Quest>
+	<Quest typeID="402205106 " typeName="출장 수선" group="207" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="^#3399FF마제로나 서쪽^#3399FF에 있는 ^#3399FF국경 경비대 대장님^#3399FF의 의뢰입니다./n최근에 경비대원들의 옷이 많이 해졌는데 수선을 보낼 여유가 없다고 합니다. 무기 같은 것은 출장 온 대장장이가 고쳐주고 있는데, 평상시에 입는 옷을 수선해주는 사람이 없다면서 재봉사를 급히 찾고 있습니다./n /n국경 경비대의 국경 경비대 대장님을 찾아가면 자세한 이야기를 해주실 겁니다. 이번 일은 저희가 알선만 해드리는 것이기 때문에 보수는 경비대장님께 직접 받으십시오./n" difficulty="1" onMessage="Quest402205106_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="NULL" desc="[[국경 경비대 대장과 대화]]" draft="^#3399FF국경 경비대^#3399FF는 ^#3399FF길을 따라 서쪽^#3399FF으로 가시면 쉽게 찾을 수 있을 겁니다. 그곳에서 ^#3399FF국경 경비 대장님^#3399FF을 찾으십시오./n" npc="모험가 길드원">
+			<subjectPos subjectStr="국경 경비대 대장과 대화" mapTargetId="21571100"/>
+		</Subject>
+		<Subject typeName="Collect" func="UpdateQuestExplain_quest3_3" desc="[[해진 국경 경비대 옷 수선]]" draft="국경 경비대 옷을 수선해야 합니다./n /n^#3399FF해진 국경 경비대 옷^#3399FF에 국경 경비대 대장이 준 ^#3399FF국경 경비대 바늘^#3399FF을 사용하면 ^#3399FF수선한 국경 경비대 옷^#3399FF을 얻을 수 있습니다./n" npc="국경 경비대 대장">
+			<subjectPos subjectStr="해진 국경 경비대 옷 수선" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[국경 경비대 대장에게 보고]]" draft="수선한 국경 경비대 옷들을 ^#3399FF국경 경비대장^#3399FF에게 전해줘야 합니다./n" npc="국경 경비대 대장">
+			<subjectPos subjectStr="국경 경비대 대장에게 보고" mapTargetId="21572100"/>
+		</Subject>
+		<Storage Collect1_typeID="150252" Collect2_typeID="110034" Hunt3_typeID="150253" Hunt3_goal="5" Hunt3_count="0" target3_type="Hunt"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<BasicReward typeID="70029" count="1"/>
+		<ChoiceReward typeID="201001" count="1"/>
+		<ChoiceReward typeID="201004" count="1"/>
+	</Quest>
+	<Quest typeID="402205107 " typeName="재료가 부족해" group="207" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="피킨 유랑 상인들이 오지 않은지 꽤 되는군요. 이곳의 사람들은 피킨 유랑 상인단에게 많은 수의 무명실을 사고 있었습니다. 바람이 부는 이곳에서는 옷이 해지기 쉬워서 옷을 수선할 재료를 항상 넉넉히 구비해 두는 편이죠./n하지만, 지금은 제때 물량을 공급받지 못해 많이 부족합니다. 그래서 상회 단장님께서 저희에게 무명실 제작을 의뢰하셨습니다./n /n 마제로나 사람들이 옷 수선에 쓸 ^#3399FF무명실^#3399FF을 구해주십시오./n" difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[무명실 제작]]" draft="마제로나 주민들이 옷 수선에 사용할 ^#3399FF무명실^#3399FF을 만들어야 합니다./n /n무명실은 능력스킬 ^#3399FF천 가공하기^#3399FF에서 ^#3399FF무명실 제작하기^#3399FF를 사용하면 얻을 수 있습니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="무명실 제작" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[모험가 길드원에게 보고]]" draft="요청한 무명실을 만들었으니 마제로나 모험가 길드원에게 돌아가야 합니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원에게 보고" mapTargetId="28252100"/>
+		</Subject>
+		<Storage Collect1_typeID="201024" Collect1_goal="3" Collect1_count="0" Collect1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<BasicReward typeID="20016" count="1"/>
+		<ChoiceReward typeID="201006" count="1"/>
+		<ChoiceReward typeID="201002" count="1"/>
+	</Quest>
+	<Quest typeID="402205108 " typeName="심해진 건망증" group="201" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="사람들은 아무리 중요한 것이라도 종종 잊어버릴 때가 있습니다. 이 일을 의뢰하신 분도 그런 분이시지요./n얼마 전에 다른 분들의 옷을 수선해주러 갔다가 가위를 놓고 오셨다는군요. 그날따라 워낙 많은 집의 옷을 수선했던 터라 어느 곳에 두고 온 지 기억이 나지 않는다고 하십니다./n /n이곳 ^#3399FF유목지의 천막^#3399FF에서 ^#3399FF유목민의 가위^#3399FF를 좀 찾아 주십시오./n" difficulty="1" onMessage="Quest402205108_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[유목민의 가위 찾기]]" draft="유목민의 가위를 찾아야 합니다./n /n유목민의 가위는 하무단의 유목지에 있는 천막들 중 한 곳에 있는 ^#3399FF유목민의 가위^#3399FF에 수집스킬 ^#3399FF찾기^#3399FF를 사용하면 얻을 수 있습니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="유목민의 가위 찾기" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[모험가 길드원에게 보고]]" draft="유목민의 가위를 찾았으니 하무단의 유목지 모험가 길드원에게 보고해야 합니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원에게 보고" mapTargetId="28242100"/>
+		</Subject>
+		<Storage Collect1_typeID="150254" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<BasicReward typeID="20017" count="1"/>
+		<ChoiceReward typeID="60019" count="1"/>
+		<ChoiceReward typeID="60020" count="1"/>
+	</Quest>
+	<Quest typeID="402205109 " typeName="대량 주문" group="207" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="얼마 전 한 마티나 상인이 이곳에 들리면서 유목민들의 가죽의 질을 보고 큰 감탄을 했다고 합니다.그래서 이곳 재봉사에게 가죽 장식을 대량으로 주문하고 간 모양입니다./n그런데 최근 재봉사가 피드렉스에게 손을 다쳐 납기일내에 물건을 다 만들지 못하겠고 합니다. 그래서 저희 길드에 도움을 요청해왔습니다./n /n유목지 재봉사가 부탁한 ^#3399FF가죽 장식^#3399FF을 만들어 주십시오./n" difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[가죽 장식 만들기]]" draft="가죽 장식을 만들어야 합니다./n /n가죽 장식은 ^#3399FF가죽^#3399FF을 가지고, 능력스킬 ^#3399FF가죽 가공하기^#3399FF에서 ^#3399FF가죽 장식^#3399FF을 선택하면 제작할 수 있습니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="가죽 장식 만들기" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[모험가 길드원에게 보고]]" draft="가죽 장식을 만들었으니, 리칠의 유목지 모험가 길드원에게 가져가야 합니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원에게 보고" mapTargetId="28262100"/>
+		</Subject>
+		<Storage Collect1_typeID="201006" Collect1_goal="3" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<BasicReward typeID="20018" count="1"/>
+		<ChoiceReward typeID="201024" count="1"/>
+		<ChoiceReward typeID="201003" count="1"/>
+	</Quest>
+	<Quest typeID="402205110 " typeName="탐이 나는 모자" group="207" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="유목민 젊은이들은 도시민들을 그다지 부러워하지는 않습니다. 그들의 편한 도구들을 사용하면 일이 좀 쉽겠다라고 생각하는 정도지요./n 하지만, 몇몇 부분에서는 부러워하는 것도 있지요. 그건 바로 화려한 옷차림입니다. 유목지의 옷은 대부분 실생활에 유용하게 만들어져 화려함과는 거리가 멀지요. 그래서 도시민들의 화려한 옷을 보면 눈이 휘둥그레진다고 합니다./n /n얼마 전 유목지 처녀가 마제로나에 갔다가 한 사람의 모자가 마음에 든 모양입니다. 모양을 들어보니, 바람의 속삭임 모자 같던데…./n 재봉사님께서 ^#3399FF바람의 속삭임 모자^#3399FF를 하나 제작해 주셨으면 합니다./n" difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[바람의 속삭임 모자 제작]]" draft="유목민이 갖고 싶어하는 ^#3399FF바람의 속삭임 모자를 제작^#3399FF 해야 합니다./n /n바람의 속삭임 모자는 능력스킬 ^#3399FF가죽 모자 만들기^#3399FF에서 ^#3399FF바람의 속삭임 모자 제작^#3399FF을 선택하여 제작하면 얻을 수 있습니다./n /n바람의 속삭임 모자를 만들기 위해서는 다음 재료가 필요합니다./n^#3399FF그림자 조각 모자^#3399FF/n^#3399FF얇은 가죽 옷감^#3399FF/n^#3399FF얇은 가죽 장식^#3399FF/n^#3399FF송곳니^#3399FF/n" npc="모험가 길드원">
+			<subjectPos subjectStr="바람의 속삭임 모자 제작" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[모험가 길드원에게 보고]]" draft="바람의 속삭임 모자를 제작했으니, 리칠의 유목지 모험가 길드원에게 가져가십시오./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원에게 보고" mapTargetId="28262100"/>
+		</Subject>
+		<Storage Collect1_typeID="50078" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<ChoiceReward typeID="60044" count="1"/>
+		<ChoiceReward typeID="60045" count="1"/>
+	</Quest>
+	<Quest typeID="402205201 " typeName="공격은 최선의 방어" group="207" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="무기 상인의 의뢰입니다./n그 분께서 요즘 마제로나 주변의 치안도 나빠지고, 동물들이 난폭해져 많은 모험가들이 다치는 일이 잦다고 합니다./n /n더 이상은 그런 일이 생기지 않았으면 좋겠다며, 공격은 최선의 방어니, ^#3399FF무기 미스틱 블레이드를 제작해 오라고 하셨습니다. 만드신 후에 저에게 가져와서 보여주십시오.^#3399FF/n" difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[미스틱 블레이드 제작]]" draft="무기 상인의 의뢰에 따라, ^#3399FF미스틱 블레이드^#3399FF를 제작해야 합니다./n /n미스틱 블레이드는 ^#3399FF블랙투스 소드^#3399FF와 ^#3399FF별의 주괴^#3399FF, 그리고 ^#3399FF작은 금속 나사^#3399FF와 ^#3399FF그레이피늄^#3399FF을 가지고 능력스킬의 ^#3399FF한손도검 만들기^#3399FF에서 ^#3399FF미스틱 블레이드^#3399FF를 선택하여 제작할 수 있습니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="미스틱 블레이드 제작" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[모험가 길드원에게 보고]]" draft="미스틱 블레이드를 제작했으니 마제로나 모험가 길드원에게 가져가십시오./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원에게 보고" mapTargetId="28252100"/>
+		</Subject>
+		<Storage Collect1_typeID="134" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<BasicReward typeID="70011" count="1"/>
+		<ChoiceReward typeID="201007" count="1"/>
+		<ChoiceReward typeID="201008" count="1"/>
+	</Quest>
+	<Quest typeID="402205202 " typeName="차별의 서러움" group="207" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="한 유목민의 의뢰입니다./n /n그 분은 마제로나에서 방어구 중 하나인 벨트를 사려는데, 자신은 유목민이라 마제로나 상인들이 물건을 팔아주지 않는다고 합니다./n /n그래서 대신 우리 모험가 길드에 의뢰해 벨트, ^#3399FF대지의 부름의 허리 보호대를 제작^#3399FF해 달라고 부탁하셨습니다./n /n만드시면 저에게 가져오십시오./n" difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[대지의 부름의 허리 보호대 제작]]" draft="유목민이 부탁한 ^#3399FF대지의 부름의 허리 보호대^#3399FF를 제작해야 합니다./n /n대지의 부름의 허리 보호대는 ^#3399FF메탈 벨트^#3399FF와 ^#3399FF별의 주괴^#3399FF, 그리고 ^#3399FF단단한 뼈 장식^#3399FF과 ^#3399FF금속 나사^#3399FF를 가지고, 능력스킬의 ^#3399FF금속허리보호대 만들기^#3399FF에서 ^#3399FF대지의 부름의 허리 보호대 제작^#3399FF을 선택하여 제작할 수 있습니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="대지의 부름의 허리 보호대 제작" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[모험가 길드원에게 보고]]" draft="대지의 부름의 허리보호대를 제작했으니 마제로나 모험가 길드원에게 돌아가야 합니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원에게 보고" mapTargetId="28252100"/>
+		</Subject>
+		<Storage Collect1_typeID="50028" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<BasicReward typeID="70013" count="1"/>
+		<ChoiceReward typeID="201012" count="1"/>
+		<ChoiceReward typeID="201009" count="1"/>
+	</Quest>
+	<Quest typeID="402205203 " typeName="질주를 위하여" group="207" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="마구간 지기의 의뢰입니다./n자신이 관리하는 윈더스 들의 말굽이 닳아서 윈더스의 달리기 속도가 느려졌다며 말굽을 갈아야 한답니다. 그러기 위해서는 ^#3399FF달의 주괴가 필요하다며 3개 만들어 달라고 요청^#3399FF하셨습니다./n /n제작을 마치시면 저에게 돌아오십시오./n" difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[달의 주괴 제작]]" draft="윈더스의 말굽에 사용할 ^#3399FF달의 주괴를 3개 제작^#3399FF 해야 합니다./n /n달의 주괴는 ^#3399FF광석^#3399FF을 가지고 능력스킬 ^#3399FF광석 가공하기^#3399FF에서 ^#3399FF달의 주괴 제작^#3399FF을 사용하면 얻을 수 있습니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="달의 주괴 제작" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[모험가 길드원에게 보고]]" draft="달의 주괴을 모두 제작했으니 하무단의 유목지 모험가 길드원에게 돌아가야 합니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원에게 보고" mapTargetId="28242100"/>
+		</Subject>
+		<Storage Collect1_typeID="201008" Collect1_goal="3" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<BasicReward typeID="70012" count="1"/>
+		<ChoiceReward typeID="201010" count="1"/>
+		<ChoiceReward typeID="201015" count="1"/>
+	</Quest>
+	<Quest typeID="402205204 " typeName="평온한 휴식" group="201" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="의뢰인의 아버지가 고블린들에게 죽었는데, 아버지의 무덤에 올릴 돌도 없다고 합니다./n /n자기가 이대로 아무것도 안 하면 아버지가 편안하게 쉴 수 없다며 대신 무덤에 올릴 광석, ^#3399FF체리라이트를 구해오라고 요청^#3399FF하셨습니다./n /n고원 곳곳에 있는 돌들에서 그걸 모을 수 있습니다./n3 개 정도 필요하다고 하더군요./n /n다 모아주시면 저에게 가져오십시오./n" difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[체리라이트 모으기]]" draft="무덤에 올릴 ^#3399FF체리라이트를 3개^#3399FF 구해야 합니다./n /n체리라이트는 마을 밖 필드에 있는 수집물 ^#3399FF체리라이트^#3399FF에 수집스킬 ^#3399FF캐기^#3399FF를 사용하면 얻을 수 있습니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="체리라이트 모으기" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[모험가 길드원에게 보고]]" draft="체리라이트를 모두 모았으니 하무단의 유목지 모험가 길드원에게 가져가십시오./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원에게 보고" mapTargetId="28242100"/>
+		</Subject>
+		<Storage Collect1_typeID="200003" Collect1_goal="3" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<BasicReward typeID="70014" count="1"/>
+		<ChoiceReward typeID="201011" count="1"/>
+		<ChoiceReward typeID="201014" count="1"/>
+	</Quest>
+	<Quest typeID="402205205 " typeName="성의있는 답장" group="201" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="라운 님의 의뢰입니다. 그 분은 얼마 전에 어린 아가씨에게 연애편지를 받았다고 하더군요. 답장을 쓰려는데, 잉크가 떨어져 글씨를 쓸 수 없다고 합니다./n /n새 잉크가 필요하다고 하시는데요, 어린 아가씨에게 주는 답장이니까 기왕이면 예쁜 색상의 글씨가 담겨진 편지를 쓰고 싶다고 하십니다./n그래서 붉은색 염료와 푸른색 염료를 마련해야 겠다며 ^#3399FF들꽃과 새싹을 각각 5개^#3399FF씩 모아와 달라고 요청하셨습니다. 다 모아오시면 저에게 돌아오십시오./n" difficulty="1" onMessage="Collect_quest_onMessage2" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin2" desc="[[새싹 구하기]] [[들꽃 구하기]]" draft="들꽃과 새싹을 각각 5개^#3399FF씩 구해야 합니다/n /n들꽃과 새싹은 마을 밖 필드의 수집물 ^#3399FF풀^#3399FF에 수집스킬 ^#3399FF베기^#3399FF를 사용하면 얻을 수 있습니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="새싹 구하기" mapTargetId="2"/>
+			<subjectPos subjectStr="들꽃 구하기" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[모험가 길드원에게 보고]]" draft="염료의 재료가 될 새싹과 들꽃을 요청한 개수만큼 모았으니, ^#3399FF리칠의 유목지 모험가 길드원^#3399FF에게 돌아가십시오./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원에게 보고" mapTargetId="28262100"/>
+		</Subject>
+		<Storage Collect1_typeID="200018" Collect1_goal="5" Collect1_count="0" target1_type="Collect" Collect2_typeID="200019" Collect2_goal="5" Collect2_count="0" target2_type="Collect"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<BasicReward typeID="70015" count="1"/>
+		<ChoiceReward typeID="201013" count="1"/>
+		<ChoiceReward typeID="201016" count="1"/>
+	</Quest>
+	<Quest typeID="402205206 " typeName="자연이 제련한 재료" group="201" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="광석은 오래 두들길수록 강해지는 법입니다. 그래서 사람들은 끊임없이 광석을 두들기지요. 하지만, 때로는 자연이 광석을 제련하기도 하지요./n /n의뢰하신 대장장이분께서는 그러한 광석을 보았다고 합니다. ^#3399FF서툼바라 초원에서 듀발고원으로 바로 넘어오는 길목에 작은 폭포들^#3399FF이 있는데, 그 ^#3399FF폭포 물이 떨어지는 밑바닥에^#3399FF서 폭포수를 맞으며 꿋꿋이 버티고 있던 단단한 광석을 보았다고 하시더군요./n /n의뢰주께서는 그 광석으로 무기를 만들고 싶다며 모아 달라고 의뢰하셨습니다. ^#3399FF단단한 광석^#3399FF을 찾아서 가져다주십시오./n" difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[단단한 광석 캐기]]" draft="단단한 광석을 캐야 합니다./n /n단단한 광석은 듀발고원 동쪽, 피킨 유랑 상인단 밑에 있는 폭포 안의 ^#3399FF단단한 광석^#3399FF에 수집스킬 ^#3399FF캐기^#3399FF를 사용하면 얻을 수 있습니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="단단한 광석 캐기" mapTargetId="2000153100"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[모험가 길드원에게 보고]]" draft="단단한 광석을 모두 모았으니 마제로나 모험가 길드원에게 돌아가야 합니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원에게 보고" mapTargetId="28252100"/>
+		</Subject>
+		<Storage Collect1_typeID="150257" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<BasicReward typeID="20004" count="1"/>
+		<ChoiceReward typeID="201007" count="1"/>
+		<ChoiceReward typeID="201008" count="1"/>
+	</Quest>
+	<Quest typeID="402205207 " typeName="트롤의 망치" group="201" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="고원을 활보하는 트롤들을 보신 적이 있으신가요? 거대한 해머를 마구잡이로 휘두르는 모습은 공포 그 자체지요. 하지만, 의뢰하신 대장장이분께서는 그 모습에서 공포를 느끼기보다는 휘두르는 해머에 더 관심이 있으신 것 같습니다./n /n트롤들의 망치는 ^#3399FF툰다^#3399FF라고 부르는 괴짜 트롤이 만들어 준다고 하는데, 꼭 한번 그 트롤의 망치를 보고 싶다고 하시는군요. ^#3399FF상회 단장님^#3399FF께서 툰다를 꾀어낼 방법을 알고 있다고 하시니, 찾아가서 방법을 들어 보십시오./n" difficulty="1" onMessage="Quest402205207_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="NULL" desc="[[상회 단장과 대화]]" draft="^#3399FF마제로나 중앙에 있는 상회 단장^#3399FF님을 찾아가야 합니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="상회 단장과 대화" mapTargetId="22681100"/>
+		</Subject>
+		<Subject typeName="Explore" func="UpdateQuestExplain_quest2_2" desc="[[트롤의 해머 획득]]" draft="^#3399FF대지의 고원 북쪽^#3399FF에 있는 툰다에게 ^#3399FF최면 가루^#3399FF를 사용한 다음 ^#3399FF툰다에게서 트롤의 해머를 얻어^#3399FF야 합니다./n" npc="상회 단장">
+			<subjectPos subjectStr="트롤의 해머 획득" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[모험가 길드원에게 보고]]" draft="트롤의 해머를 얻었으니 마제로나 모험가 길드원에게 돌아가십시오./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원에게 보고" mapTargetId="28252100"/>
+		</Subject>
+		<Storage Collect1_typeID="110036" Collect2_typeID="150258" Collect2_goal="1" Collect2_count="0" target2_type="Collect"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<BasicReward typeID="20004" count="1"/>
+		<ChoiceReward typeID="201012" count="1"/>
+		<ChoiceReward typeID="201009" count="1"/>
+	</Quest>
+	<Quest typeID="402205208 " typeName="소중한 금속 나사" group="201" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="볼품없는 작은 돌이라도 어떤 사람에게는 소중한 물건일지도 모르지요./n이번 일은 아주 작은 금속 나사 하나를 찾아오는 것입니다. 보기에는 별것 아닌 것 같지만, 그 나사는 이번 일을 의뢰하신 분이 태어나서 처음 만든 가공품이라 기념으로 평생 간직하려고 했답니다./n그런데 그걸 실수로 땅바닥에 떨어뜨리는 순간, 지나가던 윈더스가 덥석 먹어버렸다고 합니다./n /n지금쯤이면 윈더스가 ^#3399FF반짝이는 금속 나사^#3399FF를 몸 밖으로 배출했을 테니, 찾아달라고 의뢰하셨습니다. ^#3399FF질주의 고원^#3399FF에서 ^#3399FF윈더스의 배설물^#3399FF들을 잘 살펴보면 찾을 수 있을 겁니다./n" difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[반짝이는 금속 나사 찾기]]" draft="반짝이는 금속 나사를 찾아야 합니다./n /n반짝이는 금속 나사는 질주의 고원에 있는 ^#3399FF윈더스의 배설물^#3399FF에 수집스킬 ^#3399FF찾기^#3399FF를 사용하면 얻을 수 있습니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="반짝이는 금속 나사 찾기" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[모험가 길드원에게 보고]]" draft="반짝이는 금속 나사를 찾았으니, 하무단의 모험가 길드원에게 보고하십시오./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원에게 보고" mapTargetId="28242100"/>
+		</Subject>
+		<Storage Collect1_typeID="150259" Collect1_goal="1" Collect1_count="0" target1_type="Collect" target1_prob="90"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<BasicReward typeID="20005" count="1"/>
+		<ChoiceReward typeID="60019" count="1"/>
+		<ChoiceReward typeID="60020" count="1"/>
+	</Quest>
+	<Quest typeID="402205209 " typeName="최고의 용도" group="207" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="도시민들은 무기와 생활도구를 구분해 쓰지요. 하지만m 유목민들은 그렇지 않습니다. 요리할 때 쓰이는 작은 칼을 무기로 쓰는가 하면 무기로 써는 검으로 채소를 썰기도 하지요. 유목민 전사에게 생활과 전투에 구분이 없습니다. 그러니 이번 의뢰를 너무 이상하게 생각하지 마십시오./n /n한 유목민 청년이 고티의 털을 깎을 ^#3399FF블러드 더크^#3399FF를 주문했습니다. 물론, 털을 깎을 용도로만 쓰는 것은 아니겠지만…. 어쨌든 블러드 더크를 만들어 제게 가져다주십시오./n" difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[블러드 더크 제작하기]]" draft="^#3399FF블러드 더크^#3399FF를 만들어야 합니다./n /n블러드 더크는 ^#3399FF플레타 베즐러드^#3399FF와 ^#3399FF달의 주괴^#3399FF, 그리고 ^#3399FF금속 나사^#3399FF와 ^#3399FF단단한 뼈장식^#3399FF을 가지고 능력스킬의 ^#3399FF한손단검 만들기^#3399FF에서 ^#3399FF블러드 더크 제작^#3399FF을 사용하여 제작할 수 있습니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="블러드 더크 제작하기" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[모험가 길드원에게 보고]]" draft="블러드 더크를 제작했으니 리칠의 유목지 모험가 길드원에게 돌아가야 합니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원에게 보고" mapTargetId="28262100"/>
+		</Subject>
+		<Storage Collect1_typeID="8" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<ChoiceReward typeID="60044" count="1"/>
+		<ChoiceReward typeID="60045" count="1"/>
+	</Quest>
+	<Quest typeID="402205210 " typeName="일생의 목표" group="201" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="듀발 고원에 꽂혀 있는 거대한 검을 보신 적이 있습니까?/n언제부터 그곳에 있었는지 누구의 검인지 아무도 모르는 검이지요. 모든 전사가 그 검을 보고 감탄하곤 합니다. 하지만, 전사들이 아무리 감탄한들 대장장이들이 놀란 모습에 비할 바가 아니지요. 바람이 거센 듀발 고원에서 얼마인지도 모르는 긴 시간을 부식도 되지 않고 견디고 있으니까요./n /n이번 의뢰는 그 검을 모습을 자신의 손에서 재현하고자 하는 한 대장장이의 의뢰입니다. 그는 거대한 검처럼 오랜 세월 부식되지 않는 무기를 꿈꾸며 만들어 왔다고 합니다. 그래서 그는 고대의 풍차 주변에 자신이 만든 창을 꽂아두고 시험을 계속 하고 있지요. 오늘이 창을 꽂은 지 딱 1년째 되는 날이라고 합니다. 창의 부식 정도를 점검할 때가 되었다고 하니, ^#3399FF바람의 고원 고대풍차 근처^#3399FF에 꽂혀 있는 ^#3399FF창^#3399FF을 가져와 주십시오./n" difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[낡은 창 구해오기]]" draft="낡은 창을 찾아야 합니다./n /n낡은 창은 바람의 고원 고대 풍차에 있는 ^#3399FF낡은 창^#3399FF에 수집스킬 ^#3399FF찾기^#3399FF를 사용하면 얻을 수 있습니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="낡은 창 구해오기" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[모험가 길드원에게 보고]]" draft="낡은 창을 모두 찾았으니 리칠의 유목지 모험가 길드원에게 보고 해야 합니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원에게 보고" mapTargetId="28262100"/>
+		</Subject>
+		<Storage Collect1_typeID="150260" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<BasicReward typeID="20006" count="1"/>
+		<ChoiceReward typeID="201013" count="1"/>
+		<ChoiceReward typeID="201016" count="1"/>
+	</Quest>
+	<Quest typeID="402205301 " typeName="천연 방향제" group="207" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="이번 의뢰는 건조 찻잎을 만드는 일입니다./n /n의뢰 하신 분은 요즘따라 집에서 퀘퀘한 냄새가 난다며 온갖 강력한 방향제를 다 써보았지만, 오히려 그것들의 강렬한 냄새와 퀘퀘한 냄새가 섞여서 더 역하다고 하시더군요. 오죽하면 그 냄새 때문에 식욕이 사라져서 체중까지 줄고 있답니다. 그래서 ^#3399FF잘 말린 찻잎^#3399FF을 방향제로 사용하면, 산뜻하고 은은한 향이 풍겨 좋을 거라고 합니다. 한 ^#3399FF3 개 정도 만드신 다음  저에게 가져오십시오./n" difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[잘 말린 찻잎 만들기]]" draft="방향제로 쓸 잘 말린 찻잎을 만들어야 합니다./n /n잘 말린 찻잎은 능력스킬의 ^#3399FF풀 가공하기^#3399FF에서 ^#3399FF찻잎 말리기^#3399FF를 선택하여 제작할 수 있습니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="잘 말린 찻잎 만들기" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[모험가 길드원에게 보고]]" draft="잘 말린 찻잎을 요구한 개수만큼 만들었으니 마제로나 모험가 길드원에게 돌아가야 합니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원에게 보고" mapTargetId="28242100"/>
+		</Subject>
+		<Storage Collect1_typeID="201072" Collect1_goal="3" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<BasicReward typeID="70056" count="1"/>
+		<ChoiceReward typeID="201072" count="1"/>
+		<ChoiceReward typeID="201073" count="1"/>
+	</Quest>
+	<Quest typeID="402205302 " typeName="진정 효과" group="207" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="중앙 봉화탑에서 일하는 한 경비원의 의뢰입니다./n요즘 봉화탑의 경비대장님이 무슨 일인지는 몰라도 안색도 안 좋고 피로도 많이 쌓인데다, 걱정거리가 많은 것 같다고 하십니다. 아무래도 고원 주변에 안 좋은 일들이 많이 생기다 보니 그렇겠지요./n경비대장님의 피로를 풀게 해주고 기운도 복돋아 주고 싶다며 ^#3399FF핫 에너지 블랙티를 만들어 달라^#3399FF고 하시더라구요. 그러니 그걸 만드신 다음 저에게 갖고 오십시오./n" difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[핫 에너지 블랙티 제작하기]]" draft="기운을 솟게하는 ^#3399FF핫 에너지 블랙티^#3399FF를 제작해야 합니다./n /n핫 에너지 블랙티는 ^#3399FF잘 말린 열매^#3399FF와 ^#3399FF끓인 물^#3399FF을 가지고, 능력스킬 ^#3399FF후르츠티 만들기^#3399FF에서 ^#3399FF핫 에너지 블랙티^#3399FF를 선택하여 제작할 수 있습니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="핫 에너지 블랙티 제작하기" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[모험가 길드원에게 보고]]" draft="핫 에너지 블랙티를 제작했으니, ^#3399FF마제로나 모험가 길드원에게 가져가야^#3399FF 합니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원에게 보고" mapTargetId="28252100"/>
+		</Subject>
+		<Storage Collect1_typeID="104006" Collect1_goal="3" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<BasicReward typeID="70057" count="1"/>
+		<ChoiceReward typeID="201075" count="1"/>
+		<ChoiceReward typeID="201074" count="1"/>
+	</Quest>
+	<Quest typeID="402205303 " typeName="차보다 더 맛있는 것" group="201" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="이번 일은 달콤한 걸 좋아하는 유목민 꼬마의 의뢰입니다. 그 아이는 집에서 매일 건조 찻잎으로 만든 차를 줘서 먹긴 하는데 너무 써서 맛이 없다고 하네요./n /n그래서 단맛이 나는 열매차만 마셨다고 합니다. 그러다 우연히 열매차의 재료인 절임 열매를 먹어본 이후로는 도저히 열매차도 덜 달아서 먹기 싫다고 하네요. 하지만 집에서는 차를 먹길 원해서 절임 열매를 먹을 수가 없다며, 저희 길드에 ^#3399FF그걸 3개 얻어다 달라고 부탁했습니다. 절인 열매를 말씀드린 개수만큼 만드시면 저에게 가져오십시오.^#3399FF/n" difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[절인 열매 만들기]]" draft="쓴 걸 싫어하는 유목민 꼬마를 위해 ^#3399FF절인 열매^#3399FF를 3개 만들어야 합니다./n /n절인 열매는 ^#3399FF열매^#3399FF를 가지고 능력스킬의 ^#3399FF열매 가공하기^#3399FF에서 ^#3399FF열매 절이기^#3399FF를 사용하면 얻을 수 있습니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="절인 열매 만들기" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[모험가 길드원에게 보고]]" draft="절인 열매를 요청한 만큼 만들었으니 하무단의 유목지 모험가 길드원에게 돌아가십시오./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원에게 보고" mapTargetId="28242100"/>
+		</Subject>
+		<Storage Collect1_typeID="201075" Collect1_goal="3" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<BasicReward typeID="70058" count="1"/>
+		<ChoiceReward typeID="200024" count="1"/>
+		<ChoiceReward typeID="200018" count="1"/>
+	</Quest>
+	<Quest typeID="402205304 " typeName="새로운 시도" group="201" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="세상에는 참 다양한 사람이 있는 것 같습니다. 왜냐고요? 어떤 사람은 달콤한 차를 구해달라는 의뢰를 하고, 또 어떤 사람은 달콤한 맛이 싫고 씁쓸한 맛이 좋다고 하거든요./n /n이번에는 씁쓸한 맛을 즐기는 할아버지의 의뢰입니다. 평소에는 건조 찻잎으로 우린 차로 그 맛을 충족 시켰지만 슬슬 지겨워진다며, 아예 나무의 텁텁하고 쓴 맛을 잔뜩 느낄 수 있도록 차 물을 끓일 때 나무 조각도 넣어보고 싶다고 말씀하셨습니다. 그러니 ^#3399FF나무를 5개 베어오십시오.^#3399FF/n" difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[나무 베어오기]]" draft="씁쓸한 차를 만들기 위한 재료, ^#3399FF나무^#3399FF를 5개 구해야 합니다./n /n나무는 마을 밖 필드에 있는 수집물 ^#3399FF나무^#3399FF에 수집 스킬 ^#3399FF베기^#3399FF를 사용하면 얻을 수 있습니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="나무 베어오기" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[모험가 길드원에게 보고]]" draft="나무를 요청한 개수만큼 만들었으니, 하무단의 유목지 모험가 길드원에게 보고하십시오./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원에게 보고" mapTargetId="28242100"/>
+		</Subject>
+		<Storage Collect1_typeID="200017" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<BasicReward typeID="70060" count="1"/>
+		<ChoiceReward typeID="60019" count="1"/>
+		<ChoiceReward typeID="60020" count="1"/>
+	</Quest>
+	<Quest typeID="402205305 " typeName="자연 건조" group="201" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="찻잎은 한 번 건조 시킨 후, 다시 습기가 차면 차를 우릴 때 맛이 좋아지지 않습니다. 하지만 이번 일을 의뢰한 유목민 약재상 님은 건조 찻잎을 너무 오래 방치해 습기가 찼다고 하더군요./n /n먹지 못하는 걸 버릴까 해도 아까워서 그럴 수가 없답니다. 궁리를 해본 결과, 바람의 고원으로 가서 자신이 특수 제작한 건조 전용 돗자리를 바람에 솔솔 잘 말리면 잘 건조될 것 같다고 하더군요. 그러니 ^#3399FF유목민 약재상 님께 가서 건조 전용 돗자리로 습기찬 찻잎을 받으러 가십시오. 차를 다 말리면 그걸 갖고 돌아오시면 됩니다.^#3399FF/n" difficulty="1" onMessage="Quest402205305_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="NULL" desc="[[유목민 약재상과 대화]]" draft="^#3399FF유목민 약재상^#3399FF에게 차의 습기를 제거하는 건조 전용 돗자리를 받아야 합니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="유목민 약재상과 대화" mapTargetId="21491100"/>
+		</Subject>
+		<Subject typeName="Collect" func="UpdateQuestExplain_quest3_3" desc="[[습기 찬 찻잎 건조하기]]" draft="습기 찬 찻잎을 바삭바삭하게 마른 찻잎으로 만들어야 합니다./n /n^#3399FF바삭바삭하게 마른 찻잎^#3399FF은 바람의 고원 거대 풍차 주변에 ^#3399FF건조 전용 돗자리^#3399FF를 설치한 후, 습기 찬 찻잎이 건조될 때까지 기다리면 얻을 수 있습니다./n" npc="유목민 약재상">
+			<subjectPos subjectStr="습기 찬 찻잎 건조하기" mapTargetId="2000323100"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[모험가 길드원에게 보고]]" draft="바삭바삭하게 마른 찻잎들을 만들었으니, 리칠의 유목지 모험가 길드원에게 가져가야 합니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원에게 보고" mapTargetId="28262100"/>
+		</Subject>
+		<Storage Collect1_typeID="110039" Collect2_typeID="150273" Hunt3_typeID="150274" Hunt3_goal="1" Hunt3_count="0" target3_type="Hunt"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<BasicReward typeID="20022" count="1"/>
+		<ChoiceReward typeID="200032" count="1"/>
+		<ChoiceReward typeID="200019" count="1"/>
+	</Quest>
+	<Quest typeID="402205306 " typeName="어머니의 걱정" group="207" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="아들을 걱정하는 한 어머니의 의뢰입니다./n의뢰주께서는 나이 어린 아들이 하나 있는데, 이 아이가 도통 우유를 먹지 않아 걱정이라 합니다. 고티 우유를 먹고 자라면 잔병치레도 없고 몸도 건강해진다는데 아이가 그걸 입도 안 대니 걱정이 크다고 하십니다. 그래서 달콤하게라도해서 마시게 하고 싶다는군요./n /n^#3399FF달콤한 고티 우유를 만드는 법^#3399FF은 ^#3399FF마제로나 여관^#3399FF에 있는 ^#3399FF요리사 올리버^#3399FF 씨가 알고 계시니 그분께 물어보십시오./n" difficulty="1" onMessage="Quest402205306_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="NULL" desc="[[올리버와 대화]]" draft="^#3399FF요리사 올리버를 찾아가 달콤한 고티 우유를 만드는 방법을 들어야^#3399FF 합니다./n그는 여관에 있습니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="올리버와 대화" mapTargetId="22781100"/>
+		</Subject>
+		<Subject typeName="Collect" func="UpdateQuestExplain_quest4_4" desc="[[달콤한 고티 우유 만들기]]" draft="^#3399FF달콤한 고티 우유^#3399FF를 만들어야 합니다./n /n달콤한 고티 우유는 ^#3399FF고티 우유^#3399FF와 ^#3399FF꿀^#3399FF, 그리고 ^#3399FF작은 열매^#3399FF를 사용하면 만들 수 있습니다./n" npc="요리사 올리버">
+			<subjectPos subjectStr="달콤한 고티 우유 만들기" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[모험가 길드원에게 보고]]" draft="달콤한 고티 우유를 만들었으니, 마제로나 모험가 길드원에게 돌아가야 합니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원에게 보고" mapTargetId="28252100"/>
+		</Subject>
+		<Storage Collect1_typeID="110040" Collect2_typeID="200024" Collect3_typeID="200022" Hunt4_typeID="150276" Hunt4_goal="1" Hunt4_count="0" target4_type="Hunt"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<BasicReward typeID="70059" count="1"/>
+		<ChoiceReward typeID="201072" count="1"/>
+		<ChoiceReward typeID="201073" count="1"/>
+	</Quest>
+	<Quest typeID="402205307 " typeName="반짝이는 두 눈" group="201" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="기후는 그곳에 사는 생물에게 많은 영향을 미치죠. 이곳 듀발 고원도 예외는 아닙니다./n거칠게 부는 듀발 고원의 바람은 생물들에 여러 가지 영향을 미치고 있지요. 주위에 있는 휘어져 있는 나무들을 봐도 쉽게 알 수 있을 겁니다. 이런 환경 탓에 듀발 고원에는 아주 가끔 종잇장보다 얇은 찻잎이 자란다는데, 그 차의 맛이 독특하다고 하더군요./n /n한 차 애호가가 그 얇은 차를 맛보고 싶다고 저희에게 의뢰를 해왔습니다./n마을에 있는 ^#3399FF아루나이^#3399FF를 찾아가면 얇은 찻잎을 찾는 방법을 알려줄 것이니, 찾아가 보십시오./n" difficulty="1" onMessage="Quest402205307_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="NULL" desc="[[아루나이와 대화]]" draft="^#3399FF마제로나 중앙 근처에 있는 아루나이^#3399FF를 찾아 가십시오. 그녀가 얇은 찻잎을 찾는 방법을 알려 줄 것입니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="아루나이와 대화" mapTargetId="22321100"/>
+		</Subject>
+		<Subject typeName="Collect" func="UpdateQuestExplain_quest1" desc="[[얇은 찻잎 찾기]]" draft="얇은 찻잎을 찾아야 합니다./n /n얇은 찻잎은 ^#3399FF고원의 시야^#3399FF가 유지되는 상태에서 마을 밖 필드에 있는 ^#3399FF풀^#3399FF에 수집스킬 ^#3399FF찾기^#3399FF를 사용하면 얻을 수 있습니다./n고원의 시야가 사라지면 마제로나에 있는 아루나이에게서 다시 받을 수 있습니다./n" npc="아루나이">
+			<subjectPos subjectStr="얇은 찻잎 찾기" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[모험가 길드원에게 보고]]" draft="얇은 찻잎을 모두 모았으니 마제로나 모험가 길드원에게 돌아가야 합니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원에게 보고" mapTargetId="28252100"/>
+		</Subject>
+		<Storage Collect1_typeID="150280" Collect1_goal="3" Collect1_count="0" target1_type="Collect" target1_prob="90"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<BasicReward typeID="20022" count="1"/>
+		<ChoiceReward typeID="201075" count="1"/>
+		<ChoiceReward typeID="201074" count="1"/>
+	</Quest>
+	<Quest typeID="402205308 " typeName="안개 속의 향기" group="201" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="차의 맛은 물의 온도와 찻잎이 좌우하기에 많은 차 애호가들은 좋은 찻잎을 위해 돈을 아끼지 않고 있습니다./n /n고가의 찻잎 중에 안개 찻잎이라는 찻잎이 있지요. 상처의 고원의 안개가 짙은 지대에서만 나는 찻잎입니다. 나이 지긋하신 차 애호가께서 그 차를 구해달라고 의뢰를 주셨습니다./n^#3399FF상처의 고원 안개가 짙게 깔린 곳^#3399FF으로 가서 ^#3399FF안개 찻잎을 베어^#3399FF오셨으면 합니다. 전에 구해온 사람 말로는 안개 찻잎이 나는 곳에 ^#3399FF거대한 검^#3399FF이 있었다고 하더군요. 그 검은 매우 커서 멀리서도 볼 수 있으니, 쉽게 찾을 수 있을 겁니다./n" difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[안개 찻잎 구하기]]" draft="^#3399FF안개 찻잎^#3399FF을 구해야 합니다./n /n^#3399FF안개 찻잎^#3399FF은 상처의 고원에 있는 거대한 검 근처의 ^#3399FF안개 찻잎^#3399FF에 수집스킬 ^#3399FF베기^#3399FF를 사용하면 얻을 수 있습니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="안개 찻잎 구하기" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[모험가 길드원에게 보고]]" draft="안개 찻잎을 모두 구했으니 하무단의 유목지 모험가 길드원에게 돌아가야 합니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원에게 보고" mapTargetId="28242100"/>
+		</Subject>
+		<Storage Collect1_typeID="150277" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<BasicReward typeID="20023" count="1"/>
+		<ChoiceReward typeID="200024" count="1"/>
+		<ChoiceReward typeID="200018" count="1"/>
+	</Quest>
+	<Quest typeID="402205309 " typeName="유목민의 전통차" group="207" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="차는 하나의 잎으로도 다양한 맛을 낼 수 있지요. 하지만, 다양한 재료를 섞어서 최상의 맛을 내기도 합니다./n /n이번 의뢰는 그런 혼합 차를 만드는 일입니다. 아타문 씨는 유목지에 대대로 내려오는 혼합 차를 만들고 싶어하시는데, 근래에 자신의 기력이 많이 빠져 도와줄 사람이 필요하시다고 합니다. ^#3399FF리칠의 유목지 중앙 부근^#3399FF에 계시는 ^#3399FF아타문^#3399FF 님을 찾아가서 ^#3399FF혼합 차^#3399FF 만드는 것을 도와주십시오./n" difficulty="1" onMessage="Quest402205309_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="NULL" desc="[[아타문 찾아가기]]" draft="^#3399FF리칠의 유목지 중앙 부근^#3399FF에 계시는 ^#3399FF아타문^#3399FF 님을 찾아가서 ^#3399FF혼합 차^#3399FF 만드는 것을 도와주십시오./n" npc="모험가 길드원">
+			<subjectPos subjectStr="아타문 찾아가기" mapTargetId="23551100"/>
+		</Subject>
+		<Subject typeName="Collect" func="UpdateQuestExplain_quest5_5" desc="[[유목민 전통차 만들기]]" draft="유목민 전통차를 만들어야 합니다./n /n유목민 전통차는 아타문 앞에 있는 항아리를 선택한 후, 아타문이 알려주는 순서대로 ^#3399FF작은 열매^#3399FF, ^#3399FF큰 열매^#3399FF, ^#3399FF새싹^#3399FF, ^#3399FF들꽃^#3399FF 순으로 배합해서 만듭니다./n" npc="아타문">
+			<subjectPos subjectStr="유목민 전통차 만들기" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[아타문에게 보고]]" draft="전통차를 혼합했으니, 아타문에게 보고하십시오./n" npc="모험가 길드원">
+			<subjectPos subjectStr="아타문에게 보고" mapTargetId="23552100"/>
+		</Subject>
+		<Storage Collect1_typeID="200022" Collect2_typeID="200023" Collect3_typeID="200018" Collect4_typeID="200019" Collect5_typeID="150278" Collect5_goal="1" Collect5_count="0" target5_type="Collect"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<BasicReward typeID="20024" count="1"/>
+		<ChoiceReward typeID="200031" count="1"/>
+		<ChoiceReward typeID="200025" count="1"/>
+	</Quest>
+	<Quest typeID="402205310" typeName="온천수 가져오기" group="201" NPC="모험가 길드원" reportTo="모험가 길드원" cancelable="1" repeatable="1" retryable="1" lv="20" desc="차의 맛을 결정하는 찻잎이지요. 하지만, 그것과 더불어 중요한 것이 바로 물입니다. 물이 다 그게 그것이라고 하실지 모르겠지만, 물이야말로 차의 미묘한 맛을 결정하는데 가장 중요하다고 할 수 있지요./n다 같은 물이라고 해도 조금씩 가진 성분이 다릅니다. 예로 같은 찻잎이라도 린의 호수의 물과 란의 호수의 물로 끊인 차는 맛이 다르지요./n그래서 찻잎과 더불어 깨끗하고 독특한 물을 찾는 것이 다인의 사명이라고도 할 수 있지요./n /n최근 마을에 계신 무라인 님께서 고대의 산에서 나온다는 온천수로 차를 만들고 싶어 하시더군요. 그래서 저희에게 도와줄 사람을 한 명 보내달라고 의뢰하셨습니다. 제가 보니 적임자이신 것 같은데…. ^#3399FF하무단의 유목지 입구^#3399FF에 계시는 ^#3399FF무라인^#3399FF 님을 찾아가 보십시오./n" difficulty="1" onMessage="Quest402205310_onMessage" ChoiceRewardLimit="1" rewardEXP="1600" rewardLifeJobEXP="1440" rewardCombatJobEXP="160" relativeJob="LIFE">
+		<Subject typeName="Begin" func="NULL" desc="[[무라인과 대화]]" draft="^#3399FF하무단의 유목지 입구^#3399FF에 계시는 ^#3399FF무라인^#3399FF 님을 찾아가 보십시오./n" npc="모험가 길드원">
+			<subjectPos subjectStr="무라인과 대화" mapTargetId="23171100"/>
+		</Subject>
+		<Subject typeName="Collect" func="UpdateQuestExplain_quest2_2" desc="[[온천수 주머니에 담기]]" draft="온천수를 주머니에 가득 담아와야 합니다./n /n고대의 산 온천 웅덩이에 ^#3399FF빈 온천수 주머니^#3399FF를 사용하면 ^#3399FF가득 찬 온천수 주머니^#3399FF를 얻을 수 있습니다./n" npc="무라인">
+			<subjectPos subjectStr="온천수 주머니에 담기" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[모험가 길드원에게 보고]]" draft="주머니에 온천수를 다 담았으니, 하무단의 유목지 모험가 길드원에게 보고해야 합니다./n" npc="모험가 길드원">
+			<subjectPos subjectStr="모험가 길드원에게 보고" mapTargetId="28242100"/>
+		</Subject>
+		<Storage Collect1_typeID="110041" Hunt2_typeID="150279" Hunt2_goal="3" Hunt2_count="0" target2_type="Hunt"/>
+		<BasicReward typeID="2100000000" count="80"/>
+		<ChoiceReward typeID="60044" count="1"/>
+		<ChoiceReward typeID="60045" count="1"/>
+	</Quest>
+	<Quest typeID="402205311" typeName="보잘 것 없는 돌 (반복)" group="207" NPC="생활 모험가(리칠의 유목지)" reportTo="생활 모험가(리칠의 유목지)" cancelable="1" repeatable="1" retryable="1" lv="15" desc="땅 위를 굴러 다니는 단단한 암석은 보기엔 별거 없어 보이지만 실은 여러가지 물건을 제작하는데 쓰이는 아주 유용한 물건이랍니다./n^#3399FF조각난 암석^#FFFFFF을 ^#3399FF모아^#FFFFFF주시면 전반적으로 좋은 곳에 쓸 수 있을 거예요./n다 모으면 ^#3399FF리칠의 유목지^#FFFFFF로 갖다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="735" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[조각난 암석 수집]]" draft="땅 위를 굴러 다니는 단단한 암석은 보기엔 별거 없어 보이지만 실은 여러가지 물건을 제작하는데 쓰이는 아주 유용한 물건이랍니다./n^#3399FF조각난 암석^#FFFFFF을 ^#3399FF모아^#FFFFFF주시면 전반적으로 좋은 곳에 쓸 수 있을 거예요./n다 모으면 ^#3399FF리칠의 유목지^#FFFFFF로 갖다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="조각난 암석 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[리칠의 유목지 생활 모험가 길드원에게 보고]]" draft="땅 위를 굴러 다니는 단단한 암석은 보기엔 별거 없어 보이지만 실은 여러가지 물건을 제작하는데 쓰이는 아주 유용한 물건이랍니다./n^#3399FF조각난 암석^#FFFFFF을 ^#3399FF모아^#FFFFFF주시면 전반적으로 좋은 곳에 쓸 수 있을 거예요./n다 모으면 ^#3399FF리칠의 유목지^#FFFFFF로 갖다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="리칠의 유목지 생활 모험가 길드원에게 보고" mapTargetId="301502"/>
+		</Subject>
+		<Storage Collect1_typeID="200043" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="16"/>
+	</Quest>
+	<Quest typeID="402205312" typeName="고원의 마른 싹 (반복)" group="207" NPC="생활 모험가(리칠의 유목지)" reportTo="생활 모험가(리칠의 유목지)" cancelable="1" repeatable="1" retryable="1" lv="15" desc="유목민 약재상의 의뢰입니다. 기후가 서늘한 이 곳 듀발고원에서는 매마른 새싹을 구하기가 아주 어렵다고 해요. 매마른 새싹을 우려내면 여러가지 약재를 만들 수 있는데 말이죠./n유목민 약재상님을 위해 ^#3399FF메마른 새싹^#FFFFFF을 ^#3399FF잘라^#FFFFFF와 주세요./n다 모으면 ^#3399FF리칠의 유목지^#FFFFFF로 갖다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="735" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[메마른 새싹 수집]]" draft="유목민 약재상의 의뢰입니다. 기후가 서늘한 이 곳 듀발고원에서는 매마른 새싹을 구하기가 아주 어렵다고 해요. 매마른 새싹을 우려내면 여러가지 약재를 만들 수 있는데 말이죠./n유목민 약재상님을 위해 ^#3399FF메마른 새싹^#FFFFFF을 ^#3399FF잘라^#FFFFFF와 주세요./n다 모으면 ^#3399FF리칠의 유목지^#FFFFFF로 갖다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="메마른 새싹 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[리칠의 유목지 생활 모험가 길드원에게 보고]]" draft="유목민 약재상의 의뢰입니다. 기후가 서늘한 이 곳 듀발고원에서는 매마른 새싹을 구하기가 아주 어렵다고 해요. 매마른 새싹을 우려내면 여러가지 약재를 만들 수 있는데 말이죠./n유목민 약재상님을 위해 ^#3399FF메마른 새싹^#FFFFFF을 ^#3399FF잘라^#FFFFFF와 주세요./n다 모으면 ^#3399FF리칠의 유목지^#FFFFFF로 갖다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="리칠의 유목지 생활 모험가 길드원에게 보고" mapTargetId="301502"/>
+		</Subject>
+		<Storage Collect1_typeID="200045" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="16"/>
+	</Quest>
+	<Quest typeID="402205313" typeName="즐거운 저녁 식사 (반복)" group="207" NPC="생활 모험가(리칠의 유목지)" reportTo="생활 모험가(리칠의 유목지)" cancelable="1" repeatable="1" retryable="1" lv="15" desc="상처 입은 청년님의 의뢰입니다. 원래 그분은 유목지 주변에서 불에 잘타는 나무를 구하고 있던 중에 몬스터의 습격을 받아 상처를 입게 되셨다고 해요./n오늘 중으로 메마른 나무를 구해 불을 떼지 않으면 식구들에게 제대로 된 음식을 만들어 대접하지 못한다며 걱정을 하시던데 ^#3399FF메마른 나무^#FFFFFF를 ^#3399FF잘라^#FFFFFF다 주시겠어요?/n다 모으면 ^#3399FF리칠의 유목지^#FFFFFF로 갖다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="735" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[메마른 나무 수집]]" draft="상처 입은 청년님의 의뢰입니다. 원래 그분은 유목지 주변에서 불에 잘타는 나무를 구하고 있던 중에 몬스터의 습격을 받아 상처를 입게 되셨다고 해요./n오늘 중으로 메마른 나무를 구해 불을 떼지 않으면 식구들에게 제대로 된 음식을 만들어 대접하지 못한다며 걱정을 하시던데 ^#3399FF메마른 나무^#FFFFFF를 ^#3399FF잘라^#FFFFFF다 주시겠어요?/n다 모으면 ^#3399FF리칠의 유목지^#FFFFFF로 갖다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="메마른 나무 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[리칠의 유목지 생활 모험가 길드원에게 보고]]" draft="상처 입은 청년님의 의뢰입니다. 원래 그분은 유목지 주변에서 불에 잘타는 나무를 구하고 있던 중에 몬스터의 습격을 받아 상처를 입게 되셨다고 해요./n오늘 중으로 메마른 나무를 구해 불을 떼지 않으면 식구들에게 제대로 된 음식을 만들어 대접하지 못한다며 걱정을 하시던데 ^#3399FF메마른 나무^#FFFFFF를 ^#3399FF잘라^#FFFFFF다 주시겠어요?/n다 모으면 ^#3399FF리칠의 유목지^#FFFFFF로 갖다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="리칠의 유목지 생활 모험가 길드원에게 보고" mapTargetId="301502"/>
+		</Subject>
+		<Storage Collect1_typeID="200044" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="16"/>
+	</Quest>
+	<Quest typeID="402205314" typeName="타무르의 대비 (반복)" group="207" NPC="생활 모험가(리칠의 유목지)" reportTo="생활 모험가(리칠의 유목지)" cancelable="1" repeatable="1" retryable="1" lv="15" desc="타무르님의 의뢰입니다. 타무르님은 과거와 다르게 약해져가는 유목지 사람들의 의지에 대해 평소 고민이 많으시다고 하는데요. 혹시나 모를 미래에 대비하기 위해 금속을 많이 모아두고 싶다고 하세요./n^#3399FF조각난 금속^#FFFFFF이라도 좋으니 많이 ^#3399FF캐와^#FFFFFF 주실래요?/n다 모으면 ^#3399FF리칠의 유목지^#FFFFFF로 갖다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="735" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[조각난 금속 수집]]" draft="타무르님의 의뢰입니다. 타무르님은 과거와 다르게 약해져가는 유목지 사람들의 의지에 대해 평소 고민이 많으시다고 하는데요. 혹시나 모를 미래에 대비하기 위해 금속을 많이 모아두고 싶다고 하세요./n^#3399FF조각난 금속^#FFFFFF이라도 좋으니 많이 ^#3399FF캐와^#FFFFFF 주실래요?/n다 모으면 ^#3399FF리칠의 유목지^#FFFFFF로 갖다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="조각난 금속 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[리칠의 유목지 생활 모험가 길드원에게 보고]]" draft="타무르님의 의뢰입니다. 타무르님은 과거와 다르게 약해져가는 유목지 사람들의 의지에 대해 평소 고민이 많으시다고 하는데요. 혹시나 모를 미래에 대비하기 위해 금속을 많이 모아두고 싶다고 하세요./n^#3399FF조각난 금속^#FFFFFF이라도 좋으니 많이 ^#3399FF캐와^#FFFFFF 주실래요?/n다 모으면 ^#3399FF리칠의 유목지^#FFFFFF로 갖다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="리칠의 유목지 생활 모험가 길드원에게 보고" mapTargetId="301502"/>
+		</Subject>
+		<Storage Collect1_typeID="200038" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="16"/>
+	</Quest>
+	<Quest typeID="402205315" typeName="활의 장식품 (반복)" group="207" NPC="생활 모험가(리칠의 유목지)" reportTo="생활 모험가(리칠의 유목지)" cancelable="1" repeatable="1" retryable="1" lv="15" desc="남쪽 봉화탑 경비대장님의 의뢰입니다. 경비 대장님은 평소 그레이피늄으로 장식된 활을 가지고 싶다고 하셨는대요. 그분을 위해 ^#3399FF조각난 그래이피늄^#FFFFFF을 ^#3399FF캐와^#FFFFFF 주세요./n다 모으면 ^#3399FF리칠의 유목지^#FFFFFF로 갖다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="735" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[조각난 그레이피늄 수집]]" draft="남쪽 봉화탑 경비대장님의 의뢰입니다. 경비 대장님은 평소 그레이피늄으로 장식된 활을 가지고 싶다고 하셨는대요. 그분을 위해 ^#3399FF조각난 그래이피늄^#FFFFFF을 ^#3399FF캐와^#FFFFFF 주세요./n다 모으면 ^#3399FF리칠의 유목지^#FFFFFF로 갖다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="조각난 그레이피늄 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[리칠의 유목지 생활 모험가 길드원에게 보고]]" draft="남쪽 봉화탑 경비대장님의 의뢰입니다. 경비 대장님은 평소 그레이피늄으로 장식된 활을 가지고 싶다고 하셨는대요. 그분을 위해 ^#3399FF조각난 그래이피늄^#FFFFFF을 ^#3399FF캐와^#FFFFFF 주세요./n다 모으면 ^#3399FF리칠의 유목지^#FFFFFF로 갖다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="리칠의 유목지 생활 모험가 길드원에게 보고" mapTargetId="301502"/>
+		</Subject>
+		<Storage Collect1_typeID="200035" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="16"/>
+	</Quest>
+	<Quest typeID="402205316" typeName="향기로운 주머니 (반복)" group="207" NPC="생활 모험가(리칠의 유목지)" reportTo="생활 모험가(리칠의 유목지)" cancelable="1" repeatable="1" retryable="1" lv="15" desc="그린 리프 단원의 의뢰입니다. 그린 리프님들께서 연구해 본 결과 좋은 향은 상처 입은 마음을 안정시켜주고 회복에도 도움을 준다는 결과가 나왔대요. 그래서 메마른 들꽃을 많이 모아 향낭을 만들겠다고 하세요./n좋은 일을 하는 그분들을 위해 ^#3399FF메마른 들꽃^#FFFFFF ^#3399FF잘라^#FFFFFF오기에 참여해주지 않으시겠어요?/n다 모으면 ^#3399FF리칠의 유목지^#FFFFFF로 갖다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="735" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[메마른 들꽃 수집]]" draft="그린 리프 단원의 의뢰입니다. 그린 리프님들께서 연구해 본 결과 좋은 향은 상처 입은 마음을 안정시켜주고 회복에도 도움을 준다는 결과가 나왔대요. 그래서 메마른 들꽃을 많이 모아 향낭을 만들겠다고 하세요./n좋은 일을 하는 그분들을 위해 ^#3399FF메마른 들꽃^#FFFFFF ^#3399FF잘라^#FFFFFF오기에 참여해주지 않으시겠어요?/n다 모으면 ^#3399FF리칠의 유목지^#FFFFFF로 갖다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="메마른 들꽃 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[리칠의 유목지 생활 모험가 길드원에게 보고]]" draft="그린 리프 단원의 의뢰입니다. 그린 리프님들께서 연구해 본 결과 좋은 향은 상처 입은 마음을 안정시켜주고 회복에도 도움을 준다는 결과가 나왔대요. 그래서 메마른 들꽃을 많이 모아 향낭을 만들겠다고 하세요./n좋은 일을 하는 그분들을 위해 ^#3399FF메마른 들꽃^#FFFFFF ^#3399FF잘라^#FFFFFF오기에 참여해주지 않으시겠어요?/n다 모으면 ^#3399FF리칠의 유목지^#FFFFFF로 갖다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="리칠의 유목지 생활 모험가 길드원에게 보고" mapTargetId="301502"/>
+		</Subject>
+		<Storage Collect1_typeID="200046" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="16"/>
+	</Quest>
+	<Quest typeID="402205317" typeName="유목지의 무기 재료" group="207" NPC="생활 모험가(리칠의 유목지)" reportTo="생활 모험가(리칠의 유목지)" cancelable="1" repeatable="0" retryable="1" lv="15" desc="리칠 유목지의 족장 리칠님의 의뢰입니다. 별의 주괴를 모아 튼튼한 무기를 만들고 싶다고 하세요. 별의 주괴를 만드는 데는 얇은 목재, 작은 금속나사, 부스러진 금속이 필요하답니다./n이 재료들을 모으는게 쉽지는 않겠지만 저에게 ^#3399FF별의 주괴^#FFFFFF를 가져다 주세요. 기다리고 있을게요./n다 모으면 ^#3399FF리칠의 유목지^#FFFFFF로 갖다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="795" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[가공품 별의 주괴 수집]]" draft="리칠 유목지의 족장 리칠님의 의뢰입니다. 별의 주괴를 모아 튼튼한 무기를 만들고 싶다고 하세요. 별의 주괴를 만드는 데는 얇은 목재, 작은 금속나사, 부스러진 금속이 필요하답니다./n이 재료들을 모으는게 쉽지는 않겠지만 저에게 ^#3399FF별의 주괴^#FFFFFF를 가져다 주세요. 기다리고 있을게요./n다 모으면 ^#3399FF리칠의 유목지^#FFFFFF로 갖다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="가공품 별의 주괴 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[리칠의 유목지 생활 모험가 길드원에게 보고]]" draft="리칠 유목지의 족장 리칠님의 의뢰입니다. 별의 주괴를 모아 튼튼한 무기를 만들고 싶다고 하세요. 별의 주괴를 만드는 데는 얇은 목재, 작은 금속나사, 부스러진 금속이 필요하답니다./n이 재료들을 모으는게 쉽지는 않겠지만 저에게 ^#3399FF별의 주괴^#FFFFFF를 가져다 주세요. 기다리고 있을게요./n다 모으면 ^#3399FF리칠의 유목지^#FFFFFF로 갖다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="리칠의 유목지 생활 모험가 길드원에게 보고" mapTargetId="301502"/>
+		</Subject>
+		<Storage Collect1_typeID="201007" Collect1_goal="3" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="22"/>
+	</Quest>
+	<Quest typeID="402205318" typeName="조신한 옷차림" group="207" NPC="생활 모험가(리칠의 유목지)" reportTo="생활 모험가(리칠의 유목지)" cancelable="1" repeatable="0" retryable="1" lv="15" desc="유목지 소녀의 의뢰입니다. 자유로운 유목지에서는 남녀 차등없이 고된 일을 하곤 한답니다. 그래서 입고 있는 옷이 쉽게 닳기 마련이죠./n유목지 소녀의 옷도 끝이 떨어지곤 하기 때문에 창피할 때가 한 두번이 아니랍니다. 무명끈을 구해다 그녀에게 주면 무척 좋아할 거예요./n^#3399FF무명끈^#FFFFFF을 구해와 주세요./n다 모으면 ^#3399FF리칠의 유목지^#FFFFFF로 갖다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="795" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[가공품 무명끈 수집]]" draft="유목지 소녀의 의뢰입니다. 자유로운 유목지에서는 남녀 차등없이 고된 일을 하곤 한답니다. 그래서 입고 있는 옷이 쉽게 닳기 마련이죠./n유목지 소녀의 옷도 끝이 떨어지곤 하기 때문에 창피할 때가 한 두번이 아니랍니다. 무명끈을 구해다 그녀에게 주면 무척 좋아할 거예요./n^#3399FF무명끈^#FFFFFF을 구해와 주세요./n다 모으면 ^#3399FF리칠의 유목지^#FFFFFF로 갖다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="가공품 무명끈 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[리칠의 유목지 생활 모험가 길드원에게 보고]]" draft="유목지 소녀의 의뢰입니다. 자유로운 유목지에서는 남녀 차등없이 고된 일을 하곤 한답니다. 그래서 입고 있는 옷이 쉽게 닳기 마련이죠./n유목지 소녀의 옷도 끝이 떨어지곤 하기 때문에 창피할 때가 한 두번이 아니랍니다. 무명끈을 구해다 그녀에게 주면 무척 좋아할 거예요./n^#3399FF무명끈^#FFFFFF을 구해와 주세요./n다 모으면 ^#3399FF리칠의 유목지^#FFFFFF로 갖다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="리칠의 유목지 생활 모험가 길드원에게 보고" mapTargetId="301502"/>
+		</Subject>
+		<Storage Collect1_typeID="201003" Collect1_goal="3" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="22"/>
+	</Quest>
+	<Quest typeID="402205319" typeName="청년의 무기" group="207" NPC="생활 모험가(리칠의 유목지)" reportTo="생활 모험가(리칠의 유목지)" cancelable="1" repeatable="0" retryable="1" lv="15" desc="품위 있는 청년의 의뢰랍니다. 청년은 이제 곧 발카라스 왕국의 부름으로 군대에 입소하게 된다고 합니다. 하지만 군대에서 주는 창은 청년의 손에 맞지 않을 것 같다고 하는데요. 평소 땔나무를 얻기 위해 나무를 했던 청년은 사일런스 메이스라면 잘 사용할 수 있을 거라고 합니다./n품위 있는 청년을 위해 ^#3399FF섬세한 키드니 대거^#FFFFFF를 구해주세요./n대장장이 교관에게 스킬을 배운 대장장이라면 누구나 만들 수 있답니다./n다 모으면 ^#3399FF리칠의 유목지^#FFFFFF로 갖다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="892" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[제작품 섬세한 키드니 대거 수집]]" draft="품위 있는 청년의 의뢰랍니다. 청년은 이제 곧 발카라스 왕국의 부름으로 군대에 입소하게 된다고 합니다. 하지만 군대에서 주는 창은 청년의 손에 맞지 않을 것 같다고 하는데요. 평소 땔나무를 얻기 위해 나무를 했던 청년은 사일런스 메이스라면 잘 사용할 수 있을 거라고 합니다./n품위 있는 청년을 위해 ^#3399FF섬세한 키드니 대거^#FFFFFF를 구해주세요./n대장장이 교관에게 스킬을 배운 대장장이라면 누구나 만들 수 있답니다./n다 모으면 ^#3399FF리칠의 유목지^#FFFFFF로 갖다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="제작품 섬세한 키드니 대거 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[리칠의 유목지 생활 모험가 길드원에게 보고]]" draft="품위 있는 청년의 의뢰랍니다. 청년은 이제 곧 발카라스 왕국의 부름으로 군대에 입소하게 된다고 합니다. 하지만 군대에서 주는 창은 청년의 손에 맞지 않을 것 같다고 하는데요. 평소 땔나무를 얻기 위해 나무를 했던 청년은 사일런스 메이스라면 잘 사용할 수 있을 거라고 합니다./n품위 있는 청년을 위해 ^#3399FF섬세한 키드니 대거^#FFFFFF를 구해주세요./n대장장이 교관에게 스킬을 배운 대장장이라면 누구나 만들 수 있답니다./n다 모으면 ^#3399FF리칠의 유목지^#FFFFFF로 갖다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="리칠의 유목지 생활 모험가 길드원에게 보고" mapTargetId="301502"/>
+		</Subject>
+		<Storage Collect1_typeID="130014" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="31"/>
+	</Quest>
+	<Quest typeID="402205320" typeName="어두운 취향" group="207" NPC="생활 모험가(리칠의 유목지)" reportTo="생활 모험가(리칠의 유목지)" cancelable="1" repeatable="0" retryable="1" lv="15" desc="점성술사 아타문의 의뢰입니다. 밤하늘의 별을 좋아하는 모든 점성술사들이 그러한가는 모르겠지만 아타문의 취향은 검은 밤만큼 어두운 것 같습니다. 자신의 어께에 장식할 ^#3399FF그림자 조각 어깨보호구^#FFFFFF을 구해 달라니 말이예요./n이건 재봉 교관에게 재봉 스킬을 배운 재봉사가 만들 수 있다고 하네요./n다 모으면 ^#3399FF리칠의 유목지^#FFFFFF로 갖다 주세요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="892" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[제작품 그림자 조각 어깨보호구 수집]]" draft="점성술사 아타문의 의뢰입니다. 밤하늘의 별을 좋아하는 모든 점성술사들이 그러한가는 모르겠지만 아타문의 취향은 검은 밤만큼 어두운 것 같습니다. 자신의 어께에 장식할 ^#3399FF그림자 조각 어깨보호구^#FFFFFF을 구해 달라니 말이예요./n이건 재봉 교관에게 재봉 스킬을 배운 재봉사가 만들 수 있다고 하네요./n다 모으면 ^#3399FF리칠의 유목지^#FFFFFF로 갖다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="제작품 그림자 조각 어깨보호구 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[리칠의 유목지 생활 모험가 길드원에게 보고]]" draft="점성술사 아타문의 의뢰입니다. 밤하늘의 별을 좋아하는 모든 점성술사들이 그러한가는 모르겠지만 아타문의 취향은 검은 밤만큼 어두운 것 같습니다. 자신의 어께에 장식할 ^#3399FF그림자 조각 어깨보호구^#FFFFFF을 구해 달라니 말이예요./n이건 재봉 교관에게 재봉 스킬을 배운 재봉사가 만들 수 있다고 하네요./n다 모으면 ^#3399FF리칠의 유목지^#FFFFFF로 갖다 주세요." npc="모험가 길드원">
+			<subjectPos subjectStr="리칠의 유목지 생활 모험가 길드원에게 보고" mapTargetId="301502"/>
+		</Subject>
+		<Storage Collect1_typeID="50217" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="31"/>
+	</Quest>
+	<Quest typeID="402205321" typeName="수상한 인물, 수상한 의뢰 (반복)" group="207" NPC="생활 모험가(마제로나 유목지)" reportTo="생활 모험가(마제로나 유목지)" cancelable="1" repeatable="1" retryable="1" lv="15" desc="수상한 인물의 의뢰입니다. 무슨 일인지 밝히진 않았지만 조각난 코코나이트가 꼭 필요하다고 하십니다. 나쁜 일에 쓰일 것 같지는 않으니 ^#3399FF조각난 코코나이트^#FFFFFF를 ^#3399FF캐서^#FFFFFF 저에게 갖다 주세요./n^#3399FF마제로나^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="735" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[조각난 코코나이트 수집]]" draft="수상한 인물의 의뢰입니다. 무슨 일인지 밝히진 않았지만 조각난 코코나이트가 꼭 필요하다고 하십니다. 나쁜 일에 쓰일 것 같지는 않으니 ^#3399FF조각난 코코나이트^#FFFFFF를 ^#3399FF캐서^#FFFFFF 저에게 갖다 주세요./n^#3399FF마제로나^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="조각난 코코나이트 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[마제로나 생활 모험가 길드원에게 보고]]" draft="수상한 인물의 의뢰입니다. 무슨 일인지 밝히진 않았지만 조각난 코코나이트가 꼭 필요하다고 하십니다. 나쁜 일에 쓰일 것 같지는 않으니 ^#3399FF조각난 코코나이트^#FFFFFF를 ^#3399FF캐서^#FFFFFF 저에게 갖다 주세요./n^#3399FF마제로나^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="마제로나 생활 모험가 길드원에게 보고" mapTargetId="303502"/>
+		</Subject>
+		<Storage Collect1_typeID="200037" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="16"/>
+	</Quest>
+	<Quest typeID="402205322" typeName="윈더스의 건강 (반복)" group="207" NPC="생활 모험가(마제로나 유목지)" reportTo="생활 모험가(마제로나 유목지)" cancelable="1" repeatable="1" retryable="1" lv="15" desc="유목민의 의뢰입니다. 유목민이 윈더스를 키우는 전통적인 방법 중에 윈더스의 건강을 위해 메마른 풀뿌리를 먹이는 습관이 있었다고 해요. 요즘 윈더스가 몬스터와 밀렵꾼들에게 쫓기느라 힘이 없어보인다며 메마른 풀뿌리를 구해 먹이시길 바라고 계신답니다./n그분을 위해 ^#3399FF메마른 풀뿌리^#FFFFFF를 ^#3399FF캐와^#FFFFFF주세요./n^#3399FF마제로나^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="735" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[메마른 풀뿌리 수집]]" draft="유목민의 의뢰입니다. 유목민이 윈더스를 키우는 전통적인 방법 중에 윈더스의 건강을 위해 메마른 풀뿌리를 먹이는 습관이 있었다고 해요. 요즘 윈더스가 몬스터와 밀렵꾼들에게 쫓기느라 힘이 없어보인다며 메마른 풀뿌리를 구해 먹이시길 바라고 계신답니다./n그분을 위해 ^#3399FF메마른 풀뿌리^#FFFFFF를 ^#3399FF캐와^#FFFFFF주세요./n^#3399FF마제로나^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="메마른 풀뿌리 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[마제로나 생활 모험가 길드원에게 보고]]" draft="유목민의 의뢰입니다. 유목민이 윈더스를 키우는 전통적인 방법 중에 윈더스의 건강을 위해 메마른 풀뿌리를 먹이는 습관이 있었다고 해요. 요즘 윈더스가 몬스터와 밀렵꾼들에게 쫓기느라 힘이 없어보인다며 메마른 풀뿌리를 구해 먹이시길 바라고 계신답니다./n그분을 위해 ^#3399FF메마른 풀뿌리^#FFFFFF를 ^#3399FF캐와^#FFFFFF주세요./n^#3399FF마제로나^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="마제로나 생활 모험가 길드원에게 보고" mapTargetId="303502"/>
+		</Subject>
+		<Storage Collect1_typeID="200050" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="16"/>
+	</Quest>
+	<Quest typeID="402205323" typeName="노파의 건강식 (반복)" group="207" NPC="생활 모험가(마제로나 유목지)" reportTo="생활 모험가(마제로나 유목지)" cancelable="1" repeatable="1" retryable="1" lv="15" desc="도구 상점의 노파님께서 부탁하신 일인데요. 나이를 먹다보니 건강식품을 찾아 드시게 된다고 해요. 그러던 중 발견한 최고의 건강식품 중에 하나로 말린 버섯을 물에 끓여 먹는게 그렇게 몸에 좋다고 하시더라고요./n도구 상점의 노파님을 위해 ^#3399FF메마른 버섯^#FFFFFF을 ^#3399FF찾아^#FFFFFF와주세요./n^#3399FF마제로나^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="735" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[메마른 버섯 수집]]" draft="도구 상점의 노파님께서 부탁하신 일인데요. 나이를 먹다보니 건강식품을 찾아 드시게 된다고 해요. 그러던 중 발견한 최고의 건강식품 중에 하나로 말린 버섯을 물에 끓여 먹는게 그렇게 몸에 좋다고 하시더라고요./n도구 상점의 노파님을 위해 ^#3399FF메마른 버섯^#FFFFFF을 ^#3399FF찾아^#FFFFFF와주세요./n^#3399FF마제로나^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="메마른 버섯 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[마제로나 생활 모험가 길드원에게 보고]]" draft="도구 상점의 노파님께서 부탁하신 일인데요. 나이를 먹다보니 건강식품을 찾아 드시게 된다고 해요. 그러던 중 발견한 최고의 건강식품 중에 하나로 말린 버섯을 물에 끓여 먹는게 그렇게 몸에 좋다고 하시더라고요./n도구 상점의 노파님을 위해 ^#3399FF메마른 버섯^#FFFFFF을 ^#3399FF찾아^#FFFFFF와주세요./n^#3399FF마제로나^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="마제로나 생활 모험가 길드원에게 보고" mapTargetId="303502"/>
+		</Subject>
+		<Storage Collect1_typeID="200047" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="16"/>
+	</Quest>
+	<Quest typeID="402205324" typeName="골동품상의 취미 (반복)" group="207" NPC="생활 모험가(마제로나 유목지)" reportTo="생활 모험가(마제로나 유목지)" cancelable="1" repeatable="1" retryable="1" lv="15" desc="골동품 상인님의 의뢰입니다. 여러가지 제작품의 재료가 되는 코어는 아주 고대 왕국의 유물이라는 말이 있지요. 그래서 그런지 지역 마다 코어의 모양이 조금씩 틀리다고 해요. 그래서 골동품 상인님은 지역을 다닐 때 마다 코어를 모으는 게 취미라고 합니다./n^#3399FF조각난 코어^#FFFFFF를 ^#3399FF캐와^#FFFFFF 주세요./n^#3399FF마제로나^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="735" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[조각난 코어 수집]]" draft="골동품 상인님의 의뢰입니다. 여러가지 제작품의 재료가 되는 코어는 아주 고대 왕국의 유물이라는 말이 있지요. 그래서 그런지 지역 마다 코어의 모양이 조금씩 틀리다고 해요. 그래서 골동품 상인님은 지역을 다닐 때 마다 코어를 모으는 게 취미라고 합니다./n^#3399FF조각난 코어^#FFFFFF를 ^#3399FF캐와^#FFFFFF 주세요./n^#3399FF마제로나^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="조각난 코어 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[마제로나 생활 모험가 길드원에게 보고]]" draft="골동품 상인님의 의뢰입니다. 여러가지 제작품의 재료가 되는 코어는 아주 고대 왕국의 유물이라는 말이 있지요. 그래서 그런지 지역 마다 코어의 모양이 조금씩 틀리다고 해요. 그래서 골동품 상인님은 지역을 다닐 때 마다 코어를 모으는 게 취미라고 합니다./n^#3399FF조각난 코어^#FFFFFF를 ^#3399FF캐와^#FFFFFF 주세요./n^#3399FF마제로나^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="마제로나 생활 모험가 길드원에게 보고" mapTargetId="303502"/>
+		</Subject>
+		<Storage Collect1_typeID="200039" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="16"/>
+	</Quest>
+	<Quest typeID="402205325" typeName="상회의 기념품 (반복)" group="207" NPC="생활 모험가(마제로나 유목지)" reportTo="생활 모험가(마제로나 유목지)" cancelable="1" repeatable="1" retryable="1" lv="15" desc="상회 단장님의 의뢰입니다. 상회 단장님은 상회인들에게 기념품을 만들어 주기 위해 조각난 체리라이트가 많이 필요하다고 하십니다./n^#3399FF조각난 체리라이트^#FFFFFF를 되도록 많이 ^#3399FF캐와^#FFFFFF 주세요. 기다리고 있을게요./n^#3399FF마제로나^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="735" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[조각난 체리라이트 수집]]" draft="상회 단장님의 의뢰입니다. 상회 단장님은 상회인들에게 기념품을 만들어 주기 위해 조각난 체리라이트가 많이 필요하다고 하십니다./n^#3399FF조각난 체리라이트^#FFFFFF를 되도록 많이 ^#3399FF캐와^#FFFFFF 주세요. 기다리고 있을게요./n^#3399FF마제로나^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="조각난 체리라이트 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[마제로나 생활 모험가 길드원에게 보고]]" draft="상회 단장님의 의뢰입니다. 상회 단장님은 상회인들에게 기념품을 만들어 주기 위해 조각난 체리라이트가 많이 필요하다고 하십니다./n^#3399FF조각난 체리라이트^#FFFFFF를 되도록 많이 ^#3399FF캐와^#FFFFFF 주세요. 기다리고 있을게요./n^#3399FF마제로나^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="마제로나 생활 모험가 길드원에게 보고" mapTargetId="303502"/>
+		</Subject>
+		<Storage Collect1_typeID="200036" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="16"/>
+	</Quest>
+	<Quest typeID="402205326" typeName="소년의 우유 (반복)" group="207" NPC="생활 모험가(마제로나 유목지)" reportTo="생활 모험가(마제로나 유목지)" cancelable="1" repeatable="1" retryable="1" lv="15" desc="우유가 싫은 소년의 어머니의 의뢰입니다. 그분의 아들은 우유를 너무 싫어해서 멀리 호수에 버리고 오곤 한다지요./n소년이 우유를 좀 더 잘 먹게 하기 위해서 우유에 메마른 허브를 넣어 주면 어떨까 생각하시고 계세요./n우유가 싫은 소년을 위해 ^#3399FF메마른 허브^#FFFFFF를 ^#3399FF찾아^#FFFFFF주세요./n^#3399FF마제로나^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="735" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[메마른 허브 수집]]" draft="우유가 싫은 소년의 어머니의 의뢰입니다. 그분의 아들은 우유를 너무 싫어해서 멀리 호수에 버리고 오곤 한다지요./n소년이 우유를 좀 더 잘 먹게 하기 위해서 우유에 메마른 허브를 넣어 주면 어떨까 생각하시고 계세요./n우유가 싫은 소년을 위해 ^#3399FF메마른 허브^#FFFFFF를 ^#3399FF찾아^#FFFFFF주세요./n^#3399FF마제로나^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="메마른 허브 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[마제로나 생활 모험가 길드원에게 보고]]" draft="우유가 싫은 소년의 어머니의 의뢰입니다. 그분의 아들은 우유를 너무 싫어해서 멀리 호수에 버리고 오곤 한다지요./n소년이 우유를 좀 더 잘 먹게 하기 위해서 우유에 메마른 허브를 넣어 주면 어떨까 생각하시고 계세요./n우유가 싫은 소년을 위해 ^#3399FF메마른 허브^#FFFFFF를 ^#3399FF찾아^#FFFFFF주세요./n^#3399FF마제로나^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="마제로나 생활 모험가 길드원에게 보고" mapTargetId="303502"/>
+		</Subject>
+		<Storage Collect1_typeID="200048" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="16"/>
+	</Quest>
+	<Quest typeID="402205327" typeName="고지혈증 예방" group="207" NPC="생활 모험가(마제로나 유목지)" reportTo="생활 모험가(마제로나 유목지)" cancelable="1" repeatable="0" retryable="1" lv="15" desc="중앙 봉화탑 병사의 의뢰입니다. 발카라스 왕국에서 유목민을 대상으로 하도 많은 공물을 탈취해서 그런지 요즘 식단에 기름진 고기만 나오고 있다고 합니다. 그래서 식물성 식품을 섭취하기 위해 식물성 기름으로 음식을 만들고 싶다고 합니다./n^#3399FF식물성 기름^#FFFFFF을 구해다 주시면 제가 중앙 봉화탑 병사에게 전해드릴게요./n^#3399FF마제로나^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="795" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[가공품 식물성 기름 수집]]" draft="중앙 봉화탑 병사의 의뢰입니다. 발카라스 왕국에서 유목민을 대상으로 하도 많은 공물을 탈취해서 그런지 요즘 식단에 기름진 고기만 나오고 있다고 합니다. 그래서 식물성 식품을 섭취하기 위해 식물성 기름으로 음식을 만들고 싶다고 합니다./n^#3399FF식물성 기름^#FFFFFF을 구해다 주시면 제가 중앙 봉화탑 병사에게 전해드릴게요./n^#3399FF마제로나^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="가공품 식물성 기름 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[마제로나 생활 모험가 길드원에게 보고]]" draft="중앙 봉화탑 병사의 의뢰입니다. 발카라스 왕국에서 유목민을 대상으로 하도 많은 공물을 탈취해서 그런지 요즘 식단에 기름진 고기만 나오고 있다고 합니다. 그래서 식물성 식품을 섭취하기 위해 식물성 기름으로 음식을 만들고 싶다고 합니다./n^#3399FF식물성 기름^#FFFFFF을 구해다 주시면 제가 중앙 봉화탑 병사에게 전해드릴게요./n^#3399FF마제로나^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="마제로나 생활 모험가 길드원에게 보고" mapTargetId="303502"/>
+		</Subject>
+		<Storage Collect1_typeID="201036" Collect1_goal="3" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="22"/>
+	</Quest>
+	<Quest typeID="402205328" typeName="마제로나 칵테일" group="207" NPC="생활 모험가(마제로나 유목지)" reportTo="생활 모험가(마제로나 유목지)" cancelable="1" repeatable="0" retryable="1" lv="15" desc="술집 주인의 의뢰입니다. 부쩍 늘어난 모험가의 수만큼 ^#3399FF마제로나^#FFFFFF 술집을 찾는 사람들의 취향도 다양해졌다고 하는 데요. 특히 듀발고원에서 나는 신선한 과일을 원료로하는 칵테일을 주문하는 손님이 많다고 합니다. 그래서 매일 술에 탈 과일 즙이 모자라 애를 먹는다고 하지요./n술집 주인이 맛있는 칵테일을 만들 수 있도록 ^#3399FF과일 즙^#FFFFFF을 구해와 주세요./n^#3399FF마제로나^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="795" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[가공품 과일 즙 수집]]" draft="술집 주인의 의뢰입니다. 부쩍 늘어난 모험가의 수만큼 ^#3399FF마제로나^#FFFFFF 술집을 찾는 사람들의 취향도 다양해졌다고 하는 데요. 특히 듀발고원에서 나는 신선한 과일을 원료로하는 칵테일을 주문하는 손님이 많다고 합니다. 그래서 매일 술에 탈 과일 즙이 모자라 애를 먹는다고 하지요./n술집 주인이 맛있는 칵테일을 만들 수 있도록 ^#3399FF과일 즙^#FFFFFF을 구해와 주세요./n^#3399FF마제로나^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="가공품 과일 즙 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[마제로나 생활 모험가 길드원에게 보고]]" draft="술집 주인의 의뢰입니다. 부쩍 늘어난 모험가의 수만큼 ^#3399FF마제로나^#FFFFFF 술집을 찾는 사람들의 취향도 다양해졌다고 하는 데요. 특히 듀발고원에서 나는 신선한 과일을 원료로하는 칵테일을 주문하는 손님이 많다고 합니다. 그래서 매일 술에 탈 과일 즙이 모자라 애를 먹는다고 하지요./n술집 주인이 맛있는 칵테일을 만들 수 있도록 ^#3399FF과일 즙^#FFFFFF을 구해와 주세요./n^#3399FF마제로나^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="마제로나 생활 모험가 길드원에게 보고" mapTargetId="303502"/>
+		</Subject>
+		<Storage Collect1_typeID="201032" Collect1_goal="3" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="22"/>
+	</Quest>
+	<Quest typeID="402205329" typeName="니시스 신의 은총" group="207" NPC="생활 모험가(마제로나 유목지)" reportTo="생활 모험가(마제로나 유목지)" cancelable="1" repeatable="0" retryable="1" lv="15" desc="중환자의 어머니의 의뢰입니다. 아들이 너무 아파서 일어나 걷지도 못하고 있다고 합니다. 아픈 아들에게 ^#3399FF스테이크 샐러드^#FFFFFF를 먹이고 싶다니 그것을 구해와 주세요./n요리사 교관에게 스킬을 배운 요리사라면 만들 수 있을거예요./n^#3399FF마제로나^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="892" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[제작품 스테이크 샐러드 수집]]" draft="중환자의 어머니의 의뢰입니다. 아들이 너무 아파서 일어나 걷지도 못하고 있다고 합니다. 아픈 아들에게 ^#3399FF스테이크 샐러드^#FFFFFF를 먹이고 싶다니 그것을 구해와 주세요./n요리사 교관에게 스킬을 배운 요리사라면 만들 수 있을거예요./n^#3399FF마제로나^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="제작품 스테이크 샐러드 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[마제로나 생활 모험가 길드원에게 보고]]" draft="중환자의 어머니의 의뢰입니다. 아들이 너무 아파서 일어나 걷지도 못하고 있다고 합니다. 아픈 아들에게 ^#3399FF스테이크 샐러드^#FFFFFF를 먹이고 싶다니 그것을 구해와 주세요./n요리사 교관에게 스킬을 배운 요리사라면 만들 수 있을거예요./n^#3399FF마제로나^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="마제로나 생활 모험가 길드원에게 보고" mapTargetId="303502"/>
+		</Subject>
+		<Storage Collect1_typeID="130368" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="31"/>
+	</Quest>
+	<Quest typeID="402205330" typeName="즐거운 노래" group="207" NPC="생활 모험가(마제로나 유목지)" reportTo="생활 모험가(마제로나 유목지)" cancelable="1" repeatable="0" retryable="1" lv="15" desc="유랑 시인의 의뢰입니다. 유랑 시인은 ^#3399FF마제로나^#FFFFFF뿐만 아니라 여러 지역을 전전하느라 무척 피로하다고 하시는데요 스피릿 스킬업 블랙티를 한 잔 마셔 목을 축이면 더 즐거운 노래를 부를 수 있을 것 같다고 하십니다./n^#3399FF핫 그린티 믹스^#FFFFFF를 구해와 주세요./n다인 교관에게 스킬을 배운 다인이면 만들 수 있어요./n^#3399FF마제로나^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="892" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[제작품 핫 그린티 믹스 수집]]" draft="유랑 시인의 의뢰입니다. 유랑 시인은 ^#3399FF마제로나^#FFFFFF뿐만 아니라 여러 지역을 전전하느라 무척 피로하다고 하시는데요 스피릿 스킬업 블랙티를 한 잔 마셔 목을 축이면 더 즐거운 노래를 부를 수 있을 것 같다고 하십니다./n^#3399FF핫 그린티 믹스^#FFFFFF를 구해와 주세요./n다인 교관에게 스킬을 배운 다인이면 만들 수 있어요./n^#3399FF마제로나^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="제작품 핫 그린티 믹스 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[마제로나 생활 모험가 길드원에게 보고]]" draft="유랑 시인의 의뢰입니다. 유랑 시인은 ^#3399FF마제로나^#FFFFFF뿐만 아니라 여러 지역을 전전하느라 무척 피로하다고 하시는데요 스피릿 스킬업 블랙티를 한 잔 마셔 목을 축이면 더 즐거운 노래를 부를 수 있을 것 같다고 하십니다./n^#3399FF핫 그린티 믹스^#FFFFFF를 구해와 주세요./n다인 교관에게 스킬을 배운 다인이면 만들 수 있어요./n^#3399FF마제로나^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="마제로나 생활 모험가 길드원에게 보고" mapTargetId="303502"/>
+		</Subject>
+		<Storage Collect1_typeID="104017" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="31"/>
+	</Quest>
+	<Quest typeID="402205331" typeName="윈더스의 재갈 (반복)" group="207" NPC="생활 모험가(하무단의 유목지)" reportTo="생활 모험가(하무단의 유목지)" cancelable="1" repeatable="1" retryable="1" lv="20" desc="마구간 지기의 의뢰입니다. 윈더스들에 대한 경비를 강화하기 위해 윈더스들에게 씌울 재갈을 많이 만들어야 겠다고 하십니다./n그러기 위해선 조각난 광석이 많이 필요하다고 하니 ^#3399FF조각난 광석^#FFFFFF을 ^#3399FF캐와^#FFFFFF 주세요./n^#3399FF하무단의 유목지^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="1402" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[조각난 광석 수집]]" draft="마구간 지기의 의뢰입니다. 윈더스들에 대한 경비를 강화하기 위해 윈더스들에게 씌울 재갈을 많이 만들어야 겠다고 하십니다./n그러기 위해선 조각난 광석이 많이 필요하다고 하니 ^#3399FF조각난 광석^#FFFFFF을 ^#3399FF캐와^#FFFFFF 주세요./n^#3399FF하무단의 유목지^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="조각난 광석 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[하무단의 유목지 생활 모험가 길드원에게 보고]]" draft="마구간 지기의 의뢰입니다. 윈더스들에 대한 경비를 강화하기 위해 윈더스들에게 씌울 재갈을 많이 만들어야 겠다고 하십니다./n그러기 위해선 조각난 광석이 많이 필요하다고 하니 ^#3399FF조각난 광석^#FFFFFF을 ^#3399FF캐와^#FFFFFF 주세요./n^#3399FF하무단의 유목지^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="하무단의 유목지 생활 모험가 길드원에게 보고" mapTargetId="302502"/>
+		</Subject>
+		<Storage Collect1_typeID="200034" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="64"/>
+	</Quest>
+	<Quest typeID="402205332" typeName="메이의 장식품 (반복)" group="207" NPC="생활 모험가(하무단의 유목지)" reportTo="생활 모험가(하무단의 유목지)" cancelable="1" repeatable="1" retryable="1" lv="20" desc="메이의 의뢰입니다. 요즘 메이씨는 유독 몸치장에 관심을 많이 가지고 계시는데 새로운 머리 장식을 고안하고 계신다고 해요./n그렇기 위해서 ^#3399FF메마른 꽃봉오리^#FFFFFF를 많이 모아 달라고 하시는데 금방 ^#3399FF찾아^#FFFFFF오실 수 있죠?/n^#3399FF하무단의 유목지^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="1402" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[메마른 꽃봉오리 수집]]" draft="메이의 의뢰입니다. 요즘 메이씨는 유독 몸치장에 관심을 많이 가지고 계시는데 새로운 머리 장식을 고안하고 계신다고 해요./n그렇기 위해서 ^#3399FF메마른 꽃봉오리^#FFFFFF를 많이 모아 달라고 하시는데 금방 ^#3399FF찾아^#FFFFFF오실 수 있죠?/n^#3399FF하무단의 유목지^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="메마른 꽃봉오리 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[하무단의 유목지 생활 모험가 길드원에게 보고]]" draft="메이의 의뢰입니다. 요즘 메이씨는 유독 몸치장에 관심을 많이 가지고 계시는데 새로운 머리 장식을 고안하고 계신다고 해요./n그렇기 위해서 ^#3399FF메마른 꽃봉오리^#FFFFFF를 많이 모아 달라고 하시는데 금방 ^#3399FF찾아^#FFFFFF오실 수 있죠?/n^#3399FF하무단의 유목지^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="하무단의 유목지 생활 모험가 길드원에게 보고" mapTargetId="302502"/>
+		</Subject>
+		<Storage Collect1_typeID="200049" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="64"/>
+	</Quest>
+	<Quest typeID="402205333" typeName="주이린의 보답 (반복)" group="207" NPC="생활 모험가(하무단의 유목지)" reportTo="생활 모험가(하무단의 유목지)" cancelable="1" repeatable="1" retryable="1" lv="20" desc="주이린님의 의뢰입니다. 주이린님 께서는 밤낮 없이 유목지의 유목민들의 평화를 위해 고민하시는 하무단 족장님을 위해 맛있는 음식을 만들어 드리고 싶다고 합니다./n메마른 열매를 사용하면 아주 맛있는 요리를 만들 수 있을 것 같다고 하니 ^#3399FF메마른 열매^#FFFFFF를 ^#3399FF모아^#FFFFFF주세요./n^#3399FF하무단의 유목지^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="1402" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[메마른 열매 수집]]" draft="주이린님의 의뢰입니다. 주이린님 께서는 밤낮 없이 유목지의 유목민들의 평화를 위해 고민하시는 하무단 족장님을 위해 맛있는 음식을 만들어 드리고 싶다고 합니다./n메마른 열매를 사용하면 아주 맛있는 요리를 만들 수 있을 것 같다고 하니 ^#3399FF메마른 열매^#FFFFFF를 ^#3399FF모아^#FFFFFF주세요./n^#3399FF하무단의 유목지^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="메마른 열매 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[하무단의 유목지 생활 모험가 길드원에게 보고]]" draft="주이린님의 의뢰입니다. 주이린님 께서는 밤낮 없이 유목지의 유목민들의 평화를 위해 고민하시는 하무단 족장님을 위해 맛있는 음식을 만들어 드리고 싶다고 합니다./n메마른 열매를 사용하면 아주 맛있는 요리를 만들 수 있을 것 같다고 하니 ^#3399FF메마른 열매^#FFFFFF를 ^#3399FF모아^#FFFFFF주세요./n^#3399FF하무단의 유목지^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="하무단의 유목지 생활 모험가 길드원에게 보고" mapTargetId="302502"/>
+		</Subject>
+		<Storage Collect1_typeID="200052" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="64"/>
+	</Quest>
+	<Quest typeID="402205334" typeName="소시에의 소원 (반복)" group="207" NPC="생활 모험가(하무단의 유목지)" reportTo="생활 모험가(하무단의 유목지)" cancelable="1" repeatable="1" retryable="1" lv="20" desc="소시에님의 의뢰입니다. 소시에님은 항상 작은 거라도 좋으니 보석을 갖는게 소원이라고 하셨는데 모험가님이 그 소원을 들어줄 수 있을 것 같아요./n이 주변의 광석을 뒤져보면 ^#3399FF조각난 사파이어^#FFFFFF가 나오곤 하거든요. 그것을 ^#3399FF찾아^#FFFFFF서 저에게 갖다 주세요./n^#3399FF하무단의 유목지^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="1402" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[조각난 사파이어 수집]]" draft="소시에님의 의뢰입니다. 소시에님은 항상 작은 거라도 좋으니 보석을 갖는게 소원이라고 하셨는데 모험가님이 그 소원을 들어줄 수 있을 것 같아요./n이 주변의 광석을 뒤져보면 ^#3399FF조각난 사파이어^#FFFFFF가 나오곤 하거든요. 그것을 ^#3399FF찾아^#FFFFFF서 저에게 갖다 주세요./n^#3399FF하무단의 유목지^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="조각난 사파이어 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[하무단의 유목지 생활 모험가 길드원에게 보고]]" draft="소시에님의 의뢰입니다. 소시에님은 항상 작은 거라도 좋으니 보석을 갖는게 소원이라고 하셨는데 모험가님이 그 소원을 들어줄 수 있을 것 같아요./n이 주변의 광석을 뒤져보면 ^#3399FF조각난 사파이어^#FFFFFF가 나오곤 하거든요. 그것을 ^#3399FF찾아^#FFFFFF서 저에게 갖다 주세요./n^#3399FF하무단의 유목지^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="하무단의 유목지 생활 모험가 길드원에게 보고" mapTargetId="302502"/>
+		</Subject>
+		<Storage Collect1_typeID="200040" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="64"/>
+	</Quest>
+	<Quest typeID="402205335" typeName="윈더스의 발굽 (반복)" group="207" NPC="생활 모험가(하무단의 유목지)" reportTo="생활 모험가(하무단의 유목지)" cancelable="1" repeatable="1" retryable="1" lv="20" desc="마구간 지기님의 의뢰입니다. 요즘 들어 자꾸 윈더스들이 사라지고 있다고 하는데 몽땅 다 사라지기 전에 마구간 지기님의 윈더스라는 것을 표시해두고 싶다고 해요./n조각난 토파즈를 발굽에 박으면 다른 윈더스들과 확실히 구분이 될 것 같다고 하시는데…. ^#3399FF조각난 토파즈^#FFFFFF를 ^#3399FF찾아^#FFFFFF 주실 수 있으시겠어요?/n^#3399FF하무단의 유목지^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="1402" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[조각난 토파즈 수집]]" draft="마구간 지기님의 의뢰입니다. 요즘 들어 자꾸 윈더스들이 사라지고 있다고 하는데 몽땅 다 사라지기 전에 마구간 지기님의 윈더스라는 것을 표시해두고 싶다고 해요./n조각난 토파즈를 발굽에 박으면 다른 윈더스들과 확실히 구분이 될 것 같다고 하시는데…. ^#3399FF조각난 토파즈^#FFFFFF를 ^#3399FF찾아^#FFFFFF 주실 수 있으시겠어요?/n^#3399FF하무단의 유목지^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="조각난 토파즈 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[하무단의 유목지 생활 모험가 길드원에게 보고]]" draft="마구간 지기님의 의뢰입니다. 요즘 들어 자꾸 윈더스들이 사라지고 있다고 하는데 몽땅 다 사라지기 전에 마구간 지기님의 윈더스라는 것을 표시해두고 싶다고 해요./n조각난 토파즈를 발굽에 박으면 다른 윈더스들과 확실히 구분이 될 것 같다고 하시는데…. ^#3399FF조각난 토파즈^#FFFFFF를 ^#3399FF찾아^#FFFFFF 주실 수 있으시겠어요?/n^#3399FF하무단의 유목지^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="하무단의 유목지 생활 모험가 길드원에게 보고" mapTargetId="302502"/>
+		</Subject>
+		<Storage Collect1_typeID="200041" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="64"/>
+	</Quest>
+	<Quest typeID="402205336" typeName="탱글 탱글 한 과실 (반복)" group="207" NPC="생활 모험가(하무단의 유목지)" reportTo="생활 모험가(하무단의 유목지)" cancelable="1" repeatable="1" retryable="1" lv="20" desc="골동품 상인님의 의뢰입니다. ^#3399FF마제로나^#FFFFFF에서 골동품을 파시는 골동품 상인님은 식도락가로 유망한데요. 이 마제로나에 와서 제일 맛있는 건 과실이라고 하시더군요. 많이 드셨지만 아직 모자르시다면서 ^#3399FF메마른 과실잎^#FFFFFF을 ^#3399FF모아^#FFFFFF 달라고 하십니다./n^#3399FF하무단의 유목지^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="1402" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[메마른 과실 수집]]" draft="골동품 상인님의 의뢰입니다. ^#3399FF마제로나^#FFFFFF에서 골동품을 파시는 골동품 상인님은 식도락가로 유망한데요. 이 마제로나에 와서 제일 맛있는 건 과실이라고 하시더군요. 많이 드셨지만 아직 모자르시다면서 ^#3399FF메마른 과실잎^#FFFFFF을 ^#3399FF모아^#FFFFFF 달라고 하십니다./n^#3399FF하무단의 유목지^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="메마른 과실 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[하무단의 유목지 생활 모험가 길드원에게 보고]]" draft="골동품 상인님의 의뢰입니다. ^#3399FF마제로나^#FFFFFF에서 골동품을 파시는 골동품 상인님은 식도락가로 유망한데요. 이 마제로나에 와서 제일 맛있는 건 과실이라고 하시더군요. 많이 드셨지만 아직 모자르시다면서 ^#3399FF메마른 과실잎^#FFFFFF을 ^#3399FF모아^#FFFFFF 달라고 하십니다./n^#3399FF하무단의 유목지^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="하무단의 유목지 생활 모험가 길드원에게 보고" mapTargetId="302502"/>
+		</Subject>
+		<Storage Collect1_typeID="200051" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="64"/>
+	</Quest>
+	<Quest typeID="402205337" typeName="신선한 우유를 위해" group="207" NPC="생활 모험가(하무단의 유목지)" reportTo="생활 모험가(하무단의 유목지)" cancelable="1" repeatable="0" retryable="1" lv="20" desc="우유 배달 처녀의 의뢰입니다. 원래 듀발고원의 기후는 선선하기 때문에 짜놓은 우유를 오랜 기간 보관할 수 있었다고 해요. 하지만 고대의 산에 고룡이 등장한 이후로 온도가 올랐는지 최근들어 우유가 상하는 일이 자주 발생하고 있답니다./n구하기 힘들겠지만 얼음을 구해다 주시면 우유를 신선하게 보관할 수 있을 것 같은데…/n^#3399FF얼음^#FFFFFF을 구해와 주세요./n^#3399FF하무단의 유목지^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="1432" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[가공품 얼음 수집]]" draft="우유 배달 처녀의 의뢰입니다. 원래 듀발고원의 기후는 선선하기 때문에 짜놓은 우유를 오랜 기간 보관할 수 있었다고 해요. 하지만 고대의 산에 고룡이 등장한 이후로 온도가 올랐는지 최근들어 우유가 상하는 일이 자주 발생하고 있답니다./n구하기 힘들겠지만 얼음을 구해다 주시면 우유를 신선하게 보관할 수 있을 것 같은데…/n^#3399FF얼음^#FFFFFF을 구해와 주세요./n^#3399FF하무단의 유목지^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="가공품 얼음 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[하무단의 유목지 생활 모험가 길드원에게 보고]]" draft="우유 배달 처녀의 의뢰입니다. 원래 듀발고원의 기후는 선선하기 때문에 짜놓은 우유를 오랜 기간 보관할 수 있었다고 해요. 하지만 고대의 산에 고룡이 등장한 이후로 온도가 올랐는지 최근들어 우유가 상하는 일이 자주 발생하고 있답니다./n구하기 힘들겠지만 얼음을 구해다 주시면 우유를 신선하게 보관할 수 있을 것 같은데…/n^#3399FF얼음^#FFFFFF을 구해와 주세요./n^#3399FF하무단의 유목지^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="하무단의 유목지 생활 모험가 길드원에게 보고" mapTargetId="302502"/>
+		</Subject>
+		<Storage Collect1_typeID="201070" Collect1_goal="3" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="72"/>
+	</Quest>
+	<Quest typeID="402205338" typeName="맛있는 약" group="207" NPC="생활 모험가(하무단의 유목지)" reportTo="생활 모험가(하무단의 유목지)" cancelable="1" repeatable="0" retryable="1" lv="20" desc="유목민 약재상의 의뢰입니다. 유목민에게도 오래 전 부터 전해 내려오는 민간 요법이 많은데요. 그 중에 열이 나는 어린 아이를 위해 맛있는 탕약을 만들어 주는 방법으로 절인 열매를 사용하는 방법이 있다고 해요./n주변의 몬스터들에게 상처를 입고 열이 오르는 어린아이가 많은 이런 때 ^#3399FF절인 열매^#FFFFFF의 비축분이 줄어들고 있다고 약재상님께서 많이 걱정하고 계시는데 절인 열매를 구해주시면 좋겠어요./n^#3399FF하무단의 유목지^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="1452" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[가공품 절인 열매 수집]]" draft="유목민 약재상의 의뢰입니다. 유목민에게도 오래 전 부터 전해 내려오는 민간 요법이 많은데요. 그 중에 열이 나는 어린 아이를 위해 맛있는 탕약을 만들어 주는 방법으로 절인 열매를 사용하는 방법이 있다고 해요./n주변의 몬스터들에게 상처를 입고 열이 오르는 어린아이가 많은 이런 때 ^#3399FF절인 열매^#FFFFFF의 비축분이 줄어들고 있다고 약재상님께서 많이 걱정하고 계시는데 절인 열매를 구해주시면 좋겠어요./n^#3399FF하무단의 유목지^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="가공품 절인 열매 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[하무단의 유목지 생활 모험가 길드원에게 보고]]" draft="유목민 약재상의 의뢰입니다. 유목민에게도 오래 전 부터 전해 내려오는 민간 요법이 많은데요. 그 중에 열이 나는 어린 아이를 위해 맛있는 탕약을 만들어 주는 방법으로 절인 열매를 사용하는 방법이 있다고 해요./n주변의 몬스터들에게 상처를 입고 열이 오르는 어린아이가 많은 이런 때 ^#3399FF절인 열매^#FFFFFF의 비축분이 줄어들고 있다고 약재상님께서 많이 걱정하고 계시는데 절인 열매를 구해주시면 좋겠어요./n^#3399FF하무단의 유목지^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="하무단의 유목지 생활 모험가 길드원에게 보고" mapTargetId="302502"/>
+		</Subject>
+		<Storage Collect1_typeID="201075" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="78"/>
+	</Quest>
+	<Quest typeID="402205339" typeName="경비 튼튼, 내 손으로!" group="207" NPC="생활 모험가(하무단의 유목지)" reportTo="생활 모험가(하무단의 유목지)" cancelable="1" repeatable="0" retryable="1" lv="20" desc="화가 난 유목민 학자님의 의뢰입니다. 유목민 학자님은 최근들어 유목지 주변을 배회하며 사람을 해치는 것도 모자라 하무단 유목지의 상징인 사슴상 근처까지 올라와 사슴상에 상처를 입히는 몬스터들 때문에 밤잠을 이루지 못할 지경이라고 해요./n그래서 직접 몬스터들을 상대로 사슴상 주변에서 경비를 서겠다고 하시는대요. 빈 손으로 경비를 서기엔 힘들겠고…샴사르가 있으면 몬스터를 상대하기 좀 더 수월하겠지요./n^#3399FF샴사르^#FFFFFF를 구해주세요./n대장장이 교관에게 스킬을 배운 대장장이라면 만들 수 있어요./n^#3399FF하무단의 유목지^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="1452" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[제작품 샴사르 수집]]" draft="화가 난 유목민 학자님의 의뢰입니다. 유목민 학자님은 최근들어 유목지 주변을 배회하며 사람을 해치는 것도 모자라 하무단 유목지의 상징인 사슴상 근처까지 올라와 사슴상에 상처를 입히는 몬스터들 때문에 밤잠을 이루지 못할 지경이라고 해요./n그래서 직접 몬스터들을 상대로 사슴상 주변에서 경비를 서겠다고 하시는대요. 빈 손으로 경비를 서기엔 힘들겠고…샴사르가 있으면 몬스터를 상대하기 좀 더 수월하겠지요./n^#3399FF샴사르^#FFFFFF를 구해주세요./n대장장이 교관에게 스킬을 배운 대장장이라면 만들 수 있어요./n^#3399FF하무단의 유목지^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="제작품 샴사르 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[하무단의 유목지 생활 모험가 길드원에게 보고]]" draft="화가 난 유목민 학자님의 의뢰입니다. 유목민 학자님은 최근들어 유목지 주변을 배회하며 사람을 해치는 것도 모자라 하무단 유목지의 상징인 사슴상 근처까지 올라와 사슴상에 상처를 입히는 몬스터들 때문에 밤잠을 이루지 못할 지경이라고 해요./n그래서 직접 몬스터들을 상대로 사슴상 주변에서 경비를 서겠다고 하시는대요. 빈 손으로 경비를 서기엔 힘들겠고…샴사르가 있으면 몬스터를 상대하기 좀 더 수월하겠지요./n^#3399FF샴사르^#FFFFFF를 구해주세요./n대장장이 교관에게 스킬을 배운 대장장이라면 만들 수 있어요./n^#3399FF하무단의 유목지^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="하무단의 유목지 생활 모험가 길드원에게 보고" mapTargetId="302502"/>
+		</Subject>
+		<Storage Collect1_typeID="130047" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="78"/>
+	</Quest>
+	<Quest typeID="402205340" typeName="헐벗은 라다토르" group="207" NPC="생활 모험가(하무단의 유목지)" reportTo="생활 모험가(하무단의 유목지)" cancelable="1" repeatable="0" retryable="1" lv="20" desc="라다토르님의 의뢰입니다. 여기서 더 북쪽에 있는 라다토르 유목지의 이 곳까지 여행을 오시느라 입고 있던 옷이 다 헤졌다고 해요. ^#3399FF복수의 발톱 상의^#FFFFFF을 빨리 구해다주세요./n재봉사 교관에게 스킬을 배운 재봉사라면 금새 만들 수 있을거예요./n^#3399FF하무단의 유목지^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="1452" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[제작품 복수의 발톱 상의 수집]]" draft="라다토르님의 의뢰입니다. 여기서 더 북쪽에 있는 라다토르 유목지의 이 곳까지 여행을 오시느라 입고 있던 옷이 다 헤졌다고 해요. ^#3399FF복수의 발톱 상의^#FFFFFF을 빨리 구해다주세요./n재봉사 교관에게 스킬을 배운 재봉사라면 금새 만들 수 있을거예요./n^#3399FF하무단의 유목지^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="제작품 복수의 발톱 상의수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[하무단의 유목지 생활 모험가 길드원에게 보고]]" draft="라다토르님의 의뢰입니다. 여기서 더 북쪽에 있는 라다토르 유목지의 이 곳까지 여행을 오시느라 입고 있던 옷이 다 헤졌다고 해요. ^#3399FF복수의 발톱 상의^#FFFFFF을 빨리 구해다주세요./n재봉사 교관에게 스킬을 배운 재봉사라면 금새 만들 수 있을거예요./n^#3399FF하무단의 유목지^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="하무단의 유목지 생활 모험가 길드원에게 보고" mapTargetId="302502"/>
+		</Subject>
+		<Storage Collect1_typeID="130096" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="78"/>
+	</Quest>
+	<Quest typeID="402205341" typeName="소년의 헌화 (반복)" group="207" NPC="생활 모험가(국경 경비대)" reportTo="생활 모험가(국경 경비대)" cancelable="1" repeatable="1" retryable="1" lv="30" desc="왕국을 사랑하는 소년의 의뢰입니다. 발카라스 왕국에 대한 사랑을 표현하기 위해 국경 지대에 꽃을 헌화하고 싶다고 하네요./n소년을 위해 ^#3399FF다자란 들꽃^#FFFFFF을 ^#3399FF잘라^#FFFFFF와 주세요./n^#3399FF국경 검문소^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="9635" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[다자란 들꽃 수집]]" draft="왕국을 사랑하는 소년의 의뢰입니다. 발카라스 왕국에 대한 사랑을 표현하기 위해 국경 지대에 꽃을 헌화하고 싶다고 하네요./n소년을 위해 ^#3399FF다자란 들꽃^#FFFFFF을 ^#3399FF잘라^#FFFFFF와 주세요./n^#3399FF국경 검문소^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="다자란 들꽃 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[국경 검문소 생활 모험가 길드원에게 보고]]" draft="왕국을 사랑하는 소년의 의뢰입니다. 발카라스 왕국에 대한 사랑을 표현하기 위해 국경 지대에 꽃을 헌화하고 싶다고 하네요./n소년을 위해 ^#3399FF다자란 들꽃^#FFFFFF을 ^#3399FF잘라^#FFFFFF와 주세요./n^#3399FF국경 검문소^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="국경 검문소 생활 모험가 길드원에게 보고" mapTargetId="308000"/>
+		</Subject>
+		<Storage Collect1_typeID="200065" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="152"/>
+	</Quest>
+	<Quest typeID="402205342" typeName="국경 경비대의 건강 (반복)" group="207" NPC="생활 모험가(국경 경비대)" reportTo="생활 모험가(국경 경비대)" cancelable="1" repeatable="1" retryable="1" lv="30" desc="^#3399FF국경 검문소^#FFFFFF의 의뢰입니다. 매일 국가에서 주는 음식은 기름진 것들 뿐이라 맛있는 과일이 먹고 싶다고 하시네요/n^#3399FF국경 검문소^#FFFFFF의 건강을 위해서 ^#3399FF다자란 열매^#FFFFFF를 ^#3399FF모아^#FFFFFF와 주세요./n^#3399FF국경 검문소^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="9635" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[다자란 열매 수집]]" draft="^#3399FF국경 검문소^#FFFFFF의 의뢰입니다. 매일 국가에서 주는 음식은 기름진 것들 뿐이라 맛있는 과일이 먹고 싶다고 하시네요/n^#3399FF국경 검문소^#FFFFFF의 건강을 위해서 ^#3399FF다자란 열매^#FFFFFF를 ^#3399FF모아^#FFFFFF와 주세요./n^#3399FF국경 검문소^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="다자란 열매 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[국경 검문소 생활 모험가 길드원에게 보고]]" draft="^#3399FF국경 검문소^#FFFFFF의 의뢰입니다. 매일 국가에서 주는 음식은 기름진 것들 뿐이라 맛있는 과일이 먹고 싶다고 하시네요/n^#3399FF국경 검문소^#FFFFFF의 건강을 위해서 ^#3399FF다자란 열매^#FFFFFF를 ^#3399FF모아^#FFFFFF와 주세요./n^#3399FF국경 검문소^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="국경 검문소 생활 모험가 길드원에게 보고" mapTargetId="308000"/>
+		</Subject>
+		<Storage Collect1_typeID="200071" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="152"/>
+	</Quest>
+	<Quest typeID="402205343" typeName="고원의 광석 (반복)" group="207" NPC="생활 모험가(국경 경비대)" reportTo="생활 모험가(국경 경비대)" cancelable="1" repeatable="1" retryable="1" lv="30" desc="검문 받는 마티나 상인님의 의뢰입니다. 장사에 일가견있는 마티나족인 만큼 언제나 항상 주변을 돌아보고 팔 물건이 있나 없나 살펴보는게 취미라고 하시는데요. 이번 듀발고원에 오셔서 살펴보신 결과 이 주변에 있는 온전한 암석을 가져다 로우란 사막에 팔면 가격을 높이 받을 수 있을 것 같다고 하세요./n^#3399FF온전한 암석^#FFFFFF을 ^#3399FF모아^#FFFFFF 저에게 갖다 주세요./n^#3399FF국경 검문소^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="9635" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[온전한 암석 수집]]" draft="검문 받는 마티나 상인님의 의뢰입니다. 장사에 일가견있는 마티나족인 만큼 언제나 항상 주변을 돌아보고 팔 물건이 있나 없나 살펴보는게 취미라고 하시는데요. 이번 듀발고원에 오셔서 살펴보신 결과 이 주변에 있는 온전한 암석을 가져다 로우란 사막에 팔면 가격을 높이 받을 수 있을 것 같다고 하세요./n^#3399FF온전한 암석^#FFFFFF을 ^#3399FF모아^#FFFFFF 저에게 갖다 주세요./n^#3399FF국경 검문소^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="온전한 암석 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[국경 검문소 생활 모험가 길드원에게 보고]]" draft="검문 받는 마티나 상인님의 의뢰입니다. 장사에 일가견있는 마티나족인 만큼 언제나 항상 주변을 돌아보고 팔 물건이 있나 없나 살펴보는게 취미라고 하시는데요. 이번 듀발고원에 오셔서 살펴보신 결과 이 주변에 있는 온전한 암석을 가져다 로우란 사막에 팔면 가격을 높이 받을 수 있을 것 같다고 하세요./n^#3399FF온전한 암석^#FFFFFF을 ^#3399FF모아^#FFFFFF 저에게 갖다 주세요./n^#3399FF국경 검문소^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="국경 검문소 생활 모험가 길드원에게 보고" mapTargetId="308000"/>
+		</Subject>
+		<Storage Collect1_typeID="200062" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="152"/>
+	</Quest>
+	<Quest typeID="402205344" typeName="윌버의 연습 (반복)" group="207" NPC="생활 모험가(국경 경비대)" reportTo="생활 모험가(국경 경비대)" cancelable="1" repeatable="1" retryable="1" lv="30" desc="윌버님의 의뢰입니다. 윌버님은 평소에 대장기술에 관심이 많으셔서 혼자 연습을 많이 하곤 하신다는데요. 늘 재료가 모자라 제대로 된 물건을 만들어 내지 못하고 계신대요. 뭐 100% 재료에만 문제가 있는 건 아니겠지만요./n윌버님을 위해 ^#3399FF온전한 그레이피늄^#FFFFFF을 ^#3399FF캐와^#FFFFFF 주세요. /n^#3399FF국경 검문소^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="9635" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[온전한 그레이피늄 수집]]" draft="윌버님의 의뢰입니다. 윌버님은 평소에 대장기술에 관심이 많으셔서 혼자 연습을 많이 하곤 하신다는데요. 늘 재료가 모자라 제대로 된 물건을 만들어 내지 못하고 계신대요. 뭐 100% 재료에만 문제가 있는 건 아니겠지만요./n윌버님을 위해 ^#3399FF온전한 그레이피늄^#FFFFFF을 ^#3399FF캐와^#FFFFFF 주세요. /n^#3399FF국경 검문소^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="온전한 그레이피늄 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[국경 검문소 생활 모험가 길드원에게 보고]]" draft="윌버님의 의뢰입니다. 윌버님은 평소에 대장기술에 관심이 많으셔서 혼자 연습을 많이 하곤 하신다는데요. 늘 재료가 모자라 제대로 된 물건을 만들어 내지 못하고 계신대요. 뭐 100% 재료에만 문제가 있는 건 아니겠지만요./n윌버님을 위해 ^#3399FF온전한 그레이피늄^#FFFFFF을 ^#3399FF캐와^#FFFFFF 주세요. /n^#3399FF국경 검문소^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="국경 검문소 생활 모험가 길드원에게 보고" mapTargetId="308000"/>
+		</Subject>
+		<Storage Collect1_typeID="200054" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="152"/>
+	</Quest>
+	<Quest typeID="402205345" typeName="대장장이의 기다림 (반복)" group="207" NPC="생활 모험가(국경 경비대)" reportTo="생활 모험가(국경 경비대)" cancelable="1" repeatable="1" retryable="1" lv="30" desc="대장장이님의 의뢰입니다. 급하게 ^#3399FF국경 검문소^#FFFFFF 병사들의 무기를 수리하기 위해 출장을 오셨는데 그만 재료를 다 집에 두고 오셨다지 뭐예요. 이제 와서 집으로 돌아갈 수도 없고. 마침 이 주변의 광석을 뒤지면 온전한 광석을 발견할 수 있다고 하며 부탁하셨어요./n^#3399FF온전한 광석^#FFFFFF을 ^#3399FF캐와^#FFFFFF 달라고요. 아까 부터 기다리고 계시니 빨리 모아다 주셔야 해요./n^#3399FF국경 검문소^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="9635" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[온전한 광석 수집]]" draft="대장장이님의 의뢰입니다. 급하게 ^#3399FF국경 검문소^#FFFFFF 병사들의 무기를 수리하기 위해 출장을 오셨는데 그만 재료를 다 집에 두고 오셨다지 뭐예요. 이제 와서 집으로 돌아갈 수도 없고. 마침 이 주변의 광석을 뒤지면 온전한 광석을 발견할 수 있다고 하며 부탁하셨어요./n^#3399FF온전한 광석^#FFFFFF을 ^#3399FF캐와^#FFFFFF 달라고요. 아까 부터 기다리고 계시니 빨리 모아다 주셔야 해요./n^#3399FF국경 검문소^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="온전한 광석 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[국경 검문소 생활 모험가 길드원에게 보고]]" draft="대장장이님의 의뢰입니다. 급하게 ^#3399FF국경 검문소^#FFFFFF 병사들의 무기를 수리하기 위해 출장을 오셨는데 그만 재료를 다 집에 두고 오셨다지 뭐예요. 이제 와서 집으로 돌아갈 수도 없고. 마침 이 주변의 광석을 뒤지면 온전한 광석을 발견할 수 있다고 하며 부탁하셨어요./n^#3399FF온전한 광석^#FFFFFF을 ^#3399FF캐와^#FFFFFF 달라고요. 아까 부터 기다리고 계시니 빨리 모아다 주셔야 해요./n^#3399FF국경 검문소^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="국경 검문소 생활 모험가 길드원에게 보고" mapTargetId="308000"/>
+		</Subject>
+		<Storage Collect1_typeID="200053" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="152"/>
+	</Quest>
+	<Quest typeID="402205346" typeName="그녀의 바램 (반복)" group="207" NPC="생활 모험가(국경 경비대)" reportTo="생활 모험가(국경 경비대)" cancelable="1" repeatable="1" retryable="1" lv="30" desc="듀발 고원의 선선한 공기와 수려한 풍경 아래선 여러가지 훌륭한 재료들이 저절로 생산되는 것 같아요. 그 중에 제가 갖고 싶은 물건이 하나 있는데요./n바로 온전한 수정이랍니다. 그 투명한 광채를 보고 있으면 마음이 맑아지는 것 같거든요. 저에게 ^#3399FF온전한 수정^#FFFFFF을 ^#3399FF찾아^#FFFFFF와 주시지 않겠어요?/n^#3399FF국경 검문소^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="9635" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[온전한 수정 수집]]" draft="듀발 고원의 선선한 공기와 수려한 풍경 아래선 여러가지 훌륭한 재료들이 저절로 생산되는 것 같아요. 그 중에 제가 갖고 싶은 물건이 하나 있는데요./n바로 온전한 수정이랍니다. 그 투명한 광채를 보고 있으면 마음이 맑아지는 것 같거든요. 저에게 ^#3399FF온전한 수정^#FFFFFF을 ^#3399FF찾아^#FFFFFF와 주시지 않겠어요?/n^#3399FF국경 검문소^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="온전한 수정 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[국경 검문소 생활 모험가 길드원에게 보고]]" draft="듀발 고원의 선선한 공기와 수려한 풍경 아래선 여러가지 훌륭한 재료들이 저절로 생산되는 것 같아요. 그 중에 제가 갖고 싶은 물건이 하나 있는데요./n바로 온전한 수정이랍니다. 그 투명한 광채를 보고 있으면 마음이 맑아지는 것 같거든요. 저에게 ^#3399FF온전한 수정^#FFFFFF을 ^#3399FF찾아^#FFFFFF와 주시지 않겠어요?/n^#3399FF국경 검문소^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="국경 검문소 생활 모험가 길드원에게 보고" mapTargetId="308000"/>
+		</Subject>
+		<Storage Collect1_typeID="200061" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="152"/>
+	</Quest>
+	<Quest typeID="402205347" typeName="휴먼의 기호품 (반복)" group="207" NPC="생활 모험가(국경 경비대)" reportTo="생활 모험가(국경 경비대)" cancelable="1" repeatable="1" retryable="1" lv="30" desc="마티나 상인님의 의뢰입니다. 마티나 상인님은 돈을 벌기 위해서라면 윈더스의 똥이라도 주워팔겠다는 말을 서슴지 않고 하시는데요. 이번에도 그 장사 속이 여실히 드러나는 의뢰를 하셨어요./n바로 온전한 코어를 모아달라는 것이죠. 항간에 코어에는 고대 왕국의 흔적이 묻어 있다고 하는데 요즘 모험을 떠나는 휴먼 족 중에선 고대 왕국에 대한 지대한 관심을 보이는 이들이 많거든요. 그들에게 팔려고 하나봐요./n아무튼 ^#3399FF온전한 코어^#FFFFFF를 ^#3399FF캐와^#FFFFFF 주세요./n^#3399FF국경 검문소^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="9635" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[온전한 코어 수집]]" draft="마티나 상인님의 의뢰입니다. 마티나 상인님은 돈을 벌기 위해서라면 윈더스의 똥이라도 주워팔겠다는 말을 서슴지 않고 하시는데요. 이번에도 그 장사 속이 여실히 드러나는 의뢰를 하셨어요./n바로 온전한 코어를 모아달라는 것이죠. 항간에 코어에는 고대 왕국의 흔적이 묻어 있다고 하는데 요즘 모험을 떠나는 휴먼 족 중에선 고대 왕국에 대한 지대한 관심을 보이는 이들이 많거든요. 그들에게 팔려고 하나봐요./n아무튼 ^#3399FF온전한 코어^#FFFFFF를 ^#3399FF캐와^#FFFFFF 주세요./n^#3399FF국경 검문소^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="온전한 코어 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[국경 검문소 생활 모험가 길드원에게 보고]]" draft="마티나 상인님의 의뢰입니다. 마티나 상인님은 돈을 벌기 위해서라면 윈더스의 똥이라도 주워팔겠다는 말을 서슴지 않고 하시는데요. 이번에도 그 장사 속이 여실히 드러나는 의뢰를 하셨어요./n바로 온전한 코어를 모아달라는 것이죠. 항간에 코어에는 고대 왕국의 흔적이 묻어 있다고 하는데 요즘 모험을 떠나는 휴먼 족 중에선 고대 왕국에 대한 지대한 관심을 보이는 이들이 많거든요. 그들에게 팔려고 하나봐요./n아무튼 ^#3399FF온전한 코어^#FFFFFF를 ^#3399FF캐와^#FFFFFF 주세요./n^#3399FF국경 검문소^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="국경 검문소 생활 모험가 길드원에게 보고" mapTargetId="308000"/>
+		</Subject>
+		<Storage Collect1_typeID="200058" Collect1_goal="5" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="152"/>
+	</Quest>
+	<Quest typeID="402205348" typeName="급한 출장" group="207" NPC="생활 모험가(국경 경비대)" reportTo="생활 모험가(국경 경비대)" cancelable="1" repeatable="0" retryable="1" lv="30" desc="출장 온 대장장이님의 의뢰입니다. ^#3399FF국경 검문소^#FFFFFF에서 급하게 불러서 오느라 무기 수리에 필요한 달의 주괴를 놓고 오셨다고 합니다./n급하게 병사들의 무기를 수리해야 하는데 재료가 없으니 무척 곤란하시겠지요?/n대장장이님을 위해 ^#3399FF달의 주괴^#FFFFFF를 구해주세요./n^#3399FF국경 검문소^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="9675" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[가공품 달의 주괴 수집]]" draft="출장 온 대장장이님의 의뢰입니다. ^#3399FF국경 검문소^#FFFFFF에서 급하게 불러서 오느라 무기 수리에 필요한 달의 주괴를 놓고 오셨다고 합니다./n급하게 병사들의 무기를 수리해야 하는데 재료가 없으니 무척 곤란하시겠지요?/n대장장이님을 위해 ^#3399FF달의 주괴^#FFFFFF를 구해주세요./n^#3399FF국경 검문소^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="가공품 달의 주괴 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[국경 검문소 생활 모험가 길드원에게 보고]]" draft="출장 온 대장장이님의 의뢰입니다. ^#3399FF국경 검문소^#FFFFFF에서 급하게 불러서 오느라 무기 수리에 필요한 달의 주괴를 놓고 오셨다고 합니다./n급하게 병사들의 무기를 수리해야 하는데 재료가 없으니 무척 곤란하시겠지요?/n대장장이님을 위해 ^#3399FF달의 주괴^#FFFFFF를 구해주세요./n^#3399FF국경 검문소^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="국경 검문소 생활 모험가 길드원에게 보고" mapTargetId="308000"/>
+		</Subject>
+		<Storage Collect1_typeID="201008" Collect1_goal="3" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="172"/>
+	</Quest>
+	<Quest typeID="402205349" typeName="정신이 확 드는 맛" group="207" NPC="생활 모험가(국경 경비대)" reportTo="생활 모험가(국경 경비대)" cancelable="1" repeatable="0" retryable="1" lv="30" desc="^#3399FF국경 검문소^#FFFFFF 대장님의 의뢰입니다. 대장님은 요즘 라임을 찾는 모험가 대열에 합류하고 싶어서 몸에 안달이 날 지경인데 대장자리를 두고 갈 수가 없다고 하는 군요./n정신차리기 위해 아주 맛있는 음식을 드시고 싶다고 합니다./n^#3399FF립 수프^#FFFFFF를 갖다 주시면 제가 전해드릴게요./n요리사 교관에게 스킬을 배운 요리사라면 금새 만들 수 있을거예요./n^#3399FF국경 검문소^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="9705" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[제작품 립 수프 수집]]" draft="^#3399FF국경 검문소^#FFFFFF 대장님의 의뢰입니다. 대장님은 요즘 라임을 찾는 모험가 대열에 합류하고 싶어서 몸에 안달이 날 지경인데 대장자리를 두고 갈 수가 없다고 하는 군요./n정신차리기 위해 아주 맛있는 음식을 드시고 싶다고 합니다./n^#3399FF립 수프^#FFFFFF를 갖다 주시면 제가 전해드릴게요./n요리사 교관에게 스킬을 배운 요리사라면 금새 만들 수 있을거예요./n^#3399FF국경 검문소^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="제작품 립 수프 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[국경 검문소 생활 모험가 길드원에게 보고]]" draft="^#3399FF국경 검문소^#FFFFFF 대장님의 의뢰입니다. 대장님은 요즘 라임을 찾는 모험가 대열에 합류하고 싶어서 몸에 안달이 날 지경인데 대장자리를 두고 갈 수가 없다고 하는 군요./n정신차리기 위해 아주 맛있는 음식을 드시고 싶다고 합니다./n^#3399FF립 수프^#FFFFFF를 갖다 주시면 제가 전해드릴게요./n요리사 교관에게 스킬을 배운 요리사라면 금새 만들 수 있을거예요./n^#3399FF국경 검문소^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="국경 검문소 생활 모험가 길드원에게 보고" mapTargetId="308000"/>
+		</Subject>
+		<Storage Collect1_typeID="130375" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="192"/>
+	</Quest>
+	<Quest typeID="402205350" typeName="작은 체구의 피킨" group="207" NPC="생활 모험가(국경 경비대)" reportTo="생활 모험가(국경 경비대)" cancelable="1" repeatable="0" retryable="1" lv="30" desc="돌로레님의 의뢰입니다. 피킨 상인인 돌로레님은 작은 체구 때문에 번번히 무시를 당하곤 하셨다는대요. 작은 체구는 어쩔 수 없어도 자신이 강했다면 그럴 일이 없었을 거라며 자책하고 계세요./n돌로레님을 위해 ^#3399FF아이스 그린티 라이프^#FFFFFF를 갖다 드리는게 어떨까요? 무척 좋아하실 것 같아요./n다인 교관에게 스킬을 배운 다인이 만들 수 있답니다./n^#3399FF국경 검문소^#FFFFFF에서 기다릴게요." difficulty="1" onMessage="CollectMake_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="9705" rewardCombatJobEXP="0" relativeJob="LIFE">
+		<Subject typeName="Begin" func="UpdateQuestCount_Begin1" desc="[[제작품 아이스 그린티 라이프 수집]]" draft="돌로레님의 의뢰입니다. 피킨 상인인 돌로레님은 작은 체구 때문에 번번히 무시를 당하곤 하셨다는대요. 작은 체구는 어쩔 수 없어도 자신이 강했다면 그럴 일이 없었을 거라며 자책하고 계세요./n돌로레님을 위해 ^#3399FF아이스 그린티 라이프^#FFFFFF를 갖다 드리는게 어떨까요? 무척 좋아하실 것 같아요./n다인 교관에게 스킬을 배운 다인이 만들 수 있답니다./n^#3399FF국경 검문소^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="제작품 아이스 그린티 라이프 수집" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[국경 검문소 생활 모험가 길드원에게 보고]]" draft="돌로레님의 의뢰입니다. 피킨 상인인 돌로레님은 작은 체구 때문에 번번히 무시를 당하곤 하셨다는대요. 작은 체구는 어쩔 수 없어도 자신이 강했다면 그럴 일이 없었을 거라며 자책하고 계세요./n돌로레님을 위해 ^#3399FF아이스 그린티 라이프^#FFFFFF를 갖다 드리는게 어떨까요? 무척 좋아하실 것 같아요./n다인 교관에게 스킬을 배운 다인이 만들 수 있답니다./n^#3399FF국경 검문소^#FFFFFF에서 기다릴게요." npc="모험가 길드원">
+			<subjectPos subjectStr="국경 검문소 생활 모험가 길드원에게 보고" mapTargetId="308000"/>
+		</Subject>
+		<Storage Collect1_typeID="130416" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="192"/>
+	</Quest>
+</Quest>

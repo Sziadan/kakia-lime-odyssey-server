@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2006 rel. 3 U (http://www.altova.com) by Na (EMBRACE) -->
+<Menuinfo>
+	<menuiteminfo index="0" enum="SUBMENU_SEEINFO" text="정보보기" desc="정보보기" distance="50" image1="ToolTip\ToolTip_Btn_0.dds" image2="ToolTip\ToolTip_Btn_1.dds" image3="ToolTip\ToolTip_Btn_2.dds" image4="ToolTip\ToolTip_Btn_0.dds" image5="ToolTip\ToolTip_Btn_3.dds"/>
+	<menuiteminfo index="1" enum="SUBMENU_EXCHANGE" text="교환하기" desc="교환하기" distance="50" image1="ToolTip\ToolTip_Btn_0.dds" image2="ToolTip\ToolTip_Btn_1.dds" image3="ToolTip\ToolTip_Btn_2.dds" image4="ToolTip\ToolTip_Btn_0.dds" image5="ToolTip\ToolTip_Btn_3.dds"/>
+	<menuiteminfo index="2" enum="SUBMENU_INVITE_PARTY" text="파티초대" desc="파티초대" distance="50" image1="ToolTip\ToolTip_Btn_0.dds" image2="ToolTip\ToolTip_Btn_1.dds" image3="ToolTip\ToolTip_Btn_2.dds" image4="ToolTip\ToolTip_Btn_0.dds" image5="ToolTip\ToolTip_Btn_3.dds"/>
+	<menuiteminfo index="3" enum="SUBMENU_DUAL" text="결투신청" desc="결투신청" distance="50" image1="ToolTip\ToolTip_Btn_0.dds" image2="ToolTip\ToolTip_Btn_1.dds" image3="ToolTip\ToolTip_Btn_2.dds" image4="ToolTip\ToolTip_Btn_0.dds" image5="ToolTip\ToolTip_Btn_3.dds"/>
+	<menuiteminfo index="4" enum="SUBMENU_WHISPER" text="귓말하기" desc="귓말하기" distance="50" image1="ToolTip\ToolTip_Btn_0.dds" image2="ToolTip\ToolTip_Btn_1.dds" image3="ToolTip\ToolTip_Btn_2.dds" image4="ToolTip\ToolTip_Btn_0.dds" image5="ToolTip\ToolTip_Btn_3.dds"/>
+	<menuiteminfo index="5" enum="SUBMENU_INTIMACY" text="친밀도" desc="친밀도" distance="10" image1="ToolTip\ToolTip_Btn_0.dds" image2="ToolTip\ToolTip_Btn_1.dds" image3="ToolTip\ToolTip_Btn_2.dds" image4="ToolTip\ToolTip_Btn_0.dds" image5="ToolTip\ToolTip_Btn_3.dds"/>
+	<menuiteminfo index="6" enum="SUBMENU_QUEST" text="퀘스트" desc="퀘스트" distance="10" image1="ToolTip\ToolTip_Btn_0.dds" image2="ToolTip\ToolTip_Btn_1.dds" image3="ToolTip\ToolTip_Btn_2.dds" image4="ToolTip\ToolTip_Btn_0.dds" image5="ToolTip\ToolTip_Btn_3.dds"/>
+	<menuiteminfo index="7" enum="SUBMENU_CLOSE" text="닫기" desc="닫기" distance="0" image1="ToolTip\ToolTip_Btn_0.dds" image2="ToolTip\ToolTip_Btn_1.dds" image3="ToolTip\ToolTip_Btn_2.dds" image4="ToolTip\ToolTip_Btn_0.dds" image5="ToolTip\ToolTip_Btn_3.dds"/>
+	<menuiteminfo index="8" enum="SUBMENU_CONVERSATION" text="대화하기" desc="대화하기" distance="50" image1="ToolTip\ToolTip_Btn_0.dds" image2="ToolTip\ToolTip_Btn_1.dds" image3="ToolTip\ToolTip_Btn_2.dds" image4="ToolTip\ToolTip_Btn_0.dds" image5="ToolTip\ToolTip_Btn_3.dds"/>
+	<menuiteminfo index="9" enum="SUBMENU_TRADE" text="거래하기" desc="거래하기" distance="50" image1="ToolTip\ToolTip_Btn_0.dds" image2="ToolTip\ToolTip_Btn_1.dds" image3="ToolTip\ToolTip_Btn_2.dds" image4="ToolTip\ToolTip_Btn_0.dds" image5="ToolTip\ToolTip_Btn_3.dds"/>
+	<menuiteminfo index="10" enum="SUBMENU_PARTY_MAN_TO_MAN_CHAT" text="1:1채팅" desc="파티 1:1채팅" distance="0" image1="ToolTip\ToolTip_Btn_0.dds" image2="ToolTip\ToolTip_Btn_1.dds" image3="ToolTip\ToolTip_Btn_2.dds" image4="ToolTip\ToolTip_Btn_0.dds" image5="ToolTip\ToolTip_Btn_3.dds"/>
+	<menuiteminfo index="11" enum="SUBMENU_PARTY_BATTLE_INFO_ON_OFF" text="전투 정보" desc="파티 전투 정보 On/Off" distance="50" image1="ToolTip\ToolTip_Btn_0.dds" image2="ToolTip\ToolTip_Btn_1.dds" image3="ToolTip\ToolTip_Btn_2.dds" image4="ToolTip\ToolTip_Btn_0.dds" image5="ToolTip\ToolTip_Btn_3.dds"/>
+	<menuiteminfo index="12" enum="SUBMENU_PARTY_BAN" text="파티 추방" desc="파티 추방" distance="50" image1="ToolTip\ToolTip_Btn_0.dds" image2="ToolTip\ToolTip_Btn_1.dds" image3="ToolTip\ToolTip_Btn_2.dds" image4="ToolTip\ToolTip_Btn_0.dds" image5="ToolTip\ToolTip_Btn_3.dds"/>
+	<menuiteminfo index="13" enum="SUBMENU_PARTY_MANDATE_MASTER" text="파티장 위임" desc="파티장 위임" distance="50" image1="ToolTip\ToolTip_Btn_0.dds" image2="ToolTip\ToolTip_Btn_1.dds" image3="ToolTip\ToolTip_Btn_2.dds" image4="ToolTip\ToolTip_Btn_0.dds" image5="ToolTip\ToolTip_Btn_3.dds"/>
+	<menuiteminfo index="14" enum="SUBMENU_GUILD_SEND_MESSAGE" text="메세지 전송" desc="메세지 전송" distance="50" image1="ToolTip\ToolTip_Btn_0.dds" image2="ToolTip\ToolTip_Btn_1.dds" image3="ToolTip\ToolTip_Btn_2.dds" image4="ToolTip\ToolTip_Btn_0.dds" image5="ToolTip\ToolTip_Btn_3.dds"/>
+	<menuiteminfo index="15" enum="SUBMENU_GUILD_BAN" text="길드 추방" desc="길드 추방" distance="50" image1="ToolTip\ToolTip_Btn_0.dds" image2="ToolTip\ToolTip_Btn_1.dds" image3="ToolTip\ToolTip_Btn_2.dds" image4="ToolTip\ToolTip_Btn_0.dds" image5="ToolTip\ToolTip_Btn_3.dds"/>
+	<menuiteminfo index="16" enum="SUBMENU_GUILD_INVITE_PARTY" text="파티 초대" desc="길드 파티 초대" distance="50" image1="ToolTip\ToolTip_Btn_0.dds" image2="ToolTip\ToolTip_Btn_1.dds" image3="ToolTip\ToolTip_Btn_2.dds" image4="ToolTip\ToolTip_Btn_0.dds" image5="ToolTip\ToolTip_Btn_3.dds"/>
+	<menuiteminfo index="17" enum="SUBMENU_CHASE" text="따라가기" desc="대상추적" distance="3000" image1="ToolTip\ToolTip_Btn_0.dds" image2="ToolTip\ToolTip_Btn_1.dds" image3="ToolTip\ToolTip_Btn_2.dds" image4="ToolTip\ToolTip_Btn_0.dds" image5="ToolTip\ToolTip_Btn_3.dds"/>
+	<menuiteminfo index="-1" enum="-1" text="" desc="" distance="0"/>
+	<menuiteminfo index="-2" enum="-2" text="" desc="" distance="0"/>
+	<menuiteminfo index="-3" enum="-3" text="" desc="" distance="0"/>
+	<menusetinfo maxdistance="30">
+		<neutral_pc setindex="0">
+			<menuitem itemindex="1"/>
+			<menuitem itemindex="4"/>
+			<menuitem itemindex="17"/>
+			<menuitem itemindex="7"/>
+		</neutral_pc>
+		<neutral_npc setindex="1">
+			<menuitem itemindex="0"/>
+			<menuitem itemindex="1"/>
+			<menuitem itemindex="3"/>
+			<menuitem itemindex="4"/>
+			<menuitem itemindex="17"/>
+			<menuitem itemindex="7"/>
+		</neutral_npc>
+		<friendly_pc setindex="2">
+			<menuitem itemindex="1"/>
+			<menuitem itemindex="2"/>
+			<menuitem itemindex="4"/>
+			<menuitem itemindex="17"/>
+			<menuitem itemindex="7"/>
+		</friendly_pc>
+		<friendly_npc setindex="3">
+			<menuitem itemindex="8"/>
+			<menuitem itemindex="9"/>
+			<menuitem itemindex="5"/>
+			<menuitem itemindex="6"/>
+			<menuitem itemindex="17"/>
+			<menuitem itemindex="7"/>
+		</friendly_npc>
+		<very_friendly_pc setindex="2">
+			<menuitem itemindex="1"/>
+			<menuitem itemindex="2"/>
+			<menuitem itemindex="4"/>
+			<menuitem itemindex="17"/>
+			<menuitem itemindex="7"/>
+		</very_friendly_pc>
+		<very_friendly_npc setindex="3">
+			<menuitem itemindex="8"/>
+			<menuitem itemindex="9"/>
+			<menuitem itemindex="5"/>
+			<menuitem itemindex="6"/>
+			<menuitem itemindex="17"/>
+			<menuitem itemindex="7"/>
+		</very_friendly_npc>
+		<party_member setindex="3">
+			<menuitem itemindex="10"/>
+		</party_member>
+		<guild_member setindex="7">
+			<menuitem itemindex="16"/>
+			<menuitem itemindex="14"/>
+		</guild_member>
+		<guild_master setindex="7">
+			<menuitem itemindex="16"/>
+			<menuitem itemindex="14"/>
+			<menuitem itemindex="15"/>
+		</guild_master>
+		<party_master setindex="3">
+			<menuitem itemindex="10"/>
+			<menuitem itemindex="12"/>
+			<menuitem itemindex="13"/>
+		</party_master>
+	</menusetinfo>
+</Menuinfo>

@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by Administrator (siriusent) -->
+<Quest>
+	<Quest typeID="203101190" typeName="자유를 향해 1" group="001" NPC="레빈" reportTo="레빈" cancelable="1" repeatable="0" retryable="1" lv="34" desc="우, 우리는…우리 유랑 상단이… 슈카들의 습격을 받아 지금 발이 묶였습니다. /n크으윽!! 아… 죄송합니다. 부상을 약간 입어서요… /n실례가 안 된다면, 피킨 유랑 상단 주변을 포위하고 있는 몬스터를 좀 처리해 주실 수 있을까요? /n ^#FF0000카돈^#FFFFFF과 ^#FF0000사막 아가마^#FFFFFF가 바글거리고 있어서... 동료들이 불안에 떨고 있어요. 부탁드립니다. " difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="17918" rewardCombatJobEXP="67320" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203101_Explain2" desc="[[카돈 사냥]][[사막 아가마 사냥]]" draft="우, 우리는…우리 유랑 상단이… 슈카들의 습격을 받아 지금 발이 묶였습니다. /n크으윽!! 아… 죄송합니다. 부상을 약간 입어서요… /n실례가 안 된다면, 피킨 유랑 상단 주변을 포위하고 있는 몬스터를 좀 처리해 주실 수 있을까요? /n ^#FF0000카돈^#FFFFFF과 ^#FF0000사막 아가마^#FFFFFF가 바글거리고 있어서... 동료들이 불안에 떨고 있어요. 부탁드립니다. " npc="레빈">
+			<subjectPos subjectStr="카돈 사냥" mapTargetId="401601"/>
+			<subjectPos subjectStr="사막 아가마 사냥" mapTargetId="401601"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[레빈에게 보고]]" draft="우, 우리는…우리 유랑 상단이… 슈카들의 습격을 받아 지금 발이 묶였습니다. /n크으윽!! 아… 죄송합니다. 부상을 약간 입어서요… /n실례가 안 된다면, 피킨 유랑 상단 주변을 포위하고 있는 몬스터를 좀 처리해 주실 수 있을까요? /n ^#FF0000카돈^#FFFFFF과 ^#FF0000사막 아가마^#FFFFFF가 바글거리고 있어서... 동료들이 불안에 떨고 있어요. 부탁드립니다. " npc="레빈">
+			<subjectPos subjectStr="레빈에게 보고" mapTargetId="401506"/>
+		</Subject>
+		<Storage Hunt1_typeID="1008" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" Hunt2_typeID="1011" Hunt2_goal="10" Hunt2_count="0" target2_type="Hunt" target_number="2"/>
+		<BasicReward typeID="2100000000" count="270"/>
+	</Quest>
+	<Quest typeID="203101200" typeName="자유를 향해 2" group="001" NPC="레빈" reportTo="라피엘" cancelable="1" repeatable="0" retryable="1" lv="34" desc="아, 아직 떠나지 않으셨군요. 으음… 실례지만, 이 ^#3399FF물통^#FFFFFF을 ^#3399FF라피엘^#FFFFFF에게 전해 주실 수 있나요? 저쪽에 있는 작은 여 피킨인데… 얼마 남지 않은 물이지만, 아마 목이 탈 거에요. /n저요? 아… 저는 괜찮습니다. 그냥 라피엘에게 전해 주세요. 절대로 제가 주라고 했다는 말은 말아 주시고, 모험자님이 주는 걸로... " difficulty="1" onMessage="DeleteQuest_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="17918" rewardCombatJobEXP="67320" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[레빈과 대화]]" draft="아, 아직 떠나지 않으셨군요. 으음… 실례지만, 이 ^#3399FF물통^#FFFFFF을 ^#3399FF라피엘^#FFFFFF에게 전해 주실 수 있나요? 저쪽에 있는 작은 여 피킨인데… 얼마 남지 않은 물이지만, 아마 목이 탈 거에요. /n저요? 아… 저는 괜찮습니다. 그냥 라피엘에게 전해 주세요. 절대로 제가 주라고 했다는 말은 말아 주시고, 모험자님이 주는 걸로... " npc="레빈">
+			<subjectPos subjectStr="레빈과 대화" mapTargetId="401406"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[라피엘에게 물통 배달]]" draft="아, 아직 떠나지 않으셨군요. 으음… 실례지만, 이 ^#3399FF물통^#FFFFFF을 ^#3399FF라피엘^#FFFFFF에게 전해 주실 수 있나요? 저쪽에 있는 작은 여 피킨인데… 얼마 남지 않은 물이지만, 아마 목이 탈 거에요. /n저요? 아… 저는 괜찮습니다. 그냥 라피엘에게 전해 주세요. 절대로 제가 주라고 했다는 말은 말아 주시고, 모험자님이 주는 걸로... " npc="라피엘">
+			<subjectPos subjectStr="라피엘에게 물통 배달" mapTargetId="401507"/>
+		</Subject>
+		<Storage Collect1_typeID="150297"/>
+		<BasicReward typeID="2100000000" count="270"/>
+	</Quest>
+	<Quest typeID="203101210" typeName="자유를 향해 3" group="001" NPC="라피엘" reportTo="라피엘" cancelable="1" repeatable="0" retryable="1" lv="34" desc="휴우우… 겨우 살 것 같네요. 도와주셔서 감사합니다, 모험자님. 우리는 동료를 구하러 왔어요. 곳곳에서 벌어들인 돈으로 마티나에게 박해받는 힘없는 피킨을 구해내려고 왔는데… 어쩌다 이런 일이 벌어지게 되었는지... 휴우. /n그래도 모험자님께서 도와주시겠다니 정말 큰 힘이 되네요. 아참... 유랑 상인단 주변에서 혹시 ^#FF0000데칼트^#FFFFFF를 보셨나요? 곧 깨어날 것 같았어요. 우선 그 알부터 파괴 해 주시겠어요?/n무슨 알 따위를 무서워하냐고요? 정말 무서운건 알이 아니라 그 거기서 부화될 마크라랍니다. 어서 데칼트를 파괴해 마크라의 부화를 막아주세요." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="17918" rewardCombatJobEXP="67320" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203101_Explain1" desc="[[데칼트 파괴]]" draft="휴우우… 겨우 살 것 같네요. 도와주셔서 감사합니다, 모험자님. 우리는 동료를 구하러 왔어요. 곳곳에서 벌어들인 돈으로 마티나에게 박해받는 힘없는 피킨을 구해내려고 왔는데… 어쩌다 이런 일이 벌어지게 되었는지... 휴우. /n그래도 모험자님께서 도와주시겠다니 정말 큰 힘이 되네요. 아참... 유랑 상인단 주변에서 혹시 ^#FF0000데칼트^#FFFFFF를 보셨나요? 곧 깨어날 것 같았어요. 우선 그 알부터 파괴 해 주시겠어요?/n무슨 알 따위를 무서워하냐고요? 정말 무서운건 알이 아니라 그 거기서 부화될 마크라랍니다. 어서 데칼트를 파괴해 마크라의 부화를 막아주세요." npc="라피엘">
+			<subjectPos subjectStr="데칼트 파괴" mapTargetId="401602"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[라피엘에게 보고]]" draft="휴우우… 겨우 살 것 같네요. 도와주셔서 감사합니다, 모험자님. 우리는 동료를 구하러 왔어요. 곳곳에서 벌어들인 돈으로 마티나에게 박해받는 힘없는 피킨을 구해내려고 왔는데… 어쩌다 이런 일이 벌어지게 되었는지... 휴우. /n그래도 모험자님께서 도와주시겠다니 정말 큰 힘이 되네요. 아참... 유랑 상인단 주변에서 혹시 ^#FF0000데칼트^#FFFFFF를 보셨나요? 곧 깨어날 것 같았어요. 우선 그 알부터 파괴 해 주시겠어요?/n무슨 알 따위를 무서워하냐고요? 정말 무서운건 알이 아니라 그 거기서 부화될 마크라랍니다. 어서 데칼트를 파괴해 마크라의 부화를 막아주세요." npc="라피엘">
+			<subjectPos subjectStr="라피엘에게 보고" mapTargetId="401507"/>
+		</Subject>
+		<Storage Hunt1_typeID="1005" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="270"/>
+	</Quest>
+	<Quest typeID="203101220" typeName="징그러운 식량" group="001" NPC="훌쩍이는 피킨" reportTo="훌쩍이는 피킨" cancelable="1" repeatable="0" retryable="1" lv="34" desc="훌쩍, 너무 배고파요. 이제 움직일 힘이 없어요. ...절 도와준다고요? 그렇다면 ^#FF0000데칼트 알^#FFFFFF을 구해주세요! /n파괴하시기만 하면 안돼요. 그거 굉장히 맛있는 거란 말이에요." difficulty="1" onMessage="HuntCollect1_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="17918" rewardCombatJobEXP="67320" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203101_Explain1" desc="[[데칼트 알 수집]]" draft="훌쩍, 너무 배고파요. 이제 움직일 힘이 없어요. ...절 도와준다고요? 그렇다면 ^#FF0000데칼트 알^#FFFFFF을 구해주세요! /n파괴하시기만 하면 안돼요. 그거 굉장히 맛있는 거란 말이에요." npc="훌쩍이는 피킨">
+			<subjectPos subjectStr="데칼트 알 수집" mapTargetId="401603"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[훌쩍이는 피킨에게 배달]]" draft="훌쩍, 너무 배고파요. 이제 움직일 힘이 없어요. ...절 도와준다고요? 그렇다면 ^#FF0000데칼트 알^#FFFFFF을 구해주세요! /n파괴하시기만 하면 안돼요. 그거 굉장히 맛있는 거란 말이에요." npc="훌쩍이는 피킨">
+			<subjectPos subjectStr="훌쩍이는 피킨에게 배달" mapTargetId="401509"/>
+		</Subject>
+		<Storage Collect1_typeID="150298" Collect1_goal="10" Collect1_count="0" target1_type="Collect" Collect2_typeID="1005"/>
+		<BasicReward typeID="2100000000" count="270"/>
+	</Quest>
+	<Quest typeID="203101230" typeName="영양가도 해결, 목마름도 해결" group="001" NPC="수습하는 피킨" reportTo="수습하는 피킨" cancelable="1" repeatable="0" retryable="1" lv="34" desc="...목말라요. 혹시 물 가진 거 없나요…? 어, 없다고요? 그렇다면… 저, 절 이대로 죽게 내버려 두진 않으실거죠…? 그러면…  ^#FF0000카돈의 수액^#FFFFFF이라도 구해 주세요. /n유랑 상인단 주변의 카돈을 해치우면… 수액을 얻을 수 있을 거에요… 도와…주실…거죠? (울먹)" difficulty="1" onMessage="HuntCollect2_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="17918" rewardCombatJobEXP="67320" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203101_Explain1" desc="[[카돈의 수액 획득]]" draft="...목말라요. 혹시 물 가진 거 없나요…? 어, 없다고요? 그렇다면… 저, 절 이대로 죽게 내버려 두진 않으실거죠…? 그러면…  ^#FF0000카돈의 수액^#FFFFFF이라도 구해 주세요. /n유랑 상인단 주변의 카돈을 해치우면… 수액을 얻을 수 있을 거에요… 도와…주실…거죠? (울먹)" npc="수습하는 피킨">
+			<subjectPos subjectStr="카돈의 수액 획득" mapTargetId="401604"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[수습하는 피킨에게 배달]]" draft="...목말라요. 혹시 물 가진 거 없나요…? 어, 없다고요? 그렇다면… 저, 절 이대로 죽게 내버려 두진 않으실거죠…? 그러면…  ^#FF0000카돈의 수액^#FFFFFF이라도 구해 주세요. /n유랑 상인단 주변의 카돈을 해치우면… 수액을 얻을 수 있을 거에요… 도와…주실…거죠? (울먹)" npc="수습하는 피킨">
+			<subjectPos subjectStr="수습하는 피킨에게 배달" mapTargetId="401508"/>
+		</Subject>
+		<Storage Collect1_typeID="150299" Collect1_goal="10" Collect1_count="0" target1_type="Collect" target1_prob="70" Collect2_typeID="1008"/>
+		<BasicReward typeID="2100000000" count="270"/>
+	</Quest>
+	<Quest typeID="203101240" typeName="자유를 위하여 1" group="001" NPC="레빈" reportTo="레빈" cancelable="1" repeatable="0" retryable="1" lv="35" desc="아… 모험자님… 도움을 주시겠다니, 정말 감사합니다. 으음… 우리 상단 일행을 습격한 것은 슈카였습니다. 슈카 암살자놈들이 우리 동료들을 죽이고, 짐을 빼앗아 갔습니다… 모험자 님이라면 그 비겁하고 사악한 녀석들을 손쉽게 처리하실 수 있을 겁니다./n 부탁 드리겠습니다… 슈카 암살일족 은신처에 숨어 있는 ^#FF0000광포한 슈카 암살자^#FFFFFF와 ^#FF0000분노한 슈카 암살자^#FFFFFF를 해치워 주시겠습니까? " difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="20691" rewardCombatJobEXP="74540" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203101_Explain2" desc="[[광포한 슈카 암살자 처치]][[분노한 슈카 암살자 처치]]" draft="아… 모험자님… 도움을 주시겠다니, 정말 감사합니다. 으음… 우리 상단 일행을 습격한 것은 슈카였습니다. 슈카 암살자놈들이 우리 동료들을 죽이고, 짐을 빼앗아 갔습니다… 모험자 님이라면 그 비겁하고 사악한 녀석들을 손쉽게 처리하실 수 있을 겁니다./n 부탁 드리겠습니다… 슈카 암살일족 은신처에 숨어 있는 ^#FF0000광포한 슈카 암살자^#FFFFFF와 ^#FF0000분노한 슈카 암살자^#FFFFFF를 해치워 주시겠습니까? " npc="레빈">
+			<subjectPos subjectStr="광포한 슈카 암살자 처치" mapTargetId="401605"/>
+			<subjectPos subjectStr="분노한 슈카 암살자 처치" mapTargetId="401605"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[레빈에게 보고]]" draft="아… 모험자님… 도움을 주시겠다니, 정말 감사합니다. 으음… 우리 상단 일행을 습격한 것은 슈카였습니다. 슈카 암살자놈들이 우리 동료들을 죽이고, 짐을 빼앗아 갔습니다… 모험자 님이라면 그 비겁하고 사악한 녀석들을 손쉽게 처리하실 수 있을 겁니다./n 부탁 드리겠습니다… 슈카 암살일족 은신처에 숨어 있는 ^#FF0000광포한 슈카 암살자^#FFFFFF와 ^#FF0000분노한 슈카 암살자^#FFFFFF를 해치워 주시겠습니까? " npc="레빈">
+			<subjectPos subjectStr="레빈에게 보고" mapTargetId="401506"/>
+		</Subject>
+		<Storage Hunt1_typeID="1003" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" Hunt2_typeID="1002" Hunt2_goal="10" Hunt2_count="0" target2_type="Hunt" target_number="2"/>
+		<BasicReward typeID="2100000000" count="302"/>
+	</Quest>
+	<Quest typeID="203101250" typeName="자유를 위하여 2" group="001" NPC="레빈" reportTo="레빈" cancelable="1" repeatable="0" retryable="1" lv="35" desc="제길…! 슈카 놈들이 돈이 들어 있는 가방을 훔쳐 갔습니다. 꽁꽁 잘 숨겨 놓았는데 그걸 어떻게 알고… 크윽. 우리에겐 지금 아무것도 없습니다. 돈도 없고, 식량도 없어요. 우리는… 완전히 빈털터리 입니다. /n모험자님… 도와 주십시오! ^#FF0000빼앗긴 짐가방^#FFFFFF을 다시 되찾아 주실 수 없을까요? 우리는 슈카 암살일족 은신처에 숨은 ^#FF0000재빠른 슈카^#FFFFFF와 대적할 수가 없어요. 그저 도망치고, 피해 다니는 수 밖에는... /n하지만 모험자님은 다릅니다! 강하고 날렵하시잖아요! 한번만 더 도와 주세요!" difficulty="1" onMessage="HuntCollect2_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="20691" rewardCombatJobEXP="74540" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203101_Explain1" desc="[[빼앗긴 짐가방 획득]]" draft="제길…! 슈카 놈들이 돈이 들어 있는 가방을 훔쳐 갔습니다. 꽁꽁 잘 숨겨 놓았는데 그걸 어떻게 알고… 크윽. 우리에겐 지금 아무것도 없습니다. 돈도 없고, 식량도 없어요. 우리는… 완전히 빈털터리 입니다. /n모험자님… 도와 주십시오! ^#FF0000빼앗긴 짐가방^#FFFFFF을 다시 되찾아 주실 수 없을까요? 우리는 슈카 암살일족 은신처에 숨은 ^#FF0000재빠른 슈카^#FFFFFF와 대적할 수가 없어요. 그저 도망치고, 피해 다니는 수 밖에는... /n하지만 모험자님은 다릅니다! 강하고 날렵하시잖아요! 한번만 더 도와 주세요!" npc="레빈">
+			<subjectPos subjectStr="빼앗긴 짐가방 획득" mapTargetId="401606"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[레빈에게 배달]]" draft="제길…! 슈카 놈들이 돈이 들어 있는 가방을 훔쳐 갔습니다. 꽁꽁 잘 숨겨 놓았는데 그걸 어떻게 알고… 크윽. 우리에겐 지금 아무것도 없습니다. 돈도 없고, 식량도 없어요. 우리는… 완전히 빈털터리 입니다. /n모험자님… 도와 주십시오! ^#FF0000빼앗긴 짐가방^#FFFFFF을 다시 되찾아 주실 수 없을까요? 우리는 슈카 암살일족 은신처에 숨은 ^#FF0000재빠른 슈카^#FFFFFF와 대적할 수가 없어요. 그저 도망치고, 피해 다니는 수 밖에는... /n하지만 모험자님은 다릅니다! 강하고 날렵하시잖아요! 한번만 더 도와 주세요!" npc="레빈">
+			<subjectPos subjectStr="레빈에게 배달" mapTargetId="401506"/>
+		</Subject>
+		<Storage Collect1_typeID="150300" Collect1_goal="3" Collect1_count="0" target1_type="Collect" target1_prob="60" Collect2_typeID="1024"/>
+		<BasicReward typeID="2100000000" count="302"/>
+	</Quest>
+	<Quest typeID="203101260" typeName="피킨의 암담한 미래" group="001" NPC="레빈" reportTo="레빈" cancelable="1" repeatable="0" retryable="1" lv="35" desc="이..이 모든 정황을 살펴 봤을 때.. 이건 필시.../n마티나들이 우리 자유로운 피킨들을 못살게 굴게 하기 위해 슈카 암살자를 보내는 것입니다!/n아..아.. 정말 이렇게 악독할 수가.../n/n(레빈은 두려움에 몸을 부들부들 떨고 있습니다. 좀 진정 된 후에 다시 말을 걸어야 할 것 같습니다.)" difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="20691" rewardCombatJobEXP="74540" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[레빈과 대화하기]]" draft="이..이 모든 정황을 살펴 봤을 때.. 이건 필시.../n마티나들이 우리 자유로운 피킨들을 못살게 굴게 하기 위해 슈카 암살자를 보내는 것입니다!/n아..아.. 정말 이렇게 악독할 수가.../n/n(레빈은 두려움에 몸을 부들부들 떨고 있습니다. 좀 진정 된 후에 다시 말을 걸어야 할 것 같습니다.)" npc="레빈">
+			<subjectPos subjectStr="레빈과 대화하기" mapTargetId="401406"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[레빈의 이야기 듣기]]" draft="이..이 모든 정황을 살펴 봤을 때.. 이건 필시.../n마티나들이 우리 자유로운 피킨들을 못살게 굴게 하기 위해 슈카 암살자를 보내는 것입니다!/n아..아.. 정말 이렇게 악독할 수가.../n/n(레빈은 두려움에 몸을 부들부들 떨고 있습니다. 좀 진정 된 후에 다시 말을 걸어야 할 것 같습니다.)" npc="레빈">
+			<subjectPos subjectStr="레빈의 이야기 듣기" mapTargetId="401506"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="302"/>
+	</Quest>
+	<Quest typeID="203101270" typeName="어린 피킨의 죽음, 그 후…" group="001" NPC="라피엘" reportTo="라피엘" cancelable="1" repeatable="0" retryable="1" lv="35" desc="모험가님… 도와주셔서 감사합니다. 좀 전에 레빈과 이야기를 나누셨지요? /n그렇다면… 제 이야기를 들어주시겠어요?" difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="20691" rewardCombatJobEXP="74540" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[라피엘과 대화]]" draft="모험가님… 도와주셔서 감사합니다. 좀 전에 레빈과 이야기를 나누셨지요? /n그렇다면… 제 이야기를 들어주시겠어요?" npc="라피엘">
+			<subjectPos subjectStr="라피엘과 대화" mapTargetId="401407"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[라피엘의 이야기 듣기]]" draft="모험가님… 도와주셔서 감사합니다. 좀 전에 레빈과 이야기를 나누셨지요? /n그렇다면… 제 이야기를 들어주시겠어요?" npc="라피엘">
+			<subjectPos subjectStr="라피엘의 이야기 듣기" mapTargetId="401507"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="302"/>
+	</Quest>
+	<Quest typeID="203101280" typeName="반드시, 꼭!" group="001" NPC="레빈" reportTo="레빈" cancelable="1" repeatable="0" retryable="1" lv="35" desc="모험자님!! 슈카 녀석들의 두목이 있다는 정보를 입수했습니다. /n그 놈은… 아마도 예전에 이 곳을 지나던 피킨 상단 일행을 모조리 해친… 그 악마같은 슈카 두목이 분명합니다. /n놈을 해치워 주십시오! 놈은 반드시, 꼭 사라져야 할 사악한 존재 입니다! 모험자 님이라면… 분명 가능 할 겁니다! 아마 ^#FF0000영리한 슈카 두목^#FFFFFF이란 놈일 겁니다./n놈은 슈카 암살일족 은신처에 숨어있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="20691" rewardCombatJobEXP="74540" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203101_Explain1" desc="[[영리한 슈카 두목 처치]]" draft="모험자님!! 슈카 녀석들의 두목이 있다는 정보를 입수했습니다. /n그 놈은… 아마도 예전에 이 곳을 지나던 피킨 상단 일행을 모조리 해친… 그 악마같은 슈카 두목이 분명합니다. /n놈을 해치워 주십시오! 놈은 반드시, 꼭 사라져야 할 사악한 존재 입니다! 모험자 님이라면… 분명 가능 할 겁니다! 아마 ^#FF0000영리한 슈카 두목^#FFFFFF이란 놈일 겁니다./n놈은 슈카 암살일족 은신처에 숨어있습니다." npc="레빈">
+			<subjectPos subjectStr="영리한 슈카 두목 처치" mapTargetId="401607"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[레빈에게 보고]]" draft="모험자님!! 슈카 녀석들의 두목이 있다는 정보를 입수했습니다. /n그 놈은… 아마도 예전에 이 곳을 지나던 피킨 상단 일행을 모조리 해친… 그 악마같은 슈카 두목이 분명합니다. /n놈을 해치워 주십시오! 놈은 반드시, 꼭 사라져야 할 사악한 존재 입니다! 모험자 님이라면… 분명 가능 할 겁니다! 아마 ^#FF0000영리한 슈카 두목^#FFFFFF이란 놈일 겁니다./n놈은 슈카 암살일족 은신처에 숨어있습니다." npc="레빈">
+			<subjectPos subjectStr="레빈에게 보고" mapTargetId="401506"/>
+		</Subject>
+		<Storage Hunt1_typeID="1001" Hunt1_goal="1" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="302"/>
+	</Quest>
+	<Quest typeID="203101290" typeName="우리는 굴복하지 않는다" group="001" NPC="레빈" reportTo="시라인" cancelable="1" repeatable="0" retryable="1" lv="35" desc="당신의 노고에 감사 드립니다. 이번 일은 꼭 콘스타니아에 보고를 올리도록 하겠습니다. 마지막으로... 이 편지를 ^#3399FF시라인^#FFFFFF이라는 여인에게 전해 주시겠습니까? /n그녀는 ^#3399FF하스레딘의 농장^#FFFFFF에 있는 우리의 동료입니다. 비록... 좀 늦어지긴 하겠지만 우리는 다시 일어서서 힘없는 피킨을 구하러 갈 겁니다. /n비록 이번 작전이었던 동료들을 돈으로 사는 계획은 실패하고 말았지만... 언젠가 악덕한 마티나들에게 우리 동족들을 모두 돌려 받고 말 겁니다. /n모험자 님도 부디... 지켜봐 주십시오." difficulty="1" onMessage="DeleteQuest_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="20691" rewardCombatJobEXP="74540" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[암호화 된 편지]]" draft="당신의 노고에 감사 드립니다. 이번 일은 꼭 콘스타니아에 보고를 올리도록 하겠습니다. 마지막으로... 이 편지를 ^#3399FF시라인^#FFFFFF이라는 여인에게 전해 주시겠습니까? /n그녀는 ^#3399FF하스레딘의 농장^#FFFFFF에 있는 우리의 동료입니다. 비록... 좀 늦어지긴 하겠지만 우리는 다시 일어서서 힘없는 피킨을 구하러 갈 겁니다. /n비록 이번 작전이었던 동료들을 돈으로 사는 계획은 실패하고 말았지만... 언젠가 악덕한 마티나들에게 우리 동족들을 모두 돌려 받고 말 겁니다. /n모험자 님도 부디... 지켜봐 주십시오." npc="레빈">
+			<subjectPos subjectStr="암호화 된 편지" mapTargetId="401406"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[시라인에게 배달]]" draft="당신의 노고에 감사 드립니다. 이번 일은 꼭 콘스타니아에 보고를 올리도록 하겠습니다. 마지막으로... 이 편지를 ^#3399FF시라인^#FFFFFF이라는 여인에게 전해 주시겠습니까? /n그녀는 ^#3399FF하스레딘의 농장^#FFFFFF에 있는 우리의 동료입니다. 비록... 좀 늦어지긴 하겠지만 우리는 다시 일어서서 힘없는 피킨을 구하러 갈 겁니다. /n비록 이번 작전이었던 동료들을 돈으로 사는 계획은 실패하고 말았지만... 언젠가 악덕한 마티나들에게 우리 동족들을 모두 돌려 받고 말 겁니다. /n모험자 님도 부디... 지켜봐 주십시오." npc="시라인">
+			<subjectPos subjectStr="시라인에게 배달" mapTargetId="401504"/>
+		</Subject>
+		<Storage Collect1_typeID="150301"/>
+		<BasicReward typeID="2100000000" count="302"/>
+	</Quest>
+	<Quest typeID="203101050" typeName="잃어 버린 터번1" group="001" NPC="시라인" reportTo="바인갈" cancelable="1" repeatable="0" retryable="1" lv="36" desc="아이 정말 큰일이네 큰일이야. 뭐가 큰 일이냐고요?/n하스레딘님이 터번을 잃어버리셨거든요! 그 터번에 박혀 있는 보석은 슈키겔님께 빌려온 건데 그 보석을 못찾으면 하스레딘 농장을 통째로 빼앗길 지도 모른대요, 정말 큰일이죠?/n헌데 터번을 찾으러 나간 ^#3399FF바인갈^#FFFFFF이 그 일을 잘하고 있는지 모르겠어요. ^#3399FF농장 밖^#FFFFFF엔 위험한 몬스터들이 많아 위험한대 말이죠. 가서 바인갈에게 무슨 일이 생기지 않았나 봐주시겠어요?" difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="23450" rewardCombatJobEXP="74540" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[시라인과 대화]]" draft="아이 정말 큰일이네 큰일이야. 뭐가 큰 일이냐고요?/n하스레딘님이 터번을 잃어버리셨거든요! 그 터번에 박혀 있는 보석은 슈키겔님께 빌려온 건데 그 보석을 못찾으면 하스레딘 농장을 통째로 빼앗길 지도 모른대요, 정말 큰일이죠?/n헌데 터번을 찾으러 나간 ^#3399FF바인갈^#FFFFFF이 그 일을 잘하고 있는지 모르겠어요. ^#3399FF농장 밖^#FFFFFF엔 위험한 몬스터들이 많아 위험한대 말이죠. 가서 바인갈에게 무슨 일이 생기지 않았나 봐주시겠어요?" npc="시라인">
+			<subjectPos subjectStr="시라인과 대화" mapTargetId="401404"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[바인갈과 대화]]" draft="아이 정말 큰일이네 큰일이야. 뭐가 큰 일이냐고요?/n하스레딘님이 터번을 잃어버리셨거든요! 그 터번에 박혀 있는 보석은 슈키겔님께 빌려온 건데 그 보석을 못찾으면 하스레딘 농장을 통째로 빼앗길 지도 모른대요, 정말 큰일이죠?/n헌데 터번을 찾으러 나간 ^#3399FF바인갈^#FFFFFF이 그 일을 잘하고 있는지 모르겠어요. ^#3399FF농장 밖^#FFFFFF엔 위험한 몬스터들이 많아 위험한대 말이죠. 가서 바인갈에게 무슨 일이 생기지 않았나 봐주시겠어요?" npc="바인갈">
+			<subjectPos subjectStr="바인갈과 대화" mapTargetId="401502"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="335"/>
+	</Quest>
+	<Quest typeID="203101060" typeName="잃어 버린 터번2" group="001" NPC="바인갈" reportTo="바인갈" cancelable="1" repeatable="0" retryable="1" lv="36" desc="하스레딘 주인놈은 날 도둑 취급하면서 이 곳으로 보냈지. 너무 억울하다고!/n계속 찾아 봤지만 터번은 끄트머리도 보이지 않고. 난 분명히 하스레딘 농장 북쪽의 아무거나 잘 주워먹는 ^#FF0000마크라^#FFFFFF가 터번을 집어 먹었다고 생각해. 그러니 네가 마크라의 배를 갈라 터번을 찾아 주지 않겠어? 나는 한낱 노예지만.. 노예에게도 자존심은 있다고!/n도둑이라는 누명을 벗고 싶어!" difficulty="1" onMessage="HuntCollect2_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="23450" rewardCombatJobEXP="74540" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203101_Explain1" desc="[[마크라에게서 증거 획득]]" draft="하스레딘 주인놈은 날 도둑 취급하면서 이 곳으로 보냈지. 너무 억울하다고!/n계속 찾아 봤지만 터번은 끄트머리도 보이지 않고. 난 분명히 하스레딘 농장 북쪽의 아무거나 잘 주워먹는 ^#FF0000마크라^#FFFFFF가 터번을 집어 먹었다고 생각해. 그러니 네가 마크라의 배를 갈라 터번을 찾아 주지 않겠어? 나는 한낱 노예지만.. 노예에게도 자존심은 있다고!/n도둑이라는 누명을 벗고 싶어!" npc="바인갈">
+			<subjectPos subjectStr="마크라에게서 증거 획득" mapTargetId="404601"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[바인갈에게 배달]]" draft="하스레딘 주인놈은 날 도둑 취급하면서 이 곳으로 보냈지. 너무 억울하다고!/n계속 찾아 봤지만 터번은 끄트머리도 보이지 않고. 난 분명히 하스레딘 농장 북쪽의 아무거나 잘 주워먹는 ^#FF0000마크라^#FFFFFF가 터번을 집어 먹었다고 생각해. 그러니 네가 마크라의 배를 갈라 터번을 찾아 주지 않겠어? 나는 한낱 노예지만.. 노예에게도 자존심은 있다고!/n도둑이라는 누명을 벗고 싶어!" npc="바인갈">
+			<subjectPos subjectStr="바인갈에게 배달" mapTargetId="401502"/>
+		</Subject>
+		<Storage Collect1_typeID="150292" Collect1_goal="1" Collect1_count="0" target1_type="Collect" target1_prob="60" Collect2_typeID="1015"/>
+		<BasicReward typeID="2100000000" count="335"/>
+	</Quest>
+	<Quest typeID="203101070" typeName="잃어 버린 터번3" group="001" NPC="바인갈" reportTo="슈키겔" cancelable="1" repeatable="0" retryable="1" lv="36" desc="그 터번을 찾지 못하면 하스레딘 농장이 슈키겔에게 넘어간다는 건 나도 알고 있는 사실이거든. 네가 하스레딘 농장에서 머물고 있는 ^#3399FF슈키겔^#FFFFFF에게 어떻게 된 사정인지 물어봐주지 않겠어?/n나는 여기서 계속 하스레딘이 잃어버린 터번을 찾아보도록 할게." difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="23450" rewardCombatJobEXP="74540" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[바인갈과 대화]]" draft="그 터번을 찾지 못하면 하스레딘 농장이 슈키겔에게 넘어간다는 건 나도 알고 있는 사실이거든. 네가 하스레딘 농장에서 머물고 있는 ^#3399FF슈키겔^#FFFFFF에게 어떻게 된 사정인지 물어봐주지 않겠어?/n나는 여기서 계속 하스레딘이 잃어버린 터번을 찾아보도록 할게." npc="바인갈">
+			<subjectPos subjectStr="바인갈과 대화" mapTargetId="401402"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[슈키겔과 대화]]" draft="그 터번을 찾지 못하면 하스레딘 농장이 슈키겔에게 넘어간다는 건 나도 알고 있는 사실이거든. 네가 하스레딘 농장에서 머물고 있는 ^#3399FF슈키겔^#FFFFFF에게 어떻게 된 사정인지 물어봐주지 않겠어?/n나는 여기서 계속 하스레딘이 잃어버린 터번을 찾아보도록 할게." npc="슈키겔">
+			<subjectPos subjectStr="슈키겔과 대화" mapTargetId="401505"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="335"/>
+	</Quest>
+	<Quest typeID="203101080" typeName="잃어 버린 터번4" group="001" NPC="슈키겔" reportTo="하스레딘" cancelable="1" repeatable="0" retryable="1" lv="36" desc="하스레딘의 터번은 내가 버렸다. 왜 이렇게 순순히 알려주냐고? 당연하잖아. 알려줘도 네 실력으론 절대 터번을 찾지 못할 게 뻔해.  나는 이 일을 위해 꽤나 시간을 들여 준비했거든./n터번은 하스레딘 농장의 ^#3399FF동쪽 언덕 아래^#FFFFFF에 있다. 흐르는 모래 밑에 던져 놓았지. 영영 파묻히도록. 터번에 붙은 보석이 아깝긴 하지만 그건 농장을 얻는 것보다 싼 값이니 중요하지 않아./n그 주변은 ^#FF0000코르카돈^#FFFFFF에게 지키게 했으니 넌 손도 댈 수 없다. 그러니 포기해." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="23450" rewardCombatJobEXP="74540" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203101_Explain1" desc="[[하스레딘의 터번 획득]]" draft="하스레딘의 터번은 내가 버렸다. 왜 이렇게 순순히 알려주냐고? 당연하잖아. 알려줘도 네 실력으론 절대 터번을 찾지 못할 게 뻔해.  나는 이 일을 위해 꽤나 시간을 들여 준비했거든./n터번은 하스레딘 농장의 ^#3399FF동쪽 언덕 아래^#FFFFFF에 있다. 흐르는 모래 밑에 던져 놓았지. 영영 파묻히도록. 터번에 붙은 보석이 아깝긴 하지만 그건 농장을 얻는 것보다 싼 값이니 중요하지 않아./n그 주변은 ^#FF0000코르카돈^#FFFFFF에게 지키게 했으니 넌 손도 댈 수 없다. 그러니 포기해." npc="1">
+			<subjectPos subjectStr="하스레딘의 터번 획득" mapTargetId="402623"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[하스레딘에게 터번 배달]]" draft="하스레딘의 터번은 내가 버렸다. 왜 이렇게 순순히 알려주냐고? 당연하잖아. 알려줘도 네 실력으론 절대 터번을 찾지 못할 게 뻔해.  나는 이 일을 위해 꽤나 시간을 들여 준비했거든./n터번은 하스레딘 농장의 ^#3399FF동쪽 언덕 아래^#FFFFFF에 있다. 흐르는 모래 밑에 던져 놓았지. 영영 파묻히도록. 터번에 붙은 보석이 아깝긴 하지만 그건 농장을 얻는 것보다 싼 값이니 중요하지 않아./n그 주변은 ^#FF0000코르카돈^#FFFFFF에게 지키게 했으니 넌 손도 댈 수 없다. 그러니 포기해." npc="1">
+			<subjectPos subjectStr="하스레딘에게 터번 배달" mapTargetId="401503"/>
+		</Subject>
+		<Storage Collect1_typeID="150287" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="335"/>
+	</Quest>
+	<Quest typeID="203101090" typeName="자유를 향한 작은 손길1" group="001" NPC="윌틴" reportTo="윌틴" cancelable="1" repeatable="0" retryable="1" lv="36" desc="난 지금이라도 도망칠 수 있지만 그건 농장에 남을 피킨을 위해서도 마티나에게 복수를 하기 위해서도 그래선 안된다는 생각이야./n마티나가 성격이 이기적이긴 해도 그들의 장사수완 같은 건 배워 둘 필요가 있거든. 나는 그런 것들을 알아내 피킨의 나라 콘스타니아에 전하는 일을 하고 있어. 헌데 요즘 감시가 심해져서 말이야…/n당신이 ^#3399FF튼튼한 대추 야자 씨앗^#FFFFFF, ^#3399FF튼튼한 선인장 씨앗^#FFFFFF, ^#3399FF하스레딘의 영양제^#FFFFFF를 모아 줘./n 튼튼한 대추 야자 씨앗과 튼튼한 선인장 씨앗은 농장을 돌아다니면 구할 수 있고. 하스레딘의 영양제의 영양제가 문젠데 이건 하스레딘 가의 비전의 수법으로 만든 거거든. 모래 밭에 파묻어 놔야 효력이 있다고 하지. 아마 농장 ^#3399FF서쪽의 돌밭 부근^#FFFFFF을 잘 찾아 보면 있을거야. 그것들을 찾아서 몰래 내게 갖다 줘." difficulty="1" onMessage="Quest203101090_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="23450" rewardCombatJobEXP="74540" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203101090_Explain" desc="[[튼튼한 대추 야자 씨앗 수집]][[튼튼한 선인장 씨앗 수집]][[하스레딘의 영양제 수집]]" draft="난 지금이라도 도망칠 수 있지만 그건 농장에 남을 피킨을 위해서도 마티나에게 복수를 하기 위해서도 그래선 안된다는 생각이야./n마티나가 성격이 이기적이긴 해도 그들의 장사수완 같은 건 배워 둘 필요가 있거든. 나는 그런 것들을 알아내 피킨의 나라 콘스타니아에 전하는 일을 하고 있어. 헌데 요즘 감시가 심해져서 말이야…/n당신이 ^#3399FF튼튼한 대추 야자 씨앗^#FFFFFF, ^#3399FF튼튼한 선인장 씨앗^#FFFFFF, ^#3399FF하스레딘의 영양제^#FFFFFF를 모아 줘./n 튼튼한 대추 야자 씨앗과 튼튼한 선인장 씨앗은 농장을 돌아다니면 구할 수 있고. 하스레딘의 영양제의 영양제가 문젠데 이건 하스레딘 가의 비전의 수법으로 만든 거거든. 모래 밭에 파묻어 놔야 효력이 있다고 하지. 아마 농장 ^#3399FF서쪽의 돌밭 부근^#FFFFFF을 잘 찾아 보면 있을거야. 그것들을 찾아서 몰래 내게 갖다 줘." npc="윌틴">
+			<subjectPos subjectStr="튼튼한 대추 야자 씨앗 수집" mapTargetId="404701"/>
+			<subjectPos subjectStr="튼튼한 선인장 씨앗 수집" mapTargetId="404701"/>
+			<subjectPos subjectStr="하스레딘의 영양제 수집" mapTargetId="404701"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[윌틴에게 배달]]" draft="난 지금이라도 도망칠 수 있지만 그건 농장에 남을 피킨을 위해서도 마티나에게 복수를 하기 위해서도 그래선 안된다는 생각이야./n마티나가 성격이 이기적이긴 해도 그들의 장사수완 같은 건 배워 둘 필요가 있거든. 나는 그런 것들을 알아내 피킨의 나라 콘스타니아에 전하는 일을 하고 있어. 헌데 요즘 감시가 심해져서 말이야…/n당신이 ^#3399FF튼튼한 대추 야자 씨앗^#FFFFFF, ^#3399FF튼튼한 선인장 씨앗^#FFFFFF, ^#3399FF하스레딘의 영양제^#FFFFFF를 모아 줘./n 튼튼한 대추 야자 씨앗과 튼튼한 선인장 씨앗은 농장을 돌아다니면 구할 수 있고. 하스레딘의 영양제의 영양제가 문젠데 이건 하스레딘 가의 비전의 수법으로 만든 거거든. 모래 밭에 파묻어 놔야 효력이 있다고 하지. 아마 농장 ^#3399FF서쪽의 돌밭 부근^#FFFFFF을 잘 찾아 보면 있을거야. 그것들을 찾아서 몰래 내게 갖다 줘." npc="윌틴">
+			<subjectPos subjectStr="윌틴에게 배달" mapTargetId="401510"/>
+		</Subject>
+		<Storage Collect1_typeID="150288" Collect1_goal="5" Collect1_count="0" target1_type="Collect" Collect2_typeID="150289" Collect2_goal="5" Collect2_count="0" target2_type="Collect" Collect3_typeID="150290" Collect3_goal="1" Collect3_count="0" target3_type="Collect"/>
+		<BasicReward typeID="2100000000" count="335"/>
+	</Quest>
+	<Quest typeID="203101100" typeName="자유를 향한 작은 손길2" group="001" NPC="윌틴" reportTo="카일" cancelable="1" repeatable="0" retryable="1" lv="36" desc="아무래도 내가 자유의 몸이 아니라…./n이 씨앗 주머니를 ^#3399FF더스트 코랄^#FFFFFF의 자유로운 동료에게 전해 줘. ^#3399FF카일^#FFFFFF이라는 휴먼족인데 우리 피킨을 많이 도와주는 고마운 사람이지./n이 씨앗이 무사히 콘스타니아까지 전달 될 수 있다면 우리 피킨은 마티나에 대항 할 무기를 하나 더 얻게 될거야!" difficulty="1" onMessage="DeleteQuest_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="23450" rewardCombatJobEXP="74540" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[윌틴과 대화]]" draft="아무래도 내가 자유의 몸이 아니라…./n이 씨앗 주머니를 ^#3399FF더스트 코랄^#FFFFFF의 자유로운 동료에게 전해 줘. ^#3399FF카일^#FFFFFF이라는 휴먼족인데 우리 피킨을 많이 도와주는 고마운 사람이지./n이 씨앗이 무사히 콘스타니아까지 전달 될 수 있다면 우리 피킨은 마티나에 대항 할 무기를 하나 더 얻게 될거야!" npc="윌틴">
+			<subjectPos subjectStr="윌틴과 대화" mapTargetId="401410"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[카일과 대화]]" draft="아무래도 내가 자유의 몸이 아니라…./n이 씨앗 주머니를 ^#3399FF더스트 코랄^#FFFFFF의 자유로운 동료에게 전해 줘. ^#3399FF카일^#FFFFFF이라는 휴먼족인데 우리 피킨을 많이 도와주는 고마운 사람이지./n이 씨앗이 무사히 콘스타니아까지 전달 될 수 있다면 우리 피킨은 마티나에 대항 할 무기를 하나 더 얻게 될거야!" npc="카일">
+			<subjectPos subjectStr="카일과 대화" mapTargetId="402506"/>
+		</Subject>
+		<Storage Collect1_typeID="150291"/>
+		<BasicReward typeID="2100000000" count="335"/>
+	</Quest>
+	<Quest typeID="203101300" typeName="위기의 마을 1" group="001" NPC="아돌 할아범" reportTo="아돌 할아범" cancelable="1" repeatable="0" retryable="1" lv="37" desc="으잉? 우리 마을엔 무슨 일인가? ^#3399FF라임^#FFFFFF을 찾는 모험자라고? 흐음… 너도 ^#3399FF라임^#FFFFFF이란 걸 찾는 머저리 들 중 하나인가? /n에헴, 그래. ^#3399FF라임^#FFFFFF이라면 내가 잘 알지. 하지만 공짜로 가르쳐 줄까 보냐? /n요~ 요~ 마을 서쪽 어귀를 서성거리는 귀찮은 ^#FF0000노랑 자이쿠^#FFFFFF와 ^#FF0000푸른 쿠코스^#FFFFFF 10마리씩을 해치우고 오면 내가 한번 생각 해 보지. 에헴!" difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="24829" rewardCombatJobEXP="81580" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203101_Explain2" desc="[[노랑 자이쿠 처치]][[푸른 쿠코스 처치]]" draft="으잉? 우리 마을엔 무슨 일인가? ^#3399FF라임^#FFFFFF을 찾는 모험자라고? 흐음… 너도 ^#3399FF라임^#FFFFFF이란 걸 찾는 머저리 들 중 하나인가? /n에헴, 그래. ^#3399FF라임^#FFFFFF이라면 내가 잘 알지. 하지만 공짜로 가르쳐 줄까 보냐? /n요~ 요~ 마을 서쪽 어귀를 서성거리는 귀찮은 ^#FF0000노랑 자이쿠^#FFFFFF와 ^#FF0000푸른 쿠코스^#FFFFFF 10마리씩을 해치우고 오면 내가 한번 생각 해 보지. 에헴!" npc="아돌 할아범">
+			<subjectPos subjectStr="노랑 자이쿠 처치" mapTargetId="402605"/>
+			<subjectPos subjectStr="푸른 쿠코스 처치" mapTargetId="402617"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[아돌 할아범에게 보고]]" draft="으잉? 우리 마을엔 무슨 일인가? ^#3399FF라임^#FFFFFF을 찾는 모험자라고? 흐음… 너도 ^#3399FF라임^#FFFFFF이란 걸 찾는 머저리 들 중 하나인가? /n에헴, 그래. ^#3399FF라임^#FFFFFF이라면 내가 잘 알지. 하지만 공짜로 가르쳐 줄까 보냐? /n요~ 요~ 마을 서쪽 어귀를 서성거리는 귀찮은 ^#FF0000노랑 자이쿠^#FFFFFF와 ^#FF0000푸른 쿠코스^#FFFFFF 10마리씩을 해치우고 오면 내가 한번 생각 해 보지. 에헴!" npc="아돌 할아범">
+			<subjectPos subjectStr="아돌 할아범에게 보고" mapTargetId="402504"/>
+		</Subject>
+		<Storage Hunt1_typeID="1025" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" Hunt2_typeID="1028" Hunt2_goal="10" Hunt2_count="0" target2_type="Hunt" target_number="2"/>
+		<BasicReward typeID="2100000000" count="388"/>
+	</Quest>
+	<Quest typeID="203101310" typeName="위기의 마을 2" group="001" NPC="카일" reportTo="카일" cancelable="1" repeatable="0" retryable="1" lv="37" desc="아… 안녕하십니까? 모험자 시군요. 저는 카일 이라고 합니다. 마을의 이런 저런 잡다한 일들을 맡아서 하고 있지요. 아… 혹시 아돌 할아버지께 당하신 겁니까? 하하, 할아버지는 그런 식으로 모험자들을 놀리고 부려먹는 게 취미라서... 기분 나쁘셨다면 푸시기 바랍니다. /n그도 그럴 것이... 마을은 지금 정말로 위험한 상황입니다. 마티나들의 횡포는 나날이 거세어 지고 있는데 몬스터까지 굶주리다 보니 마을 주민들을 노리고... 후우, 거기다 새끼 쿠코스가 이상 번식을 하고 있기도 해서... /n앗, 혹시 모험자 님... 마을 서쪽의 ^#FF0000새끼 쿠코스^#FFFFFF를 좀 처리해 주실 수 있으십니까? 으음... 적지만 수고비도 드리겠습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="24829" rewardCombatJobEXP="81580" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203101_Explain1" desc="[[새끼 쿠코스 처치]]" draft="아… 안녕하십니까? 모험자 시군요. 저는 카일 이라고 합니다. 마을의 이런 저런 잡다한 일들을 맡아서 하고 있지요. 아… 혹시 아돌 할아버지께 당하신 겁니까? 하하, 할아버지는 그런 식으로 모험자들을 놀리고 부려먹는 게 취미라서... 기분 나쁘셨다면 푸시기 바랍니다. /n그도 그럴 것이... 마을은 지금 정말로 위험한 상황입니다. 마티나들의 횡포는 나날이 거세어 지고 있는데 몬스터까지 굶주리다 보니 마을 주민들을 노리고... 후우, 거기다 새끼 쿠코스가 이상 번식을 하고 있기도 해서... /n앗, 혹시 모험자 님... 마을 서쪽의 ^#FF0000새끼 쿠코스^#FFFFFF를 좀 처리해 주실 수 있으십니까? 으음... 적지만 수고비도 드리겠습니다." npc="카일">
+			<subjectPos subjectStr="새끼 쿠코스 처치" mapTargetId="401602"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[카일에게 보고]]" draft="아… 안녕하십니까? 모험자 시군요. 저는 카일 이라고 합니다. 마을의 이런 저런 잡다한 일들을 맡아서 하고 있지요. 아… 혹시 아돌 할아버지께 당하신 겁니까? 하하, 할아버지는 그런 식으로 모험자들을 놀리고 부려먹는 게 취미라서... 기분 나쁘셨다면 푸시기 바랍니다. /n그도 그럴 것이... 마을은 지금 정말로 위험한 상황입니다. 마티나들의 횡포는 나날이 거세어 지고 있는데 몬스터까지 굶주리다 보니 마을 주민들을 노리고... 후우, 거기다 새끼 쿠코스가 이상 번식을 하고 있기도 해서... /n앗, 혹시 모험자 님... 마을 서쪽의 ^#FF0000새끼 쿠코스^#FFFFFF를 좀 처리해 주실 수 있으십니까? 으음... 적지만 수고비도 드리겠습니다." npc="카일">
+			<subjectPos subjectStr="카일에게 보고" mapTargetId="402506"/>
+		</Subject>
+		<Storage Hunt1_typeID="1035" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="388"/>
+	</Quest>
+	<Quest typeID="203101320" typeName="위기의 마을 3" group="001" NPC="카일" reportTo="카일" cancelable="1" repeatable="0" retryable="1" lv="37" desc="역시 제가 잘못 본 것이 아니었습니다. 마을 사람들 중에도 그… 그… ^#FF0000거대해진 쿠코스^#FFFFFF를 본 사람이 있다는 군요. 심지어 놈은 마구 불어난 새끼 쿠코스를 잡아먹으며 거대해 졌다는 군요. 끔찍한 일입니다. 더 이상 커지면 마을 사람마저도 잡아 먹으려 들 테니까요. /n모험자님, 샤우라 둥지 깊은 곳의 거대해진 쿠코스를 해치워 주시겠습니까? 무, 물론 보상은 적겠지만… 그래도 부탁 드립니다. 네?" difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="24829" rewardCombatJobEXP="81580" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203101_Explain1" desc="[[거대해진 쿠코스 처치]]" draft="역시 제가 잘못 본 것이 아니었습니다. 마을 사람들 중에도 그… 그… ^#FF0000거대해진 쿠코스^#FFFFFF를 본 사람이 있다는 군요. 심지어 놈은 마구 불어난 새끼 쿠코스를 잡아먹으며 거대해 졌다는 군요. 끔찍한 일입니다. 더 이상 커지면 마을 사람마저도 잡아 먹으려 들 테니까요. /n모험자님, 거대해진 쿠코스를 해치워 주시겠습니까? 무, 물론 보상은 적겠지만… 그래도 부탁 드립니다. 네?" npc="카일">
+			<subjectPos subjectStr="거대해진 쿠코스 처치" mapTargetId="401603"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[카일에게 보고]]" draft="역시 제가 잘못 본 것이 아니었습니다. 마을 사람들 중에도 그… 그… ^#FF0000거대해진 쿠코스^#FFFFFF를 본 사람이 있다는 군요. 심지어 놈은 마구 불어난 새끼 쿠코스를 잡아먹으며 거대해 졌다는 군요. 끔찍한 일입니다. 더 이상 커지면 마을 사람마저도 잡아 먹으려 들 테니까요. /n모험자님, 거대해진 쿠코스를 해치워 주시겠습니까? 무, 물론 보상은 적겠지만… 그래도 부탁 드립니다. 네?" npc="카일">
+			<subjectPos subjectStr="카일에게 보고" mapTargetId="402506"/>
+		</Subject>
+		<Storage Hunt1_typeID="1034" Hunt1_goal="1" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="388"/>
+	</Quest>
+	<Quest typeID="203101330" typeName="고아가 된 아이들" group="001" NPC="핑" reportTo="핑" cancelable="1" repeatable="0" retryable="1" lv="37" desc="모험자님? 모험자시죠? 그렇죠? 모험자님! 우리 엄마, 아빠의 복수를 해주세요! ^#FF0000분노한 카돈^#FFFFFF이 우리 엄마랑 아빠를 빼앗아 갔어요! 우리 엄마 아빠는 그냥 샤우라 둥지 깊은 곳에 껍질을 주으러 갔을 뿐인데.../n그 나쁜 녀석을 죽여주세요 모험자님! 아돌 할아버지가 그랬어요. 모험자님은 강하다고요. /n복수 해 주세요, 모험자님!" difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="24829" rewardCombatJobEXP="81580" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203101_Explain1" desc="[[분노한 카돈 처치]]" draft="모험자님? 모험자시죠? 그렇죠? 모험자님! 우리 엄마, 아빠의 복수를 해주세요! ^#FF0000분노한 카돈^#FFFFFF이 우리 엄마랑 아빠를 빼앗아 갔어요! 우리 엄마 아빠는 그냥 샤우라 둥지 깊은 곳에 껍질을 주으러 갔을 뿐인데.../n그 나쁜 녀석을 죽여주세요 모험자님! 아돌 할아버지가 그랬어요. 모험자님은 강하다고요. /n복수 해 주세요, 모험자님!" npc="핑">
+			<subjectPos subjectStr="분노한 카돈 처치" mapTargetId="401604"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[핑에게 보고]]" draft="모험자님? 모험자시죠? 그렇죠? 모험자님! 우리 엄마, 아빠의 복수를 해주세요! ^#FF0000분노한 카돈^#FFFFFF이 우리 엄마랑 아빠를 빼앗아 갔어요! 우리 엄마 아빠는 그냥 샤우라 둥지 깊은 곳에 껍질을 주으러 갔을 뿐인데.../n그 나쁜 녀석을 죽여주세요 모험자님! 아돌 할아버지가 그랬어요. 모험자님은 강하다고요. /n복수 해 주세요, 모험자님!" npc="핑">
+			<subjectPos subjectStr="핑에게 보고" mapTargetId="402508"/>
+		</Subject>
+		<Storage Hunt1_typeID="1031" Hunt1_goal="5" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="388"/>
+	</Quest>
+	<Quest typeID="203101340" typeName="보이지 않는 족쇄" group="001" NPC="샐리 할멈" reportTo="샐리 할멈" cancelable="1" repeatable="0" retryable="1" lv="37" desc="안녕하시유. 당신이… 요즘 마을 사람들을 도와주고 있는 그 모험자인가요...? 정말 고맙수. 이 더스트 코랄에는 젊은 사람들이 부족해서 말이유... /n우리 할아범도 젊은 시절에는 펄펄 날았는데... 지금은 저렇게 늙어서 사막에 쉽게 나가지도 못한다우. 후우... 아비를 잃고 혼자가 된 우리 손자 카일 때문에 정착하게 된 거지만... 우리는 저 아이를 너무 사랑한다오... /n아마도... 카일은 마을을 떠나서 당신처럼 모험을 하고 싶을 거우. 하지만 늙은 우리들 때문에 이 보잘 것 없는 마을에 남아 있는 거지... /n에구에구. 내가 괜한 이야기를 했구먼. 이야기 할 사람이 영 없어서 말이유. 이런 늙은이의 말도 귀 기울여 들어주니 참 고맙구려. 좀 더 들어 주실라우?" difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="24829" rewardCombatJobEXP="81580" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[샐리 할멈과 대화]]" draft="안녕하시유. 당신이… 요즘 마을 사람들을 도와주고 있는 그 모험자인가요...? 정말 고맙수. 이 더스트 코랄에는 젊은 사람들이 부족해서 말이유... /n우리 할아범도 젊은 시절에는 펄펄 날았는데... 지금은 저렇게 늙어서 사막에 쉽게 나가지도 못한다우. 후우... 아비를 잃고 혼자가 된 우리 손자 카일 때문에 정착하게 된 거지만... 우리는 저 아이를 너무 사랑한다오... /n아마도... 카일은 마을을 떠나서 당신처럼 모험을 하고 싶을 거우. 하지만 늙은 우리들 때문에 이 보잘 것 없는 마을에 남아 있는 거지... /n에구에구. 내가 괜한 이야기를 했구먼. 이야기 할 사람이 영 없어서 말이유. 이런 늙은이의 말도 귀 기울여 들어주니 참 고맙구려. 좀 더 들어 주실라우?" npc="샐리 할멈">
+			<subjectPos subjectStr="샐리 할멈과 대화" mapTargetId="402403"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[샐리 할멈의 이야기 듣기]]" draft="안녕하시유. 당신이… 요즘 마을 사람들을 도와주고 있는 그 모험자인가요...? 정말 고맙수. 이 더스트 코랄에는 젊은 사람들이 부족해서 말이유... /n우리 할아범도 젊은 시절에는 펄펄 날았는데... 지금은 저렇게 늙어서 사막에 쉽게 나가지도 못한다우. 후우... 아비를 잃고 혼자가 된 우리 손자 카일 때문에 정착하게 된 거지만... 우리는 저 아이를 너무 사랑한다오... /n아마도... 카일은 마을을 떠나서 당신처럼 모험을 하고 싶을 거우. 하지만 늙은 우리들 때문에 이 보잘 것 없는 마을에 남아 있는 거지... /n에구에구. 내가 괜한 이야기를 했구먼. 이야기 할 사람이 영 없어서 말이유. 이런 늙은이의 말도 귀 기울여 들어주니 참 고맙구려. 좀 더 들어 주실라우?" npc="샐리 할멈">
+			<subjectPos subjectStr="샐리 할멈의 이야기 듣기" mapTargetId="402503"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="388"/>
+	</Quest>
+	<Quest typeID="203101350" typeName="고기, 고기… " group="001" NPC="배가 고픈 소녀" reportTo="배가 고픈 소녀" cancelable="1" repeatable="0" retryable="1" lv="37" desc="배가 너무 고파요… 고기 먹고 싶은데, 몇일 동안 풀 뿌리만 캐 먹었어요. ^#FF0000노랑 자이쿠 고기^#FFFFFF 먹고 싶어요… /n모험자님이 구해 주시면 안되나요? 노랑 자이쿠는 샤우라 둥지 깊은 곳에 살아서 저는 갈 수 가 없거든요. 간대도 잡을 수도 없겠지만./n그거요… 질기지만 무지무지 맛있어요.(츄릅)" difficulty="1" onMessage="HuntCollect2_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="24829" rewardCombatJobEXP="81580" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203101_Explain1" desc="[[노랑 자이쿠 고기 획득]]" draft="배가 너무 고파요… 고기 먹고 싶은데, 몇일 동안 풀 뿌리만 캐 먹었어요. ^#FF0000노랑 자이쿠 고기^#FFFFFF 먹고 싶어요… /n모험자님이 구해 주시면 안되나요? 노랑 자이쿠는 샤우라 둥지 깊은 곳에 살아서 저는 갈 수 가 없거든요. 간대도 잡을 수도 없겠지만./n그거요… 질기지만 무지무지 맛있어요.(츄릅)" npc="배가 고픈 소녀">
+			<subjectPos subjectStr="노랑 자이쿠 고기 획득" mapTargetId="401605"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[배가 고픈 소녀에게 배달]]" draft="배가 너무 고파요… 고기 먹고 싶은데, 몇일 동안 풀 뿌리만 캐 먹었어요. ^#FF0000노랑 자이쿠 고기^#FFFFFF 먹고 싶어요… /n모험자님이 구해 주시면 안되나요? 노랑 자이쿠는 샤우라 둥지 깊은 곳에 살아서 저는 갈 수 가 없거든요. 간대도 잡을 수도 없겠지만./n그거요… 질기지만 무지무지 맛있어요.(츄릅)" npc="배가 고픈 소녀">
+			<subjectPos subjectStr="배가 고픈 소녀에게 배달" mapTargetId="402507"/>
+		</Subject>
+		<Storage Collect1_typeID="150302" Collect1_goal="10" Collect1_count="0" target1_type="Collect" target1_prob="40" Collect2_typeID="1025"/>
+		<BasicReward typeID="2100000000" count="388"/>
+	</Quest>
+	<Quest typeID="203101360" typeName="우리의 무덤, 우리의 삶 1" group="001" NPC="아돌 할아범" reportTo="아돌 할아범" cancelable="1" repeatable="0" retryable="1" lv="38" desc="이봐 자네! 한가해 보이는데 잠깐 이리 와 보게. 에헴. 요즘 말이야… 마을이 참 먹고 살기가 힘들지… 자네도 두 눈으로 보았지? 저 굶고 있는 어린 것들 좀 보게. 뭐라도 팔아서 돈을 마련해야 물을 사고 밭을 일굴 텐데… 사막 산호 만으로는 먹고 살기가 힘들어. /n에잉~ 저 어린 것들에게 밥이라도 마음껏 먹이고 싶은데 말이야. 에잉... 저 배고파 하는 모습 좀 보게. 에헴. /n그래서 말인데... 자네 할 일 없지? 요즘 ^#FF0000노랑 꼬리 샤우라^#FFFFFF의 ^#FF0000딱딱하고 매끈한 꼬리^#FFFFFF가 마티나에게 잘 팔리는데, 자네가 좀 구해 오게. 어떤가? 노랑 꼬리 샤우라는 샤우라 둥지에 살고 있다네." difficulty="1" onMessage="HuntCollect2_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="27358" rewardCombatJobEXP="90400" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203101_Explain1" desc="[[딱딱하고 매끈한 꼬리 획득]]" draft="이봐 자네! 한가해 보이는데 잠깐 이리 와 보게. 에헴. 요즘 말이야… 마을이 참 먹고 살기가 힘들지… 자네도 두 눈으로 보았지? 저 굶고 있는 어린 것들 좀 보게. 뭐라도 팔아서 돈을 마련해야 물을 사고 밭을 일굴 텐데… 사막 산호 만으로는 먹고 살기가 힘들어. /n에잉~ 저 어린 것들에게 밥이라도 마음껏 먹이고 싶은데 말이야. 에잉... 저 배고파 하는 모습 좀 보게. 에헴. /n그래서 말인데... 자네 할 일 없지? 요즘 ^#FF0000노랑 꼬리 샤우라^#FFFFFF의 ^#FF0000딱딱하고 매끈한 꼬리^#FFFFFF가 마티나에게 잘 팔리는데, 자네가 좀 구해 오게. 어떤가? 노랑 꼬리 샤우라는 샤우라 둥지에 살고 있다네." npc="아돌 할아범">
+			<subjectPos subjectStr="딱딱하고 매끈한 꼬리 획득" mapTargetId="401606"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[아돌 할아범에게 배달]]" draft="이봐 자네! 한가해 보이는데 잠깐 이리 와 보게. 에헴. 요즘 말이야… 마을이 참 먹고 살기가 힘들지… 자네도 두 눈으로 보았지? 저 굶고 있는 어린 것들 좀 보게. 뭐라도 팔아서 돈을 마련해야 물을 사고 밭을 일굴 텐데… 사막 산호 만으로는 먹고 살기가 힘들어. /n에잉~ 저 어린 것들에게 밥이라도 마음껏 먹이고 싶은데 말이야. 에잉... 저 배고파 하는 모습 좀 보게. 에헴. /n그래서 말인데... 자네 할 일 없지? 요즘 ^#FF0000노랑 꼬리 샤우라^#FFFFFF의 ^#FF0000딱딱하고 매끈한 꼬리^#FFFFFF가 마티나에게 잘 팔리는데, 자네가 좀 구해 오게. 어떤가? 노랑 꼬리 샤우라는 샤우라 둥지에 살고 있다네." npc="아돌 할아범">
+			<subjectPos subjectStr="아돌 할아범에게 배달" mapTargetId="402504"/>
+		</Subject>
+		<Storage Collect1_typeID="150303" Collect1_goal="5" Collect1_count="0" target1_type="Collect" target1_prob="30" Collect2_typeID="1036"/>
+		<BasicReward typeID="2100000000" count="421"/>
+	</Quest>
+	<Quest typeID="203101370" typeName="우리의 무덤, 우리의 삶 2" group="001" NPC="아돌 할아범" reportTo="아돌 할아범" cancelable="1" repeatable="0" retryable="1" lv="38" desc="오오! 이 보게 떠돌이. 아니… 모험자 젊은이. 자네가 일전에 구해 온 샤우라 꼬리가 몽땅 다 팔렸네. 내 놓기가 무섭더군. /n자자, 그래서 이번엔 ^#FF0000붉은 샤우라^#FFFFFF의 ^#FF0000딱딱한 껍질^#FFFFFF도 내 놔 볼 참이야. 어떤가? /n자네는 돈 벌고, 나도 돈 벌고. 꿩 먹고 알 먹고 아니겠나? 붉은 샤우라는 전에 갔던 샤우라 둥지에 있다네." difficulty="1" onMessage="HuntCollect2_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="27358" rewardCombatJobEXP="90400" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203101_Explain1" desc="[[딱딱한 껍질 획득]]" draft="오오! 이 보게 떠돌이. 아니… 모험자 젊은이. 자네가 일전에 구해 온 샤우라 꼬리가 몽땅 다 팔렸네. 내 놓기가 무섭더군. /n자자, 그래서 이번엔 ^#FF0000붉은 샤우라^#FFFFFF의 ^#FF0000딱딱한 껍질^#FFFFFF도 내 놔 볼 참이야. 어떤가? /n자네는 돈 벌고, 나도 돈 벌고. 꿩 먹고 알 먹고 아니겠나? 붉은 샤우라는 전에 갔던 샤우라 둥지에 있다네." npc="아돌 할아범">
+			<subjectPos subjectStr="딱딱한 껍질 획득" mapTargetId="401607"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[아돌 할아범에게 배달]]" draft="오오! 이 보게 떠돌이. 아니… 모험자 젊은이. 자네가 일전에 구해 온 샤우라 꼬리가 몽땅 다 팔렸네. 내 놓기가 무섭더군. /n자자, 그래서 이번엔 ^#FF0000붉은 샤우라^#FFFFFF의 ^#FF0000딱딱한 껍질^#FFFFFF도 내 놔 볼 참이야. 어떤가? /n자네는 돈 벌고, 나도 돈 벌고. 꿩 먹고 알 먹고 아니겠나? 붉은 샤우라는 전에 갔던 샤우라 둥지에 있다네." npc="아돌 할아범">
+			<subjectPos subjectStr="아돌 할아범에게 배달" mapTargetId="402504"/>
+		</Subject>
+		<Storage Collect1_typeID="150304" Collect1_goal="3" Collect1_count="0" target1_type="Collect" target1_prob="30" Collect2_typeID="1039"/>
+		<BasicReward typeID="2100000000" count="421"/>
+	</Quest>
+	<Quest typeID="203101380" typeName="상비약" group="001" NPC="샐리 할멈" reportTo="샐리 할멈" cancelable="1" repeatable="0" retryable="1" lv="38" desc="어이구 어이구 젊은이. 자네가 요즘 우리 아돌 영감에게 샤우라 둥지에서 샤우라의 껍질이나 꼬리를 구해다 준다면서? 에고, 이놈에 영감탱이가 맨손으로 꼬리를 만져대서... 내가 조마조마해서 견딜 수가 있어야지 말이야. 해독제라도 좀 넉넉하면 걱정이 없을텐데… /n^#FF0000노르스름한 독액^#FFFFFF을 구해줄 수 있겠는가? #FF0000노랑 꼬리 샤우라^#FFFFFF를 잡으면 나올거야." difficulty="1" onMessage="HuntCollect2_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="27358" rewardCombatJobEXP="90400" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203101_Explain1" desc="[[노르스름한 독액 획득]]" draft="어이구 어이구 젊은이. 자네가 요즘 우리 아돌 영감에게 샤우라 둥지에서 샤우라의 껍질이나 꼬리를 구해다 준다면서? 에고, 이놈에 영감탱이가 맨손으로 꼬리를 만져대서... 내가 조마조마해서 견딜 수가 있어야지 말이야. 해독제라도 좀 넉넉하면 걱정이 없을텐데… /n^#FF0000노르스름한 독액^#FFFFFF을 구해줄 수 있겠는가? #FF0000노랑 꼬리 샤우라^#FFFFFF를 잡으면 나올거야." npc="샐리 할멈">
+			<subjectPos subjectStr="노르스름한 독액 획득" mapTargetId="401608"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[샐리 할멈에게 배달]]" draft="어이구 어이구 젊은이. 자네가 요즘 우리 아돌 영감에게 샤우라 둥지에서 샤우라의 껍질이나 꼬리를 구해다 준다면서? 에고, 이놈에 영감탱이가 맨손으로 꼬리를 만져대서... 내가 조마조마해서 견딜 수가 있어야지 말이야. 해독제라도 좀 넉넉하면 걱정이 없을텐데… /n^#FF0000노르스름한 독액^#FFFFFF을 구해줄 수 있겠는가? #FF0000노랑 꼬리 샤우라^#FFFFFF를 잡으면 나올거야." npc="샐리 할멈">
+			<subjectPos subjectStr="샐리 할멈에게 배달" mapTargetId="402503"/>
+		</Subject>
+		<Storage Collect1_typeID="150305" Collect1_goal="3" Collect1_count="0" target1_type="Collect" target1_prob="30" Collect2_typeID="1036"/>
+		<BasicReward typeID="2100000000" count="421"/>
+	</Quest>
+	<Quest typeID="203101390" typeName="발버둥치고, 또 발버둥 쳐라" group="001" NPC="카일" reportTo="카일" cancelable="1" repeatable="0" retryable="1" lv="38" desc="안녕하세요 모험자님. 실은, 흥미로운 발견을 했습니다. 얼마 전에 샤우라 둥지에서 샤우라들을 헤치며 지나갈 때 창을 던졌는데 말입니다… 창이 튕겨 나오는 샤우라가 있지 뭡니까? /n대단히 단단한 껍질 같았는데… 그 껍질로 강도가 좋은 갑옷을 만들 수 있을 것 같아요. /n제 힘으로는 좀 무리일 것 같아서 그런데… 모험자 님께서 ^#FF0000딱딱한 껍질 샤우라^#FFFFFF의 ^#FF0000매우 단단한 껍질^#FFFFFF을 좀 구해 주실 수 있을까요?" difficulty="1" onMessage="HuntCollect2_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="27358" rewardCombatJobEXP="90400" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203101_Explain1" desc="[[매우 단단한 껍질 획득]]" draft="안녕하세요 모험자님. 실은, 흥미로운 발견을 했습니다. 얼마 전에 샤우라 둥지에서 샤우라들을 헤치며 지나갈 때 창을 던졌는데 말입니다… 창이 튕겨 나오는 샤우라가 있지 뭡니까? /n대단히 단단한 껍질 같았는데… 그 껍질로 강도가 좋은 갑옷을 만들 수 있을 것 같아요. /n제 힘으로는 좀 무리일 것 같아서 그런데… 모험자 님께서 ^#FF0000딱딱한 껍질 샤우라^#FFFFFF의 ^#FF0000매우 단단한 껍질^#FFFFFF을 좀 구해 주실 수 있을까요?" npc="카일">
+			<subjectPos subjectStr="매우 단단한 껍질 획득" mapTargetId="401609"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[카일에게 배달]]" draft="안녕하세요 모험자님. 실은, 흥미로운 발견을 했습니다. 얼마 전에 샤우라 둥지에서 샤우라들을 헤치며 지나갈 때 창을 던졌는데 말입니다… 창이 튕겨 나오는 샤우라가 있지 뭡니까? /n대단히 단단한 껍질 같았는데… 그 껍질로 강도가 좋은 갑옷을 만들 수 있을 것 같아요. /n제 힘으로는 좀 무리일 것 같아서 그런데… 모험자 님께서 ^#FF0000딱딱한 껍질 샤우라^#FFFFFF의 ^#FF0000매우 단단한 껍질^#FFFFFF을 좀 구해 주실 수 있을까요?" npc="카일">
+			<subjectPos subjectStr="카일에게 배달" mapTargetId="402506"/>
+		</Subject>
+		<Storage Collect1_typeID="150306" Collect1_goal="1" Collect1_count="0" target1_type="Collect" target1_prob="90" Collect2_typeID="1045"/>
+		<BasicReward typeID="2100000000" count="421"/>
+	</Quest>
+	<Quest typeID="203101400" typeName="평생의 숙적" group="001" NPC="아돌 할아범" reportTo="아돌 할아범" cancelable="1" repeatable="0" retryable="1" lv="38" desc="에헴. 이보게… 자네… 잠깐 이리 와 보게. 흠… 자네에게 이 늙은이의 이야기를 좀 해 볼까 하고 말이야. 내게는… 평생의 숙적이 있었지./n ^#FF0000스쿨피^#FFFFFF 라는 녀석인데 그 놈은 내가 젊은 시절, 이 마을에 처음 정착 할 때 부터 이 사막을 호령하던 강한 몬스터였어. 나는 그놈과 몇 번이나 격렬한 사투를 벌였지... 하지만 매번 무승부로 끝나고 말았어. 놈은 상처입고 나는 도망쳤지... /n하지만... 이제 나는 늙었네. 놈은 전혀 변함이 없지만 말이네. 자네가 내 평생의 숙적을 없애 주게. 그 놈은 너무 오래 살았고, 너무 많은 생명을 해쳤어... /n...자네라면 ...그 놈을 해치우는 일을 맡길 수 있을 것 같아서 그러네. 녀석은 샤우라 둥지 서쪽을 주유하고 있을걸세." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="27358" rewardCombatJobEXP="90400" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[스쿨피 처치]]" draft="에헴. 이보게… 자네… 잠깐 이리 와 보게. 흠… 자네에게 이 늙은이의 이야기를 좀 해 볼까 하고 말이야. 내게는… 평생의 숙적이 있었지./n ^#FF0000스쿨피^#FFFFFF 라는 녀석인데 그 놈은 내가 젊은 시절, 이 마을에 처음 정착 할 때 부터 이 사막을 호령하던 강한 몬스터였어. 나는 그놈과 몇 번이나 격렬한 사투를 벌였지... 하지만 매번 무승부로 끝나고 말았어. 놈은 상처입고 나는 도망쳤지... /n하지만... 이제 나는 늙었네. 놈은 전혀 변함이 없지만 말이네. 자네가 내 평생의 숙적을 없애 주게. 그 놈은 너무 오래 살았고, 너무 많은 생명을 해쳤어... /n...자네라면 ...그 놈을 해치우는 일을 맡길 수 있을 것 같아서 그러네. 녀석은 샤우라 둥지 서쪽을 주유하고 있을걸세." npc="아돌 할아범">
+			<subjectPos subjectStr="스쿨피 처치" mapTargetId="401610"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[아돌 할아범에게 보고]]" draft="에헴. 이보게… 자네… 잠깐 이리 와 보게. 흠… 자네에게 이 늙은이의 이야기를 좀 해 볼까 하고 말이야. 내게는… 평생의 숙적이 있었지./n ^#FF0000스쿨피^#FFFFFF 라는 녀석인데 그 놈은 내가 젊은 시절, 이 마을에 처음 정착 할 때 부터 이 사막을 호령하던 강한 몬스터였어. 나는 그놈과 몇 번이나 격렬한 사투를 벌였지... 하지만 매번 무승부로 끝나고 말았어. 놈은 상처입고 나는 도망쳤지... /n하지만... 이제 나는 늙었네. 놈은 전혀 변함이 없지만 말이네. 자네가 내 평생의 숙적을 없애 주게. 그 놈은 너무 오래 살았고, 너무 많은 생명을 해쳤어... /n...자네라면 ...그 놈을 해치우는 일을 맡길 수 있을 것 같아서 그러네. 녀석은 샤우라 둥지 서쪽을 주유하고 있을걸세." npc="아돌 할아범">
+			<subjectPos subjectStr="아돌 할아범에게 보고" mapTargetId="402504"/>
+		</Subject>
+		<Storage Hunt1_typeID="1046" Hunt1_goal="1" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="421"/>
+	</Quest>
+	<Quest typeID="203101410" typeName="미래는 온전히 검지 않다" group="001" NPC="카일" reportTo="카일" cancelable="1" repeatable="0" retryable="1" lv="38" desc="들었습니다, 모험자님. 아돌 할아버지의 평생의 소원을 이뤄 주셨다고요. 저는 이제까지… 사실 희망이라곤 보이지 않는다고 생각했습니다. /n하지만 말입니다. 모험자님을 보고 있으면… 어쩐지 희망이 보입니다. 이 열기와 죽음의 기운으로 가득 찬 사막에도… ^#3399FF희망^#FFFFFF이 보인다는 말입니다. /n저는 비록 모험을 떠날 수 없지만... 모험자님은 꼭 그 ^#3399FF라임^#FFFFFF이란 것을 찾길 바랍니다. /n아차차… 모험자님께 알려드리고 싶은 정보가 있는데… 들어 보실 런지요?" difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="27358" rewardCombatJobEXP="90400" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[카일과 대화]]" draft="들었습니다, 모험자님. 아돌 할아버지의 평생의 소원을 이뤄 주셨다고요. 저는 이제까지… 사실 희망이라곤 보이지 않는다고 생각했습니다. /n하지만 말입니다. 모험자님을 보고 있으면… 어쩐지 희망이 보입니다. 이 열기와 죽음의 기운으로 가득 찬 사막에도… ^#3399FF희망^#FFFFFF이 보인다는 말입니다. /n저는 비록 모험을 떠날 수 없지만... 모험자님은 꼭 그 ^#3399FF^#3399FF라임^#FFFFFF^#FFFFFF이란 것을 찾길 바랍니다. /n아차차… 모험자님께 알려드리고 싶은 정보가 있는데… 들어 보실 런지요?" npc="카일">
+			<subjectPos subjectStr="카일과 대화" mapTargetId="402406"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[카일의 이야기 듣기]]" draft="들었습니다, 모험자님. 아돌 할아버지의 평생의 소원을 이뤄 주셨다고요. 저는 이제까지… 사실 희망이라곤 보이지 않는다고 생각했습니다. /n하지만 말입니다. 모험자님을 보고 있으면… 어쩐지 희망이 보입니다. 이 열기와 죽음의 기운으로 가득 찬 사막에도… ^#3399FF희망^#FFFFFF이 보인다는 말입니다. /n저는 비록 모험을 떠날 수 없지만... 모험자님은 꼭 그 ^#3399FF^#3399FF라임^#FFFFFF^#FFFFFF이란 것을 찾길 바랍니다. /n아차차… 모험자님께 알려드리고 싶은 정보가 있는데… 들어 보실 런지요?" npc="카일">
+			<subjectPos subjectStr="카일의 이야기 듣기" mapTargetId="402506"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="421"/>
+	</Quest>
+	<Quest typeID="203101420" typeName="라임보다 불가사리" group="001" NPC="스쿠르 학자" reportTo="스쿠르 학자" cancelable="1" repeatable="0" retryable="1" lv="39" desc="잉? 자네는 뭔데 이 근처에서 얼쩡거리는 겐가? 나는 지금 이 이상한 일을 규명해야만 한다고! 난 연구로 바쁘니까 한가하면 옆에 있는 휴먼, ^#3399FF틴트^#FFFFFF나 도와주던가. 비켜비켜!" difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="31407" rewardCombatJobEXP="98540" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[스쿠르 학자와 대화]]" draft="잉? 자네는 뭔데 이 근처에서 얼쩡거리는 겐가? 나는 지금 이 이상한 일을 규명해야만 한다고! 난 연구로 바쁘니까 한가하면 옆에 있는 휴먼, ^#3399FF틴트^#FFFFFF나 도와주던가. 비켜비켜!" npc="스쿠르 학자">
+			<subjectPos subjectStr="스쿠르 학자와 대화" mapTargetId="402405"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[스쿠르 학자의 이야기 듣기]]" draft="잉? 자네는 뭔데 이 근처에서 얼쩡거리는 겐가? 나는 지금 이 이상한 일을 규명해야만 한다고! 난 연구로 바쁘니까 한가하면 옆에 있는 휴먼, ^#3399FF틴트^#FFFFFF나 도와주던가. 비켜비켜!" npc="스쿠르 학자">
+			<subjectPos subjectStr="스쿠르 학자의 이야기 듣기" mapTargetId="402505"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="450"/>
+	</Quest>
+	<Quest typeID="203101430" typeName="사막의 미스터리를 찾아서 1" group="001" NPC="연구 보조원 틴트" reportTo="연구 보조원 틴트" cancelable="1" repeatable="0" retryable="1" lv="39" desc="저를 도와주신다고요? 흠... 당신은 연구에 대해 듣고 싶으신 거로군요. 사실 이 부근에서 이상한 일이 일어나고 있는 건 사실입니다. 몬스터들이 무척이나 난폭한 데다, 이상한 불가사리로 추정되는 몬스터도 있거든요. 일단 난폭해진 몬스터들의 샘플을 채취하는 중입니다. 절 돕고 싶으시다면… 샤우라 둥지 남쪽의 ^#FF0000분노한 푸른 쿠코스^#FFFFFF의 ^#FF0000가루가 된 껍질^#FFFFFF을 모아 와 주시겠습니까?" difficulty="1" onMessage="HuntCollect2_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="31536" rewardCombatJobEXP="98540" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203101_Explain1" desc="[[가루가 된 껍질 획득]]" draft="저를 도와주신다고요? 흠... 당신은 연구에 대해 듣고 싶으신 거로군요. 사실 이 부근에서 이상한 일이 일어나고 있는 건 사실입니다. 몬스터들이 무척이나 난폭한 데다, 이상한 불가사리로 추정되는 몬스터도 있거든요. 일단 난폭해진 몬스터들의 샘플을 채취하는 중입니다. 절 돕고 싶으시다면… 샤우라 둥지 남쪽의 ^#FF0000분노한 푸른 쿠코스^#FFFFFF의 ^#FF0000가루가 된 껍질^#FFFFFF을 모아 와 주시겠습니까?" npc="연구 보조원 틴트">
+			<subjectPos subjectStr="가루가 된 껍질 획득" mapTargetId="401611"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[연구 보조원 틴트에게 배달]]" draft="저를 도와주신다고요? 흠... 당신은 연구에 대해 듣고 싶으신 거로군요. 사실 이 부근에서 이상한 일이 일어나고 있는 건 사실입니다. 몬스터들이 무척이나 난폭한 데다, 이상한 불가사리로 추정되는 몬스터도 있거든요. 일단 난폭해진 몬스터들의 샘플을 채취하는 중입니다. 절 돕고 싶으시다면… 샤우라 둥지 남쪽의 ^#FF0000분노한 푸른 쿠코스^#FFFFFF의 ^#FF0000가루가 된 껍질^#FFFFFF을 모아 와 주시겠습니까?" npc="연구 보조원 틴트">
+			<subjectPos subjectStr="연구 보조원 틴트에게 배달" mapTargetId="402510"/>
+		</Subject>
+		<Storage Collect1_typeID="150307" Collect1_goal="3" Collect1_count="0" target1_type="Collect" target1_prob="40" Collect2_typeID="1047"/>
+		<BasicReward typeID="2100000000" count="450"/>
+	</Quest>
+	<Quest typeID="203101440" typeName="사막의 미스터리를 찾아서 2" group="001" NPC="연구 보조원 틴트" reportTo="연구 보조원 틴트" cancelable="1" repeatable="0" retryable="1" lv="39" desc="아무래도 물을 섭취하지 못하여 난폭해 진 것 같은데 말입니다, 분명 이 부근에는 수원이 없지 않습니까? /n이거이거… 스쿠르 학자가 흥미를 가질 만 하군요. 이제부터 본격적으로 연구를 진행 할 생각인데 말입니다, 음… 주변의 몬스터들이 좀 신경 쓰이는 군요. /n우선 이 주변부터 싹~ 정리 해 주실 수 있습니까? 샤우라 둥지 남쪽의 ^#FF0000분노한 노랑 자이쿠^#FFFFFF와 ^#FF0000분노한 사막 아가마^#FFFFFF들 때문에 연구를 진행 할 수가 없어서 그럽니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="31536" rewardCombatJobEXP="98540" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203101_Explain2" desc="[[분노한 노랑 자이쿠 처치]][[분노한 사막 아가마 처치]]" draft="아무래도 물을 섭취하지 못하여 난폭해 진 것 같은데 말입니다, 분명 이 부근에는 수원이 없지 않습니까? /n이거이거… 스쿠르 학자가 흥미를 가질 만 하군요. 이제부터 본격적으로 연구를 진행 할 생각인데 말입니다, 음… 주변의 몬스터들이 좀 신경 쓰이는 군요. /n우선 이 주변부터 싹~ 정리 해 주실 수 있습니까? 샤우라 둥지 남쪽의 ^#FF0000분노한 노랑 자이쿠^#FFFFFF와 ^#FF0000분노한 사막 아가마^#FFFFFF들 때문에 연구를 진행 할 수가 없어서 그럽니다." npc="연구 보조원 틴트">
+			<subjectPos subjectStr="분노한 노랑 자이쿠 처치" mapTargetId="401612"/>
+			<subjectPos subjectStr="분노한 사막 아가마 처치" mapTargetId="401612"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[연구 보조원 틴트에게 보고]]" draft="아무래도 물을 섭취하지 못하여 난폭해 진 것 같은데 말입니다, 분명 이 부근에는 수원이 없지 않습니까? /n이거이거… 스쿠르 학자가 흥미를 가질 만 하군요. 이제부터 본격적으로 연구를 진행 할 생각인데 말입니다, 음… 주변의 몬스터들이 좀 신경 쓰이는 군요. /n우선 이 주변부터 싹~ 정리 해 주실 수 있습니까? 샤우라 둥지 남쪽의 ^#FF0000분노한 노랑 자이쿠^#FFFFFF와 ^#FF0000분노한 사막 아가마^#FFFFFF들 때문에 연구를 진행 할 수가 없어서 그럽니다." npc="연구 보조원 틴트">
+			<subjectPos subjectStr="연구 보조원 틴트에게 보고" mapTargetId="402510"/>
+		</Subject>
+		<Storage Hunt1_typeID="1050" Hunt1_goal="15" Hunt1_count="0" target1_type="Hunt" Hunt2_typeID="1053" Hunt2_goal="15" Hunt2_count="0" target2_type="Hunt" target_number="2"/>
+		<BasicReward typeID="2100000000" count="450"/>
+	</Quest>
+	<Quest typeID="203101450" typeName="사막의 미스터리를 찾아서 3" group="001" NPC="스쿠르 학자" reportTo="스쿠르 학자" cancelable="1" repeatable="0" retryable="1" lv="39" desc="틴트의 일을 돕기 시작했다고? 당신은 정말 이상한 휴먼 같구먼. 뭐, 그렇다면 내 일도 좀 도와주게. 이곳 근처에는 불가사리로 추정되는 몬스터들이 있어. /n놈들의 샘플을 채취해 줘. 정말 우습지 않나? 사막에 불가사리 몬스터라니. /n아무래도 이상해... 알 아미르 북쪽의 ^#FF0000비실비실한 불가사리^#FFFFFF를 잡아서 ^#FF0000비실비실한  샘플^#FFFFFF을 구해줘… /n크흑. 정말 미스터리한 일이야… " difficulty="1" onMessage="HuntCollect2_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="31536" rewardCombatJobEXP="98540" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203101_Explain1" desc="[[비실비실 샘플 획득]]" draft="틴트의 일을 돕기 시작했다고? 당신은 정말 이상한 휴먼 같구먼. 뭐, 그렇다면 내 일도 좀 도와주게. 이곳 근처에는 불가사리로 추정되는 몬스터들이 있어. /n놈들의 샘플을 채취해 줘. 정말 우습지 않나? 사막에 불가사리 몬스터라니. /n아무래도 이상해... 알 아미르 북쪽의 ^#FF0000비실비실한 불가사리^#FFFFFF를 잡아서 ^#FF0000비실비실한  샘플^#FFFFFF을 구해줘… /n크흑. 정말 미스터리한 일이야… " npc="스쿠르 학자">
+			<subjectPos subjectStr="비실비실 샘플 획득" mapTargetId="401613"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[스쿠르 학자에게 배달]]" draft="틴트의 일을 돕기 시작했다고? 당신은 정말 이상한 휴먼 같구먼. 뭐, 그렇다면 내 일도 좀 도와주게. 이곳 근처에는 불가사리로 추정되는 몬스터들이 있어. /n놈들의 샘플을 채취해 줘. 정말 우습지 않나? 사막에 불가사리 몬스터라니. /n아무래도 이상해... 알 아미르 북쪽의 ^#FF0000비실비실한 불가사리^#FFFFFF를 잡아서 ^#FF0000비실비실한  샘플^#FFFFFF을 구해줘… /n크흑. 정말 미스터리한 일이야… " npc="스쿠르 학자">
+			<subjectPos subjectStr="스쿠르 학자에게 배달" mapTargetId="402505"/>
+		</Subject>
+		<Storage Collect1_typeID="150308" Collect1_goal="3" Collect1_count="0" target1_type="Collect" target1_prob="50" Collect2_typeID="1056"/>
+		<BasicReward typeID="2100000000" count="450"/>
+	</Quest>
+	<Quest typeID="203101460" typeName="사막의 미스터리를 찾아서 4" group="001" NPC="스쿠르 학자" reportTo="스쿠르 학자" cancelable="1" repeatable="0" retryable="1" lv="39" desc="뭐 지난번엔 덕분에 잘 되었어. 자네는 꽤나 믿을만 한 자 같으니 이번에도 수고 해 줘. 요번엔 ^#FF0000팔팔한 샘플^#FFFFFF과 ^#FF0000튼튼한 샘플^#FFFFFF을 가져와 줘. 물론 ^#FF0000팔팔한 불가사리^#FFFFFF와 ^#FF0000튼튼한 불가사리^#FFFFFF를 잡아야 나온다는 건 알겠지? 알 아미르 북쪽 산 밑에 많을 테니 냉큼 뛰어 가서 구해 오라고. 싱싱해야 하니까, 빨리빨리 움직여!" difficulty="1" onMessage="Quest203101460_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="31536" rewardCombatJobEXP="98540" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203101460_Explain" desc="[[팔팔한 샘플 획득]][[튼튼한 샘플 획득]]" draft="뭐 지난번엔 덕분에 잘 되었어. 자네는 꽤나 믿을만 한 자 같으니 이번에도 수고 해 줘. 요번엔 ^#FF0000팔팔한 샘플^#FFFFFF과 ^#FF0000튼튼한 샘플^#FFFFFF을 가져와 줘. 물론 ^#FF0000팔팔한 불가사리^#FFFFFF와 ^#FF0000튼튼한 불가사리^#FFFFFF를 잡아야 나온다는 건 알겠지? 알 아미르 북쪽 산 밑에 많을 테니 냉큼 뛰어 가서 구해 오라고. 싱싱해야 하니까, 빨리빨리 움직여!" npc="스쿠르 학자">
+			<subjectPos subjectStr="팔팔한 샘플 획득" mapTargetId="401614"/>
+			<subjectPos subjectStr="튼튼한 샘플 획득" mapTargetId="401614"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[스쿠르 학자에게 배달]]" draft="뭐 지난번엔 덕분에 잘 되었어. 자네는 꽤나 믿을만 한 자 같으니 이번에도 수고 해 줘. 요번엔 ^#FF0000팔팔한 샘플^#FFFFFF과 ^#FF0000튼튼한 샘플^#FFFFFF을 가져와 줘. 물론 ^#FF0000팔팔한 불가사리^#FFFFFF와 ^#FF0000튼튼한 불가사리^#FFFFFF를 잡아야 나온다는 건 알겠지? 알 아미르 북쪽 산 밑에 많을 테니 냉큼 뛰어 가서 구해 오라고. 싱싱해야 하니까, 빨리빨리 움직여!" npc="스쿠르 학자">
+			<subjectPos subjectStr="스쿠르 학자에게 배달" mapTargetId="402505"/>
+		</Subject>
+		<Storage Collect1_typeID="150309" Collect1_goal="3" Collect1_count="0" target1_type="Collect" Collect2_typeID="150310" Collect2_goal="3" Collect2_count="0" target2_type="Collect" Collect3_typeID="1057" Collect4_typeID="1058" target1_prob="60"/>
+		<BasicReward typeID="2100000000" count="450"/>
+	</Quest>
+	<Quest typeID="203101470" typeName="사막의 미스터리를 찾아서 5" group="001" NPC="스쿠르 학자" reportTo="스쿠르 학자" cancelable="1" repeatable="0" retryable="1" lv="39" desc="이봐, 모험하는자. 저쪽 구석에서 혹시 그 수원을 보았나? 틴트와 나는 언뜻 봐서 일단 물이 있다는 사실 만 알게 되었지. 크흐흑! 거대하게 부어 오른 ^#FF0000뚱뚱한 불가사리^#FFFFFF라니! 정말 괴상하다고나 할까. 킁! 그 녀석의 학명은 뚱불이라고 정하기로 했네. /n에헴. 어때, 멋진 이름이지? 뭐야? 그 표정은? 일단은 그 수원을 조사해 보면 나오겠지만, 샘플에서 조사한 내용을 좀 알려주지. /n분명 그 근처에 수원이 있기 때문에 그 불가사리 놈들이 살아가는 게 가능 한 거야. 흐흐... 더 이상은 알려주기 곤란하네. 그리고 이번 일이 마지막이야. 뚱불의 ^#FF0000부어오른 샘플^#FFFFFF을 구해다 줘." difficulty="1" onMessage="HuntCollect2_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="31536" rewardCombatJobEXP="98540" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203101_Explain1" desc="[[부어오른 샘플 획득]]" draft="이봐, 모험하는자. 저쪽 구석에서 혹시 그 수원을 보았나? 틴트와 나는 언뜻 봐서 일단 물이 있다는 사실 만 알게 되었지. 크흐흑! 거대하게 부어 오른 ^#FF0000뚱뚱한 불가사리^#FFFFFF라니! 정말 괴상하다고나 할까. 킁! 그 녀석의 학명은 뚱불이라고 정하기로 했네. /n에헴. 어때, 멋진 이름이지? 뭐야? 그 표정은? 일단은 그 수원을 조사해 보면 나오겠지만, 샘플에서 조사한 내용을 좀 알려주지. /n분명 그 근처에 수원이 있기 때문에 그 불가사리 놈들이 살아가는 게 가능 한 거야. 흐흐... 더 이상은 알려주기 곤란하네. 그리고 이번 일이 마지막이야. 뚱불의 ^#FF0000부어오른 샘플^#FFFFFF을 구해다 줘." npc="스쿠르 학자">
+			<subjectPos subjectStr="부어오른 샘플 획득" mapTargetId="401615"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[스쿠르 학자에게 배달]]" draft="이봐, 모험하는자. 저쪽 구석에서 혹시 그 수원을 보았나? 틴트와 나는 언뜻 봐서 일단 물이 있다는 사실 만 알게 되었지. 크흐흑! 거대하게 부어 오른 ^#FF0000뚱뚱한 불가사리^#FFFFFF라니! 정말 괴상하다고나 할까. 킁! 그 녀석의 학명은 뚱불이라고 정하기로 했네. /n에헴. 어때, 멋진 이름이지? 뭐야? 그 표정은? 일단은 그 수원을 조사해 보면 나오겠지만, 샘플에서 조사한 내용을 좀 알려주지. /n분명 그 근처에 수원이 있기 때문에 그 불가사리 놈들이 살아가는 게 가능 한 거야. 흐흐... 더 이상은 알려주기 곤란하네. 그리고 이번 일이 마지막이야. 뚱불의 ^#FF0000부어오른 샘플^#FFFFFF을 구해다 줘." npc="스쿠르 학자">
+			<subjectPos subjectStr="스쿠르 학자에게 배달" mapTargetId="402505"/>
+		</Subject>
+		<Storage Collect1_typeID="150311" Collect1_goal="1" Collect1_count="0" target1_type="Collect" target1_prob="60" Collect2_typeID="1059"/>
+		<BasicReward typeID="2100000000" count="450"/>
+	</Quest>
+	<Quest typeID="203101480" typeName="동굴속의 진실" group="001" NPC="연구 보조원 틴트" reportTo="경비참모" cancelable="1" repeatable="0" retryable="1" lv="39" desc="모험자 님 덕분에 이 곳의 조사를 빨리 끝낼 수 있었습니다. 몬스터의 샘플을 구하는 게 가장 큰 문제 였거든요. 아마 이 모래 속에는 지하수가 흐는게 분명합니다. 과거에 이곳 로우란 사막은 로우란 숲이었다는 전설이 있는데 그게 맞는 말일 수도 있겠어요. 좀 더 본격적으로 조사 하고 싶지만 지금은 연구 자금이 모이질 않았으니... 하아. 하지만 이 아래 무언가 있다는 건 확신할 수 있겠지요. 도와주셔서 감사합니다. 아... 혹시 여기서 남쪽에 있는 ^#3399FF알 아미르^#FFFFFF 마을에는 가 보셨습니까? 모래 때문에 잘 보이지 않을까 해서 알려드립니다. 그럼... " difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="31536" rewardCombatJobEXP="98540" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[연구 보조원 틴트와 대화]]" draft="모험자 님 덕분에 이 곳의 조사를 빨리 끝낼 수 있었습니다. 몬스터의 샘플을 구하는 게 가장 큰 문제 였거든요. 아마 이 모래 속에는 지하수가 흐는게 분명합니다. 과거에 이곳 로우란 사막은 로우란 숲이었다는 전설이 있는데 그게 맞는 말일 수도 있겠어요. 좀 더 본격적으로 조사 하고 싶지만 지금은 연구 자금이 모이질 않았으니... 하아. 하지만 이 아래 무언가 있다는 건 확신할 수 있겠지요. 도와주셔서 감사합니다. 아... 혹시 여기서 남쪽에 있는 ^#3399FF알 아미르^#FFFFFF 마을에는 가 보셨습니까? 모래 때문에 잘 보이지 않을까 해서 알려드립니다. 그럼... " npc="연구 보조원 틴트">
+			<subjectPos subjectStr="연구 보조원 틴트와 대화" mapTargetId="402410"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[경비참모와 대화]]" draft="모험자 님 덕분에 이 곳의 조사를 빨리 끝낼 수 있었습니다. 몬스터의 샘플을 구하는 게 가장 큰 문제 였거든요. 아마 이 모래 속에는 지하수가 흐는게 분명합니다. 과거에 이곳 로우란 사막은 로우란 숲이었다는 전설이 있는데 그게 맞는 말일 수도 있겠어요. 좀 더 본격적으로 조사 하고 싶지만 지금은 연구 자금이 모이질 않았으니... 하아. 하지만 이 아래 무언가 있다는 건 확신할 수 있겠지요. 도와주셔서 감사합니다. 아... 혹시 여기서 남쪽에 있는 ^#3399FF알 아미르^#FFFFFF 마을에는 가 보셨습니까? 모래 때문에 잘 보이지 않을까 해서 알려드립니다. 그럼... " npc="경비참모">
+			<subjectPos subjectStr="경비참모와 대화" mapTargetId="402510"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="450"/>
+	</Quest>
+	<Quest typeID="203101110" typeName="피킨의 배신자1" group="001" NPC="뇨미" reportTo="오비룬" cancelable="1" repeatable="0" retryable="1" lv="40" desc="어머나 이 일을 어쩌죠? 이런 때면 에칭크님이 조언을 해주시곤 했는데 지금 감옥에 계시니……/n아, 님은 외지인이시군요. 실은 우리 피킨 노예 해방군의 재장이신 에칭크님께서 얼마 전에 마티나군에게 잡혀가셨거든요. 관리의 노예인 저는 일을 하다 그만 에칭크님을 고발하는 투서가 피킨이 쓴거라는 이야기를 듣고 말았어요./n피킨에 배신자가 있다니! 에칭크께 얘기하면 좋은 수가 나오겠지만 감옥에 계시니 대신....무기 상의 노예인 ^#3399FF오비룬^#FFFFFF님께라도 알려주세요." difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="32640" rewardCombatJobEXP="109880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[뇨미와 대화]]" draft="어머나 이 일을 어쩌죠? 이런 때면 에칭크님이 조언을 해주시곤 했는데 지금 감옥에 계시니……/n아, 님은 외지인이시군요. 실은 우리 피킨 노예 해방군의 재장이신 에칭크님께서 얼마 전에 마티나군에게 잡혀가셨거든요. 관리의 노예인 저는 일을 하다 그만 에칭크님을 고발하는 투서가 피킨이 쓴거라는 이야기를 듣고 말았어요./n피킨에 배신자가 있다니! 에칭크께 얘기하면 좋은 수가 나오겠지만 감옥에 계시니 대신....무기 상의 노예인 ^#3399FF오비룬^#FFFFFF님께라도 알려주세요." npc="뇨미">
+			<subjectPos subjectStr="뇨미와 대화" mapTargetId="403405"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[오비룬과 대화]]" draft="어머나 이 일을 어쩌죠? 이런 때면 에칭크님이 조언을 해주시곤 했는데 지금 감옥에 계시니……/n아, 님은 외지인이시군요. 실은 우리 피킨 노예 해방군의 재장이신 에칭크님께서 얼마 전에 마티나군에게 잡혀가셨거든요. 관리의 노예인 저는 일을 하다 그만 에칭크님을 고발하는 투서가 피킨이 쓴거라는 이야기를 듣고 말았어요./n피킨에 배신자가 있다니! 에칭크께 얘기하면 좋은 수가 나오겠지만 감옥에 계시니 대신....무기 상의 노예인 ^#3399FF오비룬^#FFFFFF님께라도 알려주세요." npc="오비룬">
+			<subjectPos subjectStr="오비룬과 대화" mapTargetId="403503"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="498"/>
+	</Quest>
+	<Quest typeID="203101120" typeName="피킨의 배신자2" group="001" NPC="오비룬" reportTo="오비룬" cancelable="1" repeatable="0" retryable="1" lv="40" desc="배신자를 그냥 두면 알 아미르의 노예 피킨 전체가 위험해집니다요!/n다행히도 그 배신자를 알아 낼 수 있는 방법이 하나 있긴 하죠. 마티나들은 더러운 습관이 있어 쓰레기를 모두 마을 밖에 버리죠. 버린 쓰레기는 트로우나가 집어 먹고요./n그 투서라는 것도 분명 알 아미르 남쪽에 있는 트로우나의 뱃속에 들어가 있을 겁니다요. 그게 소화가 되기 전에 어서 ^#FF0000트로우나^#FFFFFF를 잡아 ^#FF0000배신의 투서^#FFFFFF를 구해다 주셨으면 합니다요." difficulty="1" onMessage="HuntCollect2_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="32640" rewardCombatJobEXP="109880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203101_Explain1" desc="[[배신의 투서 획득]]" draft="배신자를 그냥 두면 알 아미르의 노예 피킨 전체가 위험해집니다요!/n다행히도 그 배신자를 알아 낼 수 있는 방법이 하나 있긴 하죠. 마티나들은 더러운 습관이 있어 쓰레기를 모두 마을 밖에 버리죠. 버린 쓰레기는 트로우나가 집어 먹고요./n그 투서라는 것도 분명 알 아미르 남쪽에 있는 트로우나의 뱃속에 들어가 있을 겁니다요. 그게 소화가 되기 전에 어서 ^#FF0000트로우나^#FFFFFF를 잡아 ^#FF0000배신의 투서^#FFFFFF를 구해다 주셨으면 합니다요." npc="오비룬">
+			<subjectPos subjectStr="배신의 투서 획득" mapTargetId="403601"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[오비룬에게 배달]]" draft="배신자를 그냥 두면 알 아미르의 노예 피킨 전체가 위험해집니다요!/n다행히도 그 배신자를 알아 낼 수 있는 방법이 하나 있긴 하죠. 마티나들은 더러운 습관이 있어 쓰레기를 모두 마을 밖에 버리죠. 버린 쓰레기는 트로우나가 집어 먹고요./n그 투서라는 것도 분명 알 아미르 남쪽에 있는 트로우나의 뱃속에 들어가 있을 겁니다요. 그게 소화가 되기 전에 어서 ^#FF0000트로우나^#FFFFFF를 잡아 ^#FF0000배신의 투서^#FFFFFF를 구해다 주셨으면 합니다요." npc="오비룬">
+			<subjectPos subjectStr="오비룬에게 배달" mapTargetId="403503"/>
+		</Subject>
+		<Storage Collect1_typeID="150295" Collect1_goal="1" Collect1_count="0" target1_type="Collect" target1_prob="50" Collect2_typeID="1064"/>
+		<BasicReward typeID="2100000000" count="498"/>
+	</Quest>
+	<Quest typeID="203101130" typeName="피킨의 배신자3" group="001" NPC="오비룬" reportTo="도레인" cancelable="1" repeatable="0" retryable="1" lv="40" desc="배신자는 바로 도레인의 형인 도란테인 것 같습니다요. 그 형제 피킨의 주인은 아주 성질이 못되 주인의 그림자를 밝았다는 이유로 ^#3399FF오아시스의 숲^#FFFFFF에 도레인를 묶어 두고 굶겨 죽이려 하고 있지요. 슈카 감시용병까지 붙여 아무도 도울 수 없게 하고 말입니다요./n도란테에게 해방군의 대장의 이름을 대면 도레인를 풀어준다고 했나 봅니다요./n배신은 괘씸하지만…이건 모두 우리 피킨이 힘이 없어서 당하는 일…부디 ^#3399FF도레인^#FFFFFF를 풀어주세요. 부탁입니다요." difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="32640" rewardCombatJobEXP="109880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[오비룬과 대화]]" draft="배신자는 바로 도레인의 형인 도란테인 것 같습니다요. 그 형제 피킨의 주인은 아주 성질이 못되 주인의 그림자를 밝았다는 이유로 ^#3399FF오아시스의 숲^#FFFFFF에 도레인를 묶어 두고 굶겨 죽이려 하고 있지요. 슈카 감시용병까지 붙여 아무도 도울 수 없게 하고 말입니다요./n도란테에게 해방군의 대장의 이름을 대면 도레인를 풀어준다고 했나 봅니다요./n배신은 괘씸하지만…이건 모두 우리 피킨이 힘이 없어서 당하는 일…부디 ^#3399FF도레인^#FFFFFF를 풀어주세요. 부탁입니다요." npc="오비룬">
+			<subjectPos subjectStr="오비룬과 대화" mapTargetId="403403"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[도레인과 대화]]" draft="배신자는 바로 도레인의 형인 도란테인 것 같습니다요. 그 형제 피킨의 주인은 아주 성질이 못되 주인의 그림자를 밝았다는 이유로 ^#3399FF오아시스의 숲^#FFFFFF에 도레인를 묶어 두고 굶겨 죽이려 하고 있지요. 슈카 감시용병까지 붙여 아무도 도울 수 없게 하고 말입니다요./n도란테에게 해방군의 대장의 이름을 대면 도레인를 풀어준다고 했나 봅니다요./n배신은 괘씸하지만…이건 모두 우리 피킨이 힘이 없어서 당하는 일…부디 ^#3399FF도레인^#FFFFFF를 풀어주세요. 부탁입니다요." npc="도레인">
+			<subjectPos subjectStr="도레인과 대화" mapTargetId="403509"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="498"/>
+	</Quest>
+	<Quest typeID="203101140" typeName="피킨의 배신자4" group="001" NPC="도레인" reportTo="도란테" cancelable="1" repeatable="0" retryable="1" lv="40" desc="형이 저를 구하기 위해 동족을 배신했다고요?!/n정말 형에게 미안해요. 그리고 화가 나요!/n저는 어차피 이제 알 아미르로 돌아 갈 수 없을 것 같으니 모험자님처럼 여행을 떠나겠어요. 더 강한 피킨이 되어 돌아오기 위해서요!/n형인 ^#3399FF도란테^#FFFFFF에게 저는 이제 무사하다는 말을 전해주세요. 정말 미안하는 말도요." difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="32640" rewardCombatJobEXP="109880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[도레인과 대화]]" draft="형이 저를 구하기 위해 동족을 배신했다고요?!/n정말 형에게 미안해요. 그리고 화가 나요!/n저는 어차피 이제 알 아미르로 돌아 갈 수 없을 것 같으니 모험자님처럼 여행을 떠나겠어요. 더 강한 피킨이 되어 돌아오기 위해서요!/n형인 ^#3399FF도란테^#FFFFFF에게 저는 이제 무사하다는 말을 전해주세요. 정말 미안하는 말도요." npc="도레인">
+			<subjectPos subjectStr="도레인과 대화" mapTargetId="403409"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[도란테와 대화]]" draft="형이 저를 구하기 위해 동족을 배신했다고요?!/n정말 형에게 미안해요. 그리고 화가 나요!/n저는 어차피 이제 알 아미르로 돌아 갈 수 없을 것 같으니 모험자님처럼 여행을 떠나겠어요. 더 강한 피킨이 되어 돌아오기 위해서요!/n형인 ^#3399FF도란테^#FFFFFF에게 저는 이제 무사하다는 말을 전해주세요. 정말 미안하는 말도요." npc="도란테">
+			<subjectPos subjectStr="도란테와 대화" mapTargetId="403511"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="498"/>
+	</Quest>
+	<Quest typeID="203101150" typeName="할아버지의 항아리1" group="001" NPC="란세" reportTo="니즈" cancelable="1" repeatable="0" retryable="1" lv="40" desc="쿨럭 쿨럭.. 이 아이가 어디로 갔을까? 다 무너져 가는 더스트 코랄에만 있다가 휘황찬란한 도시로 나오니 뭐가 뭔지 정신이…아무튼 늙으면 죽어야 한다니까./n죽을 땐 죽더라도 잃어 버린 내 손자 얼굴을 한 번 봤으면 하는데 말이오. 조금 전 까지도 옆에 있었는데 그새 어디갔는지 찾을 수가 없소./n두 다리 튼튼한 자네가 내 손자를 찾아주시오. 까무 잡잡한 그 아이의 이름은 ^#3399FF니즈^#FFFFFF라고 하오." difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="32640" rewardCombatJobEXP="109880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[란세와 대화]]" draft="쿨럭 쿨럭.. 이 아이가 어디로 갔을까? 다 무너져 가는 더스트 코랄에만 있다가 휘황찬란한 도시로 나오니 뭐가 뭔지 정신이…아무튼 늙으면 죽어야 한다니까./n죽을 땐 죽더라도 잃어 버린 내 손자 얼굴을 한 번 봤으면 하는데 말이오. 조금 전 까지도 옆에 있었는데 그새 어디갔는지 찾을 수가 없소./n두 다리 튼튼한 자네가 내 손자를 찾아주시오. 까무 잡잡한 그 아이의 이름은 ^#3399FF니즈^#FFFFFF라고 하오." npc="란세">
+			<subjectPos subjectStr="란세와 대화" mapTargetId="403406"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[니즈와 대화]]" draft="쿨럭 쿨럭.. 이 아이가 어디로 갔을까? 다 무너져 가는 더스트 코랄에만 있다가 휘황찬란한 도시로 나오니 뭐가 뭔지 정신이…아무튼 늙으면 죽어야 한다니까./n죽을 땐 죽더라도 잃어 버린 내 손자 얼굴을 한 번 봤으면 하는데 말이오. 조금 전 까지도 옆에 있었는데 그새 어디갔는지 찾을 수가 없소./n두 다리 튼튼한 자네가 내 손자를 찾아주시오. 까무 잡잡한 그 아이의 이름은 ^#3399FF니즈^#FFFFFF라고 하오." npc="니즈">
+			<subjectPos subjectStr="니즈와 대화" mapTargetId="403510"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="498"/>
+	</Quest>
+	<Quest typeID="203101160" typeName="할아버지의 항아리2" group="001" NPC="니즈" reportTo="니즈" cancelable="1" repeatable="0" retryable="1" lv="40" desc="그래! 실은 물을 훔치려고 했다, 왜! 잘못됐냐?! 나쁜 마티나 놈들./n할아버지와 나는 물을 사려고 밤새 항아리를 만들어서 가져왔다고. 헌데 놈들이 그새 물 값을 올려서 돈을 더 가져오라며 물을 팔지 않았어. 게다가 항아리까지 오아시스에 던져 버렸다고!/n나는 물을 못사가는 것보다 더 ^#3399FF할아버지의 항아리^#FFFFFF를 버렸다는게 더 화나./n누군가 ^#3399FF오아시스 바닥^#FFFFFF에 잠겨 버린 항아리를 주워다 주지 않으면 난 삐뚤어 질거야. 정말이라구." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="32640" rewardCombatJobEXP="109880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203101_Explain1" desc="[[할아버지의 항아리 획득]]" draft="그래! 실은 물을 훔치려고 했다, 왜! 잘못됐냐?! 나쁜 마티나 놈들./n할아버지와 나는 물을 사려고 밤새 항아리를 만들어서 가져왔다고. 헌데 놈들이 그새 물 값을 올려서 돈을 더 가져오라며 물을 팔지 않았어. 게다가 항아리까지 오아시스에 던져 버렸다고!/n나는 물을 못사가는 것보다 더 ^#3399FF할아버지의 항아리^#FFFFFF를 버렸다는게 더 화나./n누군가 ^#3399FF오아시스 바닥^#FFFFFF에 잠겨 버린 항아리를 주워다 주지 않으면 난 삐뚤어 질거야. 정말이라구." npc="니즈">
+			<subjectPos subjectStr="할아버지의 항아리 획득" mapTargetId="403602"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[니즈에게 배달]]" draft="그래! 실은 물을 훔치려고 했다, 왜! 잘못됐냐?! 나쁜 마티나 놈들./n할아버지와 나는 물을 사려고 밤새 항아리를 만들어서 가져왔다고. 헌데 놈들이 그새 물 값을 올려서 돈을 더 가져오라며 물을 팔지 않았어. 게다가 항아리까지 오아시스에 던져 버렸다고!/n나는 물을 못사가는 것보다 더 ^#3399FF할아버지의 항아리^#FFFFFF를 버렸다는게 더 화나./n누군가 ^#3399FF오아시스 바닥^#FFFFFF에 잠겨 버린 항아리를 주워다 주지 않으면 난 삐뚤어 질거야. 정말이라구." npc="니즈">
+			<subjectPos subjectStr="니즈에게 배달" mapTargetId="403510"/>
+		</Subject>
+		<Storage Collect1_typeID="150296" Collect1_goal="3" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="498"/>
+	</Quest>
+	<Quest typeID="203101170" typeName="오아시스의 주인1" group="001" NPC="히무스" reportTo="카락스" cancelable="1" repeatable="0" retryable="1" lv="40" desc="흐르는 물에 주인이 어디 있다고 소유권을 주장하냐고! 정말 더러운 마티나 놈이라니까./n누구 얘기냐고? 카락스 놈이지 누구야 누구긴. ...꿍시렁 꿍시렁….아 그래! 바로 그거야!/n이봐 자네. 좋은 일 하나 해. 요즘 오아시스 근처에서 ^#FF0000카드렉스^#FFFFFF라는 놈이 활개 치며 사람들을 해친다던데 놈을 잡아 본떼를 보여줘. 그리고 ^#FF0000카드렉스의 뿔^#FFFFFF을 잘라서 ^#3399FF카락스^#FFFFFF 놈에게 던져주면 좋아할 걸?/n어서 가서 사람들을 그리고 나를 도우라고!크크./n카락스는 오아시스 건너편에 물가에 서 있을거야." difficulty="1" onMessage="HuntCollect1_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="32640" rewardCombatJobEXP="109880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[카드렉스의 뿔 획득]]" draft="흐르는 물에 주인이 어디 있다고 소유권을 주장하냐고! 정말 더러운 마티나 놈이라니까./n누구 얘기냐고? 카락스 놈이지 누구야 누구긴. ...꿍시렁 꿍시렁….아 그래! 바로 그거야!/n이봐 자네. 좋은 일 하나 해. 요즘 오아시스 근처에서 ^#FF0000카드렉스^#FFFFFF라는 놈이 활개 치며 사람들을 해친다던데 놈을 잡아 본떼를 보여줘. 그리고 ^#FF0000카드렉스의 뿔^#FFFFFF을 잘라서 ^#3399FF카락스^#FFFFFF 놈에게 던져주면 좋아할 걸?/n어서 가서 사람들을 그리고 나를 도우라고!크크./n카락스는 오아시스 건너편에 물가에 서 있을거야." npc="히무스">
+			<subjectPos subjectStr="카드렉스의 뿔 획득" mapTargetId="403701"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[카락스에게 배달]]" draft="흐르는 물에 주인이 어디 있다고 소유권을 주장하냐고! 정말 더러운 마티나 놈이라니까./n누구 얘기냐고? 카락스 놈이지 누구야 누구긴. ...꿍시렁 꿍시렁….아 그래! 바로 그거야!/n이봐 자네. 좋은 일 하나 해. 요즘 오아시스 근처에서 ^#FF0000카드렉스^#FFFFFF라는 놈이 활개 치며 사람들을 해친다던데 놈을 잡아 본떼를 보여줘. 그리고 ^#FF0000카드렉스의 뿔^#FFFFFF을 잘라서 ^#3399FF카락스^#FFFFFF 놈에게 던져주면 좋아할 걸?/n어서 가서 사람들을 그리고 나를 도우라고!크크./n카락스는 오아시스 건너편에 물가에 서 있을거야." npc="카락스">
+			<subjectPos subjectStr="카락스에게 배달" mapTargetId="403508"/>
+		</Subject>
+		<Storage Collect1_typeID="150293" Collect1_goal="1" Collect1_count="0" target1_type="Collect" Collect2_typeID="1063"/>
+		<BasicReward typeID="2100000000" count="498"/>
+	</Quest>
+	<Quest typeID="203101180" typeName="오아시스의 주인2" group="001" NPC="카락스" reportTo="히무스" cancelable="1" repeatable="0" retryable="1" lv="40" desc="히무스라는 놈이 시켰다고? 이런 히무스 놈… 내가 오아시스 물을 팔아 돈을 좀 번다고 시기해서 이런 짓을 벌였구나./n흥- 내 귀여운 카드렉스를 죽인 보답을 해야지. 너도 발을 들였으니 책임지라고./n오아시스 안으로 들어가면 히무스 녀석이 키우는 관상용 물풀인 ^#3399FF붉은 물풀^#FFFFFF이 있어. 붉은 물풀의 열매는 십 년에 한번만 열리는데 지금이 딱 십년 째 되는 해이지./n가서 ^#3399FF붉은 물풀의 열매^#FFFFFF을 모조리 따서 ^#3399FF히무스^#FFFFFF 앞에 던져줘. 녀석의 표정이 어떨지 정말 기대되는군!" difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="32640" rewardCombatJobEXP="109880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest203101_Explain1" desc="[[붉은 물풀의 꽃 획득]]" draft="히무스라는 놈이 시켰다고? 이런 히무스 놈… 내가 오아시스 물을 팔아 돈을 좀 번다고 시기해서 이런 짓을 벌였구나./n흥- 내 귀여운 카드렉스를 죽인 보답을 해야지. 너도 발을 들였으니 책임지라고./n오아시스 안으로 들어가면 히무스 녀석이 키우는 관상용 물풀인 ^#3399FF붉은 물풀^#FFFFFF이 있어. 붉은 물풀의 열매는 십 년에 한번만 열리는데 지금이 딱 십년 째 되는 해이지./n가서 ^#3399FF붉은 물풀의 열매^#FFFFFF을 모조리 따서 ^#3399FF히무스^#FFFFFF 앞에 던져줘. 녀석의 표정이 어떨지 정말 기대되는군!" npc="카락스">
+			<subjectPos subjectStr="붉은 물풀의 꽃 획득" mapTargetId="403702"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[히무스에게 배달]]" draft="히무스라는 놈이 시켰다고? 이런 히무스 놈… 내가 오아시스 물을 팔아 돈을 좀 번다고 시기해서 이런 짓을 벌였구나./n흥- 내 귀여운 카드렉스를 죽인 보답을 해야지. 너도 발을 들였으니 책임지라고./n오아시스 안으로 들어가면 히무스 녀석이 키우는 관상용 물풀인 ^#3399FF붉은 물풀^#FFFFFF이 있어. 붉은 물풀의 열매는 십 년에 한번만 열리는데 지금이 딱 십년 째 되는 해이지./n가서 ^#3399FF붉은 물풀의 열매^#FFFFFF을 모조리 따서 ^#3399FF히무스^#FFFFFF 앞에 던져줘. 녀석의 표정이 어떨지 정말 기대되는군!" npc="히무스">
+			<subjectPos subjectStr="히무스에게 배달" mapTargetId="403504"/>
+		</Subject>
+		<Storage Collect1_typeID="150294" Collect1_goal="3" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="498"/>
+	</Quest>
+</Quest>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<!-- edited with XMLSpy v2006 rel. 3 U (http://www.altova.com) by bla (EMBRACE) -->
+<UICharacterLight>
+	<LightInfo LightAngle="3.14f" AxisX="0.0f" AxisY="1.0f" AxisZ="0.0f" TransX="0.0f" TransY="0.0f" TransZ="0.0f"/>
+	<LightInfo LightColor="Ambient" ColorRed="0.22f" ColorGreen="0.22f" ColorBlue="0.22f"/>
+	<LightInfo LightColor="Diffuse" ColorRed="0.05f" ColorGreen="0.05f" ColorBlue="0.05f"/>
+	<LightInfo LightColor="Specular" ColorRed="0.0f" ColorGreen="0.0f" ColorBlue="0.0f"/>
+	<LightInfo Dimmer="5.0f"/>
+</UICharacterLight>

@@ -68,9 +68,26 @@ public class LimeServer : SocketServer
 
 	private async Task ServerTick()
 	{
+
+		await UnloadLoggedOutPCs();
+		DetectPlayersEnteringSight();
+
+		// MONSTER STUFF
+
+		foreach (var kv in Mobs)
+		{
+			foreach(var mob in kv.Value)
+			{
+				mob.Update(GetCurrentTick(), GetReadonlyPlayers());
+			}
+		}
+	}
+
+	private async Task UnloadLoggedOutPCs()
+	{
 		List<PlayerClient> remove = new();
 
-		foreach(var pc in PlayerClients)
+		foreach (var pc in PlayerClients)
 		{
 			if (!pc.IsConnected())
 			{
@@ -81,7 +98,7 @@ public class LimeServer : SocketServer
 			await pc.Update(GetCurrentTick());
 		}
 
-		foreach(var pc in remove)
+		foreach (var pc in remove)
 		{
 			PlayerClients.Remove(pc);
 
@@ -102,18 +119,6 @@ public class LimeServer : SocketServer
 			using PacketWriter pw = new(pc.GetClientRevision() == 345);
 			pw.Write(leave_pc);
 			await SendGlobal(pc, pw.ToPacket(), default);
-		}
-
-		DetectPlayersEnteringSight();
-
-		// MONSTER STUFF
-
-		foreach (var kv in Mobs)
-		{
-			foreach(var mob in kv.Value)
-			{
-				mob.Update(GetCurrentTick(), GetReadonlyPlayers());
-			}
 		}
 	}
 

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by remoteLime (EMBRACE) -->
+<NpcSkillAttackAniInfo>
+	<Model typeId="322">
+		<NpcSkillAttackAni name="Tolboca Jump" skillId="50001" id="5010003" mixId="-1" duration="1.2" hitTime="0.0">
+			<HitTimeCombo comboId="1" hitTime="0.0"/>
+		</NpcSkillAttackAni>
+		<NpcSkillAttackAni name="Tolboca Roar" skillId="50002" id="5010007" mixId="-1" duration="2.5" hitTime="0.667">
+			<HitTimeCombo comboId="1" hitTime="0.0"/>
+		</NpcSkillAttackAni>
+		<NpcSkillAttackAni name="Tolboca Plasma" skillId="50003" id="5010009" mixId="5010011" duration="1.8" hitTime="0.667">
+			<HitTimeCombo comboId="1" hitTime="0.667"/>
+		</NpcSkillAttackAni>
+	</Model>
+	<Model typeId="131">
+		<NpcSkillAttackAni name="Nospeller Drain" skillId="50007" id="2140504" mixId="-1" duration="1.400" hitTime="0.575">
+			<HitTimeCombo comboId="1" hitTime="0.0"/>
+		</NpcSkillAttackAni>
+		<NpcSkillAttackAni name="Nospeller Fireball" skillId="50008" id="5010014" mixId="-1" duration="2.167" hitTime="0.900">
+			<HitTimeCombo comboId="1" hitTime="0.0"/>
+		</NpcSkillAttackAni>
+		<NpcSkillAttackAni name="Nospeller Polymorph" skillId="50009" id="5010017" mixId="5010018" duration="2.0" hitTime="1.375">
+			<HitTimeCombo comboId="1" hitTime="0.0"/>
+		</NpcSkillAttackAni>
+		<NpcSkillAttackAni name="Nospeller Summon" skillId="50010" id="5010022" mixId="-1" duration="4.167" hitTime="3.000">
+			<HitTimeCombo comboId="1" hitTime="0.0"/>
+		</NpcSkillAttackAni>
+	</Model>
+	<Model typeId="122">
+		<NpcSkillAttackAni name="Huga Fissure" skillId="50011" id="2140501" mixId="-1" duration="1.700" hitTime="0.726">
+			<HitTimeCombo comboId="1" hitTime="0.726"/>
+		</NpcSkillAttackAni>
+		<NpcSkillAttackAni name="Huga WheelWind" skillId="50012" id="5010010" mixId="5010011" duration="0.533" hitTime="0.0">
+			<HitTimeCombo comboId="1" hitTime="0.2"/>
+		</NpcSkillAttackAni>
+		<NpcSkillAttackAni name="Huga Roar" skillId="50013" id="5010007" mixId="-1" duration="4.533" hitTime="1.400">
+			<HitTimeCombo comboId="1" hitTime="1.400"/>
+		</NpcSkillAttackAni>
+	</Model>
+	<Model typeId="57">
+		<NpcSkillAttackAni name="Ramboro Screw" skillId="50014" id="5010011" mixId="-1" duration="0.267" hitTime="1.0">
+			<HitTimeCombo comboId="1" hitTime="0.726"/>
+		</NpcSkillAttackAni>
+		<NpcSkillAttackAni name="Ramboro Grenade" skillId="50015" id="5010014" mixId="-1" duration="1.933" hitTime="1.5">
+			<HitTimeCombo comboId="1" hitTime="0.0"/>
+		</NpcSkillAttackAni>
+		<NpcSkillAttackAni name="Ramboro Eat" skillId="50016" id="5010001" mixId="-1" duration="1.667" hitTime="0.0">
+			<HitTimeCombo comboId="1" hitTime="0.0"/>
+		</NpcSkillAttackAni>
+	</Model>
+	<Model typeId="202">
+		<NpcSkillAttackAni name="Kronag Breath" skillId="50017" id="5010010" mixId="-1" duration="9.8" hitTime="1.452">
+			<HitTimeCombo comboId="1" hitTime="0.0"/>
+		</NpcSkillAttackAni>
+		<NpcSkillAttackAni name="Kronag Tailattack" skillId="50018" id="5010018" mixId="-1" duration="3.000" hitTime="1.400">
+			<HitTimeCombo comboId="1" hitTime="0.0"/>
+		</NpcSkillAttackAni>
+		<NpcSkillAttackAni name="Kronag Summon" skillId="50019" id="-1" mixId="-1" duration="0.0" hitTime="0.0">
+			<HitTimeCombo comboId="1" hitTime="0.0"/>
+		</NpcSkillAttackAni>
+	</Model>
+</NpcSkillAttackAniInfo>

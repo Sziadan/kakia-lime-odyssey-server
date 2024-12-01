@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2006 rel. 3 U (http://www.altova.com) by bla (EMBRACE) -->
+<CameraInfo>
+	<Camera slotId="LOGIN_TYPE_LOGIN" mapName="login_01.wed" orthogonal="0" lightType="0" cameraLookAt="0 -74.618 223.880" radius="85.5" longitude="6.267" latitude="-0.068" fov="45.2"/>
+	<Camera slotId="LOGIN_TYPE_LOBBY" mapName="CHselect.wed" orthogonal="0" lightType="0" cameraLookAt="3650.733 -1925.831 997.885" radius="1700.000" longitude="4.167" latitude="-0.317" fov="0.524"/>
+	<Camera slotId="LOGIN_TYPE_CHARACTER_SELECT" mapName="CHselect.wed" orthogonal="0" lightType="0" cameraLookAt="2672.695 1317.372 1556.733" radius="263.500" longitude="4.817" latitude="0.023" fov="0.524"/>
+	<Camera slotId="LOGIN_TYPE_CHARACTER_MAKE" mapName="CHselect.wed" orthogonal="0" lightType="0" cameraLookAt="106.107 -4072.374 1620.078" radius="1750.000" longitude="3.203" latitude="-0.072" fov="0.524"/>
+</CameraInfo>

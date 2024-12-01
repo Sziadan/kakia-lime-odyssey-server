@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by Administrator (siriusent) -->
+<Quest>
+	<Quest typeID="203106010" typeName="데칼트 사냥" group="200" NPC="모험가 길드원(피킨 유랑상단)" reportTo="모험가 길드원(피킨 유랑상단)" cancelable="1" repeatable="0" retryable="0" lv="34" desc="마침 잘오셨습니다. 피킨 유랑 상인단이 피신하고 있는 곳 근처에 데칼트가 사람을 공격하고 물건을 헤집는 바람에 어려운 점이 한두 개가 아닙니다./n^#FF0000데칼트^#FFFFFF를 사냥해 더 이상 사람을 헤치지 못하게 해주십시오./n일을 마친 후에 ^#3399FF피킨 유랑 상인단 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="67320" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[데칼트 사냥]]" draft="마침 잘오셨습니다. 피킨 유랑 상인단이 피신하고 있는 곳 근처에 데칼트가 사람을 공격하고 물건을 헤집는 바람에 어려운 점이 한두 개가 아닙니다./n^#FF0000데칼트^#FFFFFF를 사냥해 더 이상 사람을 헤치지 못하게 해주십시오./n일을 마친 후에 ^#3399FF피킨 유랑 상인단 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="데칼트 사냥" mapTargetId="401608"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[피킨 유랑 상인단 전투 모험가 길드원에게 보고]]" draft="마침 잘오셨습니다. 피킨 유랑 상인단이 피신하고 있는 곳 근처에 데칼트가 사람을 공격하고 물건을 헤집는 바람에 어려운 점이 한두 개가 아닙니다./n^#FF0000데칼트^#FFFFFF를 사냥해 더 이상 사람을 헤치지 못하게 해주십시오./n일을 마친 후에 ^#3399FF피킨 유랑 상인단 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="피킨 유랑 상인단 전투 모험가 길드원에게 보고" mapTargetId="306501"/>
+		</Subject>
+		<Storage Hunt1_typeID="1005" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="270"/>
+	</Quest>
+	<Quest typeID="203106020" typeName="카돈 사냥" group="200" NPC="모험가 길드원(피킨 유랑상단)" reportTo="모험가 길드원(피킨 유랑상단)" cancelable="1" repeatable="0" retryable="0" lv="34" desc="카돈은 정말 흉측하게 생겼지요? 그런 외모 때문인지는 몰라도 부쩍 저희 모험가 길드에 피킨 유랑 상단 주변의 카돈을 처치해달라는 의뢰가 많이 들어오고 있습니다./n사람들에게 혐오감을 주는 ^#FF0000카돈^#FFFFFF을 사냥해 주십시오./n일을 마친 후에 ^#3399FF피킨 유랑 상인단 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="67320" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[카돈 사냥]]" draft="카돈은 정말 흉측하게 생겼지요? 그런 외모 때문인지는 몰라도 부쩍 저희 모험가 길드에 피킨 유랑 상단 주변의 카돈을 처치해달라는 의뢰가 많이 들어오고 있습니다./n사람들에게 혐오감을 주는 ^#FF0000카돈^#FFFFFF을 사냥해 주십시오./n일을 마친 후에 ^#3399FF피킨 유랑 상인단 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="카돈 사냥" mapTargetId="401609"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[피킨 유랑 상인단 전투 모험가 길드원에게 보고]]" draft="카돈은 정말 흉측하게 생겼지요? 그런 외모 때문인지는 몰라도 부쩍 저희 모험가 길드에 피킨 유랑 상단 주변의 카돈을 처치해달라는 의뢰가 많이 들어오고 있습니다./n사람들에게 혐오감을 주는 ^#FF0000카돈^#FFFFFF을 사냥해 주십시오./n일을 마친 후에 ^#3399FF피킨 유랑 상인단 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="피킨 유랑 상인단 전투 모험가 길드원에게 보고" mapTargetId="306501"/>
+		</Subject>
+		<Storage Hunt1_typeID="1008" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="270"/>
+	</Quest>
+	<Quest typeID="203106030" typeName="사막 아가마 사냥" group="200" NPC="모험가 길드원(피킨 유랑상단)" reportTo="모험가 길드원(피킨 유랑상단)" cancelable="1" repeatable="0" retryable="0" lv="34" desc="사막 아가마를 보셨습니까? 뒤뚱 뒤뚱하는 걸음이 인상적인 짐승이지요. 하지만 놈들은 식욕이 강해 눈에 보이는 것들을 닥치는대로 씹어 놓는다고 합니다./n피킨 상단의 물건도 사막 아가마가 이빨로 물어 뜯는 바람에 못팔게 된 물건이 많다고 합니다./n피킨 유랑 상단 주변의^#FF0000사막 아가마^#FFFFFF를 사냥해 놈들이 물건을 상하게 하지 못하게 해주십시오./n일을 마친 후에 ^#3399FF피킨 유랑 상인단 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="67320" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[사막 아가마 사냥]]" draft="사막 아가마를 보셨습니까? 뒤뚱 뒤뚱하는 걸음이 인상적인 짐승이지요. 하지만 놈들은 식욕이 강해 눈에 보이는 것들을 닥치는대로 씹어 놓는다고 합니다./n피킨 상단의 물건도 사막 아가마가 이빨로 물어 뜯는 바람에 못팔게 된 물건이 많다고 합니다./n피킨 유랑 상단 주변의^#FF0000사막 아가마^#FFFFFF를 사냥해 놈들이 물건을 상하게 하지 못하게 해주십시오./n일을 마친 후에 ^#3399FF피킨 유랑 상인단 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="사막 아가마 사냥" mapTargetId="401610"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[피킨 유랑 상인단 전투 모험가 길드원에게 보고]]" draft="사막 아가마를 보셨습니까? 뒤뚱 뒤뚱하는 걸음이 인상적인 짐승이지요. 하지만 놈들은 식욕이 강해 눈에 보이는 것들을 닥치는대로 씹어 놓는다고 합니다./n피킨 상단의 물건도 사막 아가마가 이빨로 물어 뜯는 바람에 못팔게 된 물건이 많다고 합니다./n피킨 유랑 상단 주변의^#FF0000사막 아가마^#FFFFFF를 사냥해 놈들이 물건을 상하게 하지 못하게 해주십시오./n일을 마친 후에 ^#3399FF피킨 유랑 상인단 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="피킨 유랑 상인단 전투 모험가 길드원에게 보고" mapTargetId="306501"/>
+		</Subject>
+		<Storage Hunt1_typeID="1011" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="270"/>
+	</Quest>
+	<Quest typeID="203106040" typeName="분노한 슈카 암살자 사냥" group="200" NPC="모험가 길드원(피킨 유랑상단)" reportTo="모험가 길드원(피킨 유랑상단)" cancelable="1" repeatable="0" retryable="0" lv="35" desc="이번 의뢰는 조금 어려울 수도 있겠습니다. 이 근처에는 슈카 암살자들이 진을 치고 지나가는 상단을 공격하기 일쑤라고 합니다./n그들이 진을 친건  이 곳에서 조금 더 북쪽으로 올라 간 슈카 암살 일족 은신처입니다. 가서 ^#FF0000분노한 슈카 암살자^#FFFFFF를 처치해 주십시오./n일을 마친 후에 ^#3399FF피킨 유랑 상인단 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="74540" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[분노한 슈카 암살자 사냥]]" draft="이번 의뢰는 조금 어려울 수도 있겠습니다. 이 근처에는 슈카 암살자들이 진을 치고 지나가는 상단을 공격하기 일쑤라고 합니다./n그들이 진을 친건  이 곳에서 조금 더 북쪽으로 올라 간 슈카 암살 일족 은신처입니다. 가서 ^#FF0000분노한 슈카 암살자^#FFFFFF를 처치해 주십시오./n일을 마친 후에 ^#3399FF피킨 유랑 상인단 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="분노한 슈카 암살자 사냥" mapTargetId="401611"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[피킨 유랑 상인단 전투 모험가 길드원에게 보고]]" draft="이번 의뢰는 조금 어려울 수도 있겠습니다. 이 근처에는 슈카 암살자들이 진을 치고 지나가는 상단을 공격하기 일쑤라고 합니다./n그들이 진을 친건  이 곳에서 조금 더 북쪽으로 올라 간 슈카 암살 일족 은신처입니다. 가서 ^#FF0000분노한 슈카 암살자^#FFFFFF를 처치해 주십시오./n일을 마친 후에 ^#3399FF피킨 유랑 상인단 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="피킨 유랑 상인단 전투 모험가 길드원에게 보고" mapTargetId="306501"/>
+		</Subject>
+		<Storage Hunt1_typeID="1002" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="302"/>
+	</Quest>
+	<Quest typeID="203106050" typeName="광포한 슈카 암살자 사냥" group="200" NPC="모험가 길드원(피킨 유랑상단)" reportTo="모험가 길드원(피킨 유랑상단)" cancelable="1" repeatable="0" retryable="0" lv="35" desc="슈카들은 날랜 몸과 체력을 더러운 암살에만 사용하고 있지요. 특히나 유랑상단 같은 방비가 취약한 이들은 더 집요하게 괴롭히죠. 그들이 진을 친건  이 곳에서 조금 더 북쪽으로 올라 간 슈카 암살 일족 은신처입니다./n^#FF0000광포한 슈카 암살자^#FFFFFF를 처치해 본 떼를 보여주십시오./n일을 마친 후에 ^#3399FF피킨 유랑 상인단 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="74540" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[광포한 슈카 암살자 사냥]]" draft="슈카들은 날랜 몸과 체력을 더러운 암살에만 사용하고 있지요. 특히나 유랑상단 같은 방비가 취약한 이들은 더 집요하게 괴롭히죠. 그들이 진을 친건  이 곳에서 조금 더 북쪽으로 올라 간 슈카 암살 일족 은신처입니다./n^#FF0000광포한 슈카 암살자^#FFFFFF를 처치해 본 떼를 보여주십시오./n일을 마친 후에 ^#3399FF피킨 유랑 상인단 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="광포한 슈카 암살자 사냥" mapTargetId="401612"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[피킨 유랑 상인단 전투 모험가 길드원에게 보고]]" draft="슈카들은 날랜 몸과 체력을 더러운 암살에만 사용하고 있지요. 특히나 유랑상단 같은 방비가 취약한 이들은 더 집요하게 괴롭히죠. 그들이 진을 친건  이 곳에서 조금 더 북쪽으로 올라 간 슈카 암살 일족 은신처입니다./n^#FF0000광포한 슈카 암살자^#FFFFFF를 처치해 본 떼를 보여주십시오./n일을 마친 후에 ^#3399FF피킨 유랑 상인단 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="피킨 유랑 상인단 전투 모험가 길드원에게 보고" mapTargetId="306501"/>
+		</Subject>
+		<Storage Hunt1_typeID="1003" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="302"/>
+	</Quest>
+	<Quest typeID="203106060" typeName="마크라 사냥" group="200" NPC="모험가 길드원(피킨 유랑상단)" reportTo="모험가 길드원(피킨 유랑상단)" cancelable="1" repeatable="0" retryable="0" lv="35" desc="피킨 유랑 상단원의 의뢰입니다. 이 사막은 안그래도 위험요소가 많아 다니기 힘든데 마크라가 자꾸 공격해 힘들다고 합니다. 하스레딘 농장 근처의 /n^#FF0000마크라^#FFFFFF를 사냥해 유랑 상단원을 도와주십시오./n일을 마친 후에 ^#3399FF피킨 유랑 상인단 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="74540" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[마크라 사냥]]" draft="피킨 유랑 상단원의 의뢰입니다. 이 사막은 안그래도 위험요소가 많아 다니기 힘든데 마크라가 자꾸 공격해 힘들다고 합니다. 하스레딘 농장 근처의 /n^#FF0000마크라^#FFFFFF를 사냥해 유랑 상단원을 도와주십시오./n일을 마친 후에 ^#3399FF피킨 유랑 상인단 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="마크라 사냥" mapTargetId="401613"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[피킨 유랑 상인단 전투 모험가 길드원에게 보고]]" draft="피킨 유랑 상단원의 의뢰입니다. 이 사막은 안그래도 위험요소가 많아 다니기 힘든데 마크라가 자꾸 공격해 힘들다고 합니다. 하스레딘 농장 근처의 /n^#FF0000마크라^#FFFFFF를 사냥해 유랑 상단원을 도와주십시오./n일을 마친 후에 ^#3399FF피킨 유랑 상인단 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="피킨 유랑 상인단 전투 모험가 길드원에게 보고" mapTargetId="306501"/>
+		</Subject>
+		<Storage Hunt1_typeID="1015" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="302"/>
+	</Quest>
+	<Quest typeID="203106070" typeName="사막 베이비 빅스 사냥" group="200" NPC="모험가 길드원(피킨 유랑상단)" reportTo="모험가 길드원(피킨 유랑상단)" cancelable="1" repeatable="0" retryable="0" lv="36" desc="이 거친 사막에도 귀여움은 존재하고 있습니다. 바로 하스레딘 농장 근처의 사막 베이비 빅스들이 그것이죠. 하지만 이 놈들은 장난끼가 많아 자기들 딴에는 장난이라고 하면서 사람을 공격합니다./n^#FF0000사막 베이비 빅스^#FFFFFF를 사냥해 사람이 무섭다는 것을 보여 주십시오./n일을 마친 후에 ^#3399FF피킨 유랑 상인단 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="74540" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[사막 베이비 사냥]]" draft="이 거친 사막에도 귀여움은 존재하고 있습니다. 바로 하스레딘 농장 근처의 사막 베이비 빅스들이 그것이죠. 하지만 이 놈들은 장난끼가 많아 자기들 딴에는 장난이라고 하면서 사람을 공격합니다./n^#FF0000사막 베이비 빅스^#FFFFFF를 사냥해 사람이 무섭다는 것을 보여 주십시오./n일을 마친 후에 ^#3399FF피킨 유랑 상인단 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="사막 베이비 빅스 사냥" mapTargetId="401614"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[피킨 유랑 상인단 전투 모험가 길드원에게 보고]]" draft="이 거친 사막에도 귀여움은 존재하고 있습니다. 바로 하스레딘 농장 근처의 사막 베이비 빅스들이 그것이죠. 하지만 이 놈들은 장난끼가 많아 자기들 딴에는 장난이라고 하면서 사람을 공격합니다./n^#FF0000사막 베이비 빅스^#FFFFFF를 사냥해 사람이 무섭다는 것을 보여 주십시오./n일을 마친 후에 ^#3399FF피킨 유랑 상인단 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="피킨 유랑 상인단 전투 모험가 길드원에게 보고" mapTargetId="306501"/>
+		</Subject>
+		<Storage Hunt1_typeID="1082" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="335"/>
+	</Quest>
+	<Quest typeID="203106080" typeName="사막 파파 빅스 사냥" group="200" NPC="모험가 길드원(피킨 유랑상단)" reportTo="모험가 길드원(피킨 유랑상단)" cancelable="1" repeatable="0" retryable="0" lv="36" desc="귀여운 빅스는 다 자라서도 귀여움을 잃지 않는 것 같습니다. 하스레딘 농장 근처의 사막 파파 빅스가 귀여워 보이는 건 저 뿐일까요?/n하지만 귀여움을 가지고 자란 만큼 그 장난끼도 같이 가지고 자란 사막 파파 빅스들의 장난은 베이비 빅스들의 그것보다 한층 더 많은 피해를 주고 있습니다./n^#FF0000사막 파파 빅스^#FFFFFF를 사냥해 도와주십시오./n일을 마친 후에 ^#3399FF피킨 유랑 상인단 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="74540" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[사막 파파 빅스 사냥]]" draft="귀여운 빅스는 다 자라서도 귀여움을 잃지 않는 것 같습니다. 하스레딘 농장 근처의 사막 파파 빅스가 귀여워 보이는 건 저 뿐일까요?/n하지만 귀여움을 가지고 자란 만큼 그 장난끼도 같이 가지고 자란 사막 파파 빅스들의 장난은 베이비 빅스들의 그것보다 한층 더 많은 피해를 주고 있습니다./n^#FF0000사막 파파 빅스^#FFFFFF를 사냥해 도와주십시오./n일을 마친 후에 ^#3399FF피킨 유랑 상인단 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="사막 파파 빅스 사냥" mapTargetId="401615"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[피킨 유랑 상인단 전투 모험가 길드원에게 보고]]" draft="귀여운 빅스는 다 자라서도 귀여움을 잃지 않는 것 같습니다. 하스레딘 농장 근처의 사막 파파 빅스가 귀여워 보이는 건 저 뿐일까요?/n하지만 귀여움을 가지고 자란 만큼 그 장난끼도 같이 가지고 자란 사막 파파 빅스들의 장난은 베이비 빅스들의 그것보다 한층 더 많은 피해를 주고 있습니다./n^#FF0000사막 파파 빅스^#FFFFFF를 사냥해 도와주십시오./n일을 마친 후에 ^#3399FF피킨 유랑 상인단 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="피킨 유랑 상인단 전투 모험가 길드원에게 보고" mapTargetId="306501"/>
+		</Subject>
+		<Storage Hunt1_typeID="1018" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="335"/>
+	</Quest>
+	<Quest typeID="203106090" typeName="노랑 자이쿠 사냥" group="200" NPC="모험가 길드원(더스트 코랄)" reportTo="모험가 길드원(더스트 코랄)" cancelable="1" repeatable="0" retryable="0" lv="37" desc="자연계에서는 생존율을 높이기 위해 짐승들 스스로 몸 색깔은 바꾼다고 하죠. 노랑 자이쿠의 몸 색깔은 주변 모래 색에 맞추어 변형이 된 것일까요? 아니면 만들어 질 때부터 노랑이었을까요?/n뭐 그런건 상관없고 그냥 노랑 자이쿠 때문에 더스트 코랄의 휴먼들이 곤란을 겪고 있다고 하니 샤우라 둥지 안쪽의 ^#FF0000노랑 자이쿠^#FFFFFF를 사냥하십시오./n일을 마친 후에 ^#3399FF더스트 코랄 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="81580" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[노랑 자이쿠 사냥]]" draft="자연계에서는 생존율을 높이기 위해 짐승들 스스로 몸 색깔은 바꾼다고 하죠. 노랑 자이쿠의 몸 색깔은 주변 모래 색에 맞추어 변형이 된 것일까요? 아니면 만들어 질 때부터 노랑이었을까요?/n뭐 그런건 상관없고 그냥 노랑 자이쿠 때문에 더스트 코랄의 휴먼들이 곤란을 겪고 있다고 하니 샤우라 둥지 안쪽의 ^#FF0000노랑 자이쿠^#FFFFFF를 사냥하십시오./n일을 마친 후에 ^#3399FF더스트 코랄 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="노랑 자이쿠 사냥" mapTargetId="402616"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[더스트 코랄 전투 모험가 길드원에게 보고]]" draft="자연계에서는 생존율을 높이기 위해 짐승들 스스로 몸 색깔은 바꾼다고 하죠. 노랑 자이쿠의 몸 색깔은 주변 모래 색에 맞추어 변형이 된 것일까요? 아니면 만들어 질 때부터 노랑이었을까요?/n뭐 그런건 상관없고 그냥 노랑 자이쿠 때문에 더스트 코랄의 휴먼들이 곤란을 겪고 있다고 하니 샤우라 둥지 안쪽의 ^#FF0000노랑 자이쿠^#FFFFFF를 사냥하십시오./n일을 마친 후에 ^#3399FF더스트 코랄 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="더스트 코랄 전투 모험가 길드원에게 보고" mapTargetId="402501"/>
+		</Subject>
+		<Storage Hunt1_typeID="1025" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="388"/>
+	</Quest>
+	<Quest typeID="203106100" typeName="푸른 쿠코스 사냥" group="200" NPC="모험가 길드원(더스트 코랄)" reportTo="모험가 길드원(더스트 코랄)" cancelable="1" repeatable="0" retryable="0" lv="37" desc="듀발 고원에 비티가 있어 그 단단한 껍질로 사람들에게 도움을 줬다면 로우란 사막에는 푸른 쿠코스가 있지요. 그것들의 단단한 껍질은 사람들의 생활에 여러가지 도움을 주고 있답니다./n하지만 그만큼 위험한 것도 사실이랍니다. 단단한 껍질로 무장하고 사람들을 해치기 때문이죠./n샤우라 둥지 안쪽의 ^#FF0000푸른 쿠코스^#FFFFFF를 사냥하십시오./n일을 마친 후에 ^#3399FF더스트 코랄 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="81580" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[푸른 쿠코스 사냥]]" draft="듀발 고원에 비티가 있어 그 단단한 껍질로 사람들에게 도움을 줬다면 로우란 사막에는 푸른 쿠코스가 있지요. 그것들의 단단한 껍질은 사람들의 생활에 여러가지 도움을 주고 있답니다./n하지만 그만큼 위험한 것도 사실이랍니다. 단단한 껍질로 무장하고 사람들을 해치기 때문이죠./n샤우라 둥지 안쪽의 ^#FF0000푸른 쿠코스^#FFFFFF를 사냥하십시오./n일을 마친 후에 ^#3399FF더스트 코랄 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="푸른 쿠코스 사냥" mapTargetId="402617"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[더스트 코랄 전투 모험가 길드원에게 보고]]" draft="듀발 고원에 비티가 있어 그 단단한 껍질로 사람들에게 도움을 줬다면 로우란 사막에는 푸른 쿠코스가 있지요. 그것들의 단단한 껍질은 사람들의 생활에 여러가지 도움을 주고 있답니다./n하지만 그만큼 위험한 것도 사실이랍니다. 단단한 껍질로 무장하고 사람들을 해치기 때문이죠./n샤우라 둥지 안쪽의 ^#FF0000푸른 쿠코스^#FFFFFF를 사냥하십시오./n일을 마친 후에 ^#3399FF더스트 코랄 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="더스트 코랄 전투 모험가 길드원에게 보고" mapTargetId="402501"/>
+		</Subject>
+		<Storage Hunt1_typeID="1028" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="388"/>
+	</Quest>
+	<Quest typeID="203106110" typeName="분노한 카돈 사냥" group="200" NPC="모험가 길드원(더스트 코랄)" reportTo="모험가 길드원(더스트 코랄)" cancelable="1" repeatable="0" retryable="0" lv="37" desc="샐리 할멈의 의뢰입니다. 요즘 들어 안그래도 마을 분위기가 흉흉한데 분노한 카돈까지 날뛰어 마을 분위기가 더 침울해지고 있다고 합니다./n샤우라 둥지 안쪽의 ^#FF0000분노한 카돈^#FFFFFF을 사냥해 더스트 코랄 마을 사람들을 도와주십시오./n일을 마친 후에 ^#3399FF더스트 코랄 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="81580" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[분노한 카돈 사냥]]" draft="샐리 할멈의 의뢰입니다. 요즘 들어 안그래도 마을 분위기가 흉흉한데 분노한 카돈까지 날뛰어 마을 분위기가 더 침울해지고 있다고 합니다./n샤우라 둥지 안쪽의 ^#FF0000분노한 카돈^#FFFFFF을 사냥해 더스트 코랄 마을 사람들을 도와주십시오./n일을 마친 후에 ^#3399FF더스트 코랄 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="분노한 카돈 사냥" mapTargetId="402618"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[더스트 코랄 전투 모험가 길드원에게 보고]]" draft="샐리 할멈의 의뢰입니다. 요즘 들어 안그래도 마을 분위기가 흉흉한데 분노한 카돈까지 날뛰어 마을 분위기가 더 침울해지고 있다고 합니다./n샤우라 둥지 안쪽의 ^#FF0000분노한 카돈^#FFFFFF을 사냥해 더스트 코랄 마을 사람들을 도와주십시오./n일을 마친 후에 ^#3399FF더스트 코랄 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="더스트 코랄 전투 모험가 길드원에게 보고" mapTargetId="402501"/>
+		</Subject>
+		<Storage Hunt1_typeID="1031" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="388"/>
+	</Quest>
+	<Quest typeID="203106120" typeName="노랑 꼬리 샤우라 사냥" group="200" NPC="모험가 길드원(더스트 코랄)" reportTo="모험가 길드원(더스트 코랄)" cancelable="1" repeatable="0" retryable="0" lv="38" desc="마을 주민인 카일의 의뢰입니다. 안그래도 샤우라 둥지가 더스트 코랄 옆에 있는 바람에 가끔 마을이 위험한 지경에 처하곤 하는데 어느 샌가 부터 꼬리가 노란 샤우라가 나타나 마을의 위기를 더하고 있다고 합니다./n샤우라 둥지 서쪽의 ^#FF0000노랑 꼬리 샤우라^#FFFFFF를 처치해 마을을 위기에서 구해주십시오./n일을 마친 후에 ^#3399FF더스트 코랄 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="90400" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[노랑 꼬리 샤우라 사냥]]" draft="마을 주민인 카일의 의뢰입니다. 안그래도 샤우라 둥지가 더스트 코랄 옆에 있는 바람에 가끔 마을이 위험한 지경에 처하곤 하는데 어느 샌가 부터 꼬리가 노란 샤우라가 나타나 마을의 위기를 더하고 있다고 합니다./n샤우라 둥지 서쪽의 ^#FF0000노랑 꼬리 샤우라^#FFFFFF를 처치해 마을을 위기에서 구해주십시오./n일을 마친 후에 ^#3399FF더스트 코랄 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="노랑 꼬리 샤우라 사냥" mapTargetId="402619"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[더스트 코랄 전투 모험가 길드원에게 보고]]" draft="마을 주민인 카일의 의뢰입니다. 안그래도 샤우라 둥지가 더스트 코랄 옆에 있는 바람에 가끔 마을이 위험한 지경에 처하곤 하는데 어느 샌가 부터 꼬리가 노란 샤우라가 나타나 마을의 위기를 더하고 있다고 합니다./n샤우라 둥지 서쪽의 ^#FF0000노랑 꼬리 샤우라^#FFFFFF를 처치해 마을을 위기에서 구해주십시오./n일을 마친 후에 ^#3399FF더스트 코랄 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="더스트 코랄 전투 모험가 길드원에게 보고" mapTargetId="402501"/>
+		</Subject>
+		<Storage Hunt1_typeID="1036" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="421"/>
+	</Quest>
+	<Quest typeID="203106130" typeName="붉은 샤우라 사냥" group="200" NPC="모험가 길드원(더스트 코랄)" reportTo="모험가 길드원(더스트 코랄)" cancelable="1" repeatable="0" retryable="0" lv="38" desc="스쿠르 학자님의 의뢰입니다. 멀리서 이 곳 로우란까지 와서 연구를 하는 스쿠르 학자님께서 붉은 샤우라가 연구하는데 방해가 된다며 처치를 부탁하셨습니다./n샤우라 둥지 안쪽의 ^#FF0000붉은 샤우라^#FFFFFF를 처치해 스쿠르 학자님의 연구를 도와주십시오./n일을 마친 후에 ^#3399FF더스트 코랄 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="90400" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[붉은 샤우라 사냥]]" draft="스쿠르 학자님의 의뢰입니다. 멀리서 이 곳 로우란까지 와서 연구를 하는 스쿠르 학자님께서 붉은 샤우라가 연구하는데 방해가 된다며 처치를 부탁하셨습니다./n샤우라 둥지 안쪽의 ^#FF0000붉은 샤우라^#FFFFFF를 처치해 스쿠르 학자님의 연구를 도와주십시오./n일을 마친 후에 ^#3399FF더스트 코랄 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="붉은 샤우라 사냥" mapTargetId="402620"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[더스트 코랄 전투 모험가 길드원에게 보고]]" draft="스쿠르 학자님의 의뢰입니다. 멀리서 이 곳 로우란까지 와서 연구를 하는 스쿠르 학자님께서 붉은 샤우라가 연구하는데 방해가 된다며 처치를 부탁하셨습니다./n샤우라 둥지 안쪽의 ^#FF0000붉은 샤우라^#FFFFFF를 처치해 스쿠르 학자님의 연구를 도와주십시오./n일을 마친 후에 ^#3399FF더스트 코랄 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="더스트 코랄 전투 모험가 길드원에게 보고" mapTargetId="402501"/>
+		</Subject>
+		<Storage Hunt1_typeID="1039" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="421"/>
+	</Quest>
+	<Quest typeID="203106140" typeName="사막 볼드 사냥" group="200" NPC="모험가 길드원(더스트 코랄)" reportTo="모험가 길드원(더스트 코랄)" cancelable="1" repeatable="0" retryable="0" lv="38" desc="사막 지대가 대부분 그렇듯 이 곳 로우란 사막도 매우 척박한 곳입니다. 그렇기에 이 곳의 짐승들은 먹을게 생기면 죽자 사자 덤벼들기 일쑤이죠. 특히나 사막 볼드가 먹을 것을 노리고 마을 주변을 배회하며 간혹 사람을 공격하기도 한다고 합니다./n샤우라 둥지 북쪽의 ^#FF0000사막 볼드^#FFFFFF를 사냥해 더스트 코랄의 식량을 보존하는 것을 도와주십시오./n일을 마친 후에 ^#3399FF더스트 코랄 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="90400" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[사막 볼드 사냥]]" draft="사막 지대가 대부분 그렇듯 이 곳 로우란 사막도 매우 척박한 곳입니다. 그렇기에 이 곳의 짐승들은 먹을게 생기면 죽자 사자 덤벼들기 일쑤이죠. 특히나 사막 볼드가 먹을 것을 노리고 마을 주변을 배회하며 간혹 사람을 공격하기도 한다고 합니다./n샤우라 둥지 북쪽의 ^#FF0000사막 볼드^#FFFFFF를 사냥해 더스트 코랄의 식량을 보존하는 것을 도와주십시오./n일을 마친 후에 ^#3399FF더스트 코랄 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="사막 볼드 사냥" mapTargetId="402621"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[더스트 코랄 전투 모험가 길드원에게 보고]]" draft="사막 지대가 대부분 그렇듯 이 곳 로우란 사막도 매우 척박한 곳입니다. 그렇기에 이 곳의 짐승들은 먹을게 생기면 죽자 사자 덤벼들기 일쑤이죠. 특히나 사막 볼드가 먹을 것을 노리고 마을 주변을 배회하며 간혹 사람을 공격하기도 한다고 합니다./n샤우라 둥지 북쪽의 ^#FF0000사막 볼드^#FFFFFF를 사냥해 더스트 코랄의 식량을 보존하는 것을 도와주십시오./n일을 마친 후에 ^#3399FF더스트 코랄 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="더스트 코랄 전투 모험가 길드원에게 보고" mapTargetId="402501"/>
+		</Subject>
+		<Storage Hunt1_typeID="1042" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="421"/>
+	</Quest>
+	<Quest typeID="203106150" typeName="분노한 푸른 쿠코스 사냥" group="200" NPC="모험가 길드원(더스트 코랄)" reportTo="모험가 길드원(더스트 코랄)" cancelable="1" repeatable="0" retryable="0" lv="39" desc="배가 고픈 소녀의 의뢰입니다. 소녀는 얼마 전 너무 배가 고파서 푸른 쿠코스가 즐겨 먹는 선인장을 따서 한 입 먹어보았다고 합니다. 그러다 그 모습을 푸른 쿠코스에게 들켜 심하게 쫓긴 적이 있다고 하는데 그 일 때문에 푸른 쿠코스가 분노한게 아닌가 싶다고 합니다./n걱정하고 있는 배가 고픈 소녀를 위해 더스트 코랄 앞 길의 ^#FF0000분노한 푸른 쿠코스^#FFFFFF를 처치해 주시기 바랍니다./n일을 마친 후에 ^#3399FF더스트 코랄 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="98540" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[분노한 푸른 쿠코스 사냥]]" draft="배가 고픈 소녀의 의뢰입니다. 소녀는 얼마 전 너무 배가 고파서 푸른 쿠코스가 즐겨 먹는 선인장을 따서 한 입 먹어보았다고 합니다. 그러다 그 모습을 푸른 쿠코스에게 들켜 심하게 쫓긴 적이 있다고 하는데 그 일 때문에 푸른 쿠코스가 분노한게 아닌가 싶다고 합니다./n걱정하고 있는 배가 고픈 소녀를 위해 더스트 코랄 앞 길의 ^#FF0000분노한 푸른 쿠코스^#FFFFFF를 처치해 주시기 바랍니다./n일을 마친 후에 ^#3399FF더스트 코랄 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="분노한 푸른 쿠코스 사냥" mapTargetId="402622"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[더스트 코랄 전투 모험가 길드원에게 보고]]" draft="배가 고픈 소녀의 의뢰입니다. 소녀는 얼마 전 너무 배가 고파서 푸른 쿠코스가 즐겨 먹는 선인장을 따서 한 입 먹어보았다고 합니다. 그러다 그 모습을 푸른 쿠코스에게 들켜 심하게 쫓긴 적이 있다고 하는데 그 일 때문에 푸른 쿠코스가 분노한게 아닌가 싶다고 합니다./n걱정하고 있는 배가 고픈 소녀를 위해 더스트 코랄 앞 길의 ^#FF0000분노한 푸른 쿠코스^#FFFFFF를 처치해 주시기 바랍니다./n일을 마친 후에 ^#3399FF더스트 코랄 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="더스트 코랄 전투 모험가 길드원에게 보고" mapTargetId="402501"/>
+		</Subject>
+		<Storage Hunt1_typeID="1047" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="450"/>
+	</Quest>
+	<Quest typeID="203106160" typeName="분노한 노랑 자이쿠 사냥" group="200" NPC="모험가 길드원(더스트 코랄)" reportTo="모험가 길드원(더스트 코랄)" cancelable="1" repeatable="0" retryable="0" lv="39" desc="지렁이도 밟으면 꿈틀한다는 말 아시죠? 귀여운 노랑 자이쿠도 분노하면 꽤나 무섭다고 합니다. 제가 아니라 슬픈 표정의 마을 주민이 그러시더군요./n(분노한 노랑 자이쿠가 무서워 마을 밖으로 나갈 수 없다.)고요./n슬픈 표정의 마을 주민을 위해 더스트 코랄 앞 길의 ^#FF0000분노한 노랑 자이쿠^#FFFFFF를 사냥해 주십시오./n일을 마친 후에 ^#3399FF더스트 코랄 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="98540" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[분노한 노랑 자이쿠 사냥]]" draft="지렁이도 밟으면 꿈틀한다는 말 아시죠? 귀여운 노랑 자이쿠도 분노하면 꽤나 무섭다고 합니다. 제가 아니라 슬픈 표정의 마을 주민이 그러시더군요./n(분노한 노랑 자이쿠가 무서워 마을 밖으로 나갈 수 없다.)고요./n슬픈 표정의 마을 주민을 위해 더스트 코랄 앞 길의 ^#FF0000분노한 노랑 자이쿠^#FFFFFF를 사냥해 주십시오./n일을 마친 후에 ^#3399FF더스트 코랄 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="분노한 노랑 자이쿠사냥" mapTargetId="402623"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[더스트 코랄 전투 모험가 길드원에게 보고]]" draft="지렁이도 밟으면 꿈틀한다는 말 아시죠? 귀여운 노랑 자이쿠도 분노하면 꽤나 무섭다고 합니다. 제가 아니라 슬픈 표정의 마을 주민이 그러시더군요./n(분노한 노랑 자이쿠가 무서워 마을 밖으로 나갈 수 없다.)고요./n슬픈 표정의 마을 주민을 위해 더스트 코랄 앞 길의 ^#FF0000분노한 노랑 자이쿠^#FFFFFF를 사냥해 주십시오./n일을 마친 후에 ^#3399FF더스트 코랄 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="더스트 코랄 전투 모험가 길드원에게 보고" mapTargetId="402501"/>
+		</Subject>
+		<Storage Hunt1_typeID="1050" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="450"/>
+	</Quest>
+	<Quest typeID="203106170" typeName="분노한 사막 아가마 사냥" group="200" NPC="모험가 길드원(알 아미르)" reportTo="모험가 길드원(알 아미르)" cancelable="1" repeatable="0" retryable="0" lv="40" desc="피킨족 뇨미씨의 의뢰입니다. 노예인 그녀는 주인의 명령으로 알 아미르 밖으로 나가야 할 경우가 많은데 그 때마다 분노한 사막 아가마가 따라 오는 바람에 곤란한 적이 많다고 합니다./n더스트 코랄 앞 길의 ^#FF0000분노한 사막 아가마^#FFFFFF를 사냥해 주십시오./n일을 마친 후에 ^#3399FF알 아미르 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="109880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[분노한 사막 아가마 사냥]]" draft="피킨족 뇨미씨의 의뢰입니다. 노예인 그녀는 주인의 명령으로 알 아미르 밖으로 나가야 할 경우가 많은데 그 때마다 분노한 사막 아가마가 따라 오는 바람에 곤란한 적이 많다고 합니다./n더스트 코랄 앞 길의 ^#FF0000분노한 사막 아가마^#FFFFFF를 사냥해 주십시오./n일을 마친 후에 ^#3399FF알 아미르 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="분노한 사막 아가마 사냥" mapTargetId="403603"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[알 아미르 전투 모험가 길드원에게 보고]]" draft="피킨족 뇨미씨의 의뢰입니다. 노예인 그녀는 주인의 명령으로 알 아미르 밖으로 나가야 할 경우가 많은데 그 때마다 분노한 사막 아가마가 따라 오는 바람에 곤란한 적이 많다고 합니다./n더스트 코랄 앞 길의 ^#FF0000분노한 사막 아가마^#FFFFFF를 사냥해 주십시오./n일을 마친 후에 ^#3399FF알 아미르 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="알 아미르 전투 모험가 길드원에게 보고" mapTargetId="403501"/>
+		</Subject>
+		<Storage Hunt1_typeID="1053" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="498"/>
+	</Quest>
+	<Quest typeID="203106180" typeName="페르만 사냥" group="200" NPC="모험가 길드원(알 아미르)" reportTo="모험가 길드원(알 아미르)" cancelable="1" repeatable="0" retryable="0" lv="40" desc="알 아미르 병사들의 의뢰입니다. 다른 몬스터들은 다 상대하기가 어렵지 않은데 유독 페르만만이 병사들이 상대하기 까다로워 경비를 충분히 할 수 없다고 합니다./n중앙 오아시스의 ^#FF0000페르만^#FFFFFF을 사냥해 알 아미르 병사들을 도와주십시오./n일을 마친 후에 ^#3399FF알 아미르 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="109880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[페르만 사냥]]" draft="알 아미르 병사들의 의뢰입니다. 다른 몬스터들은 다 상대하기가 어렵지 않은데 유독 페르만만이 병사들이 상대하기 까다로워 경비를 충분히 할 수 없다고 합니다./n중앙 오아시스의 ^#FF0000페르만^#FFFFFF을 사냥해 알 아미르 병사들을 도와주십시오./n일을 마친 후에 ^#3399FF알 아미르 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="페르만 사냥" mapTargetId="403604"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[알 아미르 전투 모험가 길드원에게 보고]]" draft="알 아미르 병사들의 의뢰입니다. 다른 몬스터들은 다 상대하기가 어렵지 않은데 유독 페르만만이 병사들이 상대하기 까다로워 경비를 충분히 할 수 없다고 합니다./n중앙 오아시스의 ^#FF0000페르만^#FFFFFF을 사냥해 알 아미르 병사들을 도와주십시오./n일을 마친 후에 ^#3399FF알 아미르 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="알 아미르 전투 모험가 길드원에게 보고" mapTargetId="403501"/>
+		</Subject>
+		<Storage Hunt1_typeID="1143" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="498"/>
+	</Quest>
+	<Quest typeID="203106190" typeName="분노한 운다인 사냥" group="200" NPC="모험가 길드원(알 아미르)" reportTo="모험가 길드원(알 아미르)" cancelable="1" repeatable="0" retryable="0" lv="40" desc="알 아미르 옆에 있는 중앙 오아시스는 이 로우란 사막민 전체의 유일한 수원이라고 말할 수 있습니다. 하지만 요즘 그 곳에 분노한 운다인이 출몰해 물 뜨러 오는 사람들을 공격한다고 합니다./n중앙 오아시스의 ^#FF0000분노한 운다인^#FFFFFF을 사냥해 사람들을 도와주십시오./n일을 마친 후에 ^#3399FF알 아미르 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="109880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[분노한 운다인 사냥]]" draft="알 아미르 옆에 있는 중앙 오아시스는 이 로우란 사막민 전체의 유일한 수원이라고 말할 수 있습니다. 하지만 요즘 그 곳에 분노한 운다인이 출몰해 물 뜨러 오는 사람들을 공격한다고 합니다./n중앙 오아시스의 ^#FF0000분노한 운다인^#FFFFFF을 사냥해 사람들을 도와주십시오./n일을 마친 후에 ^#3399FF알 아미르 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="분노한 운다인 사냥" mapTargetId="403605"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[알 아미르 전투 모험가 길드원에게 보고]]" draft="알 아미르 옆에 있는 중앙 오아시스는 이 로우란 사막민 전체의 유일한 수원이라고 말할 수 있습니다. 하지만 요즘 그 곳에 분노한 운다인이 출몰해 물 뜨러 오는 사람들을 공격한다고 합니다./n중앙 오아시스의 ^#FF0000분노한 운다인^#FFFFFF을 사냥해 사람들을 도와주십시오./n일을 마친 후에 ^#3399FF알 아미르 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="알 아미르 전투 모험가 길드원에게 보고" mapTargetId="403501"/>
+		</Subject>
+		<Storage Hunt1_typeID="1140" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="498"/>
+	</Quest>
+	<Quest typeID="203106200" typeName="고블린 약탈꾼 사냥" group="200" NPC="모험가 길드원(알 아미르)" reportTo="모험가 길드원(알 아미르)" cancelable="1" repeatable="0" retryable="0" lv="41" desc="알 아미르 상인들의 의뢰입니다. 요즘들어 부쩍 알 아미르 근처에 고블린 약탈꾼이 자주 출몰하는 바람에 장사에 곤란함을 겪고 있다고 합니다. 놈들은 돈을 가지고 있을 만한 사람은 누구든 가리지 않고 공격을 해대거든요./n카슬람 사구 지대 북동쪽의 ^#FF0000고블린 약탈꾼^#FFFFFF을 사냥해 상인들의 곤란함을 해결해 주시기 바랍니다./n일을 마친 후에 ^#3399FF알 아미르 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="120020" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[고블린 약탈꾼 사냥]]" draft="알 아미르 상인들의 의뢰입니다. 요즘들어 부쩍 알 아미르 근처에 고블린 약탈꾼이 자주 출몰하는 바람에 장사에 곤란함을 겪고 있다고 합니다. 놈들은 돈을 가지고 있을 만한 사람은 누구든 가리지 않고 공격을 해대거든요./n카슬람 사구 지대 북동쪽의 ^#FF0000고블린 약탈꾼^#FFFFFF을 사냥해 상인들의 곤란함을 해결해 주시기 바랍니다./n일을 마친 후에 ^#3399FF알 아미르 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="고블린 약탈꾼 사냥" mapTargetId="403606"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[알 아미르 전투 모험가 길드원에게 보고]]" draft="알 아미르 상인들의 의뢰입니다. 요즘들어 부쩍 알 아미르 근처에 고블린 약탈꾼이 자주 출몰하는 바람에 장사에 곤란함을 겪고 있다고 합니다. 놈들은 돈을 가지고 있을 만한 사람은 누구든 가리지 않고 공격을 해대거든요./n카슬람 사구 지대 북동쪽의 ^#FF0000고블린 약탈꾼^#FFFFFF을 사냥해 상인들의 곤란함을 해결해 주시기 바랍니다./n일을 마친 후에 ^#3399FF알 아미르 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="알 아미르 전투 모험가 길드원에게 보고" mapTargetId="403501"/>
+		</Subject>
+		<Storage Hunt1_typeID="1074" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="512"/>
+	</Quest>
+	<Quest typeID="203106210" typeName="고블린 채찍 약탈꾼 사냥" group="200" NPC="모험가 길드원(알 아미르)" reportTo="모험가 길드원(알 아미르)" cancelable="1" repeatable="0" retryable="0" lv="41" desc="알 아미르를 여행하는 여행자의 의뢰입니다. 알 아미르로 들어오기 직전 갑자기 나타난 고블린 채찍 약탈꾼에게 공격을 당해 하마터면 큰 일을 치룰 뻔했다고 하더군요./n앞으로도 알 아미를 여행하러 오는 여행자들의 수가 늘 것 같으니 그 사람들을 위해 카슬람 사구 지대 북동쪽의 ^#FF0000고블린 채찍 약탈꾼^#FFFFFF을 처치해달라고 하십니다./n일을 마친 후에 ^#3399FF알 아미르 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="120020" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[고블린 채찍 약탈꾼 사냥]]" draft="알 아미르를 여행하는 여행자의 의뢰입니다. 알 아미르로 들어오기 직전 갑자기 나타난 고블린 채찍 약탈꾼에게 공격을 당해 하마터면 큰 일을 치룰 뻔했다고 하더군요./n앞으로도 알 아미를 여행하러 오는 여행자들의 수가 늘 것 같으니 그 사람들을 위해 카슬람 사구 지대 북동쪽의 ^#FF0000고블린 채찍 약탈꾼^#FFFFFF을 처치해달라고 하십니다./n일을 마친 후에 ^#3399FF알 아미르 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="고블린 채찍 약탈꾼 사냥" mapTargetId="403607"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[알 아미르 전투 모험가 길드원에게 보고]]" draft="알 아미르를 여행하는 여행자의 의뢰입니다. 알 아미르로 들어오기 직전 갑자기 나타난 고블린 채찍 약탈꾼에게 공격을 당해 하마터면 큰 일을 치룰 뻔했다고 하더군요./n앞으로도 알 아미를 여행하러 오는 여행자들의 수가 늘 것 같으니 그 사람들을 위해 카슬람 사구 지대 북동쪽의 ^#FF0000고블린 채찍 약탈꾼^#FFFFFF을 처치해달라고 하십니다./n일을 마친 후에 ^#3399FF알 아미르 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="알 아미르 전투 모험가 길드원에게 보고" mapTargetId="403501"/>
+		</Subject>
+		<Storage Hunt1_typeID="1076" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="512"/>
+	</Quest>
+	<Quest typeID="203106220" typeName="모래 프릭스 사냥" group="200" NPC="모험가 길드원(알 아미르)" reportTo="모험가 길드원(알 아미르)" cancelable="1" repeatable="0" retryable="0" lv="41" desc="경비 참모의 의뢰입니다. 매일 알 아미르 근처를 순찰 나갈 때 마다 모래 프릭스가 눈에 띄어 거슬린다고 합니다./n카슬람 사구 지대 북쪽의^#FF0000모래 프릭스^#FFFFFF를 사냥해 경비 참모의 마음을 편하게 해주십시오./n일을 마친 후에 ^#3399FF알 아미르 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="120020" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[모래 프릭스 사냥]]" draft="경비 참모의 의뢰입니다. 매일 알 아미르 근처를 순찰 나갈 때 마다 모래 프릭스가 눈에 띄어 거슬린다고 합니다./n카슬람 사구 지대 북쪽의^#FF0000모래 프릭스^#FFFFFF를 사냥해 경비 참모의 마음을 편하게 해주십시오./n일을 마친 후에 ^#3399FF알 아미르 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="모래 프릭스 사냥" mapTargetId="403608"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[알 아미르 전투 모험가 길드원에게 보고]]" draft="경비 참모의 의뢰입니다. 매일 알 아미르 근처를 순찰 나갈 때 마다 모래 프릭스가 눈에 띄어 거슬린다고 합니다./n카슬람 사구 지대 북쪽의^#FF0000모래 프릭스^#FFFFFF를 사냥해 경비 참모의 마음을 편하게 해주십시오./n일을 마친 후에 ^#3399FF알 아미르 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="알 아미르 전투 모험가 길드원에게 보고" mapTargetId="403501"/>
+		</Subject>
+		<Storage Hunt1_typeID="1078" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="512"/>
+	</Quest>
+	<Quest typeID="203106230" typeName="모래바람 고블린 약탈꾼 사냥" group="200" NPC="모험가 길드원(알 아미르)" reportTo="모험가 길드원(알 아미르)" cancelable="1" repeatable="0" retryable="0" lv="42" desc="요즘 들어 더 극성을 부리고 있는 고블린 약탈단의 소식을 들으셨습니까? 저희 모험가 길드에서는 이런 걸 두고 볼 수는 없다고 판단해 모험자님들께 도움을 요청하고 있습니다./n중앙 오아시스 동쪽의 ^#FF0000모래 바람 고블린 약탈꾼^#FFFFFF을 처치해 주십시오./n일을 마친 후에 ^#3399FF알 아미르 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="135640" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[모래바람 고블린 약탈꾼 사냥]]" draft="요즘 들어 더 극성을 부리고 있는 고블린 약탈단의 소식을 들으셨습니까? 저희 모험가 길드에서는 이런 걸 두고 볼 수는 없다고 판단해 모험자님들께 도움을 요청하고 있습니다./n중앙 오아시스 동쪽의 ^#FF0000모래 바람 고블린 약탈꾼^#FFFFFF을 처치해 주십시오./n일을 마친 후에 ^#3399FF알 아미르 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="모래바람 고블린 약탈꾼 사냥" mapTargetId="403609"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[알 아미르 전투 모험가 길드원에게 보고]]" draft="요즘 들어 더 극성을 부리고 있는 고블린 약탈단의 소식을 들으셨습니까? 저희 모험가 길드에서는 이런 걸 두고 볼 수는 없다고 판단해 모험자님들께 도움을 요청하고 있습니다./n중앙 오아시스 동쪽의 ^#FF0000모래 바람 고블린 약탈꾼^#FFFFFF을 처치해 주십시오./n일을 마친 후에 ^#3399FF알 아미르 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="알 아미르 전투 모험가 길드원에게 보고" mapTargetId="403501"/>
+		</Subject>
+		<Storage Hunt1_typeID="1070" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="555"/>
+	</Quest>
+	<Quest typeID="203106240" typeName="모래바람 고블린 채찍 약탈꾼 사냥" group="200" NPC="모험가 길드원(알 아미르)" reportTo="모험가 길드원(알 아미르)" cancelable="1" repeatable="0" retryable="0" lv="42" desc="저희 모험가 길드에서는 알 아미르 근처에 터를 잡고 지나가는 사람들을 습격하는 고블린들에 대한 대대적인 숙청을 계획하고 있습니다. 거기에 동참해주시지 않겠습니까?/n중앙 오아시스 동쪽의 ^#FF0000모래 바람 고블린 채찍 약탈꾼^#FFFFFF을 처치해 저희 모험가 길드를 도와주십시오./n일을 마친 후에 ^#3399FF알 아미르 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="135640" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[모래바람 고블린 채찍 약탈꾼 사냥]]" draft="저희 모험가 길드에서는 알 아미르 근처에 터를 잡고 지나가는 사람들을 습격하는 고블린들에 대한 대대적인 숙청을 계획하고 있습니다. 거기에 동참해주시지 않겠습니까?/n중앙 오아시스 동쪽의 ^#FF0000모래 바람 고블린 채찍 약탈꾼^#FFFFFF을 처치해 저희 모험가 길드를 도와주십시오./n일을 마친 후에 ^#3399FF알 아미르 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="모래바람 고블린 채찍 약탈꾼 사냥" mapTargetId="403610"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[알 아미르 전투 모험가 길드원에게 보고]]" draft="저희 모험가 길드에서는 알 아미르 근처에 터를 잡고 지나가는 사람들을 습격하는 고블린들에 대한 대대적인 숙청을 계획하고 있습니다. 거기에 동참해주시지 않겠습니까?/n중앙 오아시스 동쪽의 ^#FF0000모래 바람 고블린 채찍 약탈꾼^#FFFFFF을 처치해 저희 모험가 길드를 도와주십시오./n일을 마친 후에 ^#3399FF알 아미르 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="알 아미르 전투 모험가 길드원에게 보고" mapTargetId="403501"/>
+		</Subject>
+		<Storage Hunt1_typeID="1072" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="555"/>
+	</Quest>
+	<Quest typeID="203106900" typeName="마이토리아 개미굴로" group="200" NPC="모험가 길드원(알 아미르)" reportTo="모험가 길드원(마이토리아 개미굴)" cancelable="1" repeatable="0" retryable="0" lv="40" desc="모험가님께서 의뢰를 수행하는 모습을 지켜보고 있었습니다. 제가 보기에 모험가님은 출충한 실력을 지니신 것 같습니다./n마침 ^#3399FF마이토리아 개미굴^#FFFFFF에 파견나가 있는 저희 ^#3399FF모험가 길드원^#FFFFFF이 급한 일이 생겼다며 모험가를 지원해 달라고 하니 그 곳에 가보시는게 어떻겠습니까?" difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="109880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestState_Succes" desc="[[알 아미르 모험가 길드원과 대화]]" draft="모험가님께서 의뢰를 수행하는 모습을 지켜보고 있었습니다. 제가 보기에 모험가님은 출충한 실력을 지니신 것 같습니다./n마침 ^#3399FF마이토리아 개미굴^#FFFFFF에 파견나가 있는 저희 ^#3399FF모험가 길드원^#FFFFFF이 급한 일이 생겼다며 모험가를 지원해 달라고 하니 그 곳에 가보시는게 어떻겠습니까?" npc="모험가 길드원">
+			<subjectPos subjectStr="알 아미르 모험가 길드원과 대화" mapTargetId="403401"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[마이토리아 개미굴의 모험가 길드원과 대화]]" draft="모험가님께서 의뢰를 수행하는 모습을 지켜보고 있었습니다. 제가 보기에 모험가님은 출충한 실력을 지니신 것 같습니다./n마침 ^#3399FF마이토리아 개미굴^#FFFFFF에 파견나가 있는 저희 ^#3399FF모험가 길드원^#FFFFFF이 급한 일이 생겼다며 모험가를 지원해 달라고 하니 그 곳에 가보시는게 어떻겠습니까?" npc="모험가 길드원">
+			<subjectPos subjectStr="마이토리아 개미굴의 모험가 길드원과 대화" mapTargetId="404501"/>
+		</Subject>
+		<Storage/>
+		<BasicReward typeID="2100000000" count="498"/>
+	</Quest>
+	<Quest typeID="203106905" typeName="젠트라토 개미굴로" group="200" NPC="모험가 길드원(알 아미르)" reportTo="모험가 길드원(젠트라토 개미굴)" cancelable="1" repeatable="0" retryable="0" lv="40" desc="모험가님의 실력이라면 이 곳에서 남쪽에 위치한 젠트라토 개미굴에도 충분히 도전해 보실 수 있으신 것 같습니다./n^#3399FF젠트라토 개미굴^#FFFFFF로 가 ^#3399FF모험가 길드원^#FFFFFF을 만나십시오." difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="109880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestState_Succes" desc="[[알 아미르 모험가 길드원과 대화]]" draft="모험가님의 실력이라면 이 곳에서 남쪽에 위치한 젠트라토 개미굴에도 충분히 도전해 보실 수 있으신 것 같습니다./n^#3399FF젠트라토 개미굴^#FFFFFF로 가 ^#3399FF모험가 길드원^#FFFFFF을 만나십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="알 아미르 모험가 길드원과 대화" mapTargetId="403401"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[젠트라토 개미굴의 모험가 길드원과 대화]]" draft="모험가님의 실력이라면 이 곳에서 남쪽에 위치한 젠트라토 개미굴에도 충분히 도전해 보실 수 있으신 것 같습니다./n^#3399FF젠트라토 개미굴^#FFFFFF로 가 ^#3399FF모험가 길드원^#FFFFFF을 만나십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="젠트라토 개미굴의 모험가 길드원과 대화" mapTargetId="404503"/>
+		</Subject>
+		<Storage/>
+		<BasicReward typeID="2100000000" count="498"/>
+	</Quest>
+	<Quest typeID="203106910" typeName="아르하딘 소금광산으로" group="200" NPC="모험가 길드원(알 아미르)" reportTo="모험가 길드원(아르하딘 소금광산)" cancelable="1" repeatable="0" retryable="0" lv="40" desc="아르하딘 소금광산에 모험가님의 도움을 기다리는 사람이 많다고 합니다./n^#3399FF아르하딘 소금광산^#FFFFFF으로 가 ^#3399FF모험가 길드원^#FFFFFF을 만나십시오." difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="109880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestState_Succes" desc="[[알 아미르 모험가 길드원과 대화]]" draft="아르하딘 소금광산에 모험가님의 도움을 기다리는 사람이 많다고 합니다./n^#3399FF아르하딘 소금광산^#FFFFFF으로 가 ^#3399FF모험가 길드원^#FFFFFF을 만나십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="알 아미르 모험가 길드원과 대화" mapTargetId="403401"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[아르하딘 소금광산의 모험가 길드원과 대화]]" draft="아르하딘 소금광산에 모험가님의 도움을 기다리는 사람이 많다고 합니다./n^#3399FF아르하딘 소금광산^#FFFFFF으로 가 ^#3399FF모험가 길드원^#FFFFFF을 만나십시오." npc="모험가 길드원">
+			<subjectPos subjectStr="아르하딘 소금광산의 모험가 길드원에게 대화" mapTargetId="406501"/>
+		</Subject>
+		<Storage/>
+		<BasicReward typeID="2100000000" count="498"/>
+	</Quest>
+	<Quest typeID="203106915" typeName="데저트 움바 사냥" group="200" NPC="모험가 길드원(마이토리아 개미굴)" reportTo="모험가 길드원(마이토리아 개미굴)" cancelable="1" repeatable="0" retryable="0" lv="40" desc="사막 지대에 사는 데저트 움바는 초원이나 산악 지대에 사는 움바보다 더 난폭하다고 합니다./n마이토리아 개미굴 근처의 ^#FF0000데저트 움바^#FFFFFF를 사냥하고 돌아오십시오./n일을 마친 후에 ^#3399FF마이토리아 개미굴 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="109880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[데저트 움바 사냥]]" draft="사막 지대에 사는 데저트 움바는 초원이나 산악 지대에 사는 움바보다 더 난폭하다고 합니다./n마이토리아 개미굴 근처의 ^#FF0000데저트 움바^#FFFFFF를 사냥하고 돌아오십시오./n일을 마친 후에 ^#3399FF마이토리아 개미굴 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="데저트 움바 사냥" mapTargetId="404602"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[마이토리아 개미굴 전투 모험가 길드원에게 보고]]" draft="사막 지대에 사는 데저트 움바는 초원이나 산악 지대에 사는 움바보다 더 난폭하다고 합니다./n마이토리아 개미굴 근처의 ^#FF0000데저트 움바^#FFFFFF를 사냥하고 돌아오십시오./n일을 마친 후에 ^#3399FF마이토리아 개미굴 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="마이토리아 개미굴 전투 모험가 길드원에게 보고" mapTargetId="404501"/>
+		</Subject>
+		<Storage Hunt1_typeID="1060" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="498"/>
+	</Quest>
+	<Quest typeID="203106920" typeName="일꾼 마크라 사냥" group="200" NPC="모험가 길드원(마이토리아 개미굴)" reportTo="모험가 길드원(마이토리아 개미굴)" cancelable="1" repeatable="0" retryable="0" lv="40" desc="마이토리아 개미굴의 개미들은 일꾼 마크라가 없으면 하루도 버티지 못할 겁니다. 놈들은 식량을 모아오고 보관하는 등 왠만한 일은 일꾼 마크라에게 시키거든요./n마이토리아 개미굴의 ^#FF0000일꾼 마크라^#FFFFFF를 사냥하면 마이토리아 개미굴의 개미 수를 줄이는 데 큰 도움이 될 것입니다./n일을 마친 후에 ^#3399FF마이토리아 개미굴 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="109880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[일꾼 마크라 사냥]]" draft="마이토리아 개미굴의 개미들은 일꾼 마크라가 없으면 하루도 버티지 못할 겁니다. 놈들은 식량을 모아오고 보관하는 등 왠만한 일은 일꾼 마크라에게 시키거든요./n마이토리아 개미굴의 ^#FF0000일꾼 마크라^#FFFFFF를 사냥하면 마이토리아 개미굴의 개미 수를 줄이는 데 큰 도움이 될 것입니다./n일을 마친 후에 ^#3399FF마이토리아 개미굴 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="일꾼 마크라 사냥" mapTargetId="404603"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[마이토리아 개미굴 전투 모험가 길드원에게 보고]]" draft="마이토리아 개미굴의 개미들은 일꾼 마크라가 없으면 하루도 버티지 못할 겁니다. 놈들은 식량을 모아오고 보관하는 등 왠만한 일은 일꾼 마크라에게 시키거든요./n마이토리아 개미굴의 ^#FF0000일꾼 마크라^#FFFFFF를 사냥하면 마이토리아 개미굴의 개미 수를 줄이는 데 큰 도움이 될 것입니다./n일을 마친 후에 ^#3399FF마이토리아 개미굴 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="마이토리아 개미굴 전투 모험가 길드원에게 보고" mapTargetId="404501"/>
+		</Subject>
+		<Storage Hunt1_typeID="1184" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="498"/>
+	</Quest>
+	<Quest typeID="203106925" typeName="동굴 세이람 사냥" group="200" NPC="모험가 길드원(마이토리아 개미굴)" reportTo="모험가 길드원(마이토리아 개미굴)" cancelable="1" repeatable="0" retryable="0" lv="40" desc="마이토리아 개미굴에서 말썽을 피우는 건 개미들만이 아닙니다. 개미들이 파놓은 동굴에 기생해 사는 박쥐들도 문제죠./n마이토리아 개미굴의 ^#FF0000동굴 세이람^#FFFFFF을 사냥해 개미굴 일대를 평화롭게 만드는 걸 도와주십시오./n일을 마친 후에 ^#3399FF마이토리아 개미굴 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="109880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[동굴 세이람 사냥]]" draft="마이토리아 개미굴에서 말썽을 피우는 건 개미들만이 아닙니다. 개미들이 파놓은 동굴에 기생해 사는 박쥐들도 문제죠./n마이토리아 개미굴의 ^#FF0000동굴 세이람^#FFFFFF을 사냥해 개미굴 일대를 평화롭게 만드는 걸 도와주십시오./n일을 마친 후에 ^#3399FF마이토리아 개미굴 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="동굴 세이람 사냥" mapTargetId="404604"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[마이토리아 개미굴 전투 모험가 길드원에게 보고]]" draft="마이토리아 개미굴에서 말썽을 피우는 건 개미들만이 아닙니다. 개미들이 파놓은 동굴에 기생해 사는 박쥐들도 문제죠./n마이토리아 개미굴의 ^#FF0000동굴 세이람^#FFFFFF을 사냥해 개미굴 일대를 평화롭게 만드는 걸 도와주십시오./n일을 마친 후에 ^#3399FF마이토리아 개미굴 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="마이토리아 개미굴 전투 모험가 길드원에게 보고" mapTargetId="404501"/>
+		</Subject>
+		<Storage Hunt1_typeID="1186" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="498"/>
+	</Quest>
+	<Quest typeID="203106930" typeName="동굴 메이람 사냥" group="200" NPC="모험가 길드원(마이토리아 개미굴)" reportTo="모험가 길드원(마이토리아 개미굴)" cancelable="1" repeatable="0" retryable="0" lv="40" desc="동굴 메이람은 동굴 세이람보다 더 강력합니다. 그 강력한 힘으로 사람들을 깜짝 놀래키거나 상처 입히기 일쑤죠./n마이토리아 개미굴의 ^#FF0000동굴 메이람^#FFFFFF을 사냥해 개미굴 근처를 지나는 사람들이 평안한 여행을 할 수 있게 도와주십시오./n일을 마친 후에 ^#3399FF마이토리아 개미굴 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="109880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[동굴 메이람 사냥]]" draft="동굴 메이람은 동굴 세이람보다 더 강력합니다. 그 강력한 힘으로 사람들을 깜짝 놀래키거나 상처 입히기 일쑤죠./n마이토리아 개미굴의 ^#FF0000동굴 메이람^#FFFFFF을 사냥해 개미굴 근처를 지나는 사람들이 평안한 여행을 할 수 있게 도와주십시오./n일을 마친 후에 ^#3399FF마이토리아 개미굴 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="동굴 메이람 사냥" mapTargetId="404605"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[마이토리아 개미굴 전투 모험가 길드원에게 보고]]" draft="동굴 메이람은 동굴 세이람보다 더 강력합니다. 그 강력한 힘으로 사람들을 깜짝 놀래키거나 상처 입히기 일쑤죠./n마이토리아 개미굴의 ^#FF0000동굴 메이람^#FFFFFF을 사냥해 개미굴 근처를 지나는 사람들이 평안한 여행을 할 수 있게 도와주십시오./n일을 마친 후에 ^#3399FF마이토리아 개미굴 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="마이토리아 개미굴 전투 모험가 길드원에게 보고" mapTargetId="404501"/>
+		</Subject>
+		<Storage Hunt1_typeID="1188" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="498"/>
+	</Quest>
+	<Quest typeID="203106935" typeName="신병 마크라 사냥" group="200" NPC="모험가 길드원(마이토리아 개미굴)" reportTo="모험가 길드원(마이토리아 개미굴)" cancelable="1" repeatable="0" retryable="0" lv="40" desc="최근 들어 개미굴의 개미들이 병력을 충원하고 있는 듯 합니다. 개미이니 무기 같은 걸 제작해 쓰는 건 아니고 전투에 특화된 개미들의 수를 늘리고 있다는 것이죠./n마이토리아 개미굴의 신병 마크라가 바로 그놈들입니다. ^#FF0000신병 마크라^#FFFFFF를 사냥해 개미들이 더 강해지지 않도록 막아주십시오./n일을 마친 후에 ^#3399FF마이토리아 개미굴 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="109880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[신병 마크라 사냥]]" draft="최근 들어 개미굴의 개미들이 병력을 충원하고 있는 듯 합니다. 개미이니 무기 같은 걸 제작해 쓰는 건 아니고 전투에 특화된 개미들의 수를 늘리고 있다는 것이죠./n마이토리아 개미굴의 신병 마크라가 바로 그놈들입니다. ^#FF0000신병 마크라^#FFFFFF를 사냥해 개미들이 더 강해지지 않도록 막아주십시오./n일을 마친 후에 ^#3399FF마이토리아 개미굴 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="신병 마크라 사냥" mapTargetId="404606"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[마이토리아 개미굴 전투 모험가 길드원에게 보고]]" draft="최근 들어 개미굴의 개미들이 병력을 충원하고 있는 듯 합니다. 개미이니 무기 같은 걸 제작해 쓰는 건 아니고 전투에 특화된 개미들의 수를 늘리고 있다는 것이죠./n마이토리아 개미굴의 신병 마크라가 바로 그놈들입니다. ^#FF0000신병 마크라^#FFFFFF를 사냥해 개미들이 더 강해지지 않도록 막아주십시오./n일을 마친 후에 ^#3399FF마이토리아 개미굴 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="마이토리아 개미굴 전투 모험가 길드원에게 보고" mapTargetId="404501"/>
+		</Subject>
+		<Storage Hunt1_typeID="1190" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="498"/>
+	</Quest>
+	<Quest typeID="203106940" typeName="마이토리아 처치(파티)" group="200" NPC="모험가 길드원(마이토리아 개미굴)" reportTo="모험가 길드원(마이토리아 개미굴)" cancelable="1" repeatable="0" retryable="0" lv="40" desc="이 마이토리아 개미굴의 개미들은 모두 한 마리의 여왕에게서 명령을 받아 사람들을 해치고 있습니다. 그녀가 바로 마이토리아라고 불리는 여왕 개미이죠./n^#FF0000마이토리아^#FFFFFF를 처치하면 개미굴의 소탕도 끝이 보일 듯합니다. 힘드시겠지만 동료들을 모아가면 한층 수월하게 임무를 수행하실 수 있으실겁니다./n일을 마친 후에 ^#3399FF마이토리아 개미굴 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="109880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[마이토리아 사냥]]" draft="이 마이토리아 개미굴의 개미들은 모두 한 마리의 여왕에게서 명령을 받아 사람들을 해치고 있습니다. 그녀가 바로 마이토리아라고 불리는 여왕 개미이죠./n^#FF0000마이토리아^#FFFFFF를 처치하면 개미굴의 소탕도 끝이 보일 듯합니다. 힘드시겠지만 동료들을 모아가면 한층 수월하게 임무를 수행하실 수 있으실겁니다./n일을 마친 후에 ^#3399FF마이토리아 개미굴 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="마이토리아 사냥" mapTargetId="404607"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[마이토리아 개미굴 전투 모험가 길드원에게 보고]]" draft="이 마이토리아 개미굴의 개미들은 모두 한 마리의 여왕에게서 명령을 받아 사람들을 해치고 있습니다. 그녀가 바로 마이토리아라고 불리는 여왕 개미이죠./n^#FF0000마이토리아^#FFFFFF를 처치하면 개미굴의 소탕도 끝이 보일 듯합니다. 힘드시겠지만 동료들을 모아가면 한층 수월하게 임무를 수행하실 수 있으실겁니다./n일을 마친 후에 ^#3399FF마이토리아 개미굴 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="마이토리아 개미굴 전투 모험가 길드원에게 보고" mapTargetId="404501"/>
+		</Subject>
+		<Storage Hunt1_typeID="1192" Hunt1_goal="1" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="498"/>
+	</Quest>
+	<Quest typeID="203106945" typeName="분노한 데저트 움바 사냥" group="200" NPC="모험가 길드원(젠트라토 개미굴)" reportTo="모험가 길드원(젠트라토 개미굴)" cancelable="1" repeatable="0" retryable="0" lv="40" desc="젠트라토 개미굴에는 아주 강한 개미들이 살고 있습니다. 그런 개미들과 다투며 지역을 나누어 살고 있는 데저트 움바들은 언제나 분노해 있지요./n그냥 개미들과만 싸우면 좋으련만 분노한 데저트 움바는 지나가는 사람들 가리지 않고 공격해 문제가 된답니다./n젠트라토 개미굴 근처의 ^#FF0000분노한 데저트 움바^#FFFFFF를 사냥해 주십시오./n일을 마친 후에 ^#3399FF젠트라토 개미굴 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="109880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[분노한 데저트 움바 사냥]]" draft="젠트라토 개미굴에는 아주 강한 개미들이 살고 있습니다. 그런 개미들과 다투며 지역을 나누어 살고 있는 데저트 움바들은 언제나 분노해 있지요./n그냥 개미들과만 싸우면 좋으련만 분노한 데저트 움바는 지나가는 사람들 가리지 않고 공격해 문제가 된답니다./n젠트라토 개미굴 근처의 ^#FF0000분노한 데저트 움바^#FFFFFF를 사냥해 주십시오./n일을 마친 후에 ^#3399FF젠트라토 개미굴 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="분노한 데저트 움바 사냥" mapTargetId="403611"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[젠트라토 개미굴 전투 모험가 길드원에게 보고]]" draft="젠트라토 개미굴에는 아주 강한 개미들이 살고 있습니다. 그런 개미들과 다투며 지역을 나누어 살고 있는 데저트 움바들은 언제나 분노해 있지요./n그냥 개미들과만 싸우면 좋으련만 분노한 데저트 움바는 지나가는 사람들 가리지 않고 공격해 문제가 된답니다./n젠트라토 개미굴 근처의 ^#FF0000분노한 데저트 움바^#FFFFFF를 사냥해 주십시오./n일을 마친 후에 ^#3399FF젠트라토 개미굴 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="젠트라토 개미굴 전투 모험가 길드원에게 보고" mapTargetId="404503"/>
+		</Subject>
+		<Storage Hunt1_typeID="1204" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="498"/>
+	</Quest>
+	<Quest typeID="203106950" typeName="분노한 동굴 메이람 사냥" group="200" NPC="모험가 길드원(젠트라토 개미굴)" reportTo="모험가 길드원(젠트라토 개미굴)" cancelable="1" repeatable="0" retryable="0" lv="40" desc="저 어두컴컴한 동굴 안에는 개미만 살고 있는 것이 아니랍니다. 개미에게 기생해 서로 지켜주며 안전한 동굴 속에 몸을 숨기는 박쥐들도 있지요./n젠트라토 개미굴의 ^#FF0000분노한 동굴 메이람^#FFFFFF을 사냥해 개미들이 번식하는 것을 중단시켜 주십시오./n일을 마친 후에 ^#3399FF젠트라토 개미굴 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="109880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[분노한 동굴 메이람 사냥]]" draft="저 어두컴컴한 동굴 안에는 개미만 살고 있는 것이 아니랍니다. 개미에게 기생해 서로 지켜주며 안전한 동굴 속에 몸을 숨기는 박쥐들도 있지요./n젠트라토 개미굴의 ^#FF0000분노한 동굴 메이람^#FFFFFF을 사냥해 개미들이 번식하는 것을 중단시켜 주십시오./n일을 마친 후에 ^#3399FF젠트라토 개미굴 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="분노한 동굴 메이람 사냥" mapTargetId="403612"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[젠트라토 개미굴 전투 모험가 길드원에게 보고]]" draft="저 어두컴컴한 동굴 안에는 개미만 살고 있는 것이 아니랍니다. 개미에게 기생해 서로 지켜주며 안전한 동굴 속에 몸을 숨기는 박쥐들도 있지요./n젠트라토 개미굴의 ^#FF0000분노한 동굴 메이람^#FFFFFF을 사냥해 개미들이 번식하는 것을 중단시켜 주십시오./n일을 마친 후에 ^#3399FF젠트라토 개미굴 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="젠트라토 개미굴 전투 모험가 길드원에게 보고" mapTargetId="404503"/>
+		</Subject>
+		<Storage Hunt1_typeID="1193" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="498"/>
+	</Quest>
+	<Quest typeID="203106955" typeName="분노한 동굴 세이람 사냥" group="200" NPC="모험가 길드원(젠트라토 개미굴)" reportTo="모험가 길드원(젠트라토 개미굴)" cancelable="1" repeatable="0" retryable="0" lv="40" desc="동굴 메이람 보다는 동굴 세이람이 더 무섭고 힘도 세지요. 젠트라토 개미굴의 ^#FF0000분노한 동굴 세이람^#FFFFFF을 사냥해주십시오./n일을 마친 후에 ^#3399FF젠트라토 개미굴 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="109880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[분노한 동굴 세이람 사냥]]" draft="동굴 메이람 보다는 동굴 세이람이 더 무섭고 힘도 세지요. 젠트라토 개미굴의 ^#FF0000분노한 동굴 세이람^#FFFFFF을 사냥해주십시오./n일을 마친 후에 ^#3399FF젠트라토 개미굴 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="분노한 동굴 세이람 사냥" mapTargetId="403613"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[젠트라토 개미굴 전투 모험가 길드원에게 보고]]" draft="동굴 메이람 보다는 동굴 세이람이 더 무섭고 힘도 세지요. 젠트라토 개미굴의 ^#FF0000분노한 동굴 세이람^#FFFFFF을 사냥해주십시오./n일을 마친 후에 ^#3399FF젠트라토 개미굴 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="젠트라토 개미굴 전투 모험가 길드원에게 보고" mapTargetId="404503"/>
+		</Subject>
+		<Storage Hunt1_typeID="1195" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="498"/>
+	</Quest>
+	<Quest typeID="203106960" typeName="아마존 마크라 사냥" group="200" NPC="모험가 길드원(젠트라토 개미굴)" reportTo="모험가 길드원(젠트라토 개미굴)" cancelable="1" repeatable="0" retryable="0" lv="40" desc="곤충 학자 파르브의 의뢰입니다. 원래 아마존 마크라는 습기가 많고 정글이 우거진 지대에 사는 몬스터인데 어째서 이런 사막 지대에 서식할 수 있는지 궁금하다며 연구를 하고 싶어 하십시니다./n파르브씨를 위해 젠트라토 개미굴의 ^#FF0000아마존 마크라^#FFFFFF를 사냥하고 돌아와주시기 바랍니다./n일을 마친 후에 ^#3399FF젠트라토 개미굴 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="109880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[아마존 마크라 사냥]]" draft="곤충 학자 파르브의 의뢰입니다. 원래 아마존 마크라는 습기가 많고 정글이 우거진 지대에 사는 몬스터인데 어째서 이런 사막 지대에 서식할 수 있는지 궁금하다며 연구를 하고 싶어 하십시니다./n파르브씨를 위해 젠트라토 개미굴의 ^#FF0000아마존 마크라^#FFFFFF를 사냥하고 돌아와주시기 바랍니다./n일을 마친 후에 ^#3399FF젠트라토 개미굴 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="아마존 마크라 사냥" mapTargetId="403614"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[젠트라토 개미굴 전투 모험가 길드원에게 보고]]" draft="곤충 학자 파르브의 의뢰입니다. 원래 아마존 마크라는 습기가 많고 정글이 우거진 지대에 사는 몬스터인데 어째서 이런 사막 지대에 서식할 수 있는지 궁금하다며 연구를 하고 싶어 하십시니다./n파르브씨를 위해 젠트라토 개미굴의 ^#FF0000아마존 마크라^#FFFFFF를 사냥하고 돌아와주시기 바랍니다./n일을 마친 후에 ^#3399FF젠트라토 개미굴 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="젠트라토 개미굴 전투 모험가 길드원에게 보고" mapTargetId="404503"/>
+		</Subject>
+		<Storage Hunt1_typeID="1197" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="498"/>
+	</Quest>
+	<Quest typeID="203106965" typeName="병정 마크라 사냥" group="200" NPC="모험가 길드원(젠트라토 개미굴)" reportTo="모험가 길드원(젠트라토 개미굴)" cancelable="1" repeatable="0" retryable="0" lv="40" desc="이 곳의 개미들은 나름 상하관계에 따른 체계를 갖추고 있다고 합니다. 그래서 자기들끼리 서로 명칭을 붙여 서로의 직업을 구분한다고 합니다. 그 중에서도 병정 마크라가 제일 강하고 힘이 센데 그만큼 사람들에게 주는 피해도 큽니다./n젠트라토 개미굴의 ^#FF0000병정 마크라^#FFFFFF를 사냥해 사람들이 입는 피해를 줄여주시기 바랍니다./n일을 마친 후에 ^#3399FF젠트라토 개미굴 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="109880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[병정 마크라 사냥]]" draft="이 곳의 개미들은 나름 상하관계에 따른 체계를 갖추고 있다고 합니다. 그래서 자기들끼리 서로 명칭을 붙여 서로의 직업을 구분한다고 합니다. 그 중에서도 병정 마크라가 제일 강하고 힘이 센데 그만큼 사람들에게 주는 피해도 큽니다./n젠트라토 개미굴의 ^#FF0000병정 마크라^#FFFFFF를 사냥해 사람들이 입는 피해를 줄여주시기 바랍니다./n일을 마친 후에 ^#3399FF젠트라토 개미굴 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="병정 마크라 사냥" mapTargetId="403615"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[젠트라토 개미굴 전투 모험가 길드원에게 보고]]" draft="이 곳의 개미들은 나름 상하관계에 따른 체계를 갖추고 있다고 합니다. 그래서 자기들끼리 서로 명칭을 붙여 서로의 직업을 구분한다고 합니다. 그 중에서도 병정 마크라가 제일 강하고 힘이 센데 그만큼 사람들에게 주는 피해도 큽니다./n젠트라토 개미굴의 ^#FF0000병정 마크라^#FFFFFF를 사냥해 사람들이 입는 피해를 줄여주시기 바랍니다./n일을 마친 후에 ^#3399FF젠트라토 개미굴 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="젠트라토 개미굴 전투 모험가 길드원에게 보고" mapTargetId="404503"/>
+		</Subject>
+		<Storage Hunt1_typeID="1199" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="498"/>
+	</Quest>
+	<Quest typeID="203106970" typeName="마크리온 처치(파티)" group="200" NPC="모험가 길드원(젠트라토 개미굴)" reportTo="모험가 길드원(젠트라토 개미굴)" cancelable="1" repeatable="0" retryable="0" lv="40" desc="이 젠트라토 개미굴의 왕은 마크리온이라 불리는 큰 개미입니다. 이 놈이 부하들을 시켜 이런 저런 사람들을 괴롭힐 수단을 생각해 내는 두뇌나 마찬가지이지요. 마크리온을 처치하면 많은 사람들에게 도움이 될 것입니다./n젠트라토 개미굴의 ^#FF0000마크리온^#FFFFFF을 처치해 주십시오. 마크리온을 처치하는 것은 꽤나 어려운 일이 될 수 있으니 믿음직한 동료들과 함께 가시길 바랍니다./n일을 마친 후에 ^#3399FF젠트라토 개미굴 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="109880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[젠트라토 사냥]]" draft="이 젠트라토 개미굴의 왕은 마크리온이라 불리는 큰 개미입니다. 이 놈이 부하들을 시켜 이런 저런 사람들을 괴롭힐 수단을 생각해 내는 두뇌나 마찬가지이지요. 마크리온을 처치하면 많은 사람들에게 도움이 될 것입니다./n젠트라토 개미굴의 ^#FF0000마크리온^#FFFFFF을 처치해 주십시오. 마크리온을 처치하는 것은 꽤나 어려운 일이 될 수 있으니 믿음직한 동료들과 함께 가시길 바랍니다./n일을 마친 후에 ^#3399FF젠트라토 개미굴 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="젠트라토 사냥" mapTargetId="403616"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[젠트라토 개미굴 전투 모험가 길드원에게 보고]]" draft="이 젠트라토 개미굴의 왕은 마크리온이라 불리는 큰 개미입니다. 이 놈이 부하들을 시켜 이런 저런 사람들을 괴롭힐 수단을 생각해 내는 두뇌나 마찬가지이지요. 마크리온을 처치하면 많은 사람들에게 도움이 될 것입니다./n젠트라토 개미굴의 ^#FF0000마크리온^#FFFFFF을 처치해 주십시오. 마크리온을 처치하는 것은 꽤나 어려운 일이 될 수 있으니 믿음직한 동료들과 함께 가시길 바랍니다./n일을 마친 후에 ^#3399FF젠트라토 개미굴 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="젠트라토 개미굴 전투 모험가 길드원에게 보고" mapTargetId="404503"/>
+		</Subject>
+		<Storage Hunt1_typeID="1201" Hunt1_goal="1" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="498"/>
+	</Quest>
+	<Quest typeID="203106975" typeName="일꾼 노커 사냥" group="200" NPC="모험가 길드원(마티나 별장지대)" reportTo="모험가 길드원(마티나 별장지대)" cancelable="1" repeatable="0" retryable="0" lv="40" desc="마티나 별장 지대는 알 아미르에 사는 마티나들의 꿈이나 마찬가지입니다. 별장은 보통의 마티나가 가지기엔 너무 고가이거든요. 이 주변을 장식한 장식품들도 모두 고가에 거래 되는 물건들입니다. /n헌데 일꾼 노커들이 어슬렁 거리며 이 주변에 나타나 장식을 부수고 잔디를 망쳐놓는다고 마티나들의 불평이 말이 아닙니다./n아르하딘 소금 광산 주변의 ^#FF0000일꾼 노커^#FFFFFF를 사냥해 마티나들의 고충을 해소해 주십시오./n일을 마친 후에 ^#3399FF신바하드의 별장 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="109880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[일꾼 노커 사냥]]" draft="마티나 별장 지대는 알 아미르에 사는 마티나들의 꿈이나 마찬가지입니다. 별장은 보통의 마티나가 가지기엔 너무 고가이거든요. 이 주변을 장식한 장식품들도 모두 고가에 거래 되는 물건들입니다. /n헌데 일꾼 노커들이 어슬렁 거리며 이 주변에 나타나 장식을 부수고 잔디를 망쳐놓는다고 마티나들의 불평이 말이 아닙니다./n아르하딘 소금 광산 주변의 ^#FF0000일꾼 노커^#FFFFFF를 사냥해 마티나들의 고충을 해소해 주십시오./n일을 마친 후에 ^#3399FF신바하드의 별장 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="일꾼 노커 사냥" mapTargetId="405601"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[마티나 별장지대 전투 모험가 길드원에게 보고]]" draft="마티나 별장 지대는 알 아미르에 사는 마티나들의 꿈이나 마찬가지입니다. 별장은 보통의 마티나가 가지기엔 너무 고가이거든요. 이 주변을 장식한 장식품들도 모두 고가에 거래 되는 물건들입니다. /n헌데 일꾼 노커들이 어슬렁 거리며 이 주변에 나타나 장식을 부수고 잔디를 망쳐놓는다고 마티나들의 불평이 말이 아닙니다./n아르하딘 소금 광산 주변의 ^#FF0000일꾼 노커^#FFFFFF를 사냥해 마티나들의 고충을 해소해 주십시오./n일을 마친 후에 ^#3399FF신바하드의 별장 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="마티나 별장지대 전투 모험가 길드원에게 보고" mapTargetId="406501"/>
+		</Subject>
+		<Storage Hunt1_typeID="1164" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="498"/>
+	</Quest>
+	<Quest typeID="203106980" typeName="광산 메이람 사냥" group="200" NPC="모험가 길드원(마티나 별장지대)" reportTo="모험가 길드원(마티나 별장지대)" cancelable="1" repeatable="0" retryable="0" lv="40" desc="소금 광산에는 광산 메이람이란 독특한 생물이 살고 있습니다. 소금을 먹고 사는 박쥐이지요. 이 놈들은 식욕이 왕성해 소금 광산의 소금이 다 고갈될 위기에 빠져 있다고 합니다./n소금 광산 안에서 서식하는 ^#FF0000광산 메이람^#FFFFFF을 사냥해 주십시오.n일을 마친 후에 ^#3399FF신바하드의 별장 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="109880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[광산 메이람 사냥]]" draft="소금 광산에는 광산 메이람이란 독특한 생물이 살고 있습니다. 소금을 먹고 사는 박쥐이지요. 이 놈들은 식욕이 왕성해 소금 광산의 소금이 다 고갈될 위기에 빠져 있다고 합니다./n소금 광산 안에서 서식하는 ^#FF0000광산 메이람^#FFFFFF을 사냥해 주십시오.n일을 마친 후에 ^#3399FF신바하드의 별장 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="광산 메이람 사냥" mapTargetId="405602"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[마티나 별장지대 전투 모험가 길드원에게 보고]]" draft="소금 광산에는 광산 메이람이란 독특한 생물이 살고 있습니다. 소금을 먹고 사는 박쥐이지요. 이 놈들은 식욕이 왕성해 소금 광산의 소금이 다 고갈될 위기에 빠져 있다고 합니다./n소금 광산 안에서 서식하는 ^#FF0000광산 메이람^#FFFFFF을 사냥해 주십시오.n일을 마친 후에 ^#3399FF신바하드의 별장 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="마티나 별장지대 전투 모험가 길드원에게 보고" mapTargetId="406501"/>
+		</Subject>
+		<Storage Hunt1_typeID="1172" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="498"/>
+	</Quest>
+	<Quest typeID="203106985" typeName="광산 안내자 노커 사냥" group="200" NPC="모험가 길드원(마티나 별장지대)" reportTo="모험가 길드원(마티나 별장지대)" cancelable="1" repeatable="0" retryable="0" lv="40" desc="소금 광산은 원래 노커들의 서식지였다고 합니다. 하지만 지금은 마티나들의 개발로 인해 쫓겨날 처지에 처해있지요. 노커들의 반항이 심해 애꿎은 피킨 광부들이 해를 입는 경우가 많다고 합니다./n아르하딘 소금광산의 ^#FF0000광산 안내자 노커^#FFFFFF를 처치해 주십시오.n일을 마친 후에 ^#3399FF신바하드의 별장 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="109880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[광산 안내자 노커 사냥]]" draft="소금 광산은 원래 노커들의 서식지였다고 합니다. 하지만 지금은 마티나들의 개발로 인해 쫓겨날 처지에 처해있지요. 노커들의 반항이 심해 애꿎은 피킨 광부들이 해를 입는 경우가 많다고 합니다./n아르하딘 소금광산의 ^#FF0000광산 안내자 노커^#FFFFFF를 처치해 주십시오.n일을 마친 후에 ^#3399FF신바하드의 별장 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="광산 안내자 노커 사냥" mapTargetId="405603"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[마티나 별장지대 전투 모험가 길드원에게 보고]]" draft="소금 광산은 원래 노커들의 서식지였다고 합니다. 하지만 지금은 마티나들의 개발로 인해 쫓겨날 처지에 처해있지요. 노커들의 반항이 심해 애꿎은 피킨 광부들이 해를 입는 경우가 많다고 합니다./n아르하딘 소금광산의 ^#FF0000광산 안내자 노커^#FFFFFF를 처치해 주십시오.n일을 마친 후에 ^#3399FF신바하드의 별장 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="마티나 별장지대 전투 모험가 길드원에게 보고" mapTargetId="406501"/>
+		</Subject>
+		<Storage Hunt1_typeID="1174" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="498"/>
+	</Quest>
+	<Quest typeID="203106990" typeName="광산 파수꾼 노커 사냥" group="200" NPC="모험가 길드원(마티나 별장지대)" reportTo="모험가 길드원(마티나 별장지대)" cancelable="1" repeatable="0" retryable="0" lv="40" desc="소금 광산은 마티나에 의해 개발되긴 했지만 아직도 전에 그곳을 지키고 살던 노커들이 떠나지 않고 피킨 노예들을 공격하고 있습니다. 특히나 광산 파수꾼 노커가 광산을 순찰하며 광산에 침입하는 사람들을 심하게 공격하는데 그 피해가 심각합니다./n아르하딘 소금광산의 ^#FF0000광산 파수꾼 노커^#FFFFFF를 처치해 주십시오.n일을 마친 후에 ^#3399FF신바하드의 별장 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="109880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[광산 파수꾼 노커 사냥]]" draft="소금 광산은 마티나에 의해 개발되긴 했지만 아직도 전에 그곳을 지키고 살던 노커들이 떠나지 않고 피킨 노예들을 공격하고 있습니다. 특히나 광산 파수꾼 노커가 광산을 순찰하며 광산에 침입하는 사람들을 심하게 공격하는데 그 피해가 심각합니다./n아르하딘 소금광산의 ^#FF0000광산 파수꾼 노커^#FFFFFF를 처치해 주십시오.n일을 마친 후에 ^#3399FF신바하드의 별장 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="광산 파수꾼 노커 사냥" mapTargetId="405604"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[마티나 별장지대 전투 모험가 길드원에게 보고]]" draft="소금 광산은 마티나에 의해 개발되긴 했지만 아직도 전에 그곳을 지키고 살던 노커들이 떠나지 않고 피킨 노예들을 공격하고 있습니다. 특히나 광산 파수꾼 노커가 광산을 순찰하며 광산에 침입하는 사람들을 심하게 공격하는데 그 피해가 심각합니다./n아르하딘 소금광산의 ^#FF0000광산 파수꾼 노커^#FFFFFF를 처치해 주십시오.n일을 마친 후에 ^#3399FF신바하드의 별장 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="마티나 별장지대 전투 모험가 길드원에게 보고" mapTargetId="406501"/>
+		</Subject>
+		<Storage Hunt1_typeID="1176" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="498"/>
+	</Quest>
+	<Quest typeID="203106995" typeName="진 사냥(파티)" group="200" NPC="모험가 길드원(마티나 별장지대)" reportTo="모험가 길드원(마티나 별장지대)" cancelable="1" repeatable="0" retryable="0" lv="40" desc="모래 사막에서 전해져 오는 전설을 아십니까? 모래 요정 진의 힘을 빌리면 뭐든지 할 수 있다는 이야기요. 이건 마치 요즘 떠도는 라임의 소문과 같지요./n라임의 소문은 진의 전설의 변형일 뿐이라고 말하는 사람도 있는 모양입니다. 그렇기 때문에 이 의뢰를 꼭 부탁드리고 싶습니다./n지금  진의 주인이 누구인지는 밝혀지지 않았지만 소금 광산에서 행패를 부리고 있는 건 나쁜 주인이 부리는 진임이 분명합니다./n아르하딘 소금 광산 깊숙이에 있는 ^#FF0000진^#FFFFFF을 사냥해 본떼를 보여주십시오./n라임과 버금가는 존재로 알려진 몬스터이니 안전을 위해 결코 혼자 맞서 싸우지는 마십시오. 님 같은 모험가를 잃기엔 너무 아깝거든요.n일을 마친 후에 ^#3399FF신바하드의 별장 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="109880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[진 사냥]]" draft="모래 사막에서 전해져 오는 전설을 아십니까? 모래 요정 진의 힘을 빌리면 뭐든지 할 수 있다는 이야기요. 이건 마치 요즘 떠도는 라임의 소문과 같지요./n라임의 소문은 진의 전설의 변형일 뿐이라고 말하는 사람도 있는 모양입니다. 그렇기 때문에 이 의뢰를 꼭 부탁드리고 싶습니다./n지금  진의 주인이 누구인지는 밝혀지지 않았지만 소금 광산에서 행패를 부리고 있는 건 나쁜 주인이 부리는 진임이 분명합니다./n아르하딘 소금 광산 깊숙이에 있는 ^#FF0000진^#FFFFFF을 사냥해 본떼를 보여주십시오./n라임과 버금가는 존재로 알려진 몬스터이니 안전을 위해 결코 혼자 맞서 싸우지는 마십시오. 님 같은 모험가를 잃기엔 너무 아깝거든요.n일을 마친 후에 ^#3399FF신바하드의 별장 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="진 사냥" mapTargetId="405605"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[마티나 별장지대 전투 모험가 길드원에게 보고]]" draft="모래 사막에서 전해져 오는 전설을 아십니까? 모래 요정 진의 힘을 빌리면 뭐든지 할 수 있다는 이야기요. 이건 마치 요즘 떠도는 라임의 소문과 같지요./n라임의 소문은 진의 전설의 변형일 뿐이라고 말하는 사람도 있는 모양입니다. 그렇기 때문에 이 의뢰를 꼭 부탁드리고 싶습니다./n지금  진의 주인이 누구인지는 밝혀지지 않았지만 소금 광산에서 행패를 부리고 있는 건 나쁜 주인이 부리는 진임이 분명합니다./n아르하딘 소금 광산 깊숙이에 있는 ^#FF0000진^#FFFFFF을 사냥해 본떼를 보여주십시오./n라임과 버금가는 존재로 알려진 몬스터이니 안전을 위해 결코 혼자 맞서 싸우지는 마십시오. 님 같은 모험가를 잃기엔 너무 아깝거든요.n일을 마친 후에 ^#3399FF신바하드의 별장 모험가 길드원^#FFFFFF에게 완료하시면 보상을 받을 수 있습니다." npc="모험가 길드원">
+			<subjectPos subjectStr="마티나 별장지대 전투 모험가 길드원에게 보고" mapTargetId="406501"/>
+		</Subject>
+		<Storage Hunt1_typeID="1178" Hunt1_goal="1" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="498"/>
+	</Quest>
+</Quest>

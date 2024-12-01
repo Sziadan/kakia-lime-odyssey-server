@@ -13,17 +13,17 @@ public struct FPOS
 	{
 		double dx = destination.x - x;
 		double dy = destination.y - y;
-		double dz = destination.z - z;
+		double dz = 0; //destination.z - z;
 
 		// Calculate the magnitude of the direction vector
-		double magnitude = Math.Sqrt(dx * dx + dy * dy + dz * dz);
+		double magnitude = Math.Sqrt(dx * dx + dy * dy);
 
 		// Normalize the direction vector
 		return new FPOS
 		{
 			x = (float)(dx / magnitude),
 			y = (float)(dy / magnitude),
-			z = (float)(dz / magnitude)
+			z = 0
 		};
 	}
 

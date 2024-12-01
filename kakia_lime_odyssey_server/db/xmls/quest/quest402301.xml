@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by Administrator (siriusent) -->
+<Quest>
+	<Quest typeID="402301045" typeName="부러진 검1" group="001" NPC="가포일 워퓨리" reportTo="칸의 무덤 경비병4" cancelable="1" repeatable="0" retryable="1" lv="10" desc="우리 투르가는 항상 초원의 평화를 위해 감시를 한시도 경비를 소홀히 하지 않는다네. 그런데 ^#3399FF칸의 무덤의 경비병^#FFFFFF에게서 급보가 왔어./n검이 부러졌는데 재료가 부족해 수리할 수 없게 되었다고 하더군. 그가 가진 검을 가져다 주게. 금방 수리해서 경비를 서는데 어려움이 없게 해줘야 하니 말이네." difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="102" rewardCombatJobEXP="2240" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[가포일 워퓨리와 대화]]" draft="우리 투르가는 항상 초원의 평화를 위해 감시를 한시도 경비를 소홀히 하지 않는다네. 그런데 ^#3399FF칸의 무덤의 경비병^#FFFFFF에게서 급보가 왔어./n검이 부러졌는데 재료가 부족해 수리할 수 없게 되었다고 하더군. 그가 가진 검을 가져다 주게. 금방 수리해서 경비를 서는데 어려움이 없게 해줘야 하니 말이네." npc="가포일 워퓨리">
+			<subjectPos subjectStr="가포일 워퓨리와 대화" mapTargetId="102405"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[칸의 무덤 경비병과 대화]]" draft="우리 투르가는 항상 초원의 평화를 위해 감시를 한시도 경비를 소홀히 하지 않는다네. 그런데 ^#3399FF칸의 무덤의 경비병^#FFFFFF에게서 급보가 왔어./n검이 부러졌는데 재료가 부족해 수리할 수 없게 되었다고 하더군. 그가 가진 검을 가져다 주게. 금방 수리해서 경비를 서는데 어려움이 없게 해줘야 하니 말이네." npc="칸의 무덤 경비병">
+			<subjectPos subjectStr="칸의 무덤 경비병과 대화" mapTargetId="102512"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="402301050" typeName="혼에 경배를 2" group="001" NPC="칸의 무덤_그린리프 대원" reportTo="이던 리프테일" cancelable="1" repeatable="0" retryable="1" lv="11" desc="이럴수가! 제가 이 곳에서 오가는 모험자들을 도운지도 벌써 여러 해인데 이런건 처음 봤어요. 들어 본 적도 없는걸요!/n선대 칸의 영혼의 모습을 보다니! 들었던대로 칸이란 정말 늠름한 모습이로군요. 적이라면 무서워서 오줌을 지릴 정도의 위엄이었어요./n선대 칸의 영혼을 본 건 정말 신기하고 놀라운 일이지만 무슨 불길한 일이 생겨 경고를 하려고 나타나신 걸지도 모른단 생각이 드네요./n이런건 아마도 제사장이신 카라쿤타의 ^#3399FF이던 리프테일^#FFFFFF님께서 잘 아실 거예요. 그분께 가서 방금 상황을 말씀드리도록 하세요." difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="156" rewardCombatJobEXP="2720" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[그린리프 대원과 대화]]" draft="이럴수가! 제가 이 곳에서 오가는 모험자들을 도운지도 벌써 여러 해인데 이런건 처음 봤어요. 들어 본 적도 없는걸요!/n선대 칸의 영혼의 모습을 보다니! 들었던대로 칸이란 정말 늠름한 모습이로군요. 적이라면 무서워서 오줌을 지릴 정도의 위엄이었어요./n선대 칸의 영혼을 본 건 정말 신기하고 놀라운 일이지만 무슨 불길한 일이 생겨 경고를 하려고 나타나신 걸지도 모른단 생각이 드네요./n이런건 아마도 제사장이신 카라쿤타의 ^#3399FF이던 리프테일^#FFFFFF님께서 잘 아실 거예요. 그분께 가서 방금 상황을 말씀드리도록 하세요." npc="칸의무덤_그린리프 대원">
+			<subjectPos subjectStr="그린리프 대원과 대화" mapTargetId="102411"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[이던 리프테일과 대화]]" draft="이럴수가! 제가 이 곳에서 오가는 모험자들을 도운지도 벌써 여러 해인데 이런건 처음 봤어요. 들어 본 적도 없는걸요!/n선대 칸의 영혼의 모습을 보다니! 들었던대로 칸이란 정말 늠름한 모습이로군요. 적이라면 무서워서 오줌을 지릴 정도의 위엄이었어요./n선대 칸의 영혼을 본 건 정말 신기하고 놀라운 일이지만 무슨 불길한 일이 생겨 경고를 하려고 나타나신 걸지도 모른단 생각이 드네요./n이런건 아마도 제사장이신 카라쿤타의 ^#3399FF이던 리프테일^#FFFFFF님께서 잘 아실 거예요. 그분께 가서 방금 상황을 말씀드리도록 하세요." npc="이던 리프테일">
+			<subjectPos subjectStr="이던 리프테일과 대화" mapTargetId="103519"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="6"/>
+	</Quest>
+	<Quest typeID="402301055" typeName="이제 겨우 한 발2" group="001" NPC="정찰병 발컨" reportTo="겔만 선더워크" cancelable="1" repeatable="0" retryable="1" lv="5" desc="이 빅스 떼를 보라고! 원래 이놈들은 카툼바 골짜기의 훈련생들의 상대로 삼기 위해 초원 구석에 사는 놈들을 몇 마리 잡아 와 둥지를 마련해 준 것인데…/n이게 왠걸. 먹이를 조금 주었더니 갑자기 증식해서 이렇게 떼로 몰려 다니며 카툼바 골짜기에서 갓 나온 훈련생들을 공격해대지 뭐야./n위에서 이 사실을 알고 빅스를 제대로 돌보지 못한 죄를 물을 지도 모르니 누가 알기 전에 어서 이 빅스를 처치해주게. ^#FF0000베이비 빅스^#FFFFFF, ^#FF0000마마 빅스^#FFFFFF, ^#FF0000파파 빅스^#FFFFFF 가릴 것 없이 닥치는대로 처치한 후 사자상 앞에 계신 ^#3399FF겔만 선더워크^#FFFFFF님께 여기는 아무 일 없다고 보고해 줘." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="48" rewardCombatJobEXP="1120" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest3" desc="[[베이비 빅스 처치]][[마마 빅스 처치]][[파파 빅스 처치]]" draft="이 빅스 떼를 보라고! 원래 이놈들은 카툼바 골짜기의 훈련생들의 상대로 삼기 위해 초원 구석에 사는 놈들을 몇 마리 잡아 와 둥지를 마련해 준 것인데…/n이게 왠걸. 먹이를 조금 주었더니 갑자기 증식해서 이렇게 떼로 몰려 다니며 카툼바 골짜기에서 갓 나온 훈련생들을 공격해대지 뭐야./n위에서 이 사실을 알고 빅스를 제대로 돌보지 못한 죄를 물을 지도 모르니 누가 알기 전에 어서 이 빅스를 처치해주게. ^#FF0000베이비 빅스^#FFFFFF, ^#FF0000마마 빅스^#FFFFFF, ^#FF0000파파 빅스^#FFFFFF 가릴 것 없이 닥치는대로 처치한 후 사자상 앞에 계신 ^#3399FF겔만 선더워크^#FFFFFF님께 여기는 아무 일 없다고 보고해 줘." npc="정찰병 발컨">
+			<subjectPos subjectStr="베이비 빅스 처치" mapTargetId="101601"/>
+			<subjectPos subjectStr="마마 빅스 처치" mapTargetId="101601"/>
+			<subjectPos subjectStr="파파 빅스 처치" mapTargetId="101601"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[겔만 선더워크에게 보고]]" draft="이 빅스 떼를 보라고! 원래 이놈들은 카툼바 골짜기의 훈련생들의 상대로 삼기 위해 초원 구석에 사는 놈들을 몇 마리 잡아 와 둥지를 마련해 준 것인데…/n이게 왠걸. 먹이를 조금 주었더니 갑자기 증식해서 이렇게 떼로 몰려 다니며 카툼바 골짜기에서 갓 나온 훈련생들을 공격해대지 뭐야./n위에서 이 사실을 알고 빅스를 제대로 돌보지 못한 죄를 물을 지도 모르니 누가 알기 전에 어서 이 빅스를 처치해주게. ^#FF0000베이비 빅스^#FFFFFF, ^#FF0000마마 빅스^#FFFFFF, ^#FF0000파파 빅스^#FFFFFF 가릴 것 없이 닥치는대로 처치한 후 사자상 앞에 계신 ^#3399FF겔만 선더워크^#FFFFFF님께 여기는 아무 일 없다고 보고해 줘." npc="겔만 선더워크">
+			<subjectPos subjectStr="겔만 선더워크에게 보고" mapTargetId="101517"/>
+		</Subject>
+		<Storage Hunt1_typeID="14" Hunt1_goal="3" Hunt1_count="0" target1_type="Hunt" Hunt2_typeID="16" Hunt2_goal="3" Hunt2_count="0" target2_type="Hunt" Hunt3_typeID="17" Hunt3_goal="3" Hunt3_count="0" target3_type="Hunt" target_number="3"/>
+		<BasicReward typeID="2100000000" count="5"/>
+		<ChoiceReward typeID="50006" count="1"/>
+		<ChoiceReward typeID="50062" count="1"/>
+		<ChoiceReward typeID="50118" count="1"/>
+		<ChoiceReward typeID="50174" count="1"/>
+	</Quest>
+	<Quest typeID="402301056" typeName="빅스의 왕" group="001" NPC="정찰병 발컨" reportTo="정찰병 발컨" cancelable="1" repeatable="0" retryable="1" lv="5" desc="빅스의 수가 늘어나면서 변종 빅스가 생겨났다네. 바로 내가 ^#FF0000빅돔^#FFFFFF이라 이름을 붙인 녀석이야./n놈이 아직 내 무릎 위에서 놀 수 있는 크기였을 땐 정말 귀여웠는데…. 아무튼 놈은 이 빅스둥지의 가장 안쪽에 있을 거야./n크기도 크고 눈에 상처가 있는 녀석이니 한 눈에 알아볼 수 있을거야. 놈을 처치하거든 나에게 돌아와." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="10" rewardCombatJobEXP="150" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[빅돔 사냥]]" draft="빅스의 수가 늘어나면서 변종 빅스가 생겨났다네. 바로 내가 ^#FF0000빅돔^#FFFFFF이라 이름을 붙인 녀석이야./n놈이 아직 내 무릎 위에서 놀 수 있는 크기였을 땐 정말 귀여웠는데…. 아무튼 놈은 이 빅스둥지의 가장 안쪽에 있을 거야./n크기도 크고 눈에 상처가 있는 녀석이니 한 눈에 알아볼 수 있을거야. 놈을 처치하거든 나에게 돌아와." npc="정찰병 발컨">
+			<subjectPos subjectStr="빅돔 사냥" mapTargetId="101601"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[정찰병 발컨에게 보고]]" draft="빅스의 수가 늘어나면서 변종 빅스가 생겨났다네. 바로 내가 ^#FF0000빅돔^#FFFFFF이라 이름을 붙인 녀석이야./n놈이 아직 내 무릎 위에서 놀 수 있는 크기였을 땐 정말 귀여웠는데…. 아무튼 놈은 이 빅스둥지의 가장 안쪽에 있을 거야./n크기도 크고 눈에 상처가 있는 녀석이니 한 눈에 알아볼 수 있을거야. 놈을 처치하거든 나에게 돌아와." npc="정찰병 발컨">
+			<subjectPos subjectStr="정찰병 발컨에게 보고" mapTargetId="101518"/>
+		</Subject>
+		<Storage Hunt1_typeID="13" Hunt1_goal="1" Hunt1_count="0" target1_type="Hunt" target_number="1" image_number="11" image_time="20000"/>
+		<BasicReward typeID="2100000000" count="4"/>
+		<BasicReward typeID="600067" count="1"/>
+		<ChoiceReward typeID="50005" count="1"/>
+		<ChoiceReward typeID="50061" count="1"/>
+		<ChoiceReward typeID="50117" count="1"/>
+		<ChoiceReward typeID="50173" count="1"/>
+	</Quest>
+	<Quest typeID="402301060" typeName="거대한 아가마" group="001" NPC="아발치 선하울" reportTo="커쉬븐 디어헌터" cancelable="1" repeatable="0" retryable="1" lv="16" desc="이 근처에 요즘 거대한 듀크 아가마가 나타나 횡포를 부린다네./n내가 가서 처치했으면 좋겠으나 요즘 이상하게 힘이 없어. 자네가 대신 가서 거대한 듀크 아가마를 처치해 주게나./n용맹한 자의 길 근처에 있는 ^#3399FF커쉬븐 디어헌터^#FFFFFF에게도 거대한 듀크 아가마가 처치되었다는 이야기를 해줘./n왜냐면 그는 전에 초원을 걷다가 북부 감시 초소 근처에서 ^#FF0000거대한 듀크 아가마^#FFFFFF를 만나 혼쭐이 난 적이 있다고 하거든. 그게 처치 되었다는 소리를 들으면 그도 기뻐할거야." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="921" rewardCombatJobEXP="5920" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[거대한 듀크 아가마 사냥]]" draft="이 근처에 요즘 거대한 듀크 아가마가 나타나 횡포를 부린다네./n내가 가서 처치했으면 좋겠으나 요즘 이상하게 힘이 없어. 자네가 대신 가서 거대한 듀크 아가마를 처치해 주게나./n용맹한 자의 길 근처에 있는 ^#3399FF커쉬븐 디어헌터^#FFFFFF에게도 거대한 듀크 아가마가 처치되었다는 이야기를 해줘./n왜냐면 그는 전에 초원을 걷다가 북부 감시 초소 근처에서 ^#FF0000거대한 듀크 아가마^#FFFFFF를 만나 혼쭐이 난 적이 있다고 하거든. 그게 처치 되었다는 소리를 들으면 그도 기뻐할거야." npc="아발치 선하울">
+			<subjectPos subjectStr="거대한 듀크 아가마 사냥" mapTargetId="105604"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[커쉬븐 디어헌터에게 보고]]" draft="이 근처에 요즘 거대한 듀크 아가마가 나타나 횡포를 부린다네./n내가 가서 처치했으면 좋겠으나 요즘 이상하게 힘이 없어. 자네가 대신 가서 거대한 듀크 아가마를 처치해 주게나./n용맹한 자의 길 근처에 있는 ^#3399FF커쉬븐 디어헌터^#FFFFFF에게도 거대한 듀크 아가마가 처치되었다는 이야기를 해줘./n왜냐면 그는 전에 초원을 걷다가 북부 감시 초소 근처에서 ^#FF0000거대한 듀크 아가마^#FFFFFF를 만나 혼쭐이 난 적이 있다고 하거든. 그게 처치 되었다는 소리를 들으면 그도 기뻐할거야." npc="커쉬븐 디어헌터">
+			<subjectPos subjectStr="커쉬븐 디어헌터에게 보고" mapTargetId="106504"/>
+		</Subject>
+		<Storage Hunt1_typeID="581" Hunt1_goal="1" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="22"/>
+	</Quest>
+	<Quest typeID="402301065" typeName="용맹한 자의 길1" group="001" NPC="보르둔 어반엑스" reportTo="오린 어스히트" cancelable="1" repeatable="0" retryable="1" lv="17" desc="얼마 전에 용맹한 자의 길의 역사를 연구하는 바두인 오린 어스히트가 혼자 북쪽으로 떠났네./n그런데 간지 시간이 오래 되었는데도 돌아오지 않아 걱정이 된다네. 북쪽으로 간 ^#3399FF오린 어스히트^#FFFFFF를 찾아 그녀가 무사한지 알아봐주게." difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="1042" rewardCombatJobEXP="6240" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[보르둔 어반엑스와 대화]]" draft="얼마 전에 용맹한 자의 길의 역사를 연구하는 바두인 오린 어스히트가 혼자 북쪽으로 떠났네./n그런데 간지 시간이 오래 되었는데도 돌아오지 않아 걱정이 된다네. 북쪽으로 간 ^#3399FF오린 어스히트^#FFFFFF를 찾아 그녀가 무사한지 알아봐주게." npc="보르둔 어반엑스">
+			<subjectPos subjectStr="보르둔 어반엑스와 대화" mapTargetId="106402"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[오린 어스히트와 대화]]" draft="얼마 전에 용맹한 자의 길의 역사를 연구하는 바두인 오린 어스히트가 혼자 북쪽으로 떠났네./n그런데 간지 시간이 오래 되었는데도 돌아오지 않아 걱정이 된다네. 북쪽으로 간 ^#3399FF오린 어스히트^#FFFFFF를 찾아 그녀가 무사한지 알아봐주게." npc="오린 어스히트">
+			<subjectPos subjectStr="오린 어스히트와 대화" mapTargetId="106503"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="22"/>
+	</Quest>
+	<Quest typeID="402301070" typeName="용맹한 자의 길3" group="001" NPC="오린 어스히트" reportTo="보르둔 어반엑스" cancelable="1" repeatable="0" retryable="1" lv="17" desc="지금의 용맹한 자의 길은 예전보다 더 두렵고 무서운 길이 되었어요. 이름처럼 정말 용맹한 사람만이 다닐 수 있는 길이 되었달까요? 호호./n그래도 카라쿤타에서 파견된 보르둔 같은 경비병들이 있어 마음 놓고 길을 오갈 수 있으니 정말 다행이랍니다./n저는 좀 더 연구를 하고 갈테니 ^#3399FF보르둔 어반엑스^#FFFFFF에게 가서 제 대신 고마운 마음을 전해주세요." difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="1042" rewardCombatJobEXP="6240" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[오린 어스히트와 대화]]" draft="지금의 용맹한 자의 길은 예전보다 더 두렵고 무서운 길이 되었어요. 이름처럼 정말 용맹한 사람만이 다닐 수 있는 길이 되었달까요? 호호./n그래도 카라쿤타에서 파견된 보르둔 같은 경비병들이 있어 마음 놓고 길을 오갈 수 있으니 정말 다행이랍니다./n저는 좀 더 연구를 하고 갈테니 ^#3399FF보르둔 어반엑스^#FFFFFF에게 가서 제 대신 고마운 마음을 전해주세요." npc="오린 어스히트">
+			<subjectPos subjectStr="오린 어스히트와 대화" mapTargetId="106403"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[보르둔 어반엑스와 대화]]" draft="지금의 용맹한 자의 길은 예전보다 더 두렵고 무서운 길이 되었어요. 이름처럼 정말 용맹한 사람만이 다닐 수 있는 길이 되었달까요? 호호./n그래도 카라쿤타에서 파견된 보르둔 같은 경비병들이 있어 마음 놓고 길을 오갈 수 있으니 정말 다행이랍니다./n저는 좀 더 연구를 하고 갈테니 ^#3399FF보르둔 어반엑스^#FFFFFF에게 가서 제 대신 고마운 마음을 전해주세요." npc="보르둔 어반엑스">
+			<subjectPos subjectStr="보르둔 어반엑스와 대화" mapTargetId="106502"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="25"/>
+	</Quest>
+	<Quest typeID="402301075" typeName="초소의 고민2" group="001" NPC="올도반 선하울" reportTo="올도반 선하울" cancelable="1" repeatable="0" retryable="1" lv="7" desc="이 초소에서 내려다 보면 여러가지를 볼 수 있지.하루 종일 이 곳에 서있다 보면 자연히 주변의 것들을 자세히 보게 될 수 밖에 없어./n그 중에서도 각종 짐승들이 땅을 헤집고 서로 쫓고 쫓기는 광경을 보는 게 가장 박진감 넘치는 일이라네. 하지만 사람들이 몹쓸 짐승들에게 뒤를 쫓기는 광경을 지켜보는 건 별로 유쾌한 일이 아니야./n최근 들어 ^#FF0000얌전한 자이쿠^#FFFFFF들이 사람들에게 횡포를 부리는 모습이 자주 목격된다네. 덩달아 ^#FF0000얌전한 덤버^#FFFFFF,^#FF0000조숙한 자이쿠^#FFFFFF도 날뛰니...놈들을 혼내줘 겁을 먹고 다시는 그러지 못하게 해주게나." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="30" rewardCombatJobEXP="640" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest3" desc="[[얌전한 자이쿠 사냥]][[조숙한 자이쿠 사냥]][[얌전한 덤버 사냥]]" draft="이 초소에서 내려다 보면 여러가지를 볼 수 있지.하루 종일 이 곳에 서있다 보면 자연히 주변의 것들을 자세히 보게 될 수 밖에 없어./n그 중에서도 각종 짐승들이 땅을 헤집고 서로 쫓고 쫓기는 광경을 보는 게 가장 박진감 넘치는 일이라네. 하지만 사람들이 몹쓸 짐승들에게 뒤를 쫓기는 광경을 지켜보는 건 별로 유쾌한 일이 아니야./n최근 들어 ^#FF0000얌전한 자이쿠^#FFFFFF들이 사람들에게 횡포를 부리는 모습이 자주 목격된다네. 덩달아 ^#FF0000얌전한 덤버^#FFFFFF,^#FF0000조숙한 자이쿠^#FFFFFF도 날뛰니...놈들을 혼내줘 겁을 먹고 다시는 그러지 못하게 해주게나." npc="겔만 선더워크">
+			<subjectPos subjectStr="얌전한 자이쿠 사냥" mapTargetId="101602"/>
+			<subjectPos subjectStr="조숙한 자이쿠 사냥" mapTargetId="101602"/>
+			<subjectPos subjectStr="얌전한 덤버 사냥" mapTargetId="101602"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[올도반 선하울에게 보고]]" draft="이 초소에서 내려다 보면 여러가지를 볼 수 있지.하루 종일 이 곳에 서있다 보면 자연히 주변의 것들을 자세히 보게 될 수 밖에 없어./n그 중에서도 각종 짐승들이 땅을 헤집고 서로 쫓고 쫓기는 광경을 보는 게 가장 박진감 넘치는 일이라네. 하지만 사람들이 몹쓸 짐승들에게 뒤를 쫓기는 광경을 지켜보는 건 별로 유쾌한 일이 아니야./n최근 들어 ^#FF0000얌전한 자이쿠^#FFFFFF들이 사람들에게 횡포를 부리는 모습이 자주 목격된다네. 덩달아 ^#FF0000얌전한 덤버^#FFFFFF,^#FF0000조숙한 자이쿠^#FFFFFF도 날뛰니...놈들을 혼내줘 겁을 먹고 다시는 그러지 못하게 해주게나." npc="올도반 선하울">
+			<subjectPos subjectStr="올도반 선하울에게 보고" mapTargetId="101515"/>
+		</Subject>
+		<Storage Hunt1_typeID="469" Hunt1_goal="5" Hunt1_count="0" target1_type="Hunt" Hunt2_typeID="78" Hunt2_goal="5" Hunt2_count="0" target2_type="Hunt" Hunt3_typeID="25" Hunt3_goal="5" Hunt3_count="0" target3_type="Hunt" target_number="3"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="402301080" typeName="북부 초소 청소" group="001" NPC="아발치 선하울" reportTo="올라비 그래스워커" cancelable="1" repeatable="0" retryable="1" lv="16" desc="요즘 내가 초소 경비가 아닌 다른 일로 근심이 많다네. 그래서 본업인 경비에 소홀히 해 주변인에게 걱정을 끼친 것이 사실이지./n뭐 나도 내입으로 이런 사실들을 말하기는 하지만 내 걱정은 쉽게 풀리지 않는 것이라 당분간 일을 할 수 없을 것같네. 자네가 대신 북부 감시 초소 주변의 ^#FF0000크림슨 샤우라^#FFFFFF와 ^#FF0000듀크 아가마^#FFFFFF를 사냥한 후 ^#3399FF올라비 그래스워커^#FFFFFF에게 보고하게나." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="921" rewardCombatJobEXP="5920" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest2" desc="[[크림슨 샤우라 사냥]][[듀크 아가마 사냥]]" draft="요즘 내가 초소 경비가 아닌 다른 일로 근심이 많다네. 그래서 본업인 경비에 소홀히 해 주변인에게 걱정을 끼친 것이 사실이지./n뭐 나도 내입으로 이런 사실들을 말하기는 하지만 내 걱정은 쉽게 풀리지 않는 것이라 당분간 일을 할 수 없을 것같네. 자네가 대신 북부 감시 초소 주변의 ^#FF0000크림슨 샤우라^#FFFFFF와 ^#FF0000듀크 아가마^#FFFFFF를 사냥한 후 ^#3399FF올라비 그래스워커^#FFFFFF에게 보고하게나." npc="올도반 선하울">
+			<subjectPos subjectStr="크림슨 샤우라 사냥" mapTargetId="105601"/>
+			<subjectPos subjectStr="듀크 아가마 사냥" mapTargetId="105601"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[올라비 그래스워커에게 보고]]" draft="요즘 내가 초소 경비가 아닌 다른 일로 근심이 많다네. 그래서 본업인 경비에 소홀히 해 주변인에게 걱정을 끼친 것이 사실이지./n뭐 나도 내입으로 이런 사실들을 말하기는 하지만 내 걱정은 쉽게 풀리지 않는 것이라 당분간 일을 할 수 없을 것같네. 자네가 대신 북부 감시 초소 주변의 ^#FF0000크림슨 샤우라^#FFFFFF와 ^#FF0000듀크 아가마^#FFFFFF를 사냥한 후 ^#3399FF올라비 그래스워커^#FFFFFF에게 보고하게나." npc="올라비 그래스워커">
+			<subjectPos subjectStr="올라비 그래스워커에게 보고" mapTargetId="105502"/>
+		</Subject>
+		<Storage Hunt1_typeID="131" Hunt1_goal="5" Hunt1_count="0" target1_type="Hunt" Hunt2_typeID="132" Hunt2_goal="5" Hunt2_count="0" target2_type="Hunt" target_number="2"/>
+		<BasicReward typeID="2100000000" count="20"/>
+	</Quest>
+	<Quest typeID="402301085" typeName="돌아온 악당들 1" group="001" NPC="드레이브 선하울" reportTo="올도반 선하울" cancelable="1" repeatable="0" retryable="1" lv="8" desc="최근들어 샤바두 협곡 쪽에서 이상한 냄새가 난단 말이야. 익숙하면서 기분이 상하는… 그게 대체 뭐였는지 기억이 가물가물하네./n자네가 샤바두 협곡에 가서 그 안에 뭐가 들어 사는가 보고 오지 않겠는가? 협곡 탐색을 한 후엔 쿠니바 마을 옆 초소의 ^#3399FF올도반 선하울^#FFFFFF에게 보고하게. 선량한 그가 뒷처리를 해줄테니 말일세." difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="34" rewardCombatJobEXP="960" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[드레이브 선하울과 대화]]" draft="최근들어 샤바두 협곡 쪽에서 이상한 냄새가 난단 말이야. 익숙하면서 기분이 상하는… 그게 대체 뭐였는지 기억이 가물가물하네./n자네가 샤바두 협곡에 가서 그 안에 뭐가 들어 사는가 보고 오지 않겠는가? 협곡 탐색을 한 후엔 쿠니바 마을 옆 초소의 ^#3399FF올도반 선하울^#FFFFFF에게 보고하게. 선량한 그가 뒷처리를 해줄테니 말일세." npc="드레이브 선하울">
+			<subjectPos subjectStr="드레이브 선하울과 대화" mapTargetId="101411"/>
+		</Subject>
+		<Subject typeName="Explore" func="Quest402301085_Explore" desc="[[샤바두 협곡 정찰]]" draft="최근들어 샤바두 협곡 쪽에서 이상한 냄새가 난단 말이야. 익숙하면서 기분이 상하는… 그게 대체 뭐였는지 기억이 가물가물하네./n자네가 샤바두 협곡에 가서 그 안에 뭐가 들어 사는가 보고 오지 않겠는가? 협곡 탐색을 한 후엔 쿠니바 마을 옆 초소의 ^#3399FF올도반 선하울^#FFFFFF에게 보고하게. 선량한 그가 뒷처리를 해줄테니 말일세." npc="올도반 선하울">
+			<subjectPos subjectStr="샤바두 협곡 정찰" mapTargetId="2000323102"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[올도반 선하울에게 보고]]" draft="최근들어 샤바두 협곡 쪽에서 이상한 냄새가 난단 말이야. 익숙하면서 기분이 상하는… 그게 대체 뭐였는지 기억이 가물가물하네./n자네가 샤바두 협곡에 가서 그 안에 뭐가 들어 사는가 보고 오지 않겠는가? 협곡 탐색을 한 후엔 쿠니바 마을 옆 초소의 ^#3399FF올도반 선하울^#FFFFFF에게 보고하게. 선량한 그가 뒷처리를 해줄테니 말일세." npc="올도반 선하울">
+			<subjectPos subjectStr="올도반 선하울에게 보고" mapTargetId="101515"/>
+		</Subject>
+		<Storage Hunt1_typeID="1" Hunt1_goal="1" Hunt1_count="0" target1_type="Hunt" target1_x="1766" target1_y="-6116" target1_z="607.40" target2_x="1070.91" target2_y="-6271.25" target2_z="571.13" target3_x="-78.99" target3_y="-6651.02" target3_z="612.34"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="402301090" typeName="흐릿한 진실3" group="001" NPC="미친 노인" reportTo="미친 노인" cancelable="1" repeatable="0" retryable="1" lv="14" desc="쿨럭 쿨럭- 케엑 켁! 아우 써! 너는 뭐냐? 뭔데 감히 나에게 이런 쓴 약을 먹이는 것이지? 무례하구나! 나는 칸의 경비 대장이란 말이다!/n그런데 여긴 어디란 말이냐? 나는… 칸은? 렌볼프 칸은 어디에 계시는가?/n왜 이렇게 허리가 아픈거지? 내 손엔 왜 이렇게 많은 주름이……여기는..지금은 대체 언제인거지? 나…나는......./n/n(노인에겐 자신이 미치기 전의 기억만 있는 것 같습니다. 당황한 그가 진정할 때까지 기다려 다시 말을 걸는 편이 좋을 것 같습니다.)" difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="548" rewardCombatJobEXP="4720" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[미친 노인과 대화]]" draft="쿨럭 쿨럭- 케엑 켁! 아우 써! 너는 뭐냐? 뭔데 감히 나에게 이런 쓴 약을 먹이는 것이지? 무례하구나! 나는 칸의 경비 대장이란 말이다!/n그런데 여긴 어디란 말이냐? 나는… 칸은? 렌볼프 칸은 어디에 계시는가?/n왜 이렇게 허리가 아픈거지? 내 손엔 왜 이렇게 많은 주름이……여기는..지금은 대체 언제인거지? 나…나는......./n/n(노인에겐 자신이 미치기 전의 기억만 있는 것 같습니다. 당황한 그가 진정할 때까지 기다려 다시 말을 걸는 편이 좋을 것 같습니다.)" npc="미친 노인">
+			<subjectPos subjectStr="미친 노인과 대화" mapTargetId="103426"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[노인과 대화]]" draft="쿨럭 쿨럭- 케엑 켁! 아우 써! 너는 뭐냐? 뭔데 감히 나에게 이런 쓴 약을 먹이는 것이지? 무례하구나! 나는 칸의 경비 대장이란 말이다!/n그런데 여긴 어디란 말이냐? 나는… 칸은? 렌볼프 칸은 어디에 계시는가?/n왜 이렇게 허리가 아픈거지? 내 손엔 왜 이렇게 많은 주름이……여기는..지금은 대체 언제인거지? 나…나는......./n/n(노인에겐 자신이 미치기 전의 기억만 있는 것 같습니다. 당황한 그가 진정할 때까지 기다려 다시 말을 걸는 편이 좋을 것 같습니다.)" npc="미친 노인">
+			<subjectPos subjectStr="노인과 대화" mapTargetId="103526"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+	<Quest typeID="402301095" typeName="초소의 고민1" group="001" NPC="드레이브 선하울" reportTo="올도반 선하울" cancelable="1" repeatable="0" retryable="1" lv="7" desc="마을 남쪽에 있는 작은 초소를 보았는가? 몹쓸 짐승이나 악당들이 쿠니바 마을을 노리지 못하도록 쿠니바 마을을 지키는 듬직한 초소이지./n그 곳의 초소장은 ^#3399FF올도반 선하울^#FFFFFF이라고 하는데 그가 자신을 도와줄 사람이 급히 필요하다 한다네./n올도반 선하울을 찾아가 무슨 일인지 물어보도록 하게." difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="30" rewardCombatJobEXP="640" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[드레이브 선하울과 대화]]" draft="마을 남쪽에 있는 작은 초소를 보았는가? 몹쓸 짐승이나 악당들이 쿠니바 마을을 노리지 못하도록 쿠니바 마을을 지키는 듬직한 초소이지./n그 곳의 초소장은 ^#3399FF올도반 선하울^#FFFFFF이라고 하는데 그가 자신을 도와줄 사람이 급히 필요하다 한다네./n올도반 선하울을 찾아가 무슨 일인지 물어보도록 하게." npc="드레이브 선하울">
+			<subjectPos subjectStr="드레이브 선하울과 대화" mapTargetId="101411"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[올도반 선하울과 대화]]" draft="마을 남쪽에 있는 작은 초소를 보았는가? 몹쓸 짐승이나 악당들이 쿠니바 마을을 노리지 못하도록 쿠니바 마을을 지키는 듬직한 초소이지./n그 곳의 초소장은 ^#3399FF올도반 선하울^#FFFFFF이라고 하는데 그가 자신을 도와줄 사람이 급히 필요하다 한다네./n올도반 선하울을 찾아가 무슨 일인지 물어보도록 하게." npc="올도반 선하울">
+			<subjectPos subjectStr="올도반 선하울과 대화" mapTargetId="101515"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="402301100" typeName="초소장의 근심2" group="001" NPC="올라비 그래스워커" reportTo="아발치 선하울" cancelable="1" repeatable="0" retryable="1" lv="16" desc="중부 감시 초소에서는 우리 투르가의 영토를 침범한 캬산족 때문에 고민이 많다지?/n여기 그곳 사람들 못지 않게 걱정이 많은 사람이 있다네. 바로 ^#3399FF아발치 선하울^#FFFFFF이지. 그는 카샨족과 인연이 있는 사람이었다네. 그에게 가서 이야기를 듣고 그를 위로해 주지 않겠나? 요즘들어 통 기운이 없어 보여서 말이야." difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="921" rewardCombatJobEXP="5920" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[올라비 그래스워커와 대화]]" draft="중부 감시 초소에서는 우리 투르가의 영토를 침범한 캬산족 때문에 고민이 많다지?/n여기 그곳 사람들 못지 않게 걱정이 많은 사람이 있다네. 바로 ^#3399FF아발치 선하울^#FFFFFF이지. 그는 카샨족과 인연이 있는 사람이었다네. 그에게 가서 이야기를 듣고 그를 위로해 주지 않겠나? 요즘들어 통 기운이 없어 보여서 말이야." npc="올라비 그래스워커">
+			<subjectPos subjectStr="올라비 그래스워커와 대화" mapTargetId="105402"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[아발치 선하울과 대화]]" draft="중부 감시 초소에서는 우리 투르가의 영토를 침범한 캬산족 때문에 고민이 많다지?/n여기 그곳 사람들 못지 않게 걱정이 많은 사람이 있다네. 바로 ^#3399FF아발치 선하울^#FFFFFF이지. 그는 카샨족과 인연이 있는 사람이었다네. 그에게 가서 이야기를 듣고 그를 위로해 주지 않겠나? 요즘들어 통 기운이 없어 보여서 말이야." npc="아발치 선하울">
+			<subjectPos subjectStr="아발치 선하울과 대화" mapTargetId="105503"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="20"/>
+	</Quest>
+	<Quest typeID="402301105" typeName="침략의 전조3" group="001" NPC="데르샤 스컬크러셔" reportTo="밀타 그래스아로마" cancelable="1" repeatable="0" retryable="1" lv="18" desc="뭔가 위험한 일이 벌어지고 있는 건 사실인 듯 한데 크로키 불량배 놈이 말하는 [흰 발톱]이란 것은 자기들끼리 사용하는 은어인 듯하네./n아마 ^#3399FF밀타 그래스아로마^#FFFFFF님이라면 크로키의 언어를 알고 계실지 몰라. 3차 초원전쟁 때 포로로 끌려갔다 돌아오셨거든. 그분은 찻잎을 따러 가셨다네. 길을 따라 남쪽으로 내려가다 보면 만날 수 있을게야." difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="1188" rewardCombatJobEXP="6720" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[데르샤 스컬크러셔와 대화]]" draft="뭔가 위험한 일이 벌어지고 있는 건 사실인 듯 한데 크로키 불량배 놈이 말하는 [흰 발톱]이란 것은 자기들끼리 사용하는 은어인 듯하네./n아마 ^#3399FF밀타 그래스아로마^#FFFFFF님이라면 크로키의 언어를 알고 계실지 몰라. 3차 초원전쟁 때 포로로 끌려갔다 돌아오셨거든. 그분은 찻잎을 따러 가셨다네. 길을 따라 남쪽으로 내려가다 보면 만날 수 있을게야." npc="데르샤 스컬크러셔">
+			<subjectPos subjectStr="데르샤 스컬크러셔와 대화" mapTargetId="107402"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[밀타 그래스아로마와 대화]]" draft="뭔가 위험한 일이 벌어지고 있는 건 사실인 듯 한데 크로키 불량배 놈이 말하는 [흰 발톱]이란 것은 자기들끼리 사용하는 은어인 듯하네./n아마 ^#3399FF밀타 그래스아로마^#FFFFFF님이라면 크로키의 언어를 알고 계실지 몰라. 3차 초원전쟁 때 포로로 끌려갔다 돌아오셨거든. 그분은 찻잎을 따러 가셨다네. 길을 따라 남쪽으로 내려가다 보면 만날 수 있을게야." npc="밀타 그래스아로마">
+			<subjectPos subjectStr="밀타 그래스아로마와 대화" mapTargetId="107510"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="36"/>
+	</Quest>
+	<Quest typeID="402301110" typeName="전사의 경험" group="001" NPC="겔만 선더워크" reportTo="드레이브 선하울" cancelable="1" repeatable="0" retryable="1" lv="6" desc="이 길을 쭉 따라 계곡을 내려가면 쿠니바 마을이 나온다네. 그 곳으로 가 ^#3399FF드레이브 선하울^#FFFFFF을 찾게./n그가 전사로서 강해지기 위해 해야 할 일들을 알려 줄 것이야." difficulty="1" onMessage="NULL" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="24" rewardCombatJobEXP="480" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[겔만 선더워크와 대화]]" draft="이 길을 쭉 따라 계곡을 내려가면 쿠니바 마을이 나온다네. 그 곳으로 가 ^#3399FF드레이브 선하울^#FFFFFF을 찾게./n그가 전사로서 강해지기 위해 해야 할 일들을 알려 줄 것이야." npc="드레이브 선하울">
+			<subjectPos subjectStr="겔만 선더워크와 대화" mapTargetId="101417"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[드레이브 선하울과 대화]]" draft="이 길을 쭉 따라 계곡을 내려가면 쿠니바 마을이 나온다네. 그 곳으로 가 ^#3399FF드레이브 선하울^#FFFFFF을 찾게./n그가 전사로서 강해지기 위해 해야 할 일들을 알려 줄 것이야." npc="드레이브 선하울">
+			<subjectPos subjectStr="드레이브 선하울과 대화" mapTargetId="101511"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="5"/>
+		<ChoiceReward typeID="50001" count="1"/>
+		<ChoiceReward typeID="50057" count="1"/>
+		<ChoiceReward typeID="50113" count="1"/>
+		<ChoiceReward typeID="50169" count="1"/>
+	</Quest>
+	<Quest typeID="402301115" typeName="진실의 벽 3" group="001" NPC="나인 호프" reportTo="나인 호프" cancelable="1" repeatable="0" retryable="1" lv="19" desc="던코트 라이온하트.. 내 둘도 없는 친구의 이름이지. 내가 '아?'하면 그가 '어?'할 정도로 우리는 마음이 잘 통하는 사이였어./n그가 카라쿤타로 돌아간 이후로 나는 계속 그를 그리워할 수 밖에 없었다네. 그가 여자였다면 청혼이라도 해서 옆에 두었을텐데 그가 여자가 아닌게 아쉬울 정도야. 그렇다고 이상한 상상은 하지 말어. 기분이 그렇다는 거니까. 기분이./n아무튼 던코트도 못보는 마당에 더 이상 여기 있을 이유가 없지만 생겼다네. 내가 투르가 경비병과 싸우다 부상 입은 틈을 타 탈룬 바라 협곡 근처의 ^#FF0000숙련된 크로키 보초^#FFFFFF와 ^#FF0000숙련된 크로키 파수꾼^#FFFFFF이 내 ^#3399FF가죽 주머니^#FFFFFF를 빼앗아 갔어./n그 안엔 긴 여행에 필요한 모든 도구가 들어있는데 말이야. 나는 부상이 아직 낫지 않아 찾아 올 수 없으니 대신 좀 찾아다 주게. 여기서 기다리겠네./n곧 투르가 경비병들이 순찰하러 이 곳에 돌아 올 것 같으니 케이거 시체 치우기 싫으면 빨리 찾아오는게 좋아." difficulty="1" onMessage="HuntCollect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="1333" rewardCombatJobEXP="7080" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[나인호프의 가죽 주머니 획득]]" draft="던코트 라이온하트.. 내 둘도 없는 친구의 이름이지. 내가 '아?'하면 그가 '어?'할 정도로 우리는 마음이 잘 통하는 사이였어./n그가 카라쿤타로 돌아간 이후로 나는 계속 그를 그리워할 수 밖에 없었다네. 그가 여자였다면 청혼이라도 해서 옆에 두었을텐데 그가 여자가 아닌게 아쉬울 정도야. 그렇다고 이상한 상상은 하지 말어. 기분이 그렇다는 거니까. 기분이./n아무튼 던코트도 못보는 마당에 더 이상 여기 있을 이유가 없지만 생겼다네. 내가 투르가 경비병과 싸우다 부상 입은 틈을 타 탈룬 바라 협곡 근처의 ^#FF0000숙련된 크로키 보초^#FFFFFF와 ^#FF0000숙련된 크로키 파수꾼^#FFFFFF이 내 ^#3399FF가죽 주머니^#FFFFFF를 빼앗아 갔어./n그 안엔 긴 여행에 필요한 모든 도구가 들어있는데 말이야. 나는 부상이 아직 낫지 않아 찾아 올 수 없으니 대신 좀 찾아다 주게. 여기서 기다리겠네./n곧 투르가 경비병들이 순찰하러 이 곳에 돌아 올 것 같으니 케이거 시체 치우기 싫으면 빨리 찾아오는게 좋아." npc="나인호프">
+			<subjectPos subjectStr="나인호프의 가죽 주머니 획득" mapTargetId="107602"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[나인호프에게 배달]]" draft="던코트 라이온하트.. 내 둘도 없는 친구의 이름이지. 내가 '아?'하면 그가 '어?'할 정도로 우리는 마음이 잘 통하는 사이였어./n그가 카라쿤타로 돌아간 이후로 나는 계속 그를 그리워할 수 밖에 없었다네. 그가 여자였다면 청혼이라도 해서 옆에 두었을텐데 그가 여자가 아닌게 아쉬울 정도야. 그렇다고 이상한 상상은 하지 말어. 기분이 그렇다는 거니까. 기분이./n아무튼 던코트도 못보는 마당에 더 이상 여기 있을 이유가 없지만 생겼다네. 내가 투르가 경비병과 싸우다 부상 입은 틈을 타 탈룬 바라 협곡 근처의 ^#FF0000숙련된 크로키 보초^#FFFFFF와 ^#FF0000숙련된 크로키 파수꾼^#FFFFFF이 내 ^#3399FF가죽 주머니^#FFFFFF를 빼앗아 갔어./n그 안엔 긴 여행에 필요한 모든 도구가 들어있는데 말이야. 나는 부상이 아직 낫지 않아 찾아 올 수 없으니 대신 좀 찾아다 주게. 여기서 기다리겠네./n곧 투르가 경비병들이 순찰하러 이 곳에 돌아 올 것 같으니 케이거 시체 치우기 싫으면 빨리 찾아오는게 좋아." npc="나인호프">
+			<subjectPos subjectStr="나인호프에게 배달" mapTargetId="107511"/>
+		</Subject>
+		<Storage Collect1_typeID="150397" Collect1_goal="1" Collect1_count="0" target1_type="Collect" Hunt1_typeID="157" Hunt2_typeID="158" target1_prob="60"/>
+		<BasicReward typeID="2100000000" count="48"/>
+	</Quest>
+	<Quest typeID="402301120" typeName="침략의 전조2" group="001" NPC="쥬우카 쉐도우대거" reportTo="데르샤 스컬크러셔" cancelable="1" repeatable="0" retryable="1" lv="18" desc="이 약사발을 받아. 이게 크로키의 검은 속을 알려줄 도구가 될테니. 카라쿤타의 서쪽으로 가면 ^#FF0000분노한 듀크 아가마^#FFFFFF가 많을거야. 놈들의 체액을 모아다 이 약사발 안에 넣어 조합하면 아갈로 향수가 되지./n그걸 탈룬바라 길 앞을 지나다니는 크로키 놈 중 가장 불량해 보이는 놈에게 가서 사용하면 녀석은 아갈로 향수의 냄새에 취해 자기가 아는 사실을 술술 불지 않고 못배길 거야./n놈에게 들은 이야기를 탈룬바라 협곡 앞에서 임무를 수행 중인 데르샤 스컬크러셔에게 알려주게. " difficulty="1" onMessage="Quest402301120_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="1188" rewardCombatJobEXP="6720" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[약사발]]" draft="이 약사발을 받아. 이게 크로키의 검은 속을 알려줄 도구가 될테니. 카라쿤타의 서쪽으로 가면 ^#FF0000분노한 듀크 아가마^#FFFFFF가 많을거야. 놈들의 체액을 모아다 이 약사발 안에 넣어 조합하면 아갈로 향수가 되지./n그걸 탈룬바라 길 앞을 지나다니는 크로키 놈 중 가장 불량해 보이는 놈에게 가서 사용하면 녀석은 아갈로 향수의 냄새에 취해 자기가 아는 사실을 술술 불지 않고 못배길 거야./n놈에게 들은 이야기를 탈룬바라 협곡 앞에서 임무를 수행 중인 데르샤 스컬크러셔에게 알려주게. " npc="쥬우카 쉐도우대거">
+			<subjectPos subjectStr="약사발" mapTargetId="103405"/>
+		</Subject>
+		<Subject typeName="Make" func="Quest402301120_Make" desc="[[아가마 체액 구하기]][[아갈로 향수 만들기]]" draft="이 약사발을 받아. 이게 크로키의 검은 속을 알려줄 도구가 될테니. 카라쿤타의 서쪽으로 가면 분노한 듀크 아가마가 많을거야. 놈들의 체액을 모아다 이 약사발 안에 넣어 ^#FF0000조합^#FFFFFF하면 ^#FF0000아갈로 향수^#FFFFFF가 되지./n그걸 탈룬바라 길 앞을 지나다니는 크로키 놈 중 가장 불량해 보이는 놈에게 가서 사용하면 녀석은 아갈로 향수의 냄새에 취해 자기가 아는 사실을 술술 불지 않고 못배길 거야./n놈에게 들은 이야기를 탈룬바라 협곡 앞에서 임무를 수행 중인 데르샤 스컬크러셔에게 알려주게. " npc="크로키 불량배">
+			<subjectPos subjectStr="아가마 체액 구하기" mapTargetId="107603"/>
+			<subjectPos subjectStr="아갈로 향수 만들기" mapTargetId="2"/>
+		</Subject>
+		<Subject typeName="Talk" func="Quest402301120_Talk" desc="[[크로키 불량배에게 정보 얻기]]" draft="이 약사발을 받아. 이게 크로키의 검은 속을 알려줄 도구가 될테니. 카라쿤타의 서쪽으로 가면 분노한 듀크 아가마가 많을거야. 놈들의 체액을 모아다 이 약사발 안에 넣어 조합하면 아갈로 향수가 되지./n그걸 탈룬바라 길 앞을 지나다니는 ^#FF0000크로키 중 가장 불량해 보이는 놈^#FFFFFF에게 가서 ^#FF0000사용^#FFFFFF하면 녀석은 아갈로 향수의 냄새에 취해 자기가 아는 사실을 술술 불지 않고 못배길 거야./n놈에게 들은 이야기를 탈룬바라 협곡 앞에서 임무를 수행 중인 ^#3399FF데르샤 스컬크러셔^#FFFFFF에게 알려주게. " npc="크로키 불량배">
+			<subjectPos subjectStr="크로키 불량배에게 정보 얻기" mapTargetId="107602"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[데르샤 스컬크러셔에게 보고]]" draft="이 약사발을 받아. 이게 크로키의 검은 속을 알려줄 도구가 될테니. 카라쿤타의 서쪽으로 가면 분노한 듀크 아가마가 많을거야. 놈들의 체액을 모아다 이 약사발 안에 넣어 조합하면 아갈로 향수가 되지./n그걸 탈룬바라 길 앞을 지나다니는 ^#FF0000크로키 중 가장 불량해 보이는 놈^#FFFFFF에게 가서 ^#FF0000사용^#FFFFFF하면 녀석은 아갈로 향수의 냄새에 취해 자기가 아는 사실을 술술 불지 않고 못배길 거야./n놈에게 들은 이야기를 탈룬바라 협곡 앞에서 임무를 수행 중인 ^#3399FF데르샤 스컬크러셔^#FFFFFF에게 알려주게. " npc="데르샤 스컬크러셔">
+			<subjectPos subjectStr="데르샤 스컬크러셔에게 보고" mapTargetId="107507"/>
+		</Subject>
+		<Storage Collect1_typeID="150035" Collect1_goal="3" Collect1_count="0" target1_type="Collect" Hunt2_typeID="110006" Hunt2_goal="1" Hunt2_count="0" target2_type="Hunt" target2_prob="70" Hunt3_typeID="150036" Hunt4_typeID="553"/>
+		<BasicReward typeID="2100000000" count="30"/>
+	</Quest>
+	<Quest typeID="402301125" typeName="돌아온 악당들 2 (파티)" group="001" NPC="올도반 선하울" reportTo="드레이브 선하울" cancelable="1" repeatable="0" retryable="1" lv="8" desc="크로키족은 이 툼바라 초원 전체 종족이 참여한 대 전쟁인 초원전쟁에서 우리의 적이었네./n초원 전쟁 이후 아무런 교류도 없었지. 게다가 우리의 철천지 원수인 케이거의 부하임을 자처하는 놈들인데… 내가 너무 성급하게 생각하는 것은 아닌가 싶지만 놈들이 무장을 단단히 하고 있다니 더욱 심증이 굳어버렸네./n내가 초소를 정비하는 동안 자네가 샤바두 협곡 안으로 잠입해 ^#FF0000쿨럭^#FFFFFF,^#FF0000켈록^#FFFFFF,^#FF0000콜록^#FFFFFF이라는 그들의 대장을 암살하게./n암살이 끝난 후에는 쿠니바 마을의 ^#3399FF드레이븐 선하울^#FFFFFF님께 사실을 알려 줘. 대비가 필요하다고 말이야./n아 그리고 크로키 대장들에게 ^#3399FF감기약^#FFFFFF을 뿌리면 도움이 될거니 잊지 말게나." difficulty="1" onMessage="Quest402301125_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="34" rewardCombatJobEXP="960" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[올도반 선하울과 대화]]" draft="크로키족은 이 툼바라 초원 전체 종족이 참여한 대 전쟁인 초원전쟁에서 우리의 적이었네./n초원 전쟁 이후 아무런 교류도 없었지. 게다가 우리의 철천지 원수인 케이거의 부하임을 자처하는 놈들인데… 내가 너무 성급하게 생각하는 것은 아닌가 싶지만 놈들이 무장을 단단히 하고 있다니 더욱 심증이 굳어버렸네./n내가 초소를 정비하는 동안 자네가 샤바두 협곡 안으로 잠입해 ^#FF0000쿨럭^#FFFFFF,^#FF0000켈록^#FFFFFF,^#FF0000콜록^#FFFFFF이라는 그들의 대장을 암살하게./n암살이 끝난 후에는 쿠니바 마을의 ^#3399FF드레이븐 선하울^#FFFFFF님께 사실을 알려 줘. 대비가 필요하다고 말이야./n아 그리고 크로키 대장들에게 ^#3399FF감기약^#FFFFFF을 뿌리면 도움이 될거니 잊지 말게나." npc="드레이브 선하울">
+			<subjectPos subjectStr="올도반 선하울과 대화" mapTargetId="101415"/>
+		</Subject>
+		<Subject typeName="Hunt" func="Quest402301125_Hunt" desc="[[쿨럭 처치]] [[켈록 처치]] [[콜록 처치]]" draft="크로키족은 이 툼바라 초원 전체 종족이 참여한 대 전쟁인 초원전쟁에서 우리의 적이었네./n초원 전쟁 이후 아무런 교류도 없었지. 게다가 우리의 철천지 원수인 케이거의 부하임을 자처하는 놈들인데… 내가 너무 성급하게 생각하는 것은 아닌가 싶지만 놈들이 무장을 단단히 하고 있다니 더욱 심증이 굳어버렸네./n내가 초소를 정비하는 동안 자네가 샤바두 협곡 안으로 잠입해 ^#FF0000쿨럭^#FFFFFF,^#FF0000켈록^#FFFFFF,^#FF0000콜록^#FFFFFF이라는 그들의 대장을 암살하게./n암살이 끝난 후에는 쿠니바 마을의 ^#3399FF드레이븐 선하울^#FFFFFF님께 사실을 알려 줘. 대비가 필요하다고 말이야./n아 그리고 크로키 대장들에게 ^#3399FF감기약^#FFFFFF을 뿌리면 도움이 될거니 잊지 말게나." npc="드레이브 선하울">
+			<subjectPos subjectStr="쿨럭 처치" mapTargetId="2000323101"/>
+			<subjectPos subjectStr="켈록 처치" mapTargetId="2000323101"/>
+			<subjectPos subjectStr="콜록 처치" mapTargetId="2000323101"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[드레이브 선하울에게 보고]]" draft="크로키족은 이 툼바라 초원 전체 종족이 참여한 대 전쟁인 초원전쟁에서 우리의 적이었네./n초원 전쟁 이후 아무런 교류도 없었지. 게다가 우리의 철천지 원수인 케이거의 부하임을 자처하는 놈들인데… 내가 너무 성급하게 생각하는 것은 아닌가 싶지만 놈들이 무장을 단단히 하고 있다니 더욱 심증이 굳어버렸네./n내가 초소를 정비하는 동안 자네가 샤바두 협곡 안으로 잠입해 ^#FF0000쿨럭^#FFFFFF,^#FF0000켈록^#FFFFFF,^#FF0000콜록^#FFFFFF이라는 그들의 대장을 암살하게./n암살이 끝난 후에는 쿠니바 마을의 ^#3399FF드레이븐 선하울^#FFFFFF님께 사실을 알려 줘. 대비가 필요하다고 말이야./n아 그리고 크로키 대장들에게 ^#3399FF감기약^#FFFFFF을 뿌리면 도움이 될거니 잊지 말게나." npc="드레이브 선하울">
+			<subjectPos subjectStr="드레이브 선하울에게 보고" mapTargetId="101511"/>
+		</Subject>
+		<Storage Hunt1_typeID="1000004" Hunt1_goal="1" Hunt1_count="0" target1_type="Hunt" Hunt2_typeID="1000002" Hunt2_goal="1" Hunt2_count="0" target2_type="Hunt" Hunt3_typeID="1000003" Hunt3_goal="1" Hunt3_count="0" target3_type="Hunt" Hunt4_typeID="110008"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="402301130" typeName="동굴 속의 보물2" group="001" NPC="테슬룬 선하울" reportTo="가포일 워퓨리" cancelable="1" repeatable="0" retryable="1" lv="9" desc="얼마 전에 여기서 남쪽에 있는 원숭이 동굴 안에서 반짝이는 빛이 뿜어져 나왔다네. 나는 그게 무엇인지 무척 궁금했네./n그래서 와서 지켜보니 긴머리 링고들이 거대한 보석을 가지고 놀더군. 분명 그 보석에서 나는 빛이 그 빛이 틀림 없어. 헌데 ^#FF0000긴머리 링고^#FFFFFF들의 보석을 갖고 있다는 것은 좀 이상하잖은가. 누군가 원숭이에 보석을 빼앗기고 슬퍼하고 있을 것이 분명해./n링고들의 ^#3399FF거대한 보석^#FFFFFF을 빼앗아 남부 감시 초소의 ^#3399FF가포일 워퓨리^#FFFFFF에게 갖다주게." difficulty="1" onMessage="HuntCollect2_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="26" rewardCombatJobEXP="640" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[거대한 보석 습득]]" draft="얼마 전에 여기서 남쪽에 있는 원숭이 동굴 안에서 반짝이는 빛이 뿜어져 나왔다네. 나는 그게 무엇인지 무척 궁금했네./n그래서 와서 지켜보니 긴머리 링고들이 거대한 보석을 가지고 놀더군. 분명 그 보석에서 나는 빛이 그 빛이 틀림 없어. 헌데 ^#FF0000긴머리 링고^#FFFFFF들의 보석을 갖고 있다는 것은 좀 이상하잖은가. 누군가 원숭이에 보석을 빼앗기고 슬퍼하고 있을 것이 분명해./n링고들의 ^#3399FF거대한 보석^#FFFFFF을 빼앗아 남부 감시 초소의 ^#3399FF가포일 워퓨리^#FFFFFF에게 갖다주게." npc="테슬룬 선하울">
+			<subjectPos subjectStr="거대한 보석 습득" mapTargetId="108601"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[가포일 워퓨리에게 보고]]" draft="얼마 전에 여기서 남쪽에 있는 원숭이 동굴 안에서 반짝이는 빛이 뿜어져 나왔다네. 나는 그게 무엇인지 무척 궁금했네./n그래서 와서 지켜보니 긴머리 링고들이 거대한 보석을 가지고 놀더군. 분명 그 보석에서 나는 빛이 그 빛이 틀림 없어. 헌데 ^#FF0000긴머리 링고^#FFFFFF들의 보석을 갖고 있다는 것은 좀 이상하잖은가. 누군가 원숭이에 보석을 빼앗기고 슬퍼하고 있을 것이 분명해./n링고들의 ^#3399FF거대한 보석^#FFFFFF을 빼앗아 남부 감시 초소의 ^#3399FF가포일 워퓨리^#FFFFFF에게 갖다주게." npc="가포일 워퓨리">
+			<subjectPos subjectStr="가포일 워퓨리에게 보고" mapTargetId="102505"/>
+		</Subject>
+		<Storage Collect1_typeID="150335" Collect1_goal="5" target1_type="Collect" target1_prob="60" Collect2_typeID="152"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="402301135" typeName="칸바의 선물" group="001" NPC="칸바 레드스카" reportTo="칸바 레드스카" cancelable="1" repeatable="0" retryable="1" lv="11" desc="이 서 툼바라 초원을 보게. 무척 넓지? 하지만 500년 전 케이거가 쳐들어 오기 전에 우리 투르가의 영토는 서쪽만이 아닌 동 툼바라 초원에 까지 이어져 있었다네./n반쪽 짜리 영토만을 가지고 초원의 패자 행세를 하는 볼품없는 형국이 되었지. 정말 안타까운 일이야./n그래서 우리는 모험자들이 이 서 툼바라 초원이라도 편하게 다닐 수 있도록 최대한의 편의를 제공하고 있다네. 어디 보자./n내가 ^#3399FF특별한 기술^#FFFFFF을 알려줄 테니 나에게 다시 말을 걸게나." difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="156" rewardCombatJobEXP="2720" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[칸바 레드스카와 대화]]" draft="이 서 툼바라 초원을 보게. 무척 넓지? 하지만 500년 전 케이거가 쳐들어 오기 전에 우리 투르가의 영토는 서쪽만이 아닌 동 툼바라 초원에 까지 이어져 있었다네./n반쪽 짜리 영토만을 가지고 초원의 패자 행세를 하는 볼품없는 형국이 되었지. 정말 안타까운 일이야./n그래서 우리는 모험자들이 이 서 툼바라 초원이라도 편하게 다닐 수 있도록 최대한의 편의를 제공하고 있다네. 어디 보자./n내가 ^#3399FF특별한 기술^#FFFFFF을 알려줄 테니 나에게 다시 말을 걸게나." npc="칸바 레드스카">
+			<subjectPos subjectStr="칸바 레드스카와 대화" mapTargetId="101413"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[칸바의 선물 받기]]" draft="이 서 툼바라 초원을 보게. 무척 넓지? 하지만 500년 전 케이거가 쳐들어 오기 전에 우리 투르가의 영토는 서쪽만이 아닌 동 툼바라 초원에 까지 이어져 있었다네./n반쪽 짜리 영토만을 가지고 초원의 패자 행세를 하는 볼품없는 형국이 되었지. 정말 안타까운 일이야./n그래서 우리는 모험자들이 이 서 툼바라 초원이라도 편하게 다닐 수 있도록 최대한의 편의를 제공하고 있다네. 어디 보자./n내가 ^#3399FF특별한 기술^#FFFFFF을 알려줄 테니 나에게 다시 말을 걸게나." npc="칸바 레드스카">
+			<subjectPos subjectStr="칸바의 선물 받기" mapTargetId="101513"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="402301145" typeName="진실의 벽 1" group="001" NPC="쿠룬다 언더파이어" reportTo="던코트 라이온하트" cancelable="1" repeatable="0" retryable="1" lv="19" desc="아 저기 모험자님. 당신은 여러 장소를 돌아다녀보고 여러가지 경험을 하신 분이시겠죠?/n당신 같은 분을 ^#3399FF던코트 라이온하트^#FFFFFF님께서 기다리고 계십니다. 던코트 라이온하트님은 카라쿤타의 불꽃의 전승탑 3층. 우리프 칸을 보좌하시는 분이지요./n그분을 오래 기다리게 해서는 안되니 어서 그곳으로 가보세요." difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="1333" rewardCombatJobEXP="7080" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[쿠룬다 언더파이어와 대화]]" draft="아 저기 모험자님. 당신은 여러 장소를 돌아다녀보고 여러가지 경험을 하신 분이시겠죠?/n당신 같은 분을 ^#3399FF던코트 라이온하트^#FFFFFF님께서 기다리고 계십니다. 던코트 라이온하트님은 카라쿤타의 불꽃의 전승탑 3층. 우리프 칸을 보좌하시는 분이지요./n그분을 오래 기다리게 해서는 안되니 어서 그곳으로 가보세요." npc="쿠룬다 언더파이어">
+			<subjectPos subjectStr="쿠룬다 언더파이어와 대화" mapTargetId="107406"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[던코트 라이온하트와 대화]]" draft="아 저기 모험자님. 당신은 여러 장소를 돌아다녀보고 여러가지 경험을 하신 분이시겠죠?/n당신 같은 분을 ^#3399FF던코트 라이온하트^#FFFFFF님께서 기다리고 계십니다. 던코트 라이온하트님은 카라쿤타의 불꽃의 전승탑 3층. 우리프 칸을 보좌하시는 분이지요./n그분을 오래 기다리게 해서는 안되니 어서 그곳으로 가보세요." npc="던코트 라이온하트">
+			<subjectPos subjectStr="던코트 라이온하트와 대화" mapTargetId="103506"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="36"/>
+	</Quest>
+	<Quest typeID="402301150" typeName="진실의 벽 4" group="001" NPC="나인 호프" reportTo="나인 호프" cancelable="1" repeatable="0" retryable="1" lv="19" desc="나는 이제 아주 긴 여행을 떠나려 하네. 운이 좋으면 금새 끝내고 동 툼바라 초원으로 돌아갈 수 있겠지만 나는 여태 운이 좋아본 적이 없어. 친구 얼굴 한 번 보려고 먼 길을 걸어왔네만 코빼기도 못보고 그냥 돌아갈 정도니 말이야./n하지만 내 여행의 목적을 달성할 수 있다면 이런 고생쯤이야 아무 것도 아니라고! 내 여생의 ^#3399FF목적^#FFFFFF이 뭔지 아는가?/n아마 자네는 상상도 하지 못할걸세./n/n(나인호프는 눈을 반달로 만들며 웃습니다. 아주 즐거운 상상을 하는 듯합니다. 그의 상상이 끊기지 않도록 조금있다 말을 걸어야 할 것 같습니다.)" difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="1333" rewardCombatJobEXP="7080" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[나인호프와 대화]]" draft="나는 이제 아주 긴 여행을 떠나려 하네. 운이 좋으면 금새 끝내고 동 툼바라 초원으로 돌아갈 수 있겠지만 나는 여태 운이 좋아본 적이 없어. 친구 얼굴 한 번 보려고 먼 길을 걸어왔네만 코빼기도 못보고 그냥 돌아갈 정도니 말이야./n하지만 내 여행의 목적을 달성할 수 있다면 이런 고생쯤이야 아무 것도 아니라고! 내 여생의 ^#3399FF목적^#FFFFFF이 뭔지 아는가?/n아마 자네는 상상도 하지 못할걸세./n/n(나인호프는 눈을 반달로 만들며 웃습니다. 아주 즐거운 상상을 하는 듯합니다. 그의 상상이 끊기지 않도록 조금있다 말을 걸어야 할 것 같습니다.)" npc="나인호프">
+			<subjectPos subjectStr="나인호프와 대화" mapTargetId="107411"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[여행의 목적?]]" draft="나는 이제 아주 긴 여행을 떠나려 하네. 운이 좋으면 금새 끝내고 동 툼바라 초원으로 돌아갈 수 있겠지만 나는 여태 운이 좋아본 적이 없어. 친구 얼굴 한 번 보려고 먼 길을 걸어왔네만 코빼기도 못보고 그냥 돌아갈 정도니 말이야./n하지만 내 여행의 목적을 달성할 수 있다면 이런 고생쯤이야 아무 것도 아니라고! 내 여생의 ^#3399FF목적^#FFFFFF이 뭔지 아는가?/n아마 자네는 상상도 하지 못할걸세./n/n(나인호프는 눈을 반달로 만들며 웃습니다. 아주 즐거운 상상을 하는 듯합니다. 그의 상상이 끊기지 않도록 조금있다 말을 걸어야 할 것 같습니다.)" npc="나인호프">
+			<subjectPos subjectStr="여행의 목적?" mapTargetId="107511"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="48"/>
+	</Quest>
+	<Quest typeID="402301155" typeName="진실의 벽 2" group="001" NPC="던코트 라이온하트" reportTo="나인 호프" cancelable="1" repeatable="0" retryable="1" lv="19" desc="제가 지금부터 부탁하는 것들은 모두 침묵 속에서 진행되어야 하는 것입니다. 이 일이 밖으로 세어나간다면 저는 물론이고 제 동생이자 칸인 우리프 칸의 지위마저 뒤흔들 수 있는 그런 성격의 것이니까요./n이 일의 시작부터 말하자면 무척 길지만…시간이 없으니 간단히 말하겠습니다. 저에겐 콘스타니아의 부유 도서관 에레키온에서 수학 할 때 사귄 절친한 지우가 하나 있습니다. 친구를 사귀는 게 뭐가 잘못이냐고 하겠지만 그게 이곳 툼바라 초원에서는 잘못이 되었습니다./n투르가 최고 지도자 칸의 하나밖에 없는 혈족인 저 던코트 라이온하트의 지우가 바로 투르가의 철천지 원수인 케이거이기 때문입니다. 헌데 이 친구가 겁도 없이 이 서 툼바라 초원까지 저를 만나러 찾아 왔다고 합니다./n제가 가서 만나면 좋겠지만..... 그 친구가 다른 투르가들에게 발견되어 억울한 일을 당하기 전에 저 대신 그 친구를 만나 돌아가라고 전해 주십시오./n그 친구의 이름은 ^#3399FF나인호프^#FFFFFF입니다. 아마 지금쯤 팔스차 목초지 아래 편 듀발고원으로 가는 길목에 서 저를 기다리고 있을 겁니다." difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="1333" rewardCombatJobEXP="7080" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[던코트 라이온하트와 대화]]" draft="제가 지금부터 부탁하는 것들은 모두 침묵 속에서 진행되어야 하는 것입니다. 이 일이 밖으로 세어나간다면 저는 물론이고 제 동생이자 칸인 우리프 칸의 지위마저 뒤흔들 수 있는 그런 성격의 것이니까요./n이 일의 시작부터 말하자면 무척 길지만…시간이 없으니 간단히 말하겠습니다. 저에겐 콘스타니아의 부유 도서관 에레키온에서 수학 할 때 사귄 절친한 지우가 하나 있습니다. 친구를 사귀는 게 뭐가 잘못이냐고 하겠지만 그게 이곳 툼바라 초원에서는 잘못이 되었습니다./n투르가 최고 지도자 칸의 하나밖에 없는 혈족인 저 던코트 라이온하트의 지우가 바로 투르가의 철천지 원수인 케이거이기 때문입니다. 헌데 이 친구가 겁도 없이 이 서 툼바라 초원까지 저를 만나러 찾아 왔다고 합니다./n제가 가서 만나면 좋겠지만..... 그 친구가 다른 투르가들에게 발견되어 억울한 일을 당하기 전에 저 대신 그 친구를 만나 돌아가라고 전해 주십시오./n그 친구의 이름은 ^#3399FF나인호프^#FFFFFF입니다. 아마 지금쯤 팔스차 목초지 아래 편 듀발고원으로 가는 길목에 서 저를 기다리고 있을 겁니다." npc="던코트 라이온하트">
+			<subjectPos subjectStr="던코트 라이온하트와 대화" mapTargetId="103406"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[나인호프와 대화]]" draft="제가 지금부터 부탁하는 것들은 모두 침묵 속에서 진행되어야 하는 것입니다. 이 일이 밖으로 세어나간다면 저는 물론이고 제 동생이자 칸인 우리프 칸의 지위마저 뒤흔들 수 있는 그런 성격의 것이니까요./n이 일의 시작부터 말하자면 무척 길지만…시간이 없으니 간단히 말하겠습니다. 저에겐 콘스타니아의 부유 도서관 에레키온에서 수학 할 때 사귄 절친한 지우가 하나 있습니다. 친구를 사귀는 게 뭐가 잘못이냐고 하겠지만 그게 이곳 툼바라 초원에서는 잘못이 되었습니다./n투르가 최고 지도자 칸의 하나밖에 없는 혈족인 저 던코트 라이온하트의 지우가 바로 투르가의 철천지 원수인 케이거이기 때문입니다. 헌데 이 친구가 겁도 없이 이 서 툼바라 초원까지 저를 만나러 찾아 왔다고 합니다./n제가 가서 만나면 좋겠지만..... 그 친구가 다른 투르가들에게 발견되어 억울한 일을 당하기 전에 저 대신 그 친구를 만나 돌아가라고 전해 주십시오./n그 친구의 이름은 ^#3399FF나인호프^#FFFFFF입니다. 아마 지금쯤 팔스차 목초지 아래 편 듀발고원으로 가는 길목에 서 저를 기다리고 있을 겁니다." npc="나인호프">
+			<subjectPos subjectStr="나인호프와 대화" mapTargetId="107511"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="48"/>
+	</Quest>
+	<Quest typeID="402301160" typeName="동굴 속의 보물1" group="001" NPC="드레이브 선하울" reportTo="테슬룬 선하울" cancelable="1" repeatable="0" retryable="1" lv="9" desc="나에게는 테슬룬 선하울이라는 아우가 있다네. 자네처럼 생기발랄한 모험을 즐기는 아이라네./n헌데 요전에 원숭이 동굴에서 빛이 뿜어져 나오는 걸 보았는가? 무척 신기한 빛이었다네. 그걸 본 내 아우 ^#3399FF테슬룬 선하울^#FFFFFF이 그 이유를 밝히러 갔는데 어쩐 일인지 빨리 바나나를 보내달라고 하더군. 급한 일인 것 같으니 어서 이 ^#3399FF바나나^#FFFFFF를 그에게 가져다 주게나." difficulty="1" onMessage="DeleteQuest_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="26" rewardCombatJobEXP="640" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[바나나]]" draft="나에게는 테슬룬 선하울이라는 아우가 있다네. 자네처럼 생기발랄한 모험을 즐기는 아이라네./n헌데 요전에 원숭이 동굴에서 빛이 뿜어져 나오는 걸 보았는가? 무척 신기한 빛이었다네. 그걸 본 내 아우 ^#3399FF테슬룬 선하울^#FFFFFF이 그 이유를 밝히러 갔는데 어쩐 일인지 빨리 바나나를 보내달라고 하더군. 급한 일인 것 같으니 어서 이 ^#3399FF바나나^#FFFFFF를 그에게 가져다 주게나." npc="드레이브 선하울">
+			<subjectPos subjectStr="바나나" mapTargetId="101411"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[테슬룬 선하울에게 배달]]" draft="나에게는 테슬룬 선하울이라는 아우가 있다네. 자네처럼 생기발랄한 모험을 즐기는 아이라네./n헌데 요전에 원숭이 동굴에서 빛이 뿜어져 나오는 걸 보았는가? 무척 신기한 빛이었다네. 그걸 본 내 아우 ^#3399FF테슬룬 선하울^#FFFFFF이 그 이유를 밝히러 갔는데 어쩐 일인지 빨리 바나나를 보내달라고 하더군. 급한 일인 것 같으니 어서 이 ^#3399FF바나나^#FFFFFF를 그에게 가져다 주게나." npc="테슬룬 선하울">
+			<subjectPos subjectStr="테슬룬 선하울에게 배달" mapTargetId="108502"/>
+		</Subject>
+		<Storage Collect1_typeID="150332"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="402301165" typeName="끝나지 않은 싸움2" group="001" NPC="칸바 레드스카" reportTo="쥬우카 쉐도우대거" cancelable="1" repeatable="0" retryable="1" lv="13" desc="이 ^#3399FF낡은 지령서^#FFFFFF는 내 눈이 침침해서 글을 읽지 못하겠네. 워낙 오래 된 것이라 글씨가 흐릿해서 말이야. 오래 되었는데 그게 얼마나 오래되었냐면 아마도… 3차 초원 전쟁 때 정도일 것 같군./n카라쿤타의 북쪽 동굴 안에서 사는 도둑 길드장 ^#3399FF쥬우카 쉐도우대거^#FFFFFF에게 가져가 해석해 달라고 부탁해보게." difficulty="1" onMessage="DeleteQuest_quest_onMessage" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="422" rewardCombatJobEXP="4340" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[낡은 지령서]]" draft="이 ^#3399FF낡은 지령서^#FFFFFF는 내 눈이 침침해서 글을 읽지 못하겠네. 워낙 오래 된 것이라 글씨가 흐릿해서 말이야. 오래 되었는데 그게 얼마나 오래되었냐면 아마도… 3차 초원 전쟁 때 정도일 것 같군./n카라쿤타의 북쪽 동굴 안에서 사는 도둑 길드장 ^#3399FF쥬우카 쉐도우대거^#FFFFFF에게 가져가 해석해 달라고 부탁해보게." npc="칸바 레드스카">
+			<subjectPos subjectStr="낡은 지령서" mapTargetId="101413"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[쥬우카 쉐도우대거에게 배달]]" draft="이 ^#3399FF낡은 지령서^#FFFFFF는 내 눈이 침침해서 글을 읽지 못하겠네. 워낙 오래 된 것이라 글씨가 흐릿해서 말이야. 오래 되었는데 그게 얼마나 오래되었냐면 아마도… 3차 초원 전쟁 때 정도일 것 같군./n카라쿤타의 북쪽 동굴 안에서 사는 도둑 길드장 ^#3399FF쥬우카 쉐도우대거^#FFFFFF에게 가져가 해석해 달라고 부탁해보게." npc="쥬우카 쉐도우대거">
+			<subjectPos subjectStr="쥬우카 쉐도우대거에게 배달" mapTargetId="103505"/>
+		</Subject>
+		<Storage Collect1_typeID="150398"/>
+		<BasicReward typeID="2100000000" count="10"/>
+		<ChoiceReward typeID="60001" count="1"/>
+		<ChoiceReward typeID="60002" count="1"/>
+	</Quest>
+	<Quest typeID="402301170" typeName="침략의 전조1" group="001" NPC="커쉬븐 디어헌터" reportTo="쥬우카 쉐도우대거" cancelable="1" repeatable="0" retryable="1" lv="18" desc="이것 참. 그 분 말대로 이상한 일 투성이로군./n카라쿤타의 앞마당인 이 곳까지 크로키가 배회하다니 말이야. 이 일은 아무래도 심상치 않은 일이 뒤에 도사리고 있을 것 같으니.. 그분께 보고해야 겠어./n카라쿤타의 동굴 안에 계신 ^#3399FF주유카 쉐도우대거^#FFFFFF님께 말이야." difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="1188" rewardCombatJobEXP="6720" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[커쉬븐 디어헌터와 대화]]" draft="이것 참. 그 분 말대로 이상한 일 투성이로군./n카라쿤타의 앞마당인 이 곳까지 크로키가 배회하다니 말이야. 이 일은 아무래도 심상치 않은 일이 뒤에 도사리고 있을 것 같으니.. 그분께 보고해야 겠어./n카라쿤타의 동굴 안에 계신 ^#3399FF주유카 쉐도우대거^#FFFFFF님께 말이야." npc="커쉬븐 디어헌터">
+			<subjectPos subjectStr="커쉬븐 디어헌터와 대화" mapTargetId="106404"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[쥬우카 쉐도우대거와 대화]]" draft="이것 참. 그 분 말대로 이상한 일 투성이로군./n카라쿤타의 앞마당인 이 곳까지 크로키가 배회하다니 말이야. 이 일은 아무래도 심상치 않은 일이 뒤에 도사리고 있을 것 같으니.. 그분께 보고해야 겠어./n카라쿤타의 동굴 안에 계신 ^#3399FF주유카 쉐도우대거^#FFFFFF님께 말이야." npc="쥬우카 쉐도우대거">
+			<subjectPos subjectStr="쥬우카 쉐도우대거와 대화" mapTargetId="103505"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="30"/>
+	</Quest>
+	<Quest typeID="402301175" typeName="끝나지 않은 싸움3" group="001" NPC="쥬우카 쉐도우대거" reportTo="레손 레드스카" cancelable="1" repeatable="0" retryable="1" lv="13" desc="음.. 여기엔 […. 독을… 사용해….칸을.. 암살...] 응?!!/n이게 뭐란 말인가? 이 내용은 3차 초원 전쟁 때 작고하신 선대 칸인 렌볼프 라이온하트를 독으로 암살하라는 내용 같은 걸!/n케이거와의 마지막 전쟁이 끝을 보지 못하고 아쉽게 휴전으로 결말이 난 것은 모두 선대 칸인 렌볼프님께서 병환으로 돌아가셨기 때문이지. 그런데 그 이유가 여태 우리가 알고 있는 것과 달리 누군가에 의한 암살이었다면 이건 얘기가 다르네. 안그래도 요즘 투르가 내부에 케이거와 내통하는 배신자가 있다는 소문이 돌고 있어 레손 레드스카가 그 소문의 진원을 추적 중에 있는데 투르가의 배신자와 렌볼프 칸을 암살한 자가 어떤 연관이 있을 것 같군. ^#3399FF레손 레드스카^#FFFFFF에게 이 일을 전하는게 좋겠어. 어서 불꽃의 전승탑 1층에 있는 그에게 가보게." difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="422" rewardCombatJobEXP="4340" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[쥬우카 쉐도우대거와 대화]]" draft="음.. 여기엔 […. 독을… 사용해….칸을.. 암살...] 응?!!/n이게 뭐란 말인가? 이 내용은 3차 초원 전쟁 때 작고하신 선대 칸인 렌볼프 라이온하트를 독으로 암살하라는 내용 같은 걸!/n케이거와의 마지막 전쟁이 끝을 보지 못하고 아쉽게 휴전으로 결말이 난 것은 모두 선대 칸인 렌볼프님께서 병환으로 돌아가셨기 때문이지. 그런데 그 이유가 여태 우리가 알고 있는 것과 달리 누군가에 의한 암살이었다면 이건 얘기가 다르네. 안그래도 요즘 투르가 내부에 케이거와 내통하는 배신자가 있다는 소문이 돌고 있어 레손 레드스카가 그 소문의 진원을 추적 중에 있는데 투르가의 배신자와 렌볼프 칸을 암살한 자가 어떤 연관이 있을 것 같군. ^#3399FF레손 레드스카^#FFFFFF에게 이 일을 전하는게 좋겠어. 어서 불꽃의 전승탑 1층에 있는 그에게 가보게." npc="쥬우카 쉐도우대거">
+			<subjectPos subjectStr="쥬우카 쉐도우대거와 대화" mapTargetId="103405"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[레손 레드스카와 대화]]" draft="음.. 여기엔 […. 독을… 사용해….칸을.. 암살...] 응?!!/n이게 뭐란 말인가? 이 내용은 3차 초원 전쟁 때 작고하신 선대 칸인 렌볼프 라이온하트를 독으로 암살하라는 내용 같은 걸!/n케이거와의 마지막 전쟁이 끝을 보지 못하고 아쉽게 휴전으로 결말이 난 것은 모두 선대 칸인 렌볼프님께서 병환으로 돌아가셨기 때문이지. 그런데 그 이유가 여태 우리가 알고 있는 것과 달리 누군가에 의한 암살이었다면 이건 얘기가 다르네. 안그래도 요즘 투르가 내부에 케이거와 내통하는 배신자가 있다는 소문이 돌고 있어 레손 레드스카가 그 소문의 진원을 추적 중에 있는데 투르가의 배신자와 렌볼프 칸을 암살한 자가 어떤 연관이 있을 것 같군. ^#3399FF레손 레드스카^#FFFFFF에게 이 일을 전하는게 좋겠어. 어서 불꽃의 전승탑 1층에 있는 그에게 가보게." npc="레손 레드스카">
+			<subjectPos subjectStr="레손 레드스카와 대화" mapTargetId="103509"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+	<Quest typeID="402301180" typeName="흐릿한 진실2" group="001" NPC="쥬우카 쉐도우대거" reportTo="미친 노인" cancelable="1" repeatable="0" retryable="1" lv="14" desc="그 칸의 암살지령이 담긴 지령서를 발견했을 때… 그냥 내가 가서 이야기할 걸 실수했단 생각이 들어. 레손녀석. 그렇게 금새 배신자에 대한 조사를 중지해버리다니./n배신자가 우리 투르가의 정신을 제대로 배워 정정당당한 전사의 마음을 가지고 있었다면 배신따위는 당연히 없었을 것 아니야? 그런 자가 누군가를 몰래 죽이기로 마음 먹었다면 독이든 숟가락을 쓰든 뭐든 하는 건 당연한거잖아./n내가 배신자라면 그의 결정은 쌍수를 들고 환영할 만한 것이야. 아쉬워. 아쉽다고..../n아무튼 온 김에 이거 하나만 해주게. 동문 쪽 사당으로 통하는 길에 가면 ^#3399FF미친 노인^#FFFFFF이 있을거야. 미치지 않았을 때는 그도 훌륭한 투르가였었는데 말이야. 그를 ^#3399FF치료할 약^#FFFFFF을 만들어 보았다네. 이걸 가서 그에게 전해줘." difficulty="1" onMessage="DeleteQuest_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="548" rewardCombatJobEXP="4720" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[쥬우카의 치료약]]" draft="그 칸의 암살지령이 담긴 지령서를 발견했을 때… 그냥 내가 가서 이야기할 걸 실수했단 생각이 들어. 레손녀석. 그렇게 금새 배신자에 대한 조사를 중지해버리다니./n배신자가 우리 투르가의 정신을 제대로 배워 정정당당한 전사의 마음을 가지고 있었다면 배신따위는 당연히 없었을 것 아니야? 그런 자가 누군가를 몰래 죽이기로 마음 먹었다면 독이든 숟가락을 쓰든 뭐든 하는 건 당연한거잖아./n내가 배신자라면 그의 결정은 쌍수를 들고 환영할 만한 것이야. 아쉬워. 아쉽다고..../n아무튼 온 김에 이거 하나만 해주게. 동문 쪽 사당으로 통하는 길에 가면 ^#3399FF미친 노인^#FFFFFF이 있을거야. 미치지 않았을 때는 그도 훌륭한 투르가였었는데 말이야. 그를 ^#3399FF치료할 약^#FFFFFF을 만들어 보았다네. 이걸 가서 그에게 전해줘." npc="쥬우카 쉐도우대거">
+			<subjectPos subjectStr="쥬우카의 치료약" mapTargetId="103405"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[미친 노인에게 배달]]" draft="그 칸의 암살지령이 담긴 지령서를 발견했을 때… 그냥 내가 가서 이야기할 걸 실수했단 생각이 들어. 레손녀석. 그렇게 금새 배신자에 대한 조사를 중지해버리다니./n배신자가 우리 투르가의 정신을 제대로 배워 정정당당한 전사의 마음을 가지고 있었다면 배신따위는 당연히 없었을 것 아니야? 그런 자가 누군가를 몰래 죽이기로 마음 먹었다면 독이든 숟가락을 쓰든 뭐든 하는 건 당연한거잖아./n내가 배신자라면 그의 결정은 쌍수를 들고 환영할 만한 것이야. 아쉬워. 아쉽다고..../n아무튼 온 김에 이거 하나만 해주게. 동문 쪽 사당으로 통하는 길에 가면 ^#3399FF미친 노인^#FFFFFF이 있을거야. 미치지 않았을 때는 그도 훌륭한 투르가였었는데 말이야. 그를 ^#3399FF치료할 약^#FFFFFF을 만들어 보았다네. 이걸 가서 그에게 전해줘." npc="미친 노인">
+			<subjectPos subjectStr="미친 노인에게 배달" mapTargetId="103526"/>
+		</Subject>
+		<Storage Collect1_typeID="150399"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+	<Quest typeID="402301185" typeName="끝나지 않은 싸움" group="001" NPC="칸바 레드스카" reportTo="칸바 레드스카" cancelable="1" repeatable="0" retryable="1" lv="13" desc="자네도 오는 길에 카라쿤타 밖의 깔려 있는 ^#FF0000분노한 트럼블러^#FFFFFF들을 보았겠지? 녀석들을 처치하고 나에게 돌아오게./n그리고 녀석들은 땅에 떨어진 물건을 삼켜 뱃속에 담아 두는 습관이 있으니 혹시 [수상한 무언가]가 나오면 나에게 꼭 가져오고. 녀석들은 먹기는 흉내만 내고 소화를 시키지 못하는 식물이니 뱃속에 오래되고 낡은 물건들이 가득 들어있을 거야./n그 중에 ^#3399FF오래된^#FFFFFF 것을 나에게 가져오면 되네. 쓸만 한 걸 가져오게. 다른 쓰레기들은 말고 말이야. " difficulty="1" onMessage="HuntCollect2_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="422" rewardCombatJobEXP="4340" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[오래된 지령서]]" draft="자네도 오는 길에 카라쿤타 밖의 깔려 있는 ^#FF0000분노한 트럼블러^#FFFFFF들을 보았겠지? 녀석들을 처치하고 나에게 돌아오게./n그리고 녀석들은 땅에 떨어진 물건을 삼켜 뱃속에 담아 두는 습관이 있으니 혹시 [수상한 무언가]가 나오면 나에게 꼭 가져오고. 녀석들은 먹기는 흉내만 내고 소화를 시키지 못하는 식물이니 뱃속에 오래되고 낡은 물건들이 가득 들어있을 거야./n그 중에 ^#3399FF오래된^#FFFFFF 것을 나에게 가져오면 되네. 쓸만 한 걸 가져오게. 다른 쓰레기들은 말고 말이야. " npc="칸바 레드스카">
+			<subjectPos subjectStr="오래된 지령서" mapTargetId="104601"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[칸바 레드스카에게 배달]]" draft="자네도 오는 길에 카라쿤타 밖의 깔려 있는 ^#FF0000분노한 트럼블러^#FFFFFF들을 보았겠지? 녀석들을 처치하고 나에게 돌아오게./n그리고 녀석들은 땅에 떨어진 물건을 삼켜 뱃속에 담아 두는 습관이 있으니 혹시 [수상한 무언가]가 나오면 나에게 꼭 가져오고. 녀석들은 먹기는 흉내만 내고 소화를 시키지 못하는 식물이니 뱃속에 오래되고 낡은 물건들이 가득 들어있을 거야./n그 중에 ^#3399FF오래된^#FFFFFF 것을 나에게 가져오면 되네. 쓸만 한 걸 가져오게. 다른 쓰레기들은 말고 말이야. " npc="칸바 레드스카">
+			<subjectPos subjectStr="칸바 레드스카에게 배달" mapTargetId="101513"/>
+		</Subject>
+		<Storage Collect1_typeID="150334" Collect1_goal="1" target1_type="Collect" target1_prob="50" Collect2_typeID="513"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+	<Quest typeID="402301190" typeName="부러진 검2" group="001" NPC="칸의 무덤 경비병4" reportTo="가포일 워퓨리" cancelable="1" repeatable="0" retryable="1" lv="10" desc="이겁니다. 아주 산산조각이 났지요./n제 발톱과도 같은 무기를 아낀다고는 아꼈는데 너무 훈련을 열심히 했나 봅니다. 허허- 이 ^#3399FF조각난 검^#FFFFFF을 어서 남부 경비 초소에 계신 ^#3399FF가포일 워퓨리^#FFFFFF 초소장님께 갖다 주세요." difficulty="1" onMessage="DeleteQuest_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="102" rewardCombatJobEXP="2240" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[조각난 검]]" draft="이겁니다. 아주 산산조각이 났지요./n제 발톱과도 같은 무기를 아낀다고는 아꼈는데 너무 훈련을 열심히 했나 봅니다. 허허- 이 ^#3399FF조각난 검^#FFFFFF을 어서 남부 경비 초소에 계신 ^#3399FF가포일 워퓨리^#FFFFFF 초소장님께 갖다 주세요." npc="칸의 무덤경비병4">
+			<subjectPos subjectStr="조각난 검" mapTargetId="102412"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[가포일 워퓨리에게 배달]]" draft="이겁니다. 아주 산산조각이 났지요./n제 발톱과도 같은 무기를 아낀다고는 아꼈는데 너무 훈련을 열심히 했나 봅니다. 허허- 이 ^#3399FF조각난 검^#FFFFFF을 어서 남부 경비 초소에 계신 ^#3399FF가포일 워퓨리^#FFFFFF 초소장님께 갖다 주세요." npc="가포일 워퓨리">
+			<subjectPos subjectStr="가포일 워퓨리에게 배달" mapTargetId="102505"/>
+		</Subject>
+		<Storage Collect1_typeID="150396"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="402301195" typeName="끝나지 않은 싸움4" group="001" NPC="레손 레드스카" reportTo="우리프 라이온하트" cancelable="1" repeatable="0" retryable="1" lv="13" desc="투르가에 배신자가 있다는 소리는 아주 오래 전 부터 돌았던 것이고 저는 아주 오랜 기간 그것에 관한 조사를 해왔습니다. 하지만 당신의 이야기를 들으니 여태 투르가의 배신자를 찾지 못한 이유를 알 것 같습니다./n그것은 바로.. 투르가엔 배신자가 없기 때문이죠. 당신이 발견한 지령서에 따르면 선대 칸께선 독에 의한 암살을 당하신 것 같습니다. 실제로 칸이 돌아가셨을 때 옆을 지키던 투르가들이 하룻밤 사이에 급작스레 푸석푸석해진 칸의 갈기털을 증거로 삼아 독에 의한 암살의혹을 제기했었지요. 무슨 이유로 묵살되었는지는 모르겠지만.. 이제 모든 게 앞뒤가 맞습니다. 투르가엔 배신자가 없습니다./n왜냐면 투르가는 독을 쓰지 않기 때문이죠. 초원의 패자이자 전사로 긍지 높은 우리들 중에 비열하게 독을 사용할 자는 없습니다. 물론 쥬우카가 독을 사용하긴 하지만 그는 투르가를 위해 자신을 희생한 것이지요./n독을 쓴 것 이라면 카샨족이 분명합니다. 실제로 카샨족은 초원전쟁이 끝나자마자 케이거의 영토로 거처를 옮겨 그들의 수하가 되길 자처했을 정도니까요. 이 사실을 지금 당장 ^#3399FF우리프 칸^#FFFFFF에게 알려야 합니다. 더 이상 같은 투르가끼리 서로를 의심하는 일은 없어야 하니까요!/n우리프 칸께선 불꽃의 전승탑 꼭데기 층에서 집무를 보고 계십니다." difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="422" rewardCombatJobEXP="4340" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[레손 레드스카와 대화]]" draft="투르가에 배신자가 있다는 소리는 아주 오래 전 부터 돌았던 것이고 저는 아주 오랜 기간 그것에 관한 조사를 해왔습니다. 하지만 당신의 이야기를 들으니 여태 투르가의 배신자를 찾지 못한 이유를 알 것 같습니다./n그것은 바로.. 투르가엔 배신자가 없기 때문이죠. 당신이 발견한 지령서에 따르면 선대 칸께선 독에 의한 암살을 당하신 것 같습니다. 실제로 칸이 돌아가셨을 때 옆을 지키던 투르가들이 하룻밤 사이에 급작스레 푸석푸석해진 칸의 갈기털을 증거로 삼아 독에 의한 암살의혹을 제기했었지요. 무슨 이유로 묵살되었는지는 모르겠지만.. 이제 모든 게 앞뒤가 맞습니다. 투르가엔 배신자가 없습니다./n왜냐면 투르가는 독을 쓰지 않기 때문이죠. 초원의 패자이자 전사로 긍지 높은 우리들 중에 비열하게 독을 사용할 자는 없습니다. 물론 쥬우카가 독을 사용하긴 하지만 그는 투르가를 위해 자신을 희생한 것이지요./n독을 쓴 것 이라면 카샨족이 분명합니다. 실제로 카샨족은 초원전쟁이 끝나자마자 케이거의 영토로 거처를 옮겨 그들의 수하가 되길 자처했을 정도니까요. 이 사실을 지금 당장 ^#3399FF우리프 칸^#FFFFFF에게 알려야 합니다. 더 이상 같은 투르가끼리 서로를 의심하는 일은 없어야 하니까요!/n우리프 칸께선 불꽃의 전승탑 꼭데기 층에서 집무를 보고 계십니다." npc="레손 레드스카">
+			<subjectPos subjectStr="레손 레드스카와 대화" mapTargetId="103409"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[우리프 라이온하트와 대화]]" draft="투르가에 배신자가 있다는 소리는 아주 오래 전 부터 돌았던 것이고 저는 아주 오랜 기간 그것에 관한 조사를 해왔습니다. 하지만 당신의 이야기를 들으니 여태 투르가의 배신자를 찾지 못한 이유를 알 것 같습니다./n그것은 바로.. 투르가엔 배신자가 없기 때문이죠. 당신이 발견한 지령서에 따르면 선대 칸께선 독에 의한 암살을 당하신 것 같습니다. 실제로 칸이 돌아가셨을 때 옆을 지키던 투르가들이 하룻밤 사이에 급작스레 푸석푸석해진 칸의 갈기털을 증거로 삼아 독에 의한 암살의혹을 제기했었지요. 무슨 이유로 묵살되었는지는 모르겠지만.. 이제 모든 게 앞뒤가 맞습니다. 투르가엔 배신자가 없습니다./n왜냐면 투르가는 독을 쓰지 않기 때문이죠. 초원의 패자이자 전사로 긍지 높은 우리들 중에 비열하게 독을 사용할 자는 없습니다. 물론 쥬우카가 독을 사용하긴 하지만 그는 투르가를 위해 자신을 희생한 것이지요./n독을 쓴 것 이라면 카샨족이 분명합니다. 실제로 카샨족은 초원전쟁이 끝나자마자 케이거의 영토로 거처를 옮겨 그들의 수하가 되길 자처했을 정도니까요. 이 사실을 지금 당장 ^#3399FF우리프 칸^#FFFFFF에게 알려야 합니다. 더 이상 같은 투르가끼리 서로를 의심하는 일은 없어야 하니까요!/n우리프 칸께선 불꽃의 전승탑 꼭데기 층에서 집무를 보고 계십니다." npc="우리프 라이온하트">
+			<subjectPos subjectStr="우리프 라이온하트와 대화" mapTargetId="103507"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+	<Quest typeID="402301200" typeName="침략의 전조4" group="001" NPC="밀타 그래스아로마" reportTo="데르샤 스컬크러셔" cancelable="1" repeatable="0" retryable="1" lv="18" desc="흘흘- [흰 발톱]이라… 참 오랜만에 듣는 단어로구나./n크로키가 말하는 ^#3399FF[흰 발톱]^#FFFFFF은 내가 아주 잘 아는 단어이지. 그건 바로 우리의 숙적 ^#FF0000[케이거]^#FFFFFF를 의미하는 것이란다./n케이거는 먼 북방의 흰 눈이 내리는 곳이 원래 고향이라고 하더구나. 그래서 스스로를 [흰 발톱]이라고 부르길 좋아했어. 전쟁의 포로가 되었을 때는 마치 죽을 것만 같은 기분이었는데… 돌이켜보니 다 재밌었던 것 같구나. 아가야, 너는 어려서 아직 경험해 보지 못한 기분일거야./n아무튼 이야기를 들어보니 그리 좋지 않은 상황인 것 같구나. 어서 가서 ^#3399FF데르샤^#FFFFFF에게 알려주려므나." difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="1188" rewardCombatJobEXP="6720" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[밀타 그래스아로마와 대화]]" draft="흘흘- [흰 발톱]이라… 참 오랜만에 듣는 단어로구나./n크로키가 말하는 ^#3399FF[흰 발톱]^#FFFFFF은 내가 아주 잘 아는 단어이지. 그건 바로 우리의 숙적 ^#FF0000[케이거]^#FFFFFF를 의미하는 것이란다./n케이거는 먼 북방의 흰 눈이 내리는 곳이 원래 고향이라고 하더구나. 그래서 스스로를 [흰 발톱]이라고 부르길 좋아했어. 전쟁의 포로가 되었을 때는 마치 죽을 것만 같은 기분이었는데… 돌이켜보니 다 재밌었던 것 같구나. 아가야, 너는 어려서 아직 경험해 보지 못한 기분일거야./n아무튼 이야기를 들어보니 그리 좋지 않은 상황인 것 같구나. 어서 가서 ^#3399FF데르샤^#FFFFFF에게 알려주려므나." npc="밀타 그래스아로마">
+			<subjectPos subjectStr="밀타 그래스아로마와 대화" mapTargetId="107410"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[데르샤 스컬크러셔와 대화]]" draft="흘흘- [흰 발톱]이라… 참 오랜만에 듣는 단어로구나./n크로키가 말하는 ^#3399FF[흰 발톱]^#FFFFFF은 내가 아주 잘 아는 단어이지. 그건 바로 우리의 숙적 ^#FF0000[케이거]^#FFFFFF를 의미하는 것이란다./n케이거는 먼 북방의 흰 눈이 내리는 곳이 원래 고향이라고 하더구나. 그래서 스스로를 [흰 발톱]이라고 부르길 좋아했어. 전쟁의 포로가 되었을 때는 마치 죽을 것만 같은 기분이었는데… 돌이켜보니 다 재밌었던 것 같구나. 아가야, 너는 어려서 아직 경험해 보지 못한 기분일거야./n아무튼 이야기를 들어보니 그리 좋지 않은 상황인 것 같구나. 어서 가서 ^#3399FF데르샤^#FFFFFF에게 알려주려므나." npc="데르샤 스컬크러셔">
+			<subjectPos subjectStr="데르샤 스컬크러셔와 대화" mapTargetId="107502"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="36"/>
+	</Quest>
+	<Quest typeID="402301205" typeName="위험한 근무지" group="001" NPC="칸바 레드스카" reportTo="칼라부 어스히터" cancelable="1" repeatable="0" retryable="1" lv="15" desc="카라쿤타의 동쪽에 있는 중부 감시 초소는 이 서 툼바라 초원에서도 가장 위험한 근무지로 알려져 있지./n그 곳은 동 툼바라 초원과 가깝기 때문에 카샨이나 케이거들이 자주 출몰한다네./n그래서 그 곳의 초소장인 ^#3399FF칼라부 어스히터^#FFFFFF가 급하게 사람을 보내달라는 요청이 예사롭지 않아 보인다네./n지체하지 말고 중부 감시 초소로 가 칼라부 어스히터를 만나게." difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="787" rewardCombatJobEXP="5160" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[칸바 레드스카와 대화]]" draft="카라쿤타의 동쪽에 있는 중부 감시 초소는 이 서 툼바라 초원에서도 가장 위험한 근무지로 알려져 있지./n그 곳은 동 툼바라 초원과 가깝기 때문에 카샨이나 케이거들이 자주 출몰한다네./n그래서 그 곳의 초소장인 ^#3399FF칼라부 어스히터^#FFFFFF가 급하게 사람을 보내달라는 요청이 예사롭지 않아 보인다네./n지체하지 말고 중부 감시 초소로 가 칼라부 어스히터를 만나게." npc="칸바 레드스카">
+			<subjectPos subjectStr="칸바 레드스카와 대화" mapTargetId="101413"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[칼라부 어스히터와 대화]]" draft="카라쿤타의 동쪽에 있는 중부 감시 초소는 이 서 툼바라 초원에서도 가장 위험한 근무지로 알려져 있지./n그 곳은 동 툼바라 초원과 가깝기 때문에 카샨이나 케이거들이 자주 출몰한다네./n그래서 그 곳의 초소장인 ^#3399FF칼라부 어스히터^#FFFFFF가 급하게 사람을 보내달라는 요청이 예사롭지 않아 보인다네./n지체하지 말고 중부 감시 초소로 가 칼라부 어스히터를 만나게." npc="칼라부 어스히터">
+			<subjectPos subjectStr="칼라부 어스히터와 대화" mapTargetId="104502"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="15"/>
+	</Quest>
+	<Quest typeID="402301210" typeName="혼에 경배를 1" group="001" NPC="칸의 단검" reportTo="칸의무덤_그린리프 대원" cancelable="1" repeatable="0" retryable="1" lv="11" desc="가까이 다가가자 오래된 단검이 하나 눈에 띕니다. 손을 대보니 아직 따스한 기운이 있는 것이 주인이 있는 단검인 듯 합니다." difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="156" rewardCombatJobEXP="2720" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[칸의 무덤 탐색]]" draft="가까이 다가가자 오래된 단검이 하나 눈에 띕니다. 손을 대보니 아직 따스한 기운이 있는 것이 주인이 있는 단검인 듯 합니다." npc="칸의 영혼">
+			<subjectPos subjectStr="칸의 무덤 탐색" mapTargetId="2000063100"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[그린리프 대원과 대화]]" draft="가까이 다가가자 오래된 단검이 하나 눈에 띕니다. 손을 대보니 아직 따스한 기운이 있는 것이 주인이 있는 단검인 듯 합니다." npc="칸바 레드스카">
+			<subjectPos subjectStr="그린리프 대원과 대화" mapTargetId="102511"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="402301215" typeName="투르가의 수련1" group="001" NPC="이투랄 우드엑스" reportTo="수련중인 투르가1" cancelable="1" repeatable="0" retryable="1" lv="20" desc="이보게 젊은이. 그 튼튼한 두 다리로 저기 남쪽의 팔스라 목초지의 작은 연못에 갔다 와주지 않겠는가?/n그곳에 내가 아는 ^#3399FF아이들^#FFFFFF이 수련을 위해 야영 중인데 주변에 크로키들이 돌아다니는 걸 보니 그들이 안전한가 궁금해서 말이야." difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="1445" rewardCombatJobEXP="11440" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[이투랄 우드엑스와 대화]]" draft="이보게 젊은이. 그 튼튼한 두 다리로 저기 남쪽의 팔스라 목초지의 작은 연못에 갔다 와주지 않겠는가?/n그곳에 내가 아는 ^#3399FF아이들^#FFFFFF이 수련을 위해 야영 중인데 주변에 크로키들이 돌아다니는 걸 보니 그들이 안전한가 궁금해서 말이야." npc="이투랄 우드엑스">
+			<subjectPos subjectStr="이투랄 우드엑스와 대화" mapTargetId="107408"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[수련 중인 투르가와 대화]]" draft="이보게 젊은이. 그 튼튼한 두 다리로 저기 남쪽의 팔스라 목초지의 작은 연못에 갔다 와주지 않겠는가?/n그곳에 내가 아는 ^#3399FF아이들^#FFFFFF이 수련을 위해 야영 중인데 주변에 크로키들이 돌아다니는 걸 보니 그들이 안전한가 궁금해서 말이야." npc="수련중인 투르가1">
+			<subjectPos subjectStr="수련 중인 투르가와 대화" mapTargetId="107512"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="48"/>
+	</Quest>
+	<Quest typeID="402301220" typeName="초소장의 근심1" group="001" NPC="칼라부 어스히터" reportTo="아발치 선하울" cancelable="1" repeatable="0" retryable="1" lv="15" desc="이 중부 감시 초소 더 동쪽에 작은 마을이 하나 있었다네. 우리 투르가와 투르가의 친구인 바두인이 살던 마을인데. 그 마을이 하루 아침에 파괴 당했다네./n너무 순식간에 벌어진 일이라 우리 경비병은 마을 쪽에서 타오르는 연기와 불빛을 구경만 할 수 밖에 없었지./n지금 그 폐허가 된 마을엔 카샨족의 투사들이 진을 치고 있어서 우리 초소의 경비병만으로는 어떻게 해볼 수가 없네./n지금 가서 ^#FF0000카샨 상급 투사^#FFFFFF 몇 마리 처치해 그들에게 겁을 주어 더 서쪽으로 오지 못하게 해주게. 그리고 북부 감시 초소에 지원을 요청해줘. ^#3399FF아발치 선하울^#FFFFFF에게 가서 사정을 이야기 하면 된다네." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="787" rewardCombatJobEXP="5160" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[카샨 상급 투사 처치]]" draft="이 중부 감시 초소 더 동쪽에 작은 마을이 하나 있었다네. 우리 투르가와 투르가의 친구인 바두인이 살던 마을인데. 그 마을이 하루 아침에 파괴 당했다네./n너무 순식간에 벌어진 일이라 우리 경비병은 마을 쪽에서 타오르는 연기와 불빛을 구경만 할 수 밖에 없었지./n지금 그 폐허가 된 마을엔 카샨족의 투사들이 진을 치고 있어서 우리 초소의 경비병만으로는 어떻게 해볼 수가 없네./n지금 가서 ^#FF0000카샨 상급 투사^#FFFFFF 몇 마리 처치해 그들에게 겁을 주어 더 서쪽으로 오지 못하게 해주게. 그리고 북부 감시 초소에 지원을 요청해줘. ^#3399FF아발치 선하울^#FFFFFF에게 가서 사정을 이야기 하면 된다네." npc="칼라부 어스히터">
+			<subjectPos subjectStr="카샨 상급 투사 처치" mapTargetId="104602"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[아발치 선하울과 대화]]" draft="이 중부 감시 초소 더 동쪽에 작은 마을이 하나 있었다네. 우리 투르가와 투르가의 친구인 바두인이 살던 마을인데. 그 마을이 하루 아침에 파괴 당했다네./n너무 순식간에 벌어진 일이라 우리 경비병은 마을 쪽에서 타오르는 연기와 불빛을 구경만 할 수 밖에 없었지./n지금 그 폐허가 된 마을엔 카샨족의 투사들이 진을 치고 있어서 우리 초소의 경비병만으로는 어떻게 해볼 수가 없네./n지금 가서 ^#FF0000카샨 상급 투사^#FFFFFF 몇 마리 처치해 그들에게 겁을 주어 더 서쪽으로 오지 못하게 해주게. 그리고 북부 감시 초소에 지원을 요청해줘. ^#3399FF아발치 선하울^#FFFFFF에게 가서 사정을 이야기 하면 된다네." npc="아발치 선하울">
+			<subjectPos subjectStr="아발치 선하울과 대화" mapTargetId="105503"/>
+		</Subject>
+		<Storage Hunt1_typeID="580" Hunt1_goal="5" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="20"/>
+	</Quest>
+	<Quest typeID="402301225" typeName="목초지의 훈련" group="001" NPC="칸바 레드스카" reportTo="칸바 레드스카" cancelable="1" repeatable="0" retryable="1" lv="12" desc="우리 투르가가 초원의 전사가 된 것에는 초원에 흉폭한 동물들이 많기 때문인지도 모른다네./n이 카라쿤타 주변 팔스라 목초지에도 겁도 없이 사람에게 덤벼드는 짐승들이 많지./n팔스라 목초지를 점거하고 사람들을 괴롭히는 ^#FF0000트럼블러^#FFFFFF와 ^#FF0000팬더 움바^#FFFFFF, ^#FF0000흉포한 자이쿠^#FFFFFF를 사냥하고 나에게 돌아오게." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="224" rewardCombatJobEXP="3640" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest3" desc="[[트럼블러 사냥]][[팬더 움바 사냥]][[흉포한 자이쿠 사냥]]" draft="우리 투르가가 초원의 전사가 된 것에는 초원에 흉폭한 동물들이 많기 때문인지도 모른다네./n이 카라쿤타 주변 팔스라 목초지에도 겁도 없이 사람에게 덤벼드는 짐승들이 많지./n팔스라 목초지를 점거하고 사람들을 괴롭히는 ^#FF0000트럼블러^#FFFFFF와 ^#FF0000팬더 움바^#FFFFFF, ^#FF0000흉포한 자이쿠^#FFFFFF를 사냥하고 나에게 돌아오게." npc="칸바 레드스카">
+			<subjectPos subjectStr="트럼블러 사냥" mapTargetId="102601"/>
+			<subjectPos subjectStr="팬더 움바 사냥" mapTargetId="102601"/>
+			<subjectPos subjectStr="흉포한 자이쿠 사냥" mapTargetId="102601"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[칸바 레드스카에게 보고]]" draft="우리 투르가가 초원의 전사가 된 것에는 초원에 흉폭한 동물들이 많기 때문인지도 모른다네./n이 카라쿤타 주변 팔스라 목초지에도 겁도 없이 사람에게 덤벼드는 짐승들이 많지./n팔스라 목초지를 점거하고 사람들을 괴롭히는 ^#FF0000트럼블러^#FFFFFF와 ^#FF0000팬더 움바^#FFFFFF, ^#FF0000흉포한 자이쿠^#FFFFFF를 사냥하고 나에게 돌아오게." npc="칸바 레드스카">
+			<subjectPos subjectStr="칸바 레드스카에게 보고" mapTargetId="101513"/>
+		</Subject>
+		<Storage Hunt1_typeID="26" Hunt1_goal="5" Hunt1_count="0" target1_type="Hunt" Hunt2_typeID="367" Hunt2_goal="5" Hunt2_count="0" target2_type="Hunt" Hunt3_typeID="363" Hunt3_goal="5" Hunt3_count="0" target3_type="Hunt" target_number="3"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="402301230" typeName="흐릿한 진실1" group="001" NPC="눈 먼 소년" reportTo="쥬우카 쉐도우대거" cancelable="1" repeatable="0" retryable="1" lv="14" desc="비록 내 눈은 어둡지만 나는 당신이 무슨 일을 했고 어떤 사실을 밝혀냈는지 알고 있어요. 흔히들 눈이 머는 건 검은 암흑 속에 빠져들 뿐이라고 생각하지만 실제론 그렇지 않거든요. 나는 푸른 빛과 함께 한답니다./n아무튼 당신이 한 일을 ^#3399FF쥬우카 쉐도우대거^#FFFFFF도 알고 있어요. 그에게 가보세요. " difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="548" rewardCombatJobEXP="4720" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[눈 먼 소년과 대화]]" draft="비록 내 눈은 어둡지만 나는 당신이 무슨 일을 했고 어떤 사실을 밝혀냈는지 알고 있어요. 흔히들 눈이 머는 건 검은 암흑 속에 빠져들 뿐이라고 생각하지만 실제론 그렇지 않거든요. 나는 푸른 빛과 함께 한답니다./n아무튼 당신이 한 일을 ^#3399FF쥬우카 쉐도우대거^#FFFFFF도 알고 있어요. 그에게 가보세요. " npc="눈 먼 소년">
+			<subjectPos subjectStr="눈 먼 소년과 대화" mapTargetId="103423"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[쥬우카 쉐도우대거와 대화]]" draft="비록 내 눈은 어둡지만 나는 당신이 무슨 일을 했고 어떤 사실을 밝혀냈는지 알고 있어요. 흔히들 눈이 머는 건 검은 암흑 속에 빠져들 뿐이라고 생각하지만 실제론 그렇지 않거든요. 나는 푸른 빛과 함께 한답니다./n아무튼 당신이 한 일을 ^#3399FF쥬우카 쉐도우대거^#FFFFFF도 알고 있어요. 그에게 가보세요. " npc="쥬우카 쉐도우대거">
+			<subjectPos subjectStr="쥬우카 쉐도우대거와 대화" mapTargetId="103505"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="10"/>
+	</Quest>
+	<Quest typeID="402301235" typeName="용맹한 자의 길2" group="001" NPC="오린 어스히트" reportTo="오린 어스히트" cancelable="1" repeatable="0" retryable="1" lv="17" desc="제 연구에 꼭 필요한 것이 한 가지 있는데 바로 ^#FF0000칸의 지도^#FFFFFF라는 것이죠. 그게 뭔지 혹시 아세요?/n그건 바로 돌!입니다. 용맹한 자의 길 주변에 많이 널려 있는데 그것들을 모아 저에게 가져다 주세요. 그러면 저의 연구에 많은 도움이 될 거예요." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="1042" rewardCombatJobEXP="6240" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[칸의 지도]]" draft="제 연구에 꼭 필요한 것이 한 가지 있는데 바로 ^#FF0000칸의 지도^#FFFFFF라는 것이죠. 그게 뭔지 혹시 아세요?/n그건 바로 돌!입니다. 용맹한 자의 길 주변에 많이 널려 있는데 그것들을 모아 저에게 가져다 주세요. 그러면 저의 연구에 많은 도움이 될 거예요." npc="오린 어스히트">
+			<subjectPos subjectStr="칸의 지도" mapTargetId="106701"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[오린 어스히트에게 배달]]" draft="제 연구에 꼭 필요한 것이 한 가지 있는데 바로 ^#FF0000칸의 지도^#FFFFFF라는 것이죠. 그게 뭔지 혹시 아세요?/n그건 바로 돌!입니다. 용맹한 자의 길 주변에 많이 널려 있는데 그것들을 모아 저에게 가져다 주세요. 그러면 저의 연구에 많은 도움이 될 거예요." npc="오린 어스히트">
+			<subjectPos subjectStr="오린 어스히트에게 배달" mapTargetId="106503"/>
+		</Subject>
+		<Storage Collect1_typeID="150336" Collect1_goal="10" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="25"/>
+	</Quest>
+	<Quest typeID="402301240" typeName="흐릿한 진실4" group="001" NPC="눈 먼 소년" reportTo="칸바 레드스카" cancelable="1" repeatable="0" retryable="1" lv="14" desc="눈을 감으면 소리가 더 잘들려요. 눈 앞이 흐릿해서 정확한 걸 볼 수 없는 때엔 그냥 눈을 감아버리는 것도 나쁘지 않죠./n흐릿해서 알 수 없는 진실의 한가운데서 서있을 때는 더욱더…. 투르가에 배신자가 있을지도 모른다는 이야기를 ^#3399FF칸바 레드스카^#FFFFFF님께선 어떻게 생각하고 계실 지 궁금하지 않나요?" difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="548" rewardCombatJobEXP="4720" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[눈 먼 소년과 대화]]" draft="눈을 감으면 소리가 더 잘들려요. 눈 앞이 흐릿해서 정확한 걸 볼 수 없는 때엔 그냥 눈을 감아버리는 것도 나쁘지 않죠./n흐릿해서 알 수 없는 진실의 한가운데서 서있을 때는 더욱더…. 투르가에 배신자가 있을지도 모른다는 이야기를 ^#3399FF칸바 레드스카^#FFFFFF님께선 어떻게 생각하고 계실 지 궁금하지 않나요?" npc="눈 먼 소년">
+			<subjectPos subjectStr="눈 먼 소년과 대화" mapTargetId="103423"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[칸바 레드스카와 대화]]" draft="눈을 감으면 소리가 더 잘들려요. 눈 앞이 흐릿해서 정확한 걸 볼 수 없는 때엔 그냥 눈을 감아버리는 것도 나쁘지 않죠./n흐릿해서 알 수 없는 진실의 한가운데서 서있을 때는 더욱더…. 투르가에 배신자가 있을지도 모른다는 이야기를 ^#3399FF칸바 레드스카^#FFFFFF님께선 어떻게 생각하고 계실 지 궁금하지 않나요?" npc="칸바 레드스카">
+			<subjectPos subjectStr="칸바 레드스카와 대화" mapTargetId="100510"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="15"/>
+	</Quest>
+	<Quest typeID="402301245" typeName="투르가의 수련2" group="001" NPC="수련중인 투르가1" reportTo="수련중인 투르가1" cancelable="1" repeatable="0" retryable="1" lv="20" desc="이 곳에서의 수련은 항상 이투랄 같은 어른들이 지켜 봐 주시고 카라쿤타와 가까운 지리적인 영향으로 어려움이 없습니다. 그래서…/n그래서 저희는 이 곳을 떠나 더 먼 곳으로 수련을 떠날 예정입니다. 좀 더 강해지기 위해서 말이죠. 이 곳에 있으면 마음이 안정되어 수련이 도움이 되지 않거든요. 하지만 서 툼바라 초원 밖으로 나가는 것은 처음이라…마음을 의지할 물건이 있었으면 좋겠습니다./n이를테면 팔스라 목초지 서쪽에 떨어져 있는 ^#FF0000삭아버린 무기 조각 ^#FFFFFF같은 것들 말이죠. 조각들이 너무 오래되어 삭아버렸으니 주울 때 주의하셔야 할 겁니다. 자칫 다 부스러져 버릴 수 있기 때문이죠." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="1445" rewardCombatJobEXP="11440" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[삭아버린 무기 조각]]" draft="이 곳에서의 수련은 항상 이투랄 같은 어른들이 지켜 봐 주시고 카라쿤타와 가까운 지리적인 영향으로 어려움이 없습니다. 그래서…/n그래서 저희는 이 곳을 떠나 더 먼 곳으로 수련을 떠날 예정입니다. 좀 더 강해지기 위해서 말이죠. 이 곳에 있으면 마음이 안정되어 수련이 도움이 되지 않거든요. 하지만 서 툼바라 초원 밖으로 나가는 것은 처음이라…마음을 의지할 물건이 있었으면 좋겠습니다./n이를테면 팔스라 목초지 서쪽에 떨어져 있는 ^#FF0000삭아버린 무기 조각 ^#FFFFFF같은 것들 말이죠. 조각들이 너무 오래되어 삭아버렸으니 주울 때 주의하셔야 할 겁니다. 자칫 다 부스러져 버릴 수 있기 때문이죠." npc="수련중인 투르가1">
+			<subjectPos subjectStr="삭아버린 무기 조각 " mapTargetId="103702"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[수련 중인 투르가에게 배달]]" draft="이 곳에서의 수련은 항상 이투랄 같은 어른들이 지켜 봐 주시고 카라쿤타와 가까운 지리적인 영향으로 어려움이 없습니다. 그래서…/n그래서 저희는 이 곳을 떠나 더 먼 곳으로 수련을 떠날 예정입니다. 좀 더 강해지기 위해서 말이죠. 이 곳에 있으면 마음이 안정되어 수련이 도움이 되지 않거든요. 하지만 서 툼바라 초원 밖으로 나가는 것은 처음이라…마음을 의지할 물건이 있었으면 좋겠습니다./n이를테면 팔스라 목초지 서쪽에 떨어져 있는 ^#FF0000삭아버린 무기 조각 ^#FFFFFF같은 것들 말이죠. 조각들이 너무 오래되어 삭아버렸으니 주울 때 주의하셔야 할 겁니다. 자칫 다 부스러져 버릴 수 있기 때문이죠." npc="수련중인 투르가1">
+			<subjectPos subjectStr="수련 중인 투르가에게 배달" mapTargetId="107512"/>
+		</Subject>
+		<Storage Collect1_typeID="150400" Collect1_goal="10" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="48"/>
+	</Quest>
+	<Quest typeID="402301250" typeName="작은 친구" group="001" NPC="수련중인 투르가2" reportTo="스쿠르족 연구 조수" cancelable="1" repeatable="0" retryable="1" lv="20" desc="저에게는 작은 친구가 있어요. 그 친구가 듀발 고원으로 가는 길에 잠시 카라쿤타에 머물러 있을 때 만나서 관계를 맺을 수 있었어요./n그 친구는 듀발 고원에 연구를 하러 간다고 했는데… ^#3399FF스쿠르족의 연구 조수^#FFFFFF랍니다. 친구에게 저도 곧 뒤를 따라갈테니 조금만 기다려 달라고 전해주세요." difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="1445" rewardCombatJobEXP="11440" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[수련 중인 투르가와 대화]]" draft="저에게는 작은 친구가 있어요. 그 친구가 듀발 고원으로 가는 길에 잠시 카라쿤타에 머물러 있을 때 만나서 관계를 맺을 수 있었어요./n그 친구는 듀발 고원에 연구를 하러 간다고 했는데… ^#3399FF스쿠르족의 연구 조수^#FFFFFF랍니다. 친구에게 저도 곧 뒤를 따라갈테니 조금만 기다려 달라고 전해주세요." npc="수련중인 투르가2">
+			<subjectPos subjectStr="수련 중인 투르가와 대화" mapTargetId="107412"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[스쿠르족 연구 조수와 대화]]" draft="저에게는 작은 친구가 있어요. 그 친구가 듀발 고원으로 가는 길에 잠시 카라쿤타에 머물러 있을 때 만나서 관계를 맺을 수 있었어요./n그 친구는 듀발 고원에 연구를 하러 간다고 했는데… ^#3399FF스쿠르족의 연구 조수^#FFFFFF랍니다. 친구에게 저도 곧 뒤를 따라갈테니 조금만 기다려 달라고 전해주세요." npc="스쿠르족 연구 조수">
+			<subjectPos subjectStr="스쿠르족 연구 조수와 대화" mapTargetId="306512"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="72"/>
+	</Quest>
+	<Quest typeID="402301255" typeName="카라쿤타의 스피럴 큐브" group="001" NPC="칸바 레드스카" reportTo="칸바 레드스카" cancelable="1" repeatable="0" retryable="1" lv="12" desc="자네 ^#3399FF스피럴 큐브^#FFFFFF라는 것에 대해 아는가?/n스피럴 큐브란 먼 거리의 이동을 빠르게 해주고 물건도 전송시켜주는 아주 편리한 장치라네./n발명을 좋아하는 스쿠르족이 만든 것인데 이 놈이 하나 있으면 마을에 왕래도 많아지고 번창하게 되지. 우리 마을에도 하나 있네./n내 옆에 있는 신비스런 빛을 뿜는 물건이 그것이지. 구경 한 번 해볼텐가?" difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="224" rewardCombatJobEXP="3640" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[스피럴 큐브 살펴보기]]" draft="자네 ^#3399FF스피럴 큐브^#FFFFFF라는 것에 대해 아는가?/n스피럴 큐브란 먼 거리의 이동을 빠르게 해주고 물건도 전송시켜주는 아주 편리한 장치라네./n발명을 좋아하는 스쿠르족이 만든 것인데 이 놈이 하나 있으면 마을에 왕래도 많아지고 번창하게 되지. 우리 마을에도 하나 있네./n내 옆에 있는 신비스런 빛을 뿜는 물건이 그것이지. 구경 한 번 해볼텐가?" npc="칸바 레드스카">
+			<subjectPos subjectStr="스피럴 큐브 살펴보기" mapTargetId="101413"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[칸바 레드스카와 대화]]" draft="자네 ^#3399FF스피럴 큐브^#FFFFFF라는 것에 대해 아는가?/n스피럴 큐브란 먼 거리의 이동을 빠르게 해주고 물건도 전송시켜주는 아주 편리한 장치라네./n발명을 좋아하는 스쿠르족이 만든 것인데 이 놈이 하나 있으면 마을에 왕래도 많아지고 번창하게 되지. 우리 마을에도 하나 있네./n내 옆에 있는 신비스런 빛을 뿜는 물건이 그것이지. 구경 한 번 해볼텐가?" npc="칸바 레드스카">
+			<subjectPos subjectStr="칸바 레드스카와 대화" mapTargetId="101513"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="5"/>
+	</Quest>
+	<Quest typeID="402301260" typeName="투르가의 친서" group="001" NPC="부르크 스트롱보우" reportTo="발카라스 사절" cancelable="1" repeatable="0" retryable="1" lv="20" desc="이봐. 내가 갑자기 배가 아파서 그런데 말이야. 이 투르가의 친서를 듀발 고원의 ^#3399FF발카라스 사절^#FFFFFF에게 전해주게. 어서 빨리. 급한 일이라네." difficulty="1" onMessage="DeleteQuest_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="1445" rewardCombatJobEXP="11440" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[투르가의 친서]]" draft="이봐. 내가 갑자기 배가 아파서 그런데 말이야. 이 투르가의 친서를 듀발 고원의 ^#3399FF발카라스 사절^#FFFFFF에게 전해주게. 어서 빨리. 급한 일이라네." npc="부르크 스트롱보우">
+			<subjectPos subjectStr="투르가의 친서" mapTargetId="107404"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[발카라스 사절에게 배달]]" draft="이봐. 내가 갑자기 배가 아파서 그런데 말이야. 이 투르가의 친서를 듀발 고원의 ^#3399FF발카라스 사절^#FFFFFF에게 전해주게. 어서 빨리. 급한 일이라네." npc="발카라스 사절">
+			<subjectPos subjectStr="발카라스 사절에게 배달" mapTargetId="306502"/>
+		</Subject>
+		<Storage Collect1_typeID="150394"/>
+		<BasicReward typeID="2100000000" count="72"/>
+	</Quest>
+	<Quest typeID="402301265" typeName="이제 겨우 한 발1" group="001" NPC="지르베르" reportTo="정찰병 발컨" cancelable="1" repeatable="0" retryable="1" lv="4" desc="카툼바 골짜기에서의 훈련은 무사히 마쳤는가? 다친 곳도 없이 무사한 걸 보니 자네는 우수한 졸업생임이 분명하구만./n그럼 훈련소를 마치자 마자 급작스러운 일이겠지만 앞으로 난 길을 따라 조금만 더 가면 오른 쪽 샛길에서 우리 ^#3399FF정찰병 발컨^#FFFFFF이라는 투르가가 기다리고 있을걸세./n그에게 가보게." difficulty="1" onMessage="NULL" ChoiceRewardLimit="1" rewardEXP="0" rewardLifeJobEXP="10" rewardCombatJobEXP="150" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[지르베르와 대화]]" draft="카툼바 골짜기에서의 훈련은 무사히 마쳤는가? 다친 곳도 없이 무사한 걸 보니 자네는 우수한 졸업생임이 분명하구만./n그럼 훈련소를 마치자 마자 급작스러운 일이겠지만 앞으로 난 길을 따라 조금만 더 가면 오른 쪽 샛길에서 우리 ^#3399FF정찰병 발컨^#FFFFFF이라는 사람이 기다리고 있을걸세./n그에게 가보게." npc="지르베르">
+			<subjectPos subjectStr="지르베르와 대화" mapTargetId="101419"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[정찰병 발컨과 대화]]" draft="카툼바 골짜기에서의 훈련은 무사히 마쳤는가? 다친 곳도 없이 무사한 걸 보니 자네는 우수한 졸업생임이 분명하구만./n그럼 훈련소를 마치자 마자 급작스러운 일이겠지만 앞으로 난 길을 따라 조금만 더 가면 오른 쪽 샛길에서 우리 ^#3399FF정찰병 발컨^#FFFFFF이라는 투르가가 기다리고 있을걸세./n그에게 가보게." npc="정찰병 발컨">
+			<subjectPos subjectStr="정찰병 발컨과 대화" mapTargetId="101518"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="4"/>
+		<ChoiceReward typeID="50004" count="1"/>
+		<ChoiceReward typeID="50060" count="1"/>
+		<ChoiceReward typeID="50116" count="1"/>
+		<ChoiceReward typeID="50172" count="1"/>
+	</Quest>
+</Quest>

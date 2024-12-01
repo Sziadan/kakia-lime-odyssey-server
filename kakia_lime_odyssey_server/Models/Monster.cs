@@ -1,4 +1,5 @@
-﻿using kakia_lime_odyssey_packets;
+﻿using kakia_lime_odyssey_logging;
+using kakia_lime_odyssey_packets;
 using kakia_lime_odyssey_packets.Packets.Enums;
 using kakia_lime_odyssey_packets.Packets.Models;
 using kakia_lime_odyssey_packets.Packets.SC;
@@ -26,7 +27,7 @@ public class Monster : INPC
 	public uint MMP { get; set; }
 	public uint MP { get; set; }
 	
-	public uint CurrentTarget { get; set; }
+	public PlayerClient? CurrentTarget { get; set; }
 	public bool Aggro { get; set; }
 
 	private FPOS _destination;
@@ -35,6 +36,10 @@ public class Monster : INPC
 	private uint _actionStartTick;
 	private uint _lastTick;
 	public bool IsMoving;
+
+	private MOVE_TYPE _moveType = MOVE_TYPE.MOVE_TYPE_WALK;
+
+	private readonly uint update_distance = 1500;
 
 	public Monster(XmlMonster mobInfo, uint id, FPOS pos, FPOS dir, uint zone, bool aggro)
 	{
@@ -55,7 +60,7 @@ public class Monster : INPC
 		Name = mobInfo.Name;
 		ModelId = (uint)_mobInfo.ModelTypeID;
 
-		CurrentTarget = 0;
+		CurrentTarget = null;
 	}
 
 	public SC_ENTER_SIGHT_MONSTER GetEnterSight()
@@ -112,16 +117,48 @@ public class Monster : INPC
 
 		_lastTick = serverTick;
 
+		bool noTarget = CurrentTarget is null;
+
+		if (IsPlayerWithinAggroZone(playerClients))
+		{
+			if (noTarget)
+			{
+				Position = Position.CalculateCurrentPosition(_destination, GetCurrentVelocity(), (double)((serverTick - _actionStartTick) / 1000));
+				_actionStartTick = serverTick;
+			}
+
+			ChaseAndAttackPlayer(serverTick, playerClients);
+		}
 
 		if (!IsMoving)
 		{
-			if(!Roam(serverTick))
+			if (CurrentTarget == null)
+			{
+				if (!Roam(serverTick))
+					return;
+			}
+
+			// Turn the monster straight away
+			var stop = GetStopPacket(Position, serverTick);
+			foreach (var client in playerClients)
+			{
+				if (!client.IsLoaded() || client.GetPosition().CalculateDistance(Position) > update_distance)
+					continue;
+
+				client.Send(stop, default).Wait();
+			}
+
+			if (CurrentTarget != null)
 				return;
 		}
 
-		var currentPosition = Position.CalculateCurrentPosition(_destination, GetVelocities().walk, (double)((serverTick - _actionStartTick)/100));
+		
+		var currentPosition = Position.CalculateCurrentPosition(_destination, GetCurrentVelocity(), (double)((serverTick - _actionStartTick)/1000));
+		if (float.IsNaN(currentPosition.x) || float.IsNaN(currentPosition.y) || float.IsNaN(currentPosition.z))
+			currentPosition = Position;
 
-		if (currentPosition.Compare(_destination))
+
+		if (currentPosition.Compare(_destination) || (CurrentTarget is not null && ReachedPlayer(currentPosition)))
 		{
 			Position = currentPosition;
 			_destination = default;
@@ -130,37 +167,98 @@ public class Monster : INPC
 			IsMoving = false;
 			_actionStartTick = 0;
 
-			SC_STOP sc_stop = new()
-			{
-				objInstID = Id,
-				pos = Position,
-				dir = Direction,
-				tick = serverTick,
-				stopType = 0
-			};
-
-			using PacketWriter pw1 = new(false);
-			pw1.Write(sc_stop);
+			var sc_stop = GetStopPacket(Position, serverTick);
 
 			foreach (var client in playerClients)
 			{
-				if (!client.IsLoaded() || client.GetPosition().CalculateDistance(Position) > 500)
+				if (!client.IsLoaded() || client.GetPosition().CalculateDistance(Position) > update_distance)
 					continue;
 
-				client.Send(pw1.ToPacket(), default).Wait();
+				client.Send(sc_stop, default).Wait();
 			}
 			return;
 		}
 
-		var pck = GetMovePacket(currentPosition, serverTick, MOVE_TYPE.MOVE_TYPE_WALK);
+		var pck = GetMovePacket(currentPosition, serverTick);
 		foreach (var client in playerClients)
 		{
-			if (!client.IsLoaded() || client.GetPosition().CalculateDistance(Position) > 500)
+			if (!client.IsLoaded() || client.GetPosition().CalculateDistance(Position) > update_distance)
 				continue;
 
 			client.Send(pck, default).Wait();
 		}
+	}
 
+	private void ChaseAndAttackPlayer(uint serverTick, ReadOnlySpan<PlayerClient> playerClients)
+	{
+		if (CurrentTarget != null)
+		{
+			var currentPosition = Position.CalculateCurrentPosition(_destination, GetCurrentVelocity(), (double)((serverTick - _actionStartTick) / 1000));
+
+			var distance = CurrentTarget.GetPosition().CalculateDistance(currentPosition);
+
+			_moveType = MOVE_TYPE.MOVE_TYPE_RUN;
+			_destination = CurrentTarget.GetPosition();
+			if (distance > 0) {
+				Direction = currentPosition.CalculateDirection(CurrentTarget.GetPosition());
+			}
+
+			// No need to get closer
+			if (ReachedPlayer(currentPosition))
+			{
+				_destination = currentPosition;
+			}
+			else if(!IsMoving)
+			{
+				IsMoving = true;
+				_actionStartTick = serverTick;
+			}
+		}
+	}
+
+	private bool ReachedPlayer(FPOS position)
+	{
+		if (CurrentTarget == null)
+			return false;
+
+		return CurrentTarget.GetPosition().CalculateDistance(position) < 1;
+	}
+
+	private bool IsPlayerWithinAggroZone(ReadOnlySpan<PlayerClient> playerClients)
+	{
+		int aggro_range = 150;
+
+		if (CurrentTarget != null)
+		{
+			if (CurrentTarget.GetPosition().CalculateDistance(Position) < aggro_range)
+				return true;
+
+			CurrentTarget = null;
+		}
+
+		double closest = double.MaxValue;
+		foreach (var client in playerClients)
+		{
+			var distance = client.GetPosition().CalculateDistance(Position);
+			if (distance > aggro_range)
+				continue;
+
+			if (closest < distance)
+				continue;
+
+			closest = distance;
+			CurrentTarget = client;
+		}
+
+		if (closest == double.MaxValue)
+		{
+			CurrentTarget = null;
+			_moveType = MOVE_TYPE.MOVE_TYPE_WALK;
+			if (!IsMoving)
+				_destination = default;
+		}
+
+		return CurrentTarget != null;
 	}
 
 	private bool Roam(uint serverTick)
@@ -180,7 +278,7 @@ public class Monster : INPC
 		return true;
 	}
 
-	private byte[] GetMovePacket(FPOS currentPosition, uint serverTick, MOVE_TYPE move_type)
+	private byte[] GetMovePacket(FPOS currentPosition, uint serverTick)
 	{
 		var vel = GetVelocities();
 		SC_MOVE sc_move = new()
@@ -190,16 +288,44 @@ public class Monster : INPC
 			dir = Direction,
 			deltaLookAtRadian = 0,
 			tick = serverTick,
-			moveType = (byte)move_type,
+			moveType = (byte)_moveType,
 			turningSpeed = 1,
 			accel = 0,
-			velocity = move_type == MOVE_TYPE.MOVE_TYPE_WALK ? vel.walk : vel.run,
+			velocity = GetCurrentVelocity(),
 			velocityRatio = 1
 		};
 
 		using PacketWriter pw = new(false);
 		pw.Write(sc_move);
 		return pw.ToPacket();
+	}
+
+	private byte[] GetStopPacket(FPOS position, uint serverTick)
+	{
+		SC_STOP sc_stop = new()
+		{
+			objInstID = Id,
+			pos = position,
+			dir = Direction,
+			tick = serverTick,
+			stopType = 0
+		};
+
+		using PacketWriter pw = new(false);
+		pw.Write(sc_stop);
+
+		return pw.ToPacket();
+	}
+
+	private float GetCurrentVelocity()
+	{
+		var velocities = GetVelocities();
+		return _moveType switch  
+		{
+			MOVE_TYPE.MOVE_TYPE_RUN => velocities.run,
+			MOVE_TYPE.MOVE_TYPE_WALK => velocities.walk,
+			_ => velocities.walk
+		};	
 	}
 
 	private VELOCITIES GetVelocities()

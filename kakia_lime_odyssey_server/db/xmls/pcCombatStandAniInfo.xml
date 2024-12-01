@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- CMB_HAND_WAIT_01 -->
+<!-- CMB_KNIFE_WAIT_01 -->
+<!-- CMB_OHAND_WAIT_01 -->
+<!-- CMB_OHAND_WAIT_01 -->
+<!-- CMB_OHAND_WAIT_01 -->
+<!-- CMB_OHAND_WAIT_01 -->
+<!-- CMB_TSTAFF_WAIT_01 -->
+<!-- CMB_OHAND_WAIT_01 -->
+<!-- CMB_BOOK_WAIT_01 -->
+<!-- CMB_THAND_WAIT_01 -->
+<!-- CMB_THAND_WAIT_01 -->
+<!-- CMB_THAND_WAIT_01 -->
+<!-- CMB_THAND_WAIT_01 -->	
+<!-- CMB_TSTAFF_WAIT_01 -->	
+<!-- CMB_THAND_WAIT_01 -->	
+<!-- CMB_OHAND_WAIT_01 -->
+<!-- CMB_OHAND_WAIT_01 -->	
+<!-- CMB_DHAND_WAIT_01 -->	
+<!-- CMB_DHAND_WAIT_01 -->
+<!-- CMB_DHAND_WAIT_01 -->
+<!-- CMB_DHAND_WAIT_01 -->	
+<!-- CMB_DHANDKNIFE_WAIT_01 -->
+<!-- CMB_DHAND_WAIT_01 -->	
+<!-- CMB_DHAND_WAIT_01 -->
+<!-- CMB_DHAND_WAIT_01 -->
+<!-- CMB_DHAND_WAIT_01 -->
+<!-- CMB_DHAND_WAIT_01 -->
+<Info>
+	<table AttackType="0" MotionId="2300001" /> 
+	<table AttackType="1" MotionId="2030001" /> 
+	<table AttackType="2" MotionId="2040001" /> 
+	<table AttackType="3" MotionId="2040001" /> 
+	<table AttackType="4" MotionId="2040001" /> 
+	<table AttackType="5" MotionId="2040001" /> 
+	<table AttackType="6" MotionId="2280001" /> 
+	<table AttackType="7" MotionId="2040001" /> 
+	<table AttackType="8" MotionId="2270001" /> 
+	<table AttackType="9" MotionId="2050001" /> 
+	<table AttackType="10" MotionId="2050001" /> 
+	<table AttackType="11" MotionId="2050001" /> 
+	<table AttackType="12" MotionId="2050001" /> 
+	<table AttackType="13" MotionId="2280001" /> 
+	<table AttackType="14" MotionId="2050001" /> 
+	<table AttackType="15" MotionId="2040001" /> 
+	<table AttackType="16" MotionId="2040001" /> 
+	<table AttackType="17" MotionId="2220001" /> 
+	<table AttackType="18" MotionId="2220001" /> 
+	<table AttackType="19" MotionId="2220001" /> 
+	<table AttackType="20" MotionId="2220001" /> 
+	<table AttackType="21" MotionId="2220101" /> 
+	<table AttackType="22" MotionId="2220001" /> 
+	<table AttackType="23" MotionId="2220001" /> 
+	<table AttackType="24" MotionId="2220001" /> 
+	<table AttackType="25" MotionId="2220001" /> 
+	<table AttackType="26" MotionId="2220001" /> 
+</Info>

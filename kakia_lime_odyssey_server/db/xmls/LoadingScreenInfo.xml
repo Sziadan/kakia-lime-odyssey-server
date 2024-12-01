@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by 카이 (siriusent) -->
+<Root>
+	<Screen areaIndex="-1" screenFilename="LoadingScreen\screen.dds"/>
+	<Screen areaIndex="0" screenFilename="LoadingScreen\WestTumbaraPlain.dds"/>
+	<Screen areaIndex="1" screenFilename="LoadingScreen\DubalPlateau.dds"/>
+	<Screen areaIndex="2" screenFilename="LoadingScreen\ForestofBluecoral.dds"/>
+	<Screen areaIndex="3" screenFilename="LoadingScreen\WestTumbaraPlain.dds"/>
+	<Screen areaIndex="4" screenFilename="LoadingScreen\ForestofBluecoral.dds"/>
+	<Screen areaIndex="5" screenFilename="LoadingScreen\TalrunbaraRavine.dds"/>
+	<Screen areaIndex="6" screenFilename="LoadingScreen\NosplersUndergroundDungeon.dds"/>
+	<Screen areaIndex="7" screenFilename="LoadingScreen\HowlingAscent.dds"/>
+	<Screen areaIndex="8" screenFilename="LoadingScreen\CaveofExamination.dds"/>
+	<Screen areaIndex="9" screenFilename="LoadingScreen\CaveofCoral.dds"/>
+	<Screen areaIndex="10" screenFilename="LoadingScreen\TheLouranDesert.dds"/>
+	<Screen areaIndex="11" screenFilename="LoadingScreen\SaltMine.dds"/>
+	<LoadingHelp helpDetail='^#635F5BTIP : 이모션 사용은 "/명령어", 이모티콘 사용은 "//명령어"입니다.'/>
+	<LoadingHelp helpDetail="^#635F5BTIP : 마우스 이동 on/off는 시스템 메뉴에서 시스템 설정을 통해 가능합니다."/>
+	<LoadingHelp helpDetail="^#635F5BTIP : 투구 보이기 상태에서는 머리 장식 아이템이 보이지 않습니다."/>
+	<LoadingHelp helpDetail="^#635F5BTIP : 전투 중에는 앉기를 할 수 없습니다."/>
+	<LoadingHelp helpDetail="^#635F5BTIP : 각 종족 마을에 있는 길드 관리인을 통해 길드를 만들 수 있습니다."/>
+	<LoadingHelp helpDetail="^#635F5BTIP : 전투 직업 레벨 8 이 되면 파티를 만들거나 가입할 수 있습니다."/>
+	<LoadingHelp helpDetail="^#635F5BTIP : 커멘드 메뉴에서 이모션과 이모티콘 리스트를 확인하세요."/>
+	<LoadingHelp helpDetail="^#635F5BTIP : 생활 직업 상태에서는 전투할 수 없습니다."/>
+	<LoadingHelp helpDetail="^#635F5BTIP : 전투 직업 상태에서는 수집할 수 없습니다."/>
+	<LoadingHelp helpDetail="^#635F5BTIP : F7 또는 제작 버튼을 클릭하여 제작할 수 있습니다."/>
+	<LoadingHelp helpDetail="^#635F5BTIP : F8 또는 가공 버튼을 클릭하여 가공할 수 있습니다."/>
+	<LoadingHelp helpDetail="^#635F5BTIP : NPC는 전체 맵에서 선택하여 확인할 수 있습니다."/>
+	<LoadingHelp helpDetail="^#635F5BTIP : 가공은 생활 직업에 상관없이 누구나 할 수 있습니다."/>
+	<LoadingHelp helpDetail="^#635F5BTIP : 강화석을 사용하여 전투직업 무기와 방어구를 강화시킬 수 있습니다."/>
+	<LoadingHelp helpDetail="^#635F5BTIP : 룬 보석을 사용하여 무기와 방어구의 능력치를 올릴 수 있습니다."/>
+	<LoadingHelp helpDetail="^#635F5BTIP : 보석 상자를 사용하여 룬 보석을 조합할 수 있습니다."/>
+	<LoadingHelp helpDetail="^#635F5BTIP : 각 직업 레벨 4 가 되면 교관에게 스킬을 배울 수 있습니다."/>
+	<LoadingHelp helpDetail="^#635F5BTIP : 퀘스트 알림창에 등록할 수 있는 퀘스트의 갯수는 6개 입니다."/>
+</Root>

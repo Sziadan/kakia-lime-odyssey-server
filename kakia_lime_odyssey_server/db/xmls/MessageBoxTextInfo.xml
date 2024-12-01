@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2006 rel. 3 U (http://www.altova.com) by Administrator (EMBRACE) -->
+<Root>
+	<Message name="SERVER_DISCONNECTED" text="/n서버와 접속이 끊어졌습니다."/>
+	<Message name="SERVER_PACKET_SEPARATE_FAILED" text="/n패킷 분리 실패!! 서버와 접속을 끊습니다."/>
+	<Message name="LOADING_PLEASE_WAIT" text="/nLoading.../nplease wait..."/>
+	<Message name="CHARACTER_DELETE" text="/n캐릭터를 삭제하시겠습니까?"/>
+	<Message name="CHOICE_COMBAT_JOB" text="/n전투직업을 선택 하시겠습니까?"/>
+	<Message name="SKILL_LEVEL_UP" text="/n스킬 포인트를 사용하시겠습니까?"/>
+	<Message name="ASK_QUIT" text="/n종료 하시겠습니까?"/>
+	<Message name="GRAPHIC_CHANGED" text="/n그래픽 옵션의 변경사항은 게임을 재시작해야 적용됩니다."/>
+	<Message name="PARTY_DISBAND" text="/n파티를 해제하시겠습니까?"/>
+	<Message name="PARTY_SECEDED" text="/n파티를 탈퇴하시겠습니까?"/>
+	<Message name="PARTY_INVITATION" text="/n^#93DB70%s^#ffffff님의 ^#93DB70%s^#ffffff파티에 가입하시겠습니까?"/>
+	<Message name="GUILD_INVITATION" text="/n^#93DB70%s^#ffffff 길드에 가입하시겠습니까?"/>
+	<Message name="GUILD_SECEDE" text="/n길드를 탈퇴하시겠습니까?"/>
+	<Message name="GUILD_DISBAND" text="/n길드를 해제하시겠습니까?"/>
+	<Message name="WRONG_ID_OR_PASSWORD" text="/n^#ffaa88아이디 또는 비밀번호 오류"/>
+	<Message name="DECIDE_PARTY_EXPULSION" text="/n^#ffaa88선택된 파티원을 추방하시겠습니까?"/>
+	<Message name="DONT_USE_SLANG" text="/n비속어를 사용할 수 없습니다."/>
+	<Message name="DONT_USE_PROHIBIT" text="/n금지단어가 있습니다."/>
+	<Message name="DONT_USE_RESTRICT" text="/n제한단어가 있습니다."/>
+	<Message name="ITEM_SELL" text="/n"/>
+	<Message name="CHOICE_REWARD" text="/n보상을 선택해 주세요."/>
+	<Message name="DONT_TRADE_EQUIPED_ITEM" text="/n장비한 물건을 거래할수 없습니다."/>
+	<Message name="CHOICE_LIFE_JOB" text="/n생활직업을 선택해 주세요."/>
+	<Message name="MAKE_YOUR_NAME" text="/n이름을 입력해 주세요."/>
+	<Message name="NOT_ENOUGH_ITEM" text="/n아이템이 부족합니다."/>
+	<Message name="DONT_SELECT_IN_THIS_TRIBE" text="/n현재 종족으로는 선택할 수 없습니다."/>
+	<Message name="RANT_SEND_ERROR" text="/n소지하신 Rant보다 많은 Rant를 보낼 수 없습니다."/>
+	<Message name="CHANGE_LIFE_JOB" text="/n생활직업을 선택해 주세요."/>
+	<Message name="CHANGE_COMBAT_JOB" text="/n전투직업을 선택해 주세요."/>
+	<Message name="STRING_CAN_USE_REWORD" text="개의 보상을 선택할 수 있습니다."/>
+	<Message name="STRING_COMPLETE" text="완료"/>
+	<Message name="STRING_CHARACTER" text="케릭터"/>
+	<Message name="STRING_EXPERIENCE" text="경험치"/>
+	<Message name="STRING_COMBATJOB" text="전투직업"/>
+	<Message name="STRING_LIFEJOB" text="생활직업"/>
+	<Message name="STRING_DONT_USE" text="사용 안함"/>
+	<Message name="STRING_BUTTON_READY" text="준비 완료"/>
+	<Message name="STRING_BUTTON_TRADE" text="거래"/>
+	<Message name="STRING_BUTTON_TRADE_AGREEMENT" text="거래 확인"/>
+	<Message name="STRING_BUTTON_IN_PREPARATION" text="준비중..."/>
+	<Message name="STRING_BUTTON_PREPARATION" text="준비"/>
+	<Message name="STRING_REPAIR_ALL_COST" text="전체 수리비"/>
+	<Message name="STRING_DONT_USE_SLANG" text="비속어는 이름에 사용할 수 없습니다."/>
+	<Message name="STRING_HAVE_PROHIBIT" text="사용이 금지된 단어입니다."/>
+	<Message name="STRING_HAVE_RESTRICT" text="사용이 제한된 단어입니다."/>
+	<Message name="STRING_HAVE_WHITESPACE" text="공백 문자는 입력 할 수 없습니다."/>
+	<Message name="STRING_WORD_PROHIBIT" text="이름을 만드는데 사용이 금지된 단어 입니다."/>
+	<Message name="STRING_MINIMUM_NAME_LENGTH" text="이름은 최소 영문 4글자, 한글 2글자 이상 입력해야 됩니다."/>
+	<Message name="STRING_DONT_USE_LANGUAGE_MIX" text="영문과 한글을 혼용할 수 없습니다."/>
+	<Message name="STRING_ENTER_PASSWORD" text="비밀번호를 입력 하세요."/>
+	<Message name="STRING_HOUR" text="시"/>
+	<Message name="STRING_MINUTE" text="분"/>
+	<Message name="STRING_SECOND" text="초"/>
+	<Message name="STRING_SET_UP" text="설정"/>
+	<Message name="STRING_CONVERSATION" text="대화방"/>
+	<Message name="STRING_COUNSELING" text="상담방"/>
+	<Message name="STRING_MAXIMUM_TITLE_LENGTH" text="제목 길이는 한글 20글자, 영어 40글자를 이하만 가능 합니다."/>
+	<Message name="STRING_MAXIMUM_PASSWORD_LENGTH" text="비밀번호 길이는 한글 4글자 영문 8글자 이하만 가능합니다."/>
+	<Message name="STRING_EQUIPED_LEVEL" text="착용 가능 레벨"/>
+	<Message name="STRING_BASE_CHAR_LEVEL" text="케릭터 레벨 기준"/>
+	<Message name="STRING_DURABILITY" text="내구도"/>
+	<Message name="STRING_USE_LEVEL" text="사용 가능 레벨"/>
+	<Message name="STRING_SELL" text="판매"/>
+	<Message name="STRING_TRADE" text="교환"/>
+	<Message name="STRING_DISCARD" text="버리기"/>
+	<Message name="STRING_DENY" text="불가"/>
+	<Message name="STRING_WORD_LIFE" text="생활"/>
+	<Message name="STRING_WORD_COMBAT" text="전투"/>
+	<Message name="STRING_WORD_CONSUMPTION" text="소모"/>
+	<Message name="STRING_SKILL_RANGE" text="스킬 사정거리"/>
+	<Message name="STRING_INSTANT_CASTING" text="즉시 시전"/>
+	<Message name="STRING_COOL_TIME" text="재사용 시간"/>
+	<Message name="STRING_CASTING_TIME" text="시전 시간"/>
+</Root>

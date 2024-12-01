@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<!-- edited with XMLSpy v2008 (http://www.altova.com) by Administrator (SIRIUS) -->
+<EventEffectInfo>
+	<EventEffect eventID="0" eventName="크리티컬이벤트">
+		<eventState>
+			<evnet motionID="0">
+				<effectKind effectID="1020" effectOrder="start"/>
+			</evnet>
+		</eventState>
+	</EventEffect>
+	<EventEffect eventID="1" eventName="레벨업이벤트">
+		<eventState>
+			<evnet motionID="0">
+				<effectKind effectID="361" effectOrder="start"/>
+			</evnet>
+		</eventState>
+	</EventEffect>
+	<EventEffect eventID="2" eventName="잡체인지이벤트">
+		<eventState>
+			<evnet motionID="1160001"/>
+		</eventState>
+	</EventEffect>
+	<EventEffect eventID="3" eventName="전투직업이벤트">
+		<eventState>
+			<evnet motionID="0">
+				<effectKind effectID="361" effectOrder="start"/>
+				<effectKind effectID="362" effectOrder="start"/>
+			</evnet>
+		</eventState>
+	</EventEffect>
+	<EventEffect eventID="4" eventName="Thrust">
+		<eventState>
+			<evnet motionID="0">
+				<effectKind effectID="203" effectOrder="start"/>
+			</evnet>
+		</eventState>
+	</EventEffect>
+	<EventEffect eventID="5" eventName="Resurrected ">
+		<eventState>
+			<evnet motionID="0">
+				<effectKind effectID="212" effectOrder="start"/>
+				<effectKind effectID="213" effectOrder="start"/>
+			</evnet>
+		</eventState>
+	</EventEffect>
+	<EventEffect eventID="6" eventName="생활레벨업이벤트">
+		<eventState>
+			<evnet motionID="0">
+				<effectKind effectID="361" effectOrder="start"/>
+			</evnet>
+		</eventState>
+	</EventEffect>
+	<EventEffect eventID="7" eventName="전투레벨업이벤트">
+		<eventState>
+			<evnet motionID="0">
+				<effectKind effectID="361" effectOrder="start"/>
+			</evnet>
+		</eventState>
+	</EventEffect>
+	<EventEffect eventID="8" eventName="아이템제작성공">
+		<eventState>
+			<evnet motionID="1120001">
+				<effectKind effectID="2007" effectOrder="start"/>
+			</evnet>
+		</eventState>
+	</EventEffect>
+	<EventEffect eventID="9" eventName="아이템제작실패">
+		<eventState>
+			<evnet motionID="1120002">
+				<effectKind effectID="2006" effectOrder="start"/>
+			</evnet>
+		</eventState>
+	</EventEffect>
+	<EventEffect eventID="10" eventName="퀘스트완료">
+		<eventState>
+			<evnet motionID="0"/>
+		</eventState>
+	</EventEffect>
+	<EventEffect eventID="11" eventName="스킬추가">
+		<eventState>
+			<evnet motionID="0">
+				<effectKind effectID="29" effectOrder="start"/>
+			</evnet>
+		</eventState>
+	</EventEffect>
+	<EventEffect eventID="12" eventName="스킬레벨업">
+		<eventState>
+			<evnet motionID="0">
+				<effectKind effectID="29" effectOrder="start"/>
+			</evnet>
+		</eventState>
+	</EventEffect>
+	<EventEffect eventID="13" eventName="슬롯아이템성공">
+		<eventState>
+			<evnet motionID="1120001">
+				<effectKind effectID="2007" effectOrder="start"/>
+			</evnet>
+		</eventState>
+	</EventEffect>
+	<EventEffect eventID="14" eventName="슬롯아이템실패">
+		<eventState>
+			<evnet motionID="1120002">
+				<effectKind effectID="2006" effectOrder="start"/>
+			</evnet>
+		</eventState>
+	</EventEffect>
+</EventEffectInfo>

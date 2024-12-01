@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by Mgoon (sirius) -->
+<Localization>
+	<Message ID="501100001" Text="전체" Note_File="chat.xml"/>
+	<Message ID="501100002" Text="일반" Note_File="chat.xml"/>
+	<Message ID="501100003" Text="파티" Note_File="chat.xml"/>
+	<Message ID="501100004" Text="길드" Note_File="chat.xml"/>
+	<Message ID="501100005" Text="거래" Note_File="chat.xml"/>
+	<Message ID="502100001" Text="로  그  인" Note_File="login.xml "/>
+	<Message ID="502100002" Text="홈 페 이 지" Note_File="login.xml "/>
+	<Message ID="502100003" Text="인  트  로" Note_File="login.xml "/>
+	<Message ID="502100004" Text="게 임 설 정" Note_File="login.xml "/>
+	<Message ID="502100005" Text="종료" Note_File="login.xml "/>
+	<Message ID="503100001" Text="확    인" Note_File="mes_conf.xml"/>
+	<Message ID="504100001" Text="예" Note_File="mes_yesno.xml"/>
+	<Message ID="504100002" Text="아 니 오" Note_File="mes_yesno.xml"/>
+	<Message ID="505100001" Text="^#ff0000 능력치에 패널티가 있습니다 /n 내구도가 0 이되면 아이템의/n 능력치를 적용받지 못합니다." Note_File="playerStatus.xml"/>
+	<Message ID="506100001" Text="채  널   변  경" Note_File="UIChannelChange.xml"/>
+	<Message ID="506100002" Text="＊ 채널 리스트 ＊" Note_File="UIChannelChange.xml"/>
+	<Message ID="506100003" Text="상태" Note_File="UIChannelChange.xml"/>
+	<Message ID="506100004" Text="이    동" Note_File="UIChannelChange.xml"/>
+	<Message ID="506100005" Text="취    소" Note_File="UIChannelChange.xml"/>
+	<Message ID="507100001" Text="게 임 종 료" Note_File="UICharacterSelect.xml"/>
+	<Message ID="507100002" Text="로그인 페이지로" Note_File="UICharacterSelect.xml"/>
+	<Message ID="507100003" Text="캐 릭 터 만 들 기" Note_File="UICharacterSelect.xml"/>
+	<Message ID="507100004" Text="삭    제" Note_File="UICharacterSelect.xml"/>
+	<Message ID="508100001" Text="게 임 접 속 하 기" Note_File="UICharacterSelect_Connect.xml"/>
+	<Message ID="509100001" Text="캐릭터 정보" Note_File="UICommandSlotMenu.xml"/>
+	<Message ID="509100002" Text="스킬 정보" Note_File="UICommandSlotMenu.xml"/>
+	<Message ID="509100003" Text="가방" Note_File="UICommandSlotMenu.xml"/>
+	<Message ID="509100004" Text="캐쉬 상점" Note_File="UICommandSlotMenu.xml"/>
+	<Message ID="509100005" Text="위젯 메뉴" Note_File="UICommandSlotMenu.xml"/>
+	<Message ID="509100006" Text="시스템 메뉴" Note_File="UICommandSlotMenu.xml"/>
+	<Message ID="510100001" Text="캐  릭  터   정  보" Note_File="UIEquipment.xml"/>
+	<Message ID="510100002" Text="타이틀 사용" Note_File="UIEquipment.xml"/>
+	<Message ID="510100003" Text="타이틀 해제" Note_File="UIEquipment.xml"/>
+	<Message ID="510100004" Text="코스튬 미리보기" Note_File="UIEquipment.xml"/>
+	<Message ID="510100005" Text="＊코스튬 숨기기" Note_File="UIEquipment.xml"/>
+	<Message ID="510100006" Text="＊코스튬 능력치＊" Note_File="UIEquipment.xml"/>
+	<Message ID="510100007" Text="생 활" Note_File="UIEquipment.xml"/>
+	<Message ID="510100008" Text="전 투" Note_File="UIEquipment.xml"/>
+	<Message ID="510100009" Text="수집 성공 시 추가로 획득할 확률에 영향을 줍니다." Note_File="UIEquipment.xml"/>
+	<Message ID="510100010" Text="수집 시도 시 성공할 확률에 영향을 줍니다." Note_File="UIEquipment.xml"/>
+	<Message ID="510100011" Text="수집 및 제작 속도 증가에 영향을 줍니다." Note_File="UIEquipment.xml"/>
+	<Message ID="510100012" Text="최대 LP 증가에 영향을 줍니다." Note_File="UIEquipment.xml"/>
+	<Message ID="510100013" Text="제작 시도 시 성공할 확률에 영향을 줍니다." Note_File="UIEquipment.xml"/>
+	<Message ID="510100014" Text="제작 성공 시 대박 성공이 될 확률에 영향을 줍니다." Note_File="UIEquipment.xml"/>
+	<Message ID="510100015" Text="적용" Note_File="UIEquipment.xml"/>
+	<Message ID="510100016" Text="취소" Note_File="UIEquipment.xml"/>
+	<Message ID="510100017" Text="물리 공격력과 방패로 적의 공격을 방어할 확률에 영향을 줍니다." Note_File="UIEquipment.xml"/>
+	<Message ID="510100018" Text="최대 HP와 HP 회복속도, 물리 방어력에 영향을 줍니다." Note_File="UIEquipment.xml"/>
+	<Message ID="510100019" Text="물리 치명타와 회피력에 영향을 줍니다." Note_File="UIEquipment.xml"/>
+	<Message ID="510100020" Text="명중률에 영향을 줍니다." Note_File="UIEquipment.xml"/>
+	<Message ID="510100021" Text="최대 MP와 마법 공격력, 마법 치명타에 영향을 줍니다." Note_File="UIEquipment.xml"/>
+	<Message ID="510100022" Text="MP회복 속도와 마법 방어력, 대상의 HP를 회복 하는 스킬에 영향을 줍니다." Note_File="UIEquipment.xml"/>
+	<Message ID="510100023" Text="생활 정보" Note_File="UIEquipment.xml"/>
+	<Message ID="510100024" Text="전투 정보" Note_File="UIEquipment.xml"/>
+	<Message ID="510100025" Text="코 스 튬" Note_File="UIEquipment.xml"/>
+	<Message ID="510100026" Text="＊ 생명력(HP)" Note_File="UIEquipment.xml"/>
+	<Message ID="510100027" Text="＊ 정신력(MP)" Note_File="UIEquipment.xml"/>
+	<Message ID="510100028" Text="＊ 생활력(LP)" Note_File="UIEquipment.xml"/>
+	<Message ID="510100029" Text="＊ 레벨" Note_File="UIEquipment.xml"/>
+	<Message ID="510100030" Text="∴ 창의력" Note_File="UIEquipment.xml"/>
+	<Message ID="510100031" Text="∴ 이해력" Note_File="UIEquipment.xml"/>
+	<Message ID="510100032" Text="∴ 활용력" Note_File="UIEquipment.xml"/>
+	<Message ID="510100033" Text="∴ 주의력" Note_File="UIEquipment.xml"/>
+	<Message ID="510100034" Text="∴ 집중력" Note_File="UIEquipment.xml"/>
+	<Message ID="510100035" Text="∴ 판단력" Note_File="UIEquipment.xml"/>
+	<Message ID="510100036" Text="∴ 남은 포인트" Note_File="UIEquipment.xml"/>
+	<Message ID="510100037" Text="∴ 추가 수집 확률 증가" Note_File="UIEquipment.xml"/>
+	<Message ID="510100038" Text="∴ 일반 수집 확률 증가" Note_File="UIEquipment.xml"/>
+	<Message ID="510100039" Text="∴ 제작 속도 증가" Note_File="UIEquipment.xml"/>
+	<Message ID="510100040" Text="∴ 최대 LP 증가" Note_File="UIEquipment.xml"/>
+	<Message ID="510100041" Text="∴ 일반 제작 성공률 증가" Note_File="UIEquipment.xml"/>
+	<Message ID="510100042" Text="∴ 대박 제작 성공률 증가" Note_File="UIEquipment.xml"/>
+	<Message ID="510100043" Text="＊ 레벨" Note_File="UIEquipment.xml"/>
+	<Message ID="510100044" Text="∴ 힘" Note_File="UIEquipment.xml"/>
+	<Message ID="510100045" Text="∴ 체력" Note_File="UIEquipment.xml"/>
+	<Message ID="510100046" Text="∴ 민첩" Note_File="UIEquipment.xml"/>
+	<Message ID="510100047" Text="∴ 솜씨" Note_File="UIEquipment.xml"/>
+	<Message ID="510100048" Text="∴ 지능" Note_File="UIEquipment.xml"/>
+	<Message ID="510100049" Text="∴ 정신" Note_File="UIEquipment.xml"/>
+	<Message ID="510100050" Text="공격 속도" Note_File="UIEquipment.xml"/>
+	<Message ID="510100051" Text="무기 공격력" Note_File="UIEquipment.xml"/>
+	<Message ID="510100052" Text="물리 공격력" Note_File="UIEquipment.xml"/>
+	<Message ID="510100053" Text="마법 공격력" Note_File="UIEquipment.xml"/>
+	<Message ID="510100054" Text="물리 치명타" Note_File="UIEquipment.xml"/>
+	<Message ID="510100055" Text="마법 치명타" Note_File="UIEquipment.xml"/>
+	<Message ID="510100056" Text="명 중 률" Note_File="UIEquipment.xml"/>
+	<Message ID="510100057" Text="물리 방어력" Note_File="UIEquipment.xml"/>
+	<Message ID="510100058" Text="마법 방어력" Note_File="UIEquipment.xml"/>
+	<Message ID="510100059" Text="회    피" Note_File="UIEquipment.xml"/>
+	<Message ID="510100060" Text="방패 방어" Note_File="UIEquipment.xml"/>
+	<Message ID="511100001" Text="가    방" Note_File="UIInventory.xml"/>
+	<Message ID="511100002" Text="전 체" Note_File="UIInventory.xml"/>
+	<Message ID="511100003" Text="장 비" Note_File="UIInventory.xml"/>
+	<Message ID="511100004" Text="소 비" Note_File="UIInventory.xml"/>
+	<Message ID="511100005" Text="퀘스트" Note_File="UIInventory.xml"/>
+	<Message ID="511100006" Text="기 타" Note_File="UIInventory.xml"/>
+	<Message ID="511100007" Text="^#00FFFF 단축키: I" Note_File="UIInventory.xml"/>
+	<Message ID="512100001" Text="^#00FFFF 단축키: M" Note_File="UIMiniMap.xml"/>
+	<Message ID="512100002" Text="확대하기" Note_File="UIMiniMap.xml"/>
+	<Message ID="512100003" Text="축소하기" Note_File="UIMiniMap.xml"/>
+	<Message ID="512100004" Text="가이드 맵" Note_File="UIMiniMap.xml"/>
+	<Message ID="512100005" Text="모 험 가  길 드 원" Note_File="UIMiniMap.xml"/>
+	<Message ID="512100006" Text="상      인" Note_File="UIMiniMap.xml"/>
+	<Message ID="512100007" Text="직 업  교 관" Note_File="UIMiniMap.xml"/>
+	<Message ID="512100008" Text="그 린  리 프  대 원" Note_File="UIMiniMap.xml"/>
+	<Message ID="513100001" Text="나무" Note_File="UIMinimapMenu.xml"/>
+	<Message ID="513100002" Text="풀" Note_File="UIMinimapMenu.xml"/>
+	<Message ID="513100003" Text="광물" Note_File="UIMinimapMenu.xml"/>
+	<Message ID="513100004" Text="유적" Note_File="UIMinimapMenu.xml"/>
+	<Message ID="514100001" Text="환 경 설 정" Note_File="UIOption.xml"/>
+	<Message ID="514100002" Text="다른 플레이어 이름 표시" Note_File="UIOption.xml"/>
+	<Message ID="514100003" Text="자신 이름 표시" Note_File="UIOption.xml"/>
+	<Message ID="514100004" Text="몬스터 이름 표시" Note_File="UIOption.xml"/>
+	<Message ID="514100005" Text="NPC(빌리저) 이름 표시" Note_File="UIOption.xml"/>
+	<Message ID="514100006" Text="NPC(기능성) 이름 표시" Note_File="UIOption.xml"/>
+	<Message ID="514100007" Text="길드 이름 표시" Note_File="UIOption.xml"/>
+	<Message ID="514100008" Text="추가 스킬창 표시 Ctrl" Note_File="UIOption.xml"/>
+	<Message ID="514100009" Text="추가 스킬창 표시 Alt" Note_File="UIOption.xml"/>
+	<Message ID="514100010" Text="귓속말 대화창 표시" Note_File="UIOption.xml"/>
+	<Message ID="514100011" Text="투구 숨기기 / 보이기" Note_File="UIOption.xml"/>
+	<Message ID="514100012" Text="아이템 자동 습득" Note_File="UIOption.xml"/>
+	<Message ID="514100013" Text="귓말 거부" Note_File="UIOption.xml"/>
+	<Message ID="514100014" Text="아이템 거래 요청 거부" Note_File="UIOption.xml"/>
+	<Message ID="514100015" Text="길드 가입 요청 거부" Note_File="UIOption.xml"/>
+	<Message ID="514100016" Text="파티 가입 요청 거부" Note_File="UIOption.xml"/>
+	<Message ID="514100017" Text="친구 추가 요청 거부" Note_File="UIOption.xml"/>
+	<Message ID="514100018" Text="퀘스트 오퍼레이터 표시" Note_File="UIOption.xml"/>
+	<Message ID="514100019" Text="전체화면" Note_File="UIOption.xml"/>
+	<Message ID="514100020" Text="해상도" Note_File="UIOption.xml"/>
+	<Message ID="514100021" Text="UI 크기" Note_File="UIOption.xml"/>
+	<Message ID="514100022" Text="화면 밝기" Note_File="UIOption.xml"/>
+	<Message ID="514100023" Text="전체 그래픽 품질" Note_File="UIOption.xml"/>
+	<Message ID="514100024" Text="낮음            보통            높음" Note_File="UIOption.xml"/>
+	<Message ID="514100025" Text="캐릭터 시야" Note_File="UIOption.xml"/>
+	<Message ID="514100026" Text="배경 시야" Note_File="UIOption.xml"/>
+	<Message ID="514100027" Text="게임 텍스쳐" Note_File="UIOption.xml"/>
+	<Message ID="514100028" Text="쉐이더 품질" Note_File="UIOption.xml"/>
+	<Message ID="514100029" Text="라이트 맵 품질" Note_File="UIOption.xml"/>
+	<Message ID="514100030" Text="포스트 쉐이더" Note_File="UIOption.xml"/>
+	<Message ID="514100031" Text="모델 쉐이더" Note_File="UIOption.xml"/>
+	<Message ID="514100032" Text="풀 표시" Note_File="UIOption.xml"/>
+	<Message ID="514100033" Text="감정 표시" Note_File="UIOption.xml"/>
+	<Message ID="514100034" Text="멀티 샘플링" Note_File="UIOption.xml"/>
+	<Message ID="514100035" Text="BGM 볼륨" Note_File="UIOption.xml"/>
+	<Message ID="514100036" Text="SE 볼륨" Note_File="UIOption.xml"/>
+	<Message ID="514100037" Text="게임 설정" Note_File="UIOption.xml"/>
+	<Message ID="514100038" Text="화면 설정" Note_File="UIOption.xml"/>
+	<Message ID="514100039" Text="사운드 설정" Note_File="UIOption.xml"/>
+	<Message ID="514100040" Text="기본값으로" Note_File="UIOption.xml"/>
+	<Message ID="514100041" Text="적    용" Note_File="UIOption.xml"/>
+	<Message ID="514100042" Text="100%" Note_File="UIOption.xml"/>
+	<Message ID="514100043" Text="취    소" Note_File="UIOption.xml"/>
+	<Message ID="514100044" Text="80%          100%          150%" Note_File="UIOption.xml"/>
+	<Message ID="514100045" Text="마우스 이동" Note_File="UIOption.xml"/>
+	<Message ID="514100046" Text="마우스 좌/우 클릭 변경" Note_File="UIOption.xml"/>
+	<Message ID="514100047" Text="퀘스트 타겟 표시" Note_File="UIOption.xml"/>
+	<Message ID="515100001" Text="파  티  정  보" Note_File="UIPartyInfo.xml"/>
+	<Message ID="515100002" Text="파티 생성" Note_File="UIPartyInfo.xml"/>
+	<Message ID="515100003" Text="루팅 설정" Note_File="UIPartyInfo.xml"/>
+	<Message ID="515100004" Text="초 기 화" Note_File="UIPartyInfo.xml"/>
+	<Message ID="515100005" Text="초 대" Note_File="UIPartyInfo.xml"/>
+	<Message ID="515100006" Text="추 방" Note_File="UIPartyInfo.xml"/>
+	<Message ID="515100007" Text="파티장위임" Note_File="UIPartyInfo.xml"/>
+	<Message ID="515100008" Text="탈 퇴" Note_File="UIPartyInfo.xml"/>
+	<Message ID="516100001" Text="파티에 초대할 캐릭터 이름을 입력하십시오." Note_File="UIPartyInvitation.xml"/>
+	<Message ID="516100002" Text="확    인" Note_File="UIPartyInvitation.xml"/>
+	<Message ID="516100003" Text="취    소" Note_File="UIPartyInvitation.xml"/>
+	<Message ID="517100001" Text="파티 이름을 입력 하십시오." Note_File="UIPartyNameMake.xml"/>
+	<Message ID="517100002" Text="확    인" Note_File="UIPartyNameMake.xml"/>
+	<Message ID="517100003" Text="취    소" Note_File="UIPartyNameMake.xml"/>
+	<Message ID="518100001" Text="∴ 분  배   방  식" Note_File="UIPartySetting.xml"/>
+	<Message ID="518100002" Text="∴ 아 이 템 등 급" Note_File="UIPartySetting.xml"/>
+	<Message ID="518100003" Text="확    인" Note_File="UIPartySetting.xml"/>
+	<Message ID="518100004" Text="취    소" Note_File="UIPartySetting.xml"/>
+	<Message ID="519100001" Text="다      음" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100002" Text="취      소" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100003" Text="투르가" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100004" Text="휴먼" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100005" Text="팜" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100006" Text="남  성" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100007" Text="여  성" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100008" Text="종족 / 성별" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100009" Text="종족 설명" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100010" Text="세부 설정" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100011" Text="이름" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100012" Text="대장장이" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100013" Text="재봉사" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100014" Text="요리사" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100015" Text="?" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100016" Text="전사" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100017" Text="도적" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100018" Text="치유사" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100019" Text="마술사" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100020" Text="생활 직업" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100021" Text="전투 직업" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100022" Text="직업 설명" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100023" Text="확      인" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100024" Text="머리/n모양" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100025" Text="얼굴/n모양" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100026" Text="눈썹/n모양" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100027" Text="속옷/n종류" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100028" Text="머리/n색상" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100029" Text="피부/n색상" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100030" Text="눈/n색상" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100031" Text="특징" Note_File="UIPcCustom.xml"/>
+	<Message ID="519100032" Text="취      소" Note_File="UIPcCustom.xml"/>
+	<Message ID="520100001" Text="퀘 스 트    목 록" Note_File="UIQuestSystem_QuestList.xml"/>
+	<Message ID="520100002" Text="스토리" Note_File="UIQuestSystem_QuestList.xml"/>
+	<Message ID="520100003" Text="전 투" Note_File="UIQuestSystem_QuestList.xml"/>
+	<Message ID="520100004" Text="생 활" Note_File="UIQuestSystem_QuestList.xml"/>
+	<Message ID="521100001" Text="스   킬    정   보" Note_File="UISkillTree.xml"/>
+	<Message ID="521100002" Text="∴현재 Lv" Note_File="UISkillTree.xml"/>
+	<Message ID="521100003" Text="∴남은 포인트" Note_File="UISkillTree.xml"/>
+	<Message ID="521100004" Text="배 우 기" Note_File="UISkillTree.xml"/>
+	<Message ID="521100005" Text="취   소" Note_File="UISkillTree.xml"/>
+	<Message ID="521100006" Text="공통 스킬" Note_File="UISkillTree.xml"/>
+	<Message ID="521100007" Text="전투 스킬" Note_File="UISkillTree.xml"/>
+	<Message ID="521100008" Text="감정 표현" Note_File="UISkillTree.xml"/>
+	<Message ID="522100001" Text="시스템 메뉴" Note_File="UISystemMenu.xml"/>
+	<Message ID="522100002" Text="^#00FFFF 단축키: Esc" Note_File="UISystemMenu.xml"/>
+	<Message ID="522100003" Text="환 경 설 정" Note_File="UISystemMenu.xml"/>
+	<Message ID="522100004" Text="단 축 키  설 정" Note_File="UISystemMenu.xml"/>
+	<Message ID="522100005" Text="도   움   말" Note_File="UISystemMenu.xml"/>
+	<Message ID="522100006" Text="캐릭터 선택 목록으로" Note_File="UISystemMenu.xml"/>
+	<Message ID="522100007" Text="채 널  변 경" Note_File="UISystemMenu.xml"/>
+	<Message ID="522100008" Text="게 임  종 료" Note_File="UISystemMenu.xml"/>
+	<Message ID="523100001" Text="타겟" Note_File="UITarget.xml"/>
+	<Message ID="524100001" Text="서 버" Note_File="UISeverSelect.xml"/>
+	<Message ID="525100001" Text="도    움    말" Note_File="UIHelpLimeBook.xml"/>
+	<Message ID="525100002" Text="기초" Note_File="UIHelpLimeBook.xml"/>
+	<Message ID="525100003" Text="생활" Note_File="UIHelpLimeBook.xml"/>
+	<Message ID="525100004" Text="전투" Note_File="UIHelpLimeBook.xml"/>
+	<Message ID="525100005" Text="강화" Note_File="UIHelpLimeBook.xml"/>
+	<Message ID="525100006" Text="기타" Note_File="UIHelpLimeBook.xml"/>
+	<Message ID="526100001" Text="대      화" Note_File="UITalk.xml"/>
+	<Message ID="526100002" Text="확    인" Note_File="UITalk.xml"/>
+	<Message ID="526100003" Text="닫    기" Note_File="UITalk.xml"/>
+	<Message ID="527100001" Text="상        점" Note_File="UIMerchant.xml"/>
+	<Message ID="527100002" Text="구 입" Note_File="UIMerchant.xml"/>
+	<Message ID="527100003" Text="판 매" Note_File="UIMerchant.xml"/>
+	<Message ID="527100004" Text="◈ 소 지 금" Note_File="UIMerchant.xml"/>
+	<Message ID="527100005" Text="∴ 합    계" Note_File="UIMerchant.xml"/>
+	<Message ID="527100006" Text="구    입" Note_File="UIMerchant.xml"/>
+	<Message ID="527100007" Text="비  우  기" Note_File="UIMerchant.xml"/>
+	<Message ID="527100008" Text="판    매" Note_File="UIMerchant.xml"/>
+	<Message ID="527100009" Text="비  우  기" Note_File="UIMerchant.xml"/>
+	<Message ID="528100001" Text="수  량  선  택" Note_File="UIItemCount.xml"/>
+	<Message ID="528100002" Text="예" Note_File="UIItemCount.xml"/>
+	<Message ID="528100003" Text="아 니 오" Note_File="UIItemCount.xml"/>
+	<Message ID="529100001" Text="예" Note_File="mes_yesno_Title2.xml"/>
+	<Message ID="529100002" Text="아 니 오" Note_File="mes_yesno_Title2.xml"/>
+	<Message ID="530100001" Text="우  편   서  비  스" Note_File="UIPost.xml"/>
+	<Message ID="530100002" Text="편지 쓰기" Note_File="UIPost.xml"/>
+	<Message ID="530100003" Text="＊보낸 사람" Note_File="UIPost.xml"/>
+	<Message ID="530100004" Text="＊편지 제목" Note_File="UIPost.xml"/>
+	<Message ID="530100005" Text="＊남은일자" Note_File="UIPost.xml"/>
+	<Message ID="530100006" Text="＊ 보관공간이 부족하면 더 이상 우편을 받을 수 없습니다." Note_File="UIPost.xml"/>
+	<Message ID="530100007" Text="∴보관공간" Note_File="UIPost.xml"/>
+	<Message ID="531100001" Text="우        편" Note_File="UISendPost.xml"/>
+	<Message ID="531100002" Text="＊받을 사람" Note_File="UISendPost.xml"/>
+	<Message ID="531100003" Text="＊편지 제목" Note_File="UISendPost.xml"/>
+	<Message ID="531100004" Text="→ 내  용" Note_File="UISendPost.xml"/>
+	<Message ID="531100005" Text="＊첨부 금액" Note_File="UISendPost.xml"/>
+	<Message ID="531100006" Text="∴ 수 수 료" Note_File="UISendPost.xml"/>
+	<Message ID="531100007" Text="＊첨부 물품" Note_File="UISendPost.xml"/>
+	<Message ID="531100008" Text="다시 쓰기" Note_File="UISendPost.xml"/>
+	<Message ID="531100009" Text="보 내 기" Note_File="UISendPost.xml"/>
+	<Message ID="532100001" Text="거     래       중     개     소" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100002" Text="일반" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100003" Text="매직" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100004" Text="레어" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100005" Text="유니크" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100006" Text="레전드" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100007" Text="*레벨" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100008" Text="검색" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100009" Text="초기화" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100010" Text="검색어포함" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100011" Text="검색어일치" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100012" Text="* 아이템 분류 *" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100013" Text="* 아이템 명칭" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100014" Text="* 레벨" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100015" Text="* 판매 가격" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100016" Text="* 개별 판매 가격" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100017" Text="* 판 매 자" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100018" Text="※ 아이템 항목을 마우스 우클릭하여 구매 할 수 있습니다." Note_File="UITradeAgency.xml"/>
+	<Message ID="532100019" Text="구입 하기" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100020" Text="* 판매 기간" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100021" Text="※ 가방의 아이템을 판매 창으로 드래그하여 판매 할 수 있습니다." Note_File="UITradeAgency.xml"/>
+	<Message ID="532100022" Text="판매 취소" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100023" Text="※ 정산 버튼을 클릭하여 정산금을 받을 수 있습니다." Note_File="UITradeAgency.xml"/>
+	<Message ID="532100024" Text="00년 00월 00일" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100025" Text="정    산" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100026" Text="구입" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100027" Text="정산" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100028" Text="판매" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100029" Text="* 아이템 분류 *" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100030" Text="* 아이템 명칭" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100031" Text="* 레벨" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100032" Text="* 판매 가격" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100033" Text="* 개별 판매 가격" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100034" Text="* 아이템 분류 *" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100035" Text="* 아이템 명칭" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100036" Text="* 레벨" Note_File="UITradeAgency.xml"/>
+	<Message ID="532100037" Text="* 판매 가격" Note_File="UITradeAgency.xml"/>
+	<Message ID="533100001" Text="퀘   스   트" Note_File="UIQuestSystem_Acceptance.xml"/>
+	<Message ID="533100002" Text="완    료" Note_File="UIQuestSystem_Acceptance.xml"/>
+	<Message ID="533100003" Text="수    락" Note_File="UIQuestSystem_Acceptance.xml"/>
+	<Message ID="533100004" Text="거    부" Note_File="UIQuestSystem_Acceptance.xml"/>
+	<Message ID="533100005" Text="닫    기" Note_File="UIQuestSystem_Acceptance.xml"/>
+	<Message ID="534100001" Text="퀘   스   트" Note_File="UIQuestSystem_Completion.xml"/>
+	<Message ID="534100002" Text="완    료" Note_File="UIQuestSystem_Completion.xml"/>
+	<Message ID="534100003" Text="수    락" Note_File="UIQuestSystem_Completion.xml"/>
+	<Message ID="534100004" Text="거    부" Note_File="UIQuestSystem_Completion.xml"/>
+	<Message ID="534100005" Text="닫    기" Note_File="UIQuestSystem_Completion.xml"/>
+	<Message ID="535100001" Text="아   이   템" Note_File="UILooting.xml"/>
+	<Message ID="535100002" Text="모두 획득" Note_File="UILooting.xml"/>
+	<Message ID="536100001" Text="퀘   스   트" Note_File="UIQuestSystem_DetailedQuest.xml"/>
+	<Message ID="536100002" Text="완    료" Note_File="UIQuestSystem_DetailedQuest.xml"/>
+	<Message ID="536100003" Text="수    락" Note_File="UIQuestSystem_DetailedQuest.xml"/>
+	<Message ID="536100004" Text="거    부" Note_File="UIQuestSystem_DetailedQuest.xml"/>
+	<Message ID="536100005" Text="닫    기" Note_File="UIQuestSystem_DetailedQuest.xml"/>
+	<Message ID="537100001" Text="위 젯  메 뉴" Note_File="UICommandMenu.xml"/>
+	<Message ID="538100001" Text="캐릭터가 사망 하였습니다." Note_File="UIDeath.xml"/>
+	<Message ID="538100002" Text="부활 위치를 선택 하세요." Note_File="UIDeath.xml"/>
+	<Message ID="538100003" Text="가까운 마을 부활" Note_File="UIDeath.xml"/>
+	<Message ID="538100004" Text="저장 위치 부활" Note_File="UIDeath.xml"/>
+	<Message ID="538100005" Text="제자리 부활" Note_File="UIDeath.xml"/>
+	<Message ID="539100001" Text="아 이 템  강 화" Note_File="UIEquipReinforce.xml"/>
+	<Message ID="539100002" Text="※ 아이템을 드래그 또는 마우스 /n    우클릭하여 등록 할 수 있습니다." Note_File="UIEquipReinforce.xml"/>
+	<Message ID="539100003" Text="확    인" Note_File="UIEquipReinforce.xml"/>
+	<Message ID="540100001" Text="단 축 키  설 정" Note_File="UIKeyboard.xml"/>
+	<Message ID="540100002" Text="명      령" Note_File="UIKeyboard.xml"/>
+	<Message ID="540100003" Text="단 축 키" Note_File="UIKeyboard.xml"/>
+	<Message ID="540100004" Text="보 조 단 축 키" Note_File="UIKeyboard.xml"/>
+	<Message ID="540100005" Text="기본값으로" Note_File="UIKeyboard.xml"/>
+	<Message ID="540100006" Text="확    인" Note_File="UIKeyboard.xml"/>
+	<Message ID="540100007" Text="취    소" Note_File="UIKeyboard.xml"/>
+	<Message ID="540100008" Text="지정 안됨" Note_File="UIKeyboard.xml"/>
+	<Message ID="540100009" Text="지정 안됨" Note_File="UIKeyboard.xml"/>
+	<Message ID="541100001" Text="카  드   장  착" Note_File="UICardInstall.xml"/>
+	<Message ID="541100002" Text="적    용" Note_File="UICardInstall.xml"/>
+	<Message ID="541100003" Text="취    소" Note_File="UICardInstall.xml"/>
+	<Message ID="542100001" Text="부  화  기" Note_File="UIPetIncubator.xml"/>
+	<Message ID="542100002" Text="∴남은 시간" Note_File="UIPetIncubator.xml"/>
+	<Message ID="543100001" Text="아이템을 버리시겠습니까?" Note_File="UIItemDelSelect.xml"/>
+	<Message ID="543100002" Text="예" Note_File="UIItemDelSelect.xml"/>
+	<Message ID="543100003" Text="아 니 오" Note_File="UIItemDelSelect.xml"/>
+	<Message ID="544100001" Text="[ 전체 ] 탭 설정" Note_File="ChatPopup.xml"/>
+	<Message ID="544100002" Text="일반 대화" Note_File="ChatPopup.xml"/>
+	<Message ID="544100003" Text="파티 대화" Note_File="ChatPopup.xml"/>
+	<Message ID="544100004" Text="길드 대화" Note_File="ChatPopup.xml"/>
+	<Message ID="544100005" Text="거래 대화" Note_File="ChatPopup.xml"/>
+	<Message ID="544100006" Text="외 치 기" Note_File="ChatPopup.xml"/>
+	<Message ID="544100007" Text="귓 속 말" Note_File="ChatPopup.xml"/>
+	<Message ID="544100008" Text="저  장" Note_File="ChatPopup.xml"/>
+	<Message ID="544100009" Text="닫  기" Note_File="ChatPopup.xml"/>
+	<Message ID="545100001" Text="LIME ODYSSEY 의 모험은 생활 직업에서 시작됩니다. 여러가지 물건을 만드는 법을 배워 당신만의 고유한 물건을 자랑해 보세요." Note_File="LoadingScreen.xml"/>
+	<Message ID="545100002" Text="생활직업(LifeJob)" Note_File="LoadingScreen.xml"/>
+	<Message ID="546100001" Text="접속 대기열" Note_File="LoginTicketing.xml"/>
+	<Message ID="547100001" Text="타이틀 나오는 곳" Note_File="mes_yesno_Title.xml"/>
+	<Message ID="547100002" Text="확    인" Note_File="mes_yesno_Title.xml"/>
+	<Message ID="547100003" Text="취    소" Note_File="mes_yesno_Title.xml"/>
+	<Message ID="548100001" Text="/n^#00ffff입장 중입니다./n^#ffff00잠시만 기다려 주세요." Note_File="MissionZoneTicketing.xml"/>
+	<Message ID="549100001" Text="메세지가 없습니다." Note_File="notify.xml"/>
+	<Message ID="550100001" Text="장 비" Note_File="quickmenu.xml"/>
+	<Message ID="550100002" Text="가 방" Note_File="quickmenu.xml"/>
+	<Message ID="550100003" Text="커맨드" Note_File="quickmenu.xml"/>
+	<Message ID="550100004" Text="시스템" Note_File="quickmenu.xml"/>
+	<Message ID="551100001" Text="^#00FFFF 단축키: K" Note_File="TrainingSkillInfo.xml"/>
+	<Message ID="552100001" Text="계 정   정 보   확 인" Note_File="UIAccountConfirmPopup.xml"/>
+	<Message ID="552100002" Text="회원 가입 시 등록한 메일 주소를 입력해 주시기 바랍니다." Note_File="UIAccountConfirmPopup.xml"/>
+	<Message ID="552100003" Text="확    인" Note_File="UIAccountConfirmPopup.xml"/>
+	<Message ID="552100004" Text="취    소" Note_File="UIAccountConfirmPopup.xml"/>
+	<Message ID="553100001" Text="남은 시간 :" Note_File="UIAutoPrevent.xml"/>
+	<Message ID="553100002" Text="※ 폭탄의 해제 코드를 마우스를 사용하여 클릭 하시오." Note_File="UIAutoPrevent.xml"/>
+	<Message ID="553100003" Text="확    인" Note_File="UIAutoPrevent.xml"/>
+	<Message ID="553100004" Text="초  기  화" Note_File="UIAutoPrevent.xml"/>
+	<Message ID="554100001" Text="창      고" Note_File="UIBank.xml"/>
+	<Message ID="554100002" Text="전 체" Note_File="UIBank.xml"/>
+	<Message ID="554100003" Text="장 비" Note_File="UIBank.xml"/>
+	<Message ID="554100004" Text="소 비" Note_File="UIBank.xml"/>
+	<Message ID="554100005" Text="퀘스트" Note_File="UIBank.xml"/>
+	<Message ID="554100006" Text="기 타" Note_File="UIBank.xml"/>
+	<Message ID="554100007" Text="입금" Note_File="UIBank.xml"/>
+	<Message ID="554100008" Text="출금" Note_File="UIBank.xml"/>
+	<Message ID="554100009" Text="출금" Note_File="UIBank.xml"/>
+	<Message ID="554100010" Text="입금" Note_File="UIBank.xml"/>
+	<Message ID="555100001" Text="귀 속  해 제" Note_File="UIBelongingness.xml"/>
+	<Message ID="555100002" Text="착용시 귀속' 아이템을 올려주세요." Note_File="UIBelongingness.xml"/>
+	<Message ID="555100003" Text="해    제" Note_File="UIBelongingness.xml"/>
+	<Message ID="555100004" Text="취    소" Note_File="UIBelongingness.xml"/>
+	<Message ID="556100001" Text="호흡" Note_File="UIBreathGaugeBar.xml"/>
+	<Message ID="557100001" Text="카  드   삭  제" Note_File="UICardDel.xml"/>
+	<Message ID="557100002" Text="◈ 카드 삭제 대상 ◈" Note_File="UICardDel.xml"/>
+	<Message ID="557100003" Text="◈ 삭제 카드 선택 ◈" Note_File="UICardDel.xml"/>
+	<Message ID="557100004" Text="◈ 삭제할 카드의 정보 ◈" Note_File="UICardDel.xml"/>
+	<Message ID="557100005" Text="∴ 수수료" Note_File="UICardDel.xml"/>
+	<Message ID="557100006" Text="확    인" Note_File="UICardDel.xml"/>
+	<Message ID="557100007" Text="취    소" Note_File="UICardDel.xml"/>
+	<Message ID="558100001" Text="코 스 튬" Note_File="UICash.xml"/>
+	<Message ID="558100002" Text="액세사리" Note_File="UICash.xml"/>
+	<Message ID="558100003" Text="소  비" Note_File="UICash.xml"/>
+	<Message ID="558100004" Text="스 페 셜" Note_File="UICash.xml"/>
+	<Message ID="558100005" Text="세  일" Note_File="UICash.xml"/>
+	<Message ID="558100006" Text="펫" Note_File="UICash.xml"/>
+	<Message ID="558100007" Text="전    체" Note_File="UICash.xml"/>
+	<Message ID="558100008" Text="상    의" Note_File="UICash.xml"/>
+	<Message ID="558100009" Text="하    의" Note_File="UICash.xml"/>
+	<Message ID="558100010" Text="모    자" Note_File="UICash.xml"/>
+	<Message ID="558100011" Text="장    갑" Note_File="UICash.xml"/>
+	<Message ID="558100012" Text="신    발" Note_File="UICash.xml"/>
+	<Message ID="558100013" Text="인기 아이템" Note_File="UICash.xml"/>
+	<Message ID="558100014" Text="Best 5" Note_File="UICash.xml"/>
+	<Message ID="558100015" Text="구입" Note_File="UICash.xml"/>
+	<Message ID="558100016" Text="선물" Note_File="UICash.xml"/>
+	<Message ID="558100017" Text="담기" Note_File="UICash.xml"/>
+	<Message ID="558100018" Text="신규 아이템 / 인기 아이템 / 할인 아이템을 볼 수 있는 곳입니다." Note_File="UICash.xml"/>
+	<Message ID="558100019" Text="오늘의 인기 상품" Note_File="UICash.xml"/>
+	<Message ID="558100020" Text="오늘의 신규 상품" Note_File="UICash.xml"/>
+	<Message ID="558100021" Text="오늘의 할인 상품" Note_File="UICash.xml"/>
+	<Message ID="558100022" Text="착용 장비 전부 담기" Note_File="UICash.xml"/>
+	<Message ID="558100023" Text="착용 장비 전부 해제" Note_File="UICash.xml"/>
+	<Message ID="558100024" Text="＊ 장 바 구 니" Note_File="UICash.xml"/>
+	<Message ID="558100025" Text="모두 구입하기" Note_File="UICash.xml"/>
+	<Message ID="558100026" Text="＊ 캐쉬 아이템 보관함" Note_File="UICash.xml"/>
+	<Message ID="558100027" Text="모두 사용 하기" Note_File="UICash.xml"/>
+	<Message ID="558100028" Text="조이 캐쉬" Note_File="UICash.xml"/>
+	<Message ID="558100029" Text="캐 쉬  충 전" Note_File="UICash.xml"/>
+	<Message ID="558100030" Text="구매 /n 종료" Note_File="UICash.xml"/>
+	<Message ID="559100001" Text="초기화 할 스킬 트리를 선택해 주세요." Note_File="UICashAffiliationPopUp.xml"/>
+	<Message ID="559100002" Text="확    인" Note_File="UICashAffiliationPopUp.xml"/>
+	<Message ID="559100003" Text="취    소" Note_File="UICashAffiliationPopUp.xml"/>
+	<Message ID="559100004" Text="계 열  선 택" Note_File="UICashAffiliationPopUp.xml"/>
+	<Message ID="560100001" Text="아     이     템      구     매" Note_File="UICashBuy.xml"/>
+	<Message ID="560100002" Text="목록에서 제외" Note_File="UICashBuy.xml"/>
+	<Message ID="560100003" Text="＊ 보유 캐쉬" Note_File="UICashBuy.xml"/>
+	<Message ID="560100004" Text="＊ 필요 캐쉬" Note_File="UICashBuy.xml"/>
+	<Message ID="560100005" Text="＊ 남는 캐쉬" Note_File="UICashBuy.xml"/>
+	<Message ID="560100006" Text="캐쉬 충전" Note_File="UICashBuy.xml"/>
+	<Message ID="560100007" Text="구입 하기" Note_File="UICashBuy.xml"/>
+	<Message ID="560100008" Text="취   소" Note_File="UICashBuy.xml"/>
+	<Message ID="561100001" Text="선    물     하    기" Note_File="UICashPresent.xml"/>
+	<Message ID="561100002" Text="＊받을 대상 닉네임" Note_File="UICashPresent.xml"/>
+	<Message ID="561100003" Text="＊전달 메세지" Note_File="UICashPresent.xml"/>
+	<Message ID="561100004" Text="＊비밀번호 입력" Note_File="UICashPresent.xml"/>
+	<Message ID="561100005" Text="＊ 보유 캐쉬" Note_File="UICashPresent.xml"/>
+	<Message ID="561100006" Text="＊ 필요 캐쉬" Note_File="UICashPresent.xml"/>
+	<Message ID="561100007" Text="＊ 남는 캐쉬" Note_File="UICashPresent.xml"/>
+	<Message ID="561100008" Text="캐쉬 충전" Note_File="UICashPresent.xml"/>
+	<Message ID="561100009" Text="선물 하기" Note_File="UICashPresent.xml"/>
+	<Message ID="561100010" Text="취   소" Note_File="UICashPresent.xml"/>
+	<Message ID="562100001" Text="메  인" Note_File="UICashShop.xml"/>
+	<Message ID="562100002" Text="코 스 튬" Note_File="UICashShop.xml"/>
+	<Message ID="562100003" Text="액세사리" Note_File="UICashShop.xml"/>
+	<Message ID="562100004" Text="소  비" Note_File="UICashShop.xml"/>
+	<Message ID="562100005" Text="스 페 셜" Note_File="UICashShop.xml"/>
+	<Message ID="562100006" Text="펫" Note_File="UICashShop.xml"/>
+	<Message ID="562100007" Text="세  일" Note_File="UICashShop.xml"/>
+	<Message ID="562100008" Text="전    체" Note_File="UICashShop.xml"/>
+	<Message ID="562100009" Text="상    의" Note_File="UICashShop.xml"/>
+	<Message ID="562100010" Text="하    의" Note_File="UICashShop.xml"/>
+	<Message ID="562100011" Text="장    갑" Note_File="UICashShop.xml"/>
+	<Message ID="562100012" Text="신    발" Note_File="UICashShop.xml"/>
+	<Message ID="562100013" Text="전    체" Note_File="UICashShop.xml"/>
+	<Message ID="562100014" Text="상    단" Note_File="UICashShop.xml"/>
+	<Message ID="562100015" Text="중    단" Note_File="UICashShop.xml"/>
+	<Message ID="562100016" Text="하    단" Note_File="UICashShop.xml"/>
+	<Message ID="562100017" Text="전    체" Note_File="UICashShop.xml"/>
+	<Message ID="562100018" Text="물 약 류" Note_File="UICashShop.xml"/>
+	<Message ID="562100019" Text="주문서류" Note_File="UICashShop.xml"/>
+	<Message ID="562100020" Text="강    화" Note_File="UICashShop.xml"/>
+	<Message ID="562100021" Text="기    타" Note_File="UICashShop.xml"/>
+	<Message ID="562100022" Text="전    체" Note_File="UICashShop.xml"/>
+	<Message ID="562100023" Text="코 스 튬" Note_File="UICashShop.xml"/>
+	<Message ID="562100024" Text="전    체" Note_File="UICashShop.xml"/>
+	<Message ID="562100025" Text="전    체" Note_File="UICashShop.xml"/>
+	<Message ID="562100026" Text="인기 아이템" Note_File="UICashShop.xml"/>
+	<Message ID="562100027" Text="Best 5" Note_File="UICashShop.xml"/>
+	<Message ID="562100028" Text="구입" Note_File="UICashShop.xml"/>
+	<Message ID="562100029" Text="선물" Note_File="UICashShop.xml"/>
+	<Message ID="562100030" Text="담기" Note_File="UICashShop.xml"/>
+	<Message ID="562100031" Text="신규 아이템 / 인기 아이템 / 할인 아이템을 볼 수 있는 곳입니다." Note_File="UICashShop.xml"/>
+	<Message ID="562100032" Text="오늘의 인기 상품" Note_File="UICashShop.xml"/>
+	<Message ID="562100033" Text="오늘의 신규 상품" Note_File="UICashShop.xml"/>
+	<Message ID="562100034" Text="오늘의 할인 상품" Note_File="UICashShop.xml"/>
+	<Message ID="562100035" Text="착용 장비 전부 담기" Note_File="UICashShop.xml"/>
+	<Message ID="562100036" Text="착용 장비 전부 해제" Note_File="UICashShop.xml"/>
+	<Message ID="562100037" Text="＊ 장 바 구 니" Note_File="UICashShop.xml"/>
+	<Message ID="562100038" Text="모두 구입하기" Note_File="UICashShop.xml"/>
+	<Message ID="562100039" Text="＊ 캐쉬 아이템 보관함" Note_File="UICashShop.xml"/>
+	<Message ID="562100040" Text="사용 하기" Note_File="UICashShop.xml"/>
+	<Message ID="562100041" Text="조이 캐쉬" Note_File="UICashShop.xml"/>
+	<Message ID="562100042" Text="캐 쉬  충 전" Note_File="UICashShop.xml"/>
+	<Message ID="562100043" Text="종  료" Note_File="UICashShop.xml"/>
+	<Message ID="563100001" Text="옵    션" Note_File="UIChatRoom.xml"/>
+	<Message ID="563100002" Text="초    대" Note_File="UIChatRoom.xml"/>
+	<Message ID="563100003" Text="추    방" Note_File="UIChatRoom.xml"/>
+	<Message ID="563100004" Text="나 가 기" Note_File="UIChatRoom.xml"/>
+	<Message ID="564100001" Text="방    만   들   기" Note_File="UIChatRoomMake.xml"/>
+	<Message ID="564100002" Text="＊이름" Note_File="UIChatRoomMake.xml"/>
+	<Message ID="564100003" Text="＊공개" Note_File="UIChatRoomMake.xml"/>
+	<Message ID="564100004" Text="＊비번" Note_File="UIChatRoomMake.xml"/>
+	<Message ID="564100005" Text="＊인원" Note_File="UIChatRoomMake.xml"/>
+	<Message ID="564100006" Text="확    인" Note_File="UIChatRoomMake.xml"/>
+	<Message ID="564100007" Text="취    소" Note_File="UIChatRoomMake.xml"/>
+	<Message ID="565100001" Text="대  화  방   검  색" Note_File="UIChatRoomSearch.xml"/>
+	<Message ID="565100002" Text="검 색" Note_File="UIChatRoomSearch.xml"/>
+	<Message ID="565100003" Text="리스트 갱신" Note_File="UIChatRoomSearch.xml"/>
+	<Message ID="565100004" Text="입    장" Note_File="UIChatRoomSearch.xml"/>
+	<Message ID="566100001" Text="전  투   직  업   선  택" Note_File="UIChoiceCombatJob.xml"/>
+	<Message ID="566100002" Text="※ 직업 선택 후 확인을 눌러 주시기 바랍니다." Note_File="UIChoiceCombatJob.xml"/>
+	<Message ID="566100003" Text="확    인" Note_File="UIChoiceCombatJob.xml"/>
+	<Message ID="567100001" Text="직  업   선  택" Note_File="UIChoiceLifeJob.xml"/>
+	<Message ID="567100002" Text="확    인" Note_File="UIChoiceLifeJob.xml"/>
+	<Message ID="568100001" Text="커   뮤   니   티" Note_File="UICommunity.xml"/>
+	<Message ID="568100002" Text="친 구 목 록" Note_File="UICommunity.xml"/>
+	<Message ID="568100003" Text="차 단 목 록" Note_File="UICommunity.xml"/>
+	<Message ID="568100004" Text="이름" Note_File="UICommunity.xml"/>
+	<Message ID="568100005" Text="직업" Note_File="UICommunity.xml"/>
+	<Message ID="568100006" Text="직업" Note_File="UICommunity.xml"/>
+	<Message ID="568100007" Text="접속" Note_File="UICommunity.xml"/>
+	<Message ID="568100008" Text="친구 추가" Note_File="UICommunity.xml"/>
+	<Message ID="568100009" Text="친구 삭제" Note_File="UICommunity.xml"/>
+	<Message ID="568100010" Text="귓 속 말" Note_File="UICommunity.xml"/>
+	<Message ID="568100011" Text="파티 초대" Note_File="UICommunity.xml"/>
+	<Message ID="568100012" Text="◈ 현재 차단된 유저 목록 ◈" Note_File="UICommunity.xml"/>
+	<Message ID="568100013" Text="차단 추가" Note_File="UICommunity.xml"/>
+	<Message ID="568100014" Text="차단 해제" Note_File="UICommunity.xml"/>
+	<Message ID="569100001" Text="차단 목록에 추가할 유저의 이름을 입력 해 주십시오." Note_File="UICommunityBlockPopup.xml"/>
+	<Message ID="569100002" Text="추    가" Note_File="UICommunityBlockPopup.xml"/>
+	<Message ID="569100003" Text="취    소" Note_File="UICommunityBlockPopup.xml"/>
+	<Message ID="570100001" Text="친구 목록에 추가할 유저의 이름을 입력 해 주십시오." Note_File="UICommunityFriendPopup.xml"/>
+	<Message ID="570100002" Text="추    가" Note_File="UICommunityFriendPopup.xml"/>
+	<Message ID="570100003" Text="취    소" Note_File="UICommunityFriendPopup.xml"/>
+	<Message ID="571100001" Text="기  념  일   수  정" Note_File="UICouple_Anniversary_Modify.xml"/>
+	<Message ID="571100002" Text="년" Note_File="UICouple_Anniversary_Modify.xml"/>
+	<Message ID="571100003" Text="월" Note_File="UICouple_Anniversary_Modify.xml"/>
+	<Message ID="571100004" Text="일" Note_File="UICouple_Anniversary_Modify.xml"/>
+	<Message ID="571100005" Text="기념일 수정" Note_File="UICouple_Anniversary_Modify.xml"/>
+	<Message ID="572100001" Text="기  념  일   알  림" Note_File="UICouple_Anniversary_Notification.xml"/>
+	<Message ID="572100002" Text="확    인" Note_File="UICouple_Anniversary_Notification.xml"/>
+	<Message ID="573100001" Text="기  념  일   등  록" Note_File="UICouple_Anniversary_Registration.xml"/>
+	<Message ID="573100002" Text="년" Note_File="UICouple_Anniversary_Registration.xml"/>
+	<Message ID="573100003" Text="월" Note_File="UICouple_Anniversary_Registration.xml"/>
+	<Message ID="573100004" Text="일" Note_File="UICouple_Anniversary_Registration.xml"/>
+	<Message ID="573100005" Text="기념일 등록" Note_File="UICouple_Anniversary_Registration.xml"/>
+	<Message ID="574100001" Text="커        플" Note_File="UICouple_Info.xml"/>
+	<Message ID="574100002" Text="커플 해지" Note_File="UICouple_Info.xml"/>
+	<Message ID="574100003" Text="귓 속 말" Note_File="UICouple_Info.xml"/>
+	<Message ID="574100004" Text="파티초대" Note_File="UICouple_Info.xml"/>
+	<Message ID="574100005" Text="기념일 등록" Note_File="UICouple_Info.xml"/>
+	<Message ID="574100006" Text="기념일 수정" Note_File="UICouple_Info.xml"/>
+	<Message ID="574100007" Text="기념일 삭제" Note_File="UICouple_Info.xml"/>
+	<Message ID="574100008" Text="＊ 아  이  디" Note_File="UICouple_Info.xml"/>
+	<Message ID="574100009" Text="＊ 종       족" Note_File="UICouple_Info.xml"/>
+	<Message ID="574100010" Text="＊ 생활 직업" Note_File="UICouple_Info.xml"/>
+	<Message ID="574100011" Text="＊ 생활 레벨" Note_File="UICouple_Info.xml"/>
+	<Message ID="574100012" Text="＊ 전투 직업" Note_File="UICouple_Info.xml"/>
+	<Message ID="574100013" Text="＊ 전투 레벨" Note_File="UICouple_Info.xml"/>
+	<Message ID="574100014" Text="＊ 접속 여부" Note_File="UICouple_Info.xml"/>
+	<Message ID="574100015" Text="날짜" Note_File="UICouple_Info.xml"/>
+	<Message ID="574100016" Text="내용" Note_File="UICouple_Info.xml"/>
+	<Message ID="574100017" Text="D-Day" Note_File="UICouple_Info.xml"/>
+	<Message ID="574100018" Text="커  플" Note_File="UICouple_Info.xml"/>
+	<Message ID="574100019" Text="기 념 일" Note_File="UICouple_Info.xml"/>
+	<Message ID="575100001" Text="[                                  ]의 부활을 받았습니다." Note_File="UIDeathPopup.xml"/>
+	<Message ID="575100002" Text="부활 하시겠습니까?" Note_File="UIDeathPopup.xml"/>
+	<Message ID="575100003" Text="수    락" Note_File="UIDeathPopup.xml"/>
+	<Message ID="575100004" Text="거    절" Note_File="UIDeathPopup.xml"/>
+	<Message ID="576100001" Text="주 사 위   굴 림" Note_File="UIDiceRoller.xml"/>
+	<Message ID="576100002" Text="주사위 굴림" Note_File="UIDiceRoller.xml"/>
+	<Message ID="576100003" Text="포    기" Note_File="UIDiceRoller.xml"/>
+	<Message ID="577100001" Text="던    전     정    보" Note_File="UIDungeon.xml"/>
+	<Message ID="577100002" Text="＊ 난 이 도 ＊" Note_File="UIDungeon.xml"/>
+	<Message ID="577100003" Text="보  통" Note_File="UIDungeon.xml"/>
+	<Message ID="577100004" Text="＊ 입장 조건 ＊" Note_File="UIDungeon.xml"/>
+	<Message ID="577100005" Text="[생활Lv]" Note_File="UIDungeon.xml"/>
+	<Message ID="577100006" Text="[전투Lv]" Note_File="UIDungeon.xml"/>
+	<Message ID="577100007" Text="시    작" Note_File="UIDungeon.xml"/>
+	<Message ID="578100001" Text="이  모  티  콘   목  록" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100002" Text="/!" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100003" Text="/?" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100004" Text="/..." Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100005" Text="/;" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100006" Text="/ㅋㅋ" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100007" Text="/ㅠㅠ" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100008" Text="/OTL" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100009" Text="/하이" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100010" Text="/웃음" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100011" Text="/버럭" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100012" Text="/깜짝" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100013" Text="/우웩" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100014" Text="/실망" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100015" Text="/창피" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100016" Text="/하트1" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100017" Text="/하트2" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100018" Text="/즐거움" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100019" Text="/가위" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100020" Text="/바위" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100021" Text="/보" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100022" Text="/하나" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100023" Text="/둘" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100024" Text="/셋" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100025" Text="/넷" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100026" Text="/다섯" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100027" Text="/여섯" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100028" Text="/배고픔" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100029" Text="/아픔" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100030" Text="/피곤" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="578100031" Text="/100점" Note_File="UIEmoticonMenu.xml"/>
+	<Message ID="579100001" Text="농  장  물   정  보" Note_File="UIFarm.xml"/>
+	<Message ID="579100002" Text="대불만" Note_File="UIFarm.xml"/>
+	<Message ID="579100003" Text="배고픔" Note_File="UIFarm.xml"/>
+	<Message ID="579100004" Text="10년" Note_File="UIFarm.xml"/>
+	<Message ID="579100005" Text="∴ 이 름" Note_File="UIFarm.xml"/>
+	<Message ID="579100006" Text="∴ 상 태" Note_File="UIFarm.xml"/>
+	<Message ID="579100007" Text="∴ 만족도" Note_File="UIFarm.xml"/>
+	<Message ID="579100008" Text="∴ 수 명" Note_File="UIFarm.xml"/>
+	<Message ID="579100009" Text="이름 변경" Note_File="UIFarm.xml"/>
+	<Message ID="579100010" Text="밥 주 기" Note_File="UIFarm.xml"/>
+	<Message ID="579100011" Text="치료 하기" Note_File="UIFarm.xml"/>
+	<Message ID="579100012" Text="수확 하기" Note_File="UIFarm.xml"/>
+	<Message ID="579100013" Text="재롱 떨기" Note_File="UIFarm.xml"/>
+	<Message ID="579100014" Text="확    인" Note_File="UIFarm.xml"/>
+	<Message ID="579100015" Text="성장단계:1/9" Note_File="UIFarm.xml"/>
+	<Message ID="580100001" Text="길      드" Note_File="UIGuild.xml"/>
+	<Message ID="580100002" Text="＊ 길 드  공 지 ＊" Note_File="UIGuild.xml"/>
+	<Message ID="580100003" Text="＊ 길 드 원  현 황 ＊" Note_File="UIGuild.xml"/>
+	<Message ID="580100004" Text="현재 접속 길드원 표시" Note_File="UIGuild.xml"/>
+	<Message ID="580100005" Text="마크등록" Note_File="UIGuild.xml"/>
+	<Message ID="580100006" Text="＊ 길  드  명" Note_File="UIGuild.xml"/>
+	<Message ID="580100007" Text="＊ 길드 등급" Note_File="UIGuild.xml"/>
+	<Message ID="580100008" Text="＊ 인      원              명" Note_File="UIGuild.xml"/>
+	<Message ID="580100009" Text="공지작성" Note_File="UIGuild.xml"/>
+	<Message ID="580100010" Text="이  름" Note_File="UIGuild.xml"/>
+	<Message ID="580100011" Text="직 업" Note_File="UIGuild.xml"/>
+	<Message ID="580100012" Text="직 책" Note_File="UIGuild.xml"/>
+	<Message ID="580100013" Text="생활직업표시" Note_File="UIGuild.xml"/>
+	<Message ID="580100014" Text="전투직업표시" Note_File="UIGuild.xml"/>
+	<Message ID="580100015" Text="길드 스킬" Note_File="UIGuild.xml"/>
+	<Message ID="580100016" Text="길드 초대" Note_File="UIGuild.xml"/>
+	<Message ID="580100017" Text="길드 해체" Note_File="UIGuild.xml"/>
+	<Message ID="580100018" Text="길드 탈퇴" Note_File="UIGuild.xml"/>
+	<Message ID="581100001" Text="길드 이름을 입력 하십시오." Note_File="UIGuildMake.xml"/>
+	<Message ID="581100002" Text="확    인" Note_File="UIGuildMake.xml"/>
+	<Message ID="581100003" Text="취    소" Note_File="UIGuildMake.xml"/>
+	<Message ID="582100001" Text="길 드 원  관 리" Note_File="UIGuildMemberAdminister.xml"/>
+	<Message ID="582100002" Text="＊이  름" Note_File="UIGuildMemberAdminister.xml"/>
+	<Message ID="582100003" Text="＊직  책" Note_File="UIGuildMemberAdminister.xml"/>
+	<Message ID="582100004" Text="길드원 추방" Note_File="UIGuildMemberAdminister.xml"/>
+	<Message ID="582100005" Text="확    인" Note_File="UIGuildMemberAdminister.xml"/>
+	<Message ID="582100006" Text="취    소" Note_File="UIGuildMemberAdminister.xml"/>
+	<Message ID="583100001" Text="정보" Note_File="UIGuildMemberInfo.xml"/>
+	<Message ID="583100002" Text="호칭" Note_File="UIGuildMemberInfo.xml"/>
+	<Message ID="583100003" Text="메모" Note_File="UIGuildMemberInfo.xml"/>
+	<Message ID="583100004" Text="결정" Note_File="UIGuildMemberInfo.xml"/>
+	<Message ID="583100005" Text="수정" Note_File="UIGuildMemberInfo.xml"/>
+	<Message ID="583100006" Text="취소" Note_File="UIGuildMemberInfo.xml"/>
+	<Message ID="583100007" Text="권한설정" Note_File="UIGuildMemberInfo.xml"/>
+	<Message ID="584100001" Text="길드원 초대" Note_File="UIGuildMemberInvite.xml"/>
+	<Message ID="584100002" Text="아이디 입력" Note_File="UIGuildMemberInvite.xml"/>
+	<Message ID="584100003" Text="초대 메세지 입력" Note_File="UIGuildMemberInvite.xml"/>
+	<Message ID="584100004" Text="초대" Note_File="UIGuildMemberInvite.xml"/>
+	<Message ID="584100005" Text="취소" Note_File="UIGuildMemberInvite.xml"/>
+	<Message ID="585100001" Text="인    스    턴    스     정    보" Note_File="UIInstance.xml"/>
+	<Message ID="585100002" Text="＊ 내 정보" Note_File="UIInstance.xml"/>
+	<Message ID="585100003" Text="인스턴스 던전" Note_File="UIInstance.xml"/>
+	<Message ID="585100004" Text="최소 인원" Note_File="UIInstance.xml"/>
+	<Message ID="585100005" Text="입장 레벨" Note_File="UIInstance.xml"/>
+	<Message ID="585100006" Text="입장 대기 시간" Note_File="UIInstance.xml"/>
+	<Message ID="585100007" Text="필요 티켓 수" Note_File="UIInstance.xml"/>
+	<Message ID="585100008" Text="＊ 파티원 정보" Note_File="UIInstance.xml"/>
+	<Message ID="585100009" Text="파티원 명" Note_File="UIInstance.xml"/>
+	<Message ID="585100010" Text="레벨" Note_File="UIInstance.xml"/>
+	<Message ID="585100011" Text="입장 대기 시간" Note_File="UIInstance.xml"/>
+	<Message ID="585100012" Text="필요 티켓 수" Note_File="UIInstance.xml"/>
+	<Message ID="586100001" Text="마법 가방 1" Note_File="UIInventoryCash1.xml"/>
+	<Message ID="586100002" Text="^#00FFFF 단축키: I" Note_File="UIInventoryCash1.xml"/>
+	<Message ID="587100001" Text="마법 가방 2" Note_File="UIInventoryCash2.xml"/>
+	<Message ID="587100002" Text="^#00FFFF 단축키: I" Note_File="UIInventoryCash2.xml"/>
+	<Message ID="588100001" Text="마법 가방 3" Note_File="UIInventoryCash3.xml"/>
+	<Message ID="588100002" Text="^#00FFFF 단축키: I" Note_File="UIInventoryCash3.xml"/>
+	<Message ID="589100001" Text="마법 가방 4" Note_File="UIInventoryCash4.xml"/>
+	<Message ID="589100002" Text="^#00FFFF 단축키: I" Note_File="UIInventoryCash4.xml"/>
+	<Message ID="590100001" Text="부위/분류" Note_File="UIItemInfo.xml"/>
+	<Message ID="590100002" Text="재질/착용" Note_File="UIItemInfo.xml"/>
+	<Message ID="590100003" Text="레벨" Note_File="UIItemInfo.xml"/>
+	<Message ID="590100004" Text="전용직업" Note_File="UIItemInfo.xml"/>
+	<Message ID="590100005" Text="속성" Note_File="UIItemInfo.xml"/>
+	<Message ID="590100006" Text="셋트" Note_File="UIItemInfo.xml"/>
+	<Message ID="590100007" Text="공격력150" Note_File="UIItemInfo.xml"/>
+	<Message ID="590100008" Text="방어력500" Note_File="UIItemInfo.xml"/>
+	<Message ID="590100009" Text="INT + 10 (+3)" Note_File="UIItemInfo.xml"/>
+	<Message ID="590100010" Text="STR + 10 (+1)" Note_File="UIItemInfo.xml"/>
+	<Message ID="591100001" Text="아이템정보보기" Note_File="UIItemInfoMenu.xml"/>
+	<Message ID="592100001" Text="제        작" Note_File="UIItemMake.xml"/>
+	<Message ID="592100002" Text="∴ 보유 수량" Note_File="UIItemMake.xml"/>
+	<Message ID="592100003" Text="∴ 제작 수량" Note_File="UIItemMake.xml"/>
+	<Message ID="592100004" Text="∴필요LP" Note_File="UIItemMake.xml"/>
+	<Message ID="592100005" Text="모두 제작" Note_File="UIItemMake.xml"/>
+	<Message ID="592100006" Text="제    작" Note_File="UIItemMake.xml"/>
+	<Message ID="592100007" Text="중    지" Note_File="UIItemMake.xml"/>
+	<Message ID="593100001" Text="보  석   상  자" Note_File="UIJewelBox.xml"/>
+	<Message ID="594100001" Text="룬   보  석   삭  제" Note_File="UIJewelDelBox.xml"/>
+	<Message ID="595100001" Text="제작 목록 창" Note_File="UIJobMake.xml"/>
+	<Message ID="595100002" Text="횟수" Note_File="UIJobMake.xml"/>
+	<Message ID="595100003" Text="제작하기" Note_File="UIJobMake.xml"/>
+	<Message ID="595100004" Text="재료 첨가하기" Note_File="UIJobMake.xml"/>
+	<Message ID="596100001" Text="단  축  키   목  록" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100002" Text="*  행  동  *" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100003" Text="앞으로 이동" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100004" Text="뒤로 이동" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100005" Text="오른쪽으로 이동" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100006" Text="왼쪽으로 이동" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100007" Text="오른쪽으로 회전" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100008" Text="왼쪽으로 회전" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100009" Text="점프" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100010" Text="앉기 (휴식)" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100011" Text="자동 달리기" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100012" Text="잡 체인지" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100013" Text="스트림게이지 발동" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100014" Text="대상 따라가기" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100015" Text="대상으로 이동" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100016" Text="*  전  투  *" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100017" Text="자신 선택" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100018" Text="대상 선택" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100019" Text="대상 변경" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100020" Text="자동 공격" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100021" Text="공격 취소" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100022" Text="단축아이콘 세트1" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100023" Text="단축아이콘 세트2" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100024" Text="단축아이콘 세트3" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100025" Text="*  창  *" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100026" Text="스킬 창" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100027" Text="퀘스트 목록" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100028" Text="지역맵 보기" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100029" Text="상태 화면" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100030" Text="장비 착용" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100031" Text="소지품" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100032" Text="동료" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100033" Text="메신저" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100034" Text="시작 메뉴" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100035" Text="*  기 타  *" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100036" Text="시점 기본으로" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100037" Text="시점 회전" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100038" Text="줌인/줌아웃" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100039" Text="스크린샷" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100040" Text="전체UI On/Off" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100041" Text="커멘드 메뉴" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100042" Text="커멘드 메뉴 슬롯 단축키" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100043" Text="대화 창 입력" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100044" Text="대화 창 맨 위로" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100045" Text="대화 창 맨 아래로" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100046" Text="대화 창 다음 탭" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100047" Text="대화 창 이전 탭" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="596100048" Text="대화 창 이전 탭" Note_File="UIKeyboardMenu.xml"/>
+	<Message ID="597100001" Text="국가 선택" Note_File="UILocalization.xml"/>
+	<Message ID="597100002" Text="적용" Note_File="UILocalization.xml"/>
+	<Message ID="597100003" Text="닫기" Note_File="UILocalization.xml"/>
+	<Message ID="598100001" Text="파티생성" Note_File="UIMSN.xml"/>
+	<Message ID="598100002" Text="루팅설정" Note_File="UIMSN.xml"/>
+	<Message ID="598100003" Text="파티정보" Note_File="UIMSN.xml"/>
+	<Message ID="599100001" Text="대화하기" Note_File="UINpcInfoMenu.xml"/>
+	<Message ID="599100002" Text="거래하기" Note_File="UINpcInfoMenu.xml"/>
+	<Message ID="599100003" Text="친밀도" Note_File="UINpcInfoMenu.xml"/>
+	<Message ID="599100004" Text="퀘스트" Note_File="UINpcInfoMenu.xml"/>
+	<Message ID="599100005" Text="닫기" Note_File="UINpcInfoMenu.xml"/>
+	<Message ID="600100001" Text="파티에서 초대를" Note_File="UIPartyJoinSelect.xml"/>
+	<Message ID="600100002" Text="결정~" Note_File="UIPartyJoinSelect.xml"/>
+	<Message ID="600100003" Text="취소" Note_File="UIPartyJoinSelect.xml"/>
+	<Message ID="601100001" Text="파    티      모    집" Note_File="UIPartyRecruit.xml"/>
+	<Message ID="601100002" Text="＊레벨" Note_File="UIPartyRecruit.xml"/>
+	<Message ID="601100003" Text="＊검색어" Note_File="UIPartyRecruit.xml"/>
+	<Message ID="601100004" Text="검 색" Note_File="UIPartyRecruit.xml"/>
+	<Message ID="601100005" Text="내     용" Note_File="UIPartyRecruit.xml"/>
+	<Message ID="601100006" Text="파 티 장" Note_File="UIPartyRecruit.xml"/>
+	<Message ID="601100007" Text="인 원" Note_File="UIPartyRecruit.xml"/>
+	<Message ID="601100008" Text="인원 레벨" Note_File="UIPartyRecruit.xml"/>
+	<Message ID="601100009" Text="생 활" Note_File="UIPartyRecruit.xml"/>
+	<Message ID="601100010" Text="전 투" Note_File="UIPartyRecruit.xml"/>
+	<Message ID="601100011" Text="모집글 갱신" Note_File="UIPartyRecruit.xml"/>
+	<Message ID="601100012" Text="창 숨기기" Note_File="UIPartyRecruit.xml"/>
+	<Message ID="601100013" Text="모집글 삭제" Note_File="UIPartyRecruit.xml"/>
+	<Message ID="601100014" Text="모집글 등록" Note_File="UIPartyRecruit.xml"/>
+	<Message ID="601100015" Text="파티 지원" Note_File="UIPartyRecruit.xml"/>
+	<Message ID="602100001" Text="파  티   요  청" Note_File="UIPartyRequest.xml"/>
+	<Message ID="602100002" Text="＊생활" Note_File="UIPartyRequest.xml"/>
+	<Message ID="602100003" Text="＊레벨" Note_File="UIPartyRequest.xml"/>
+	<Message ID="602100004" Text="＊전투" Note_File="UIPartyRequest.xml"/>
+	<Message ID="602100005" Text="＊레벨" Note_File="UIPartyRequest.xml"/>
+	<Message ID="602100006" Text="님이 파티를 요청하였습니다." Note_File="UIPartyRequest.xml"/>
+	<Message ID="602100007" Text="수락하시겠습니까?" Note_File="UIPartyRequest.xml"/>
+	<Message ID="602100008" Text="수    락" Note_File="UIPartyRequest.xml"/>
+	<Message ID="602100009" Text="거    절" Note_File="UIPartyRequest.xml"/>
+	<Message ID="603100001" Text="2 차  비 밀 번 호" Note_File="UIPassword.xml"/>
+	<Message ID="603100002" Text="안전한 접속을 위해 2차 비밀번호를 입력해 주세요./n(마우스 입력 6~10자)" Note_File="UIPassword.xml"/>
+	<Message ID="603100003" Text="새 비밀번호 입력" Note_File="UIPassword.xml"/>
+	<Message ID="603100004" Text="캐릭터 비밀번호 변경" Note_File="UIPassword.xml"/>
+	<Message ID="603100005" Text="확    인" Note_File="UIPassword.xml"/>
+	<Message ID="604100001" Text="주 민  등 록  번 호  인 증" Note_File="UIPasswordRegister.xml"/>
+	<Message ID="604100002" Text="/n 주민 등록 번호 뒷자리 7자리를 입력해 주세요." Note_File="UIPasswordRegister.xml"/>
+	<Message ID="604100003" Text="확    인" Note_File="UIPasswordRegister.xml"/>
+	<Message ID="605100001" Text="2 차  비 밀 번 호  설 정" Note_File="UIPasswordSetup.xml"/>
+	<Message ID="605100002" Text="현재 비밀번호를 입력한 후 새로 사용할 비밀번호를 입력해 주세요./n(마우스 입력 6~10자)" Note_File="UIPasswordSetup.xml"/>
+	<Message ID="605100003" Text="새 비밀번호 입력" Note_File="UIPasswordSetup.xml"/>
+	<Message ID="605100004" Text="새 비밀번호 확인" Note_File="UIPasswordSetup.xml"/>
+	<Message ID="605100005" Text="확    인" Note_File="UIPasswordSetup.xml"/>
+	<Message ID="606100001" Text="생활직업을 선택해 주세요." Note_File="UIPcCustomLastPage.xml"/>
+	<Message ID="607100001" Text="결정~" Note_File="UIPetNameMake.xml"/>
+	<Message ID="607100002" Text="취소" Note_File="UIPetNameMake.xml"/>
+	<Message ID="608100001" Text="펫 관리창" Note_File="UIPetStatus.xml"/>
+	<Message ID="608100002" Text="펫 단계상태" Note_File="UIPetStatus.xml"/>
+	<Message ID="608100003" Text="펫 생성일" Note_File="UIPetStatus.xml"/>
+	<Message ID="608100004" Text="펫 이름" Note_File="UIPetStatus.xml"/>
+	<Message ID="608100005" Text="펫 성별" Note_File="UIPetStatus.xml"/>
+	<Message ID="608100006" Text="펫 상태" Note_File="UIPetStatus.xml"/>
+	<Message ID="608100007" Text="상태 문구 표시" Note_File="UIPetStatus.xml"/>
+	<Message ID="608100008" Text="성장레벨" Note_File="UIPetStatus.xml"/>
+	<Message ID="608100009" Text="성장수치" Note_File="UIPetStatus.xml"/>
+	<Message ID="608100010" Text="보유스킬" Note_File="UIPetStatus.xml"/>
+	<Message ID="608100011" Text="이동속도" Note_File="UIPetStatus.xml"/>
+	<Message ID="608100012" Text="배고픔" Note_File="UIPetStatus.xml"/>
+	<Message ID="609100001" Text="소    환    수" Note_File="UIPetSummon.xml"/>
+	<Message ID="609100002" Text="펫이름" Note_File="UIPetSummon.xml"/>
+	<Message ID="609100003" Text="소           환" Note_File="UIPetSummon.xml"/>
+	<Message ID="609100004" Text="소    환    해    제" Note_File="UIPetSummon.xml"/>
+	<Message ID="610100001" Text="우        편" Note_File="UIPostDetail.xml"/>
+	<Message ID="610100002" Text="＊보낸 사람" Note_File="UIPostDetail.xml"/>
+	<Message ID="610100003" Text="＊편지 제목" Note_File="UIPostDetail.xml"/>
+	<Message ID="610100004" Text="→ 내  용" Note_File="UIPostDetail.xml"/>
+	<Message ID="610100005" Text="＊첨부 물품" Note_File="UIPostDetail.xml"/>
+	<Message ID="610100006" Text="＊첨부 금액" Note_File="UIPostDetail.xml"/>
+	<Message ID="610100007" Text="답    장" Note_File="UIPostDetail.xml"/>
+	<Message ID="610100008" Text="모두 받기" Note_File="UIPostDetail.xml"/>
+	<Message ID="610100009" Text="삭    제" Note_File="UIPostDetail.xml"/>
+	<Message ID="611100001" Text="모   집   글    등   록" Note_File="UIRecruitRegister_Popup.xml"/>
+	<Message ID="611100002" Text="[    내    용   ]" Note_File="UIRecruitRegister_Popup.xml"/>
+	<Message ID="611100003" Text="모집글 등록" Note_File="UIRecruitRegister_Popup.xml"/>
+	<Message ID="611100004" Text="모집글 취소" Note_File="UIRecruitRegister_Popup.xml"/>
+	<Message ID="612100001" Text="등        록" Note_File="UIRegistrationPopup.xml"/>
+	<Message ID="612100002" Text="＊아이템 이름" Note_File="UIRegistrationPopup.xml"/>
+	<Message ID="612100003" Text="＊개별 판매가" Note_File="UIRegistrationPopup.xml"/>
+	<Message ID="612100004" Text="＊판  매  가" Note_File="UIRegistrationPopup.xml"/>
+	<Message ID="612100005" Text="＊수  수  료" Note_File="UIRegistrationPopup.xml"/>
+	<Message ID="612100006" Text="＊수  량" Note_File="UIRegistrationPopup.xml"/>
+	<Message ID="612100007" Text="＊ 사용된 수수료는 반환되지 않습니다." Note_File="UIRegistrationPopup.xml"/>
+	<Message ID="612100008" Text="확    인" Note_File="UIRegistrationPopup.xml"/>
+	<Message ID="612100009" Text="취    소" Note_File="UIRegistrationPopup.xml"/>
+	<Message ID="613100001" Text="서  버   선  택" Note_File="UIServerSelectList.xml"/>
+	<Message ID="613100002" Text="상태" Note_File="UIServerSelectList.xml"/>
+	<Message ID="613100003" Text="서버 선택" Note_File="UIServerSelectList.xml"/>
+	<Message ID="613100004" Text="게임 종료" Note_File="UIServerSelectList.xml"/>
+	<Message ID="614100001" Text="전 투  스 킬  배 우 기" Note_File="UISkillLearnCombat.xml"/>
+	<Message ID="614100002" Text="전투 스킬" Note_File="UISkillLearnCombat.xml"/>
+	<Message ID="614100003" Text="수련 스킬" Note_File="UISkillLearnCombat.xml"/>
+	<Message ID="614100004" Text="∴필요레벨          /" Note_File="UISkillLearnCombat.xml"/>
+	<Message ID="614100005" Text="배 우 기" Note_File="UISkillLearnCombat.xml"/>
+	<Message ID="615100001" Text="생 활  스 킬  배 우 기" Note_File="UISkillLearnLife.xml"/>
+	<Message ID="615100002" Text="생활 스킬" Note_File="UISkillLearnLife.xml"/>
+	<Message ID="615100003" Text="∴필요레벨          /" Note_File="UISkillLearnLife.xml"/>
+	<Message ID="615100004" Text="배 우 기" Note_File="UISkillLearnLife.xml"/>
+	<Message ID="616100001" Text="추        출" Note_File="UIStuffMake.xml"/>
+	<Message ID="616100002" Text="∴ 필요수량        / ∴ 획득량" Note_File="UIStuffMake.xml"/>
+	<Message ID="616100003" Text="∴필요LP" Note_File="UIStuffMake.xml"/>
+	<Message ID="616100004" Text="추    출" Note_File="UIStuffMake.xml"/>
+	<Message ID="616100005" Text="* 재 료 선 택 *" Note_File="UIStuffMake.xml"/>
+	<Message ID="617100001" Text="금  액  등  록" Note_File="UISumRegisterPopup.xml"/>
+	<Message ID="617100002" Text="금액을 입력 하세요." Note_File="UISumRegisterPopup.xml"/>
+	<Message ID="617100003" Text="입력한 값 :" Note_File="UISumRegisterPopup.xml"/>
+	<Message ID="617100004" Text="확    인" Note_File="UISumRegisterPopup.xml"/>
+	<Message ID="618100001" Text="거        래" Note_File="UITrade.xml"/>
+	<Message ID="618100002" Text="등 록 취 소" Note_File="UITrade.xml"/>
+	<Message ID="618100003" Text="등    록" Note_File="UITrade.xml"/>
+	<Message ID="618100004" Text="거    래" Note_File="UITrade.xml"/>
+	<Message ID="619100001" Text="거래 수락 대기 중..." Note_File="UITradeAccept.xml"/>
+	<Message ID="619100002" Text="수    락" Note_File="UITradeAccept.xml"/>
+	<Message ID="619100003" Text="거    절" Note_File="UITradeAccept.xml"/>
+	<Message ID="620100001" Text="거래 수락 대기 중..." Note_File="UITradeWait.xml"/>
+	<Message ID="620100002" Text="거 래 취 소" Note_File="UITradeWait.xml"/>
+</Localization>

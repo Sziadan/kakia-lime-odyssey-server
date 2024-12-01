@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2006 rel. 3 U (http://www.altova.com) by apple (orange) -->
+<Info shadowTextureName="shadowTest.dds" selectionTextureName="selectionMark.dds" groundSelectionTextureName="groundSelection.dds" mouseClickMoveDestTextureName="moveSelection.dds" shadowDimmer="0.8" selectionHighlight="0.55 0.3 0.77">
+	<decal type="0" desc="pc" color="60 244 255"/>
+	<decal type="1" desc="npc" color="254 255 167"/>
+	<decal type="2" desc="monster" color="240 62 8"/>
+	<decal type="3" desc="ground" color="145 255 15"/>
+	<decal type="4" desc="mouseClickDest" color="130 255 230"/>
+</Info>

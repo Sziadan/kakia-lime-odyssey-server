@@ -8,6 +8,7 @@ using kakia_lime_odyssey_packets.Packets.Enums;
 using kakia_lime_odyssey_packets.Packets.Models;
 using kakia_lime_odyssey_packets.Packets.SC;
 using kakia_lime_odyssey_server.Network;
+using System.Globalization;
 
 namespace kakia_lime_odyssey_server.PacketHandlers;
 
@@ -32,8 +33,6 @@ class CS_MOVE_PC_Handler : PacketHandler
 			velocity = GetVelocity((MOVE_TYPE)move_pc.moveType, vel),
 			velocityRatio = vel.ratio
 		};
-
-		//Logger.Log($"lookAt actual: {move_pc.deltaLookAtRadian}  |  calculated: {((float)Math.Atan2(move_pc.dir.y, move_pc.dir.x))}");
 
 		client.UpdatePosition(move_pc.pos);
 		client.UpdateDirection(move_pc.dir);

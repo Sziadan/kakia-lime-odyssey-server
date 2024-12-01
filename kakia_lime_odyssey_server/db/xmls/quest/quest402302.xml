@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by Administrator (EMBRACE) -->
+<Quest>
+	<Quest typeID="402302005" typeName="이상한 광채" group="000" NPC="부르크 스트롱보우" reportTo="부르크 스트롱보우" cancelable="1" repeatable="1" retryable="1" lv="1" desc="이 동굴의 주인인 빅돔이로군. 원래 이렇게 난폭하지 않을 탠데./n설마, 파괴된 크리스탈 때문에 깨진 균형이 저 놈에게 영향을 준 건가? 내가 돕겠다. 이 보석을 받아, 저 놈을 물리쳐라!/n" difficulty="1" onMessage="Quest402302005_onMessage" ChoiceRewardLimit="-1" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="0" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="Quest402302005_Begin" desc="[[시험의 동굴 조사]]"/>
+		<Subject typeName="Event" func="Quest402302005_Event" desc="[[벨로키와의 만남]]"/>
+		<Subject typeName="Choice" func="Quest402302005_Choice" desc="[[전투 직업 선택]]"/>
+		<Subject typeName="Hunt" func="Quest402302005_Hunt" desc="[[빅돔 처치]]"/>
+		<Subject typeName="Success" func="Quest402302005_Success" desc="[[벨로키의 대화]]"/>
+		<Storage target1_x="20.0" target1_y="34.0" target1_z="514.27" target1_count="0" target2_typeID="443" target2_x="17.0" target2_y="81.0" target2_z="514.11" target3_typeID="108" target3_x="-2.0" target3_y="607.0" target3_z="541.09" target3_goal="1" target3_count="0"/>
+		<BasicReward typeID="30008" count="1"/>
+		<BasicReward typeID="30009" count="1"/>
+		<BasicReward typeID="30010" count="1"/>
+		<ChoiceReward typeID="2100000000" count="1"/>
+	</Quest>
+	<Quest typeID="402302006" typeName="임시" group="000" NPC="부르크 스트롱보우" reportTo="부르크 스트롱보우" cancelable="1" repeatable="1" retryable="1" lv="1" desc="누가 날 좀 도와줘! 잠을 못 자겠어!/n /n푹 자는 방법을 알고 있는 사람은 없나? 수면제를 가져오거나 자장가를 불러주거나, 하다못해 고민이라도 들어줄 사람이 있다면 [위치정보]의 부르크 스트롱보우를 찾아와 줘!/n" difficulty="1" onMessage="NULL" ChoiceRewardLimit="-1" rewardEXP="0" rewardLifeJobEXP="0" rewardCombatJobEXP="0" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[부르크 스트롱보우와 대화]]"/>
+		<Subject typeName="Talk" func="NULL" desc="[[부르크 스트롱보우와 대화]]"/>
+		<Subject typeName="Success" func="NULL" desc="[[부르크 스트롱보우와 대화]]"/>
+		<Storage temp="1"/>
+	</Quest>
+</Quest>

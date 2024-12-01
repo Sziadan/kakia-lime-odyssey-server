@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by Administrator (siriusent) -->
+<Quest>
+	<Quest typeID="402201030" typeName="비행의 꿈" group="001" NPC="스쿠르족 연구 조수" reportTo="스쿠르족 연구 조수" cancelable="1" repeatable="0" retryable="1" lv="21" desc="파닥파닥 하늘을 나는 새는 얼마나 신날까? 나는 원래 하늘을 나는 연구를 하고 있었는데 자금이 딸려서 다른 스쿠르의 연구 조수로 여기까지 오게되었지./n다행인건 여기도 새가 있어서 연구를 계속 할 수 있다는 거야. 그래서 말인데 ^#FF0000베이비 푸나파의 머리 깃털^#FFFFFF을 갖다 줄 수 있을까? 틈틈이라고 내 연구를 계속 하고 싶어. ^#FF0000베이비 푸나파^#FFFFFF는 피킨 유랑 상인단 서쪽에 많이 있을거야." difficulty="1" onMessage="HuntCollect1_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="2178" rewardCombatJobEXP="14880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[베이비 푸나파의 머리 깃털 획득]]" draft="파닥파닥 하늘을 나는 새는 얼마나 신날까? 나는 원래 하늘을 나는 연구를 하고 있었는데 자금이 딸려서 다른 스쿠르의 연구 조수로 여기까지 오게되었지./n다행인건 여기도 새가 있어서 연구를 계속 할 수 있다는 거야. 그래서 말인데 ^#FF0000베이비 푸나파의 머리 깃털^#FFFFFF을 갖다 줄 수 있을까? 틈틈이라고 내 연구를 계속 하고 싶어. ^#FF0000베이비 푸나파^#FFFFFF는 피킨 유랑 상인단 서쪽에 많이 있을거야." npc="스쿠르족 연구 조수">
+			<subjectPos subjectStr="베이비 푸나파의 머리 깃털 획득" mapTargetId="309601"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[스쿠르족 연구 조수에게 배달]]" draft="파닥파닥 하늘을 나는 새는 얼마나 신날까? 나는 원래 하늘을 나는 연구를 하고 있었는데 자금이 딸려서 다른 스쿠르의 연구 조수로 여기까지 오게되었지./n다행인건 여기도 새가 있어서 연구를 계속 할 수 있다는 거야. 그래서 말인데 ^#FF0000베이비 푸나파의 머리 깃털^#FFFFFF을 갖다 줄 수 있을까? 틈틈이라고 내 연구를 계속 하고 싶어. ^#FF0000베이비 푸나파^#FFFFFF는 피킨 유랑 상인단 서쪽에 많이 있을거야." npc="스쿠르족 연구 조수">
+			<subjectPos subjectStr="스쿠르족 연구 조수에게 배달" mapTargetId="306512"/>
+		</Subject>
+		<Storage Collect1_typeID="150342" Collect1_goal="5" Collect1_count="0" target1_type="Collect" Collect2_typeID="231"/>
+		<BasicReward typeID="2100000000" count="88"/>
+	</Quest>
+	<Quest typeID="402201035" typeName="불길한 예감" group="001" NPC="유랑상단장" reportTo="노르토" cancelable="1" repeatable="0" retryable="1" lv="20" desc="가로나 둥지에 갔다 우리 ^#3399FF상단원^#FFFFFF이 여태 오지 않는게 참 걱정이 되어. 여기서 만나 툼바라 초원으로 넘어가기로 했는데 말이야. 요즘 이 근방의 분위기도 싱숭생숭하기도 하고, 조금 아까 저기 언덕 아래서 연기가 났던 것 같기도 하고./n이 ^#3399FF언덕 아래서 무슨 일이 있었는지 알아봐줬으면 좋겠어." difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="1445" rewardCombatJobEXP="11440" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[유랑 상단장과 대화]]" draft="가로나 둥지에 갔다 우리 ^#3399FF상단원^#FFFFFF이 여태 오지 않는게 참 걱정이 되어. 여기서 만나 툼바라 초원으로 넘어가기로 했는데 말이야. 요즘 이 근방의 분위기도 싱숭생숭하기도 하고, 조금 아까 저기 언덕 아래서 연기가 났던 것 같기도 하고./n이 ^#3399FF언덕 아래서 무슨 일이 있었는지 알아봐줬으면 좋겠어." npc="유랑상단장">
+			<subjectPos subjectStr="언덕 아래 탐색" mapTargetId="306404"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[노르토와 대화]]" draft="가로나 둥지에 갔다 우리 ^#3399FF상단원^#FFFFFF이 여태 오지 않는게 참 걱정이 되어. 여기서 만나 툼바라 초원으로 넘어가기로 했는데 말이야. 요즘 이 근방의 분위기도 싱숭생숭하기도 하고, 조금 아까 저기 언덕 아래서 연기가 났던 것 같기도 하고./n이 ^#3399FF언덕 아래서 무슨 일이 있었는지 알아봐줬으면 좋겠어." npc="노르토">
+			<subjectPos subjectStr="노르토와 대화" mapTargetId="306505"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="72"/>
+	</Quest>
+	<Quest typeID="402201040" typeName="치료해주세요" group="001" NPC="노르토" reportTo="노르토" cancelable="1" repeatable="0" retryable="1" lv="21" desc="급작스런 습격에 다친 상단원들이 많아요. 이런 때를 대비해 챙겨오긴 했지만 안썼으면 했는데…/n이건 콘스타니아에서 가져온 특제^#3399FF회복약^#FFFFFF이에요. 이걸 ^#3399FF다친 상단원^#FFFFFF들에게 발라주세요./n치료가 끝나면 보답하고 싶으니 저에게 돌아와 주세요." difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="2178" rewardCombatJobEXP="14880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[노르토와 대화]]" draft="급작스런 습격에 다친 상단원들이 많아요. 이런 때를 대비해 챙겨오긴 했지만 안썼으면 했는데…/n이건 콘스타니아에서 가져온 특제^#3399FF
+회복약^#FFFFFF이에요. 이걸 ^#3399FF다친 상단원^#FFFFFF들에게 발라주세요./n치료가 끝나면 보답하고 싶으니 저에게 돌아와 주세요." npc="노르토">
+			<subjectPos subjectStr="노르토와 대화" mapTargetId="306405"/>
+		</Subject>
+		<Subject typeName="Rescue" func="Quest402201040_Rescue" desc="[[크게 다친 피킨 상인 치료]] [[다리를 다친 피킨 상인 치료]] [[피를 흘리는 피킨 상인 치료]] [[팔을 다친 피킨 상인 치료]] [[머리를 다친 피킨 상인 치료]]" draft="급작스런 습격에 다친 상단원들이 많아요. 이런 때를 대비해 챙겨오긴 했지만 안썼으면 했는데…/n이건 콘스타니아에서 가져온 특제^#3399FF회복약^#FFFFFF이에요. 이걸 ^#3399FF다친 상단원^#FFFFFF들에게 발라주세요./n치료가 끝나면 보답하고 싶으니 저에게 돌아와 주세요." npc="다친 피킨 상인들">
+			<subjectPos subjectStr1="크게 다친 피킨 상인 치료" mapTargetId1="306507" subjectStr2="다리를 다친 피킨 상인 치료" mapTargetId2="306508" subjectStr3="피를 흘리는 피킨 상인 치료" mapTargetId3="306509" subjectStr4="팔을 다친 피킨 상인 치료" mapTargetId4="306510" subjectStr5="머리를 다친 피킨 상인 치료" mapTargetId5="306511"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[노르토에게 보고]]" draft="급작스런 습격에 다친 상단원들이 많아요. 이런 때를 대비해 챙겨오긴 했지만 안썼으면 했는데…/n이건 콘스타니아에서 가져온 특제^#3399FF회복약^#FFFFFF이에요. 이걸 ^#3399FF다친 상단원^#FFFFFF들에게 발라주세요./n치료가 끝나면 보답하고 싶으니 저에게 돌아와 주세요." npc="노르토">
+			<subjectPos subjectStr="노르토에게 보고" mapTargetId="306505"/>
+		</Subject>
+		<Storage Hunt1_typeID="110014" Hunt2_typeID="2134" Hunt2_goal="1" Hunt2_count="0" target2_vilCount="0" target2_type="Hunt" Hunt3_typeID="2135" Hunt3_goal="1" Hunt3_count="0" target3_vilCount="0" target3_type="Hunt" Hunt4_typeID="2136" Hunt4_goal="1" Hunt4_count="0" target4_vilCount="0" target4_type="Hunt" Hunt5_typeID="2137" Hunt5_goal="1" Hunt5_count="0" target5_vilCount="0" target5_type="Hunt" Hunt6_typeID="2138" Hunt6_goal="1" Hunt6_count="0" target6_vilCount="0" target6_type="Hunt"/>
+		<BasicReward typeID="2100000000" count="88"/>
+	</Quest>
+	<Quest typeID="402201045" typeName="슈카의 그림자 " group="001" NPC="르페" reportTo="르페" cancelable="1" repeatable="0" retryable="1" lv="21" desc="저희 꼴을 보셨지요? 이게 다 슈카들의 습격 때문입니다. 상단원들은 어서 이 곳을 떠나자고 저를 설득하지만 저는 그냥 갈 수 없습니다! 저희를 습격한 슈카의 증거를 잡아 듀발의 주인인 발카라스에게 따지겠어요. 따져서 피해 보상을 받고 말텝니다./n그러니 ^#FF0000슈카 상단 암살자^#FFFFFF를 사냥해 ^#FF0000슈카의 두건^#FFFFFF을 얻어 주세요!" difficulty="1" onMessage="HuntCollect2_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="2178" rewardCombatJobEXP="14880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[슈카의 두건 획득]]" draft="저희 꼴을 보셨지요? 이게 다 슈카들의 습격 때문입니다. 상단원들은 어서 이 곳을 떠나자고 저를 설득하지만 저는 그냥 갈 수 없습니다! 저희를 습격한 슈카의 증거를 잡아 듀발의 주인인 발카라스에게 따지겠어요. 따져서 피해 보상을 받고 말텝니다./n그러니 ^#FF0000슈카 상단 암살자^#FFFFFF를 사냥해 ^#FF0000슈카의 두건^#FFFFFF을 얻어 주세요!" npc="르페">
+			<subjectPos subjectStr="슈카의 두건 획득" mapTargetId="307601"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[르페에게 배달]]" draft="저희 꼴을 보셨지요? 이게 다 슈카들의 습격 때문입니다. 상단원들은 어서 이 곳을 떠나자고 저를 설득하지만 저는 그냥 갈 수 없습니다! 저희를 습격한 슈카의 증거를 잡아 듀발의 주인인 발카라스에게 따지겠어요. 따져서 피해 보상을 받고 말텝니다./n그러니 ^#FF0000슈카 상단 암살자^#FFFFFF를 사냥해 ^#FF0000슈카의 두건^#FFFFFF을 얻어 주세요!" npc="르페">
+			<subjectPos subjectStr="르페에게 배달" mapTargetId="306506"/>
+		</Subject>
+		<Storage Collect1_typeID="150343" Collect1_goal="5" Collect1_count="0" target1_prob="70" target1_type="Collect" Collect2_typeID="243"/>
+		<BasicReward typeID="2100000000" count="88"/>
+	</Quest>
+	<Quest typeID="402201050" typeName="아저씨의 주머니" group="001" NPC="겁 많은 아저씨" reportTo="겁 많은 아저씨" cancelable="1" repeatable="0" retryable="1" lv="21" desc="나를 좀 도와주시게. 오랜만에 마제로나를 떠나 아버지와의 추억이 깃든 이 장소에 놀러왔는데 슈카가 왠말인가?!/n저 슈카족은 오르타 대륙의 여러 종족 중에서도 비열하기로 손에 꼽히는 종족으로 유명하지./n그말이 맞는게 놈들이 내가 가져온 주머니를 뺏아갔다네. 내 ^#FF0000주머니^#FFFFFF를 찾는 걸 도와주게. 놈들이 내 주머니를 가져가 안에 별게 없는 걸 알고선 바닥에 내팽겨 놓았을거야. 저 울타리 안에 말일세." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="2178" rewardCombatJobEXP="14880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[아저씨의 주머니 수집]]" draft="나를 좀 도와주시게. 오랜만에 마제로나를 떠나 아버지와의 추억이 깃든 이 장소에 놀러왔는데 슈카가 왠말인가?!/n저 슈카족은 오르타 대륙의 여러 종족 중에서도 비열하기로 손에 꼽히는 종족으로 유명하지./n그말이 맞는게 놈들이 내가 가져온 주머니를 뺏아갔다네. 내 ^#FF0000주머니^#FFFFFF를 찾는 걸 도와주게. 놈들이 내 주머니를 가져가 안에 별게 없는 걸 알고선 바닥에 내팽겨 놓았을거야. 저 울타리 안에 말일세." npc="겁 많은 아저씨">
+			<subjectPos subjectStr="아저씨의 주머니 수집" mapTargetId="306701"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[겁 많은 아저씨에게 배달]]" draft="나를 좀 도와주시게. 오랜만에 마제로나를 떠나 아버지와의 추억이 깃든 이 장소에 놀러왔는데 슈카가 왠말인가?!/n저 슈카족은 오르타 대륙의 여러 종족 중에서도 비열하기로 손에 꼽히는 종족으로 유명하지./n그말이 맞는게 놈들이 내가 가져온 주머니를 뺏아갔다네. 내 ^#FF0000주머니^#FFFFFF를 찾는 걸 도와주게. 놈들이 내 주머니를 가져가 안에 별게 없는 걸 알고선 바닥에 내팽겨 놓았을거야. 저 울타리 안에 말일세." npc="겁 많은 아저씨">
+			<subjectPos subjectStr="겁 많은 아저씨에게 배달" mapTargetId="307503"/>
+		</Subject>
+		<Storage Collect1_typeID="150344" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="88"/>
+	</Quest>
+	<Quest typeID="402201055" typeName="지켜야 하는 전통" group="001" NPC="겁 많은 아저씨" reportTo="겁 많은 아저씨" cancelable="1" repeatable="0" retryable="1" lv="21" desc="자네를 보니 옛날 생각이 나는구만. 전통을 지키고 고원을 달리며 체력단련을 게을리 하지 않았던 그 때말이야./n^#FF0000푸나파의 날개깃^#FFFFFF을 모으던 전통이 생각나서 그러는데 그것들을 모아 줄 수 있겠는가? 그러면 정말 고맙겠어. ^#FF0000푸나파^#FFFFFF는 이 대지의 고원에 많다네." difficulty="1" onMessage="HuntCollect2_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="2178" rewardCombatJobEXP="14880" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[푸나파의 날개 깃 획득]]" draft="자네를 보니 옛날 생각이 나는구만. 전통을 지키고 고원을 달리며 체력단련을 게을리 하지 않았던 그 때말이야./n^#FF0000푸나파의 날개깃^#FFFFFF을 모으던 전통이 생각나서 그러는데 그것들을 모아 줄 수 있겠는가? 그러면 정말 고맙겠어. ^#FF0000푸나파^#FFFFFF는 이 대지의 고원에 많다네." npc="겁 많은 아저씨">
+			<subjectPos subjectStr="푸나파의 날개 깃 획득" mapTargetId="306601"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[겁 많은 아저씨에게 배달]]" draft="자네를 보니 옛날 생각이 나는구만. 전통을 지키고 고원을 달리며 체력단련을 게을리 하지 않았던 그 때말이야./n^#FF0000푸나파의 날개깃^#FFFFFF을 모으던 전통이 생각나서 그러는데 그것들을 모아 줄 수 있겠는가? 그러면 정말 고맙겠어. ^#FF0000푸나파^#FFFFFF는 이 대지의 고원에 많다네." npc="겁 많은 아저씨">
+			<subjectPos subjectStr="겁 많은 아저씨에게 배달" mapTargetId="307503"/>
+		</Subject>
+		<Storage Collect1_typeID="150345" Collect1_goal="5" Collect1_count="0" target1_type="Collect" Collect2_typeID="2015" target1_prob="70"/>
+		<BasicReward typeID="2100000000" count="88"/>
+	</Quest>
+	<Quest typeID="402201060" typeName="우호의 선물" group="001" NPC="겁 많은 아저씨" reportTo="가루다 족장" cancelable="1" repeatable="0" retryable="1" lv="22" desc="우리 유목민의 전통 중에 매해 봄에 가루다 족장에게 ^#3399FF옥수수 자루^#FFFFFF를 전해 주는 전통이 있었어. 가루다 족이 바람을 불러와 고원의 더러운 것들을 쓸어간다는 전설에 따른 일이었어./n아버지가 병석에 눕기 바로 전까지도 하셨던 일이지. 혹시나 해서 가져오긴 했는데.. 이제와서 하기에 쑥쓰러워서 말이야. 대신 좀 가루다 둥지의 ^#3399FF가루다 족장^#FFFFFF에게 전해주게." difficulty="1" onMessage="DeleteQuest_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="2777" rewardCombatJobEXP="16420" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[옥수수 자루]]" draft="우리 유목민의 전통 중에 매해 봄에 가루다 족장에게 ^#3399FF옥수수 자루^#FFFFFF를 전해 주는 전통이 있었어. 가루다 족이 바람을 불러와 고원의 더러운 것들을 쓸어간다는 전설에 따른 일이었어./n아버지가 병석에 눕기 바로 전까지도 하셨던 일이지. 혹시나 해서 가져오긴 했는데.. 이제와서 하기에 쑥쓰러워서 말이야. 대신 좀 가루다 둥지의 ^#3399FF가루다 족장^#FFFFFF에게 전해주게." npc="겁 많은 아저씨">
+			<subjectPos subjectStr="옥수수 자루" mapTargetId="307403"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[가루다 족장에게 배달]]" draft="우리 유목민의 전통 중에 매해 봄에 가루다 족장에게 ^#3399FF옥수수 자루^#FFFFFF를 전해 주는 전통이 있었어. 가루다 족이 바람을 불러와 고원의 더러운 것들을 쓸어간다는 전설에 따른 일이었어./n아버지가 병석에 눕기 바로 전까지도 하셨던 일이지. 혹시나 해서 가져오긴 했는데.. 이제와서 하기에 쑥쓰러워서 말이야. 대신 좀 가루다 둥지의 ^#3399FF가루다 족장^#FFFFFF에게 전해주게." npc="가루다 족장">
+			<subjectPos subjectStr="가루다 족장에게 배달" mapTargetId="307502"/>
+		</Subject>
+		<Storage Collect1_typeID="150346"/>
+		<BasicReward typeID="2100000000" count="96"/>
+	</Quest>
+	<Quest typeID="402201065" typeName="듀발 기념품" group="001" NPC="다티" reportTo="쉬고 있는 여행자" cancelable="1" repeatable="0" retryable="1" lv="22" desc="아무도 없는 허허벌판을 지키려니 심심해 죽겠구만. 헌데 가끔 이렇게 지나가는 여행자들이 있어서 말동무가 되어주니 좋네 그려./n이 옆에  아가씨가 이 듀발고원에서 좋은 시간 보내다 다른 곳으로 여행을 간다니 기념품을 주고 싶어서 그런데 아가씨가 말하기를 고티의 뿔이 그렇게 멋져 보였다는구만./n북쪽 봉화탑 근처로 가 ^#FF0000고티^#FFFFFF를 잡아다 ^#FF0000성숙한 고티 뿔^#FFFFFF을 구해줬음 좋겠어." difficulty="1" onMessage="HuntCollect2_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="2777" rewardCombatJobEXP="16420" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[성숙한 고티 뿔 획득]]" draft="아무도 없는 허허벌판을 지키려니 심심해 죽겠구만. 헌데 가끔 이렇게 지나가는 여행자들이 있어서 말동무가 되어주니 좋네 그려./n이 옆에  아가씨가 이 듀발고원에서 좋은 시간 보내다 다른 곳으로 여행을 간다니 기념품을 주고 싶어서 그런데 아가씨가 말하기를 고티의 뿔이 그렇게 멋져 보였다는구만./n북쪽 봉화탑 근처로 가 ^#FF0000고티^#FFFFFF를 잡아다 ^#FF0000성숙한 고티 뿔^#FFFFFF을 구해줬음 좋겠어." npc="다티">
+			<subjectPos subjectStr="성숙한 고티 뿔 획득" mapTargetId="307602"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[쉬고 있는 여행자에게 배달]]" draft="아무도 없는 허허벌판을 지키려니 심심해 죽겠구만. 헌데 가끔 이렇게 지나가는 여행자들이 있어서 말동무가 되어주니 좋네 그려./n이 옆에  아가씨가 이 듀발고원에서 좋은 시간 보내다 다른 곳으로 여행을 간다니 기념품을 주고 싶어서 그런데 아가씨가 말하기를 고티의 뿔이 그렇게 멋져 보였다는구만./n북쪽 봉화탑 근처로 가 ^#FF0000고티^#FFFFFF를 잡아다 ^#FF0000성숙한 고티 뿔^#FFFFFF을 구해줬음 좋겠어." npc="쉬고 있는 여행자">
+			<subjectPos subjectStr="쉬고 있는 여행자에게 배달" mapTargetId="307505"/>
+		</Subject>
+		<Storage Collect1_typeID="150347" Collect1_goal="10" Collect1_count="0" target1_type="Collect" Collect2_typeID="239" target1_prob="70"/>
+		<BasicReward typeID="2100000000" count="96"/>
+	</Quest>
+	<Quest typeID="402201070" typeName="수상한 휴먼1 " group="001" NPC="윈딤" reportTo="윈딤" cancelable="1" repeatable="0" retryable="1" lv="23" desc="흠흠- 쉿! 조용히 내말을 듣기만 하게./n자넨 여행자 인가 본데 내가 좀 바빠서 말이야. 지금 당장 이 주변을 돌면서 몰래~몰래~ 아무에게도 들키지 말고 가로나 둥지 주변의 ^#3399FF검은 땅 독초^#FFFFFF를 몇 뿌리 캐오게. 급하고 비밀스런 일이니. 아무도 모르게 조용히 갔다 오게." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="3312" rewardCombatJobEXP="17980" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[검은 땅 독초 수집]]" draft="흠흠- 쉿! 조용히 내말을 듣기만 하게./n자넨 여행자 인가 본데 내가 좀 바빠서 말이야. 지금 당장 이 주변을 돌면서 몰래~몰래~ 아무에게도 들키지 말고 가로나 둥지 주변의 ^#3399FF검은 땅 독초^#FFFFFF를 몇 뿌리 캐오게. 급하고 비밀스런 일이니. 아무도 모르게 조용히 갔다 오게." npc="윈딤">
+			<subjectPos subjectStr="검은 땅 독초 수집" mapTargetId="307701"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[윈딤에게 배달]]" draft="흠흠- 쉿! 조용히 내말을 듣기만 하게./n자넨 여행자 인가 본데 내가 좀 바빠서 말이야. 지금 당장 이 주변을 돌면서 몰래~몰래~ 아무에게도 들키지 말고 가로나 둥지 주변의 ^#3399FF검은 땅 독초^#FFFFFF를 몇 뿌리 캐오게. 급하고 비밀스런 일이니. 아무도 모르게 조용히 갔다 오게." npc="윈딤">
+			<subjectPos subjectStr="윈딤에게 배달" mapTargetId="307504"/>
+		</Subject>
+		<Storage Collect1_typeID="150236" Collect1_goal="10" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="102"/>
+	</Quest>
+	<Quest typeID="402201075" typeName="수상한 휴먼2 " group="001" NPC="윈딤" reportTo="동쪽 봉화탑 경비대장" cancelable="1" repeatable="0" retryable="1" lv="23" desc="가방 끈 짧고 주먹만 쓸 줄 아는 것들은 역시 성격도 급해./n내가 여기 온지 3달 밖에 안됬는데 벌써 결과를 바라다니 말이 안통한단 말이야. 자네가 가서 잘하고 있다고 말해줘. 매일 사람을 보내서 나를 감시하는 ^#3399FF동쪽 봉화탑 경비대장^#FFFFFF에게 말이야./n하늘을 나는게 쉬운 일인줄 아나? 게다가 중무장에 무기까지 들고 말이야. 내가 30년을 연구했지만 마법을 쓰지 않는 한 그런건 30년을 더 연구해야 가능해질 일이라고. 뭘 모르면서 험상궂은 표정으로 쪼기만 하면 다인 줄 알어." difficulty="1" onMessage="NULL" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="3312" rewardCombatJobEXP="17980" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[윈딤과 대화]]" draft="가방 끈 짧고 주먹만 쓸 줄 아는 것들은 역시 성격도 급해./n내가 여기 온지 3달 밖에 안됬는데 벌써 결과를 바라다니 말이 안통한단 말이야. 자네가 가서 잘하고 있다고 말해줘. 매일 사람을 보내서 나를 감시하는 ^#3399FF동쪽 봉화탑 경비대장^#FFFFFF에게 말이야./n하늘을 나는게 쉬운 일인줄 아나? 게다가 중무장에 무기까지 들고 말이야. 내가 30년을 연구했지만 마법을 쓰지 않는 한 그런건 30년을 더 연구해야 가능해질 일이라고. 뭘 모르면서 험상궂은 표정으로 쪼기만 하면 다인 줄 알어." npc="윈딤">
+			<subjectPos subjectStr="동쪽 봉화탑 경비대장에게 보고" mapTargetId="307404"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[동쪽 봉화탑 경비대장과 대화]]" draft="가방 끈 짧고 주먹만 쓸 줄 아는 것들은 역시 성격도 급해./n내가 여기 온지 3달 밖에 안됬는데 벌써 결과를 바라다니 말이 안통한단 말이야. 자네가 가서 잘하고 있다고 말해줘. 매일 사람을 보내서 나를 감시하는 ^#3399FF동쪽 봉화탑 경비대장^#FFFFFF에게 말이야./n하늘을 나는게 쉬운 일인줄 아나? 게다가 중무장에 무기까지 들고 말이야. 내가 30년을 연구했지만 마법을 쓰지 않는 한 그런건 30년을 더 연구해야 가능해질 일이라고. 뭘 모르면서 험상궂은 표정으로 쪼기만 하면 다인 줄 알어." npc="동쪽 봉화탑 경비대장">
+			<subjectPos subjectStr="동쪽 봉화탑 경비대장과 대화" mapTargetId="301504"/>
+		</Subject>
+		<Storage temp="0"/>
+		<BasicReward typeID="2100000000" count="102"/>
+	</Quest>
+	<Quest typeID="402201080" typeName="무거운 종이 한 장" group="001" NPC="제론" reportTo="리칠" cancelable="1" repeatable="0" retryable="1" lv="24" desc="이 일을 어쩌지.. 이번에도 이러게 많은 세금이 나왔으니 말이야. 족장을 볼 면목이 없어…./n아 자네 내 말을 듣고 있었나? 휴우~ 유목민들 사정이야 매일 보는 내가 뻔히 다 아는데 매번 발카라스 왕국에선 이렇게 세금을 많이 걷어간다네./n자네가 이걸 대신 좀 배달해주게. 리칠의 유목지의 족장 ^#3399FF리칠^#FFFFFF에게 말일세. 이 종이 한 장이  너무 무거워 내 손으로 차마 들고 갈 수가 없어." difficulty="1" onMessage="DeleteQuest_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="4062" rewardCombatJobEXP="19120" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="NULL" desc="[[밀봉된 편지]]" draft="이 일을 어쩌지.. 이번에도 이러게 많은 세금이 나왔으니 말이야. 족장을 볼 면목이 없어…./n아 자네 내 말을 듣고 있었나? 휴우~ 유목민들 사정이야 매일 보는 내가 뻔히 다 아는데 매번 발카라스 왕국에선 이렇게 세금을 많이 걷어간다네./n자네가 이걸 대신 좀 배달해주게. 리칠의 유목지의 족장 ^#3399FF리칠^#FFFFFF에게 말일세. 이 종이 한 장이  너무 무거워 내 손으로 차마 들고 갈 수가 없어." npc="제론">
+			<subjectPos subjectStr="밀봉된 편지" mapTargetId="301406"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[리칠에게 배달]]" draft="이 일을 어쩌지.. 이번에도 이러게 많은 세금이 나왔으니 말이야. 족장을 볼 면목이 없어…./n아 자네 내 말을 듣고 있었나? 휴우~ 유목민들 사정이야 매일 보는 내가 뻔히 다 아는데 매번 발카라스 왕국에선 이렇게 세금을 많이 걷어간다네./n자네가 이걸 대신 좀 배달해주게. 리칠의 유목지의 족장 ^#3399FF리칠^#FFFFFF에게 말일세. 이 종이 한 장이  너무 무거워 내 손으로 차마 들고 갈 수가 없어." npc="리칠">
+			<subjectPos subjectStr="리칠에게 배달" mapTargetId="301510"/>
+		</Subject>
+		<Storage Collect1_typeID="150348"/>
+		<BasicReward typeID="2100000000" count="118"/>
+	</Quest>
+	<Quest typeID="402201085" typeName="긍지의 기반" group="001" NPC="케슬라" reportTo="가루다 족장" cancelable="1" repeatable="0" retryable="1" lv="23" desc="긍지 높은 우리 바람의 수호자인 우리 가루다 족이 어쩌다 이런 꼴이 됐는지.. 속이 상해 한숨만 나와. 족장님이라도 힘을 내시면 주변에서도 어떻게 힘을 낼 수 있을 것 같은데…./n가로나 둥지 아래 트롤에게 점령당한 바람의 유적지로 가 우리가 매년 제사를 지내던 ^#3399FF유적의 반석^#FFFFFF을 주워 족장에게 보여줘 봐. 올핸 쫄아서 제사도 못지냈는데 그거라도 위안 삼으시라고 말이야." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="3312" rewardCombatJobEXP="17980" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[유적의 반석 수집]]" draft="긍지 높은 우리 바람의 수호자인 우리 가루다 족이 어쩌다 이런 꼴이 됐는지.. 속이 상해 한숨만 나와. 족장님이라도 힘을 내시면 주변에서도 어떻게 힘을 낼 수 있을 것 같은데…./n가로나 둥지 아래 트롤에게 점령당한 바람의 유적지로 가 우리가 매년 제사를 지내던 ^#3399FF유적의 반석^#FFFFFF을 주워 족장에게 보여줘 봐. 올핸 쫄아서 제사도 못지냈는데 그거라도 위안 삼으시라고 말이야." npc="케슬라">
+			<subjectPos subjectStr="유적의 반석 수집" mapTargetId="307702"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[가루다 족장에게 배달]]" draft="긍지 높은 우리 바람의 수호자인 우리 가루다 족이 어쩌다 이런 꼴이 됐는지.. 속이 상해 한숨만 나와. 족장님이라도 힘을 내시면 주변에서도 어떻게 힘을 낼 수 있을 것 같은데…./n가로나 둥지 아래 트롤에게 점령당한 바람의 유적지로 가 우리가 매년 제사를 지내던 ^#3399FF유적의 반석^#FFFFFF을 주워 족장에게 보여줘 봐. 올핸 쫄아서 제사도 못지냈는데 그거라도 위안 삼으시라고 말이야." npc="가루다 족장">
+			<subjectPos subjectStr="가루다 족장에게 배달" mapTargetId="307502"/>
+		</Subject>
+		<Storage Collect1_typeID="150349" Collect1_goal="1" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="102"/>
+	</Quest>
+	<Quest typeID="402201090" typeName="땅 위에 부는 바람1" group="001" NPC="케슬라" reportTo="케슬라" cancelable="1" repeatable="0" retryable="1" lv="22" desc="우리 가루다 족은 어릴 때부터 주위 모든 것에 감사하는 마음으로 살아야 한다고 배우지. 바람은 자유롭지만 굳건히 버텨주는 땅이 있어 어디든 갔다 쉬러 올 수 있다며. 흔히 생각하기에 바람과 땅은 아무 상관이 없을 것 같지만 새가 마음 껏 날 수 있는 건 땅 위에 나무에서 쉬어갈 수 있기 때문이라는 걸 생각하면 간단할거야. 그래서 우린 하늘 뿐만아니라 땅에도 감사하지./n그래서 둥지 주변을 돌아다니는 분노한 식물들을 보면 안타까워. 우리가 잘 돌봐주지 못해서 그런 것 같거든. 대지의 고원 남쪽으로 가 ^#FF0000분노한 톨^#FFFFFF을 편하게 해줬으면 좋겠어." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="2777" rewardCombatJobEXP="16420" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[분노한 톨 사냥]]" draft="우리 가루다 족은 어릴 때부터 주위 모든 것에 감사하는 마음으로 살아야 한다고 배우지. 바람은 자유롭지만 굳건히 버텨주는 땅이 있어 어디든 갔다 쉬러 올 수 있다며. 흔히 생각하기에 바람과 땅은 아무 상관이 없을 것 같지만 새가 마음 껏 날 수 있는 건 땅 위에 나무에서 쉬어갈 수 있기 때문이라는 걸 생각하면 간단할거야. 그래서 우린 하늘 뿐만아니라 땅에도 감사하지./n그래서 둥지 주변을 돌아다니는 분노한 식물들을 보면 안타까워. 우리가 잘 돌봐주지 못해서 그런 것 같거든. 대지의 고원 남쪽으로 가 ^#FF0000분노한 톨^#FFFFFF을 편하게 해줬으면 좋겠어." npc="케슬라">
+			<subjectPos subjectStr="분노한 톨 사냥" mapTargetId="307603"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[케슬라에게 보고]]" draft="우리 가루다 족은 어릴 때부터 주위 모든 것에 감사하는 마음으로 살아야 한다고 배우지. 바람은 자유롭지만 굳건히 버텨주는 땅이 있어 어디든 갔다 쉬러 올 수 있다며. 흔히 생각하기에 바람과 땅은 아무 상관이 없을 것 같지만 새가 마음 껏 날 수 있는 건 땅 위에 나무에서 쉬어갈 수 있기 때문이라는 걸 생각하면 간단할거야. 그래서 우린 하늘 뿐만아니라 땅에도 감사하지./n그래서 둥지 주변을 돌아다니는 분노한 식물들을 보면 안타까워. 우리가 잘 돌봐주지 못해서 그런 것 같거든. 대지의 고원 남쪽으로 가 ^#FF0000분노한 톨^#FFFFFF을 편하게 해줬으면 좋겠어." npc="케슬라">
+			<subjectPos subjectStr="케슬라에게 보고" mapTargetId="307507"/>
+		</Subject>
+		<Storage Hunt1_typeID="2027" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="96"/>
+	</Quest>
+	<Quest typeID="402201095" typeName="땅 위에 부는 바람2" group="001" NPC="케슬라" reportTo="케슬라" cancelable="1" repeatable="0" retryable="1" lv="22" desc="내가 또 쓸데 없는 말을 하고 말았군. 이런 때일 수록 힘내서 더 활기차야 하는데! 우리에겐 미래가 있잖아!/n톨에게도 미래가 있었을 거고. 분노한 톨을 사냥했지만 그들의 후손을 남겨 줘야지. 이 둥지 앞의 대지의 고원을 돌아다니다 보면 그들의 아직 오염되지 않은 ^#3399FF건강한 톨의 뿌리^#FFFFFF가 있을거야. 그걸 주워 주지 않겠어? 여기 저기를 모험하는 자네니 고원 구석구석까지 돌아다니며 그걸 발견할 수 있을 것 같으니 말이야." difficulty="1" onMessage="Collect_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="2777" rewardCombatJobEXP="16420" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[건강한 톨의 뿌리 수집]]" draft="내가 또 쓸데 없는 말을 하고 말았군. 이런 때일 수록 힘내서 더 활기차야 하는데! 우리에겐 미래가 있잖아!/n톨에게도 미래가 있었을 거고. 분노한 톨을 사냥했지만 그들의 후손을 남겨 줘야지. 이 둥지 앞의 대지의 고원을 돌아다니다 보면 그들의 아직 오염되지 않은 ^#3399FF건강한 톨의 뿌리^#FFFFFF가 있을거야. 그걸 주워 주지 않겠어? 여기 저기를 모험하는 자네니 고원 구석구석까지 돌아다니며 그걸 발견할 수 있을 것 같으니 말이야." npc="케슬라">
+			<subjectPos subjectStr="건강한 톨의 뿌리 수집" mapTargetId="307703"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[케슬라에게 보고]]" draft="내가 또 쓸데 없는 말을 하고 말았군. 이런 때일 수록 힘내서 더 활기차야 하는데! 우리에겐 미래가 있잖아!/n톨에게도 미래가 있었을 거고. 분노한 톨을 사냥했지만 그들의 후손을 남겨 줘야지. 이 둥지 앞의 대지의 고원을 돌아다니다 보면 그들의 아직 오염되지 않은 ^#3399FF건강한 톨의 뿌리^#FFFFFF가 있을거야. 그걸 주워 주지 않겠어? 여기 저기를 모험하는 자네니 고원 구석구석까지 돌아다니며 그걸 발견할 수 있을 것 같으니 말이야." npc="케슬라">
+			<subjectPos subjectStr="케슬라에게 보고" mapTargetId="307507"/>
+		</Subject>
+		<Storage Collect1_typeID="150350" Collect1_goal="8" Collect1_count="0" target1_type="Collect"/>
+		<BasicReward typeID="2100000000" count="96"/>
+	</Quest>
+	<Quest typeID="402201100" typeName="바람의 유적" group="001" NPC="가루다 족장" reportTo="가루다 족장" cancelable="1" repeatable="0" retryable="1" lv="22" desc="우리에게 남은 건 니시스 여신이 우리를 바람의 수호 종족으로 점찍어 주었다는 어린애 동화같은 이야기뿐이네. 그 증거로 둥지 맡은 편에 있는 바람의 유적지가 있고 말이야./n매일 그곳에서 하늘과 땅에 기도를 드리는게 우리의 일과였는데. 고룡 크로나그가 불러온 그의 부하들인 ^#FF0000고원 트롤^#FFFFFF에게 점령당해 한 번 찾아가 보지도 못한다네. 놈들을 죽여 유적이 훼손되는 걸 막아주게 부탁일세." difficulty="1" onMessage="Hunt_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="2777" rewardCombatJobEXP="16420" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[고원 트롤 처치]]" draft="우리에게 남은 건 니시스 여신이 우리를 바람의 수호 종족으로 점찍어 주었다는 어린애 동화같은 이야기뿐이네. 그 증거로 둥지 맡은 편에 있는 바람의 유적지가 있고 말이야./n매일 그곳에서 하늘과 땅에 기도를 드리는게 우리의 일과였는데. 고룡 크로나그가 불러온 그의 부하들인 ^#FF0000고원 트롤^#FFFFFF에게 점령당해 한 번 찾아가 보지도 못한다네. 놈들을 죽여 유적이 훼손되는 걸 막아주게 부탁일세." npc="가루다 족장">
+			<subjectPos subjectStr="고원 트롤 처치" mapTargetId="307604"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[가루다 족장에게 보고]]" draft="우리에게 남은 건 니시스 여신이 우리를 바람의 수호 종족으로 점찍어 주었다는 어린애 동화같은 이야기뿐이네. 그 증거로 둥지 맡은 편에 있는 바람의 유적지가 있고 말이야./n매일 그곳에서 하늘과 땅에 기도를 드리는게 우리의 일과였는데. 고룡 크로나그가 불러온 그의 부하들인 ^#FF0000고원 트롤^#FFFFFF에게 점령당해 한 번 찾아가 보지도 못한다네. 놈들을 죽여 유적이 훼손되는 걸 막아주게 부탁일세." npc="가루다 족장">
+			<subjectPos subjectStr="가루다 족장에게 보고" mapTargetId="307502"/>
+		</Subject>
+		<Storage Hunt1_typeID="249" Hunt1_goal="10" Hunt1_count="0" target1_type="Hunt" target_number="1"/>
+		<BasicReward typeID="2100000000" count="96"/>
+	</Quest>
+	<Quest typeID="402201105" typeName="바람의 비밀 (파티)" group="001" NPC="가루다 족장" reportTo="가루다 족장" cancelable="1" repeatable="0" retryable="1" lv="23" desc="긴급한 일일세. ^#FF0000고원 트롤 대장^#FFFFFF이 ^#FF0000가져선 안될 물건^#FFFFFF을 가져가는 걸 우리 부족민이 보았다고 하네./n녀석을 잡아서 그 물건을 빼앗아 주게. 그건 우리 부족의 마지막 보물일세. 고원 트롤 대장은 바람의 유적지 근처를 배회하고 있을 걸세." difficulty="1" onMessage="HuntCollect1_quest_onMessage" ChoiceRewardLimit="0" rewardEXP="0" rewardLifeJobEXP="3312" rewardCombatJobEXP="17980" relativeJob="COMBAT">
+		<Subject typeName="Begin" func="UpdateQuestExplain_quest1" desc="[[가루다의 반지 획득]]" draft="긴급한 일일세. ^#FF0000고원 트롤 대장^#FFFFFF이 ^#FF0000가져선 안될 물건^#FFFFFF을 가져가는 걸 우리 부족민이 보았다고 하네./n녀석을 잡아서 그 물건을 빼앗아 주게. 그건 우리 부족의 마지막 보물일세. 고원 트롤 대장은 바람의 유적지 근처를 배회하고 있을 걸세." npc="가루다 족장">
+			<subjectPos subjectStr="가루다의 반지 획득" mapTargetId="307605"/>
+		</Subject>
+		<Subject typeName="Success" func="NULL" desc="[[가루다 족장에게 배달]]" draft="긴급한 일일세. ^#FF0000고원 트롤 대장^#FFFFFF이 ^#FF0000가져선 안될 물건^#FFFFFF을 가져가는 걸 우리 부족민이 보았다고 하네./n녀석을 잡아서 그 물건을 빼앗아 주게. 그건 우리 부족의 마지막 보물일세. 고원 트롤 대장은 바람의 유적지 근처를 배회하고 있을 걸세." npc="가루다 족장">
+			<subjectPos subjectStr="가루다 족장에게 배달" mapTargetId="307502"/>
+		</Subject>
+		<Storage Collect1_typeID="150351" Collect1_goal="1" Collect1_count="0" target1_type="Collect" Collect2_typeID="2174"/>
+		<BasicReward typeID="2100000000" count="102"/>
+	</Quest>
+</Quest>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by .. (..) -->
+<Inherit>
+	<Inherit typeID="1" typeName="extraSTR" desc="힘">
+		<soketItemTypeID value="1" itemTypeID="600001"/>
+		<soketItemTypeID value="2" itemTypeID="600002"/>
+		<soketItemTypeID value="3" itemTypeID="600003"/>
+		<soketItemTypeID value="4" itemTypeID="600004"/>
+		<soketItemTypeID value="5" itemTypeID="600005"/>
+		<soketItemTypeID value="6" itemTypeID="600006"/>
+	</Inherit>
+	<Inherit typeID="2" typeName="extraINL" desc="지능">
+		<soketItemTypeID value="1" itemTypeID="600034"/>
+		<soketItemTypeID value="2" itemTypeID="600035"/>
+		<soketItemTypeID value="3" itemTypeID="600036"/>
+		<soketItemTypeID value="4" itemTypeID="600037"/>
+		<soketItemTypeID value="5" itemTypeID="600038"/>
+		<soketItemTypeID value="6" itemTypeID="600039"/>
+	</Inherit>
+	<Inherit typeID="3" typeName="extraDEX" desc="솜씨">
+		<soketItemTypeID value="1" itemTypeID="600056"/>
+		<soketItemTypeID value="2" itemTypeID="600057"/>
+		<soketItemTypeID value="3" itemTypeID="600058"/>
+		<soketItemTypeID value="4" itemTypeID="600059"/>
+		<soketItemTypeID value="5" itemTypeID="600060"/>
+		<soketItemTypeID value="6" itemTypeID="600061"/>
+	</Inherit>
+	<Inherit typeID="4" typeName="extraAGI" desc="민첩">
+		<soketItemTypeID value="1" itemTypeID="600012"/>
+		<soketItemTypeID value="2" itemTypeID="600013"/>
+		<soketItemTypeID value="3" itemTypeID="600014"/>
+		<soketItemTypeID value="4" itemTypeID="600015"/>
+		<soketItemTypeID value="5" itemTypeID="600016"/>
+		<soketItemTypeID value="6" itemTypeID="600017"/>
+	</Inherit>
+	<Inherit typeID="5" typeName="extraVIT" desc="체력">
+		<soketItemTypeID value="1" itemTypeID="600023"/>
+		<soketItemTypeID value="2" itemTypeID="600024"/>
+		<soketItemTypeID value="3" itemTypeID="600025"/>
+		<soketItemTypeID value="4" itemTypeID="600026"/>
+		<soketItemTypeID value="5" itemTypeID="600027"/>
+		<soketItemTypeID value="6" itemTypeID="600028"/>
+	</Inherit>
+	<Inherit typeID="6" typeName="extraSPI" desc="정신">
+		<soketItemTypeID value="1" itemTypeID="600045"/>
+		<soketItemTypeID value="2" itemTypeID="600046"/>
+		<soketItemTypeID value="3" itemTypeID="600047"/>
+		<soketItemTypeID value="4" itemTypeID="600048"/>
+		<soketItemTypeID value="5" itemTypeID="600049"/>
+		<soketItemTypeID value="6" itemTypeID="600050"/>
+	</Inherit>
+	<Inherit typeID="7" typeName="extraLUK" desc="운"/>
+	<Inherit typeID="8" typeName="extraIDE" desc="창의력"/>
+	<Inherit typeID="9" typeName="extraSES" desc="이해력"/>
+	<Inherit typeID="10" typeName="extraMID" desc="주의력"/>
+	<Inherit typeID="11" typeName="extraCRT" desc="활용력"/>
+	<Inherit typeID="12" typeName="extraMHP" desc="최대HP">
+		<soketItemTypeID value="1" itemTypeID="600067"/>
+		<soketItemTypeID value="2" itemTypeID="600068"/>
+		<soketItemTypeID value="3" itemTypeID="600069"/>
+		<soketItemTypeID value="4" itemTypeID="600070"/>
+		<soketItemTypeID value="5" itemTypeID="600071"/>
+		<soketItemTypeID value="6" itemTypeID="600072"/>
+	</Inherit>
+	<Inherit typeID="13" typeName="extraMMP" desc="최대MP"/>
+	<Inherit typeID="14" typeName="extraMLP" desc="최대LP"/>
+	<Inherit typeID="15" typeName="extraMeleeAtk" desc="물리공격력"/>
+	<Inherit typeID="16" typeName="extraSpellAtk" desc="마법공격력">
+		<soketItemTypeID value="1" itemTypeID="600078"/>
+		<soketItemTypeID value="2" itemTypeID="600079"/>
+		<soketItemTypeID value="3" itemTypeID="600080"/>
+		<soketItemTypeID value="4" itemTypeID="600081"/>
+		<soketItemTypeID value="5" itemTypeID="600082"/>
+		<soketItemTypeID value="6" itemTypeID="600083"/>
+	</Inherit>
+	<Inherit typeID="17" typeName="extraRangedAtk" desc="원거리공격력"/>
+	<Inherit typeID="18" typeName="extraHitRange" desc="유효거리"/>
+	<Inherit typeID="19" typeName="extraHitAngle" desc="유효각도"/>
+	<Inherit typeID="20" typeName="extraMeleeHitRate" desc="물리명중률"/>
+	<Inherit typeID="21" typeName="extraRangedHitRate" desc="원거리명중률"/>
+	<Inherit typeID="22" typeName="hitAccurate" desc="명중"/>
+	<Inherit typeID="23" typeName="extraMeleeDefense" desc="물리방어력"/>
+	<Inherit typeID="24" typeName="extraSpellDefense" desc="마법방어력"/>
+	<Inherit typeID="25" typeName="extraDodgeAccurate" desc="적중감소도"/>
+	<Inherit typeID="26" typeName="extraDodge" desc="회피"/>
+	<Inherit typeID="27" typeName="extraResist" desc="저항"/>
+	<Inherit typeID="28" typeName="extraParry" desc="무기막기"/>
+	<Inherit typeID="29" typeName="extraBlock" desc="방패막기"/>
+	<Inherit typeID="30" typeName="extraVelocityRatio" desc="이동속도"/>
+	<Inherit typeID="31" typeName="extraHpRegenRate" desc="HP회복률"/>
+	<Inherit typeID="32" typeName="extraHpRegenAmount" desc="HP회복량"/>
+	<Inherit typeID="33" typeName="extraMpRegenRate" desc="MP회복률"/>
+	<Inherit typeID="34" typeName="extraMpRegenAmount" desc="MP회복량"/>
+	<Inherit typeID="35" typeName="extraCriticalEffect" desc="치명타데미지"/>
+	<Inherit typeID="36" typeName="extraCriticalRate" desc="치명타확률"/>
+	<Inherit typeID="37" typeName="extraFinalSpellAtk" desc="최종마법공격력"/>
+	<Inherit typeID="38" typeName="extraFinalRangedAtk" desc="최종원거리공격력"/>
+	<Inherit typeID="39" typeName="extraFinalMeleeAtk" desc="최종물리공격력"/>
+	<Inherit typeID="40" typeName="extraFinalMeleeDefense" desc="최종물리방어력"/>
+	<Inherit typeID="41" typeName="extraFinalSpellDefense" desc="최종마법방어력"/>
+	<Inherit typeID="42" typeName="extraHitSpeedRatio" desc="공격속도"/>
+	<Inherit typeID="43" typeName="extraCastingTimeDecrease" desc="캐스팅속도감소량"/>
+	<Inherit typeID="44" typeName="extraCastingInterrupt" desc="캐스팅방해도"/>
+	<Inherit typeID="45" typeName="extraCastingPreserve" desc="캐스팅보존도"/>
+	<Inherit typeID="46" typeName="extraMHPRate" desc="최대HP%"/>
+	<Inherit typeID="47" typeName="extraMMPRate" desc="최대MP%"/>
+	<Inherit typeID="48" typeName="extraMLPRate" desc="최대LP%"/>
+	<Inherit typeID="49" typeName="extraMeleeAtkRate" desc="물리공격력%"/>
+	<Inherit typeID="50" typeName="extraSpellAtkRate" desc="마법공격력%"/>
+	<Inherit typeID="51" typeName="extraRangedAtkRate" desc="원거리공격력%"/>
+	<Inherit typeID="52" typeName="extraMeleeDefenseRate" desc="물리방어력%"/>
+	<Inherit typeID="53" typeName="extraSpellDefenseRate" desc="마법방어력%"/>
+	<Inherit typeID="54" typeName="dodgeAccurateRate" desc="적중감소도%"/>
+	<Inherit typeID="55" typeName="extraHitAccurateRate" desc="명중%"/>
+	<Inherit typeID="56" typeName="extraCastingTimeDecreaseRate" desc="캐스팅시간감소%"/>
+	<Inherit typeID="57" typeName="extraCastingInterruptRate" desc="캐스팅방해도%"/>
+	<Inherit typeID="58" typeName="extraCastingPreserveRate" desc="캐스팅보존도%"/>
+	<Inherit typeID="59" typeName="transMeleeHitRate" desc="명중 변환"/>
+	<Inherit typeID="60" typeName="transDodge" desc="회피 변환"/>
+	<Inherit typeID="61" typeName="transCriticalRate" desc="크리티컬확률 변환"/>
+</Inherit>

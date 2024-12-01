@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by Administrator (EMBRACE) -->
+<ShapeInfo>
+	<Pam>
+		<Male>
+			<Camera uiType="EQUIP_TARGET" orthogonal="0" cameraLookAt="0.0 0.0 8.8" radius="27" longitude="0.0" latitude="0.2" resolution="156.0 260.0" fov="0.7"/>
+			<Camera uiType="PCINFO_TARGET" orthogonal="0" cameraLookAt="0.0 -5.0 15.2" radius="20.5" longitude="0.0" latitude="0.0" resolution="100.0 100.0" fov="0.16"/>
+			<Camera uiType="CUSTOM_ZOOMOUT_TARGET" orthogonal="0" cameraLookAt="0.0 0.0 8.8" radius="27" longitude="0.0" latitude="0.2" resolution="310 513 " fov="0.7"/>
+			<Camera uiType="CUSTOM_ZOOMIN_TARGET" orthogonal="0" cameraLookAt="0.0 -5.0 15.2" radius="20.5" longitude="0.0" latitude="0.0" resolution="310 513 " fov="0.16"/>
+		</Male>
+		<Female>
+			<Camera uiType="EQUIP_TARGET" orthogonal="0" cameraLookAt="0.0 0.0 8.5" radius="27" longitude="0.0" latitude="0.2" resolution="156.0 260.0" fov="0.7"/>
+			<Camera uiType="PCINFO_TARGET" orthogonal="0" cameraLookAt="0.0 -5.0 14.3" radius="20.5" longitude="0.0" latitude="0.0" resolution="100.0 100.0" fov="0.16"/>
+			<Camera uiType="CUSTOM_ZOOMOUT_TARGET" orthogonal="0" cameraLookAt="0.0 0.0 8.5" radius="27" longitude="0.0" latitude="0.2" resolution="322.0 674.0" fov="0.7"/>
+			<Camera uiType="CUSTOM_ZOOMIN_TARGET" orthogonal="0" cameraLookAt="0.0 -5.0 14.3" radius="20.5" longitude="0.0" latitude="0.0" resolution="322.0 674.0" fov="0.16"/>
+		</Female>
+	</Pam>
+	<Human>
+		<Male>
+			<Camera uiType="EQUIP_TARGET" orthogonal="0" cameraLookAt="0.0 0.0 8.8" radius="24" longitude="0.0" latitude="0.2" resolution="156.0 260.0" fov="0.7"/>
+			<Camera uiType="PCINFO_TARGET" orthogonal="0" cameraLookAt="-3.2 -5.0 15.2" radius="16" longitude="49.7" latitude="0" resolution="100.0 100.0" fov="0.16"/>
+			<Camera uiType="CUSTOM_ZOOMOUT_TARGET" orthogonal="0" cameraLookAt="0.0 0.0 8.8" radius="27" longitude="0.0" latitude="0.2" resolution="310 513 " fov="0.7"/>
+			<Camera uiType="CUSTOM_ZOOMIN_TARGET" orthogonal="0" cameraLookAt="0.0 -5.0 15.2" radius="20.5" longitude="0.0" latitude="0.0" resolution="310 513 " fov="0.16"/>
+		</Male>
+		<Female>
+			<Camera uiType="EQUIP_TARGET" orthogonal="0" cameraLookAt="0.0 0.0 8.5" radius="24" longitude="0.0" latitude="0.2" resolution="156.0 260.0" fov="0.7"/>
+			<Camera uiType="PCINFO_TARGET" orthogonal="0" cameraLookAt="-3.2 -5.0 14.2" radius="16" longitude="49.7" latitude="0" resolution="100.0 100.0" fov="0.16"/>
+			<Camera uiType="CUSTOM_ZOOMOUT_TARGET" orthogonal="0" cameraLookAt="0.0 0.0 8.5" radius="26" longitude="0.0" latitude="0.2" resolution="310 513 " fov="0.7"/>
+			<Camera uiType="CUSTOM_ZOOMIN_TARGET" orthogonal="0" cameraLookAt="0.0 -5.0 14.3" radius="20.5" longitude="0.0" latitude="0.0" resolution="310 513 " fov="0.16"/>
+		</Female>
+	</Human>
+	<Turga>
+		<Male>
+			<Camera uiType="EQUIP_TARGET" orthogonal="0" cameraLookAt="0.0 0.0 11" radius="35" longitude="0.0" latitude="0.06" resolution="156.0 260.0" fov="0.7"/>
+			<Camera uiType="PCINFO_TARGET" orthogonal="0" cameraLookAt="-2.7 -5.0 19.8" radius="22" longitude="49.7" latitude="0.0" resolution="100.0 100.0" fov="0.16"/>
+			<Camera uiType="CUSTOM_ZOOMOUT_TARGET" orthogonal="0" cameraLookAt="0.0 0.0 11" radius="35" longitude="0.0" latitude="0.06" resolution="310 513 " fov="0.7"/>
+			<Camera uiType="CUSTOM_ZOOMIN_TARGET" orthogonal="0" cameraLookAt="-0.5 11 20.0" radius="60" longitude="0.0" latitude="0.0" resolution="310 513 " fov="0.16"/>
+		</Male>
+		<Female>
+			<Camera uiType="EQUIP_TARGET" orthogonal="0" cameraLookAt="0.0 0.0 9.3" radius="28" longitude="0.0" latitude="0.06" resolution="156.0 260.0" fov="0.7"/>
+			<Camera uiType="PCINFO_TARGET" orthogonal="0" cameraLookAt="-2.7 -5.0 17" radius="16" longitude="49.7" latitude="0.0" resolution="100.0 100.0" fov="0.16"/>
+			<Camera uiType="CUSTOM_ZOOMOUT_TARGET" orthogonal="0" cameraLookAt="0.0 0.0 9.8" radius="30" longitude="0.0" latitude="0.06" resolution="310 513 " fov="0.7"/>
+			<Camera uiType="CUSTOM_ZOOMIN_TARGET" orthogonal="0" cameraLookAt="0 11 17" radius="100" longitude="0.0" latitude="0.0" resolution="310 513 " fov="0.16"/>
+		</Female>
+	</Turga>
+	<Npc>
+		<Model typeId="1">
+			<Camera uiType="NPCINFO_TARGET" orthogonal="0" cameraLookAt="0.0 0.0 12" radius="45" longitude="0.0" latitude="0.06" resolution="137.0 322.0" fov="0.7"/>
+			<Camera uiType="NPCTALK_TARGET" orthogonal="0" cameraLookAt="-0.5 11 20.0" radius="48" longitude="0.0" latitude="0.0" resolution="100.0 100.0" fov="0.16"/>
+		</Model>
+		<Model typeId="2">
+			<Camera uiType="NPCINFO_TARGET" orthogonal="0" cameraLookAt="0.0 0.0 12" radius="45" longitude="0.0" latitude="0.06" resolution="137.0 322.0" fov="0.7"/>
+			<Camera uiType="NPCTALK_TARGET" orthogonal="0" cameraLookAt="-0.5 11 20.0" radius="48" longitude="0.0" latitude="0.0" resolution="100.0 100.0" fov="0.16"/>
+		</Model>
+	</Npc>
+</ShapeInfo>

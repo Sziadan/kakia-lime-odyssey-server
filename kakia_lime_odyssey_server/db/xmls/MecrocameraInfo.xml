@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2006 rel. 3 U (http://www.altova.com) by Administrator (EMBRACE) -->
+<MecroCamera>
+	<CameraInfo index="0" name="테스트용1" fileName="camdata.cam" loop="0"/>
+	<CameraInfo index="1" name="테스트용1" fileName="camdata.cam" loop="0"/>
+	<CameraInfo index="2" name="테스트용1" fileName="camdata.cam" loop="0"/>
+	<CameraInfo index="3" name="테스트용1" fileName="camdata.cam" loop="0"/>
+	<CameraInfo index="4" name="테스트용3" fileName="test6.cam" loop="1"/>
+</MecroCamera>

@@ -1,0 +1,1967 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by Administrator (siriusent) -->
+<BuffInfo>
+	<buff id="1" name="Stun" buffExp="기절" imageName="icon\def\skillDef\ico_debuff_stun01.dds" smallImageName="icon\def\skillDef\ico_debuff_stun01_s.dds" buffType="1" stun="1">
+		<buffState>
+			<evnet motionID="2180008">
+				<effectKind effectID="206" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000기절(육체)^@/n강한 충격으로 인해 정신을 잃는다./n/n/n^#ffff00효과가 부여될 때 시전 중인 스킬이 취소된다./n이동, 공격, 스킬사용, 아이템 사용을 할 수 없게된다./n"/>
+			<SubjectList subjectLevel="2" detail="^#ff0000기절(육체)^@/n강한 충격으로 인해 정신을 잃는다./n/n/n^#ffff00효과가 부여될 때 시전 중인 스킬이 취소된다./n이동, 공격, 스킬사용, 아이템 사용을 할 수 없게된다./n"/>
+			<SubjectList subjectLevel="3" detail="^#ff0000기절(육체)^@/n강한 충격으로 인해 정신을 잃는다./n/n/n^#ffff00효과가 부여될 때 시전 중인 스킬이 취소된다./n이동, 공격, 스킬사용, 아이템 사용을 할 수 없게된다./n"/>
+			<SubjectList subjectLevel="4" detail="^#ff0000기절(육체)^@/n강한 충격으로 인해 정신을 잃는다./n/n/n^#ffff00효과가 부여될 때 시전 중인 스킬이 취소된다./n이동, 공격, 스킬사용, 아이템 사용을 할 수 없게된다./n"/>
+			<SubjectList subjectLevel="5" detail="^#ff0000기절(육체)^@/n강한 충격으로 인해 정신을 잃는다./n/n/n^#ffff00효과가 부여될 때 시전 중인 스킬이 취소된다./n이동, 공격, 스킬사용, 아이템 사용을 할 수 없게된다./n"/>
+			<SubjectList subjectLevel="6" detail="^#ff0000기절(육체)^@/n강한 충격으로 인해 정신을 잃는다./n/n/n^#ffff00효과가 부여될 때 시전 중인 스킬이 취소된다./n이동, 공격, 스킬사용, 아이템 사용을 할 수 없게된다./n"/>
+			<SubjectList subjectLevel="7" detail="^#ff0000기절(육체)^@/n강한 충격으로 인해 정신을 잃는다./n/n/n^#ffff00효과가 부여될 때 시전 중인 스킬이 취소된다./n이동, 공격, 스킬사용, 아이템 사용을 할 수 없게된다./n"/>
+			<SubjectList subjectLevel="8" detail="^#ff0000기절(육체)^@/n강한 충격으로 인해 정신을 잃는다./n/n/n^#ffff00효과가 부여될 때 시전 중인 스킬이 취소된다./n이동, 공격, 스킬사용, 아이템 사용을 할 수 없게된다./n"/>
+		</Subject>
+	</buff>
+	<buff id="2" name="Injury" buffExp="부상" imageName="icon\def\skillDef\ico_debuff_fighter_Injury01.dds" smallImageName="icon\def\skillDef\ico_debuff_fighter_Injury01_s.dds" buffType="1" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000부상(육체)^@/n전투 중 부상을 입어 체력이 감소한다./n/n/n^#ffff003초마다22의 피해를 입는다./n"/>
+			<SubjectList subjectLevel="2" detail="^#ff0000부상(육체)^@/n전투 중 부상을 입어 체력이 감소한다./n/n/n^#ffff003초마다25의 피해를 입는다./n"/>
+			<SubjectList subjectLevel="3" detail="^#ff0000부상(육체)^@/n전투 중 부상을 입어 체력이 감소한다./n/n/n^#ffff003초마다29의 피해를 입는다./n"/>
+			<SubjectList subjectLevel="4" detail="^#ff0000부상(육체)^@/n전투 중 부상을 입어 체력이 감소한다./n/n/n^#ffff003초마다33의 피해를 입는다./n"/>
+			<SubjectList subjectLevel="5" detail="^#ff0000부상(육체)^@/n전투 중 부상을 입어 체력이 감소한다./n/n/n^#ffff003초마다37의 피해를 입는다./n"/>
+			<SubjectList subjectLevel="6" detail="^#ff0000부상(육체)^@/n전투 중 부상을 입어 체력이 감소한다./n/n/n^#ffff003초마다41의 피해를 입는다./n"/>
+			<SubjectList subjectLevel="7" detail="^#ff0000부상(육체)^@/n전투 중 부상을 입어 체력이 감소한다./n/n/n^#ffff003초마다45의 피해를 입는다./n"/>
+		</Subject>
+	</buff>
+	<buff id="3" name="LimitBreaker" buffExp="리미트 브레이커" imageName="icon\def\skillDef\ico_buff_fighter_limitbreaker01.dds" smallImageName="icon\def\skillDef\ico_buff_fighter_limitbreaker01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="2090" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="자신에게 20초동안 레이지 효과를 부여한다./n레이지 효과가 지속되는 동안 물리 공격력이 10% 증가/n 물리 방어력이 10% 증가하고 1초마다 2%의 HP가 소모된다./n/n^#ffaa00HP가 5%이하가 되면 레이지 효과는 자동으로 해제 된다./n"/>
+			<SubjectList subjectLevel="2" detail="자신에게 20초동안 레이지 효과를 부여한다./n레이지 효과가 지속되는 동안 물리 공격력이 10% 증가/n 물리 방어력이 11% 증가하고 1초마다 2%의 HP가 소모된다./n/n^#ffaa00HP가 5%이하가 되면 레이지 효과는 자동으로 해제 된다./n"/>
+			<SubjectList subjectLevel="3" detail="자신에게 20초동안 레이지 효과를 부여한다./n레이지 효과가 지속되는 동안 물리 공격력이 10% 증가/n 물리 방어력이 12% 증가하고 1초마다 2%의 HP가 소모된다./n/n^#ffaa00HP가 5%이하가 되면 레이지 효과는 자동으로 해제 된다./n"/>
+			<SubjectList subjectLevel="4" detail="자신에게 20초동안 레이지 효과를 부여한다./n레이지 효과가 지속되는 동안 물리 공격력이 10% 증가/n 물리 방어력이 13% 증가하고 1초마다 2%의 HP가 소모된다./n/n^#ffaa00HP가 5%이하가 되면 레이지 효과는 자동으로 해제 된다./n"/>
+			<SubjectList subjectLevel="5" detail="자신에게 20초동안 레이지 효과를 부여한다./n레이지 효과가 지속되는 동안 물리 공격력이 10% 증가/n 물리 방어력이 14% 증가하고 1초마다 2%의 HP가 소모된다./n/n^#ffaa00HP가 5%이하가 되면 레이지 효과는 자동으로 해제 된다./n"/>
+			<SubjectList subjectLevel="6" detail="자신에게 20초동안 레이지 효과를 부여한다./n레이지 효과가 지속되는 동안 물리 공격력이 10% 증가/n 물리 방어력이 15% 증가하고 1초마다 2%의 HP가 소모된다./n/n^#ffaa00HP가 5%이하가 되면 레이지 효과는 자동으로 해제 된다./n"/>
+		</Subject>
+	</buff>
+	<buff id="4" name="MissionCarry" buffExp="미션 캐리" imageName="icon\def\skillDef\ico_buff_fighter_missioncarry01.dds" smallImageName="icon\def\skillDef\ico_buff_fighter_missioncarry01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="2047" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="자신에게 1분동안 레이지 게인 효과를 부여된다./n레이지 게인 효과가 지속되는 동안 물리 공격력이 5%/n치명타 확률이 10% 증가하지만 물리방어력은 5% 감소한다./n/n^#ffaa00디펜스 게인, 스피리트 게인 효과가 부여되면 레이지 게인지속효과는 삭제된다./n"/>
+			<SubjectList subjectLevel="2" detail="자신에게 1분동안 레이지 게인 효과를 부여된다./n레이지 게인 효과가 지속되는 동안 물리 공격력이 7%/n치명타 확률이 10% 증가하지만 물리방어력은 6% 감소한다./n/n^#ffaa00디펜스 게인, 스피리트 게인 효과가 부여되면 레이지 게인지속효과는 삭제된다./n"/>
+			<SubjectList subjectLevel="3" detail="자신에게 1분동안 레이지 게인 효과를 부여된다./n레이지 게인 효과가 지속되는 동안 물리 공격력이 9%/n치명타 확률이 10% 증가하지만 물리방어력은 7% 감소한다./n/n^#ffaa00디펜스 게인, 스피리트 게인 효과가 부여되면 레이지 게인지속효과는 삭제된다./n"/>
+			<SubjectList subjectLevel="4" detail="자신에게 1분동안 레이지 게인 효과를 부여된다./n레이지 게인 효과가 지속되는 동안 물리 공격력이 11%/n치명타 확률이 10% 증가하지만 물리방어력은 8% 감소한다./n/n^#ffaa00디펜스 게인, 스피리트 게인 효과가 부여되면 레이지 게인지속효과는 삭제된다./n"/>
+			<SubjectList subjectLevel="5" detail="자신에게 1분동안 레이지 게인 효과를 부여된다./n레이지 게인 효과가 지속되는 동안 물리 공격력이 13% /n치명타 확률이 10% 증가하지만 물리방어력은 9% 감소한다./n/n^#ffaa00디펜스 게인, 스피리트 게인 효과가 부여되면 레이지 게인지속효과는 삭제된다./n"/>
+			<SubjectList subjectLevel="6" detail="자신에게 1분동안 레이지 게인 효과를 부여된다./n레이지 게인 효과가 지속되는 동안 물리 공격력이 15% /n치명타 확률이 10% 증가하지만 물리방어력은 10% 감소한다./n/n^#ffaa00디펜스 게인, 스피리트 게인 효과가 부여되면 레이지 게인지속효과는 삭제된다./n"/>
+		</Subject>
+	</buff>
+	<buff id="5" name="DefenseCarry" buffExp="디펜스 캐리" imageName="icon\def\skillDef\ico_buff_fighter_defensecarry01.dds" smallImageName="icon\def\skillDef\ico_buff_fighter_defensecarry01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="2048" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="자신의 주변 10m 이내에 5명의 적에게 적대치를 증가시키며  30초 동안 물리 방어력이 50% 증가 합니다../n/n^#ffaa00레이지 게인, 스피리트 게인 효과가 부여되면 디펜스 게인 지속효과는 삭제된다./n"/>
+			<SubjectList subjectLevel="2" detail="자신의 주변 10m 이내에 5명의 적에게 적대치를 증가시키며  30초 동안 물리 방어력이 60% 증가 합니다../n/n^#ffaa00레이지 게인, 스피리트 게인 효과가 부여되면 디펜스 게인 지속효과는 삭제된다./n"/>
+			<SubjectList subjectLevel="3" detail="자신의 주변 10m 이내에 5명의 적에게 적대치를 증가시키며  30초 동안 물리 방어력이 70% 증가 합니다../n/n^#ffaa00레이지 게인, 스피리트 게인 효과가 부여되면 디펜스 게인 지속효과는 삭제된다./n"/>
+			<SubjectList subjectLevel="4" detail="자신의 주변 10m 이내에 5명의 적에게 적대치를 증가시키며  30초 동안 물리 방어력이 80% 증가 합니다../n/n^#ffaa00레이지 게인, 스피리트 게인 효과가 부여되면 디펜스 게인 지속효과는 삭제된다./n"/>
+			<SubjectList subjectLevel="5" detail="자신의 주변 10m 이내에 5명의 적에게 적대치를 증가시키며  30초 동안 물리 방어력이 90% 증가 합니다../n/n^#ffaa00레이지 게인, 스피리트 게인 효과가 부여되면 디펜스 게인 지속효과는 삭제된다./n"/>
+			<SubjectList subjectLevel="6" detail="자신의 주변 10m 이내에 5명의 적에게 적대치를 증가시키며  30초 동안 물리 방어력이 100% 증가 합니다../n/n^#ffaa00레이지 게인, 스피리트 게인 효과가 부여되면 디펜스 게인 지속효과는 삭제된다./n"/>
+		</Subject>
+	</buff>
+	<buff id="6" name="ElementalCarry" buffExp="엘리멘탈 캐리" imageName="icon\def\skillDef\ico_buff_fighter_elementalcarry01.dds" smallImageName="icon\def\skillDef\ico_buff_fighter_elementalcarry01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="2091" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="정신을 집중하여 정령과의 교감도를 증폭시킨다./n/n자신에게 60초간 스피리트 게인 효과를 부여한다/n6초마다 HP회복량이 12, MP회복량이 7 증가./n물리 공격 명중률 3%은 감소한다/n/n^#ffaa00소드 크래쉬의 사용이 가능해진다./n/n^#ffaa00레이지 게인, 디펜스 게인 효과가 부여되면 스피리트 게인의 지속효과는 삭제된다./n"/>
+			<SubjectList subjectLevel="2" detail="정신을 집중하여 정령과의 교감도를 증폭시킨다./n/n자신에게 60초간 스피리트 게인 효과를 부여한다/n6초마다 HP회복량이 14, MP회복량이 8 증가./n물리 공격 명중률 3%은 감소한다/n/n^#ffaa00소드 크래쉬의 사용이 가능해진다./n/n^#ffaa00레이지 게인, 디펜스 게인 효과가 부여되면 스피리트 게인의지속효과는 삭제된다./n"/>
+			<SubjectList subjectLevel="3" detail="정신을 집중하여 정령과의 교감도를 증폭시킨다./n/n자신에게 60초간 스피리트 게인 효과를 부여한다/n6초마다 HP회복량이 16, MP회복량이 9 증가./n물리 공격 명중률 3%은 감소한다/n/n^#ffaa00소드 크래쉬의 사용이 가능해진다./n/n^#ffaa00레이지 게인, 디펜스 게인 효과가 부여되면 스피리트 게인의 지속효과는 삭제된다./n"/>
+			<SubjectList subjectLevel="4" detail="정신을 집중하여 정령과의 교감도를 증폭시킨다./n/n자신에게 60초간 스피리트 게인 효과를 부여한다/n6초마다 HP회복량이 18, MP회복량이 10 증가./n물리 공격 명중률 3%은 감소한다/n/n^#ffaa00소드 크래쉬의 사용이 가능해진다./n/n^#ffaa00레이지 게인, 디펜스 게인 효과가 부여되면 스피리트 게인의 지속효과는 삭제된다./n"/>
+			<SubjectList subjectLevel="5" detail="정신을 집중하여 정령과의 교감도를 증폭시킨다./n/n자신에게 60초간 스피리트 게인 효과를 부여한다/n6초마다 HP회복량이 20, MP회복량이 11 증가./n물리 공격 명중률 3%은 감소한다/n/n^#ffaa00소드 크래쉬의 사용이 가능해진다./n/n^#ffaa00레이지 게인, 디펜스 게인 효과가 부여되면 스피리트 게인의 지속효과는 삭제된다./n"/>
+			<SubjectList subjectLevel="6" detail="정신을 집중하여 정령과의 교감도를 증폭시킨다./n/n자신에게 60초간 스피리트 게인 효과를 부여한다/n6초마다 HP회복량이 22, MP회복량이 12 증가./n물리 공격 명중률 3%은 감소한다/n/n^#ffaa00소드 크래쉬의 사용이 가능해진다./n/n^#ffaa00레이지 게인, 디펜스 게인 효과가 부여되면 스피리트 게인의 지속효과는 삭제된다./n"/>
+		</Subject>
+	</buff>
+	<buff id="7" name="MuscleDamage" buffExp="근육 손상" imageName="icon\def\skillDef\ico_debuff_thief_muscledamage01.dds" smallImageName="icon\def\skillDef\ico_debuff_thief_muscledamage01_s.dds" buffType="1" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="2049" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000근육 손상(육체)^@/n근육이 손상되어 공격력이 저하된다./n/n^#ffff00물리공격력이 5% 감소한다./n"/>
+			<SubjectList subjectLevel="2" detail="^#ff0000근육 손상(육체)^@/n근육이 손상되어 공격력이 저하된다./n/n^#ffff00물리공격력이 5% 감소한다./n"/>
+			<SubjectList subjectLevel="3" detail="^#ff0000근육 손상(육체)^@/n근육이 손상되어 공격력이 저하된다./n/n^#ffff00물리공격력이 5% 감소한다./n"/>
+			<SubjectList subjectLevel="4" detail="^#ff0000근육 손상(육체)^@/n근육이 손상되어 공격력이 저하된다./n/n^#ffff00물리공격력이 5% 감소한다./n"/>
+			<SubjectList subjectLevel="5" detail="^#ff0000근육 손상(육체)^@/n근육이 손상되어 공격력이 저하된다./n/n^#ffff00물리공격력이 5% 감소한다./n"/>
+			<SubjectList subjectLevel="6" detail="^#ff0000근육 손상(육체)^@/n근육이 손상되어 공격력이 저하된다./n/n^#ffff00물리공격력이 5% 감소한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="8" name="TendonDamage" buffExp="힘줄 손상" imageName="icon\def\skillDef\ico_debuff_thief_tendondamage01.dds" smallImageName="icon\def\skillDef\ico_debuff_thief_tendondamage01_s.dds" buffType="1" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="2049" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000힘줄 손상^@/n힘줄이 손상되어 물리 공격 스킬의 사용이 불가능해진다./n/n/n^#ffff001Lv : 물리 공격 스킬의 사용이 불가능해진다./n"/>
+		</Subject>
+	</buff>
+	<buff id="9" name="LegDamage" buffExp="하체 손상" imageName="icon\def\skillDef\ico_debuff_thief_legdamage01.dds" smallImageName="icon\def\skillDef\ico_debuff_thief_legdamage01_s.dds" buffType="1" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="829" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000하체 손상^@/n하체가 손상되어 공격속도가 저하된다./n/n/n^#ffff00공격속도가 감소한다./n"/>
+			<SubjectList subjectLevel="2" detail="^#ff0000하체 손상^@/n하체가 손상되어 공격속도가 저하된다./n/n/n^#ffff00공격속도가 감소한다./n"/>
+			<SubjectList subjectLevel="3" detail="^#ff0000하체 손상^@/n하체가 손상되어 공격속도가 저하된다./n/n/n^#ffff00공격속도가 감소한다./n"/>
+			<SubjectList subjectLevel="4" detail="^#ff0000하체 손상^@/n하체가 손상되어 공격속도가 저하된다./n/n/n^#ffff00공격속도가 감소한다./n"/>
+			<SubjectList subjectLevel="5" detail="^#ff0000하체 손상^@/n하체가 손상되어 공격속도가 저하된다./n/n/n^#ffff00공격속도가 감소한다./n"/>
+			<SubjectList subjectLevel="6" detail="^#ff0000하체 손상^@/n하체가 손상되어 공격속도가 저하된다./n/n/n^#ffff00공격속도가 감소한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10" name="DontMove" buffExp="이동불가" imageName="icon\def\skillDef\ico_debuff_thief_dontmove01.dds" smallImageName="icon\def\skillDef\ico_debuff_thief_dontmove01_s.dds" buffType="1" stun="1">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="829" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000이동불가^@/n하체를 움직일 수 없어 이동이 불가능해진다./n/n/n^#ffff001Lv : 이동이 불가능 해진다./n"/>
+		</Subject>
+	</buff>
+	<buff id="11" name="SkinDamage" buffExp="피부 손상" imageName="icon\def\skillDef\ico_debuff_thief_skindamage01.dds" smallImageName="icon\def\skillDef\ico_debuff_thief_skindamage01_s.dds" buffType="1" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="375" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000피부 손상^@/n피부가 손상되어 물리 방어력이 저하된다./n/n/n^#ffff00물리방어력이 5% 감소한다./n"/>
+			<SubjectList subjectLevel="2" detail="^#ff0000피부 손상^@/n피부가 손상되어 물리 방어력이 저하된다./n/n/n^#ffff00물리방어력이 5% 감소한다./n"/>
+			<SubjectList subjectLevel="3" detail="^#ff0000피부 손상^@/n피부가 손상되어 물리 방어력이 저하된다./n/n/n^#ffff00물리방어력이 5% 감소한다./n"/>
+			<SubjectList subjectLevel="4" detail="^#ff0000피부 손상^@/n피부가 손상되어 물리 방어력이 저하된다./n/n/n^#ffff00물리방어력이 5% 감소한다./n"/>
+			<SubjectList subjectLevel="5" detail="^#ff0000피부 손상^@/n피부가 손상되어 물리 방어력이 저하된다./n/n/n^#ffff00물리방어력이 5% 감소한다./n"/>
+			<SubjectList subjectLevel="6" detail="^#ff0000피부 손상^@/n피부가 손상되어 물리 방어력이 저하된다./n/n/n^#ffff00 물리방어력이 5% 감소한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="12" name="Bleeding" buffExp="출혈" imageName="icon\def\skillDef\ico_debuff_thief_bleeding01.dds" smallImageName="icon\def\skillDef\ico_debuff_thief_bleeding01_s.dds" buffType="1" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="375" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000출혈(육체)^@/n상처에서 피가 조금 흘러 지속적인 피해를 입게 된다./n/n/n^#ffff001Lv : 2초마다 3의 피해를 입는다./n"/>
+			<SubjectList subjectLevel="2" detail="^#ff0000출혈(육체)^@/n상처에서 피가 조금 흘러 지속적인 피해를 입게 된다./n/n/n^#ffff002Lv : 2초마다 6의 피해를 입는다./n"/>
+			<SubjectList subjectLevel="3" detail="^#ff0000출혈(육체)^@/n상처에서 피가 조금 흘러 지속적인 피해를 입게 된다./n/n/n^#ffff003Lv : 2초마다 10의 피해를 입는다./n"/>
+		</Subject>
+	</buff>
+	<buff id="13" name="ShadowWalk" buffExp="쉐도우 워크" imageName="icon\def\skillDef\ico_buff_thief_shadowwalk01.dds" smallImageName="icon\def\skillDef\ico_buff_thief_shadowwalk01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="2345" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00쉐도우 워크^@/n도적 특유의 움직임으로 적의 공격을 혼란시킨다./n/n/n^#ffff00물리 공격 회피율이 3% 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="14" name="Fidelis" buffExp="피델리스" imageName="icon\def\skillDef\ico_debuff_cleric_fidelis01.dds" smallImageName="icon\def\skillDef\ico_debuff_cleric_fidelis01_s.dds" buffType="1" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="2130" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000피델리스(정신)^@/n신에 대한 믿음을 얻는다./n/n/n^#ffff00효과가 지속 중일 때 홀리퓨어가 사용되면 대미지가 1.2배가 된다./n"/>
+		</Subject>
+	</buff>
+	<buff id="15" name="Credo" buffExp="크레도" imageName="icon\def\skillDef\ico_debuff_cleric_credo01.dds" smallImageName="icon\def\skillDef\ico_debuff_cleric_credo01_s.dds" buffType="1" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="2133" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="대상에게 기도의 힘을 불어 넣는다./n효과가 부여된 대상은 15 초 동안 3초 마다 HP가 22씩 감소된다./n/n^#ffaa00크레도 효과가 해제 될 때 10% 확률로 피델리스 효과가 부여된다./n^#ffaa00피델리스:효과가 지속 중일 때 홀리 퓨어이 사용되면 피해량이 20% 증가한다./n"/>
+			<SubjectList subjectLevel="2" detail="대상에게 기도의 힘을 불어 넣는다./n효과가 부여된 대상은 15 초 동안 3초 마다 HP가 42씩 감소된다./n/n^#ffaa00크레도 효과가 해제 될 때 10% 확률로 피델리스 효과가 부여된다./n^#ffaa00피델리스:효과가 지속 중일 때 홀리 퓨어이 사용되면 피해량이 20% 증가한다./n"/>
+			<SubjectList subjectLevel="3" detail="대상에게 기도의 힘을 불어 넣는다./n효과가 부여된 대상은 15 초 동안 3초 마다 HP가 62씩 감소된다./n/n^#ffaa00크레도 효과가 해제 될 때 10% 확률로 피델리스 효과가 부여된다./n^#ffaa00피델리스:효과가 지속 중일 때 홀리 퓨어이 사용되면 피해량이 20% 증가한다./n"/>
+			<SubjectList subjectLevel="4" detail="대상에게 기도의 힘을 불어 넣는다./n효과가 부여된 대상은 15 초 동안 3초 마다 HP가 82씩 감소된다./n/n^#ffaa00크레도 효과가 해제 될 때 10% 확률로 피델리스 효과가 부여된다./n^#ffaa00피델리스:효과가 지속 중일 때 홀리 퓨어이 사용되면 피해량이 20% 증가한다./n"/>
+			<SubjectList subjectLevel="5" detail="대상에게 기도의 힘을 불어 넣는다./n효과가 부여된 대상은 15 초 동안 3초 마다 HP가 102씩 감소된다./n/n^#ffaa00크레도 효과가 해제 될 때 10% 확률로 피델리스 효과가 부여된다./n^#ffaa00피델리스:효과가 지속 중일 때 홀리 퓨어이 사용되면 피해량이 20% 증가한다./n"/>
+			<SubjectList subjectLevel="6" detail="대상에게 기도의 힘을 불어 넣는다./n효과가 부여된 대상은 15 초 동안 3초 마다 HP가 122씩 감소된다./n/n^#ffaa00크레도 효과가 해제 될 때 10% 확률로 피델리스 효과가 부여된다./n^#ffaa00피델리스:효과가 지속 중일 때 홀리 퓨어이 사용되면 피해량이 20% 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="16" name="ManusVitae" buffExp="마누스 비타" imageName="icon\def\skillDef\ico_buff_cleric_manusvitae01.dds" smallImageName="icon\def\skillDef\ico_buff_cleric_manusvitae01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="2132" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="대상에 프레이어 홀리 지속효과를 부여한다./n효과가 부여된 대상은 1분 동안 10%의 확률로 총 받는 데미지의 12%를 감소 시킨다./n/n^#ffaa00스킬 성공 시 자신에게 신앙심 효과가 부여된다./n/n^#ffaa00신앙심:홀리 라이트와 홀리 블래스트를 사용할 수 있게된다."/>
+			<SubjectList subjectLevel="2" detail="대상에 프레이어 홀리 지속효과를 부여한다./n효과가 부여된 대상은 1분 동안 10%의 확률로 총 받는 데미지의 14%를 감소 시킨다./n/n^#ffaa00스킬 성공 시 자신에게 신앙심 효과가 부여된다./n/n^#ffaa00신앙심:홀리 라이트와 홀리 블래스트를 사용할 수 있게된다."/>
+			<SubjectList subjectLevel="3" detail="대상에 프레이어 홀리 지속효과를 부여한다./n효과가 부여된 대상은 1분 동안 10%의 확률로 총 받는 데미지의 15%를 감소 시킨다./n/n^#ffaa00스킬 성공 시 자신에게 신앙심 효과가 부여된다./n/n^#ffaa00신앙심:홀리 라이트와 홀리 블래스트를 사용할 수 있게된다."/>
+			<SubjectList subjectLevel="4" detail="대상에 프레이어 홀리 지속효과를 부여한다./n효과가 부여된 대상은 1분 동안 10%의 확률로 총 받는 데미지의 15%를 감소 시킨다./n/n^#ffaa00스킬 성공 시 자신에게 신앙심 효과가 부여된다./n/n^#ffaa00신앙심:홀리 라이트와 홀리 블래스트를 사용할 수 있게된다."/>
+			<SubjectList subjectLevel="5" detail="대상에 프레이어 홀리 지속효과를 부여한다./n효과가 부여된 대상은 1분 동안 10%의 확률로 총 받는 데미지의 17%를 감소 시킨다./n/n^#ffaa00스킬 성공 시 자신에게 신앙심 효과가 부여된다./n/n^#ffaa00신앙심:홀리 라이트와 홀리 블래스트를 사용할 수 있게된다."/>
+			<SubjectList subjectLevel="6" detail="대상에 프레이어 홀리 지속효과를 부여한다./n효과가 부여된 대상은 1분 동안 10%의 확률로 총 받는 데미지의 18%를 감소 시킨다./n/n^#ffaa00스킬 성공 시 자신에게 신앙심 효과가 부여된다./n/n^#ffaa00신앙심:홀리 라이트와 홀리 블래스트를 사용할 수 있게된다."/>
+		</Subject>
+	</buff>
+	<buff id="17" name="Piety" buffExp="신앙심" imageName="icon\def\skillDef\ico_buff_cleric_piety01.dds" smallImageName="icon\def\skillDef\ico_buff_cleric_piety01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="2131" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00신앙심(정신)^@/n신앙심을 고취시킨다./n/n/n^#ffff00홀리 라이트와 홀리 블래스트를 사용할 수 있게된다../n"/>
+			<SubjectList subjectLevel="2" detail="^#00ff00신앙심(정신)^@/n신앙심을 고취시킨다./n/n/n^#ffff00홀리 라이트와 홀리 블래스트를 사용할 수 있게된다../n"/>
+			<SubjectList subjectLevel="3" detail="^#00ff00신앙심(정신)^@/n신앙심을 고취시킨다./n/n/n^#ffff00홀리 라이트와 홀리 블래스트를 사용할 수 있게된다../n"/>
+			<SubjectList subjectLevel="4" detail="^#00ff00신앙심(정신)^@/n신앙심을 고취시킨다./n/n/n^#ffff00홀리 라이트와 홀리 블래스트를 사용할 수 있게된다../n"/>
+			<SubjectList subjectLevel="5" detail="^#00ff00신앙심(정신)^@/n신앙심을 고취시킨다./n/n/n^#ffff00홀리 라이트와 홀리 블래스트를 사용할 수 있게된다../n"/>
+			<SubjectList subjectLevel="6" detail="^#00ff00신앙심(정신)^@/n신앙심을 고취시킨다./n/n/n^#ffff00홀리 라이트와 홀리 블래스트를 사용할 수 있게된다../n"/>
+		</Subject>
+	</buff>
+	<buff id="18" name="MagnusMedica" buffExp="마그누스 메디카" imageName="icon\def\skillDef\ico_buff_cleric_magnusmedica01.dds" smallImageName="icon\def\skillDef\ico_buff_cleric_magnusmedica01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="2129" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="대상에게 인트시밀 힐링 효과를 부여한다./n/n^#ffaa00대상의 HP 22점을 회복시키며, 60초 동안 3초 간격으로 HP 22점을 추가회복 시킵니다./n"/>
+			<SubjectList subjectLevel="2" detail="대상에게 인트시밀 힐링 효과를 부여한다./n/n^#ffaa00대상의 HP 32점을 회복시키며, 60초 동안 3초 간격으로 HP 32점을 추가회복 시킵니다./n"/>
+			<SubjectList subjectLevel="3" detail="대상에게 인트시밀 힐링 효과를 부여한다./n/n^#ffaa00대상의 HP 42점을 회복시키며, 60초 동안 3초 간격으로 HP 42점을 추가회복 시킵니다./n"/>
+			<SubjectList subjectLevel="4" detail="대상에게 인트시밀 힐링 효과를 부여한다./n/n^#ffaa00대상의 HP 52점을 회복시키며, 60초 동안 3초 간격으로 HP 52점을 추가회복 시킵니다./n"/>
+			<SubjectList subjectLevel="5" detail="대상에게 인트시밀 힐링 효과를 부여한다./n/n^#ffaa00대상의 HP 62점을 회복시키며, 60초 동안 3초 간격으로 HP 62점을 추가회복 시킵니다./n"/>
+			<SubjectList subjectLevel="6" detail="대상에게 인트시밀 힐링 효과를 부여한다./n/n^#ffaa00대상의 HP 72점을 회복시키며, 60초 동안 3초 간격으로 HP 72점을 추가회복 시킵니다./n"/>
+			<SubjectList subjectLevel="7" detail="대상에게 인트시밀 힐링 효과를 부여한다./n/n^#ffaa00대상의 HP 82점을 회복시키며, 60초 동안 3초 간격으로 HP 82점을 추가회복 시킵니다./n"/>
+		</Subject>
+	</buff>
+	<buff id="19" name="Gloria" buffExp="글로리아" imageName="icon\def\skillDef\ico_buff_cleric_gloria01.dds" smallImageName="icon\def\skillDef\ico_buff_cleric_gloria01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="2046" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00블레싱(정신)^@/n대상을 축복하여 일정시간 전투능력을 상승시킨다./n/n/n^#ffff00물리공격력 5%, 물리방어력이 5% 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="20" name="Crucifixio" buffExp="크루치픽시오" imageName="icon\def\skillDef\ico_debuff_cleric_crucifixio01.dds" smallImageName="icon\def\skillDef\ico_debuff_cleric_crucifixio01_s.dds" buffType="1" stun="1">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="206" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="나를 희생하여 남을 돕는다./n대상에게 강력한 타격을 주고 3초간 기절 시킨다./n/n^#ffaa00스킬을 사용 시 HP가 285 감소한다./n"/>
+			<SubjectList subjectLevel="2" detail="나를 희생하여 남을 돕는다./n대상에게 강력한 타격을 주고 3초간 기절 시킨다./n/n^#ffaa00스킬을 사용 시 HP가 390 감소한다./n"/>
+			<SubjectList subjectLevel="3" detail="나를 희생하여 남을 돕는다./n대상에게 강력한 타격을 주고 3초간 기절 시킨다./n/n^#ffaa00스킬을 사용 시 HP가 494 감소한다./n"/>
+			<SubjectList subjectLevel="4" detail="나를 희생하여 남을 돕는다./n대상에게 강력한 타격을 주고 3초간 기절 시킨다./n/n^#ffaa00스킬을 사용 시 HP가 598 감소한다./n"/>
+			<SubjectList subjectLevel="5" detail="나를 희생하여 남을 돕는다./n대상에게 강력한 타격을 주고 3초간 기절 시킨다./n/n^#ffaa00스킬을 사용 시 HP가 703 감소한다./n"/>
+			<SubjectList subjectLevel="6" detail="나를 희생하여 남을 돕는다./n대상에게 강력한 타격을 주고 3초간 기절 시킨다./n/n^#ffaa00스킬을 사용 시 HP가 781 감소한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="21" name="Paradisum" buffExp="파라디숨" imageName="icon\def\skillDef\ico_buff_cleric_paradisum01.dds" smallImageName="icon\def\skillDef\ico_buff_cleric_paradisum01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="2128" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00파라디숨(정신)^@/n성스러운 힘으로 대상을 감싼다./n/n/n^#ffff001Lv : 물리 방어력 5%, 마법 방어력 5% 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="22" name="PhysicalBarrier" buffExp="피지컬 배리어" imageName="icon\def\skillDef\ico_buff_magic_physicalbarrier01.dds" smallImageName="icon\def\skillDef\ico_buff_magic_physicalbarrier01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="11018" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="5초동안 자신이 받는 모든 물리 타격을 막고 마법 방어력이 증가하는 보호막을 생성합니다./n/n^#ffaa00배리어 효과는 한 번에 한종류만 지속된다."/>
+			<SubjectList subjectLevel="2" detail="5초동안 자신이 받는 모든 물리 타격을 막고 마법 방어력이 증가하는 보호막을 생성합니다./n/n^#ffaa00배리어 효과는 한 번에 한종류만 지속된다."/>
+			<SubjectList subjectLevel="3" detail="5초동안 자신이 받는 모든 물리 타격을 막고 마법 방어력이 증가하는 보호막을 생성합니다./n/n^#ffaa00배리어 효과는 한 번에 한종류만 지속된다."/>
+			<SubjectList subjectLevel="4" detail="5초동안 자신이 받는 모든 물리 타격을 막고 마법 방어력이 증가하는 보호막을 생성합니다./n/n^#ffaa00배리어 효과는 한 번에 한종류만 지속된다."/>
+			<SubjectList subjectLevel="5" detail="5초동안 자신이 받는 모든 물리 타격을 막고 마법 방어력이 증가하는 보호막을 생성합니다./n/n^#ffaa00배리어 효과는 한 번에 한종류만 지속된다."/>
+			<SubjectList subjectLevel="6" detail="5초동안 자신이 받는 모든 물리 타격을 막고 마법 방어력이 증가하는 보호막을 생성합니다./n/n^#ffaa00배리어 효과는 한 번에 한종류만 지속된다."/>
+		</Subject>
+	</buff>
+	<buff id="23" name="WindBarrier" buffExp="윈드 배리어" imageName="icon\def\skillDef\ico_buff_magic_windbarrier01.dds" smallImageName="icon\def\skillDef\ico_buff_magic_windbarrier01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="11020" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="움직임을 가볍게 해주는 배리어를 생성한다./n 20분동안 자신의 마법 방어력을 16 증가 시키며, MP회복량을 20 늘려줍니다./n/n^#ffaa00배리어 효과는 한 번에 한종류만 지속된다."/>
+			<SubjectList subjectLevel="2" detail="움직임을 가볍게 해주는 배리어를 생성한다./n 20분동안 자신의 마법 방어력을 21 증가 시키며, MP회복량을 26 늘려줍니다./n/n^#ffaa00배리어 효과는 한 번에 한종류만 지속된다."/>
+			<SubjectList subjectLevel="3" detail="움직임을 가볍게 해주는 배리어를 생성한다./n 20분동안 자신의 마법 방어력을 26 증가 시키며, MP회복량을 32 늘려줍니다./n/n^#ffaa00배리어 효과는 한 번에 한종류만 지속된다."/>
+			<SubjectList subjectLevel="4" detail="움직임을 가볍게 해주는 배리어를 생성한다./n 20분동안 자신의 마법 방어력을 30 증가 시키며, MP회복량을 38 늘려줍니다./n/n^#ffaa00배리어 효과는 한 번에 한종류만 지속된다."/>
+			<SubjectList subjectLevel="5" detail="움직임을 가볍게 해주는 배리어를 생성한다./n 20분동안 자신의 마법 방어력을 35 증가 시키며, MP회복량을 44 늘려줍니다./n/n^#ffaa00배리어 효과는 한 번에 한종류만 지속된다."/>
+			<SubjectList subjectLevel="6" detail="움직임을 가볍게 해주는 배리어를 생성한다./n 20분동안 자신의 마법 방어력을 40 증가 시키며, MP회복량을 50 늘려줍니다./n/n^#ffaa00배리어 효과는 한 번에 한종류만 지속된다."/>
+			<SubjectList subjectLevel="7" detail="움직임을 가볍게 해주는 배리어를 생성한다./n 20분동안 자신의 마법 방어력을 45 증가 시키며, MP회복량을 56 늘려줍니다./n/n^#ffaa00배리어 효과는 한 번에 한종류만 지속된다."/>
+		</Subject>
+	</buff>
+	<buff id="24" name="WaterBarrier" buffExp="워터 배리어" imageName="icon\def\skillDef\ico_buff_magic_waterbarrier01.dds" smallImageName="icon\def\skillDef\ico_buff_magic_waterbarrier01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="11027" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="20분동안 자신의 마법 공격력을 12 증가 시킵니다./n/n^#ffaa00재사용 시 스킬의 효과가 삭제된다./n^#ffaa00배리어 효과는 한 번에 한종류만 지속된다./n"/>
+			<SubjectList subjectLevel="2" detail="20분동안 자신의 마법 공격력을 22 증가 시킵니다./n/n^#ffaa00재사용 시 스킬의 효과가 삭제된다./n^#ffaa00배리어 효과는 한 번에 한종류만 지속된다./n"/>
+			<SubjectList subjectLevel="3" detail="20분동안 자신의 마법 공격력을 32 증가 시킵니다./n/n^#ffaa00재사용 시 스킬의 효과가 삭제된다./n^#ffaa00배리어 효과는 한 번에 한종류만 지속된다./n"/>
+			<SubjectList subjectLevel="4" detail="20분동안 자신의 마법 공격력을 42 증가 시킵니다./n/n^#ffaa00재사용 시 스킬의 효과가 삭제된다./n^#ffaa00배리어 효과는 한 번에 한종류만 지속된다./n"/>
+			<SubjectList subjectLevel="5" detail="20분동안 자신의 마법 공격력을 52 증가 시킵니다./n/n^#ffaa00재사용 시 스킬의 효과가 삭제된다./n^#ffaa00배리어 효과는 한 번에 한종류만 지속된다./n"/>
+			<SubjectList subjectLevel="6" detail="20분동안 자신의 마법 공격력을 62 증가 시킵니다./n/n^#ffaa00재사용 시 스킬의 효과가 삭제된다./n^#ffaa00배리어 효과는 한 번에 한종류만 지속된다./n"/>
+			<SubjectList subjectLevel="7" detail="20분동안 자신의 마법 공격력을 72 증가 시킵니다./n/n^#ffaa00재사용 시 스킬의 효과가 삭제된다./n^#ffaa00배리어 효과는 한 번에 한종류만 지속된다./n"/>
+		</Subject>
+	</buff>
+	<buff id="25" name="Frostbite" buffExp="동상" imageName="icon\def\skillDef\ico_debuff_magic_frostbite01.dds" smallImageName="icon\def\skillDef\ico_debuff_magic_frostbite01_s.dds" buffType="1" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="11028" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000동상(정신)^@/n몸에 동상이 걸려 움직임이 둔해진다./n/n/n^#ffff0010초간 이동 속도가 저하된다./n"/>
+			<SubjectList subjectLevel="2" detail="^#ff0000동상(정신)^@/n몸에 동상이 걸려 움직임이 둔해진다./n/n/n^#ffff0010초간 이동 속도가 저하된다./n"/>
+			<SubjectList subjectLevel="3" detail="^#ff0000동상(정신)^@/n몸에 동상이 걸려 움직임이 둔해진다./n/n/n^#ffff0010초간 이동 속도가 저하된다./n"/>
+			<SubjectList subjectLevel="4" detail="^#ff0000동상(정신)^@/n몸에 동상이 걸려 움직임이 둔해진다./n/n/n^#ffff0010초간 이동 속도가 저하된다./n"/>
+			<SubjectList subjectLevel="5" detail="^#ff0000동상(정신)^@/n몸에 동상이 걸려 움직임이 둔해진다./n/n/n^#ffff0010초간 이동 속도가 저하된다./n"/>
+			<SubjectList subjectLevel="6" detail="^#ff0000동상(정신)^@/n몸에 동상이 걸려 움직임이 둔해진다./n/n/n^#ffff0010초간 이동 속도가 저하된다./n"/>
+		</Subject>
+	</buff>
+	<buff id="26" name="Freezing" buffExp="동결" imageName="icon\def\skillDef\ico_debuff_magic_freezing01.dds" smallImageName="icon\def\skillDef\ico_debuff_magic_freezing01_s.dds" buffType="1" stun="1">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="883" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000동결(정신)^@/n발밑이 얼어 붙어 이동할 수 없게 된다./n/n/n^#ffff00이동을 할 수 없게된다./n"/>
+			<SubjectList subjectLevel="2" detail="^#ff0000동결(정신)^@/n발밑이 얼어 붙어 이동할 수 없게 된다./n/n/n^#ffff00이동을 할 수 없게된다./n"/>
+			<SubjectList subjectLevel="3" detail="^#ff0000동결(정신)^@/n발밑이 얼어 붙어 이동할 수 없게 된다./n/n/n^#ffff00이동을 할 수 없게된다./n"/>
+			<SubjectList subjectLevel="4" detail="^#ff0000동결(정신)^@/n발밑이 얼어 붙어 이동할 수 없게 된다./n/n/n^#ffff00이동을 할 수 없게된다./n"/>
+			<SubjectList subjectLevel="5" detail="^#ff0000동결(정신)^@/n발밑이 얼어 붙어 이동할 수 없게 된다./n/n/n^#ffff00이동을 할 수 없게된다./n"/>
+			<SubjectList subjectLevel="6" detail="^#ff0000동결(정신)^@/n발밑이 얼어 붙어 이동할 수 없게 된다./n/n/n^#ffff00이동을 할 수 없게된다./n"/>
+		</Subject>
+	</buff>
+	<buff id="27" name="GaleMove" buffExp="게일 무브" imageName="icon\def\skillDef\ico_buff_fighter_limitbreaker01.dds" smallImageName="icon\def\skillDef\ico_buff_fighter_limitbreaker01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="2346" effectOrder="start"/>
+				<effectKind effectID="2348" effectOrder="start"/>
+				<effectKind effectID="2347" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00대쉬"/>
+		</Subject>
+	</buff>
+	<buff id="28" name="Repent" buffExp="참회" imageName="icon\def\skillDef\ico_skil_cleric_ab21.dds" smallImageName="icon\def\skillDef\ico_skil_cleric_ab21_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="2303" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail="^#00ff00참회(육체)^@/n이동을 제한한다./n/n/n^#ffff001Lv : 지속시간 동안 대상의 이동속도가 50% 감소한다./n"/>
+			<SubjectList subjectLevel="1" detail="^#00ff00참회(육체)^@/n이동을 제한한다./n/n/n^#ffff001Lv : 지속시간 동안 대상의 이동속도가 50% 감소한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="29" name="Judgment" buffExp="심판" imageName="icon\def\skillDef\ico_skil_cleric_ab22.dds" smallImageName="icon\def\skillDef\ico_skil_cleric_ab22_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="2312" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail="^#00ff00심판(육체)^@/n대상에게 지속적인 피해를 입힌다./n/n/n^#ffff001Lv : ./n"/>
+			<SubjectList subjectLevel="1" detail="^#00ff00심판(육체)^@/n대상에게 지속적인 피해를 입힌다./n/n/n^#ffff001Lv : ./n"/>
+		</Subject>
+	</buff>
+	<buff id="30" name="Pierce" buffExp="관통" imageName="icon\def\skillDef\ico_skil_thief_ab26.dds" smallImageName="icon\def\skillDef\ico_skil_thief_ab26_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="375" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail="^#00ff00관통(육체)^@/n대상에게 지속적인 피해를 입힌다./n/n/n^#ffff001Lv : ./n"/>
+			<SubjectList subjectLevel="1" detail="^#00ff00관통(육체)^@/n대상에게 지속적인 피해를 입힌다./n/n/n^#ffff001Lv : ./n"/>
+		</Subject>
+	</buff>
+	<buff id="31" name="SpiderSaliva" buffExp="끈적이는 타액" imageName="icon\def\monsterDef\ico_skmsdb0002.dds" smallImageName="icon\def\monsterDef\ico_skmsdb0002_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="829" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000끈적이는 타액(육체)^@/n끈적이는 거미 타액으로 느려졌습니다./n/n/n^#ffff001Lv : 이동속도 50% 감소/n"/>
+		</Subject>
+	</buff>
+	<buff id="32" name="MuscleTetany" buffExp="근육 경직" imageName="icon\def\monsterDef\ico_skmsdb0019.dds" smallImageName="icon\def\monsterDef\ico_skmsdb0019_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="11026" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000근육 경직(육체)^@/n근육이 경직되어 느려졌습니다./n/n/n^#ffff001Lv : 이동속도 50% 감소/n"/>
+		</Subject>
+	</buff>
+	<buff id="33" name="CopiousBleeding" buffExp="강한 출혈" imageName="icon\def\monsterDef\ico_skmsdb0027.dds" smallImageName="icon\def\monsterDef\ico_skmsdb0027_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="375" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000강한 출혈(육체)^@/n상처에서 피가 조금 흘러 지속적인 피해를 입게 된다./n/n/n^#ffff001Lv : 4초마다 200의 피해를 입는다./n"/>
+		</Subject>
+	</buff>
+	<buff id="34" name="StrengthDown" buffExp="근력 저하" imageName="icon\def\monsterDef\ico_skmsdb0031.dds" smallImageName="icon\def\monsterDef\ico_skmsdb0031_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="11026" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000근력 저하(정신)^@/n힘이 빠지고 있습니다./n/n/n^#ffff001Lv : 힘 30 감소/n"/>
+		</Subject>
+	</buff>
+	<buff id="35" name="DeepWound" buffExp="깊은 상처" imageName="icon\def\monsterDef\ico_skmsdb0027.dds" smallImageName="icon\def\monsterDef\ico_skmsdb0027_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="375" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000깊은 상처(육체)^@/n깊은 상처가 생겼다./n/n/n^#ffff001Lv : 4초마다 800의 피해를 입는다./n"/>
+		</Subject>
+	</buff>
+	<buff id="36" name="BlowOfChiefGuard" buffExp="간수장의 일격" imageName="icon\def\monsterDef\ico_skmsdb0019.dds" smallImageName="icon\def\monsterDef\ico_skmsdb0019_s.dds" buffType="0" stun="1">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="2089" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000간수장의 일격^@/n움직일 수 없습니다./n/n/n^#ffff001Lv : 이동속도 50% 감소/n"/>
+		</Subject>
+	</buff>
+	<buff id="37" name="MoraleDown" buffExp="사기저하" imageName="icon\def\monsterDef\ico_skmsdb0019.dds" smallImageName="icon\def\monsterDef\ico_skmsdb0019_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="11026" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000사기 저하(정신)^@/n투지가 사라지고 있습니다./n/n/n^#ffff001Lv : "/>
+		</Subject>
+	</buff>
+	<buff id="38" name="HeatArmor" buffExp="달궈진 갑옷" imageName="icon\def\monsterDef\ico_skmsdb0027.dds" smallImageName="icon\def\monsterDef\ico_skmsdb0027_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="2022" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000달궈진 갑옷^@/n갑옷이 붉게 달아 올랐습니다./n/n/n^#ffff001Lv : 4초마다 400의 피해를 입는다./n"/>
+		</Subject>
+	</buff>
+	<buff id="39" name="Blank" buffExp="멍해짐" imageName="icon\def\monsterDef\ico_skmsdb0019.dds" smallImageName="icon\def\monsterDef\ico_skmsdb0019_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="206" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000멍해짐^@/n멍해졌습니다./n/n/n^#ffff001Lv : 이동속도 50% 감소/n"/>
+		</Subject>
+	</buff>
+	<buff id="40" name="Myalgia" buffExp="근육통" imageName="icon\def\monsterDef\ico_skmsdb0001.dds" smallImageName="icon\def\monsterDef\ico_skmsdb0001_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="11026" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000근육통(정신)^@/n온몸의 근육이 아프다고 아우성 칩니다./n/n/n^#ffff001Lv : 공격력 50% 감소/n"/>
+		</Subject>
+	</buff>
+	<buff id="41" name="Scratch" buffExp="할퀴기" imageName="icon\def\monsterDef\ico_skmsdb0027.dds" smallImageName="icon\def\monsterDef\ico_skmsdb0027_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="375" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000할퀴기^@/n할퀴기로 작은 상처가 생겼습니다../n/n/n^#ffff001Lv : 3초마다 200의 피해를 입는다./n"/>
+		</Subject>
+	</buff>
+	<buff id="42" name="Sprint" buffExp="스프린트" imageName="icon\def\skillDef\ico_skil_thief_ab28.dds" smallImageName="icon\def\skillDef\ico_skil_thief_ab28_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="2339" effectOrder="start"/>
+				<effectKind effectID="2338" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000스프린트^@/n몸이 가벼워 졌습니다./n/n/n^#ffff001Lv : 이동속도 50% 상승/n"/>
+		</Subject>
+	</buff>
+	<buff id="43" name="Sanctus" buffExp="상투스" imageName="icon\def\skillDef\ico_skil_cleric_ab19.dds" smallImageName="icon\def\skillDef\ico_skil_cleric_ab19_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="2046" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000상투스^@/n물리방어력과 마법방어력이 상승했습니다../n/n/n^#ffff001Lv : 물리방어력 및 마법방어력 5% 상승/n"/>
+		</Subject>
+	</buff>
+	<buff id="44" name="BodyPurify" buffExp="육체정화" imageName="icon\def\skillDef\ico_buff_fighter_limitbreaker01.dds" smallImageName="icon\def\skillDef\ico_buff_fighter_limitbreaker01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="육체정화"/>
+		</Subject>
+	</buff>
+	<buff id="45" name="MindPurify" buffExp="정신정화" imageName="icon\def\skillDef\ico_buff_fighter_limitbreaker01.dds" smallImageName="icon\def\skillDef\ico_buff_fighter_limitbreaker01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="정신정화"/>
+		</Subject>
+	</buff>
+	<buff id="10001" name="HealthySteak" buffExp="헬씨 스테이크" imageName="icon\def\itemDef\ico_buff_dish_meat01.dds" smallImageName="icon\def\itemDef\ico_buff_dish_meat01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00헬씨 스테이크(버프)^@/n헬씨 스테이크를 먹었다./n/n/n^#ffff001Lv : 건강이 3 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10002" name="SpiritDessert" buffExp="스피릿 디저트" imageName="icon\def\itemDef\ico_buff_dish_fruit01.dds" smallImageName="icon\def\itemDef\ico_buff_dish_fruit01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00스피릿 디저트(버프)^@/n스피릿 디저트를 먹었다./n/n/n^#ffff001Lv : 정신이 3 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10003" name="CreativeSalad" buffExp="크리에이티브 샐러드" imageName="icon\def\itemDef\ico_buff_dish_grass01.dds" smallImageName="icon\def\itemDef\ico_buff_dish_grass01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00크리에이티브 샐러드(버프)^@/n크리에이티브 샐러드를 먹었다./n/n/n^#ffff001Lv : 창의력이 3 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10004" name="PowerupSteak" buffExp="파워업 스테이크" imageName="icon\def\itemDef\ico_buff_dish_meat01.dds" smallImageName="icon\def\itemDef\ico_buff_dish_meat01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00파워업 스테이크(버프)^@/n파워업 스테이크를 먹었다./n/n/n^#ffff001Lv : 힘이 5 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10005" name="QuickRoastRip" buffExp="퀵 로스트 립" imageName="icon\def\itemDef\ico_buff_dish_meat01.dds" smallImageName="icon\def\itemDef\ico_buff_dish_meat01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00퀵 로스트 립(버프)^@/n퀵 로스트 립을 먹었다./n/n/n^#ffff001Lv : 민첩이 5 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10006" name="ZeroRangeCutlet" buffExp="제로 레인지 커틀렛" imageName="icon\def\itemDef\ico_buff_dish_meat01.dds" smallImageName="icon\def\itemDef\ico_buff_dish_meat01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000제로 레인지 커틀렛(디버프)^@/n제로 레인지 커틀렛을 먹었다./n/n/n^#ffff001Lv : 적의 범위가 0이 된다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10007" name="HealthyQuickCutlet" buffExp="헬씨 퀵 커틀렛" imageName="icon\def\itemDef\ico_buff_dish_meat01.dds" smallImageName="icon\def\itemDef\ico_buff_dish_meat01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00헬씨 퀵 커틀렛(버프)^@/n헬씨 퀵 커틀렛을 먹었다./n/n/n^#ffff001Lv : 민첩이 3, 건강이 3 이 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10008" name="DehealthySalad" buffExp="디헬씨 샐러드" imageName="icon\def\itemDef\ico_buff_dish_grass01.dds" smallImageName="icon\def\itemDef\ico_buff_dish_grass01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000디헬씨 샐러드(디버프)^@/n디헬씨 샐러드를 먹었다./n/n/n^#ffff001Lv : 3초마다 HP 6이 감소한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10009" name="AttentionSalad" buffExp="어텐션 샐러드" imageName="icon\def\itemDef\ico_buff_dish_grass01.dds" smallImageName="icon\def\itemDef\ico_buff_dish_grass01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00어텐션 샐러드(버프)^@/n어텐션 샐러드를 먹었다./n/n/n^#ffff001Lv : 주의력이 5 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10010" name="SensibleSalad" buffExp="센서블 샐러드" imageName="icon\def\itemDef\ico_buff_dish_grass01.dds" smallImageName="icon\def\itemDef\ico_buff_dish_grass01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00센서블 샐러드(버프)^@/n센서블 샐러드를 먹었다./n/n/n^#ffff001Lv : 이해력이 5 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10011" name="PracticalPickle" buffExp="프레티컬 피클" imageName="icon\def\itemDef\ico_buff_dish_grass01.dds" smallImageName="icon\def\itemDef\ico_buff_dish_grass01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00프레티컬 피클(버프)^@/n프레티컬 피클을 먹었다./n/n/n^#ffff001Lv : 활용력이 5 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10012" name="MagicalDessert" buffExp="매지컬 디저트" imageName="icon\def\itemDef\ico_buff_dish_fruit01.dds" smallImageName="icon\def\itemDef\ico_buff_dish_fruit01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00매지컬 디저트(버프)^@/n매지컬 디저트를 먹었다./n/n/n^#ffff001Lv : 지능이 5 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10013" name="MagicalSpiritDessert" buffExp="매지컬 스피릿 디저트" imageName="icon\def\itemDef\ico_buff_dish_fruit01.dds" smallImageName="icon\def\itemDef\ico_buff_dish_fruit01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00매지컬 스피릿 디저트(버프)^@/n매지컬 스피릿 디저트를 먹었다./n/n/n^#ffff001Lv : 정신력 3, 지능이 3 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10014" name="SaltySpiritDessert" buffExp="솔티 스피릿 디저트" imageName="icon\def\itemDef\ico_buff_dish_fruit01.dds" smallImageName="icon\def\itemDef\ico_buff_dish_fruit01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00솔티 스피릿 디저트(버프)^@/n솔티 스피릿 디저트를 먹었다./n/n/n^#ffff001Lv : 정신력이 5 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10015" name="ZeroTargetFruitDessert" buffExp="제로 타겟 후르츠 디저트" imageName="icon\def\itemDef\ico_buff_dish_fruit01.dds" smallImageName="icon\def\itemDef\ico_buff_dish_fruit01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000제로 타겟 후르츠 디저트(디버프)^@/n제로 타겟 후르츠 디저트를 먹었다./n/n/n^#ffff001Lv : 물리 공격 명중률이 - 10 %가 된다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10016" name="PracticalChilliPickle" buffExp="프레티컬 칠리 피클" imageName="icon\def\itemDef\ico_buff_dish_mix01.dds" smallImageName="icon\def\itemDef\ico_buff_dish_mix01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00프레티컬 칠리 피클(버프)^@/n프레티컬 칠리 피클을 먹었다./n/n/n^#ffff001Lv : 이해력이 4, 활용력 4 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10017" name="HealthyPowerupStew" buffExp="헬씨 파워업 스튜" imageName="icon\def\itemDef\ico_buff_dish_mix02.dds" smallImageName="icon\def\itemDef\ico_buff_dish_mix02_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00헬씨 파워업 스튜(버프)^@/n헬씨 파워업 스튜를 먹었다./n/n/n^#ffff001Lv : 힘이 4, 건강이 4 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10018" name="MagiciansDessert" buffExp="매지션즈 디저트" imageName="icon\def\itemDef\ico_buff_dish_mix03.dds" smallImageName="icon\def\itemDef\ico_buff_dish_mix03_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00매지션즈 디저트(버프)^@/n매지션즈 디저트를 먹었다./n/n/n^#ffff001Lv : 정신 4, 지능이4 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10019" name="SpiritHealthySteak" buffExp="스피릿 헬씨 스테이크" imageName="icon\def\itemDef\ico_buff_dish_mix04.dds" smallImageName="icon\def\itemDef\ico_buff_dish_mix04_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00스피릿 헬씨 스테이크(버프)^@/n스피릿 헬씨 스테이크를 먹었다./n/n/n^#ffff001Lv : 건강이 4증가, 정신 4 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10020" name="SkillupFruitSalad" buffExp="스킬업 후르츠 샐러드" imageName="icon\def\itemDef\ico_buff_dish_mix05.dds" smallImageName="icon\def\itemDef\ico_buff_dish_mix05_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00스킬업 후르츠 샐러드(버프)^@/n스킬업 후르츠 샐러드를 먹었다./n/n/n^#ffff001Lv : 지능이 4 증가, 솜씨가 4 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10021" name="SkillupSteakSalad" buffExp="스킬업 스테이크 샐러드" imageName="icon\def\itemDef\ico_buff_dish_mix06.dds" smallImageName="icon\def\itemDef\ico_buff_dish_mix06_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00스킬업 스테이크 샐러드(버프)^@/n스킬업 스테이크 샐러드를 먹었다./n/n/n^#ffff001Lv : 솜씨가 4 증가, 민첩이 4 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10022" name="DefenceGreenTea" buffExp="디펜스 그린티 " imageName="icon\def\itemDef\ico_buff_tea_greentea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_greentea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00디펜스 그린티(버프)^@/n디펜스 그린티를 가슴 방어구에 적셨다./n/n/n^#ffff001Lv : 물리 방어력이 30 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10023" name="ShadowGreenTea" buffExp="쉐도우 그린티 " imageName="icon\def\itemDef\ico_buff_tea_greentea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_greentea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00쉐도우 그린티(버프)^@/n쉐도우 그린티를 가슴 방어구에 적셨다./n/n/n^#ffff001Lv : 명중감소도가 100 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10024" name="ChampionRedTea" buffExp="챔피온 레드티 " imageName="icon\def\itemDef\ico_buff_tea_redtea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_redtea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00챔피온 레드티(버프)^@/n챔피온 레드티를 무기에 적셨다./n/n/n^#ffff001Lv : 물리 공격력 20 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10025" name="ArcherRedTea" buffExp="아쳐 레드티 " imageName="icon\def\itemDef\ico_buff_tea_redtea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_redtea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00아쳐 레드티(버프)^@/n아쳐 레드티를 무기구에 적셨다./n/n/n^#ffff001Lv : 명중가 200 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10026" name="HotEnergyBlackTea" buffExp="핫 에너지 블랙티 " imageName="icon\def\itemDef\ico_buff_tea_blacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_blacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00핫 에너지 블랙티(버프)^@/n핫 에너지 블랙티를 마셨다./n/n/n^#ffff001Lv : 3초마다 HP 50 회복된다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10027" name="HotSpiritBlackTea" buffExp="핫 스피릿 블랙티 " imageName="icon\def\itemDef\ico_buff_tea_blacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_blacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00핫 스피릿 블랙티(버프)^@/n핫 스피릿 블랙티를 마셨다./n/n/n^#ffff001Lv : SP/MP 회복률이 50% 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10028" name="ComboFighterRedTea" buffExp="콤보 파이터 레드티 " imageName="icon\def\itemDef\ico_buff_tea_mixredtea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixredtea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00콤보 파이터 레드티(버프)^@/n콤보 파이터 레드티를 무기에 적셨다./n/n/n^#ffff001Lv : 일반 공격 시 콤보게이지가 1 추가 상승한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10029" name="StreamFighterRedTea" buffExp="스트림 파이터 레드티 " imageName="icon\def\itemDef\ico_buff_tea_mixredtea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixredtea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00스트림 파이터 레드티(버프)^@/n스트림 파이터 레드티를 무기에 적셨다./n/n/n^#ffff001Lv : 일반 공격 시 스트림게이지가 1 추가 상승한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10030" name="HotShadowDefenceGreenTea" buffExp="핫 쉐도우 디펜스 그린티 " imageName="icon\def\itemDef\ico_buff_tea_mixgreentea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixgreentea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00탑 디펜스 그린티(버프)^@/n탑 디펜스 그린티를 머리 방어구에 적셨다./n/n/n^#ffff001Lv : 물리 방어력이 20 증가, 명중감소도가 50 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10031" name="IceShadowDefenceGreenTea" buffExp="아이스 쉐도우 디펜스 그린티 " imageName="icon\def\itemDef\ico_buff_tea_mixgreentea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixgreentea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00레그 디펜스 그린티(버프)^@/n레그 디펜스 그린티를 다리 방어구에 적셨다./n/n/n^#ffff001Lv : 물리 방어력 15 증가 명중감소도 80 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10032" name="HotSpiritAssaultBlackTea" buffExp="핫 스피릿 어설트 블랙티 " imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00핫 스피드 블랙티(버프)^@/n핫 스피드 블랙티를 마셨다./n/n/n^#ffff001Lv : 공격속도가 10% 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10033" name="IceEnergyMakerBlackTea" buffExp="아이스 에너지 메이커 블랙티 " imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00파워 에너지 블랙티(버프)^@/n파워 에너지 블랙티를 마셨다./n/n/n^#ffff001Lv : 가공 성공률이 1%, 제작 성공률이 1% 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10034" name="HotEnergyMakerBlackTea" buffExp="핫 에너지 메이커 블랙티 " imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00에너지 메이커 블랙티(버프)^@/n에너지 메이커 블랙티를 마셨다./n/n/n^#ffff001Lv : 수집 추가 획득률과 가공 추가 획득률이 5% 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10035" name="IceSpiritMakerBlackTea" buffExp="아이스 스피릿 메이커 블랙티 " imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00스피릿 메이커 블랙티(버프)^@/n스피릿 메이커 블랙티를 마셨다./n/n/n^#ffff001Lv : SP/MP 최대치가 30% 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10036" name="SpiritSkillUpBlackTea" buffExp="스피릿 스킬업 블랙티 " imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00스피릿 스킬업 블랙티(버프)^@/n스피릿 스킬업 블랙티를 마셨다./n/n/n^#ffff001Lv : 스킬 시전 속도가 10% 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10037" name="EnergyBerserkerBlackTea" buffExp="에너지 버서커 블랙티 " imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00에너지 버서커 블랙티(버프)^@/n에너지 버서커 블랙티를 마셨다./n/n/n^#ffff001Lv : 크리티컬 확률이 10% 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10038" name="food_1" buffExp="스테이크" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00스테이크(버프)^@/n스테이크를 먹었다./n/n/n^#ffff001Lv : 명중력이 10 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10039" name="food_2" buffExp="립" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00립(버프)^@/n립을 먹었다./n/n/n^#ffff001Lv : 회피력이 10 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10040" name="food_3" buffExp="커틀렛" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00커틀렛(버프)^@/n커틀렛을 먹었다./n/n/n^#ffff001Lv : Max Hp가  20 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10041" name="food_4" buffExp="바비큐" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00바비큐(버프)^@/n바비큐를 먹었다./n/n/n^#ffff001Lv : Max Mp가  20 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10042" name="food_5" buffExp="샐러드" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00샐러드(버프)^@/n샐러드를 먹었다./n/n/n^#ffff001Lv : 물리 공격력이 2 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10043" name="food_6" buffExp="디저트" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00디저트(버프)^@/n디저트를 먹었다./n/n/n^#ffff001Lv : 마법 공격력이 2 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10044" name="food_7" buffExp="수프" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00수프(버프)^@/n수프를 먹었다./n/n/n^#ffff001Lv : 물리 방어력이 5 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10045" name="food_8" buffExp="피클" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00피클(버프)^@/n피클을 먹었다./n/n/n^#ffff001Lv : 마법 방어력이 5 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10046" name="food_9" buffExp="스테이크 샐러드" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00스테이크 샐러드(버프)^@/n스테이크 샐러드를 먹었다./n/n/n^#ffff001Lv : 물리 공격력이 2 증가하고, 명중력이 10 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10047" name="food_10" buffExp="립 샐러드" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00립 샐러드(버프)^@/n립 샐러드를 먹었다./n/n/n^#ffff001Lv : 물리 공격력이 2 증가하고, 회피력이 10 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10048" name="food_11" buffExp="커틀렛 샐러드" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00커틀렛 샐러드(버프)^@/n커틀렛 샐러드를 먹었다./n/n/n^#ffff001Lv : 물리 공격력이 2 증가하고, Max Hp가  20 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10049" name="food_12" buffExp="스테이크 디저트" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00스테이크 디저트(버프)^@/n스테이크 디저트를 먹었다./n/n/n^#ffff001Lv : 마법 공격력이 2 증가하고, 명중력이 10 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10050" name="food_13" buffExp="립 디저트" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00립 디저트(버프)^@/n립 디저트를 먹었다./n/n/n^#ffff001Lv : 마법 공격력이 2 증가하고, 회피력이 10 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10051" name="food_14" buffExp="바비큐 디저트" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00바비큐 디저트(버프)^@/n바비큐 디저트를 먹었다./n/n/n^#ffff001Lv : 마법 공격력이 2 증가하고, Max Mp가  20 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10052" name="food_15" buffExp="스테이크 수프" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00스테이크 수프(버프)^@/n스테이크 수프를 먹었다./n/n/n^#ffff001Lv : 물리 방어력이 5 증가하고, 명중력이 10 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10053" name="food_16" buffExp="립 수프" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00립 수프(버프)^@/n립 수프를 먹었다./n/n/n^#ffff001Lv : 물리 방어력이 5 증가하고, 회피력이 10 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10054" name="food_17" buffExp="커틀렛 수프" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00커틀렛 수프(버프)^@/n커틀렛 수프를 먹었다./n/n/n^#ffff001Lv : 물리 방어력이 5 증가하고, Max Hp가  20 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10055" name="food_18" buffExp="스테이크 피클" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00스테이크 피클(버프)^@/n스테이크 피클을 먹었다./n/n/n^#ffff001Lv : 마법 방어력이 5 증가하고, 명중력이 10 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10056" name="food_19" buffExp="립 피클" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00립 피클(버프)^@/n립 피클을 먹었다./n/n/n^#ffff001Lv : 마법 방어력이 5 증가하고, 회피력이 10 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10057" name="food_20" buffExp="바비큐 피클" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00바비큐 피클(버프)^@/n바비큐 피클을 먹었다./n/n/n^#ffff001Lv : 마법 방어력이 5 증가하고, Max Mp가  20 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10058" name="food_21" buffExp="찹 스테이크" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00찹 스테이크(버프)^@/n찹 스테이크를 먹었다./n/n/n^#ffff001Lv : 명중력이 20 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10059" name="food_22" buffExp="로스트 립" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00로스트 립(버프)^@/n로스트 립을 먹었다./n/n/n^#ffff001Lv : 회피력이 20 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10060" name="food_23" buffExp="포크 커틀렛" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00포크 커틀렛(버프)^@/n포크 커틀렛을 먹었다./n/n/n^#ffff001Lv : Max Hp가  40 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10061" name="food_24" buffExp="베이컨 바비큐" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00베이컨 바비큐(버프)^@/n베이컨 바비큐를 먹었다./n/n/n^#ffff001Lv : Max Mp가  40 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10062" name="food_25" buffExp="후르츠 샐러드" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00후르츠 샐러드(버프)^@/n후르츠 샐러드를 먹었다./n/n/n^#ffff001Lv : 물리 공격력이 4 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10063" name="food_26" buffExp="후르츠 디저트" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00후르츠 디저트(버프)^@/n후르츠 디저트를 먹었다./n/n/n^#ffff001Lv : 마법 공격력이 4 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10064" name="food_27" buffExp="스튜" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00스튜(버프)^@/n스튜를 먹었다./n/n/n^#ffff001Lv : 물리 방어력이 10 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10065" name="food_28" buffExp="믹스 피클" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00믹스 피클(버프)^@/n믹스 피클을 먹었다./n/n/n^#ffff001Lv : 마법 방어력이 10 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10066" name="food_29" buffExp="찹 스테이크 후르츠 샐러드" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00찹 스테이크 후르츠 샐러드(버프)^@/n찹 스테이크 후르츠 샐러드를 먹었다./n/n/n^#ffff001Lv : 물리 공격력이 4 증가하고, 명중력이 20 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10067" name="food_30" buffExp="로스트 립 후르츠 샐러드" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00로스트 립 후르츠 샐러드(버프)^@/n로스트 립 후르츠 샐러드를 먹었다./n/n/n^#ffff001Lv : 물리 공격력이 4 증가하고, 회피력이 20 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10068" name="food_31" buffExp="포크 커틀렛 후르츠 샐러드" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00포크 커틀렛 후르츠 샐러드(버프)^@/n포크 커틀렛 후르츠 샐러드를 먹었다./n/n/n^#ffff001Lv : 물리 공격력이 4 증가하고, Max Hp가  40 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10069" name="food_32" buffExp="찹 스테이크 후르츠 디저트" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00찹 스테이크 후르츠 디저트(버프)^@/n찹 스테이크 후르츠 디저트를 먹었다./n/n/n^#ffff001Lv : 마법 공격력이 4 증가하고, 명중력이 20 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10070" name="food_33" buffExp="로스트 립 후르츠 디저트" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00로스트 립 후르츠 디저트(버프)^@/n로스트 립 후르츠 디저트를 먹었다./n/n/n^#ffff001Lv : 마법 공격력이 4 증가하고, 회피력이 20 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10071" name="food_34" buffExp="베이컨 바비큐 후르츠 디저트" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00베이컨 바비큐 후르츠 디저트(버프)^@/n베이컨 바비큐 후르츠 디저트를 먹었다./n/n/n^#ffff001Lv : 마법 공격력이 4 증가하고, Max Mp가  40 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10072" name="food_35" buffExp="찹 스테이크 스튜" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00찹 스테이크 스튜(버프)^@/n찹 스테이크 스튜를 먹었다./n/n/n^#ffff001Lv : 물리 방어력이 10 증가하고, 명중력이 20 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10073" name="food_36" buffExp="로스트 립 스튜" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00로스트 립 스튜(버프)^@/n로스트 립 스튜를 먹었다./n/n/n^#ffff001Lv : 물리 방어력이 10 증가하고, 회피력이 20 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10074" name="food_37" buffExp="포크 커틀렛 스튜" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00포크 커틀렛 스튜(버프)^@/n포크 커틀렛 스튜를 먹었다./n/n/n^#ffff001Lv : 물리 방어력이 10 증가하고, Max Hp가  40 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10075" name="food_38" buffExp="찹 스테이크 믹스 피클" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00찹 스테이크 믹스 피클(버프)^@/n찹 스테이크 믹스 피클을 먹었다./n/n/n^#ffff001Lv : 마법 방어력이 10 증가하고, 명중력이 20 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10076" name="food_39" buffExp="로스트 립 믹스 피클" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00로스트 립 믹스 피클(버프)^@/n로스트 립 믹스 피클을 먹었다./n/n/n^#ffff001Lv : 마법 방어력이 10 증가하고, 회피력이 20 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10077" name="food_40" buffExp="베이컨 바비큐 믹스 피클" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00베이컨 바비큐 믹스 피클(버프)^@/n베이컨 바비큐 믹스 피클을 먹었다./n/n/n^#ffff001Lv : 마법 방어력이 10 증가하고, Max Mp가  40 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10078" name="dringk_1" buffExp="그린티 라이프" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00그린티 라이프(버프)^@/n그린티 라이프를 먹었다./n/n/n^#ffff001Lv : hp 회복률이 5 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10079" name="dringk_2" buffExp="그린티 멘탈" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00그린티 멘탈(버프)^@/n그린티 멘탈을 마셨다./n/n/n^#ffff001Lv : mp 회복률이 5 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10080" name="dringk_3" buffExp="그린티 믹스" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00그린티 믹스(버프)^@/n그린티 믹스를 마셨다./n/n/n^#ffff001Lv : hp 회복률이 5 증가하고, mp 회복률이 5 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10081" name="dringk_4" buffExp="핫 그린티 라이프" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00핫 그린티 라이프(버프)^@/n핫 그린티 라이프를 마셨다./n/n/n^#ffff001Lv : hp 회복률이 10 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10082" name="dringk_5" buffExp="핫 그린티 멘탈" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00핫 그린티 멘탈(버프)^@/n핫 그린티 멘탈을 마셨다./n/n/n^#ffff001Lv : mp 회복률이 10 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10083" name="dringk_6" buffExp="핫 그린티 믹스" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00핫 그린티 믹스(버프)^@/n핫 그린티 믹스를 마셨다./n/n/n^#ffff001Lv : hp 회복률이 10 증가하고, mp 회복률이 10 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10084" name="dringk_7" buffExp="아이스 그린티 라이프" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00라이프 포션(버프)^@/n라이프 포션을 마셨다./n/n/n^#ffff001Lv : 라이프 포션 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10085" name="dringk_8" buffExp="아이스 그린티 멘탈" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00아이스 그린티 멘탈(버프)^@/n아이스 그린티 멘탈을 마셨다./n/n/n^#ffff001Lv : mp 회복률이 15 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10086" name="dringk_9" buffExp="아이스 그린티 믹스" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00아이스 그린티 믹스(버프)^@/n아이스 그린티 믹스를 마셨다./n/n/n^#ffff001Lv : hp 회복률이 15 증가하고, mp 회복률이 15 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10087" name="dringk_10" buffExp="후르츠 라이프" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00후르츠 라이프(버프)^@/n후르츠 라이프를 마셨다./n/n/n^#ffff001Lv : hp 회복률이 20 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10088" name="dringk_11" buffExp="후르츠 멘탈" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00후르츠 멘탈(버프)^@/n후르츠 멘탈을 마셨다./n/n/n^#ffff001Lv : mp 회복률이 20 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10089" name="dringk_12" buffExp="후르츠 믹스" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00후르츠 믹스(버프)^@/n후르츠 믹스를 마셨다./n/n/n^#ffff001Lv : hp 회복률이 20 증가하고, mp 회복률이 20 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10090" name="WashyLifeDringk" buffExp="묽은 라이프 드링크" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00묽은 라이프 드링크(버프)^@/n묽은 라이프 드링크를 먹었다./n/n/n^#ffff001Lv : 30초 동안 5초 마다 hp 가 40씩 회복 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10091" name="LifeDringk" buffExp="라이프 드링크" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00라이프 드링크(버프)^@/n라이프 드링크를 먹었다./n/n/n^#ffff001Lv : 30초 동안 5초 마다 hp 가 60씩 회복 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10092" name="CondensedLifeDringk" buffExp="농축 라이프 드링크" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00농축 라이프 드링크(버프)^@/n농축 라이프 드링크를 먹었다./n/n/n^#ffff001Lv : 30초 동안 5초 마다 hp 가 80씩 회복 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10093" name="HighCondensedLifeDringk" buffExp="고농축 라이프 드링크" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00고농축 라이프 드링크(버프)^@/n고농축 라이프 드링크를 먹었다./n/n/n^#ffff001Lv : 30초 동안 5초 마다 hp 가 6%씩 회복 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10094" name="WashyMentalDringk" buffExp="묽은 멘탈 드링크" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00묽은 멘탈 드링크(버프)^@/n묽은 멘탈 드링크를 먹었다./n/n/n^#ffff001Lv : 30초 동안 5초 마다 mp 가 40씩 회복 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10095" name="MentalDringk" buffExp="멘탈 드링크" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00멘탈 드링크(버프)^@/n멘탈 드링크를 먹었다./n/n/n^#ffff001Lv : 30초 동안 5초 마다 mp 가 60씩 회복 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10096" name="CondensedMentalDringk" buffExp="농축 멘탈 드링크" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00농축 멘탈 드링크(버프)^@/n농축 멘탈 드링크를 먹었다./n/n/n^#ffff001Lv : 30초 동안 5초 마다 mp 가 80씩 회복 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="10097" name="HighCondensedMentalDringk" buffExp="고농축 멘탈 드링크" imageName="icon\def\itemDef\ico_buff_tea_mixblacktea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_mixblacktea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00고농축 멘탈 드링크(버프)^@/n고농축 멘탈 드링크를 먹었다./n/n/n^#ffff001Lv : 30초 동안 5초 마다 mp 가 6%씩 회복 증가한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="20001" name="TolbocaCritical" buffExp="치명타" imageName="icon\def\skillDef\ico_debuff_undead01.dds" smallImageName="icon\def\skillDef\ico_debuff_undead01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="376" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000치명타(디버프)^@/n톨보카의 점프 공격을 받았다./n/n/n^#ffff001Lv : 1초마다 HP 50이 감소한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="20002" name="NospellerPolymorph" buffExp="박쥐 변이" imageName="icon\def\skillDef\ico_debuff_undead01.dds" smallImageName="icon\def\skillDef\ico_debuff_undead01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000박쥐 변이(디버프)^@/n박쥐로 변이되었다./n/n/n^#ffff001Lv : 변이된 대상은 공격불능상태로 이동 외에 아무 것도 할 수 없다./n"/>
+		</Subject>
+	</buff>
+	<buff id="20003" name="NospellerDisease" buffExp="흡혈 후유증" imageName="icon\def\skillDef\ico_debuff_undead01.dds" smallImageName="icon\def\skillDef\ico_debuff_undead01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000흡혈 후유증(디버프)^@/n세이람에게 피를 빨려 체력이 급격하게 소모된다./n/n/n^#ffff001Lv : 1초마다 HP 100이 감소한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="20004" name="HugaScrew" buffExp="롤링 펀치" imageName="icon\def\skillDef\ico_debuff_undead01.dds" smallImageName="icon\def\skillDef\ico_debuff_undead01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="376" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000롤링 펀치(디버프)^@/n질풍의 휴가에게 공격을 받았다./n/n/n^#ffff001Lv : 2초마다 100의 HP가 감소한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="20005" name="HugaRoar" buffExp="질풍의 포효" imageName="icon\def\skillDef\ico_debuff_stun01.dds" smallImageName="icon\def\skillDef\ico_debuff_stun01_s.dds" buffType="0" stun="1">
+		<buffState>
+			<evnet motionID="2180008"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000질풍의 포효(디버프)^@/n질풍의 휴가가 내지른 커다란 포효에 놀라 /n정신적으로도 육체적으로도 충격을 받은 상태./n/n/n^#ffff001Lv : 이동 불가 상태가 된다./n"/>
+		</Subject>
+	</buff>
+	<buff id="20006" name="RamboroBanana" buffExp="만족한 람보로" imageName="icon\def\skillDef\ico_debuff_fatness01.dds" smallImageName="icon\def\skillDef\ico_debuff_fatness01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000만족한 람보로(디버프)^@/n바나나를 충분히 먹었다./n/n/n^#ffff001Lv : 이 효과가 걸린 상태에서는 람보로가 바나나를 먹지 않는다./n"/>
+		</Subject>
+	</buff>
+	<buff id="20007" name="KronagBreath" buffExp="영원의 업화" imageName="icon\def\skillDef\ico_debuff_undead01.dds" smallImageName="icon\def\skillDef\ico_debuff_undead01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000영원의 업화(디버프)^@/n크로나그가 내뿜은 불꽃이 몸을 휘감고 있다./n/n/n^#ffff001Lv : 죽을 때까지 2초마다 HP 100이 감소한다./n크로나그의 둥지 내부에 있는 생명의 물에 몸을 담그면 효과가 해제된다./n"/>
+		</Subject>
+	</buff>
+	<buff id="20008" name="TolbocaPlasma2" buffExp="감전" imageName="icon\def\skillDef\ico_debuff_undead01.dds" smallImageName="icon\def\skillDef\ico_debuff_undead01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000감전(디버프)/n^@톨보카의 공격에 감전당했다./n/n/n^#ffff001Lv : 이동속도가 50% 감소한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="20009" name="TolbocaBerserk" buffExp="광포화" imageName="icon\def\skillDef\ico_debuff_undead01.dds" smallImageName="icon\def\skillDef\ico_debuff_undead01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00광포화(버프)/n^@톨보카가 광포화 되었다./n/n/n^#ffff001Lv : 물리공격력이 30% 상승한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="30001" name="CrokySkill" buffExp="분신술" imageName="icon\def\questDef\ico_buff_quest_conditionnormal01.dds" smallImageName="icon\def\questDef\ico_buff_quest_conditionnormal01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00분신술(버프)^@/n자신과 똑같이 생긴 분신을 불러내 조종합니다./n/n^#ffff001Lv : 크로키 3형제가 자신의 분신을 소환해 조종합니다."/>
+		</Subject>
+	</buff>
+	<buff id="30002" name="StinkShamaSkill" buffExp="지독한 냄새" imageName="icon\def\questDef\ico_debuff_quest_conditionbad01.dds" smallImageName="icon\def\questDef\ico_debuff_quest_conditionbad01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000지독한 냄새(디버프)^@/n지독한 냄새 때문에 구역질이 나서 체력이 저하한다./n/n^#ffff001Lv : 1초당 HP가 3씩 저하. '강력한 방향제'를 사용해야만 해제가 가능하다. "/>
+		</Subject>
+	</buff>
+	<buff id="30003" name="HoneyCoral" buffExp="꿀을 바른 산호" imageName="icon\def\questDef\ico_buff_quest_honeycoral01.dds" smallImageName="icon\def\questDef\ico_buff_quest_honeycoral01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000꿀을 바른 산호(디버프)^@/n마린비가 좋아하는 달콤한 꿀을 바른 산호./n/n^#ffff001Lv : 꿀을 바른 산호 생성 시, 약 5초간 마린비의 주의를 끈다."/>
+		</Subject>
+	</buff>
+	<buff id="30004" name="BigBanana" buffExp="유인" imageName="icon\def\questDef\ico_buff_quest_bigbanana01.dds" smallImageName="icon\def\questDef\ico_buff_quest_bigbanana01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000유인(디버프)^@/n거대한 바나나로 배고픈 링고들을 유인한다./n/n^#ffff001Lv : 일정시간동안 배고픈 링고들의 주의를 거대 바나나로 돌린다."/>
+		</Subject>
+	</buff>
+	<buff id="30005" name="WarmLunch" buffExp="따끈한 도시락" imageName="icon\def\questDef\ico_buff_quest_timer01.dds" smallImageName="icon\def\questDef\ico_buff_quest_timer01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00따끈한 도시락(버프)^@/n율라프가 만든 따끈한 도시락. 식어버리기 전에 배달하자./n/n^#ffff001Lv : 식어버리기 전에 배달해야 한다."/>
+		</Subject>
+	</buff>
+	<buff id="30006" name="GuardShout" buffExp="경비병의 고함" imageName="icon\def\questDef\ico_debuff_quest_conditionbad01.dds" smallImageName="icon\def\questDef\ico_debuff_quest_conditionbad01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000경비병의 고함(디버프)^@/n경비병의 우렁찬 고함소리. 이 소리를 들으면 겁에 질려 꼼짝도 못 한다./n/n^#ffff001Lv : 이 지속 효과 발동 시 깜짝 놀라서 들고 있던 산호를 떨어뜨린다."/>
+		</Subject>
+	</buff>
+	<buff id="30007" name="CalmOfMutoo" buffExp="침착함" imageName="icon\def\questDef\ico_buff_quest_conditionnormal01.dds" smallImageName="icon\def\questDef\ico_buff_quest_conditionnormal01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00침착함(버프)^@/n무투가 마음의 평정을 찾았지만, 언제 다시 겁에 질릴지 모른다./n/n^#ffff001Lv : 겁에 질린 무투를 진정시킨다."/>
+		</Subject>
+	</buff>
+	<buff id="30008" name="TemptationOfGrassroots" buffExp="풀뿌리의 유혹" imageName="icon\def\questDef\ico_buff_quest_conditiongood01.dds" smallImageName="icon\def\questDef\ico_buff_quest_conditiongood01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00풀뿌리의 유혹(버프)^@/n무투가 풀뿌리의 맛에 반해 따라온다./n/n^#ffff001Lv : 일정시간 동안 무투가 따라오게 한다."/>
+		</Subject>
+	</buff>
+	<buff id="30009" name="JisTime" buffExp="귀환" imageName="icon\def\questDef\ico_buff_quest_timer01.dds" smallImageName="icon\def\questDef\ico_buff_quest_timer01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00귀환(버프)^@/n지스 케건은 시간이 지나면 블루코랄로 돌아간다./n/n^#ffff001Lv : 일정 시간이 지나면 지스케건이 블루코랄로 돌아간다."/>
+		</Subject>
+	</buff>
+	<buff id="30010" name="FerityOfCarchari" buffExp="카칼리의 야성" imageName="icon\def\questDef\ico_buff_quest_conditiongood01.dds" smallImageName="icon\def\questDef\ico_buff_quest_conditiongood01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00카칼리의 야성(버프)^@/n마음에서 카칼리의 야성이 샘솟는다./n/n^#ffff001Lv : 전 능력치가 일정 시간동안 소량 상승한다."/>
+		</Subject>
+	</buff>
+	<buff id="30011" name="Nutrients" buffExp="산호 전용 영양제" imageName="icon\def\questDef\ico_buff_quest_nutrients01.dds" smallImageName="icon\def\questDef\ico_buff_quest_nutrients01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00산호 전용 영양제(버프)^@/n시들어버린 산호에 뿌리면 산호가 생생하게 변하는 영양을 농축한 영양제./n/n^#ffff001Lv : 30초 동안 시들어버린 산호가 영양을 흡수한다."/>
+		</Subject>
+	</buff>
+	<buff id="30012" name="BuffInkTime" buffExp="흐릿해지는 잉크" imageName="icon\def\questDef\ico_buff_quest_timer01.dds" smallImageName="icon\def\questDef\ico_buff_quest_timer01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00흐릿해지는 잉크(버프)^@/n발굴용품 목록 작성 시 사용한 괴짜 스쿠르족 발명가의 잉크. 이것으로 필기하고 일정 시간이 지나면 흐릿해져서 내용을 알아볼 수 없다./n/n^#ffff001Lv : 10분이 지나면 목록의 내용이 지워진다."/>
+		</Subject>
+	</buff>
+	<buff id="30013" name="PowerOfShauraz" buffExp="샤우라즈의 힘" imageName="icon\def\questDef\ico_buff_quest_conditiongood01.dds" smallImageName="icon\def\questDef\ico_buff_quest_conditiongood01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00샤우라즈의 힘(버프)^@/n몸에 샤우라즈의 강한 생명력이 샘솟는다./n/n^#ffff001Lv : 일정시간 동안 전 능력치가 소량 상승한다."/>
+		</Subject>
+	</buff>
+	<buff id="30014" name="TraditionAntidote" buffExp="카툼바 전통 해독제" imageName="icon\def\questDef\ico_buff_quest_traditionantidote01.dds" smallImageName="icon\def\questDef\ico_buff_quest_traditionantidote01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00카툼바 전통 해독제(버프)^@/n트럼블러의 독을 해제할 수 있는 유일한 해독제. 독으로 변해버리기 전에 배달해야 한다./n/n^#ffff001Lv : 10분이 지나면 해독제의 성분이 변질되어 독으로 변한다."/>
+		</Subject>
+	</buff>
+	<buff id="30015" name="BuffInsecticide" buffExp="해충 퇴치" imageName="icon\def\questDef\ico_buff_quest_dust01.dds" smallImageName="icon\def\questDef\ico_buff_quest_dust01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00해충 퇴치(버프)^@/n베이비 레모의 몸에 붙어 있는 해충들이 떨어져 나간다./n/n^#ffff001Lv : 베에비 레모의 몸에 붙어 있는 해충을 박멸한다."/>
+		</Subject>
+	</buff>
+	<buff id="30016" name="PineResinDust" buffExp="송진가루" imageName="icon\def\questDef\ico_buff_quest_dust01.dds" smallImageName="icon\def\questDef\ico_buff_quest_dust01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00송진가루(버프)^@/n손이 끈적해져서 작은 물건들이 손에 달라붙는다. 나무에서 솜털 잎사귀를 쉽게 채취할수 있다./n/n^#ffff001Lv : 나무에서 솜털 잎사귀를 채취할 수 있게 해 준다."/>
+		</Subject>
+	</buff>
+	<buff id="30017" name="HypnosisOfTrol" buffExp="트롤의 최면" imageName="icon\def\questDef\ico_debuff_quest_conditionbad01.dds" smallImageName="icon\def\questDef\ico_debuff_quest_conditionbad01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000트롤의 최면(디버프)^@/n트롤 툰다가 최면에 걸려 주위 사람을 동료로 생각하고 있다./n/n^#ffff001Lv : 트롤 툰다에게 최면을 걸어 자신을 동료로 착각하게 만든다."/>
+		</Subject>
+	</buff>
+	<buff id="30018" name="BuffSeafragrance" buffExp="바다향 차" imageName="icon\def\questDef\ico_buff_quest_oceantea01.dds" smallImageName="icon\def\questDef\ico_buff_quest_oceantea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00바다향 차(버프)^@/n펄메이드의 분노가 사라졌다./n/n^#ffff001Lv : 분노한 펄메이드의 분노를 풀어준다."/>
+		</Subject>
+	</buff>
+	<buff id="30019" name="Antprevention" buffExp="개미 방지" imageName="icon\def\questDef\ico_buff_quest_dust01.dds" smallImageName="icon\def\questDef\ico_buff_quest_dust01_s.dds" buffType="" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000개미 방지(디버프)^@/n개미가 싫어하는 약품이 잔뜩 묻어 있다./n/n^#ffff001Lv : 자이언트 움바에게 약품을 묻혀 초원에 약이 퍼지도록 한다."/>
+		</Subject>
+	</buff>
+	<buff id="30020" name="VisionOfPlateau" buffExp="고원의 시야" imageName="icon\def\questDef\ico_buff_quest_conditiongood01.dds" smallImageName="icon\def\questDef\ico_buff_quest_conditiongood01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00고원의 시야(버프)^@/n아주 작은 풀도 쉽게 찾을 수 있게 되었다./n/n^#ffff001Lv : 풀에서 얇은 찻잎을 찾을 수 있게 한다."/>
+		</Subject>
+	</buff>
+	<buff id="30021" name="DryTime" buffExp="건조 시간" imageName="icon\def\questDef\ico_buff_quest_timer01.dds" smallImageName="icon\def\questDef\ico_buff_quest_timer01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00건조 시간(버프)^@/n바람의 고원의 고대 풍차 주위에서 습기찬 찻잎을 말릴 수 있다./n/n/n^#ffff001Lv : 습기찬 찻잎을 말리는 시간을 체크한다."/>
+		</Subject>
+	</buff>
+	<buff id="30022" name="StartBuff" buffExp="시작버프" imageName="UIAlpha\UIAllNullAlpha.dds" smallImageName="UIAlpha\UIAllNullAlpha.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail=""/>
+		</Subject>
+	</buff>
+	<buff id="40001" name="StreamGaugeActive" buffExp="스트림 게이지" imageName="icon\def\etcDef\ico_buff_etc_streamguageactive01.dds" smallImageName="icon\def\etcDef\ico_buff_etc_streamguageactive01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00스트림 게이지(버프)^@/n대기 속에 흐르는 마나 스트림의 미약한 힘을 모아 한 순간 폭발적으로 방출한다./n/n/n^#ffff001Lv : 물리 공격력, 치명타, 치명타 증폭률 증가./n/n/n^#ffaa00 사용 직후 후유증이 있다."/>
+		</Subject>
+	</buff>
+	<buff id="40002" name="StreamGaugeSequela" buffExp="스트림 게이지 후유증" imageName="icon\def\skillDef\ico_debuff_undead01.dds" smallImageName="icon\def\skillDef\ico_debuff_undead01_s.dds" buffType="1" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000스트림 게이지 후유증(디버프)^@/n마나 스트림의 힘을 모두 폭발시켜 당분간은 다시 마나 스트림의 힘을 사용할 수 없게 된다./n/n/n^#ffff001Lv : 스트림 게이지를 사용할 수 없다. 최대 HP, SP/MP의 15%가 감소된다./n"/>
+		</Subject>
+	</buff>
+	<buff id="40003" name="Asphyxia" buffExp="질식" imageName="icon\def\skillDef\ico_debuff_undead01.dds" smallImageName="icon\def\skillDef\ico_debuff_undead01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="376" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000질식(디버프)^@/n물 속에서 오래있어 숨을 쉴수가 없다./n/n/n^#ffff001Lv : 1초마다 HP가 감소한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="40004" name="Dyspnea" buffExp="호흡곤란" imageName="icon\def\skillDef\ico_debuff_undead01.dds" smallImageName="icon\def\skillDef\ico_debuff_undead01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="376" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000호흡곤란(디버프)^@/n황사가 너무 심해 숨쉬기가 곤란한다./n/n/n^#ffff001Lv : 이동속도가 20%, 공격속도가 20%감소한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="40005" name="Poisoning" buffExp="중독" imageName="icon\def\skillDef\ico_debuff_undead01.dds" smallImageName="icon\def\skillDef\ico_debuff_undead01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="376" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000중독(디버프)^@/n몸에 독이 퍼졌다./n/n/n^#ffff001Lv : 1초마다 HP가 감소한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="40006" name="Vomiting" buffExp="구토" imageName="icon\def\skillDef\ico_debuff_undead01.dds" smallImageName="icon\def\skillDef\ico_debuff_undead01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0">
+				<effectKind effectID="376" effectOrder="start"/>
+			</evnet>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000구토(디버프)^@/n악취가 심해 구토를 멈출 수가 없다./n/n/n^#ffff001Lv : 이동속도 10%감소, 5초마다 HP가 감소한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="40007" name="Inn" buffExp="여관" imageName="icon\def\skillDef\ico_debuff_noviolence01.dds" smallImageName="icon\def\skillDef\ico_debuff_noviolence01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00여관(버프)^@/n편안한 여관에서 휴식을 취하여 LP가 회복된다./n/n/n^#ffff001Lv : 1초마다 LP가 회복된다./n"/>
+		</Subject>
+	</buff>
+	<buff id="40008" name="Invincibility" buffExp="무적 버프" imageName="icon\def\skillDef\ico_debuff_anger01.dds" smallImageName="icon\def\skillDef\ico_debuff_anger01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00무적(버프)^@/n사용하면 낙하데미지를 입지 않는다./n또한 몬스터에게도 데미지 입지 않는다./n"/>
+		</Subject>
+	</buff>
+	<buff id="40009" name="GrownUp" buffExp="성장" imageName="icon\def\itemDef\ico_buff_tea_greentea01.dds" smallImageName="icon\def\itemDef\ico_buff_tea_greentea01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00성장(버프)^@/n루저들도 위너가 될 수 있다./n일정확률로 난쟁이가 되기도 한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="40010" name="SpeedUp" buffExp="속도" imageName="icon\def\skillDef\ico_buff_thief_shadowwalk01.dds" smallImageName="icon\def\skillDef\ico_buff_thief_shadowwalk01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00비사이로 막가(버프)^@/n비 사이로 지나 갈 수 있는 능력 터득/n미친듯이 달려보자./n"/>
+		</Subject>
+	</buff>
+	<buff id="40011" name="DanceTime" buffExp="댄스" imageName="icon\def\questDef\ico_buff_quest_conditiongood01.dds" smallImageName="icon\def\questDef\ico_buff_quest_conditiongood01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00댄스 타임(버프)^@/n이 피리를 불면 주변 사람들과/n즐겁게 댄스 타임을 즐길 수 있다./n"/>
+		</Subject>
+	</buff>
+	<buff id="40012" name="KissTime" buffExp="키스" imageName="icon\def\skillDef\ico_debuff_redshoes01.dds" smallImageName="icon\def\skillDef\ico_debuff_redshoes01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00키스 타임(버프)^@/n상대에게 달려가 급키스 -3-"/>
+		</Subject>
+	</buff>
+	<buff id="40013" name="40013" buffExp="도플갱어" imageName="icon\def\skillDef\ico_debuff_diabolism01.dds" smallImageName="icon\def\skillDef\ico_debuff_diabolism01_s.dds" buffType="0" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#00ff00도플갱어(버프)^@/n나와 똑같은 분신을 여러명 만들어낸다."/>
+		</Subject>
+	</buff>
+	<buff id="60001" name="Rust" buffExp="부식" imageName="icon\def\skillDef\ico_debuff_rust01.dds" smallImageName="icon\def\skillDef\ico_debuff_rust01_s.dds" buffType="1" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000부식(디버프)^@/n장비가 부식되어 제 성능을 발휘하지 못하게 된다./n(인간형에게만 적용된다)/n/n^#ffff001Lv : 물리 공격력 5% 물리 방어력 5% 저하된다./n"/>
+			<SubjectList subjectLevel="2" detail="^#ff0000부식(디버프)^@/n장비가 부식되어 제 성능을 발휘하지 못하게 된다./n(인간형에게만 적용된다)/n/n^#ffff002Lv : 물리 공격력 10% 물리 방어력 10% 저하된다./n"/>
+			<SubjectList subjectLevel="3" detail="^#ff0000부식(디버프)^@/n장비가 부식되어 제 성능을 발휘하지 못하게 된다./n(인간형에게만 적용된다)/n/n^#ffff003Lv : 물리 공격력 15% 물리 방어력 15% 저하된다./n"/>
+		</Subject>
+	</buff>
+	<buff id="60002" name="Anger" buffExp="분노" imageName="icon\def\skillDef\ico_debuff_anger01.dds" smallImageName="icon\def\skillDef\ico_debuff_anger01_s.dds" buffType="1" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000분노(디버프)^@/n분노로 이성을 잃고 무차별 공격을 하게 된다./n/n/n^#ffff001Lv : 물리 공격력 5% 물리 명중률 10% 저하된다./n"/>
+			<SubjectList subjectLevel="2" detail="^#ff0000분노(디버프)^@/n분노로 이성을 잃고 무차별 공격을 하게 된다./n/n/n^#ffff002Lv : 물리 공격력 10% 물리 명중률 15% 저하된다./n"/>
+			<SubjectList subjectLevel="3" detail="^#ff0000분노(디버프)^@/n분노로 이성을 잃고 무차별 공격을 하게 된다./n/n/n^#ffff003Lv : 물리 공격력 15% 물리 명중률 20% 저하된다./n"/>
+		</Subject>
+	</buff>
+	<buff id="60003" name="Undead" buffExp="언데드" imageName="icon\def\skillDef\ico_debuff_undead01.dds" smallImageName="icon\def\skillDef\ico_debuff_undead01_s.dds" buffType="1" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000언데드(디버프)^@/n저주를 받아 몸이 시체처럼 된다./n/n/n^#ffff001Lv : 대미지를 1/2만 받는다./n이동속도가 10% 저하된다./nHP와 MP가 회복되지 않는다./n회복 스킬을 받으면 체력이 감소한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="60004" name="Diabolism" buffExp="악마주의" imageName="icon\def\skillDef\ico_debuff_diabolism01.dds" smallImageName="icon\def\skillDef\ico_debuff_diabolism01_s.dds" buffType="1" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000악마주의(디버프)^@/n신앙을 잃고 신을 부정한다./n/n/n^#ffff001Lv : 회복 스킬의 효과를 받지 못한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="60005" name="Amnesia" buffExp="기억상실" imageName="icon\def\skillDef\ico_debuff_amnesia01.dds" smallImageName="icon\def\skillDef\ico_debuff_amnesia01_s.dds" buffType="1" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000기억상실(디버프)^@/n스킬과 아이템의 사용법을 잊어버린다./n/n/n^#ffff001Lv : 스킬, 아이템 사용 불가"/>
+		</Subject>
+	</buff>
+	<buff id="60006" name="Fatness" buffExp="비만" imageName="icon\def\skillDef\ico_debuff_fatness01.dds" smallImageName="icon\def\skillDef\ico_debuff_fatness01_s.dds" buffType="1" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000비만(디버프)^@/n지나치게 살이 쪄서 움직이기 어렵다./n/n/n^#ffff001Lv : 30분간 HP 최대치 + 10% 이동 속도 10 % 저하된다./n물리 공격 명중률 3 % 저하된다./n"/>
+			<SubjectList subjectLevel="2" detail="^#ff0000비만(디버프)^@/n지나치게 살이 쪄서 움직이기 어렵다./n/n/n^#ffff002Lv : 30분간 HP 최대치 + 15% 이동 속도 20 % 저하된다./n물리 공격 명중률 4 % 저하된다./n"/>
+			<SubjectList subjectLevel="3" detail="^#ff0000비만(디버프)^@/n지나치게 살이 쪄서 움직이기 어렵다./n/n/n^#ffff003Lv : 30분간 HP 최대치 + 20% 이동 속도 30 % 저하된다./n물리 공격 명중률 5 % 저하된다./n"/>
+		</Subject>
+	</buff>
+	<buff id="60007" name="Nonviolence" buffExp="비폭력" imageName="icon\def\skillDef\ico_debuff_noviolence01.dds" smallImageName="icon\def\skillDef\ico_debuff_noviolence01_s.dds" buffType="1" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000비폭력(디버프)^@/n비폭력주의가 되어 공격을 할 수 없다./n/n/n^#ffff001Lv : 물리 공격과 공격 능력 스킬을 사용할 수 없게된다./n"/>
+		</Subject>
+	</buff>
+	<buff id="60008" name="RedShoes" buffExp="빨간구두" imageName="icon\def\skillDef\ico_debuff_redshoes01.dds" smallImageName="icon\def\skillDef\ico_debuff_redshoes01_s.dds" buffType="1" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000빨간구두(디버프)^@/n캐릭터의 의지와는 상관없이 질주하게 된다./n/n/n^#ffff001Lv : 정면방향으로 달리기 이동을 한다./n"/>
+		</Subject>
+	</buff>
+	<buff id="60009" name="Distortion" buffExp="염좌" imageName="icon\def\skillDef\ico_debuff_undead01.dds" smallImageName="icon\def\skillDef\ico_debuff_undead01_s.dds" buffType="1" stun="0">
+		<buffState>
+			<evnet motionID="0"/>
+		</buffState>
+		<Subject>
+			<SubjectList subjectLevel="0" detail=""/>
+			<SubjectList subjectLevel="1" detail="^#ff0000염좌(디버프)^@/n팔을 삐어 수집 활동을 할 수 없다./n/n/n^#ffff001Lv : 해당 지속 효과가 지속될 때 사망하면 수집품의 등급이 떨어진다(혹은 채집물이 나오지 않는다) "/>
+		</Subject>
+	</buff>
+</BuffInfo>

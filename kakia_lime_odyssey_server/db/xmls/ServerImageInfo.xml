@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by .. (..) -->
+<ImageMessage>
+	<Image id="1" image="UITutor\Tutor_full_01.dds" uiType="1"/>
+	<Image id="2" image="UITutor\Tutor_full_02.dds" uiType="1"/>
+	<Image id="10001" image="UITutor\Tutor_hum_img_01.dds" uiType="0"/>
+	<Image id="10002" image="UITutor\Tutor_hum_img_02.dds" uiType="0"/>
+	<Image id="10003" image="UITutor\Tutor_hum_img_03.dds" uiType="0"/>
+	<Image id="10004" image="UITutor\Tutor_hum_img_04.dds" uiType="0"/>
+	<Image id="10005" image="UITutor\Tutor_hum_img_05.dds" uiType="0"/>
+	<Image id="10006" image="UITutor\Tutor_hum_img_06.dds" uiType="0"/>
+	<Image id="10007" image="UITutor\Tutor_hum_img_07.dds" uiType="0"/>
+	<Image id="10008" image="UITutor\Tutor_hum_img_08.dds" uiType="0"/>
+	<Image id="10009" image="UITutor\Tutor_hum_img_09.dds" uiType="0"/>
+	<Image id="20001" image="UITutor\Tutor_tur_img_01.dds" uiType="0"/>
+	<Image id="20002" image="UITutor\Tutor_tur_img_02.dds" uiType="0"/>
+	<Image id="20003" image="UITutor\Tutor_tur_img_03.dds" uiType="0"/>
+	<Image id="20004" image="UITutor\Tutor_tur_img_04.dds" uiType="0"/>
+	<Image id="20005" image="UITutor\Tutor_tur_img_05.dds" uiType="0"/>
+	<Image id="20006" image="UITutor\Tutor_tur_img_06.dds" uiType="0"/>
+	<Image id="20007" image="UITutor\Tutor_tur_img_07.dds" uiType="0"/>
+	<Image id="20008" image="UITutor\Tutor_tur_img_08.dds" uiType="0"/>
+	<Image id="20009" image="UITutor\Tutor_tur_img_09.dds" uiType="0"/>
+	<Image id="30001" image="UITutor\Tutor_pam_img_01.dds" uiType="0"/>
+	<Image id="30002" image="UITutor\Tutor_pam_img_02.dds" uiType="0"/>
+	<Image id="30003" image="UITutor\Tutor_pam_img_03.dds" uiType="0"/>
+	<Image id="30004" image="UITutor\Tutor_pam_img_04.dds" uiType="0"/>
+	<Image id="30005" image="UITutor\Tutor_pam_img_05.dds" uiType="0"/>
+	<Image id="30006" image="UITutor\Tutor_pam_img_06.dds" uiType="0"/>
+	<Image id="30007" image="UITutor\Tutor_pam_img_07.dds" uiType="0"/>
+	<Image id="30008" image="UITutor\Tutor_pam_img_08.dds" uiType="0"/>
+	<Image id="30009" image="UITutor\Tutor_pam_img_09.dds" uiType="0"/>
+</ImageMessage>

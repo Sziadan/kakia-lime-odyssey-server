@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by 최의동 (EMBRACE) -->
+<Root>
+	<Type typeID="0" typeName="^#00ffff모든종족">
+		<Race typeID="0"/>
+		<Race typeID="1"/>
+		<Race typeID="2"/>
+	</Type>
+	<Type typeID="1" typeName="^#00ffff팜전용">
+		<Race typeID="0"/>
+	</Type>
+	<Type typeID="2" typeName="^#00ffff휴먼전용">
+		<Race typeID="1"/>
+	</Type>
+	<Type typeID="3" typeName="^#00ffff트루가전용">
+		<Race typeID="2"/>
+	</Type>
+</Root>
