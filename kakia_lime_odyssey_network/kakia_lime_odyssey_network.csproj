@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\kakia_lime_odyssey_logging\kakia_lime_odyssey_logging.csproj" />
+    <ProjectReference Include="..\kakia_lime_odyssey_packets\kakia_lime_odyssey_packets.csproj" />
+  </ItemGroup>
+
+</Project>

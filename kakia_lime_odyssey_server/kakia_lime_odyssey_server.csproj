@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\kakia_lime_odyssey_logging\kakia_lime_odyssey_logging.csproj" />
+    <ProjectReference Include="..\kakia_lime_odyssey_network\kakia_lime_odyssey_network.csproj" />
+    <ProjectReference Include="..\kakia_lime_odyssey_utils\kakia_lime_odyssey_utils.csproj" />
+  </ItemGroup>
+
+</Project>
