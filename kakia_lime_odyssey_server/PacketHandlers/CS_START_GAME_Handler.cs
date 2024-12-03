@@ -4,6 +4,7 @@ using kakia_lime_odyssey_network.Handler;
 using kakia_lime_odyssey_network.Interface;
 using kakia_lime_odyssey_packets;
 using kakia_lime_odyssey_packets.Packets.CS;
+using kakia_lime_odyssey_packets.Packets.Enums;
 using kakia_lime_odyssey_packets.Packets.Models;
 using kakia_lime_odyssey_packets.Packets.SC;
 using kakia_lime_odyssey_server.Database;
@@ -74,10 +75,45 @@ class CS_START_GAME_Handler : PacketHandler
 			pw.Write(sc_enter_zone);
 			client.Send(pw.ToPacket(), default).Wait();
 		}
-		
 
-		// FIX THESE
+
+		// TODO: FIX THESE
 		client.SendInventory();
 		client.SendEquipment();
+
+		// POC quests (added just to have something in the quest list)
+		SC_QUEST_LIST questList = new()
+		{
+			completedMain = 0,
+			completedSub = 0,
+			completedNormal = 0,
+			details = new()
+			{
+				new QuestDetails()
+				{
+					questId = 203101190,
+					questState = QUEST_STATE.QUEST_STATE_PROGRESSING,
+					questDescription = "Try to play the game."
+				},
+				new QuestDetails()
+				{
+					questId = 203101300,
+					questState = QUEST_STATE.QUEST_STATE_PROGRESSING,
+					questDescription = "Try to play the game."
+				},
+				new QuestDetails()
+				{
+					questId = 203101360,
+					questState = QUEST_STATE.QUEST_STATE_PROGRESSING,
+					questDescription = "Try to play the game."
+				}
+			}
+		};
+
+		using (PacketWriter pw = new(client.GetClientRevision() == 345))
+		{
+			pw.Write(questList);
+			client.Send(pw.ToSizedPacket(), default).Wait();
+		}
 	}
 }

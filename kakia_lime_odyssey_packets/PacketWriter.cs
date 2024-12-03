@@ -130,6 +130,24 @@ public class PacketWriter : BinaryWriter
 		Write((byte)0);
 	}
 
+	public void Write(SC_QUEST_LIST sc_quest_list)
+	{
+		if (_rev345) WriteHeader(PacketType_REV345.SC_QUEST_LIST);
+		else WriteHeader(PacketType.SC_QUEST_LIST);
+
+		Write(sc_quest_list.details.Count);
+		Write(sc_quest_list.completedMain);
+		Write(sc_quest_list.completedSub);
+		Write(sc_quest_list.completedNormal);
+		foreach (var quest in sc_quest_list.details)
+		{
+			Write(quest.questId);
+			Write((byte)quest.questState);			
+			Write(Encoding.ASCII.GetBytes(quest.questDescription));
+			Write((byte)0);
+		}
+	}
+
 	public void FixAlign(int align = 4)
 	{
 		int padding = (int)(align - (this.BaseStream.Position % 4));
