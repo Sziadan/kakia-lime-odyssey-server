@@ -85,7 +85,6 @@ jobs:
     
     - name: Create win client archive
       run: Compress-Archive -Path kakia_lime_odyssey_server/bin/Release/net9.0/* -Destination kakia-lime-odyssey-emulator-win-x64.zip
-       cd /home/runner/work/kakia_lime_odyssey_server/bin/Release/net9.0/ && zip -r kakia-lime-odyssey-emulator-win-x64.zip *
       
     - name: Get current date
       id: date
