@@ -84,7 +84,7 @@ jobs:
       run: dotnet publish kakia_lime_odyssey_server/kakia_lime_odyssey_server.csproj -c Release -r win-x64 -p:PublishSingleFile=true -p:PublishTrimmed=true -p:PublishReadyToRun=false
     
     - name: Create win client archive
-      run: Compress-Archive -Path kakia_lime_odyssey_server/bin/Release/net9.0/win-64/publish/* -Destination kakia-lime-odyssey-emulator-win-x64.zip
+      run: Compress-Archive -Path kakia_lime_odyssey_server/bin/Release/net9.0/win-x64/publish/* -Destination kakia-lime-odyssey-emulator-win-x64.zip
       
     - name: Get current date
       id: date
