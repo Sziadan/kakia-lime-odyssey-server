@@ -80,7 +80,37 @@ jobs:
       env:
         Configuration: ${{ matrix.configuration }}
 
-    - name: Dotnet Publish
-      uses: EasyDesk/action-dotnet-publish@v1.0.0
+    - name: Publish win-x64
+      run: dotnet publish kakia_lime_odyssey_server/kakia_lime_odyssey_server.csproj -c Release -r win-x64 -p:PublishSingleFile=true -p:PublishTrimmed=true -p:PublishReadyToRun=false
+    
+    - name: Create win client archive
+      run: |
+       cd /home/runner/work/kakia_lime_odyssey_server/bin/Release/net9.0/win-x64/publish/ && zip -r kakia-lime-odyssey-emulator-win-x64.zip *
+      
+    - name: Get current date
+      id: date
+      run: echo "::set-output name=date::$(date +'%Y%m%d%H%M%S')"
+      
+    - name: Create Release
+      id: create_release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: release-${{ steps.date.outputs.date }}
+        release_name: Release ${{ steps.date.outputs.date }}
+        draft: false
+        prerelease: false
+      
+    - name: Upload Client win-x64 Asset
+      id: upload-release-client-win-asset 
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: /home/runner/work/kakia-lime-odyssey-server/kakia-lime-odyssey-server/kakia_lime_odyssey_server/bin/Release/net9.0/win-x64/publish/kakia-lime-odyssey-emulator-win-x64.zip
+        asset_name: client-win-x64.zip
+        asset_content_type: application/zip
 
           
