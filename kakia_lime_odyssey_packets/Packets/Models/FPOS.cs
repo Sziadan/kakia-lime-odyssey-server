@@ -27,6 +27,10 @@ public struct FPOS
 		};
 	}
 
+	public bool IsNaN()
+	{
+		return float.IsNaN(x) || float.IsNaN(y) || float.IsNaN(z);
+	}
 
 	public double CalculateDistance(FPOS destination)
 	{
@@ -75,7 +79,6 @@ public struct FPOS
 		};
 	}
 
-
 	public FPOS GetRandomPositionWithinRadius(double radius)
 	{
 		Random random = new Random();
@@ -102,5 +105,16 @@ public struct FPOS
 		return Math.Abs(x - other.x) < epsilon && 
 			   Math.Abs(y - other.y) < epsilon && 
 			   Math.Abs(z - other.z) < epsilon;
+	}
+
+	public FPOS CalculatePositionAtPercentage(FPOS destination, double percentage)
+	{
+		FPOS direction = CalculateDirection(destination); 
+		double distance = CalculateDistance(destination);
+		double distanceToTravel = distance * percentage;
+		return new FPOS { 
+			x = (float)(x + direction.x * distanceToTravel), 
+			y = (float)(y + direction.y * distanceToTravel), 
+			z = (float)(z + direction.z * distanceToTravel) }; 
 	}
 }

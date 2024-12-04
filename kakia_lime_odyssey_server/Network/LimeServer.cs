@@ -5,6 +5,7 @@ using kakia_lime_odyssey_packets.Packets.Models;
 using kakia_lime_odyssey_packets.Packets.SC;
 using kakia_lime_odyssey_server.Database;
 using kakia_lime_odyssey_server.Models;
+using kakia_lime_odyssey_server.Models.MonsterLogic;
 using kakia_lime_odyssey_server.Models.MonsterXML;
 using kakia_lime_odyssey_server.Models.SkillXML;
 using System.Runtime.InteropServices;

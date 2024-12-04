@@ -35,3 +35,10 @@ public class MOB : INPC
 		};
 	}
 }
+
+public enum MOB_STATE
+{
+	ROAMING,
+	CHASING,
+	ATTACKING
+};
