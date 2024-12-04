@@ -11,6 +11,7 @@ using kakia_lime_odyssey_server.Database;
 using kakia_lime_odyssey_server.Models;
 using kakia_lime_odyssey_server.Network;
 using kakia_lime_odyssey_utils.Extensions;
+using System;
 
 namespace kakia_lime_odyssey_server.PacketHandlers;
 
@@ -113,6 +114,43 @@ class CS_START_GAME_Handler : PacketHandler
 		using (PacketWriter pw = new(client.GetClientRevision() == 345))
 		{
 			pw.Write(questList);
+			client.Send(pw.ToSizedPacket(), default).Wait();
+		}
+
+		SC_SKILL_LIST skillList = new()
+		{
+			skills = new()
+			{
+				new()
+				{
+					typeID = 1,
+					level = 1,
+					remainCoolTime = 0
+				},
+				new()
+				{
+					typeID = 2,
+					level = 1,
+					remainCoolTime = 0
+				},
+				new()
+				{
+					typeID = 3,
+					level = 1,
+					remainCoolTime = 0
+				},
+				new()
+				{
+					typeID = 4,
+					level = 1,
+					remainCoolTime = 0
+				},
+			}
+		};
+
+		using (PacketWriter pw = new(client.GetClientRevision() == 345))
+		{
+			pw.Write(skillList);
 			client.Send(pw.ToSizedPacket(), default).Wait();
 		}
 	}

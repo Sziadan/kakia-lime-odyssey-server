@@ -148,6 +148,15 @@ public class PacketWriter : BinaryWriter
 		}
 	}
 
+	public void Write(SC_SKILL_LIST sc_skill_list)
+	{
+		if (_rev345) WriteHeader(PacketType_REV345.SC_SKILL_LIST);
+		else WriteHeader(PacketType.SC_SKILL_LIST);
+
+		foreach(var skill in sc_skill_list.skills)
+			Write(PacketConverter.AsBytes(skill));
+	}
+
 	public void FixAlign(int align = 4)
 	{
 		int padding = (int)(align - (this.BaseStream.Position % 4));

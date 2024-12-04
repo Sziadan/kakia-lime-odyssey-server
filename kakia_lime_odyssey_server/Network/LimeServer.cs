@@ -1,15 +1,12 @@
 ﻿using kakia_lime_odyssey_logging;
 using kakia_lime_odyssey_network;
-using kakia_lime_odyssey_network.Interface;
 using kakia_lime_odyssey_packets;
 using kakia_lime_odyssey_packets.Packets.Models;
 using kakia_lime_odyssey_packets.Packets.SC;
 using kakia_lime_odyssey_server.Database;
 using kakia_lime_odyssey_server.Models;
 using kakia_lime_odyssey_server.Models.MonsterXML;
-using Newtonsoft.Json.Linq;
-using System.Collections.Concurrent;
-using System.Net.NetworkInformation;
+using kakia_lime_odyssey_server.Models.SkillXML;
 using System.Runtime.InteropServices;
 
 namespace kakia_lime_odyssey_server.Network;
@@ -18,6 +15,7 @@ public class LimeServer : SocketServer
 {
 	public static List<XmlMonster> MonsterDB = new List<XmlMonster>();
 	public static List<Item> ItemDB = ItemInfo.GetItems();
+	public static List<XmlSkill> SkillDB = SkillInfo.GetSkills();
 
 	public List<PlayerClient> PlayerClients = new();
 	public Dictionary<uint, List<NPC>> Npcs = new();

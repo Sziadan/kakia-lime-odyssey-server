@@ -430,6 +430,7 @@ public class PlayerClient : IPlayerClient
 	public async Task Update(ulong tick)
 	{
 		ulong diff = tick - _lastTick;
+		return;
 
 		if (_inCombat && diff > 500)
 		{

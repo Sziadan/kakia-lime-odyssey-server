@@ -226,6 +226,7 @@ public class Monster : INPC
 
 	private bool IsPlayerWithinAggroZone(ReadOnlySpan<PlayerClient> playerClients)
 	{
+		return false;
 		int aggro_range = 150;
 
 		if (CurrentTarget != null)
