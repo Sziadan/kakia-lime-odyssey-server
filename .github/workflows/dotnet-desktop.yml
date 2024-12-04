@@ -50,7 +50,7 @@ jobs:
 
     strategy:
       matrix:
-        configuration: [Debug, Release]
+        configuration: [Release]
 
     runs-on: windows-latest  # For a list of available runner types, refer to
                              # https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on
@@ -85,7 +85,7 @@ jobs:
     
     - name: Create win client archive
       run: |
-       cd /home/runner/work/kakia_lime_odyssey_server/bin/Release/net9.0/win-x64/publish/ && zip -r kakia-lime-odyssey-emulator-win-x64.zip *
+       cd /home/runner/work/kakia_lime_odyssey_server/bin/Release/net9.0/ && zip -r kakia-lime-odyssey-emulator-win-x64.zip *
       
     - name: Get current date
       id: date
@@ -109,7 +109,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: /home/runner/work/kakia-lime-odyssey-server/kakia-lime-odyssey-server/kakia_lime_odyssey_server/bin/Release/net9.0/win-x64/publish/kakia-lime-odyssey-emulator-win-x64.zip
+        asset_path: /home/runner/work/kakia-lime-odyssey-server/kakia-lime-odyssey-server/kakia_lime_odyssey_server/bin/Release/net9.0/kakia-lime-odyssey-emulator-win-x64.zip
         asset_name: client-win-x64.zip
         asset_content_type: application/zip
 
