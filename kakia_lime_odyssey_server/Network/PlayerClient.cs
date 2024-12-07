@@ -3,16 +3,18 @@ using kakia_lime_odyssey_network;
 using kakia_lime_odyssey_network.Handler;
 using kakia_lime_odyssey_network.Interface;
 using kakia_lime_odyssey_packets;
+using kakia_lime_odyssey_packets.Packets.Enums;
 using kakia_lime_odyssey_packets.Packets.Models;
 using kakia_lime_odyssey_packets.Packets.SC;
 using kakia_lime_odyssey_server.Database;
+using kakia_lime_odyssey_server.Interfaces;
 using kakia_lime_odyssey_server.Models;
-using System.Security.Cryptography;
-using System.Text;
+using kakia_lime_odyssey_server.Models.PcStatusXML;
+using System.Threading;
 
 namespace kakia_lime_odyssey_server.Network;
 
-public class PlayerClient : IPlayerClient
+public class PlayerClient : IPlayerClient, IEntity
 {
 	public Func<PlayerClient, byte[], CancellationToken, Task>? SendGlobal;
 	public Func<PlayerClient, CancellationToken, Task>? RequestZonePresence;
@@ -30,7 +32,7 @@ public class PlayerClient : IPlayerClient
 
 	private WorldPosition _worldPosition = new();
 	private VELOCITIES _velocities;
-	private COMMON_STATUS _status;
+	private ModCommonStatus _status;
 
 	private PlayerInventory _inventory { get; set; } = new();
 	private PlayerEquips _equipment { get; set; } = new();
@@ -215,6 +217,67 @@ public class PlayerClient : IPlayerClient
 		}
 	}
 
+	private BaseStats CombatBaseStats()
+	{
+		return new BaseStats()
+		{
+			Strength = _currentCharacter.status.combatJob.strength,
+			Intelligence = _currentCharacter.status.combatJob.intelligence,
+			Dexterity = _currentCharacter.status.combatJob.dexterity,
+			Agility = _currentCharacter.status.combatJob.agility,
+			Vitality = _currentCharacter.status.combatJob.vitality,
+			Spirit = _currentCharacter.status.combatJob.spirit,
+			Lucky = _currentCharacter.status.combatJob.lucky
+		};
+	}
+
+	private AttackStatus GetMeleeAttack()
+	{
+		// Factor in gear here later too..
+		var stats = CombatBaseStats();
+		var level = _currentCharacter.status.combatJob.lv;
+		var weapon = GetEquipment(true).GetItemInSlot(EQUIP_SLOT.MAIN_EQUIP) as Item;
+
+		return new AttackStatus()
+		{
+			WeaponTypeId = weapon is null ? 0 : (uint)weapon.WeaponType,
+			Atk = (ushort) (3 * ((level * 5) + (stats.Strength + (stats.Strength / 5)) + (stats.Dexterity / 8) + (stats.Lucky / 10))),
+			CritRate = (ushort)(1 + (stats.Lucky/5)),
+			Def = (ushort)((level * 3) + (stats.Vitality + (stats.Vitality/5))),
+			Hit = (ushort)((level * 2) + (stats.Dexterity + (stats.Dexterity / 5))),
+			FleeRate = (ushort)((level * 3) + (stats.Agility + (stats.Agility / 5)))
+		};
+	}
+
+	private AttackStatus GetSpellAttack()
+	{
+		// Factor in gear here later too..
+		var stats = CombatBaseStats();
+		var level = _currentCharacter.status.combatJob.lv;
+		var weapon = GetEquipment(true).GetItemInSlot(EQUIP_SLOT.MAIN_EQUIP) as Item;
+
+		return new AttackStatus()
+		{
+			WeaponTypeId = weapon is null ? 0 : (uint)weapon.WeaponType,
+			Atk = (ushort)((level * 5) + (stats.Intelligence + (stats.Intelligence / 5)) + (stats.Dexterity / 8) + (stats.Spirit / 10)),
+			CritRate = (ushort)(1 + (stats.Lucky / 5)),
+			Def = (ushort)((level * 3) + (stats.Vitality + (stats.Vitality / 5))),
+			Hit = (ushort)((level * 2) + (stats.Dexterity + (stats.Dexterity / 5))),
+			FleeRate = (ushort)((level * 3) + (stats.Agility + (stats.Agility / 5)))
+		};
+	}
+
+	private BasicStatus GetBasicStatus()
+	{
+		return new BasicStatus()
+		{
+			Hp = _status.hp,
+			MaxHp = _status.mhp,
+			Mp = _status.mp,
+			MaxMp = _status.mmp
+		};
+	}
+
 	public FPOS GetPosition()
 	{
 		return _worldPosition.Position;
@@ -261,7 +324,7 @@ public class PlayerClient : IPlayerClient
 			deltaLookAtRadian = 2,
 			status = new()
 			{
-				commonStatus = _status,
+				commonStatus = _status.AsStruct(),
 				lp = _currentCharacter.status.lp,
 				mlp = _currentCharacter.status.lp,
 				streamPoint = _currentCharacter.status.streamPoint,
@@ -394,7 +457,12 @@ public class PlayerClient : IPlayerClient
 
 	public COMMON_STATUS GetStatus()
 	{
-		return _status;
+		return _status.AsStruct();
+	}
+
+	public void UpdateStatus(ModCommonStatus status)
+	{
+		_status = status;
 	}
 
 	public void AddNpcOrMob(INPC npc)
@@ -429,46 +497,7 @@ public class PlayerClient : IPlayerClient
 
 	public async Task Update(ulong tick)
 	{
-		ulong diff = tick - _lastTick;
 		return;
-
-		if (_inCombat && diff > 500)
-		{
-			_lastTick = tick;
-			var equip = _equipment.Combat.GetEquipped();
-			var main_weapon = LimeServer.ItemDB.Where(i => i.Id == equip.MAIN_EQUIP).First();
-			
-
-			SC_WEAPON_HIT_RESULT hit = new()
-			{				
-				fromInstID = _objInstID,
-				targetInstID = _target,
-				glared = false,
-				aniSpeedRatio = 50,
-				main = new()
-				{
-					result = 1,
-					weaponTypeID = main_weapon.WeaponType,
-					damage = 20,
-					bonusDamage = 0
-				},
-				sub = new()
-				{
-					result = 0,
-					weaponTypeID = 0,
-					damage = 0,
-					bonusDamage = 0
-				},
-				ranged = false,
-				rangeHitDelay = 0,
-				rangedVelocity = 0
-			};
-
-			using PacketWriter pw = new(_clientRevision == 345);
-			pw.Write(hit);
-			await Send(pw.ToPacket(), default);
-			await SendGlobalPacket(pw.ToPacket(), default);
-		}
 	}
 
 	public IPlayerInventory GetInventory()
@@ -493,5 +522,74 @@ public class PlayerClient : IPlayerClient
 		using PacketWriter pw = new(_clientRevision == 345);
 		pw.Write(_equipment.Combat.GetCombatEquipList());
 		Send(pw.ToSizedPacket(), default).Wait();
+	}
+
+	public long GetId()
+	{
+		return GetObjInstID();
+	}
+
+	public EntityStatus GetEntityStatus()
+	{
+		switch (_jobId)
+		{
+			case 1:
+				return new EntityStatus()
+				{
+					Lv = _currentCharacter.status.combatJob.lv,
+					Exp = _currentCharacter.status.combatJob.exp,
+					BaseStats = CombatBaseStats(),
+					BasicStatus = GetBasicStatus(),
+					MeleeAttack = GetMeleeAttack(),
+					SpellAttack = GetSpellAttack()
+				};
+
+			default: // Not entirely sure yet how I wanna handle life jobs here..
+				return new EntityStatus()
+				{
+					Lv = _currentCharacter.status.combatJob.lv,
+					Exp = _currentCharacter.status.combatJob.exp,
+					BaseStats = CombatBaseStats(),
+					BasicStatus = GetBasicStatus(),
+					MeleeAttack = GetMeleeAttack(),
+					SpellAttack = GetSpellAttack()
+				};
+		}
+	}
+
+	public DamageResult UpdateHealth(int healthChange)
+	{
+		var newHealth = (_status.hp + healthChange);
+		_status.hp = newHealth <= 0 ? 0 : (uint)newHealth;
+
+		return new DamageResult()
+		{
+			TargetKilled = _status.hp == 0,
+			ExpReward = 0
+		};
+	}
+
+	public bool AddExp(ulong exp)
+	{
+		var currentLevel = _currentCharacter.status.combatJob.lv;
+		_currentCharacter.status.combatJob.exp += (uint)exp;
+		var expList = PcStatus.GetEntries();
+
+		if (expList[currentLevel].CombatExp >= _currentCharacter.status.combatJob.exp)
+			return false;
+
+		_currentCharacter.status.combatJob.lv++;
+		_currentCharacter.status.combatJob.exp = (uint)(_currentCharacter.status.combatJob.exp - expList[currentLevel].CombatExp);
+		return true;
+	}
+
+	public List<Item> GetLoot()
+	{
+		throw new NotImplementedException();
+	}
+
+	public void Loot(Item item)
+	{
+		throw new NotImplementedException();
 	}
 }

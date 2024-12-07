@@ -21,6 +21,12 @@ public class ItemInfo
 	}
 }
 
+public class LootableItem
+{
+	public int Id { get; set; }
+	public double DropRate { get; set; }
+}
+
 public enum ItemType
 {
 	None = 0,

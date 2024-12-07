@@ -1,0 +1,122 @@
+[
+    {       
+        "Id": 301000,
+        "ZoneId": 2,
+        "ModelTypeId": 135,
+        "Name": "Coral Timo",
+        "Pos": {
+            "x": -2783.598,
+            "y": -1110.5472,
+            "z": 691.65216
+        },
+		"LootTableId": 1		
+    },
+    {       
+        "Id": 301001,
+        "ZoneId": 2,
+        "ModelTypeId": 135,
+        "Name": "Coral Timo",
+        "Pos": {
+            "x": -2711.423,
+            "y": -1390.8873,
+            "z": 673.3928
+        },
+		"LootTableId": 1
+    },
+    {       
+        "Id": 301002,
+        "ZoneId": 2,
+        "ModelTypeId": 135,
+        "Name": "Coral Timo",
+        "Pos": {
+            "x": -3022.8523,
+            "y": -1642.5953,
+            "z": 620.1365
+        },
+		"LootTableId": 1
+    },
+    {       
+        "Id": 301003,
+        "ZoneId": 2,
+        "ModelTypeId": 135,
+        "Name": "Coral Timo",
+        "Pos": {
+            "x": -3386.836,
+            "y": -1620.3107,
+            "z": 567.8761
+        },
+		"LootTableId": 1
+    },
+    {       
+        "Id": 301004,
+        "ZoneId": 2,
+        "ModelTypeId": 135,
+        "Name": "Coral Timo",
+        "Pos": {
+            "x": -3730.335,
+            "y": -1148.0618,
+            "z": 601.5154
+        },
+		"LootTableId": 1
+    },
+    {       
+        "Id": 301005,
+        "ZoneId": 2,
+        "ModelTypeId": 135,
+        "Name": "Coral Timo",
+        "Pos": {
+            "x": -4079.2622,
+            "y": -1466.2744,
+            "z": 518.7123
+        },
+		"LootTableId": 1
+    },
+    {       
+        "Id": 301006,
+        "ZoneId": 2,
+        "ModelTypeId": 135,
+        "Name": "Coral Timo",
+        "Pos": {
+            "x": -3498.4224,
+            "y": -1720.339,
+            "z": 528.511
+        },
+		"LootTableId": 1
+    },
+    {       
+        "Id": 301007,
+        "ZoneId": 2,
+        "ModelTypeId": 135,
+        "Name": "Coral Timo",
+        "Pos": {
+            "x": -3106.7878,
+            "y": -1915.558,
+            "z": 551.9394
+        },
+		"LootTableId": 1
+    },
+    {       
+        "Id": 301008,
+        "ZoneId": 2,
+        "ModelTypeId": 135,
+        "Name": "Coral Timo",
+        "Pos": {
+            "x": -2735.4023,
+            "y": -2201.6963,
+            "z": 564.0923
+        },
+		"LootTableId": 1
+    },
+    {       
+        "Id": 301009,
+        "ZoneId": 2,
+        "ModelTypeId": 135,
+        "Name": "Coral Timo",
+        "Pos": {
+            "x": -2735.4023,
+            "y": -2251.6963,
+            "z": 564.0923
+        },
+		"LootTableId": 1
+    }
+]

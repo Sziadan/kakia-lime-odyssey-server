@@ -60,6 +60,7 @@ public interface IPlayerClient
 	public Task RequestPresence(CancellationToken token);
 
 	public COMMON_STATUS GetStatus();
+	public void UpdateStatus(ModCommonStatus status);
 	public COMMON_STATUS RequestCommonStatus(long id);
 
 	public bool KnowOf(uint id);

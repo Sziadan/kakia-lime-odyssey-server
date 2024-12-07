@@ -81,6 +81,16 @@ public class PacketWriter : BinaryWriter
 			Write(PacketConverter.AsBytes(item));
 	}
 
+	public void Write(SC_LOOTABLE_ITEM_LIST sc_lootable)
+	{
+		if (_rev345) WriteHeader(PacketType_REV345.SC_LOOTABLE_ITEM_LIST);
+		else WriteHeader(PacketType.SC_LOOTABLE_ITEM_LIST);
+
+		Write((int)sc_lootable.count);		
+		foreach (var item in sc_lootable.lootTable)
+			Write(PacketConverter.AsBytes(item));
+	}
+
 	public void Write(SC_COMBAT_JOB_EQUIP_ITEM_LIST sc_combat_equip_item_list)
 	{
 		if (_rev345) WriteHeader(PacketType_REV345.SC_COMBAT_JOB_EQUIP_ITEM_LIST);

@@ -4,11 +4,15 @@ using kakia_lime_odyssey_packets;
 using kakia_lime_odyssey_packets.Packets.Models;
 using kakia_lime_odyssey_packets.Packets.SC;
 using kakia_lime_odyssey_server.Database;
+using kakia_lime_odyssey_server.Interfaces;
 using kakia_lime_odyssey_server.Models;
 using kakia_lime_odyssey_server.Models.MonsterLogic;
 using kakia_lime_odyssey_server.Models.MonsterXML;
 using kakia_lime_odyssey_server.Models.SkillXML;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+using System.Security.Cryptography;
+using System.Threading;
 
 namespace kakia_lime_odyssey_server.Network;
 
@@ -18,9 +22,9 @@ public class LimeServer : SocketServer
 	public static List<Item> ItemDB = ItemInfo.GetItems();
 	public static List<XmlSkill> SkillDB = SkillInfo.GetSkills();
 
-	public List<PlayerClient> PlayerClients = new();
-	public Dictionary<uint, List<NPC>> Npcs = new();
-	public Dictionary<uint, List<Monster>> Mobs = new();
+	public static List<PlayerClient> PlayerClients = new();
+	public static Dictionary<uint, List<NPC>> Npcs = new();
+	public static Dictionary<uint, List<Monster>> Mobs = new();
 	public static DateTime StartTime = DateTime.Now;
 	public Config Config { get; set; }
 
@@ -41,6 +45,14 @@ public class LimeServer : SocketServer
 		MonsterDB.AddRange(MonsterInfo.GetEntries());
 		Logger.Log("Monster DB loaded.", LogLevel.Information);
 
+		var mapMobs = JsonDB.LoadMapMobs();
+		foreach (var mob in  mapMobs)
+		{
+			var monster = MonsterDB.FirstOrDefault(mDb => mDb.ModelTypeID == mob.ModelTypeId);
+			Monster newMob = new Monster(monster, (uint)mob.Id, mob.Pos, new FPOS() { x = 0.9f, y = 0, z = 0}, (uint)mob.ZoneId, false, mob.LootTableId);
+			AddNPC(newMob);
+		}
+
 		BackgroundTask = new BackgroundTask(TimeSpan.FromMilliseconds(1000/60));
 		BackgroundTask.Run += ServerTick;
 		BackgroundTask.Start();
@@ -51,6 +63,26 @@ public class LimeServer : SocketServer
 		return CollectionsMarshal.AsSpan<PlayerClient>(PlayerClients);
 	}
 
+	public static bool TryGetEntity(long id, out IEntity? entity)
+	{
+		entity = null;
+
+		var pc = PlayerClients.FirstOrDefault(pc => pc.GetObjInstID() == id);
+		if (pc is not null)
+		{
+			entity = pc;
+			return true;
+		}
+		var mob = Mobs.SelectMany(pair => pair.Value)
+			.FirstOrDefault(mob => mob.Id == id);
+
+		if (mob is not null)
+		{
+			entity = mob;
+			return true;
+		}
+		return false;
+	}
 
 	public void Stop()
 	{

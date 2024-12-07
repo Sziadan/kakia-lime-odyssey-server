@@ -91,4 +91,10 @@ public class PlayerEquipment : IPlayerEquipment
 
 		return equip;
 	}
+
+
+	public IItem? GetItemInSlot(EQUIP_SLOT slot)
+	{
+		return equipment[slot];
+	}
 }

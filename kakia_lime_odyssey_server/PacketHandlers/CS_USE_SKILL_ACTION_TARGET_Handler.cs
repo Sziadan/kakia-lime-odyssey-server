@@ -7,6 +7,8 @@ using kakia_lime_odyssey_packets.Packets.CS;
 using kakia_lime_odyssey_packets.Packets.Enums;
 using kakia_lime_odyssey_packets.Packets.Models;
 using kakia_lime_odyssey_packets.Packets.SC;
+using kakia_lime_odyssey_server.Interfaces;
+using kakia_lime_odyssey_server.Models;
 using kakia_lime_odyssey_server.Network;
 
 namespace kakia_lime_odyssey_server.PacketHandlers;
@@ -22,6 +24,14 @@ class CS_USE_SKILL_ACTION_TARGET_Handler : PacketHandler
 		if (skill is null)
 		{
 			Logger.Log($"Skill not found with ID: {useSkill.typeID}!", LogLevel.Error);
+			return;
+		}
+		if (!LimeServer.TryGetEntity(client.GetCurrentTarget(), out IEntity? target)) return;
+		if (target is null) return;
+
+		if (target.GetEntityStatus().BasicStatus.Hp == 0)
+		{
+			// Target dead
 			return;
 		}
 
@@ -66,40 +76,85 @@ class CS_USE_SKILL_ACTION_TARGET_Handler : PacketHandler
 			client.SendGlobalPacket(pw.ToSizedPacket(), default).Wait();
 		}
 
-		var equip = client.GetEquipment(true);
-		var main_weapon = LimeServer.ItemDB.Where(i => i.Id == equip.GetCombatEquipList().equipList[(int)EQUIP_SLOT.MAIN_EQUIP].itemTypeID).First();
+		var damage = DamageHandler.DealWeaponHitDamage((client as IEntity)!, target);
+		if (damage.Packet is null) return;
 
+		client.Send(damage.Packet, default).Wait();
+		client.SendGlobalPacket(damage.Packet, default).Wait();
 
-		SC_WEAPON_HIT_RESULT hit = new()
+		var result = target.UpdateHealth((int)(damage.Damage * -1));
+		if (result.TargetKilled)
 		{
-			fromInstID = client.GetObjInstID(),
-			targetInstID = client.GetCurrentTarget(),
-			glared = false,
-			aniSpeedRatio = 1,
-			main = new()
+			SC_STOP sc_stop = new()
 			{
-				result = 1,
-				weaponTypeID = main_weapon.WeaponType,
-				damage = 20,
-				bonusDamage = 0
-			},
-			sub = new()
-			{
-				result = 0,
-				weaponTypeID = 0,
-				damage = 0,
-				bonusDamage = 0
-			},
-			ranged = false,
-			rangeHitDelay = 0,
-			rangedVelocity = 0
-		};
+				objInstID = target.GetId(),
+				pos = target.GetPosition(),
+				dir = target.GetDirection(),
+				tick = LimeServer.GetCurrentTick(),
+				stopType = 0
+			};
 
-		using (PacketWriter pw = new(client.GetClientRevision() == 345))
-		{
-			pw.Write(hit);
-			client.Send(pw.ToPacket(), default).Wait();
-			client.SendGlobalPacket(pw.ToPacket(), default).Wait();
+			using PacketWriter pw_stop = new(false);
+			pw_stop.Write(sc_stop);
+			client.Send(pw_stop.ToPacket(), default).Wait();
+			client.SendGlobalPacket(pw_stop.ToPacket(), default).Wait();
+
+
+			using (PacketWriter pw = new(false))
+			{
+				SC_DEAD dead = new()
+				{
+					objInstID = target.GetId()
+				};
+
+				pw.Write(dead);
+				client.Send(pw.ToPacket(), default).Wait();
+				client.SendGlobalPacket(pw.ToPacket(), default).Wait();
+			}
+
+			if (result.ExpReward == 0)
+				return;
+
+			var pcEntity = client as IEntity;
+			var levelUp = pcEntity.AddExp((ulong)result.ExpReward);
+			var currentStatus = pcEntity.GetEntityStatus();
+
+			using (PacketWriter pw = new(false))
+			{
+				SC_GOT_COMBAT_JOB_EXP addExp = new()
+				{
+					exp = (uint)currentStatus.Exp,
+					addExp = (uint)result.ExpReward
+				};
+				pw.Write(addExp);
+				client.Send(pw.ToPacket(), default).Wait();
+			}
+
+			if (!levelUp)
+				return;
+
+
+
+			using (PacketWriter pw = new(false))
+			{
+				SC_PC_COMBAT_JOB_LEVEL_UP lvUp = new()
+				{
+					objInstID = pcEntity.GetId(),
+					lv = currentStatus.Lv,
+					exp = (uint)currentStatus.Exp,
+					newStr = 5,
+					newInl = 5,
+					newAgi = 5,
+					newDex = 5,
+					newSpi = 5,
+					newVit = 5				
+				};
+				pw.Write(lvUp);
+				client.Send(pw.ToPacket(), default).Wait();
+				client.SendGlobalPacket(pw.ToPacket(), default).Wait();
+			}
+
 		}
+		
 	}
 }

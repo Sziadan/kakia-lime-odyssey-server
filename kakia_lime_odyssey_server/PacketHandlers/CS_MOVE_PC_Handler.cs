@@ -33,7 +33,7 @@ class CS_MOVE_PC_Handler : PacketHandler
 			velocity = GetVelocity((MOVE_TYPE)move_pc.moveType, vel),
 			velocityRatio = vel.ratio
 		};
-
+		//Logger.Log($"POS: {move_pc.pos.x} | {move_pc.pos.y} | {move_pc.pos.z}");
 		client.UpdatePosition(move_pc.pos);
 		client.UpdateDirection(move_pc.dir);
 		client.SetInMotion(true);

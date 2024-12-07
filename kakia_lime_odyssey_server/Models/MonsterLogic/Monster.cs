@@ -4,12 +4,14 @@ using kakia_lime_odyssey_packets;
 using kakia_lime_odyssey_packets.Packets.Enums;
 using kakia_lime_odyssey_packets.Packets.Models;
 using kakia_lime_odyssey_packets.Packets.SC;
+using kakia_lime_odyssey_server.Database;
+using kakia_lime_odyssey_server.Interfaces;
 using kakia_lime_odyssey_server.Models.MonsterXML;
 using kakia_lime_odyssey_server.Network;
 
 namespace kakia_lime_odyssey_server.Models.MonsterLogic;
 
-public partial class Monster : INPC
+public partial class Monster : INPC, IEntity
 {
 	private readonly XmlMonster _mobInfo;
 
@@ -44,7 +46,10 @@ public partial class Monster : INPC
 	private readonly uint update_distance = 1500;
 	private readonly uint aggro_range = 150;
 
-	public Monster(XmlMonster mobInfo, uint id, FPOS pos, FPOS dir, uint zone, bool aggro)
+	private List<LootableItem> Lootable { get; set; }
+	private List<Item> Loot { get; set; }
+
+	public Monster(XmlMonster mobInfo, uint id, FPOS pos, FPOS dir, uint zone, bool aggro, int lootTable)
 	{
 		_mobInfo = mobInfo;
 		Position = pos;
@@ -57,7 +62,7 @@ public partial class Monster : INPC
 		MMP = (uint)_mobInfo.MMP;
 		MHP = (uint)_mobInfo.MHP;
 		MP = (uint)_mobInfo.MP;
-		HP = (uint)_mobInfo.MP;
+		HP = (uint)_mobInfo.HP;
 		Aggro = aggro;
 
 		Name = mobInfo.Name;
@@ -65,6 +70,17 @@ public partial class Monster : INPC
 
 		CurrentTarget = null;
 		_currentState = MOB_STATE.ROAMING;
+
+		Lootable = new List<LootableItem>();
+		var dropTable = JsonDB.LoadItemDropTable();
+		if (dropTable == null)
+			return;
+		
+
+		if (dropTable.ContainsKey(lootTable))
+		{
+			Lootable.AddRange(dropTable[lootTable]);
+		}
 	}
 
 	public SC_ENTER_SIGHT_MONSTER GetEnterSight()
@@ -85,7 +101,7 @@ public partial class Monster : INPC
 				{
 					name = Name,
 					action = _mobInfo.Subjects.First().EventID,
-					actionStartTick = 4,
+					actionStartTick = 0,
 					scale = 1,
 					transparent = 1,
 					modelTypeID = ModelId,
@@ -98,7 +114,7 @@ public partial class Monster : INPC
 					typeID = (uint)_mobInfo.TypeID
 				},
 				aggresive = Aggro,
-				shineWhenHitted = true
+				shineWhenHitted = _mobInfo.ShineWhenHitted != 0
 			},
 			RaceRelationState = 0,
 			StopType = 0,
@@ -118,8 +134,40 @@ public partial class Monster : INPC
 	{
 		if (serverTick - _lastTick < 100)
 			return;
-
 		_lastTick = serverTick;
+
+		// Monster dead
+		if (HP == 0)
+		{
+			if (CurrentTarget != null)
+				CurrentTarget = null;
+
+			if (serverTick - _actionStartTick > 60_000)
+			{
+				// Despawn
+			}
+
+			return;
+		}
+
+
+		if (CurrentTarget != null)
+		{
+			bool updated = false;
+			foreach(PlayerClient client in playerClients)
+			{
+				if (client.GetObjInstID() == CurrentTarget.GetObjInstID())
+				{
+					CurrentTarget = client;
+					updated = true;
+					break;
+				}
+			}
+
+			if (!updated)
+				CurrentTarget = null;
+		}
+
 
 		switch(_currentState)
 		{
@@ -137,6 +185,7 @@ public partial class Monster : INPC
 
 
 			case MOB_STATE.ATTACKING:
+				AttackPlayer(serverTick, playerClients);
 				break;
 		}
 	}
@@ -148,6 +197,23 @@ public partial class Monster : INPC
 			currentPosition = Position;
 
 		double distanceToTarget = currentPosition.CalculateDistance(_destination);
+		var dir = currentPosition.CalculateDirection(_destination);
+
+		if (!dir.IsNaN())
+		{
+			Direction = dir;
+			SC_DIRECTION sc_dir = new()
+			{
+				objInstID = Id,
+				dir = Direction,
+				tick = LimeServer.GetCurrentTick()
+			};
+			using PacketWriter pw = new(false);
+			pw.Write(sc_dir);
+			SendToNearbyPlayers(pw.ToPacket(), playerClients);
+		}
+
+		
 
 		if (currentPosition.Compare(_destination) || distanceToTarget <= distance)
 		{
@@ -164,7 +230,7 @@ public partial class Monster : INPC
 		}
 
 		var pck = GetMovePacket(currentPosition, serverTick);
-		SendToNearbyPlayers(pck, playerClients);		
+		SendToNearbyPlayers(pck, playerClients);
 	}
 
 	private void SendToNearbyPlayers(byte[] packet, ReadOnlySpan<PlayerClient> playerClients)
@@ -285,5 +351,101 @@ public partial class Monster : INPC
 	public NPC_TYPE GetNPCType()
 	{
 		return NPC_TYPE.MOB;
+	}
+
+	public long GetId()
+	{
+		return Id;
+	}
+
+	public FPOS GetPosition()
+	{
+		return GetMobCurrentPosition(LimeServer.GetCurrentTick());
+	}
+
+	public FPOS GetDirection()
+	{
+		return Direction;
+	}
+
+	public EntityStatus GetEntityStatus()
+	{
+		return new EntityStatus()
+		{
+			Lv = (byte)this.Lv,
+			BaseStats = new(),
+			BasicStatus = new()
+			{
+				Hp = this.HP,
+				MaxHp = this.MHP,
+				Mp = this.MP,
+				MaxMp = this.MMP
+			},
+			MeleeAttack = new()
+			{
+				WeaponTypeId = (uint)_mobInfo.Model.WeaponType,
+				Atk = (ushort)_mobInfo.BaseMeleeAtk,
+				Def = (ushort)_mobInfo.BaseMeleeDefense,
+				Hit = (ushort)_mobInfo.BaseMeleeHitRate,
+				CritRate = (ushort)_mobInfo.BaseCriticalRate,
+				FleeRate = (ushort)_mobInfo.BaseDodge
+			},
+			SpellAttack = new()
+			{
+				Atk = (ushort)_mobInfo.BaseSpellAtk,
+				Def = (ushort)_mobInfo.BaseSpellDefense,
+				Hit = (ushort)_mobInfo.BaseSpellHitRate,
+				CritRate = (ushort)_mobInfo.BaseCriticalRate,
+				FleeRate = (ushort)_mobInfo.BaseDodge
+			}
+		};
+	}
+
+	public DamageResult UpdateHealth(int healthChange)
+	{
+		var newHealth = (HP + healthChange);
+		HP = (uint)(newHealth <= 0 ? 0 : newHealth);
+
+		if (HP == 0)
+			_actionStartTick = LimeServer.GetCurrentTick();
+
+		return new DamageResult()
+		{
+			TargetKilled = HP == 0,
+			ExpReward = _mobInfo.CombatJobEXP + _mobInfo.EXP
+		};
+	}
+
+	public bool AddExp(ulong exp)
+	{
+		throw new NotImplementedException();
+	}
+
+	public List<Item> GetLoot()
+	{
+		if (Loot == null)
+		{
+			if (Lootable.Count == 0)
+				return new List<Item>();
+
+			Loot = new List<Item>();
+			Random rnd = new Random();
+			foreach(var lootItem in Lootable)
+			{
+				var odds = rnd.Next(0, 10000);
+				if (lootItem.DropRate * 100 < odds)
+					continue;
+
+				Loot.Add(LimeServer.ItemDB.First(item => item.Id == lootItem.Id));
+			}
+		}
+
+		return Loot;
+	}
+
+	void IEntity.Loot(Item item)
+	{
+		if (Loot.Contains(item))
+			Loot.Remove(item);
 	}
 }

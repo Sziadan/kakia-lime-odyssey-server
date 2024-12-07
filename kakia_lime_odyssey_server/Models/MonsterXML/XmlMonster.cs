@@ -219,4 +219,7 @@ public class XmlMonster
 	[XmlAttribute(AttributeName = "MonsterPage5")] public int MonsterPage5 { get; set; }
 	[XmlAttribute(AttributeName = "MonsterHP5")] public int MonsterHP5 { get; set; }
 	[XmlElement(ElementName = "Subject")] public List<MobSubject> Subjects { get; set; }
+
+	[XmlIgnore]
+	public Model Model { get; set; }
 }

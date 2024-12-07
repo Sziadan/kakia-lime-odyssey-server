@@ -222,7 +222,7 @@ class CS_SAY_PC_Handler : PacketHandler
 			return;
 		}
 
-		Monster mob = new Monster(monster, (uint)objId, client.GetPosition(), client.GetDirection(), client.GetZone(), false);
+		Monster mob = new Monster(monster, (uint)objId, client.GetPosition(), client.GetDirection(), client.GetZone(), false, 0);
 		client.AddNpcOrMob(mob);
 	}
 

@@ -141,4 +141,16 @@ public static class JsonDB
 		string path = Path.Combine("db", "NPC_Villagers.json");
 		return JsonConvert.DeserializeObject<List<NPC>>(File.ReadAllText(path))!;
 	}
+
+	public static List<MapMob> LoadMapMobs()
+	{
+		string path = Path.Combine("db", "mob_spawns.json");
+		return JsonConvert.DeserializeObject<List<MapMob>>(File.ReadAllText(path))!;
+	}
+
+	public static Dictionary<int, List<LootableItem>> LoadItemDropTable()
+	{
+		string path = Path.Combine("db", "loot_table.json");
+		return JsonConvert.DeserializeObject<Dictionary<int, List<LootableItem>>>(File.ReadAllText(path))!;
+	}
 }

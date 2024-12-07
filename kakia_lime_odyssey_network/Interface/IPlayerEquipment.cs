@@ -9,4 +9,5 @@ public interface IPlayerEquipment
 	public IItem? UnEquip(EQUIP_SLOT slot);
 	public bool Equip(EQUIP_SLOT slot, IItem item);
 	public SC_COMBAT_JOB_EQUIP_ITEM_LIST GetCombatEquipList();
+	public IItem? GetItemInSlot(EQUIP_SLOT slot); 
 }
