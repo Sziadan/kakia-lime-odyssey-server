@@ -1,6 +1,7 @@
 ﻿using kakia_lime_odyssey_packets.Packets.SC;
 using kakia_lime_odyssey_packets;
 using kakia_lime_odyssey_server.Interfaces;
+using kakia_lime_odyssey_packets.Packets.Enums;
 
 namespace kakia_lime_odyssey_server.Models;
 
@@ -42,7 +43,7 @@ public static class DamageHandler
 				aniSpeedRatio = 1,
 				main = new()
 				{
-					result = (byte)(isMiss ? 0 : 1),
+					result = (byte)(isMiss ? HIT_FAIL_TYPE.HIT_FAIL_MISS : HIT_FAIL_TYPE.HIT_FAIL_HIT),
 					weaponTypeID = (int)sourceStatus.MeleeAttack.WeaponTypeId,
 					damage = damage,
 					bonusDamage = 0
