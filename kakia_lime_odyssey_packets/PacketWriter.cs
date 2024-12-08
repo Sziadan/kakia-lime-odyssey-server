@@ -70,6 +70,17 @@ public class PacketWriter : BinaryWriter
 			Write(PacketConverter.AsBytes(pc));
 	}
 
+	public void Write(SC_TALKING sc_talking)
+	{
+		if (_rev345) WriteHeader(PacketType_REV345.SC_TALKING);
+		else WriteHeader(PacketType.SC_TALKING);
+
+		Write(sc_talking.objInstID);
+		FixAlign(4);
+		Write(Encoding.ASCII.GetBytes(sc_talking.dialog));
+		Write((byte)0);
+	}
+
 	public void Write(SC_INVENTORY_ITEM_LIST sc_inventory)
 	{
 		if (_rev345) WriteHeader(PacketType_REV345.SC_INVENTORY_ITEM_LIST);

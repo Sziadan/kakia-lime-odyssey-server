@@ -7,6 +7,7 @@ namespace kakia_lime_odyssey_packets.Packets.SC;
 public struct SC_TALKING : IPacketVar
 {
 	public long objInstID;
+	public string dialog;
 }
 
 [StructLayout(LayoutKind.Sequential, Pack = 4)]
