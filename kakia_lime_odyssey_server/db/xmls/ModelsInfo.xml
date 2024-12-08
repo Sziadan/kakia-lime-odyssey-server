@@ -993,7 +993,7 @@
 	</Model>
 	<Model typeId="198" category="Monster" nifName="" fileName="m_goty01.kfm" tciName="sample.tci" grass="0" useNif="0" weaponType="3" height="14" scale="1.0" actorRadius="20.0" autoEffectScale="0" autoEffectPos="0.0 -2.5 6.0" runFreq="1.0" walkFreq="1.0" selectDecalZoom="1.0" soundId="2096" noAni="0" noShadow="0" type="1">
 		<Ani id="2010002" mixId="2010003" effectId="-1" duration="1.167" hitTime="0.45"/>
-		<Ani id="2140501" mixId="-1" effectId="-1" duration="2" hitTime="0.9."/>
+		<Ani id="2140501" mixId="-1" effectId="-1" duration="2" hitTime="0.9"/>
 		<Ani id="2010002" mixId="2010003" effectId="-1" duration="1.167" hitTime="0.45"/>
 	</Model>
 	<Model typeId="199" category="Monster" nifName="" fileName="m_goty02.kfm" tciName="sample.tci" grass="0" useNif="0" weaponType="3" height="35" scale="2.1" actorRadius="40.0" autoEffectScale="0.8" autoEffectPos="0.0 -21.0 11.0" runFreq="1.0" walkFreq="1.0" selectDecalZoom="1.3" soundId="2086" noAni="0" noShadow="0" type="1">
