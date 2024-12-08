@@ -79,26 +79,6 @@ public partial class Monster : INPC
 				CurrentTarget = null;
 				ReturnHome(serverTick);
 			}
-
-
-			/*
-			using (PacketWriter pw = new(false))
-			{
-				SC_USE_SKILL_OBJ_RESULT_LIST actionSkill = new()
-				{
-					fromInstID = Id,
-					toInstID = CurrentTarget.GetObjInstID(),
-					typeID = (uint)200002,
-					useHP = 0,
-					useMP = 0,
-					useLP = 0,
-					useSP = 0,
-					coolTime = 0
-				};
-				pw.Write(actionSkill);
-				SendToNearbyPlayers(pw.ToSizedPacket(), playerClients);
-			}
-			*/
 		}
 	}
 }

@@ -24,7 +24,7 @@ class CS_SELECT_TARGET_REQUEST_START_LOOTING_Handler : PacketHandler
 
 		var loot = mob.GetLoot();
 		for (int i = 0; i < loot.Count; i++)
-			items.Add(loot[i].AsInventoryItem(i + 1));
+			items.Add(loot[i].AsInventoryItem(loot[i].Id));
 
 		SC_LOOTABLE_ITEM_LIST sc_lootable_item_list = new() 
 		{ 
