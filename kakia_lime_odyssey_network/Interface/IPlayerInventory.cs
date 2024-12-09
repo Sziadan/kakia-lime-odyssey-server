@@ -5,12 +5,11 @@ namespace kakia_lime_odyssey_network.Interface;
 public interface IPlayerInventory
 {
 	public int FreeSlotsCount();
-
 	public IItem? AtSlot(int slot);
-
 	public SC_INVENTORY_ITEM_LIST AsInventoryPacket();
-
 	public bool RemoveItem(int slot);
+	public int FindItem(long id);
+	public void UpdateItemAtSlot(int slot, IItem item);
 
 	/// <summary>
 	/// If -1, use first free slot

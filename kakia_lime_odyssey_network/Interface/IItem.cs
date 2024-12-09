@@ -2,4 +2,7 @@
 
 public interface IItem
 {
+	public void UpdateAmount(int amount);
+	public long GetAmount();
 }
+

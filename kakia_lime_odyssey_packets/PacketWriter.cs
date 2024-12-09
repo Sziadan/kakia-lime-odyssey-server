@@ -70,6 +70,15 @@ public class PacketWriter : BinaryWriter
 			Write(PacketConverter.AsBytes(pc));
 	}
 
+	public void Write(SC_MOVE_SLOT_ITEM sc_move_item)
+	{
+		if (_rev345) WriteHeader(PacketType_REV345.SC_MOVE_SLOT_ITEM);
+		else WriteHeader(PacketType.SC_MOVE_SLOT_ITEM);
+
+		foreach (var move_item in sc_move_item.move_list)		
+			Write(PacketConverter.AsBytes(move_item));		
+	}
+
 	public void Write(SC_TALKING sc_talking)
 	{
 		if (_rev345) WriteHeader(PacketType_REV345.SC_TALKING);

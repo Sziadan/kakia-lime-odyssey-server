@@ -6,7 +6,8 @@ namespace kakia_lime_odyssey_packets.Packets.Models;
 public struct MOVE_SLOT
 {
 	public ITEM_SLOT fromSlot;
-	public long fromCount;
+	public ulong fromCount;
 	public ITEM_SLOT toSlot;
-	public long toCount;
+	public ulong toCount;
+
 }

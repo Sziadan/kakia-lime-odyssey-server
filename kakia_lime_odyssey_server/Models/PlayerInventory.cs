@@ -44,6 +44,34 @@ public class PlayerInventory : IPlayerInventory
 		};
 	}
 
+	/// <summary>
+	/// Finds index of first item matching.
+	/// Returns -1 if no item found.
+	/// </summary>
+	/// <param name="id"></param>
+	/// <returns></returns>
+	public int FindItem(long id)
+	{
+		foreach(var kv in _inventory)
+		{
+			if (kv.Value is null) continue;
+			if (kv.Value.Id == id)
+				return kv.Key;
+		}
+
+		return -1;
+	}
+
+	public void UpdateItemAtSlot(int slot, IItem item)
+	{
+		if (!_inventory.ContainsKey(slot)) return;
+
+		if (item is not Item)
+			return;
+
+		_inventory[slot] = item as Item;
+	}
+
 	public bool RemoveItem(int slot)
 	{
 		if (!_inventory.ContainsKey(slot))

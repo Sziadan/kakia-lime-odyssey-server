@@ -149,6 +149,19 @@ public class Item : IItem
 	[XmlElement(ElementName = "Inherit")]
 	public List<Inherit> Inherits { get; set; }
 
+	[XmlIgnore]
+	public long Count { get; set; } = 1;
+
+	public void UpdateAmount(int amount)
+	{
+		Count = amount;
+	}
+
+	public long GetAmount()
+	{
+		return Count;
+	}
+
 	public ITEM_INHERITS GetInherits()
 	{
 		var inherit = new ITEM_INHERITS()
@@ -173,7 +186,7 @@ public class Item : IItem
 		{
 			slot = slot,
 			typeID = Id,
-			count = 1,
+			count = Count,
 			durability = 1500,
 			mdurability = 1500,
 			remainExpiryTime = -1,
