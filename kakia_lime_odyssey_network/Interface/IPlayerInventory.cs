@@ -8,7 +8,7 @@ public interface IPlayerInventory
 	public IItem? AtSlot(int slot);
 	public SC_INVENTORY_ITEM_LIST AsInventoryPacket();
 	public bool RemoveItem(int slot);
-	public int FindItem(long id);
+	public int FindItem(long id, ulong maxStackSize);
 	public void UpdateItemAtSlot(int slot, IItem item);
 
 	/// <summary>

@@ -150,14 +150,28 @@ public class Item : IItem
 	public List<Inherit> Inherits { get; set; }
 
 	[XmlIgnore]
-	public long Count { get; set; } = 1;
+	public ulong Count { get; set; } = 1;
 
-	public void UpdateAmount(int amount)
+	[XmlIgnore]
+	public static ulong MaxStackSize = 99;
+
+	public void UpdateAmount(ulong amount)
 	{
 		Count = amount;
 	}
 
-	public long GetAmount()
+	public bool Stackable()
+	{
+		// MISC items don't have models
+		return ModelId == 0;
+	}
+
+	public ulong GetId()
+	{
+		return (ulong)Id;
+	}
+
+	public ulong GetAmount()
 	{
 		return Count;
 	}
@@ -186,7 +200,7 @@ public class Item : IItem
 		{
 			slot = slot,
 			typeID = Id,
-			count = Count,
+			count = (long)Count,
 			durability = 1500,
 			mdurability = 1500,
 			remainExpiryTime = -1,

@@ -50,12 +50,12 @@ public class PlayerInventory : IPlayerInventory
 	/// </summary>
 	/// <param name="id"></param>
 	/// <returns></returns>
-	public int FindItem(long id)
+	public int FindItem(long id, ulong maxStackSize)
 	{
 		foreach(var kv in _inventory)
 		{
 			if (kv.Value is null) continue;
-			if (kv.Value.Id == id)
+			if (kv.Value.Id == id && kv.Value.Count < maxStackSize)
 				return kv.Key;
 		}
 

@@ -4,15 +4,10 @@ using System.Runtime.InteropServices;
 
 namespace kakia_lime_odyssey_packets.Packets.CS;
 
-[StructLayout(LayoutKind.Sequential, Pack = 4)]
+[StructLayout(LayoutKind.Sequential, Pack = 2)]
 public struct CS_MOVE_SLOT_ITEM : IPacketFixed
 {
 	public ITEM_SLOT from;
 	public ITEM_SLOT to;
-	public ushort count;
-
-	// Just garbage?
-	public ushort temp1;
-	public ushort temp2;
-	public ushort temp3;
+	public ulong count; //MessedUpLELong count;
 }

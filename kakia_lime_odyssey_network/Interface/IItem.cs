@@ -2,7 +2,9 @@
 
 public interface IItem
 {
-	public void UpdateAmount(int amount);
-	public long GetAmount();
+	public ulong GetId();
+	public void UpdateAmount(ulong amount);
+	public ulong GetAmount();
+	public bool Stackable();
 }
 
